@@ -1,0 +1,42 @@
+# Dépendances
+node_modules/
+
+# Build
+dist/
+*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environnement (NE JAMAIS committer les secrets)
+.env
+.env.*
+!.env.example
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+# Clé de compte de service Firebase — NE JAMAIS committer
+*serviceaccount*.json
+*service-account*.json
+marepublique-*-firebase-adminsdk-*.json
+
+# macOS
+.DS_Store
+
+# Éditeurs
+.vscode/
+.idea/
+
+# Claude Code (permissions locales)
+.claude/settings.local.json
+
+# Documents de travail internes — NE PAS publier (données personnelles)
+# Ces dossiers/fichiers vivent dans le répertoire de travail mais ne font pas
+# partie du site et peuvent contenir des informations personnelles.
+/Dossier candidats 2022/
+/Fichier pour constitution*
+/document_fondateur.docx

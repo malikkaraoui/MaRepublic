@@ -1,0 +1,1003 @@
+/* =========================================================================
+   Ma République — feuille de style globale
+
+   Parti pris : minimalisme typographique, noir & blanc, aucune couleur de
+   marque. Seule touche colorée : une hairline tricolore en haut de page —
+   une référence républicaine discrète, jamais un logo. Inter pour l'interface,
+   Newsreader pour la lecture longue.
+   ========================================================================= */
+
+/* --- Variables -------------------------------------------------------- */
+:root {
+  --ink: #0a0a0a;
+  --ink-soft: #1f1f1f;
+  --muted: #595959;
+  --faint: #8a8a8a;
+  --paper: #ffffff;
+  --paper-alt: #f6f6f4;
+  --rule: #e7e7e3;
+  --rule-strong: #d6d6d1;
+
+  /* Tricolore — utilisé uniquement pour la hairline et les accents fins. */
+  --bleu: #0a3d91;
+  --rouge: #c8102e;
+
+  --sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --serif: 'Newsreader', Georgia, 'Times New Roman', serif;
+
+  --page-max: 72rem;
+  --reading-max: 44rem;
+
+  --space: clamp(1rem, 4vw, 1.5rem);
+  --section-y: clamp(3.5rem, 9vw, 6.5rem);
+
+  --radius: 2px;
+}
+
+/* --- Reset ------------------------------------------------------------ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--sans);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--ink);
+  background: var(--paper);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+::selection {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+/* --- Accessibilité ---------------------------------------------------- */
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  z-index: 100;
+  background: var(--ink);
+  color: var(--paper);
+  padding: 0.6rem 1rem;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  left: 0.5rem;
+  top: 0.5rem;
+}
+
+:focus-visible {
+  outline: 2px solid var(--bleu);
+  outline-offset: 3px;
+}
+
+/* --- Coquille & hairline tricolore ------------------------------------ */
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.tricolore {
+  height: 3px;
+  flex: none;
+  background: linear-gradient(
+    to right,
+    var(--bleu) 0 33.333%,
+    #ffffff 33.333% 66.666%,
+    var(--rouge) 66.666% 100%
+  );
+}
+
+/* --- Conteneurs ------------------------------------------------------- */
+.container {
+  width: 100%;
+  max-width: var(--page-max);
+  margin-inline: auto;
+  padding-inline: var(--space);
+}
+
+.container--reading {
+  max-width: var(--reading-max);
+  padding-block: clamp(2.5rem, 7vw, 4.5rem);
+}
+
+.site-main {
+  flex: 1 0 auto;
+}
+
+/* --- En-tête ---------------------------------------------------------- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: saturate(180%) blur(8px);
+  border-bottom: 1px solid var(--rule);
+}
+
+.site-header__inner {
+  max-width: var(--page-max);
+  margin-inline: auto;
+  padding: 0.9rem var(--space);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brand {
+  text-decoration: none;
+  display: inline-flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.brand__name {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  font-size: 1.05rem;
+}
+
+.brand__tag {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--faint);
+  margin-top: 0.15rem;
+}
+
+.nav-toggle {
+  display: none;
+  background: none;
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius);
+  padding: 0.45rem 0.8rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  color: var(--ink);
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+}
+
+.site-nav__link {
+  text-decoration: none;
+  font-size: 0.92rem;
+  color: var(--muted);
+  padding-block: 0.25rem;
+  border-bottom: 1px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.site-nav__link:hover {
+  color: var(--ink);
+}
+
+.site-nav__link--active {
+  color: var(--ink);
+  border-bottom-color: var(--ink);
+}
+
+/* --- Boutons ---------------------------------------------------------- */
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  padding: 0.7rem 1.3rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--ink);
+  transition: background 0.15s ease, color 0.15s ease, transform 0.05s ease;
+}
+
+.button:active {
+  transform: translateY(1px);
+}
+
+.button--primary {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.button--primary:hover {
+  background: var(--ink-soft);
+}
+
+.button--ghost {
+  background: transparent;
+  color: var(--ink);
+}
+
+.button--ghost:hover {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+/* --- Hero ------------------------------------------------------------- */
+.hero {
+  padding-block: clamp(3.5rem, 11vw, 8rem);
+  border-bottom: 1px solid var(--rule);
+}
+
+.hero__eyebrow {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+}
+
+.hero__title {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(2.2rem, 7vw, 4.25rem);
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+  max-width: 18ch;
+}
+
+.hero__verb {
+  font-style: italic;
+}
+
+.hero__lede {
+  margin-top: 1.75rem;
+  max-width: 52ch;
+  font-size: clamp(1.05rem, 2.3vw, 1.2rem);
+  color: var(--muted);
+}
+
+.hero__actions {
+  margin-top: 2.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+}
+
+/* --- Sections génériques ---------------------------------------------- */
+.section {
+  padding-block: var(--section-y);
+  border-bottom: 1px solid var(--rule);
+}
+
+.section--alt {
+  background: var(--paper-alt);
+}
+
+.section__head {
+  max-width: 60ch;
+  margin-bottom: clamp(2rem, 5vw, 3rem);
+}
+
+.section__kicker {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--muted);
+  margin-bottom: 0.9rem;
+}
+
+.section__title {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+
+.section__intro {
+  margin-top: 1rem;
+  color: var(--muted);
+  font-size: 1.05rem;
+  max-width: 56ch;
+}
+
+/* --- Grilles ---------------------------------------------------------- */
+.grid {
+  display: grid;
+  gap: 1px;
+  background: var(--rule);
+  border: 1px solid var(--rule);
+}
+
+.grid--principes {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--phases {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  background: var(--paper-alt);
+  padding: clamp(1.4rem, 3vw, 2rem);
+}
+
+.section--alt .card {
+  background: var(--paper);
+}
+
+.card__title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  margin-bottom: 0.6rem;
+}
+
+.card__text {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+/* --- Phases (méthode) ------------------------------------------------- */
+.phase {
+  background: var(--paper);
+  padding: clamp(1.4rem, 3vw, 2rem);
+}
+
+.phase__label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--faint);
+  margin-bottom: 0.75rem;
+}
+
+.phase__title {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-bottom: 0.65rem;
+}
+
+.phase__text {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+/* --- Liste des axes (accueil) ----------------------------------------- */
+.axes-list {
+  list-style: none;
+  padding: 0;
+  border-top: 1px solid var(--rule);
+}
+
+.axe-row {
+  border-bottom: 1px solid var(--rule);
+}
+
+.axe-row__link {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: baseline;
+  gap: clamp(1rem, 4vw, 2.5rem);
+  padding: clamp(1.3rem, 3.5vw, 2rem) 0.25rem;
+  text-decoration: none;
+  transition: padding-left 0.18s ease, background 0.18s ease;
+}
+
+.axe-row__link:hover {
+  background: var(--paper-alt);
+  padding-left: 1rem;
+}
+
+.axe-row__num {
+  font-family: var(--serif);
+  font-size: clamp(1.3rem, 3vw, 1.8rem);
+  color: var(--faint);
+  font-variant-numeric: tabular-nums;
+}
+
+.axe-row__title {
+  display: block;
+  font-family: var(--serif);
+  font-size: clamp(1.3rem, 3vw, 1.8rem);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.35rem;
+}
+
+.axe-row__desc {
+  display: block;
+  color: var(--muted);
+  font-size: 0.95rem;
+  max-width: 62ch;
+}
+
+.axe-row__chevron {
+  color: var(--ink);
+  font-size: 1.2rem;
+  align-self: center;
+}
+
+/* --- Citation détachée ------------------------------------------------ */
+.pull-quote {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(1.5rem, 4.5vw, 2.6rem);
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  max-width: 24ch;
+  margin-inline: auto;
+  text-align: center;
+  padding-block: clamp(1rem, 4vw, 2rem);
+}
+
+/* --- En-tête de page (Programme, Axe) --------------------------------- */
+.page-head {
+  margin-bottom: clamp(2.5rem, 6vw, 4rem);
+}
+
+.page-head__kicker {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--muted);
+  margin-bottom: 1rem;
+}
+
+.page-head__title {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(2rem, 6vw, 3.25rem);
+  line-height: 1.08;
+  letter-spacing: -0.015em;
+}
+
+.page-head__intro {
+  margin-top: 1.25rem;
+  color: var(--muted);
+  font-size: 1.1rem;
+}
+
+/* --- Liste du programme ----------------------------------------------- */
+.programme-list {
+  list-style: none;
+  padding: 0;
+  border-top: 1px solid var(--rule);
+}
+
+.programme-item {
+  border-bottom: 1px solid var(--rule);
+}
+
+.programme-item__link {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: clamp(1rem, 4vw, 2rem);
+  align-items: start;
+  padding: clamp(1.4rem, 4vw, 2rem) 0.25rem;
+  text-decoration: none;
+  transition: padding-left 0.18s ease, background 0.18s ease;
+}
+
+.programme-item__link:hover {
+  background: var(--paper-alt);
+  padding-left: 1rem;
+}
+
+.programme-item__num {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--faint);
+  padding-top: 0.5rem;
+  white-space: nowrap;
+}
+
+.programme-item__title {
+  display: block;
+  font-family: var(--serif);
+  font-size: clamp(1.4rem, 3.5vw, 2rem);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.4rem;
+}
+
+.programme-item__accroche {
+  display: block;
+  color: var(--muted);
+  max-width: 60ch;
+}
+
+.programme-item__chevron {
+  font-size: 1.2rem;
+  align-self: center;
+}
+
+.badge {
+  display: inline-block;
+  margin-top: 0.85rem;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink);
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius);
+  padding: 0.25rem 0.6rem;
+}
+
+/* --- Détail d'un axe -------------------------------------------------- */
+.breadcrumb {
+  display: flex;
+  gap: 0.6rem;
+  font-size: 0.85rem;
+  color: var(--faint);
+  margin-bottom: 1.75rem;
+}
+
+.breadcrumb a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  color: var(--ink);
+  text-decoration: underline;
+}
+
+.propositions {
+  margin-block: 1rem 2rem;
+}
+
+.propositions__title {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin-bottom: 1.25rem;
+}
+
+.propositions__list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 0;
+  counter-reset: prop;
+  border-top: 1px solid var(--rule);
+}
+
+.propositions__item {
+  counter-increment: prop;
+  position: relative;
+  padding: 1.1rem 0 1.1rem 2.75rem;
+  border-bottom: 1px solid var(--rule);
+  color: var(--ink-soft);
+}
+
+.propositions__item::before {
+  content: counter(prop, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  top: 1.1rem;
+  font-family: var(--serif);
+  color: var(--faint);
+  font-variant-numeric: tabular-nums;
+}
+
+.note {
+  margin-top: 1.75rem;
+  padding: 1rem 1.25rem;
+  border-left: 2px solid var(--rule-strong);
+  background: var(--paper-alt);
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.axe-more {
+  margin-top: clamp(3rem, 7vw, 4.5rem);
+  padding-top: 2rem;
+  border-top: 1px solid var(--rule);
+}
+
+.axe-more__title {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--muted);
+  margin-bottom: 1.25rem;
+}
+
+.axe-more__list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.axe-more__list a {
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+  text-decoration: none;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.axe-more__list a:hover .axe-more__label {
+  text-decoration: underline;
+}
+
+.axe-more__num {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--faint);
+  white-space: nowrap;
+}
+
+.axe-more__label {
+  font-family: var(--serif);
+  font-size: 1.1rem;
+}
+
+/* --- 404 -------------------------------------------------------------- */
+.not-found {
+  text-align: center;
+}
+
+.not-found__code {
+  font-family: var(--serif);
+  font-size: clamp(4rem, 18vw, 8rem);
+  line-height: 1;
+  color: var(--rule-strong);
+}
+
+.not-found__title {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(1.6rem, 5vw, 2.4rem);
+  margin-top: 0.5rem;
+}
+
+.not-found__text {
+  margin-top: 1rem;
+  color: var(--muted);
+}
+
+.not-found__actions {
+  margin-top: 2rem;
+  display: flex;
+  gap: 0.85rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* --- Pied de page ----------------------------------------------------- */
+.site-footer {
+  background: var(--ink);
+  color: #d9d9d9;
+  padding-block: clamp(3rem, 7vw, 5rem);
+}
+
+.site-footer__inner {
+  max-width: var(--page-max);
+  margin-inline: auto;
+  padding-inline: var(--space);
+  display: grid;
+  gap: 1.75rem;
+}
+
+.site-footer__statement {
+  font-family: var(--serif);
+  font-size: clamp(1.3rem, 3.5vw, 1.9rem);
+  line-height: 1.3;
+  color: var(--paper);
+}
+
+.site-footer__nav {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.site-footer__nav a {
+  color: #d9d9d9;
+  text-decoration: none;
+  font-size: 0.92rem;
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.15rem;
+}
+
+.site-footer__nav a:hover {
+  color: var(--paper);
+  border-bottom-color: var(--paper);
+}
+
+.site-footer__meta,
+.site-footer__copy {
+  color: var(--faint);
+  font-size: 0.85rem;
+  max-width: 60ch;
+}
+
+/* =========================================================================
+   Prose — rendu Markdown (document fondateur, fiches d'axe)
+   ========================================================================= */
+.document {
+  margin-top: 0.5rem;
+}
+
+.prose {
+  color: var(--ink-soft);
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.prose > * + * {
+  margin-top: 1.1rem;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  font-family: var(--serif);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  color: var(--ink);
+}
+
+.prose h1 {
+  font-size: clamp(2rem, 6vw, 3rem);
+  margin-top: 0;
+}
+
+.prose h2 {
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  margin-top: 2.75rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--rule);
+}
+
+.prose h3 {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
+
+.prose h4 {
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+}
+
+/* Ancres auto-générées par rehype-autolink-headings (behavior: wrap). */
+.prose .heading-anchor {
+  color: inherit;
+  text-decoration: none;
+}
+
+.prose .heading-anchor:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+.prose p,
+.prose li {
+  max-width: 70ch;
+}
+
+.prose a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--rule-strong);
+  text-underline-offset: 0.18em;
+}
+
+.prose a:hover {
+  text-decoration-color: var(--ink);
+}
+
+.prose strong {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.prose em {
+  font-style: italic;
+}
+
+.prose ul,
+.prose ol {
+  padding-left: 1.4rem;
+}
+
+.prose li + li {
+  margin-top: 0.4rem;
+}
+
+.prose ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.prose ul > li {
+  position: relative;
+  padding-left: 1.4rem;
+}
+
+.prose ul > li::before {
+  content: '';
+  position: absolute;
+  left: 0.1rem;
+  top: 0.75em;
+  width: 0.45rem;
+  height: 1px;
+  background: var(--ink);
+}
+
+.prose ol {
+  list-style: decimal;
+}
+
+.prose blockquote {
+  border-left: 2px solid var(--ink);
+  padding: 0.25rem 0 0.25rem 1.25rem;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.2rem;
+  color: var(--ink);
+}
+
+.prose blockquote p {
+  max-width: none;
+}
+
+.prose hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin-block: 2.5rem;
+}
+
+.prose code {
+  font-family: ui-monospace, 'SF Mono', 'Menlo', monospace;
+  font-size: 0.88em;
+  background: var(--paper-alt);
+  padding: 0.1em 0.35em;
+  border-radius: var(--radius);
+}
+
+/* Tableaux GFM — défilables horizontalement sur mobile. */
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  display: block;
+  overflow-x: auto;
+}
+
+.prose thead {
+  border-bottom: 2px solid var(--ink);
+}
+
+.prose th,
+.prose td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.65rem 0.85rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.prose th {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.prose tbody tr:hover {
+  background: var(--paper-alt);
+}
+
+/* =========================================================================
+   Responsive — bascule menu mobile + grilles en colonne unique
+   ========================================================================= */
+@media (max-width: 720px) {
+  .nav-toggle {
+    display: inline-block;
+  }
+
+  .site-nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    background: var(--paper);
+    border-bottom: 1px solid var(--rule);
+    box-shadow: 0 12px 24px -18px rgba(0, 0, 0, 0.4);
+    transform: translateY(-8px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.18s ease, transform 0.18s ease;
+  }
+
+  .site-nav--open {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .site-nav__link {
+    padding: 1rem var(--space);
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .site-nav__link--active {
+    border-bottom-color: var(--rule);
+    background: var(--paper-alt);
+  }
+
+  .grid--principes,
+  .grid--phases {
+    grid-template-columns: 1fr;
+  }
+
+  .axe-row__link {
+    grid-template-columns: auto 1fr;
+  }
+
+  .axe-row__chevron {
+    display: none;
+  }
+
+  .programme-item__link {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .programme-item__chevron {
+    display: none;
+  }
+}
+
+@media (min-width: 721px) and (max-width: 980px) {
+  .grid--principes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+    transition-duration: 0.001ms !important;
+  }
+}
