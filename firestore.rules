@@ -26,7 +26,12 @@ service cloud.firestore {
         )
         && request.resource.data.canal in ['site', 'api']
         && (
-          (request.resource.data.canal == 'site' && !('agent' in request.resource.data))
+          // Canal site : l'email doit être PROUVÉ (connexion par lien) et
+          // correspondre exactement à celui du retour. Fini le déclaratif.
+          (request.resource.data.canal == 'site'
+            && !('agent' in request.resource.data)
+            && request.auth != null
+            && request.auth.token.email == request.resource.data.email)
           ||
           (request.resource.data.canal == 'api'
             && request.resource.data.agent is string

@@ -9,7 +9,7 @@ import { Link, useNavigate, useParams } from 'react-router-dom'
 import Markdown from '../components/Markdown'
 import { axesFiches, type Fiche, type StatutFiche } from '../lib/fiches'
 import { useReaction } from '../lib/reactions'
-import { useIdentite } from '../lib/identite'
+import { identiteCourante, useIdentite } from '../lib/identite'
 import { envoyerAvis } from '../lib/avis'
 import { envoyerLien, seDeconnecter, useUtilisateur } from '../lib/auth'
 
@@ -88,7 +88,9 @@ function BandeauIdentite({ connecte }: { connecte: boolean }) {
       </div>
       {envoi === 'envoye' && !connecte && (
         <p className="identite__info" aria-live="polite">
-          📬 Lien envoyé ! Ouvrez l'email et cliquez le lien : vous serez connecté.
+          📬 Lien envoyé ! Ouvrez l'email et cliquez le lien : vous serez
+          connecté. Pensez à vérifier vos indésirables (spam), il s'y glisse
+          parfois.
         </p>
       )}
       {envoi === 'erreur' && (
@@ -105,12 +107,16 @@ function BandeauIdentite({ connecte }: { connecte: boolean }) {
 // unique. Traçable au dépouillement, zéro friction pour l'humain.
 function promptMission(fiche: Fiche): string {
   const ref = `ref_${crypto.randomUUID().slice(0, 8)}`
+  const { pseudo, email } = identiteCourante()
+  const identiteConnue = pseudo.trim().length >= 2 && /.+@.+\..+/.test(email)
   return [
     `Mission citoyenne MaRepublic (référence ${ref}).`,
     `1. Lis le mode d'emploi machine : https://marepublique-2027.web.app/llms.txt`,
     `2. Lis la fiche "${fiche.titre}" (id ${fiche.id}) dans https://marepublique-2027.web.app/api/fiches.json`,
     `3. Explique-moi la fiche simplement, discute-la avec moi, puis demande-moi : pour, contre, commentaire ou alternative ?`,
-    `4. Envoie MA décision via l'API (canal "api"), signée agent:"<ton-modele>/${ref}", avec mon pseudo et mon email que je vais te donner.`,
+    identiteConnue
+      ? `4. Envoie MA décision via l'API (canal "api"), signée agent:"<ton-modele>/${ref}", avec mon pseudo "${pseudo.trim()}" et mon email "${email.trim()}" (je consens à cette transmission en mon nom).`
+      : `4. Envoie MA décision via l'API (canal "api"), signée agent:"<ton-modele>/${ref}", avec mon pseudo et mon email que je vais te donner.`,
     `Important : c'est MOI qui décide, tu prépares et tu transmets.`,
   ].join('\n')
 }
