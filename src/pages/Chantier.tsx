@@ -255,7 +255,9 @@ export default function Chantier() {
                   title={a.titre}
                   aria-current={a.numero === axeActif ? 'true' : undefined}
                 >
-                  <span className="chantier-tab__label">Axe {a.numero}</span>
+                  <span className="chantier-tab__label">
+                    {a.numero}. {a.theme}
+                  </span>
                   {a.fiches.length > 0 && (
                     <span className="chantier-tab__badge" aria-label={`${a.fiches.length} fiches`}>
                       {a.fiches.length}
@@ -277,7 +279,7 @@ export default function Chantier() {
               title={a.titre}
               aria-current={a.numero === axeActif ? 'true' : undefined}
             >
-              <span className="chantier-tab__label">Problèmes {a.numero - 100}</span>
+              <span className="chantier-tab__label">{a.theme}</span>
               {a.fiches.length > 0 && (
                 <span className="chantier-tab__badge" aria-label={`${a.fiches.length} fiches`}>
                   {a.fiches.length}

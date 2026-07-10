@@ -27,8 +27,10 @@ export interface Fiche {
 export interface AxeFiches {
   /** Numéro d'axe extrait du nom de fichier. */
   numero: number
-  /** Titre du document ("Axe 4, Souveraineté …"). */
+  /** Titre du document ("Axe 4 : Souveraineté …"). */
   titre: string
+  /** Thème court pour l'onglet ("Souveraineté", "Santé & hôpital"…). */
+  theme: string
   fiches: Fiche[]
 }
 
@@ -52,7 +54,15 @@ function parseDocument(numero: number, raw: string): AxeFiches {
     })
   })
 
-  return { numero, titre, fiches }
+  // Thème court pour l'onglet : on retire les préfixes "Axe N :" / "Problèmes :".
+  let theme = titre
+    .replace(/^Axe\s*\d+\s*:\s*/i, '')
+    .replace(/^Problèmes\s*:\s*/i, '')
+    .trim()
+  // Les lots d'enquête terrain gardent un préfixe court et lisible.
+  theme = theme.replace(/^Frictions vécues,\s*(.)/i, (_, c: string) => `Vécu : ${c.toUpperCase()}`)
+
+  return { numero, titre, theme, fiches }
 }
 
 export const axesFiches: AxeFiches[] = Object.entries(files)
