@@ -8,6 +8,7 @@
 - **Piste B, 🇩🇪 Allemagne (Salaire différencié + quotas) :** Rémunération plus haute en zones rurales, quota de praticiens obligatoire par secteur. **Pour :** Effet immédiat, cadre stable. **Contre :** Coûteux, inflationniste, crée des inégalités salariales.
 - **Piste C, 🇪🇸 Espagne (Télémédecine & centres de proximité) :** Centres satellites gérés par infirmiers formés, teleconsultation pour suivi. **Pour :** Accessible rapidement, réduit les trajets. **Contre :** Déleste les généralistes sans résoudre les urgences complexes.
 - **Piste D, 🇨🇭 Suisse (Médecins libéraux + contractualisation) :** Contrats liant médecin, collectivités et état (garantie de patientèle). **Pour :** Sécurité économique, dynamique régionale. **Contre :** Rigidité, risque de monopole local.
+- **Simulation (ordres de grandeur) :** Bourses + incitations territoriales : ~200-300 M€/an (10 ans). Gagnants : zones rurales (+1-2 médecins par région). Perdants : finances publiques. Délai : 5-7 ans avant stabilisation. Efficacité : (à confirmer) rétention après remboursement.
 - ⚖️ **Faisabilité juridique :** Loi/décret (bourses, quotas, salaires régionaux) ; Art. 40 (coûts bourses), droit UE liberté établissement professionnel (directive 2005/36) ; fiscalité régionale débattue 2010s+.
 - ⚖️ **À trancher :** Faut-il jouer sur l'offre (former plus de médecins) ou la demande (se rapprocher du patient) ? Combien investir pour quel retour démographique ?
 - **Statut :** ⬜
@@ -18,6 +19,7 @@
 - **Piste B, 🇸🇪 Suède (Triage externe & portes ouvertes) :** Infirmiers de triage en avant-poste (pharmaciens, paramédicaux), urgences ouvertes 24/7 sans fermeture. **Pour :** Fait du tri sans bloquer l'accès. **Contre :** Déplace la charge sans la réduire, demande coordination ville-hôpital.
 - **Piste C, 🇮🇹 Italie (Médecin urgentiste de garde en cabinet) :** Généralistes renforcés de soir avec accès aux imagerie rapide, urgences réservées aux vrais urgents. **Pour :** Désengorge les urgences, généralistes valorisés. **Contre :** Dérive du diagnostic en cabinet, moins d'équipement disponible.
 - **Piste D, 🇺🇸 États-Unis (Urgent care privé & sélection) :** Cliniques privées d'urgence mineure parallèles au réseau public. **Pour :** Crée une concurrence, rapidité. **Contre :** Deux vitesses médicales, inégalité selon budget.
+- **Simulation (ordres de grandeur) :** Augmentation lits urgences + infirmiers : ~500 M€/an (investissement + masse salariale). Gagnants : urgences moins saturées (fermetures -50 % estimé). Perdants : recrutement infirmiers difficile (à confirmer). Délai : 2-3 ans recrutement/formation.
 - ⚖️ **Faisabilité juridique :** Loi de finances (investissement urgences, postes infirmiers) ; Art. 40 (500M€/an estimé) ; loi HPST 2009 antécédent.
 - ⚖️ **À trancher :** Investir en capacité ou en organisation ? La fermeture est-elle une vraie crise ou un signal de rationalisation ?
 - **Statut :** ⬜
@@ -28,6 +30,7 @@
 - **Piste B, 🇮🇳 Inde (Diversifier les fournisseurs) :** Signer accords avec 3+ pays producteurs par molécule, stocks régionaux européens. **Pour :** Réduit le risque d'une seule source, rapide. **Contre :** Contrôle qualité variable, risques géopolitiques.
 - **Piste C, 🇪🇺 Europe (Agence commune d'approvisionnement) :** UE coordonne les achats pour les 27, négocie directement avec producteurs. **Pour :** Pouvoir d'achat massif, harmonise les pénuries. **Contre :** Lourd bureaucratiquement, moins réactif.
 - **Piste D, 🇧🇷 Brésil (Marge garantie + contrats fermes) :** État garantit un prix minimum et un volume d'achat sur 5 ans aux laboratoires. **Pour :** Sécurise les investissements de fab. **Contre :** Rigide, peut surcoûter l'assurance-maladie.
+- **Simulation (ordres de grandeur) :** Relocalisation génériques critiques : ~300-500 M€ investissement initial, +100 M€/an marges garanties. Gagnants : emploi pharma (+1 000-2 000 postes), résilience supply. Coûts : assurance-maladie +2-3 %. Délai : 3-5 ans construction usines.
 - ⚖️ **Faisabilité juridique :** Loi/décret (relocalisation), coordination UE (directives pharma) ; Droit UE libre circulation marchandises, aides d'État si subvention relocalisation (RGEC) ; relocalisation débattue 2021-2024.
 - ⚖️ **À trancher :** Que coûte la résilience vs. les pénuries ? Qui paie la relocalisation ?
 - **Statut :** ⬜
@@ -38,6 +41,7 @@
 - **Piste B, 🇦🇺 Australie (Peer counselling + app) :** Former des jeunes (16-21) comme pairs-aidants bénévoles, app de chat avec psycho supervisé en ligne. **Pour :** Accessible 24/7, jeunes se reconnaissent. **Contre :** Qualité variable, risque de débordement sans supervision réelle.
 - **Piste C, 🇩🇰 Danemark (Écoles à réseau mental) :** Infirmier scolaire + psychologue à temps partiel dans chaque collège, curriculum de résilience. **Pour :** Intervient tôt, pas de stigmate. **Contre :** Nécessite formation des enseignants, culturel.
 - **Piste D, 🇨🇦 Canada (Télépsy + remboursement partiel) :** 10 séances/an remboursées via mutuelle, téléconsultation avec psy, suivi d'algo. **Pour :** Rapide, économe. **Contre :** Médicalise trop, crée dépendance à l'app.
+- **Simulation (ordres de grandeur) :** 2 000 psychologues salariés écoles/université : ~200 M€/an. Gagnants : jeunes accès gratuit (+80 % couverture estimée), dépistage précoce. Risque : confidentialité scolaire vs. dépistage. Délai : 2-3 ans recrutement.
 - ⚖️ **Faisabilité juridique :** Loi (corps psychologues publics, peer-counselling encadré) ; Art. 40 (200M€/an estimé pour 2000 psychologues) ; aucun obstacle constitutionnel majeur.
 - ⚖️ **À trancher :** Agir en prévention (école, réseaux) ou en soin (psy) ? Quel équilibre entre peer-support et professionnel ?
 - **Statut :** ⬜
@@ -48,6 +52,7 @@
 - **Piste B, 🇩🇪 Allemagne (Mutualisation + contrôle qualité strict) :** EHPAD gérés via coopératives de familles/staff, inspection trimestrielle, sanction financière immédiate. **Pour :** Aligne incitations (pas de profit pervers), régulation forte. **Contre :** Coopératives complexes, inspection coûteuse.
 - **Piste C, 🇬🇧 Royaume-Uni (Public-Private Partnership stricte) :** Privés acceptent s'ils signent contrat de ratios staff/résidents, prix plafonnés, audit annuel. **Pour :** Garde dynamique du privé, standards clairs. **Contre :** Privés sortent si marges réduites, crée vide.
 - **Piste D, 🇯🇵 Japon (Assurance dépendance forfaitaire) :** Chaque résident cotise toute la vie, reçoit forfait services garanti ; EHPAD font prestataires sous forfait. **Pour :** Responsabilise l'assuré, déconnecte du budget de l'état. **Contre :** Pénalise revenus bas, dépend de la solvabilité jeune.
+- **Simulation (ordres de grandeur) :** Nationaliser 30 % EHPAD privés (~200 établissements) : ~1-2 Mds€ investissement (rachat), +500 M€/an fonctionnement. Gagnants : résidents (qualité +30-40 %), staff (salaires mieux). Perdants : opérateurs privés. Délai : 3-5 ans transition.
 - ⚖️ **Faisabilité juridique :** Loi (nationalisation partielle, PPP, mutualisation) ; CEDH art. 1 protocole 1 (droit propriété, reprises = indemnisation), Art. 40 (coûts) ; scandale Orpea 2022.
 - ⚖️ **À trancher :** Est-ce un problème de profit ou de moyens insuffisants ? Faut-il réguler ou restructurer ?
 - **Statut :** ⬜
@@ -58,6 +63,7 @@
 - **Piste B, 🇫🇮 Finlande (Semaine courte + autonomie) :** 4 jours/semaine pour infirmiers (même salaire), autonomie décisionnelle sur soins. **Pour :** Vie perso retrouvée, engagement accru. **Contre :** Réduction 20 % de productivité, faut recruter massivement.
 - **Piste C, 🇸🇪 Suède (Reconnaissance + parcours) :** Salaire régional variable, évolution carrière transparente, primes qualité/innovation. **Pour :** Motive et fidélise. **Contre :** Complexifie masse salariale, crée inégalités régionales.
 - **Piste D, 🇮🇹 Italie (Externalisation du non-médical) :** Déléguer ménage, logistique à secteur privé, soignants gardent core médical. **Pour :** Recentre sur soins, réduit tâches administratives. **Contre :** Réduit emploi public, qualité variable externalisation.
+- **Simulation (ordres de grandeur) :** +20 % salaires infirmiers + 35h/semaine : ~4-5 Mds€/an. Gagnants : infirmiers (attractivité +40-50 % estimée), rétention. Perdants : budget état. Délai : 2-3 ans recrutement supplémentaire. Efficacité : (à confirmer) réduction burn-out vs. coût.
 - ⚖️ **Faisabilité juridique :** Loi/décret (hausse salaires, réduction horaires, externalisation) ; Art. 40 (4-5 Mds€/an hausse salaires) ; négociations publiques 2020-2024.
 - ⚖️ **À trancher :** Investir dans l'humain (salaires) ou la structure (autonomie, externalisation) ? Quels délais de transformation ?
 - **Statut :** ⬜
@@ -68,6 +74,7 @@
 - **Piste B, 🇮🇸 Islande (Transparence obligatoire + forfaits) :** Médecins affichent tarif total avant consultation, option d'assurance complémentaire simple et claire. **Pour :** Patients informés, marché régulé. **Contre :** Toujours crée deux vitesses, assurance complémentaire réintroduit l'inégalité.
 - **Piste C, 🇮🇹 Italie (Secteur public fort, privé parallèle) :** Majorité des soins en public (gratuit/tarif fixe), privé accepté mais non encouragé. **Pour :** Garantit accès de base. **Contre :** File d'attente publique, attentes longues.
 - **Piste D, 🇳🇱 Pays-Bas (Assurance obligatoire + négociation) :** Assurance maladie obligatoire négocie globallement tarifs avec médecins, peu de dépassement toléré. **Pour :** Équilibre privé-public, contrôle de coût. **Contre :** Bureaucratie, peut réduire diversité d'offre.
+- **Simulation (ordres de grandeur) :** Généraliser secteur I (zéro dépassement) : hausses tarifs CNAM ~10-15 % estimées (+2-3 Mds€/an). Gagnants : patients revenus modestes (accès +25-30 % estimé). Perdants : médecins revenus (à confirmer), finances publiques. Délai : 1-2 ans transition.
 - ⚖️ **Faisabilité juridique :** Loi (interdiction dépassements, augmentation tarifs CNAM) ; Droit UE liberté exercice profession (directive 2005/36), Art. 40 si hausse tarifs rembourse ; secteur II/I débattu depuis 2000s.
 - ⚖️ **À trancher :** Faut-il interdire, réguler ou accepter le dépassement comme système ? Qui paie la hausse des tarifs ?
 - **Statut :** ⬜
@@ -78,6 +85,7 @@
 - **Piste B, 🇪🇸 Espagne (Regroupement hospitalier & spécialisation) :** Fusionner hôpitaux par bassins (30-50 km), chacun spécialise (un cardio, un gériatrie, un pédiatrie). **Pour :** Économies d'échelle, qualité concentrée. **Contre :** Accès géographique pire, identité locale perdue.
 - **Piste C, 🇨🇭 Suisse (Concurrence entre hôpitaux cantonaux) :** Financement par capitation (par patient attiré), hôpitaux innovent pour performance. **Pour :** Efficacité, innovation. **Contre :** Crée inégalités entre régions, dumping vers patients lucratifs.
 - **Piste D, 🇬🇧 Royaume-Uni (PPP hôpital, privatisation partielle) :** Partenariats privé-public pour IT/logistique, services auxiliaires externalisés. **Pour :** Injecte capital privé. **Contre :** Coûts cachés, dette PPP, perte de contrôle public.
+- **Simulation (ordres de grandeur) :** Investissement massif +10 Mds€/an (5 ans) : IT, bâti, ressources. Gagnants : hôpitaux (moyen terme +20-30 % lits opérants estimé), patients (attentes réduites). Coûts : impôts ou déficit public. Délai : 5-10 ans effet complet. Risque : malédiction budgétaire à long terme.
 - ⚖️ **Faisabilité juridique :** Loi de finances (investissement 10 Mds€/an, regroupement, concurrence) ; Art. 40 (coûts), droit UE si PPP/concurrence (directive marché public) ; loi HPST 2009.
 - ⚖️ **À trancher :** La crise est-elle budgétaire ou d'efficience ? Faut-il augmenter + transformer ou seulement augmenter ? Quel modèle de gouvernance ?
 - **Statut :** ⬜

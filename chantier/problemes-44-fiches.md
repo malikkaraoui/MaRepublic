@@ -2,7 +2,7 @@
 
 > BROUILLON non validé : les écarts documentés et les pistes pour l'égalité réelle.
 
-## P1. La vie chère : 40 % de surcoût pour l'alimentation
+### P1. La vie chère : 40 % de surcoût pour l'alimentation
 
 **Aberration** : Un couple réunionnais paye 40 % plus cher son alimentation qu'en Île-de-France pour les mêmes produits. INSEE 2024 confirme : Mayotte +30 % (alimentaire +54 % si habitudes métropolitaines), Guadeloupe/Martinique +16 %.
 
@@ -18,7 +18,7 @@
 
 ---
 
-## P2. L'octroi de mer : le débat honnête sur la taxe
+### P2. L'octroi de mer : le débat honnête sur la taxe
 
 **Aberration** : Taxe médiévale (Ancien Régime) encore prélevée 2024. Pèse +4,4 % du panier final selon experts, +5-10 % selon dénonceurs. 1,644 milliards euros collectés (2022), redistribués aux collectivités locales.
 
@@ -33,7 +33,7 @@
 
 ---
 
-## P3. L'eau courante coupée : des Français sans eau potable
+### P3. L'eau courante coupée : des Français sans eau potable
 
 **Aberration** : Mayotte = coupures 4x par semaine en 2024 (20 heures sans eau chaque fois). Guadeloupe = 1/3 des foyers en rupture régulière. Réseaux fuient 40-70 % en Guadeloupe. Infrastructure des années 1960-1980 jamais renouvelée.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## P4. Chlordécone : l'indemnisation qui n'avance pas
+### P4. Chlordécone : l'indemnisation qui n'avance pas
 
 **Aberration** : Bananes traitées au chlordécone (pesticide interdit) pendant 20 ans. 90 % population contaminée (sérologie Guadeloupe/Martinique). Fonds d'indemnisation = 18,7 millions versés en 2024 seulement. Délai d'un an (depuis juin 2026) pour définir modalités d'indemnisation réelle.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## P5. Monopoles du fret : CMA-CGM détient les routes maritimes
+### P5. Monopoles du fret : CMA-CGM détient les routes maritimes
 
 **Aberration** : CMA-CGM contrôle 80 % du trafic conteneurs Caraïbes-Guyane-Réunion. Pas de concurrence réelle. Tarifs = 2-3x plus chers que liaisons métropole-Méditerranée pour même distance/tonnage.
 
@@ -80,7 +80,7 @@
 
 ---
 
-## P6. Chômage structurel double du continent
+### P6. Chômage structurel double du continent
 
 **Aberration** : Taux chômage outre-mer = 12,5-17,5 % en 2025 vs 7,5 % métropole. Réunion 16 %, Guadeloupe +14 %, Guyane 17,5 %. Même après reprise économique 2023-2025, écart persiste. Jeunes 15-29 ans à Réunion = 29 % en 2024.
 
@@ -97,7 +97,7 @@
 
 ---
 
-## P7. Illettrisme et décrochage scolaire : 3x plus qu'Hexagone
+### P7. Illettrisme et décrochage scolaire : 3x plus qu'Hexagone
 
 **Aberration** : Illettrisme 3x plus fréquent Antilles/Réunion vs métropole. 13 % jeunes (JDC 2024) lectures difficiles, 6 % illettrisme avéré. Décrochage scolaire = tacitement toléré dans contextes pauvres (père chômeur, mère économie informelle).
 
@@ -113,7 +113,7 @@
 
 ---
 
-## P8. Évacuations sanitaires : soins impossibles sur place
+### P8. Évacuations sanitaires : soins impossibles sur place
 
 **Aberration** : Anévrisme cérébral à Mayotte = transport d'urgence 45 minutes vers Réunion (700 km), coût 8 000 euros par patient en urgence neuro. En métropole = neurochirurgie locale. Cancérologie pédiatrique = enfant renvoyé en métropole, famille fragmentée pendant 18 mois de traitement.
 
@@ -130,7 +130,7 @@
 
 ---
 
-## P9. Continuité territoriale au rabais : ce que font Canaries et Açores
+### P9. Continuité territoriale au rabais : ce que font Canaries et Açores
 
 **Aberration** : Billet avion Cayenne-Orly = 600 euros (9 heures, 8 000 km). Résident aide = 0 (éventuellement remise compagnie, <100 euros négociée). Aux Canaries (Tenerife-Madrid) = 130 euros pour résident (billet public 450), État subventionne 75 %. Portugal Açores = déduction d'impôt résidents (équivalent rabais 50 %).
 
@@ -147,7 +147,7 @@
 
 ---
 
-## P10. Fonctionnaires sur-primés : l'effet pervers documenté
+### P10. Fonctionnaires sur-primés : l'effet pervers documenté
 
 **Aberration** : Fonctionnaire Guadeloupe = salaire + primes +40 % vs identique poste métropole. Réunion +53 %. Institué pour coût de la vie, persiste depuis 50 ans MAIS coût de la vie outre-mer = équivalent métropole 2024 (eau/électricité chère MAIS logement ancien/gratuit familles). Résultat = classe de cadres fonctionnaires riches isolée VS privé local étranglé (40 % PME ferment/an).
 
