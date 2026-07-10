@@ -3,7 +3,7 @@
 //
 // Stockage : localStorage pour la phase locale (chaque appareil garde ses
 // réactions). Le jour du passage en ligne, ce module est le seul à remplacer
-// par une implémentation Firestore — l'interface reste identique.
+// par une implémentation Firestore, l'interface reste identique.
 
 import { useCallback, useSyncExternalStore } from 'react'
 

@@ -1,7 +1,7 @@
 // Page de détail d'un axe : /programme/:slug
 //
 // - Si l'axe dispose d'un document de travail détaillé (`contentKey`), on rend
-//   ce Markdown intégral (cas de l'Axe 1 — Institutions).
+//   ce Markdown intégral (cas de l'Axe 1, Institutions).
 // - Sinon, on présente l'accroche et la liste des propositions, en signalant
 //   que la fiche détaillée est à venir.
 
@@ -50,8 +50,8 @@ export default function AxeDetail() {
             ))}
           </ul>
           <p className="note">
-            La fiche détaillée de cet axe — chiffrage, calendrier, indicateurs
-            et comparaisons internationales — est en cours de rédaction, sur le
+            La fiche détaillée de cet axe, chiffrage, calendrier, indicateurs
+            et comparaisons internationales, est en cours de rédaction, sur le
             modèle de l'Axe 1.
           </p>
         </section>

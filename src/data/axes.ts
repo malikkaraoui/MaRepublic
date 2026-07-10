@@ -13,7 +13,7 @@ export interface Axe {
   numero: number
   /** Identifiant d'URL : /programme/:slug */
   slug: string
-  /** Intitulé court, sans le préfixe « Axe N — ». */
+  /** Intitulé court, sans le préfixe « Axe N, ». */
   titre: string
   /** Phrase de cadrage, telle qu'écrite dans le document fondateur. */
   accroche: string

@@ -7,7 +7,7 @@
 *Un mouvement politique sans étiquette.*
 *Fondé sur les actes, pas sur les promesses.*
 
-*Version de travail — Février 2026*
+*Version de travail, Février 2026*
 
 ---
 
@@ -17,7 +17,7 @@ Ce document n'est pas un programme électoral. Ce n'est pas une plaquette. Il n'
 
 Ce document est un constat. Celui de millions de citoyens français qui observent, depuis des décennies, la dégradation méthodique de ce qui faisait la force de la France : ses services publics, sa justice, son école, sa souveraineté, la confiance entre gouvernants et gouvernés.
 
-En face de chaque constat, il y a une proposition. Pas une promesse — une direction. Et un engagement : celui de rendre des comptes, publiquement, sur chaque action entreprise.
+En face de chaque constat, il y a une proposition. Pas une promesse, une direction. Et un engagement : celui de rendre des comptes, publiquement, sur chaque action entreprise.
 
 > *Nous ne cherchons pas à séduire. Nous cherchons à faire. Les actes parleront.*
 
@@ -72,7 +72,7 @@ Pas de valeurs abstraites. Des règles de fonctionnement contrôlables.
 
 Des axes de travail concrets. Chacun fera l'objet d'un document détaillé avec chiffrage, calendrier et indicateurs de suivi.
 
-### Axe 1 — Réformer les institutions
+### Axe 1 : Réformer les institutions
 
 Le problème n'est pas que les Français ne veulent plus voter. C'est qu'ils n'ont aucune raison de croire que leur vote changera quoi que ce soit.
 
@@ -83,7 +83,7 @@ Le problème n'est pas que les Français ne veulent plus voter. C'est qu'ils n'o
 - Instaurer le référendum d'initiative citoyenne (RIC) sur les sujets législatifs, avec seuil de déclenchement réaliste et débat contradictoire organisé.
 - Introduire une dose de proportionnelle aux législatives pour refléter la diversité réelle du vote.
 
-### Axe 2 — Restaurer les services publics
+### Axe 2 : Restaurer les services publics
 
 Avant de réformer, il faut réparer ce qui a été cassé.
 
@@ -94,7 +94,7 @@ Avant de réformer, il faut réparer ce qui a été cassé.
 - Justice : doubler le budget de la justice sur 10 ans, recruter magistrats et greffiers, réduire les délais de jugement à des niveaux européens.
 - Sécurité : recentrer les forces de l'ordre sur le terrain, alléger la bureaucratie policière, exécuter les peines prononcées, construire les places de prison nécessaires.
 
-### Axe 3 — Fiscalité et équité
+### Axe 3 : Fiscalité et équité
 
 Payer des impôts, c'est normal. Payer plus que les multinationales, c'est insupportable.
 
@@ -105,7 +105,7 @@ Payer des impôts, c'est normal. Payer plus que les multinationales, c'est insup
 - Allègement pour les TPE/PME, artisans et indépendants : baisser les charges sur les 3 premières années, simplifier les démarches, un interlocuteur unique.
 - Publication annuelle d'un rapport citoyen : où va chaque euro d'impôt, dans un format compréhensible, accessible à tous.
 
-### Axe 4 — Souveraineté et indépendance
+### Axe 4 : Souveraineté et indépendance
 
 Un pays qui ne contrôle ni son énergie, ni sa nourriture, ni sa technologie, ni sa défense n'est pas un pays libre.
 
@@ -116,7 +116,7 @@ Un pays qui ne contrôle ni son énergie, ni sa nourriture, ni sa technologie, n
 - Numérique : investissement souverain dans l'IA, le cloud, la cyberdéfense. Former 100 000 spécialistes en 5 ans. Imposer l'hébergement des données publiques en France.
 - Industrie : conditionner les aides publiques au maintien de l'emploi en France. Tout euro public versé = engagement vérifiable.
 
-### Axe 5 — Écologie concrète
+### Axe 5 : Écologie concrète
 
 Pas d'écologie punitive. Pas d'écologie de salon. Une écologie de bon sens, chiffrée, qui ne laisse personne au bord de la route.
 
@@ -145,20 +145,20 @@ Ce mouvement ne se définit pas par ce qu'il dit, mais par ce qu'il fait. Voici 
 
 Pas de plan sur 30 ans. Un fonctionnement itératif : on identifie un problème, on propose une solution chiffrée, on la teste si possible localement, on mesure, on ajuste, on généralise.
 
-### Phase 1 — Structuration (2026)
+### Phase 1 : Structuration (2026)
 
 - Formalisation juridique du mouvement (association loi 1901, mandataire financier, commissaire aux comptes).
 - Constitution d'un noyau fondateur de 50 à 200 citoyens engagés, issus du terrain.
 - Rédaction des documents programmatiques détaillés par axe (chiffrage, calendrier, indicateurs).
 - Mise en place de l'infrastructure de transparence (publication des comptes, open data, plateforme citoyenne).
 
-### Phase 2 — Ancrage local (2026–2028)
+### Phase 2 : Ancrage local (2026-2028)
 
 - Présentation de candidats aux élections municipales et locales.
 - Démonstration par l'action : résultats mesurables dans les communes où le mouvement est présent.
 - Construction du réseau de soutien par la preuve, pas par la promesse.
 
-### Phase 3 — Échelle nationale (2028+)
+### Phase 3 : Échelle nationale (2028+)
 
 Dépendra des résultats des phases précédentes. On ne prétend pas avoir un plan pour gouverner la France tant qu'on n'a pas prouvé qu'on peut gérer une commune correctement.
 

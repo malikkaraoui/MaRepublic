@@ -1,4 +1,4 @@
-// Page Chantier — le débat ouvert.
+// Page Chantier, le débat ouvert.
 //
 // Affiche les fiches-mesures brouillon (chantier/axe-*-fiches.md) et ouvre
 // la réaction citoyenne : pouce haut/bas, commentaire, contre-proposition.
@@ -106,7 +106,7 @@ export default function Chantier() {
   return (
     <div className="page">
       <section className="page-intro">
-        <h1>Le chantier — débat ouvert</h1>
+        <h1>Le chantier, débat ouvert</h1>
         <p>
           Ces mesures sont des <strong>brouillons</strong>, importés de ce qui
           fonctionne déjà dans d'autres pays. Rien n'est figé : votez, commentez,

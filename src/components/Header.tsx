@@ -11,7 +11,7 @@ const links = [
   { to: '/', label: 'Accueil', end: true },
   { to: '/fondateur', label: 'Document fondateur' },
   { to: '/programme', label: 'Programme' },
-  { to: '/chantier', label: 'Chantier — débat' },
+  { to: '/chantier', label: 'Chantier' },
 ]
 
 export default function Header() {

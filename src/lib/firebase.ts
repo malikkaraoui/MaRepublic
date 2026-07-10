@@ -30,7 +30,7 @@ let app: FirebaseApp | undefined
 
 /**
  * Renvoie l'instance Firebase (initialisée à la demande), ou `undefined`
- * si la configuration est absente — typiquement en développement local
+ * si la configuration est absente, typiquement en développement local
  * tant que le `.env` n'a pas été rempli.
  */
 export function getFirebaseApp(): FirebaseApp | undefined {

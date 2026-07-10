@@ -29,7 +29,7 @@ export default function Footer() {
         </p>
 
         <p className="site-footer__copy">
-          © {annee} — Document de travail. On ne demande pas aux Français de
+          © {annee}, Document de travail. On ne demande pas aux Français de
           nous croire, mais de nous juger sur pièces.
         </p>
       </div>

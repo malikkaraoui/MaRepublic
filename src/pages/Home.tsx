@@ -42,19 +42,19 @@ const principes = [
 
 const phases = [
   {
-    label: 'Phase 1 — 2026',
+    label: 'Phase 1, 2026',
     titre: 'Structuration',
     texte:
       "Formalisation juridique, noyau fondateur de 50 à 200 citoyens issus du terrain, rédaction des documents par axe, mise en place de l'infrastructure de transparence.",
   },
   {
-    label: 'Phase 2 — 2026–2028',
+    label: 'Phase 2, 2026-2028',
     titre: 'Ancrage local',
     texte:
       "Candidats aux élections municipales et locales. Démonstration par l'action : des résultats mesurables là où le mouvement est présent. La preuve, pas la promesse.",
   },
   {
-    label: 'Phase 3 — 2028 et au-delà',
+    label: 'Phase 3, 2028 et au-delà',
     titre: 'Échelle nationale',
     texte:
       "Dépendra des résultats précédents. On ne prétend pas gouverner la France tant qu'on n'a pas prouvé qu'on peut gérer une commune correctement.",

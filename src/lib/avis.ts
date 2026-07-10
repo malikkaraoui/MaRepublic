@@ -20,7 +20,7 @@ export type AvisPayload =
 
 /**
  * Envoie une réaction à Firestore. Renvoie `false` (sans lever) si Firebase
- * n'est pas configuré ou si l'identité est incomplète — l'appelant a déjà
+ * n'est pas configuré ou si l'identité est incomplète, l'appelant a déjà
  * validé côté UI, ceci est la ceinture de sécurité.
  */
 export async function envoyerAvis(payload: AvisPayload): Promise<boolean> {

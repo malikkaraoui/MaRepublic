@@ -27,7 +27,7 @@ export interface Fiche {
 export interface AxeFiches {
   /** Numéro d'axe extrait du nom de fichier. */
   numero: number
-  /** Titre du document ("Axe 4 — Souveraineté …"). */
+  /** Titre du document ("Axe 4, Souveraineté …"). */
   titre: string
   fiches: Fiche[]
 }

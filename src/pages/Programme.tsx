@@ -10,7 +10,7 @@ export default function Programme() {
         <p className="page-head__kicker">Le programme</p>
         <h1 className="page-head__title">Cinq axes de travail</h1>
         <p className="page-head__intro">
-          En face de chaque constat, une proposition. Pas une promesse — une
+          En face de chaque constat, une proposition. Pas une promesse, une
           direction, chiffrée et évaluable. Chaque axe sera approfondi dans un
           document de travail dédié.
         </p>

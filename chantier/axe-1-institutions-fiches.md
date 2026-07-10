@@ -1,17 +1,17 @@
-# Axe 1 — Institutions / Démocratie · Fiches-mesures
+# Axe 1 : Institutions / Démocratie · Fiches-mesures
 
 > BROUILLON non validé. Tri : ✅ garde · ✂️ jette · ✏️ modifie. Chiffres à sourcer au moment de figer.
 
 ### I1. Référendum d'initiative citoyenne (RIC)
 - **Problème :** on ne vote que tous les 4-5 ans ; aucun moyen pour le peuple d'imposer un sujet.
-- **Ça existe déjà :** 🇨🇭 Suisse — initiatives populaires + votations plusieurs fois/an ; 🇮🇹 référendum abrogatif.
+- **Ça existe déjà :** 🇨🇭 Suisse, initiatives populaires + votations plusieurs fois/an ; 🇮🇹 référendum abrogatif.
 - **Version France :** RIC en toutes matières (proposer, abroger, révoquer) avec seuil de signatures.
 - ⚖️ **À trancher :** seuil de déclenchement ; sujets exclus ou non (impôts, Constitution ?).
 - **Statut :** ⬜
 
 ### I2. Assemblées citoyennes tirées au sort
 - **Problème :** débats confisqués par les partis ; citoyens spectateurs.
-- **Ça existe déjà :** 🇮🇪 Irlande — Citizens' Assembly a débloqué avortement/mariage pour tous via référendums ; 🇧🇪 Belgique (Ostbelgien) a un conseil citoyen **permanent** tiré au sort.
+- **Ça existe déjà :** 🇮🇪 Irlande, Citizens' Assembly a débloqué avortement/mariage pour tous via référendums ; 🇧🇪 Belgique (Ostbelgien) a un conseil citoyen **permanent** tiré au sort.
 - **Version France :** chambre citoyenne tirée au sort qui prépare les grands textes (rôle consultatif fort).
 - ⚖️ **À trancher :** consultatif ou décisionnaire ; permanent ou par sujet.
 - **Statut :** ⬜
@@ -39,14 +39,14 @@
 
 ### I6. Dose de proportionnelle
 - **Problème :** des millions d'électeurs sans député ; Assemblée peu représentative.
-- **Ça existe déjà :** 🇩🇪 Allemagne — scrutin **mixte proportionnel personnalisé**.
+- **Ça existe déjà :** 🇩🇪 Allemagne, scrutin **mixte proportionnel personnalisé**.
 - **Version France :** part de proportionnelle aux législatives pour refléter les voix.
 - ⚖️ **À trancher :** dose (%) ; risque d'instabilité vs représentativité.
 - **Statut :** ⬜
 
 ### I7. Budget participatif national
 - **Problème :** le citoyen ne décide jamais de l'usage de l'argent public.
-- **Ça existe déjà :** 🇧🇷 Porto Alegre (origine) ; 🇵🇹 Portugal — budget participatif **national**.
+- **Ça existe déjà :** 🇧🇷 Porto Alegre (origine) ; 🇵🇹 Portugal, budget participatif **national**.
 - **Version France :** une fraction du budget allouée par vote citoyen (national + local).
 - ⚖️ **À trancher :** part du budget ; échelon.
 - **Statut :** ⬜

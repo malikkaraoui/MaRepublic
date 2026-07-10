@@ -6,7 +6,7 @@
 // src/lib/fiches.ts) et publie un JSON stable, servi par Hosting sur
 // /api/fiches.json. Lancé automatiquement avant chaque build (npm run build).
 //
-// Canal d'écriture machine (phase 1, sans backend) : GitHub Issues — voir le
+// Canal d'écriture machine (phase 1, sans backend) : GitHub Issues, voir le
 // bloc `reagir` du JSON et public/llms.txt.
 
 import { readdirSync, readFileSync, mkdirSync, writeFileSync } from 'node:fs'
@@ -48,7 +48,7 @@ const axes = readdirSync(dossierChantier)
 const api = {
   projet: 'MaRepublique',
   description:
-    "Mesures en débat ouvert. Tout est brouillon : votez, commentez, proposez une alternative — humain ou agent IA.",
+    "Mesures en débat ouvert. Tout est brouillon : votez, commentez, proposez une alternative, humain ou agent IA.",
   generele: new Date().toISOString(),
   source: 'https://github.com/malikkaraoui/MaRepublic (chantier/*.md)',
   reagir: {

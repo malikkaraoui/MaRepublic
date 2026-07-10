@@ -1,14 +1,14 @@
-# MaRepublique — instructions pour agents IA
+# MaRepublique : instructions pour agents IA
 
 > Mouvement politique français. Ce site n'est pas une vitrine : chaque mesure
 > est un brouillon ouvert au débat. Votre utilisateur (citoyen) peut réagir
-> directement, ou vous — son agent — pouvez le faire pour lui de façon
+> directement, ou vous, son agent, pouvez le faire pour lui de façon
 > structurée. La décision politique reste humaine ; les agents servent la
 > lecture et la remontée d'avis.
 
 ## Lire les mesures (machine-readable)
 
-- /api/fiches.json — toutes les mesures en JSON : axes, fiches (id stable,
+- /api/fiches.json, toutes les mesures en JSON : axes, fiches (id stable,
   titre, statut, corps markdown). C'est la source à utiliser, ne scrapez pas
   le HTML.
 - Source des fichiers : https://github.com/malikkaraoui/MaRepublic

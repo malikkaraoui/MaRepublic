@@ -1,8 +1,8 @@
 /* =========================================================================
-   Ma République — feuille de style globale
+   Ma République, feuille de style globale
 
    Parti pris : minimalisme typographique, noir & blanc, aucune couleur de
-   marque. Seule touche colorée : une hairline tricolore en haut de page —
+   marque. Seule touche colorée : une hairline tricolore en haut de page -
    une référence républicaine discrète, jamais un logo. Inter pour l'interface,
    Newsreader pour la lecture longue.
    ========================================================================= */
@@ -18,7 +18,7 @@
   --rule: #e7e7e3;
   --rule-strong: #d6d6d1;
 
-  /* Tricolore — utilisé uniquement pour la hairline et les accents fins. */
+  /* Tricolore, utilisé uniquement pour la hairline et les accents fins. */
   --bleu: #0a3d91;
   --rouge: #c8102e;
 
@@ -749,7 +749,7 @@ button {
 }
 
 /* =========================================================================
-   Prose — rendu Markdown (document fondateur, fiches d'axe)
+   Prose, rendu Markdown (document fondateur, fiches d'axe)
    ========================================================================= */
 .document {
   margin-top: 0.5rem;
@@ -895,7 +895,7 @@ button {
   border-radius: var(--radius);
 }
 
-/* Tableaux GFM — défilables horizontalement sur mobile. */
+/* Tableaux GFM, défilables horizontalement sur mobile. */
 .prose table {
   width: 100%;
   border-collapse: collapse;
@@ -926,7 +926,7 @@ button {
 }
 
 /* =========================================================================
-   Responsive — bascule menu mobile + grilles en colonne unique
+   Responsive, bascule menu mobile + grilles en colonne unique
    ========================================================================= */
 @media (max-width: 720px) {
   .nav-toggle {
@@ -1003,7 +1003,7 @@ button {
 }
 
 /* ------------------------------------------------------------------ */
-/* Page Chantier — fiches-mesures ouvertes au débat                    */
+/* Page Chantier, fiches-mesures ouvertes au débat                    */
 /* ------------------------------------------------------------------ */
 
 .chantier-tabs {
