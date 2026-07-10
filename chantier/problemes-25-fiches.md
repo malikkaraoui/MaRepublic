@@ -3,7 +3,7 @@
 > BROUILLON non validé : quand plus on est riche, moins on paie (en proportion). Documenté, chiffré, avec les pistes pour rétablir la logique.
 
 ### P1. Taux effectif d'imposition régressif des milliardaires (étude IPP 2023)
-- **Le montage/l'aberration (chiffrée, source) :** Les milliardaires français paient ~27% d'impôts effectifs (tous impôts) contre ~50% pour les classes moyennes hautes. Le taux régressif : 46% pour le 0.1% des plus riches, baissant à 26% pour le 0.0002% (milliardaires). Étude IPP notes 92 (juin 2023), données fiscales 2016, https://www.ipp.eu/publication/16253/
+- **Le montage/l'aberration (chiffrée, source) :** Les milliardaires français paient ~27% d'impôts effectifs (tous impôts) contre ~50% pour les classes moyennes hautes. Le taux régressif : 46% pour le 0.1% des plus riches, baissant à 26% pour le 0.0002% (milliardaires). Étude IPP notes 92 (juin 2023, données fiscales 2016) : À ACTUALISER avec données d'impôt 2024-2025 si disponibles. Intervalle 2016-2025 inclut : réforme CSG 2018, modification flat tax dividendes 2019, création taxe holdings 2026, hausses IS. Taux réel 2025 probablement différent. https://www.ipp.eu/publication/16253/
 - **Pourquoi c'est illogique :** La capacité contributive augmente mais l'effort fiscal baisse. Les revenus milliardaires se composent surtout de profits non distribués taxés au taux réduit de l'impôt sur les sociétés (~25%) vs taux progressif IR (45%). Casse le principe de progressivité.
 - **Piste A : Augmenter impôt sur sociétés pour revenus de milliardaires :** Aligner le taux IS sur IR pour ultra-patrimoines. **Pour :** capte revenus non distribués. **Contre :** risque délocalisation, droit UE limitant discrimination.
 - **Piste B : Impôt sur revenus thésaurisés :** Taxer annuellement 20% gains non distribués (à l'instar modèle 2026 sur holdings). **Pour :** force distribution ou paiement impôt. **Contre :** débat constitutionnel, gestion de trésorerie des sociétés.
@@ -33,7 +33,7 @@
 - **Statut :** ⬜
 
 ### P4. Arbitrage dividendes CumCum/CumEx : fraude orchestrée
-- **Le montage/l'aberration (chiffrée, source) :** Banque prête titres avant paiement dividende à investisseur étranger, reprend après. Étranger échappe impôt dividende, banque française échappe retenue à la source. Perte France : ~33 milliards€ depuis 2000s (Mannheim 2021). Quatre grandes banques implicadas (BNP, SG, Natixis, Crédit Agricole Cacib). HSBC 267.5M€ amende janvier 2026. https://www.franceinfo.fr/enquetes-franceinfo/enquete-fraude-aux-cum-cum-13-banques-en-redressement-pour-avoir-soustrait-des-milliards-d-euros-au-fisc_7527754.html
+- **Le montage/l'aberration (chiffrée, source) :** Banque prête titres avant paiement dividende à investisseur étranger, reprend après. Étranger échappe impôt dividende, banque française échappe retenue à la source. Perte France : perte 2000-2020 env 33 Md€ (Mannheim 2021) = moyenne 1,65 Md€/an passé, mais sanctions actives 2018+ (HSBC 267 M€ 2026, BNPP Paribas 2,4 Md€ 2017, etc.). Flux annuel non-stoppé 2023-2025 à quantifier. Quatre grandes banques implicadas (BNP, SG, Natixis, Crédit Agricole Cacib). https://www.franceinfo.fr/enquetes-franceinfo/enquete-fraude-aux-cum-cum-13-banques-en-redressement-pour-avoir-soustrait-des-milliards-d-euros-au-fisc_7527754.html
 - **Pourquoi c'est illogique :** Banques profitent directement montage ; bénéfice client = coût fisc direct. Fraude collective, pas sanctionnée massivement avant 2018-2026. Dure 20 ans = impunité structurelle.
 - **Piste A : Amende doubler sur durée montage (ex 2x bénéfice 20 ans) :** Rehausser dissuasion. **Pour :** effet démonstratif. **Contre :** peut dépasser capacité paiement, UE peut contester.
 - **Piste B : Interdire prêt titres 30j avant/après dividende :** Couper montage in situ. **Pour :** simple, ciblé. **Contre :** complexe à contrôler (prête via intermédiaire offshore).
@@ -61,6 +61,11 @@
 - ⚖️ **Faisabilité juridique :** Supprimer plafond : loi fiscale ordinaire mais CJUE risque (jurisprudence liberté établissement). Abaisser plafond : même. Revoir assiette : loi ordinaire, mais nécessite revoir décrets d'application (complexe).
 - ⚖️ **À trancher :** Accepter cohabitation IFI + remboursement plafond ? Ou clarifier exigibilité impôt ?
 - **Statut :** ⬜
+
+## Notes de révision
+
+- 2026-07-11 : P1 (IPP milliardaires) - Faille rapport économiste : données 2016 périmées de 9 ans, actualisation 2024-2025 demandée, contexte réformes 2018-2026 ajouté.
+- 2026-07-11 : P4 (CumCum/CumEx) - Faille rapport économiste : distinction perte historique 2000-2020 vs flux annuel courant 2023-2025 ajoutée, sanctions 2018+ citées, flux non-stoppé à quantifier.
 
 ### P7. Management packages et carried interest : dissimulation de revenus salariaux
 - **Le montage/l'aberration (chiffrée, source) :** Dirigeants LBO reçoivent parts de carried interest (commission sur gains fonds), taxées 30% (régime Arthuis article 150-0A) vs salaire 45% IR. Permet réduction ~15% d'impôt pour hauts revenus. Carried interest dénommé "parts", donc apparaît investissement non salaire. Montage : minimum 1% au fonds sur 75% gains, 5 ans holding. Coût réel impôt : ~200-500M€/an (à confirmer). https://www.victorisavocat.com/blog/carried-interest-remuneration-gerants-fonds-regime-fiscal
