@@ -1,9 +1,10 @@
 // Les cinq axes du programme.
 //
 // Source : « III. Ce que nous proposons » du document fondateur.
-// Chaque axe peut, à terme, pointer vers un document de travail détaillé
-// (champ `contentKey`). Tant qu'il n'existe pas, la page de l'axe affiche
-// son résumé et ses propositions.
+// Un axe peut pointer vers un document de travail détaillé (champ `contentKey`)
+// une fois celui-ci rédigé ET validé, sur le modèle comparatif de l'Axe 1.
+// Tant qu'il ne l'est pas, la page de l'axe affiche son accroche et ses
+// propositions.
 
 import type { ContentKey } from '../content'
 
@@ -20,7 +21,8 @@ export interface Axe {
   propositions: string[]
   /**
    * Clé d'un document de travail détaillé dans `src/content`.
-   * Présent uniquement pour les axes déjà rédigés (Axe 1).
+   * Renseigné pour les axes dont le document détaillé est rédigé ET validé
+   * (aujourd'hui : Axe 1). Les autres sont en cours de co-rédaction.
    */
   contentKey?: ContentKey
 }

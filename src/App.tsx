@@ -13,6 +13,7 @@ import Home from './pages/Home'
 import Fondateur from './pages/Fondateur'
 import Programme from './pages/Programme'
 import AxeDetail from './pages/AxeDetail'
+import Chantier from './pages/Chantier'
 import NotFound from './pages/NotFound'
 
 export default function App() {
@@ -25,6 +26,7 @@ export default function App() {
           <Route path="fondateur" element={<Fondateur />} />
           <Route path="programme" element={<Programme />} />
           <Route path="programme/:slug" element={<AxeDetail />} />
+          <Route path="chantier" element={<Chantier />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
