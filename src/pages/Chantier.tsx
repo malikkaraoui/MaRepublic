@@ -8,16 +8,67 @@ import { useEffect, useRef, useState } from 'react'
 import Markdown from '../components/Markdown'
 import { axesFiches, type Fiche } from '../lib/fiches'
 import { useReaction } from '../lib/reactions'
+import { useIdentite } from '../lib/identite'
+import { envoyerAvis } from '../lib/avis'
 
-function CarteFiche({ fiche }: { fiche: Fiche }) {
+// Bandeau d'identité : pseudo + email exigés avant toute réaction.
+// Saisis une fois, conservés sur l'appareil ; l'email n'est jamais affiché
+// publiquement (collection Firestore fermée en lecture).
+function BandeauIdentite() {
+  const { identite, definir, valide } = useIdentite()
+
+  return (
+    <section className={`identite${valide ? ' identite--ok' : ''}`} aria-label="Votre identité pour réagir">
+      <p className="identite__intro">
+        {valide
+          ? `Vous réagissez en tant que ${identite.pseudo}.`
+          : 'Pour voter ou commenter, indiquez un pseudo et un email (jamais affiché publiquement).'}
+      </p>
+      <div className="identite__champs">
+        <label className="identite__champ">
+          <span>Pseudo</span>
+          <input
+            type="text"
+            value={identite.pseudo}
+            onChange={(e) => definir({ ...identite, pseudo: e.target.value })}
+            placeholder="ex. Marie72"
+            maxLength={40}
+            autoComplete="nickname"
+          />
+        </label>
+        <label className="identite__champ">
+          <span>Email</span>
+          <input
+            type="email"
+            value={identite.email}
+            onChange={(e) => definir({ ...identite, email: e.target.value })}
+            placeholder="vous@exemple.fr"
+            maxLength={120}
+            autoComplete="email"
+          />
+        </label>
+      </div>
+    </section>
+  )
+}
+
+function CarteFiche({ fiche, identiteValide }: { fiche: Fiche; identiteValide: boolean }) {
   const { reaction, voter, commenter } = useReaction(fiche.id)
   const [ouvert, setOuvert] = useState(false)
   const [mode, setMode] = useState<'commentaire' | 'alternative'>('commentaire')
   const [texte, setTexte] = useState('')
 
+  // Vote : bascule locale + envoi Firestore (sauf annulation d'un vote).
+  const voterEtEnvoyer = (v: 'pour' | 'contre') => {
+    const annulation = reaction.vote === v
+    voter(v)
+    if (!annulation) void envoyerAvis({ ficheId: fiche.id, type: 'vote', vote: v })
+  }
+
   const envoyer = () => {
     if (!texte.trim()) return
     commenter(mode, texte)
+    void envoyerAvis({ ficheId: fiche.id, type: mode, texte: texte.trim() })
     setTexte('')
   }
 
@@ -47,18 +98,20 @@ function CarteFiche({ fiche }: { fiche: Fiche }) {
         <button
           type="button"
           className={`vote vote--pour${reaction.vote === 'pour' ? ' vote--actif' : ''}`}
-          onClick={() => voter('pour')}
+          onClick={() => voterEtEnvoyer('pour')}
           aria-pressed={reaction.vote === 'pour'}
-          title="Pour cette mesure"
+          disabled={!identiteValide}
+          title={identiteValide ? 'Pour cette mesure' : 'Renseignez pseudo et email en haut de page'}
         >
           <span aria-hidden="true">👍</span> Pour
         </button>
         <button
           type="button"
           className={`vote vote--contre${reaction.vote === 'contre' ? ' vote--actif' : ''}`}
-          onClick={() => voter('contre')}
+          onClick={() => voterEtEnvoyer('contre')}
           aria-pressed={reaction.vote === 'contre'}
-          title="Contre cette mesure"
+          disabled={!identiteValide}
+          title={identiteValide ? 'Contre cette mesure' : 'Renseignez pseudo et email en haut de page'}
         >
           <span aria-hidden="true">👎</span> Contre
         </button>
@@ -111,8 +164,8 @@ function CarteFiche({ fiche }: { fiche: Fiche }) {
             type="button"
             className="fiche__submit"
             onClick={envoyer}
-            disabled={!texte.trim()}
-            title="Envoyer votre contribution"
+            disabled={!texte.trim() || !identiteValide}
+            title={identiteValide ? 'Envoyer votre contribution' : 'Renseignez pseudo et email en haut de page'}
           >
             Envoyer
           </button>
@@ -138,6 +191,7 @@ function CarteFiche({ fiche }: { fiche: Fiche }) {
 export default function Chantier() {
   const [axeActif, setAxeActif] = useState(axesFiches[0]?.numero ?? 1)
   const scrollContainerRef = useRef<HTMLDivElement>(null)
+  const { valide } = useIdentite()
 
   const axe = axesFiches.find((a) => a.numero === axeActif)
 
@@ -166,6 +220,8 @@ export default function Chantier() {
           proposez mieux. C'est votre république.
         </p>
       </section>
+
+      <BandeauIdentite />
 
       <nav className="chantier-tabs-wrapper" aria-label="Axes du chantier">
         <div className="chantier-tabs-container" ref={scrollContainerRef}>
@@ -219,7 +275,7 @@ export default function Chantier() {
       {axe && (
         <section className="chantier-liste">
           {axe.fiches.map((f) => (
-            <CarteFiche key={f.id} fiche={f} />
+            <CarteFiche key={f.id} fiche={f} identiteValide={valide} />
           ))}
         </section>
       )}

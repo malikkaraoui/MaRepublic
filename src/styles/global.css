@@ -1492,3 +1492,53 @@ button {
   flex: 1;
   color: var(--ink-soft);
 }
+
+/* Bandeau d'identité du chantier : pseudo + email requis pour réagir */
+
+.identite {
+  border: 1px solid var(--rule-strong);
+  border-left: 3px solid var(--rouge);
+  border-radius: 0.5rem;
+  padding: 0.9rem 1.1rem;
+  margin: 1.2rem 0 0.4rem;
+  background: var(--paper-alt);
+}
+
+.identite--ok {
+  border-left-color: #2d7a2d;
+}
+
+.identite__intro {
+  margin: 0 0 0.6rem;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+
+.identite__champs {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.identite__champ {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  flex: 1 1 12rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.identite__champ input {
+  font: inherit;
+  font-size: 0.95rem;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 0.4rem;
+  min-height: 44px;
+}
+
+.identite__champ input:focus-visible {
+  outline: 2px solid var(--bleu);
+  outline-offset: 1px;
+}

@@ -52,6 +52,11 @@ const api = {
   generele: new Date().toISOString(),
   source: 'https://github.com/malikkaraoui/MaRepublic (chantier/*.md)',
   reagir: {
+    canalPrincipal: {
+      type: 'Firestore REST (écriture directe, sans compte)',
+      documentation: 'https://marepublique-2027.web.app/llms.txt',
+      champsObligatoires: ['ficheId', 'type', 'pseudo', 'email'],
+    },
     canal: 'GitHub Issues',
     url: 'https://api.github.com/repos/malikkaraoui/MaRepublic/issues',
     documentation: 'https://marepublique-2027.web.app/llms.txt',

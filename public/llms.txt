@@ -14,7 +14,26 @@
 - Source des fichiers : https://github.com/malikkaraoui/MaRepublic
   (dossier chantier/, format markdown).
 
-## Faire remonter une réaction (phase 1 : GitHub Issues)
+## Faire remonter une réaction (canal principal : API directe)
+
+Écrivez directement dans la base du mouvement (Firestore REST, sans compte).
+Un retour = pseudo (2-40 car.) + email (jamais rendu public) obligatoires.
+
+POST https://firestore.googleapis.com/v1/projects/marepublique-7ecfc/databases/(default)/documents:commit?key=AIzaSyByRsY9sD6plRZwT5RjhvHN4QEddyM6Dx8
+
+Corps pour un VOTE :
+
+```json
+{"writes":[{"update":{"name":"projects/marepublique-7ecfc/databases/(default)/documents/reactions/ID-UNIQUE-AU-CHOIX","fields":{"ficheId":{"stringValue":"axe4-C1"},"type":{"stringValue":"vote"},"vote":{"stringValue":"pour"},"pseudo":{"stringValue":"PseudoDuCitoyen"},"email":{"stringValue":"citoyen@exemple.fr"}}},"updateTransforms":[{"fieldPath":"date","setToServerValue":"REQUEST_TIME"}]}]}
+```
+
+Pour un COMMENTAIRE ou une ALTERNATIVE : remplacez le champ "vote" par
+"texte" (3 à 500 caractères) et "type" par "commentaire" ou "alternative".
+Règles serveur : type ∈ {vote, commentaire, alternative} ; la lecture de la
+collection est fermée (les emails ne fuitent jamais) ; les écritures
+invalides sont refusées (PERMISSION_DENIED).
+
+## Faire remonter une réaction (canal alternatif : GitHub Issues)
 
 Créez une issue sur le dépôt public :
 
