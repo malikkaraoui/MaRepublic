@@ -1542,3 +1542,73 @@ button {
   outline: 2px solid var(--bleu);
   outline-offset: 1px;
 }
+
+/* Sommaire du chantier : listing clair des axes et groupes de travail */
+
+.sommaire {
+  display: grid;
+  gap: 2rem;
+  margin: 1.5rem 0 3rem;
+}
+
+.sommaire h2 {
+  font-size: 1.25rem;
+  margin: 0 0 0.2rem;
+}
+
+.sommaire__note {
+  margin: 0 0 0.9rem;
+  font-size: 0.92rem;
+  color: var(--muted);
+}
+
+.sommaire__grille {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 0.7rem;
+}
+
+.sommaire__carte {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: var(--ink);
+  background: var(--paper);
+  min-height: 44px;
+  transition: border-color 160ms ease, background 160ms ease;
+}
+
+.sommaire__carte:hover,
+.sommaire__carte:focus-visible {
+  border-color: var(--bleu);
+  background: var(--paper-alt);
+}
+
+.sommaire__theme {
+  font-weight: 600;
+  font-size: 0.98rem;
+}
+
+.sommaire__compte {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.chantier-retour {
+  margin: 1rem 0 0;
+  font-size: 0.9rem;
+}
+
+.chantier-retour a {
+  color: var(--bleu);
+  text-decoration: none;
+}
+
+.chantier-retour a:hover {
+  text-decoration: underline;
+}

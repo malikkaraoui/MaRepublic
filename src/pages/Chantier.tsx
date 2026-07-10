@@ -5,7 +5,7 @@
 // Rien ici n'est une position figée du mouvement : c'est la matière à débat.
 
 import { useEffect, useRef, useState } from 'react'
-import { useNavigate, useParams } from 'react-router-dom'
+import { Link, useNavigate, useParams } from 'react-router-dom'
 import Markdown from '../components/Markdown'
 import { axesFiches, type Fiche } from '../lib/fiches'
 import { useReaction } from '../lib/reactions'
@@ -201,13 +201,45 @@ function numeroDeSlug(slug: string | undefined): number | undefined {
   return undefined
 }
 
+// Sommaire du chantier : tous les axes et groupes de travail, en clair.
+function Sommaire() {
+  const programme = axesFiches.filter((a) => a.numero <= 5)
+  const problemes = axesFiches.filter((a) => a.numero > 5)
+
+  const carte = (a: (typeof axesFiches)[number]) => (
+    <Link key={a.numero} to={`/chantier/${slugDeNumero(a.numero)}`} className="sommaire__carte">
+      <span className="sommaire__theme">
+        {a.numero <= 5 ? `Axe ${a.numero} : ${a.theme}` : a.theme}
+      </span>
+      <span className="sommaire__compte">{a.fiches.length} fiches</span>
+    </Link>
+  )
+
+  return (
+    <div className="sommaire">
+      <section aria-labelledby="sommaire-programme">
+        <h2 id="sommaire-programme">Le programme : 5 axes de travail</h2>
+        <p className="sommaire__note">Les mesures que le mouvement propose, importées de pays où elles fonctionnent.</p>
+        <div className="sommaire__grille">{programme.map(carte)}</div>
+      </section>
+      <section aria-labelledby="sommaire-problemes">
+        <h2 id="sommaire-problemes">Les problèmes : {problemes.length} groupes de travail</h2>
+        <p className="sommaire__note">
+          Les problèmes réels de la France (2016-2026), documentés et sourcés, avec plusieurs pistes chacun : à vous de juger.
+        </p>
+        <div className="sommaire__grille">{problemes.map(carte)}</div>
+      </section>
+    </div>
+  )
+}
+
 export default function Chantier() {
   const { onglet } = useParams()
   const navigate = useNavigate()
   const scrollContainerRef = useRef<HTMLDivElement>(null)
   const { valide } = useIdentite()
 
-  const axeActif = numeroDeSlug(onglet) ?? axesFiches[0]?.numero ?? 1
+  const axeActif = numeroDeSlug(onglet) ?? 0
   const setAxeActif = (n: number) => navigate(`/chantier/${slugDeNumero(n)}`)
 
   const axe = axesFiches.find((a) => a.numero === axeActif)
@@ -237,6 +269,14 @@ export default function Chantier() {
           proposez mieux. C'est votre république.
         </p>
       </section>
+
+      {axeActif === 0 && <Sommaire />}
+
+      {axeActif !== 0 && (
+        <>
+      <p className="chantier-retour">
+        <Link to="/chantier">← Tous les sujets du chantier</Link>
+      </p>
 
       <BandeauIdentite />
 
@@ -297,6 +337,8 @@ export default function Chantier() {
             <CarteFiche key={f.id} fiche={f} identiteValide={valide} />
           ))}
         </section>
+      )}
+        </>
       )}
     </div>
   )
