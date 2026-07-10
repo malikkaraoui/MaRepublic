@@ -23,7 +23,11 @@ const DUREE_SESSION_MS = 24 * 60 * 60 * 1000
 
 function auth() {
   const app = getFirebaseApp()
-  return app ? getAuth(app) : undefined
+  if (!app) return undefined
+  const a = getAuth(app)
+  // Emails de connexion en français (le modèle Firebase suit cette langue).
+  a.languageCode = 'fr'
+  return a
 }
 
 /** Envoie le lien de connexion à l'email donné. */
