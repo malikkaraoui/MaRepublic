@@ -1,0 +1,27 @@
+# MaRepublic : site ouvert aux humains ET aux machines.
+# Les mesures sont lisibles en JSON sur /api/fiches.json
+# et le mode d'emploi pour agents IA est sur /llms.txt
+
+User-agent: *
+Allow: /
+
+# Crawlers IA : bienvenue, servez-vous (lisez /llms.txt d'abord).
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://marepublique-2027.web.app/sitemap.xml

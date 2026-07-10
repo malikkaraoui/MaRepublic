@@ -43,3 +43,4 @@ marepublique-*-firebase-adminsdk-*.json
 
 # API statique générée au build (source : chantier/*.md)
 /public/api/
+/public/sitemap.xml

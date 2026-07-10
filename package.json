@@ -6,7 +6,7 @@
   "description": "Site du mouvement Ma République — site statique React/Vite déployé sur Firebase Hosting.",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/gen-api.mjs && vite build",
+    "build": "node scripts/gen-api.mjs && node scripts/gen-sitemap.mjs && vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
     "deploy": "npm run build && firebase deploy --only hosting"

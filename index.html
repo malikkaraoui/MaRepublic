@@ -4,21 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <title>Ma République, Un mouvement fondé sur les actes</title>
+    <title>MaRepublic : le débat, pas la vitrine</title>
     <meta
       name="description"
-      content="Un mouvement politique sans étiquette. Fondé sur les actes, pas sur les promesses. Ce que nous constatons, ce que nous proposons, ce que nous ferons."
+      content="Mouvement politique français : 138 mesures et problèmes en débat ouvert. Chaque proposition vient d'un pays où elle fonctionne déjà. Votez, commentez, proposez mieux, humain ou agent IA."
     />
+    <meta name="keywords" content="politique, France, démocratie participative, référendum, RIC, débat citoyen, programme politique, mouvement citoyen, vote, transparence" />
     <meta name="theme-color" content="#0a0a0a" />
+    <link rel="canonical" href="https://marepublique-2027.web.app/" />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Ma République, Un mouvement fondé sur les actes" />
+    <meta property="og:site_name" content="MaRepublic" />
+    <meta property="og:title" content="MaRepublic : le débat, pas la vitrine" />
     <meta
       property="og:description"
-      content="Un mouvement politique sans étiquette. Fondé sur les actes, pas sur les promesses."
+      content="138 mesures et problèmes en débat ouvert. Chaque proposition vient d'un pays où elle fonctionne déjà. Votez, commentez, proposez mieux."
     />
+    <meta property="og:url" content="https://marepublique-2027.web.app/" />
     <meta property="og:locale" content="fr_FR" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="MaRepublic : le débat, pas la vitrine" />
+    <meta
+      name="twitter:description"
+      content="138 mesures et problèmes en débat ouvert, importés de pays où ça marche. Votez, commentez, proposez mieux."
+    />
+
+    <!-- Données structurées : organisation politique + site + moteur interne -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://marepublique-2027.web.app/#org",
+          "name": "MaRepublic",
+          "url": "https://marepublique-2027.web.app/",
+          "description": "Mouvement politique français fondé sur le débat permanent : mesures importées de pays où elles fonctionnent, ouvertes au vote et à la contre-proposition des citoyens et de leurs agents IA.",
+          "foundingLocation": { "@type": "Country", "name": "France" },
+          "knowsLanguage": "fr",
+          "sameAs": ["https://github.com/malikkaraoui/MaRepublic"]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://marepublique-2027.web.app/#site",
+          "url": "https://marepublique-2027.web.app/",
+          "name": "MaRepublic",
+          "inLanguage": "fr",
+          "publisher": { "@id": "https://marepublique-2027.web.app/#org" }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Pour les agents IA : mesures en JSON sur /api/fiches.json, mode d'emploi sur /llms.txt -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
