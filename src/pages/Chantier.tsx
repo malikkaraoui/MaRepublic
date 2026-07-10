@@ -331,6 +331,10 @@ export default function Chantier() {
   const axeActif = numeroDeSlug(onglet) ?? 0
   const setAxeActif = (n: number) => navigate(`/chantier/${slugDeNumero(n)}`)
 
+  // Filtres façon issues GitHub : par statut + recherche plein texte.
+  const [filtreStatut, setFiltreStatut] = useState<StatutFiche | 'tous'>('tous')
+  const [recherche, setRecherche] = useState('')
+
   const axe = axesFiches.find((a) => a.numero === axeActif)
 
   const programme = axesFiches.filter((a) => a.numero <= 5)
@@ -421,11 +425,48 @@ export default function Chantier() {
       </nav>
 
       {axe && (
-        <section className="chantier-liste">
-          {axe.fiches.map((f) => (
-            <CarteFiche key={f.id} fiche={f} identiteValide={valide} />
-          ))}
-        </section>
+        <>
+          <div className="filtres" role="search">
+            <input
+              type="search"
+              className="filtres__recherche"
+              placeholder="Filtrer les fiches (mot-clé...)"
+              aria-label="Rechercher dans les fiches de ce sujet"
+              value={recherche}
+              onChange={(e) => setRecherche(e.target.value)}
+            />
+            <div className="filtres__statuts">
+              {(
+                [
+                  { cle: 'tous' as const, libelle: 'Toutes' },
+                  ...STATUTS_UI.map((s) => ({ cle: s.cle, libelle: s.libelle })),
+                ]
+              ).map((s) => (
+                <button
+                  key={s.cle}
+                  type="button"
+                  className={`filtres__chip${filtreStatut === s.cle ? ' filtres__chip--actif' : ''}`}
+                  onClick={() => setFiltreStatut(s.cle)}
+                  aria-pressed={filtreStatut === s.cle}
+                >
+                  {s.libelle}
+                </button>
+              ))}
+            </div>
+          </div>
+          <section className="chantier-liste">
+            {axe.fiches
+              .filter((f) => filtreStatut === 'tous' || f.statut === filtreStatut)
+              .filter(
+                (f) =>
+                  !recherche.trim() ||
+                  (f.titre + ' ' + f.corps).toLowerCase().includes(recherche.trim().toLowerCase()),
+              )
+              .map((f) => (
+                <CarteFiche key={f.id} fiche={f} identiteValide={valide} />
+              ))}
+          </section>
+        </>
       )}
         </>
       )}

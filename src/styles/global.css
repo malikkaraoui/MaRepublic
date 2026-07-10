@@ -1715,3 +1715,48 @@ button {
   max-width: var(--reading-max);
   margin-bottom: 2rem;
 }
+
+/* Filtres des fiches (statut + recherche), façon issues GitHub */
+
+.filtres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+  margin: 1rem 0 0.2rem;
+}
+
+.filtres__recherche {
+  font: inherit;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 0.4rem;
+  flex: 1 1 14rem;
+  min-height: 44px;
+}
+
+.filtres__statuts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.filtres__chip {
+  font: inherit;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  padding: 0.45rem 0.8rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--ink-soft);
+  cursor: pointer;
+  min-height: 36px;
+}
+
+.filtres__chip--actif {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
