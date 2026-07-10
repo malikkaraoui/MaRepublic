@@ -55,7 +55,11 @@ export default function Header() {
                 `site-nav__link${isActive ? ' site-nav__link--active' : ''}`
               }
             >
-              {link.label}
+              {({ isActive }) => (
+                <span aria-current={isActive ? 'page' : undefined}>
+                  {link.label}
+                </span>
+              )}
             </NavLink>
           ))}
         </nav>

@@ -51,7 +51,7 @@ function CarteFiche({ fiche }: { fiche: Fiche }) {
           aria-pressed={reaction.vote === 'pour'}
           title="Pour cette mesure"
         >
-          👍 Pour
+          <span aria-hidden="true">👍</span> Pour
         </button>
         <button
           type="button"
@@ -60,7 +60,7 @@ function CarteFiche({ fiche }: { fiche: Fiche }) {
           aria-pressed={reaction.vote === 'contre'}
           title="Contre cette mesure"
         >
-          👎 Contre
+          <span aria-hidden="true">👎</span> Contre
         </button>
         <div className="fiche__mode-group">
           <button
@@ -69,7 +69,7 @@ function CarteFiche({ fiche }: { fiche: Fiche }) {
             onClick={() => setMode('commentaire')}
             title="Ajouter un commentaire"
           >
-            💬 Commenter
+            <span aria-hidden="true">💬</span> Commenter
           </button>
           <button
             type="button"
@@ -77,13 +77,17 @@ function CarteFiche({ fiche }: { fiche: Fiche }) {
             onClick={() => setMode('alternative')}
             title="Proposer une alternative"
           >
-            💡 Alternative
+            <span aria-hidden="true">💡</span> Alternative
           </button>
         </div>
       </div>
 
       <div className="fiche__saisie">
+        <label htmlFor={`textarea-${fiche.id}`} className="visually-hidden">
+          {mode === 'commentaire' ? 'Votre commentaire' : 'Votre contre-proposition'}
+        </label>
         <textarea
+          id={`textarea-${fiche.id}`}
           value={texte}
           onChange={(e) => {
             if (e.target.value.length <= maxLength) {
@@ -97,9 +101,10 @@ function CarteFiche({ fiche }: { fiche: Fiche }) {
           }
           maxLength={maxLength}
           className="fiche__textarea"
+          aria-label={mode === 'commentaire' ? 'Votre commentaire' : 'Votre contre-proposition'}
         />
         <div className="fiche__saisie-footer">
-          <span className="fiche__counter">
+          <span className="fiche__counter" aria-live="polite" aria-atomic="true">
             {textCount}/{maxLength}
           </span>
           <button
@@ -175,6 +180,7 @@ export default function Chantier() {
                   className={`chantier-tab${a.numero === axeActif ? ' chantier-tab--actif' : ''}`}
                   onClick={() => setAxeActif(a.numero)}
                   title={a.titre}
+                  aria-current={a.numero === axeActif ? 'true' : undefined}
                 >
                   <span className="chantier-tab__label">Axe {a.numero}</span>
                   {a.fiches.length > 0 && (
@@ -196,6 +202,7 @@ export default function Chantier() {
               className={`chantier-tab${a.numero === axeActif ? ' chantier-tab--actif' : ''}`}
               onClick={() => setAxeActif(a.numero)}
               title={a.titre}
+              aria-current={a.numero === axeActif ? 'true' : undefined}
             >
               <span className="chantier-tab__label">Problèmes {a.numero - 99}</span>
               {a.fiches.length > 0 && (

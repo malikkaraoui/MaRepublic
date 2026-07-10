@@ -21,6 +21,7 @@ export default function Footer() {
         <nav className="site-footer__nav" aria-label="Navigation de pied de page">
           <Link to="/fondateur">Document fondateur</Link>
           <Link to="/programme">Programme</Link>
+          <Link to="/accessibilite">Accessibilite</Link>
         </nav>
 
         <p className="site-footer__meta">

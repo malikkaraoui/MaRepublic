@@ -1,9 +1,11 @@
-// Définition des routes du site.
+// Definition des routes du site.
 //
 //   /                    Accueil
-//   /fondateur           Document fondateur (Markdown intégral)
+//   /fondateur           Document fondateur (Markdown integral)
 //   /programme           Liste des cinq axes
-//   /programme/:slug     Détail d'un axe
+//   /programme/:slug     Detail d'un axe
+//   /chantier            Chantier, debat ouvert
+//   /accessibilite       Declaration d'accessibilite
 //   *                    404
 
 import { Route, Routes } from 'react-router-dom'
@@ -14,6 +16,7 @@ import Fondateur from './pages/Fondateur'
 import Programme from './pages/Programme'
 import AxeDetail from './pages/AxeDetail'
 import Chantier from './pages/Chantier'
+import Accessibilite from './pages/Accessibilite'
 import NotFound from './pages/NotFound'
 
 export default function App() {
@@ -27,6 +30,7 @@ export default function App() {
           <Route path="programme" element={<Programme />} />
           <Route path="programme/:slug" element={<AxeDetail />} />
           <Route path="chantier" element={<Chantier />} />
+          <Route path="accessibilite" element={<Accessibilite />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

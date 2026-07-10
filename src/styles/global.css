@@ -11,8 +11,8 @@
 :root {
   --ink: #0a0a0a;
   --ink-soft: #1f1f1f;
-  --muted: #595959;
-  --faint: #8a8a8a;
+  --muted: #404040;
+  --faint: #595959;
   --paper: #ffffff;
   --paper-alt: #f6f6f4;
   --rule: #e7e7e3;
@@ -95,6 +95,18 @@ button {
 .skip-link:focus {
   left: 0.5rem;
   top: 0.5rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
 }
 
 :focus-visible {
@@ -1318,16 +1330,16 @@ button {
 }
 
 .vote--pour.vote--actif {
-  background: #d8f0d8;
-  border-color: #2d6d2d;
-  color: #1a3a1a;
+  background: #e8f5e9;
+  border-color: #1b5e20;
+  color: #0d3817;
   font-weight: 600;
 }
 
 .vote--contre.vote--actif {
-  background: #fad8dc;
-  border-color: #a00620;
-  color: #6b0419;
+  background: #ffebee;
+  border-color: #b71c1c;
+  color: #5f0a0a;
   font-weight: 600;
 }
 
