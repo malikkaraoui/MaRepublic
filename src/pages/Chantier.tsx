@@ -11,20 +11,45 @@ import { axesFiches, type Fiche, type StatutFiche } from '../lib/fiches'
 import { useReaction } from '../lib/reactions'
 import { useIdentite } from '../lib/identite'
 import { envoyerAvis } from '../lib/avis'
+import { envoyerLien, seDeconnecter, useUtilisateur } from '../lib/auth'
 
 // Bandeau d'identité : pseudo + email exigés avant toute réaction.
 // Saisis une fois, conservés sur l'appareil ; l'email n'est jamais affiché
 // publiquement (collection Firestore fermée en lecture).
-function BandeauIdentite() {
-  const { identite, definir, valide } = useIdentite()
+function BandeauIdentite({ connecte }: { connecte: boolean }) {
+  const { identite, definir } = useIdentite()
+  const [envoi, setEnvoi] = useState<'' | 'encours' | 'envoye' | 'erreur'>('')
+
+  const demanderLien = async () => {
+    if (!/.+@.+\..+/.test(identite.email.trim())) {
+      setEnvoi('erreur')
+      return
+    }
+    setEnvoi('encours')
+    const ok = await envoyerLien(identite.email)
+    setEnvoi(ok ? 'envoye' : 'erreur')
+  }
 
   return (
-    <section className={`identite${valide ? ' identite--ok' : ''}`} aria-label="Votre identité pour réagir">
-      <p className="identite__intro">
-        {valide
-          ? `Vous réagissez en tant que ${identite.pseudo}.`
-          : 'Pour voter ou commenter, indiquez un pseudo et un email (jamais affiché publiquement).'}
-      </p>
+    <section
+      className={`identite${connecte ? ' identite--ok' : ''}`}
+      aria-label="Votre identité pour réagir"
+    >
+      {connecte ? (
+        <p className="identite__intro">
+          ✓ Email vérifié. Vous réagissez en tant que{' '}
+          <strong>{identite.pseudo || 'anonyme (choisissez un pseudo)'}</strong>.{' '}
+          <button type="button" className="identite__lien" onClick={() => void seDeconnecter()}>
+            Se déconnecter
+          </button>
+        </p>
+      ) : (
+        <p className="identite__intro">
+          Pour voter ou commenter : pseudo + email. Vous recevrez un{' '}
+          <strong>lien de connexion</strong> (aucun mot de passe, valable 24 h
+          sur cet appareil). L'email n'est jamais affiché publiquement.
+        </p>
+      )}
       <div className="identite__champs">
         <label className="identite__champ">
           <span>Pseudo</span>
@@ -37,18 +62,40 @@ function BandeauIdentite() {
             autoComplete="nickname"
           />
         </label>
-        <label className="identite__champ">
-          <span>Email</span>
-          <input
-            type="email"
-            value={identite.email}
-            onChange={(e) => definir({ ...identite, email: e.target.value })}
-            placeholder="vous@exemple.fr"
-            maxLength={120}
-            autoComplete="email"
-          />
-        </label>
+        {!connecte && (
+          <>
+            <label className="identite__champ">
+              <span>Email</span>
+              <input
+                type="email"
+                value={identite.email}
+                onChange={(e) => definir({ ...identite, email: e.target.value })}
+                placeholder="vous@exemple.fr"
+                maxLength={120}
+                autoComplete="email"
+              />
+            </label>
+            <button
+              type="button"
+              className="identite__bouton"
+              onClick={() => void demanderLien()}
+              disabled={envoi === 'encours'}
+            >
+              {envoi === 'encours' ? 'Envoi...' : 'Recevoir mon lien'}
+            </button>
+          </>
+        )}
       </div>
+      {envoi === 'envoye' && !connecte && (
+        <p className="identite__info" aria-live="polite">
+          📬 Lien envoyé ! Ouvrez l'email et cliquez le lien : vous serez connecté.
+        </p>
+      )}
+      {envoi === 'erreur' && (
+        <p className="identite__info identite__info--erreur" aria-live="polite">
+          L'envoi a échoué. Vérifiez l'adresse et réessayez.
+        </p>
+      )}
     </section>
   )
 }
@@ -344,7 +391,10 @@ export default function Chantier() {
   const { onglet } = useParams()
   const navigate = useNavigate()
   const scrollContainerRef = useRef<HTMLDivElement>(null)
-  const { valide } = useIdentite()
+  const utilisateur = useUtilisateur()
+  const { identite } = useIdentite()
+  // Réagir exige un email PROUVÉ (connexion par lien) + un pseudo.
+  const valide = Boolean(utilisateur) && identite.pseudo.trim().length >= 2
 
   const axeActif = numeroDeSlug(onglet) ?? 0
   const setAxeActif = (n: number) => navigate(`/chantier/${slugDeNumero(n)}`)
@@ -389,7 +439,7 @@ export default function Chantier() {
         <Link to="/chantier">← Tous les sujets du chantier</Link>
       </p>
 
-      <BandeauIdentite />
+      <BandeauIdentite connecte={Boolean(utilisateur)} />
 
       <nav className="chantier-tabs-wrapper" aria-label="Axes du chantier">
         <div className="chantier-tabs-container" ref={scrollContainerRef}>

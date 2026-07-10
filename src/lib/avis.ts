@@ -13,6 +13,7 @@ import {
   setDoc,
   serverTimestamp,
 } from 'firebase/firestore'
+import { getAuth } from 'firebase/auth'
 import { getFirebaseApp } from './firebase'
 import { identiteCourante, identiteValide } from './identite'
 
@@ -27,21 +28,25 @@ export type AvisPayload =
  */
 export async function envoyerAvis(payload: AvisPayload): Promise<boolean> {
   const app = getFirebaseApp()
+  if (!app) return false
   const identite = identiteCourante()
-  if (!app || !identiteValide(identite)) return false
+  // Email prouvé par la connexion par lien quand elle existe.
+  const emailVerifie = getAuth(app).currentUser?.email
+  const pseudoOk = identite.pseudo.trim().length >= 2
+  if (!(emailVerifie ? pseudoOk : identiteValide(identite))) return false
 
   try {
     const db = getFirestore(app)
     const donnees = {
       ...payload,
       pseudo: identite.pseudo.trim(),
-      email: identite.email.trim(),
+      email: (emailVerifie ?? identite.email).trim(),
       canal: 'site',
       date: serverTimestamp(),
     }
     if (payload.type === 'vote') {
       // Identifiant imposé par les règles : 1 email = 1 vote par fiche.
-      const id = `v_${payload.ficheId}_${identite.email.trim()}`
+      const id = `v_${payload.ficheId}_${(emailVerifie ?? identite.email).trim()}`
       await setDoc(doc(db, 'reactions', id), donnees)
     } else {
       await addDoc(collection(db, 'reactions'), donnees)

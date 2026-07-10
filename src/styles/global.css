@@ -1803,3 +1803,45 @@ body {
   outline-offset: 2px;
   transition: outline 150ms ease;
 }
+
+/* Bandeau identité : connexion par lien email */
+
+.identite__bouton {
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.55rem 1rem;
+  border: 1px solid var(--ink);
+  border-radius: 0.4rem;
+  background: var(--ink);
+  color: var(--paper);
+  cursor: pointer;
+  align-self: flex-end;
+  min-height: 44px;
+}
+
+.identite__bouton:disabled {
+  opacity: 0.6;
+}
+
+.identite__lien {
+  font: inherit;
+  font-size: 0.85rem;
+  border: none;
+  background: none;
+  color: var(--bleu);
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+}
+
+.identite__info {
+  margin: 0.6rem 0 0;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #2d7a2d;
+}
+
+.identite__info--erreur {
+  color: var(--rouge);
+}
