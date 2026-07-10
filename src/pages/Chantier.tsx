@@ -5,6 +5,7 @@
 // Rien ici n'est une position figée du mouvement : c'est la matière à débat.
 
 import { useEffect, useRef, useState } from 'react'
+import { useNavigate, useParams } from 'react-router-dom'
 import Markdown from '../components/Markdown'
 import { axesFiches, type Fiche } from '../lib/fiches'
 import { useReaction } from '../lib/reactions'
@@ -188,10 +189,26 @@ function CarteFiche({ fiche, identiteValide }: { fiche: Fiche; identiteValide: b
   )
 }
 
+// L'onglet actif vit dans l'URL (/chantier/axe-4, /chantier/problemes-13) :
+// chaque vue est partageable et le bouton retour du navigateur fonctionne.
+const slugDeNumero = (n: number) => (n <= 5 ? `axe-${n}` : `problemes-${n - 100}`)
+
+function numeroDeSlug(slug: string | undefined): number | undefined {
+  const axe = slug?.match(/^axe-(\d+)$/)
+  if (axe) return Number(axe[1])
+  const pb = slug?.match(/^problemes-(\d+)$/)
+  if (pb) return 100 + Number(pb[1])
+  return undefined
+}
+
 export default function Chantier() {
-  const [axeActif, setAxeActif] = useState(axesFiches[0]?.numero ?? 1)
+  const { onglet } = useParams()
+  const navigate = useNavigate()
   const scrollContainerRef = useRef<HTMLDivElement>(null)
   const { valide } = useIdentite()
+
+  const axeActif = numeroDeSlug(onglet) ?? axesFiches[0]?.numero ?? 1
+  const setAxeActif = (n: number) => navigate(`/chantier/${slugDeNumero(n)}`)
 
   const axe = axesFiches.find((a) => a.numero === axeActif)
 
@@ -260,7 +277,7 @@ export default function Chantier() {
               title={a.titre}
               aria-current={a.numero === axeActif ? 'true' : undefined}
             >
-              <span className="chantier-tab__label">Problèmes {a.numero - 99}</span>
+              <span className="chantier-tab__label">Problèmes {a.numero - 100}</span>
               {a.fiches.length > 0 && (
                 <span className="chantier-tab__badge" aria-label={`${a.fiches.length} fiches`}>
                   {a.fiches.length}

@@ -29,7 +29,7 @@ export default function App() {
           <Route path="fondateur" element={<Fondateur />} />
           <Route path="programme" element={<Programme />} />
           <Route path="programme/:slug" element={<AxeDetail />} />
-          <Route path="chantier" element={<Chantier />} />
+          <Route path="chantier/:onglet?" element={<Chantier />} />
           <Route path="accessibilite" element={<Accessibilite />} />
           <Route path="*" element={<NotFound />} />
         </Route>

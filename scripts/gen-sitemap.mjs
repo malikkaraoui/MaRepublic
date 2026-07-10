@@ -4,7 +4,7 @@
 // modification est celle du build : le contenu vit dans le repo, chaque
 // déploiement correspond à une vraie mise à jour du site.
 
-import { writeFileSync } from 'node:fs'
+import { readdirSync, writeFileSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -19,6 +19,11 @@ const routes = [
   ...['institutions', 'services-publics', 'fiscalite', 'souverainete', 'ecologie'].map(
     (slug) => ({ path: `/programme/${slug}`, priorite: '0.8', freq: 'weekly' }),
   ),
+  // Un onglet du chantier par fichier de fiches (axe-N, problemes-N).
+  ...readdirSync(join(racine, 'chantier'))
+    .map((f) => f.match(/^(axe-\d+|problemes-\d+).*-fiches\.md$/)?.[1])
+    .filter(Boolean)
+    .map((slug) => ({ path: `/chantier/${slug}`, priorite: '0.7', freq: 'weekly' })),
 ]
 
 const jour = new Date().toISOString().slice(0, 10)

@@ -57,7 +57,9 @@ export default function Seo() {
   const { pathname } = useLocation()
 
   useEffect(() => {
-    const meta = METAS[pathname] ?? METAS['/']
+    const meta =
+      METAS[pathname] ??
+      (pathname.startsWith('/chantier') ? METAS['/chantier'] : METAS['/'])
     document.title = meta.titre
     poserMeta('name', 'description', meta.description)
     poserMeta('property', 'og:title', meta.titre)
