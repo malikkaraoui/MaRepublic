@@ -1612,3 +1612,67 @@ button {
 .chantier-retour a:hover {
   text-decoration: underline;
 }
+
+/* Tableau de bord du chantier : tuiles de comptage + barres d'avancement */
+
+.dash {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8.5rem, 1fr));
+  gap: 0.7rem;
+  margin-top: 0.8rem;
+}
+
+.dash__tuile {
+  border: 1px solid var(--rule);
+  border-radius: 0.5rem;
+  padding: 0.8rem 1rem;
+  background: var(--paper);
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.dash__nombre {
+  font-family: var(--sans);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.dash__libelle {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.dash__point {
+  width: 0.65rem;
+  height: 0.65rem;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* Statuts : couleurs réservées, toujours accompagnées d'un libellé texte. */
+.dash__point--valide,
+.avancement__seg--valide { background: #2d7a2d; }
+.dash__point--discussion,
+.avancement__seg--discussion { background: #b45309; }
+.dash__point--debat,
+.avancement__seg--debat { background: #c9c9c4; }
+.dash__point--rejete,
+.avancement__seg--rejete { background: var(--rouge); }
+
+.avancement {
+  display: flex;
+  gap: 2px;
+  height: 6px;
+  border-radius: 3px;
+  overflow: hidden;
+  margin: 0.15rem 0;
+}
+
+.avancement__seg {
+  min-width: 4px;
+}

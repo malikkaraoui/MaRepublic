@@ -14,6 +14,16 @@ const files = import.meta.glob(
   },
 ) as Record<string, string>
 
+/** Statut éditorial d'une fiche, porté par le markdown (ligne « Statut »). */
+export type StatutFiche = 'debat' | 'discussion' | 'valide' | 'rejete'
+
+const STATUTS: Record<string, StatutFiche> = {
+  '⬜': 'debat',
+  '🟧': 'discussion',
+  '🟩': 'valide',
+  '🟥': 'rejete',
+}
+
 export interface Fiche {
   /** Identifiant stable : "axe4-C1" (sert de clé aux votes/commentaires). */
   id: string
@@ -22,6 +32,8 @@ export interface Fiche {
   titre: string
   /** Corps markdown de la fiche (les puces Problème / Ça existe / etc.). */
   corps: string
+  /** Avancement : en débat (défaut), en discussion, validé, rejeté. */
+  statut: StatutFiche
 }
 
 export interface AxeFiches {
@@ -46,11 +58,14 @@ function parseDocument(numero: number, raw: string): AxeFiches {
   matches.forEach((m, i) => {
     const debut = (m.index ?? 0) + m[0].length
     const fin = i + 1 < matches.length ? matches[i + 1].index : raw.length
+    const corps = raw.slice(debut, fin).trim()
+    const emoji = corps.match(/\*\*Statut\s*:\*\*\s*(⬜|🟧|🟩|🟥)/)?.[1]
     fiches.push({
       id: `axe${numero}-${m[1]}`,
       code: m[1],
       titre: m[2].replace(/🔥/g, '').trim(),
-      corps: raw.slice(debut, fin).trim(),
+      corps,
+      statut: (emoji && STATUTS[emoji]) || 'debat',
     })
   })
 

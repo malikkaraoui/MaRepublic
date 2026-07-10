@@ -7,7 +7,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import Markdown from '../components/Markdown'
-import { axesFiches, type Fiche } from '../lib/fiches'
+import { axesFiches, type Fiche, type StatutFiche } from '../lib/fiches'
 import { useReaction } from '../lib/reactions'
 import { useIdentite } from '../lib/identite'
 import { envoyerAvis } from '../lib/avis'
@@ -201,22 +201,80 @@ function numeroDeSlug(slug: string | undefined): number | undefined {
   return undefined
 }
 
-// Sommaire du chantier : tous les axes et groupes de travail, en clair.
+// Ordre d'affichage et libellés des statuts (couleur + texte, jamais la
+// couleur seule : chaque pastille est doublée de son libellé et du compte).
+const STATUTS_UI: { cle: StatutFiche; libelle: string }[] = [
+  { cle: 'valide', libelle: 'Finalisées' },
+  { cle: 'discussion', libelle: 'En discussion' },
+  { cle: 'debat', libelle: 'En débat ouvert' },
+  { cle: 'rejete', libelle: 'Rejetées' },
+]
+
+function compter(fiches: Fiche[]): Record<StatutFiche, number> {
+  const c: Record<StatutFiche, number> = { valide: 0, discussion: 0, debat: 0, rejete: 0 }
+  for (const f of fiches) c[f.statut] += 1
+  return c
+}
+
+// Sommaire du chantier : tableau de bord + tous les sujets, en clair.
 function Sommaire() {
   const programme = axesFiches.filter((a) => a.numero <= 5)
   const problemes = axesFiches.filter((a) => a.numero > 5)
+  const global = compter(axesFiches.flatMap((a) => a.fiches))
+  const total = axesFiches.reduce((n, a) => n + a.fiches.length, 0)
 
-  const carte = (a: (typeof axesFiches)[number]) => (
-    <Link key={a.numero} to={`/chantier/${slugDeNumero(a.numero)}`} className="sommaire__carte">
-      <span className="sommaire__theme">
-        {a.numero <= 5 ? `Axe ${a.numero} : ${a.theme}` : a.theme}
-      </span>
-      <span className="sommaire__compte">{a.fiches.length} fiches</span>
-    </Link>
-  )
+  const carte = (a: (typeof axesFiches)[number]) => {
+    const c = compter(a.fiches)
+    return (
+      <Link key={a.numero} to={`/chantier/${slugDeNumero(a.numero)}`} className="sommaire__carte">
+        <span className="sommaire__theme">
+          {a.numero <= 5 ? `Axe ${a.numero} : ${a.theme}` : a.theme}
+        </span>
+        <span
+          className="avancement"
+          role="img"
+          aria-label={STATUTS_UI.filter((s) => c[s.cle] > 0)
+            .map((s) => `${c[s.cle]} ${s.libelle.toLowerCase()}`)
+            .join(', ')}
+        >
+          {STATUTS_UI.filter((s) => c[s.cle] > 0).map((s) => (
+            <span
+              key={s.cle}
+              className={`avancement__seg avancement__seg--${s.cle}`}
+              style={{ flexGrow: c[s.cle] }}
+            />
+          ))}
+        </span>
+        <span className="sommaire__compte">
+          {a.fiches.length} fiches
+          {c.valide > 0 && ` · ${c.valide} finalisée${c.valide > 1 ? 's' : ''}`}
+          {c.discussion > 0 && ` · ${c.discussion} en discussion`}
+        </span>
+      </Link>
+    )
+  }
 
   return (
     <div className="sommaire">
+      <section aria-labelledby="sommaire-dash">
+        <h2 id="sommaire-dash">Où en est le chantier</h2>
+        <div className="dash" role="list">
+          <div className="dash__tuile" role="listitem">
+            <span className="dash__nombre">{total}</span>
+            <span className="dash__libelle">fiches au total</span>
+          </div>
+          {STATUTS_UI.map((s) => (
+            <div key={s.cle} className="dash__tuile" role="listitem">
+              <span className="dash__nombre">
+                <span className={`dash__point dash__point--${s.cle}`} aria-hidden="true" />
+                {global[s.cle]}
+              </span>
+              <span className="dash__libelle">{s.libelle}</span>
+            </div>
+          ))}
+        </div>
+      </section>
+
       <section aria-labelledby="sommaire-programme">
         <h2 id="sommaire-programme">Le programme : 5 axes de travail</h2>
         <p className="sommaire__note">Les mesures que le mouvement propose, importées de pays où elles fonctionnent.</p>
