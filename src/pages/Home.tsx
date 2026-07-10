@@ -217,6 +217,38 @@ export default function Home() {
 
       <section className="section">
         <div className="container">
+          <header className="section__head">
+            <p className="section__kicker">Transparence : pourquoi maintenant</p>
+            <h2 className="section__title">
+              Ce mouvement est possible aujourd'hui. Il ne l'était pas hier.
+            </h2>
+          </header>
+          <div className="prose prose--methode">
+            <p>
+              Soyons transparents sur nos moyens. La donnée publique existe
+              depuis des années : textes de loi, rapports, budgets, comparaisons
+              internationales, retours d'expérience de dizaines de pays. Ce qui
+              manquait, c'était la capacité de la <strong>lire, l'analyser et
+              la synthétiser en masse</strong>. Depuis quelques mois, des outils
+              d'intelligence artificielle mettent cette capacité entre les mains
+              de quasi n'importe qui.
+            </p>
+            <p>
+              Concrètement : il n'y a plus besoin d'un cabinet ministériel ni de
+              lever des millions d'euros pour construire un programme documenté.
+              Ce site, ses 180 fiches sourcées et son infrastructure de débat
+              ont été produits <strong>depuis un salon</strong>, avec ces outils,
+              en toute transparence. Ce qui était le privilège d'un appareil
+              d'État est désormais à la portée d'un citoyen.
+            </p>
+            <p>
+              Nous assumons cette méthode, avec une règle claire : les machines
+              préparent, trient, comparent et vérifient ; <strong>les décisions
+              restent humaines</strong>, débattues publiquement, votées. Si un
+              citoyen peut faire cela depuis chez lui, imaginez ce que le pays
+              peut exiger de ses institutions.
+            </p>
+          </div>
           <blockquote className="pull-quote">
             On ne demande pas aux Français de nous croire. On leur demande de
             nous juger sur pièces.

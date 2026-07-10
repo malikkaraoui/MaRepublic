@@ -1708,3 +1708,10 @@ button {
   gap: 1rem;
   margin-bottom: 1.5rem;
 }
+
+/* Bloc méthode / transparence de l'accueil */
+
+.prose--methode {
+  max-width: var(--reading-max);
+  margin-bottom: 2rem;
+}
