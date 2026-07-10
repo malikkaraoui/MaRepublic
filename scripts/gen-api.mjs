@@ -18,11 +18,14 @@ const dossierChantier = join(racine, 'chantier')
 const sortie = join(racine, 'public', 'api', 'fiches.json')
 
 const axes = readdirSync(dossierChantier)
-  .filter((f) => /^axe-\d.*-fiches\.md$/.test(f))
+  .filter((f) => /^(axe-\d|problemes-\d+).*-fiches\.md$/.test(f))
   .sort()
   .map((fichier) => {
     const brut = readFileSync(join(dossierChantier, fichier), 'utf8')
-    const numero = Number(fichier.match(/axe-(\d)/)?.[1] ?? 0)
+    // Axes 1-5 = programme ; lots « problèmes » numérotés à partir de 100.
+    const axe = fichier.match(/axe-(\d)/)?.[1]
+    const lot = fichier.match(/problemes-(\d+)/)?.[1]
+    const numero = axe ? Number(axe) : 100 + Number(lot ?? 0)
     const titre =
       brut.match(/^#\s+(.+)$/m)?.[1].replace(/·.*$/, '').trim() ?? `Axe ${numero}`
 

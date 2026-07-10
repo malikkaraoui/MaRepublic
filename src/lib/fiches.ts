@@ -5,11 +5,14 @@
 // en brut via Vite et les découpe en fiches individuelles pour la page
 // Chantier : chaque `### X1. Titre` devient une carte votable/commentable.
 
-const files = import.meta.glob('../../chantier/axe-*-fiches.md', {
-  query: '?raw',
-  import: 'default',
-  eager: true,
-}) as Record<string, string>
+const files = import.meta.glob(
+  ['../../chantier/axe-*-fiches.md', '../../chantier/problemes-*-fiches.md'],
+  {
+    query: '?raw',
+    import: 'default',
+    eager: true,
+  },
+) as Record<string, string>
 
 export interface Fiche {
   /** Identifiant stable : "axe4-C1" (sert de clé aux votes/commentaires). */
@@ -54,7 +57,11 @@ function parseDocument(numero: number, raw: string): AxeFiches {
 
 export const axesFiches: AxeFiches[] = Object.entries(files)
   .map(([path, raw]) => {
-    const numero = Number(path.match(/axe-(\d)/)?.[1] ?? 0)
+    // Axes 1-5 = programme ; les lots « problèmes » sont numérotés à partir
+    // de 100 pour se ranger après les axes dans les onglets.
+    const axe = path.match(/axe-(\d)/)?.[1]
+    const lot = path.match(/problemes-(\d+)/)?.[1]
+    const numero = axe ? Number(axe) : 100 + Number(lot ?? 0)
     return parseDocument(numero, raw)
   })
   .sort((a, b) => a.numero - b.numero)

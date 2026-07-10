@@ -1,0 +1,46 @@
+rules_version = '2';
+
+// Règles Firestore — collection unique `reactions`.
+//
+// Écriture : création seule, ouverte à tous MAIS strictement validée :
+//   - pseudo (2-40 car.) et email (format plausible) OBLIGATOIRES,
+//   - type ∈ {vote, commentaire, alternative},
+//   - vote ∈ {pour, contre} si type=vote, sinon texte de 3 à 500 caractères,
+//   - date = horodatage serveur (anti-antidatage).
+// Lecture : fermée au public — les emails ne doivent JAMAIS être exposés.
+// Le dépouillement se fait côté admin (console ou script avec compte de service).
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /reactions/{reactionId} {
+      allow read: if false;
+      allow update, delete: if false;
+      allow create: if
+        request.resource.data.keys().hasOnly(
+          ['ficheId', 'type', 'vote', 'texte', 'pseudo', 'email', 'date']
+        )
+        && request.resource.data.ficheId is string
+        && request.resource.data.ficheId.size() >= 3
+        && request.resource.data.ficheId.size() <= 40
+        && request.resource.data.pseudo is string
+        && request.resource.data.pseudo.size() >= 2
+        && request.resource.data.pseudo.size() <= 40
+        && request.resource.data.email is string
+        && request.resource.data.email.size() <= 120
+        && request.resource.data.email.matches('.+@.+[.].+')
+        && request.resource.data.type in ['vote', 'commentaire', 'alternative']
+        && (
+          (request.resource.data.type == 'vote'
+            && request.resource.data.vote in ['pour', 'contre']
+            && !('texte' in request.resource.data))
+          ||
+          (request.resource.data.type != 'vote'
+            && !('vote' in request.resource.data)
+            && request.resource.data.texte is string
+            && request.resource.data.texte.size() >= 3
+            && request.resource.data.texte.size() <= 500)
+        )
+        && request.resource.data.date == request.time;
+    }
+  }
+}
