@@ -16,6 +16,8 @@
 
 **Mesures** : Plafonnement légal des marges de distribution (+20 % max). Appels d'offres publics pour la logistique alimentaire. Importations directes d'Afrique de l'Ouest (déjà = marché régional Antilles) à prix compétitifs.
 
+- ⚖️ **Faisabilité juridique :** Loi, décret ; Compétence UE marché intérieur, droit concurrence ; Jurisprudence CE concurrence, traité UE.
+
 ---
 
 ### P2. L'octroi de mer : le débat honnête sur la taxe
@@ -31,6 +33,8 @@
 
 **Mesures** : Substitution progressive par TVA régionale (0-5.5 % par territoire, ajusté au différentiel réel). Fonds de transition pour agro-alimentaire local (15 ans). Tarifs préférentiels intracaribes/intra-Pacifique.
 
+- ⚖️ **Faisabilité juridique :** Loi de finances, Directive UE ; Harmonisation TVA UE, compétence fiscale État, égalité ; CJUE jurisprudence fiscalité.
+
 ---
 
 ### P3. L'eau courante coupée : des Français sans eau potable
@@ -45,6 +49,8 @@
 : Coût : 10 euros/semaine eaux embouteillées + 5 euros nettoyage = 780 euros/an par ménage
 
 **Mesures** : Plan d'urgence 5 ans : 4 milliards euros renouvellement réseaux. Réduction fuites à <25 %. Compteurs intelligents obligatoires. Gouvernance regroupée (Syndicats intercommunaux forts). Tarification progressive (eau de survie gratuite <30L/jour).
+
+- ⚖️ **Faisabilité juridique :** Loi sur service public eau, décret ; Droit fondamental eau (UNHRC, Const. écologie), compétence collectivités ; Jurisprudence eau potable.
 
 ---
 
@@ -62,6 +68,8 @@
 
 **Mesures** : Fonds permanent doté 50 millions/an minimum. Présomption de causalité (charge à l'État, pas à victime). Prise en charge soins (cancérologie, endocrinologie) 100 %. Réparation dommages patrimoniaux (dévaluation terres).
 
+- ⚖️ **Faisabilité juridique :** Loi créant fonds indemnisation, décret ; Responsabilité civile État, délai prescription (à vérifier), causalité ; Jurisprudence amiante indemnisation.
+
 ---
 
 ### P5. Monopoles du fret : CMA-CGM détient les routes maritimes
@@ -77,6 +85,8 @@
 : Une PME export-import (100 conteneurs/an) paye +200 000 euros vs métropole
 
 **Mesures** : Autorisation MSC/Maersk/CMA-CGM de doublon (OPA tractée par État si nécessaire). Lignes directes avec Brésil/Colombie (raccourcit circuit). Subvention temporaire fret pour PME (10 ans, dégressive). Régulation tarifaire (prix plafonné à +50 % vs Marseille).
+
+- ⚖️ **Faisabilité juridique :** Décret régulation portuaire, Directive UE transport maritime ; Compétence UE concurrence, libertés TFUE ; CJUE jurisprudence libres prestation services.
 
 ---
 
@@ -95,6 +105,8 @@
 
 **Mesures** : Création 30 000 emplois en 5 ans (secteur privé, bonus d'embauche jeune 5 000 euros/an pendant 3 ans). Formation débouche garantie (contrats 2 ans, reconversion financée). Zones franches élargies (défiscalisation entreprises 10 ans). Télétravail subventionné pour PME (réduire roulement bureaux).
 
+- ⚖️ **Faisabilité juridique :** Loi zones franches, décret emploi ; Compétence État, égalité territoriale ; Jurisprudence défiscalisation régions, codes du travail.
+
 ---
 
 ### P7. Illettrisme et décrochage scolaire : 3x plus qu'Hexagone
@@ -110,6 +122,8 @@
 : Impact collectif : 144 millions euros/an en perte de PIB (par génération)
 
 **Mesures** : Dédoublement classes CM2-6e en milieu fragile. Maître supplémentaire lecture (effectifs 15 max). Orthophonistes dans écoles (1 pour 500 élèves vs 1 pour 2 000 en métropole). Salaire attractif profs outre-mer (+15 % prime fidélité). Formation continues en créole-français (pédagogie bilingue).
+
+- ⚖️ **Faisabilité juridique :** Loi obligation scolaire, décret effectifs ; Compétence État/collectivités, égalité accès ; Constitution gratuité école, jurisprudence égalité.
 
 ---
 
@@ -128,6 +142,8 @@
 
 **Mesures** : Réseau régional de spécialités (Réunion = centre onco Caraïbes, Marie-Galante = maternité niveau 3, Cayenne = neurochirurgie). Télémédecine diagnostique avant transport (réduit 30 % transferts inutiles). Avion ambulance réservé 24/24 (au lieu de low-cost classique dépourvu matériel). Prime stabilité médecins spécialistes = +30 % + CDI 8 ans.
 
+- ⚖️ **Faisabilité juridique :** Loi service public santé, décret réseau spécialisé ; Compétence État santé, égalité accès soins ; Code santé publique, CEDH droit santé.
+
 ---
 
 ### P9. Continuité territoriale au rabais : ce que font Canaries et Açores
@@ -145,6 +161,8 @@
 
 **Mesures** : Parité européenne = 75 % rabais résident sur routes longue-distance (métropole/îles). Budget + 400 millions euros/an (progressif 2027-2031). Extension caravelle (vols régionaux intra-Caraïbes 50 % rabais pour résidents).
 
+- ⚖️ **Faisabilité juridique :** Loi de finances continuité territoriale, Décision UE aides d'État ; Compétence État transport, égalité citoyens ; CJUE jurisprudence aides, Const. égalité.
+
 ---
 
 ### P10. Fonctionnaires sur-primés : l'effet pervers documenté
@@ -161,6 +179,8 @@
 : Budget État surcoûts fonctionnaires outre-mer = 2,8 milliards euros/an (Cour des comptes 2023)
 
 **Mesures** : Alignement progressif sur différentiel REEL de coût de la vie (audit indépendant par DOM-TOM = 4 années). Gel nominatif des primes "historiques" pour 1 000 anciens agents (transition jusque retraite). Redéploiement 500 millions euros/an économisés vers PME (subvention intérêt crédit, conseil fiscal).
+
+- ⚖️ **Faisabilité juridique :** Loi statut fonction publique, décret grilles ; Compétence État rémunérations, égalité traitement ; Jurisprudence CE fonction publique.
 
 ---
 
