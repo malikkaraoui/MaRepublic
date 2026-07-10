@@ -17,6 +17,11 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
+    env:
+      # Vaut 'true' seulement quand le secret du compte de service existe.
+      # Tant qu'il est absent, le build tourne mais le déploiement est sauté
+      # proprement (run vert) au lieu d'échouer.
+      HAS_DEPLOY_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MAREPUBLIQUE_7ECFC != '' }}
 
     steps:
       - name: Checkout du dépôt
@@ -46,6 +51,7 @@ jobs:
           VITE_FIREBASE_MEASUREMENT_ID: ${{ secrets.VITE_FIREBASE_MEASUREMENT_ID }}
 
       - name: Déploiement sur Firebase Hosting (live)
+        if: env.HAS_DEPLOY_KEY == 'true'
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
