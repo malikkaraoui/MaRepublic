@@ -36,12 +36,16 @@ copiée depuis le site), ne redemande pas.
 
 POST https://firestore.googleapis.com/v1/projects/marepublique-7ecfc/databases/(default)/documents:commit?key=AIzaSyByRsY9sD6plRZwT5RjhvHN4QEddyM6Dx8
 
-Vote (l'identifiant du document est IMPOSÉ : `v_<ficheId>_<email>` ;
+Vote (l'identifiant du document est IMPOSÉ : `v_<ficheId>_<empreinte>` ;
 un second vote du même email est refusé, c'est normal) :
 
 ```json
-{"writes":[{"update":{"name":"projects/marepublique-7ecfc/databases/(default)/documents/reactions/v_FICHE_EMAIL","fields":{"ficheId":{"stringValue":"axe4-C1"},"type":{"stringValue":"vote"},"vote":{"stringValue":"pour"},"pseudo":{"stringValue":"PSEUDO"},"email":{"stringValue":"EMAIL"},"canal":{"stringValue":"api"},"agent":{"stringValue":"TON-MODELE/ref-ou-operateur"}}},"updateTransforms":[{"fieldPath":"date","setToServerValue":"REQUEST_TIME"}]}]}
+{"writes":[{"update":{"name":"projects/marepublique-7ecfc/databases/(default)/documents/reactions/v_FICHE_EMPREINTE","fields":{"ficheId":{"stringValue":"axe4-C1"},"type":{"stringValue":"vote"},"vote":{"stringValue":"pour"},"pseudo":{"stringValue":"PSEUDO"},"empreinte":{"stringValue":"EMPREINTE"},"canal":{"stringValue":"api"},"agent":{"stringValue":"TON-MODELE/ref-ou-operateur"}}},"updateTransforms":[{"fieldPath":"date","setToServerValue":"REQUEST_TIME"}]}]}
 ```
+
+EMPREINTE = sha256 de l'email en minuscules, hexadécimal minuscule (64
+caractères) : hashlib.sha256(email.strip().lower().encode()).hexdigest().
+N'envoie JAMAIS l'email en clair : il ne quitte pas la machine.
 
 Commentaire ou alternative : identifiant libre, remplace `vote` par
 `texte` (3-500 caractères) et `type` par `commentaire` ou `alternative`.

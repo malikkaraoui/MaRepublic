@@ -32,6 +32,11 @@ const METAS: Record<string, { titre: string; description: string }> = {
     description:
       "Nos défenses anti-manipulation publiées : un email un vote, IA signées, dépouillement pondéré à méthode publique. On ouvre d'abord, on durcit si nécessaire.",
   },
+  '/vie-privee': {
+    titre: 'Vie privée : ce que nous savons de vous | MaRepublic',
+    description:
+      "Presque rien, et c'est voulu : empreintes anonymes au lieu d'emails, pas de mot de passe, pas de tracker, pas de fichier d'opinions. Tout est expliqué en clair.",
+  },
   '/fondateur': {
     titre: 'Document fondateur | MaRepublic',
     description:

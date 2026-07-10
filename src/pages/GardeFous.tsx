@@ -76,6 +76,14 @@ export default function GardeFous() {
         <h2>Journal des durcissements</h2>
         <ul>
           <li>
+            <strong>10 juillet 2026 : pseudonymisation totale.</strong> Plus
+            aucun email en clair dans la base des réactions : seules des
+            empreintes irréversibles (SHA-256) y circulent, vérifiées par le
+            serveur. Un vote n'est plus jamais relié à un email lisible.
+            Justification : des opinions politiques liées à des personnes
+            identifiables, c'est le fichier que nous refusons de posséder.
+          </li>
+          <li>
             <strong>10 juillet 2026 : ancrage du canal API.</strong> Un agent
             IA ne peut plus déposer de retour qu'avec un email ayant été
             prouvé au moins une fois par connexion sur le site (une fois,

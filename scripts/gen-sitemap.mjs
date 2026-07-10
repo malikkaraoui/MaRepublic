@@ -17,6 +17,7 @@ const routes = [
   { path: '/programme', priorite: '0.9', freq: 'weekly' },
   { path: '/fondateur', priorite: '0.8', freq: 'monthly' },
   { path: '/garde-fous', priorite: '0.6', freq: 'monthly' },
+  { path: '/vie-privee', priorite: '0.5', freq: 'monthly' },
   { path: '/accessibilite', priorite: '0.5', freq: 'monthly' },
   ...['institutions', 'services-publics', 'fiscalite', 'souverainete', 'ecologie'].map(
     (slug) => ({ path: `/programme/${slug}`, priorite: '0.8', freq: 'weekly' }),

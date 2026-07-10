@@ -17,6 +17,7 @@ import {
 import { useEffect, useState } from 'react'
 import { doc, getFirestore, serverTimestamp, setDoc } from 'firebase/firestore'
 import { getFirebaseApp } from './firebase'
+import { empreinteEmail } from './empreinte'
 
 const CLE_EMAIL = 'marep-auth-email'
 const CLE_DEBUT = 'marep-auth-debut'
@@ -30,9 +31,11 @@ function ancrerEmailVerifie(email: string | null) {
   const app = getFirebaseApp()
   if (!app || !email || ancrageFait) return
   ancrageFait = true
-  setDoc(doc(getFirestore(app), 'emails_verifies', email), {
-    date: serverTimestamp(),
-  }).catch(() => undefined)
+  void empreinteEmail(email).then((empreinte) =>
+    setDoc(doc(getFirestore(app), 'empreintes_verifiees', empreinte), {
+      date: serverTimestamp(),
+    }).catch(() => undefined),
+  )
 }
 
 function auth() {

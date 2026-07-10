@@ -23,6 +23,7 @@ export default function Footer() {
           <Link to="/programme">Programme</Link>
           <Link to="/accessibilite">Accessibilite</Link>
           <Link to="/garde-fous">Garde-fous</Link>
+          <Link to="/vie-privee">Vie privée</Link>
         </nav>
 
         <p className="site-footer__meta">

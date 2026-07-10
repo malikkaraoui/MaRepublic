@@ -18,6 +18,7 @@ import AxeDetail from './pages/AxeDetail'
 import Chantier from './pages/Chantier'
 import Accessibilite from './pages/Accessibilite'
 import GardeFous from './pages/GardeFous'
+import ViePrivee from './pages/ViePrivee'
 import NotFound from './pages/NotFound'
 
 export default function App() {
@@ -33,6 +34,7 @@ export default function App() {
           <Route path="chantier/:onglet?" element={<Chantier />} />
           <Route path="accessibilite" element={<Accessibilite />} />
           <Route path="garde-fous" element={<GardeFous />} />
+          <Route path="vie-privee" element={<ViePrivee />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

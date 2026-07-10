@@ -16,6 +16,7 @@ import {
 import { getAuth } from 'firebase/auth'
 import { getFirebaseApp } from './firebase'
 import { identiteCourante, identiteValide } from './identite'
+import { empreinteEmail } from './empreinte'
 
 export type AvisPayload =
   | { ficheId: string; type: 'vote'; vote: 'pour' | 'contre' }
@@ -37,16 +38,18 @@ export async function envoyerAvis(payload: AvisPayload): Promise<boolean> {
 
   try {
     const db = getFirestore(app)
+    // Aucun email en clair : seule son empreinte part en base.
+    const empreinte = await empreinteEmail(emailVerifie ?? identite.email)
     const donnees = {
       ...payload,
       pseudo: identite.pseudo.trim(),
-      email: (emailVerifie ?? identite.email).trim(),
+      empreinte,
       canal: 'site',
       date: serverTimestamp(),
     }
     if (payload.type === 'vote') {
-      // Identifiant imposé par les règles : 1 email = 1 vote par fiche.
-      const id = `v_${payload.ficheId}_${(emailVerifie ?? identite.email).trim()}`
+      // Identifiant imposé par les règles : 1 personne = 1 vote par fiche.
+      const id = `v_${payload.ficheId}_${empreinte}`
       await setDoc(doc(db, 'reactions', id), donnees)
     } else {
       await addDoc(collection(db, 'reactions'), donnees)

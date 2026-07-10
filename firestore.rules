@@ -1,58 +1,60 @@
 rules_version = '2';
 
-// Règles Firestore — collection unique `reactions`.
+// Règles Firestore : réactions citoyennes PSEUDONYMISÉES.
 //
-// Écriture : création seule, ouverte à tous MAIS strictement validée :
-//   - pseudo (2-40 car.) et email (format plausible) OBLIGATOIRES,
-//   - type ∈ {vote, commentaire, alternative},
-//   - vote ∈ {pour, contre} si type=vote, sinon texte de 3 à 500 caractères,
-//   - date = horodatage serveur (anti-antidatage).
-// Lecture : fermée au public — les emails ne doivent JAMAIS être exposés.
-// Le dépouillement se fait côté admin (console ou script avec compte de service).
+// Plus AUCUN email en clair dans la base : chaque retour porte une
+// `empreinte` = sha256(email en minuscules), en hexadécimal minuscule.
+// Les emails ne vivent que dans Firebase Auth (nécessaire au lien de
+// connexion). Un vote lié à une opinion politique n'est donc jamais
+// rattaché à un email lisible (minimisation RGPD, art. 9).
+//
+// - Canal site : connexion par lien exigée ; l'empreinte du retour DOIT
+//   être celle de l'email du compte connecté (vérifiée par hachage côté
+//   serveur, infalsifiable).
+// - Canal api (agents IA déclarés) : signature `agent` exigée ET empreinte
+//   ancrée : elle doit exister dans `empreintes_verifiees`, registre
+//   alimenté uniquement par une connexion réelle sur le site.
+// - 1 personne = 1 vote par fiche : identifiant de document imposé.
+// - Lecture fermée partout : aucune énumération possible.
 
 service cloud.firestore {
   match /databases/{database}/documents {
+
+    // Empreinte de l'email du compte connecté, calculée par le serveur.
+    function empreinteConnectee() {
+      return hashing.sha256(request.auth.token.email.lower()).toHexString().lower();
+    }
+
     match /reactions/{reactionId} {
       allow read: if false;
       allow update, delete: if false;
-      // Garde-fous anti-manipulation (doctrine zéro friction) :
-      // - 1 email = 1 vote par fiche : l'identifiant du document de vote est
-      //   imposé ("v_<ficheId>_<email>"), un second vote = update = refusé.
-      // - Les agents IA sont acceptés UNIQUEMENT signés : canal 'api' exige
-      //   un champ `agent` (nom du modèle/opérateur).
       allow create: if
         request.resource.data.keys().hasOnly(
-          ['ficheId', 'type', 'vote', 'texte', 'pseudo', 'email', 'date', 'canal', 'agent']
+          ['ficheId', 'type', 'vote', 'texte', 'pseudo', 'empreinte', 'date', 'canal', 'agent']
         )
+        && request.resource.data.empreinte is string
+        && request.resource.data.empreinte.matches('[a-f0-9]{64}')
         && request.resource.data.canal in ['site', 'api']
         && (
-          // Canal site : l'email doit être PROUVÉ (connexion par lien) et
-          // correspondre exactement à celui du retour. Fini le déclaratif.
           (request.resource.data.canal == 'site'
             && !('agent' in request.resource.data)
             && request.auth != null
-            && request.auth.token.email == request.resource.data.email)
+            && request.resource.data.empreinte == empreinteConnectee())
           ||
-          // Canal api : agent signé ET email ancré : l'email doit avoir été
-          // prouvé AU MOINS UNE FOIS via la connexion par lien sur le site
-          // (collection emails_verifies). Mur anti-flood d'emails inventés.
           (request.resource.data.canal == 'api'
             && request.resource.data.agent is string
             && request.resource.data.agent.size() >= 2
             && request.resource.data.agent.size() <= 80
-            && exists(/databases/$(database)/documents/emails_verifies/$(request.resource.data.email)))
+            && exists(/databases/$(database)/documents/empreintes_verifiees/$(request.resource.data.empreinte)))
         )
         && (request.resource.data.type != 'vote'
-          || reactionId == 'v_' + request.resource.data.ficheId + '_' + request.resource.data.email)
+          || reactionId == 'v_' + request.resource.data.ficheId + '_' + request.resource.data.empreinte)
         && request.resource.data.ficheId is string
         && request.resource.data.ficheId.size() >= 3
         && request.resource.data.ficheId.size() <= 40
         && request.resource.data.pseudo is string
         && request.resource.data.pseudo.size() >= 2
         && request.resource.data.pseudo.size() <= 40
-        && request.resource.data.email is string
-        && request.resource.data.email.size() <= 120
-        && request.resource.data.email.matches('.+@.+[.].+')
         && request.resource.data.type in ['vote', 'commentaire', 'alternative']
         && (
           (request.resource.data.type == 'vote'
@@ -68,15 +70,15 @@ service cloud.firestore {
         && request.resource.data.date == request.time;
     }
 
-    // Registre des emails prouvés : créé par le site à la connexion par lien.
-    // Lecture fermée (aucune énumération possible) ; un email ne peut être
-    // marqué que par la personne connectée avec CE même email.
-    match /emails_verifies/{email} {
+    // Registre des empreintes prouvées : alimenté par le site à la connexion.
+    // On ne peut ancrer QUE l'empreinte de son propre email (hachage vérifié
+    // par le serveur) : impossible d'ancrer des empreintes fabriquées.
+    match /empreintes_verifiees/{empreinte} {
       allow read: if false;
       allow update, delete: if false;
       allow create: if
         request.auth != null
-        && request.auth.token.email == email
+        && empreinte == empreinteConnectee()
         && request.resource.data.keys().hasOnly(['date'])
         && request.resource.data.date == request.time;
     }
