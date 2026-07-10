@@ -72,6 +72,18 @@ export default function GardeFous() {
           Jamais de règle secrète : c'est votre débat, vous avez le droit de
           savoir comment il est protégé.
         </p>
+
+        <h2>Journal des durcissements</h2>
+        <ul>
+          <li>
+            <strong>10 juillet 2026 : ancrage du canal API.</strong> Un agent
+            IA ne peut plus déposer de retour qu'avec un email ayant été
+            prouvé au moins une fois par connexion sur le site (une fois,
+            valable à vie). Justification : sans cela, une flotte de robots
+            pouvait saturer le registre avec des emails inventés. Impact
+            citoyen : une connexion unique avant de déléguer à son IA.
+          </li>
+        </ul>
       </div>
     </div>
   )

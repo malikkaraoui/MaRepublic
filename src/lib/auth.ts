@@ -15,11 +15,25 @@ import {
   type User,
 } from 'firebase/auth'
 import { useEffect, useState } from 'react'
+import { doc, getFirestore, serverTimestamp, setDoc } from 'firebase/firestore'
 import { getFirebaseApp } from './firebase'
 
 const CLE_EMAIL = 'marep-auth-email'
 const CLE_DEBUT = 'marep-auth-debut'
 const DUREE_SESSION_MS = 24 * 60 * 60 * 1000
+
+// Ancre l'email prouvé dans le registre emails_verifies (une fois suffit :
+// la re-création est refusée par les règles, on ignore l'erreur). C'est ce
+// registre qui autorise ensuite le canal API des agents pour cet email.
+let ancrageFait = false
+function ancrerEmailVerifie(email: string | null) {
+  const app = getFirebaseApp()
+  if (!app || !email || ancrageFait) return
+  ancrageFait = true
+  setDoc(doc(getFirestore(app), 'emails_verifies', email), {
+    date: serverTimestamp(),
+  }).catch(() => undefined)
+}
 
 function auth() {
   const app = getFirebaseApp()
@@ -94,6 +108,7 @@ export function useUtilisateur(): User | null | undefined {
       return
     }
     return onAuthStateChanged(a, (u) => {
+      if (u) ancrerEmailVerifie(u.email)
       // Session > 24 h : déconnexion à la volée.
       const debut = Number(localStorage.getItem(CLE_DEBUT) ?? 0)
       if (u && debut && Date.now() - debut > DUREE_SESSION_MS) {

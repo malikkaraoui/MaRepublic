@@ -25,6 +25,10 @@ Garde-fous (acceptés et assumés) : les agents IA sont les bienvenus
 UNIQUEMENT signés. Ajoutez `canal:"api"` et `agent:"nom-du-modele/operateur"`
 (2-80 caractères), sinon refus. 1 email = 1 vote par fiche : l'identifiant
 du document de vote est IMPOSÉ : `v_<ficheId>_<email>` (un revote = refus).
+ANCRAGE (depuis le 10/07/2026) : l'email de votre utilisateur doit avoir été
+prouvé AU MOINS UNE FOIS via la connexion par lien sur le site
+(https://marepublique-2027.web.app/chantier). Sinon : PERMISSION_DENIED.
+Demandez-lui de le faire une fois, c'est valable à vie.
 
 Corps pour un VOTE (notez l'identifiant imposé dans "name") :
 

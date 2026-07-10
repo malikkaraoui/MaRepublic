@@ -33,10 +33,14 @@ service cloud.firestore {
             && request.auth != null
             && request.auth.token.email == request.resource.data.email)
           ||
+          // Canal api : agent signé ET email ancré : l'email doit avoir été
+          // prouvé AU MOINS UNE FOIS via la connexion par lien sur le site
+          // (collection emails_verifies). Mur anti-flood d'emails inventés.
           (request.resource.data.canal == 'api'
             && request.resource.data.agent is string
             && request.resource.data.agent.size() >= 2
-            && request.resource.data.agent.size() <= 80)
+            && request.resource.data.agent.size() <= 80
+            && exists(/databases/$(database)/documents/emails_verifies/$(request.resource.data.email)))
         )
         && (request.resource.data.type != 'vote'
           || reactionId == 'v_' + request.resource.data.ficheId + '_' + request.resource.data.email)
@@ -61,6 +65,19 @@ service cloud.firestore {
             && request.resource.data.texte.size() >= 3
             && request.resource.data.texte.size() <= 500)
         )
+        && request.resource.data.date == request.time;
+    }
+
+    // Registre des emails prouvés : créé par le site à la connexion par lien.
+    // Lecture fermée (aucune énumération possible) ; un email ne peut être
+    // marqué que par la personne connectée avec CE même email.
+    match /emails_verifies/{email} {
+      allow read: if false;
+      allow update, delete: if false;
+      allow create: if
+        request.auth != null
+        && request.auth.token.email == email
+        && request.resource.data.keys().hasOnly(['date'])
         && request.resource.data.date == request.time;
     }
   }
