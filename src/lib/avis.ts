@@ -9,6 +9,8 @@ import {
   getFirestore,
   collection,
   addDoc,
+  doc,
+  setDoc,
   serverTimestamp,
 } from 'firebase/firestore'
 import { getFirebaseApp } from './firebase'
@@ -29,12 +31,21 @@ export async function envoyerAvis(payload: AvisPayload): Promise<boolean> {
   if (!app || !identiteValide(identite)) return false
 
   try {
-    await addDoc(collection(getFirestore(app), 'reactions'), {
+    const db = getFirestore(app)
+    const donnees = {
       ...payload,
       pseudo: identite.pseudo.trim(),
       email: identite.email.trim(),
+      canal: 'site',
       date: serverTimestamp(),
-    })
+    }
+    if (payload.type === 'vote') {
+      // Identifiant imposé par les règles : 1 email = 1 vote par fiche.
+      const id = `v_${payload.ficheId}_${identite.email.trim()}`
+      await setDoc(doc(db, 'reactions', id), donnees)
+    } else {
+      await addDoc(collection(db, 'reactions'), donnees)
+    }
     return true
   } catch (err) {
     // Réseau coupé ou règles refusées : on ne casse pas l'expérience locale.

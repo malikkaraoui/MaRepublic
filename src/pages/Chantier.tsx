@@ -53,11 +53,34 @@ function BandeauIdentite() {
   )
 }
 
+// Prompt de mission : le citoyen le colle dans son IA (Claude, ChatGPT,
+// Gemini...) qui lit la fiche et réagit via l'API, signée d'une référence
+// unique. Traçable au dépouillement, zéro friction pour l'humain.
+function promptMission(fiche: Fiche): string {
+  const ref = `ref_${crypto.randomUUID().slice(0, 8)}`
+  return [
+    `Mission citoyenne MaRepublic (référence ${ref}).`,
+    `1. Lis le mode d'emploi machine : https://marepublique-2027.web.app/llms.txt`,
+    `2. Lis la fiche "${fiche.titre}" (id ${fiche.id}) dans https://marepublique-2027.web.app/api/fiches.json`,
+    `3. Explique-moi la fiche simplement, discute-la avec moi, puis demande-moi : pour, contre, commentaire ou alternative ?`,
+    `4. Envoie MA décision via l'API (canal "api"), signée agent:"<ton-modele>/${ref}", avec mon pseudo et mon email que je vais te donner.`,
+    `Important : c'est MOI qui décide, tu prépares et tu transmets.`,
+  ].join('\n')
+}
+
 function CarteFiche({ fiche, identiteValide }: { fiche: Fiche; identiteValide: boolean }) {
   const { reaction, voter, commenter } = useReaction(fiche.id)
   const [ouvert, setOuvert] = useState(false)
   const [mode, setMode] = useState<'commentaire' | 'alternative'>('commentaire')
   const [texte, setTexte] = useState('')
+  const [copie, setCopie] = useState(false)
+
+  const confierIA = () => {
+    void navigator.clipboard.writeText(promptMission(fiche)).then(() => {
+      setCopie(true)
+      window.setTimeout(() => setCopie(false), 2500)
+    })
+  }
 
   // Vote : bascule locale + envoi Firestore (sauf annulation d'un vote).
   const voterEtEnvoyer = (v: 'pour' | 'contre') => {
@@ -132,6 +155,14 @@ function CarteFiche({ fiche, identiteValide }: { fiche: Fiche; identiteValide: b
             title="Proposer une alternative"
           >
             <span aria-hidden="true">💡</span> Alternative
+          </button>
+          <button
+            type="button"
+            className="fiche__mode-btn"
+            onClick={confierIA}
+            title="Copier une mission à coller dans votre assistant IA (Claude, ChatGPT, Gemini...)"
+          >
+            <span aria-hidden="true">🤖</span> {copie ? 'Mission copiée !' : 'Confier à mon IA'}
           </button>
         </div>
       </div>

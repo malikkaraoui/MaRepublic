@@ -27,6 +27,11 @@ const METAS: Record<string, { titre: string; description: string }> = {
     description:
       'Institutions, services publics, fiscalité, souveraineté, écologie : cinq axes construits en débat ouvert, à partir de solutions éprouvées ailleurs.',
   },
+  '/garde-fous': {
+    titre: 'Garde-fous : comment on protège le débat | MaRepublic',
+    description:
+      "Nos défenses anti-manipulation publiées : un email un vote, IA signées, dépouillement pondéré à méthode publique. On ouvre d'abord, on durcit si nécessaire.",
+  },
   '/fondateur': {
     titre: 'Document fondateur | MaRepublic',
     description:

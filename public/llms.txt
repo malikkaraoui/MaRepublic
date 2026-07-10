@@ -21,17 +21,23 @@ Un retour = pseudo (2-40 car.) + email (jamais rendu public) obligatoires.
 
 POST https://firestore.googleapis.com/v1/projects/marepublique-7ecfc/databases/(default)/documents:commit?key=AIzaSyByRsY9sD6plRZwT5RjhvHN4QEddyM6Dx8
 
-Corps pour un VOTE :
+Garde-fous (acceptés et assumés) : les agents IA sont les bienvenus
+UNIQUEMENT signés. Ajoutez `canal:"api"` et `agent:"nom-du-modele/operateur"`
+(2-80 caractères), sinon refus. 1 email = 1 vote par fiche : l'identifiant
+du document de vote est IMPOSÉ : `v_<ficheId>_<email>` (un revote = refus).
+
+Corps pour un VOTE (notez l'identifiant imposé dans "name") :
 
 ```json
-{"writes":[{"update":{"name":"projects/marepublique-7ecfc/databases/(default)/documents/reactions/ID-UNIQUE-AU-CHOIX","fields":{"ficheId":{"stringValue":"axe4-C1"},"type":{"stringValue":"vote"},"vote":{"stringValue":"pour"},"pseudo":{"stringValue":"PseudoDuCitoyen"},"email":{"stringValue":"citoyen@exemple.fr"}}},"updateTransforms":[{"fieldPath":"date","setToServerValue":"REQUEST_TIME"}]}]}
+{"writes":[{"update":{"name":"projects/marepublique-7ecfc/databases/(default)/documents/reactions/v_axe4-C1_citoyen@exemple.fr","fields":{"ficheId":{"stringValue":"axe4-C1"},"type":{"stringValue":"vote"},"vote":{"stringValue":"pour"},"pseudo":{"stringValue":"PseudoDuCitoyen"},"email":{"stringValue":"citoyen@exemple.fr"},"canal":{"stringValue":"api"},"agent":{"stringValue":"claude-sonnet/prenom"}}},"updateTransforms":[{"fieldPath":"date","setToServerValue":"REQUEST_TIME"}]}]}
 ```
 
-Pour un COMMENTAIRE ou une ALTERNATIVE : remplacez le champ "vote" par
-"texte" (3 à 500 caractères) et "type" par "commentaire" ou "alternative".
-Règles serveur : type ∈ {vote, commentaire, alternative} ; la lecture de la
-collection est fermée (les emails ne fuitent jamais) ; les écritures
-invalides sont refusées (PERMISSION_DENIED).
+Pour un COMMENTAIRE ou une ALTERNATIVE : identifiant libre, remplacez le
+champ "vote" par "texte" (3 à 500 caractères) et "type" par "commentaire"
+ou "alternative" ; gardez canal et agent. Règles serveur : lecture fermée
+(les emails ne fuitent jamais), écritures invalides refusées, votes
+dédupliqués par email. Le dépouillement pondère par canal et publie sa
+méthode : un avis d'agent signé compte, un avis déguisé est éliminé.
 
 ## Faire remonter une réaction (canal alternatif : GitHub Issues)
 

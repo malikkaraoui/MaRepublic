@@ -22,6 +22,7 @@ export default function Footer() {
           <Link to="/fondateur">Document fondateur</Link>
           <Link to="/programme">Programme</Link>
           <Link to="/accessibilite">Accessibilite</Link>
+          <Link to="/garde-fous">Garde-fous</Link>
         </nav>
 
         <p className="site-footer__meta">
