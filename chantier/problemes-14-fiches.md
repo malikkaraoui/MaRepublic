@@ -10,6 +10,7 @@
 - **Piste C : Zéro friction : dématérialisation via France Identité :** Intégration biométrique complète (reconnaissance faciale + NFC CNI existante), vérification par selfie timbré, remise physique par courrier. Supprime le rendez-vous entièrement. **Pour :** radical, éliminerait 60 % du trafic mairies, autonomie usager. **Contre :** cybersécurité des données faciales, fracture numérique (personnes âgées), débat éthique France Identité.
 - **Piste D : 🇩🇪 Modèle anticipé allemand :** Gestion informatisée des flux (prédiction demandes, staff adapté par saison, bonus heures atypiques). **Pour :** optimise ressources existantes. **Contre :** dépend prévention usagers (pré-demande en ligne), si non-utilisée = inefficace.
 - ⚖️ **Faisabilité juridique :** Loi France Identité ; Censure CC si dématérialisation biométrique (proportionnalité vie privée) ; Conseil constitutionnel 2012-652 DC.
+- **Simulation (ordres de grandeur) :** Suède sans RDV : 200-400 agents mairies supplémentaires (+50 M€/an). Délégation décentralisée : 100-150 M€ équipement antennes. Dématérialisation biométrique : 300-500 M€ + risque fracture numérique. Gagnants : 30-60k par an en attente. Délai files : 10-20 min (vs 30-60 jours). Financement : budget mairies + État. Risque : data faciales non-sécurisées.
 - ⚖️ **À trancher :** faut-il accepter dématérialisation biométrique complète pour eliminer la file d'attente, ou redoter les mairies pour un service physique décent ?
 - **Statut :** ⬜
 
@@ -21,6 +22,7 @@
 - **Piste C : Production semi-locale :** Petites unités sécurisées en préfecture, impression titres « jours+2 ». Thales reste tiers certificateur. **Pour :** divise délai par 2, crée emplois préfecture. **Contre :** coût infrastructure énorme, complexe auditée.
 - **Piste D : Zéro friction : titres au format numérique d'abord :** Titre au standard européen EUDI Wallet, document papier optionnel, livré par email dès vérification. **Pour :** immédiat usager, papier suit par courrier sans urgence. **Contre :** adoption faible titres numériques avant 2030, reconnaissance pays tiers chaotique.
 - ⚖️ **Faisabilité juridique :** UE directive EUDI 2024 ; UE : reconnaissance titre numérique non garantie avant 2030 ; Règlement UE 2024/1523.
+- **Simulation (ordres de grandeur) :** Délocalisation Thales (Estonie/Portugal) : +200-300 M€ contrats. Production semi-locale préfecture : 150-200 M€ équipement + 20-30 M€/an RH. Titres numériques EUDI : 80-100 M€ déploiement. Délai réduction : 8 sem à 4 sem (semi-local). Gagnants : tous demandeurs (délai divisé par 2). Risque : données biométriques transfrontalières, adoption EUDI lente avant 2030.
 - ⚖️ **À trancher :** comment diviser par 2 délais sans surcoût mairies : augmenter production Thales ou accepter titre numérique d'abord ?
 - **Statut :** ⬜
 
@@ -32,6 +34,7 @@
 - **Piste C : Zéro friction : retrait plateforme numérique, 100 % papier :** Détruire ANEF, retour dossiers physiques, courrier recommandé. **Pour :** élimine toute friction technique, confiance usagers rétablie. **Contre :** paralysie mairies (volume papier énorme), délais traitement x 3, rupture promesse modernisation.
 - **Piste D : 🇸🇰 Slovaquie, doublon obligatoire :** ANEF existe mais usager peut toujours envoyer dossier papier copie (préfecture traite les deux, accepte d'abord reçu). **Pour :** usagers flexibilité, préfecture travaille sources multiples. **Contre :** redoublement travail usager, confusion qui dossier valide, gestion archives chaotique.
 - ⚖️ **Faisabilité juridique :** Loi 2016 dématérialisation + CESEDA L131-1 ; CEDH art. 8 (ruptures droits) et Défenseur des droits (rapports 2024) ; Arrêt Conseil d'État mai 2026.
+- **Simulation (ordres de grandeur) :** Audit cabinet intl : 5-10 M€ (3 mois). Retour papier 100 % : 20-30 M€ archi, délai x3. Bypass papier obligatoire : 50-80 M€ préfectures. Gagnants : 400k+ usagers en difficulté avec ANEF. Délai traitement : retour 3-4 mois (papier) ou 2 mois (audit/fix). Risque : ANEF reste bugué si pas audit complet.
 - ⚖️ **À trancher :** faut-il casser ANEF complètement, l'audit/réparer ou créer bypass papier obligatoire ?
 - **Statut :** ⬜
 
@@ -43,6 +46,7 @@
 - **Piste C : Automatisation IA triage :** Système IA classe dossiers « simple renouvellement » (même commune, même motif). Ceux-ci traitement 15 jours full-auto, transmission attestation provisoire. **Pour :** délai court, réduit backlog moitié. **Contre :** risque erreur IA (mal-classement = rejet injuste), contestation juridique massive.
 - **Piste D : Zéro friction : titre auto-renouvelé tacite :** Titre multiannuel (5-10 ans) renouvelé automatiquement sauf changement signalé usager. **Pour :** écrase arriérés, zéro demande. **Contre :** perte vigilance fraude, faille sécurité intégration, opposition politique très forte.
 - ⚖️ **Faisabilité juridique :** CESEDA L131-1 + Proposition loi Sénat 2026 (renouvellement auto) ; CEDH art. 8 (vie privée/familiale) ; Proposition loi avril 2026.
+- **Simulation (ordres de grandeur) :** Embauche 1500 agents : 175 M€/an, délai 35 jours. Silence acceptation automatique : refus pics 20-30k, compensation 50-200M€. Automatisation IA triage : 50-80 M€ plateforme, délai 15 jours classe simple. Titre renouvelé tacite : économie 10-15k arrérés/an. Gagnants : 930k en attente. Délai : 35-60 jours selon piste.
 - ⚖️ **À trancher :** accepter renouvellement tacite (silence = accord) pour débloquer 930 000 personnes, ou redoter mairies humainement ?
 - **Statut :** ⬜
 
@@ -54,6 +58,7 @@
 - **Piste C : Zéro friction : silence = accord :** Au-delà 30 jours sans réponse, acte « réputé délivré », usager peut ceritfier demande + courrier mairie = acte valide. **Pour :** force mairies répondre vite. **Contre :** actes falsifiés risque, mairies furibondes (perte contrôle), chaos juridique.
 - **Piste D : Accès direct API pour usagers :** App mobile offre requête acte, mairie répond 48h ou délai légal court = 10 jours. **Pour :** transparence timing, usager suit progression. **Contre :** mairies petites n'ont pas IT, coût intégration.
 - ⚖️ **Faisabilité juridique :** Code civil + CRPA L231-1 (silence vaut accord) ; E-acte non reconnu intl sans timbre (CEDH reconnaissance docs) ; Service-public.gouv.fr.
+- **Simulation (ordres de grandeur) :** E-acte numérique immédiat : 30-50 M€ plateforme. Archives centralisées nationales : 100-150 M€ migration. Silence = accord (auto-réputé délivré) : risque falsification actes. Délai : 3-4 jours (guichet central) vs 15 jours (mairies). Gagnants : tous demandeurs (délai). Risque : chaos juridique si silence imposé sans contrôle.
 - ⚖️ **À trancher :** e-actes numérique (perte reconnaissance intl) ou centraliser archives papier (impact autonomie) ?
 - **Statut :** ⬜
 
@@ -65,6 +70,7 @@
 - **Piste C : Zéro friction : abandon app, retour NFC direct mairie :** Mairie lit CNI NFC en local (lecteur sécurisé préfecture), plus besoin France Identité app. Titres numériques issus serveur mairie. **Pour :** supprime chaîne usager = zéro bugs usager, gain sécurité. **Contre :** mairies petites sans lecteur, coût équipement mairies.
 - **Piste D : 🇰🇷 Corée du Sud, multi-app ecosystem :** Laisser app tiers (Docusign, Onfido) certifier identité, interconnecter avec France Identité. Compétition = qualité. **Pour :** marché corrige bugs. **Contre :** fragmentation données, RGPD = cauchemar, faille sécurité = risque multi-app.
 - ⚖️ **Faisabilité juridique :** Loi France Identité + RGPD art. 9 (données biométriques) ; Censure CC dématérialisation biométrique ou fragmentation RGPD ; Conseil constitutionnel 2012-652 DC.
+- **Simulation (ordres de grandeur) :** Audit open-source Inria : 3-5 M€, timeline 3 mois. Fix bugs : 50-100 M€ ingénierie. NFC lecteur direct mairie : 200-300 M€ équipement + 10-15 M€/an RH. Gagnants : millions usagers (app fonctionne). Risque : bugs révélés publiquement = perte confiance, failles sécurité.
 - ⚖️ **À trancher :** garder France Identité obligatoire ET réparer urgence (coût, temps), ou la rendre optionnel/contrefaire via tiers ?
 - **Statut :** ⬜
 
@@ -76,6 +82,7 @@
 - **Piste C : Zéro friction : suppression légalisation dans UE :** Accord mutuel reconnaître actes pays UE sans apostille/légalisation (appliquée déjà successions UE depuis 2012). Généraliser tous actes internes UE. **Pour :** écrase formalisme, délai zéro pour Français en UE. **Contre :** hors UE rien change, crée brèche fraude.
 - **Piste D : 🇸🇪 Suède, certification blockchain :** Actes légalisés digitalement par notaire (hash blockchain), reconnu partout sans besoin parapheur papier. **Pour :** instant, traçable, immuable. **Contre :** pas de standard intl blockchain, pays tiers reconnaît pas.
 - ⚖️ **Faisabilité juridique :** Convention La Haye 1961 (apostille) + Règlement UE 650/2012 (successions UE) ; UE ne s'applique qu'intra-UE, hors-UE => Convention intl fixe ; Convention La Haye 1961 & Réglement UE 2012.
+- **Simulation (ordres de grandeur) :** Portail Canada unique : 5-10 M€ initial. Délais max légaux notaires (8 jours) : 10-20 M€ formation. Suppression légalisation UE : zéro coût intra-UE, gain temps. Gagnants : succession, mariage, export travail (délai divisé par 2-3). Financement : notaires + budget État. Risque : hors-UE délai inchangé (pays tiers ignorent accord UE).
 - ⚖️ **À trancher :** unifier apostille/légalisation en procédure unique + délai max, ou supprimer intégralement en UE ?
 - **Statut :** ⬜
 
@@ -87,5 +94,6 @@
 - **Piste C : Zéro friction : compensation allocations parallèles :** CAF continue allocations si dossier renouvellement en cours prouvé (reçu ANEF). **Pour :** rompt chaîne ruptures (emploi ok = revenus ok). **Contre :** surcharge CAF de vérification, fraude (faux dossiers ANEF), budget social +500 M€.
 - **Piste D : 🇦🇺 Australie, titre temporaire automatique :** Demande renew = titre provisoire 30 jours renouvelable (valeur administrative complète : emploi, allocations, soins) jusqu'à décision. **Pour :** usager = zéro rupture, vraiment provisoire. **Contre :** charge préfecture délivrance titres temp., perte contrôle effectif (combien provisoires pas résolus ?).
 - ⚖️ **Faisabilité juridique :** CESEDA L131-1 + CRPA L231 (silence vaut accord) ; CEDH art. 6 (droit procès équitable) + art. 8 (rupture droits) ; Défenseur des droits rapport 2024.
+- **Simulation (ordres de grandeur) :** Titre renouvelé tacite 6 mois : zéro rupture droits (emploi continue). Compensation allocations parallèles CAF : 500 M€/an si taux validation ~75 %. Titre provisoire auto Australie : 30-50 M€ délivrances tempochiffres. Gagnants : 500k+ résidents légaux bloqués (zéro rupture). Délai : continu (pas d'attente). Risque : charge préfecture délivrances tempo, fraude perte de contrôle.
 - ⚖️ **À trancher :** titre renouvelé tacitement pendant instruction (rupture = zéro) ou accélération justice/allocations parallèles (pansement partiel) ?
 - **Statut :** ⬜

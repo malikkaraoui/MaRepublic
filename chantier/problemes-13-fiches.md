@@ -10,6 +10,7 @@
 - **Piste C, 🇪🇺 Union Européenne (FALC obligatoire + accessibilité) :** Facile à Lire et à Comprendre (FALC) : standard européen pour documents officiels (court, vocabulaire simple, pictogrammes). Depuis 2019, obligatoire pour certains services. Accessible à minima 70 % de la population. **Pour :** inclusion réelle pour personnes illettrées, handicap, étrangers. **Contre :** produit coûteux, plus lent à produire.
 - **Piste D, France interne (Audit Citoyen de Lisibilité) :** Avant toute démarche nouvelle, jury de 20 citoyens (tirés au sort, sans expertise administrative) teste en conditions réelles. Taux de réussite < 85 % : renvoi à la conception. Obligation légale. **Pour :** test authentique, responsabilité directe. **Contre :** lenteur de production, veto citoyen possible aux réformes.
 - ⚖️ **Faisabilité juridique :** Loi ; absence d'obligation légale actuelle de lisibilité ; analogie RGPD (transparence exigée) mais non applicable démarches.
+- **Simulation (ordres de grandeur) :** Audit citoyen : 1-2 M€. Standard numérique (GOV.UK-like) : 50-100 M€ initial + 5-10 M€/an. FALC docs existants : 500 M€-1 Md€. Gagnants : 2.5 M illettrés, étrangers, retraités. Perdants : moins d'appels retardés (gain État). Délai déploiement : 2-5 ans.
 - ⚖️ **À trancher :** un droit doit-il être garanti constitutionnellement à la même simplicité qu'une amende, ou l'expertise reste-t-elle légitime ?
 - **Statut :** ⬜
 
@@ -21,6 +22,7 @@
 - **Piste C, 🇩🇪 Allemagne (Plattform für Leichte Sprache) :** Plateforme centralisée où n'importe quel citoyen peut signaler texte incompréhensible. Bénévoles retraités (linguistes, juristes) proposent version simple. État finance/valide. **Pour :** crowdsourcing inclusif, bénévoles impliqués, gratuit pour État. **Contre :** qualité inégale, dépend engagement bénévoles, temps long.
 - **Piste D, France interne (Service de Lisibilité Obligatoire dans chaque préfecture) :** Chaque préfecture, chaque CAF, chaque URSSAF : agent formé au langage clair. Tout citoyen peut envoyer texte via portail ; réponse en 10 jours en version lisible. Obligation légale pour administration. **Pour :** accessibilité locale, responsabilité directe, gratuit. **Contre :** charge RH, qualité variable selon préfectures.
 - ⚖️ **Faisabilité juridique :** Loi ; liberté rédactionnelle admin (absence loi) ; RGPD impose transparence info (données perso) mais limité.
+- **Simulation (ordres de grandeur) :** Formation agents (langage clair) : 20-50 M€. FALC traduction docs : 300-500 M€. Service lisibilité en préfecture : 10-15 M€/an RH. Gagnants : 7 M en difficultés lecture, migrants, retraités. Perdants : ministères (surcharge initiale). Délai production docs : +15-20 %. Financement : budget ministériel.
 - ⚖️ **À trancher :** qui paie le coût réel de la simplicité (producteur du texte vs. utilisateur en difficulté) ?
 - **Statut :** ⬜
 
@@ -32,6 +34,7 @@
 - **Piste C, 🇩🇰 Danemark (MitID + portail MindID) :** Depuis 2021. Citoyen n'a accès qu'à 1 portail, où tous les services apparaissent (impôts, allocations, retraite, permis). Données partagées inter-agences avec consentement une fois par année. **Pour :** UX centralisé, pas confusion d'accès (juste 1 login). **Contre :** meileure (à confirmer)... concentration du pouvoir d'accès, dépendance à 1 seule clé numérique.
 - **Piste D, France interne (Guichet unique numérique avec open data gouvernemental) :** Créer FranceID unique (comme MitID). Tout service public doit exposer API pour accès inter-agences (via consentement explicite). Base de données centralisée (immobile, famille) avec droit d'accès citoyen. Transition 10 ans. **Pour :** réduction drastique de bureaucratie, économies énormes, inclusion (moins fatigue). **Contre :** coûts d'infrastructure massifs, risque d'une débâcle informatique, question de sécurité des données centralisées.
 - ⚖️ **Faisabilité juridique :** Loi + RGPD ; silos admin légaux (pas obligation partage interadmin) ; RGPD minimisation données mais once-only non prescrit.
+- **Simulation (ordres de grandeur) :** Infrastructure once-only (Estonie X-Road) : 600-800 M€ initial. FranceID : 200-300 M€ + 30-50 M€/an maintenance. Économies : 1-3 % PIB (fraude, renoncement réduits). Gagnants : 20 % droits actuellement non demandés. Délai déploiement : 8-10 ans. Risque : centralisation données, dépendance IT totale.
 - ⚖️ **À trancher :** vaut-il mieux une centralisation numérique (une vraie rupture) ou des micro-améliorations en silos (réformisme)?
 - **Statut :** ⬜
 
@@ -43,6 +46,7 @@
 - **Piste C, 🇳🇿 Nouvelle-Zélande (Service Level Agreements légales) :** Tout service doit publier délai garanti par loi (ex : passeport 10 jours, allocation 8 semaines). Dépassement : compensation auto versée (50-200 $). Suivi public mensuel. **Pour :** clarté, responsabilité directe, citoyen sait quand relancer. **Contre :** incite à des délais gonflés en amont, compensation peut devenir gateway pour fraude.
 - **Piste D, France interne (Accord tacite par défaut, liste blanche d'exceptions) :** Loi : tous les recours admins = accord tacite après 3 mois, sauf liste légale explicite (15 max : santé, immigration, sécurité, etc.). Administration doit publier raison du rejet. Compensation auto si délai dépassé (50-200 €). **Pour :** force vraie, citoyen ne craint pas l'attente. **Contre :** gestion d'exceptions en chaîne, surcharge aval, administrateurs débordés.
 - ⚖️ **Faisabilité juridique :** Loi (ESSOC 2016) ; art. L. 231-1 CRPA accord tacite 4 mois mais exceptions très larges ; jurisprudence incertaine.
+- **Simulation (ordres de grandeur) :** Accord tacite automatique : refus à traiter en chaîne (pic initial 20-30k demandes rejetées post-accord). Compensation auto (50-200 €) : 50-150 M€/an. Gagnants : usagers (certitude, pas attente). Perdants : admin (surcharge), TPE (délais permis). Délai réel : 3-6 mois pour régulariser. Financement : budget État (compensation).
 - ⚖️ **À trancher :** un accord tacite automatique est-il plus égalitaire qu'un système de délais serrés + gestion par administration ?
 - **Statut :** ⬜
 
@@ -54,6 +58,7 @@
 - **Piste C, 🇪🇸 Espagne (CNI par courrier + dématérialisation) :** Depuis 2022. Première CNI : retrait en mairie. Renouvellement : courrier (sans déplacement). Reconnaissance biométrique par mail possible pour certains. Délai : 2 semaines. **Pour :** commodité, délai réduit, pas de déplacement fréquent. **Contre :** risque de vol courrier (CNI papier), dépendance postal, dématérialisation inégale (âgés ne font pas par mail).
 - **Piste D, France interne (Passeport/CNI en 48h via collectivité + faciale digitale) :** Mairies peuvent délivrer sous 48h (investissement biométrie locale). Renouvellement par vidéo (reconnaissance faciale 3D sécurisée via appli). Délai long : rural, délai garanti 1 semaine. **Pour :** décentralisation, délai court, accessibilité. **Contre :** coûts énormes pour mairies, cybersécurité (données faciales), surcharge pour petites communes.
 - ⚖️ **Faisabilité juridique :** Décret (ANTS) ; délais administratifs non garantis légalement ; ordonnance 2019-518 création ANTS mais délai strict absent.
+- **Simulation (ordres de grandeur) :** Express delivery (Norvège) : surcoût 30-50 M€/an RH, délai 5 jours. Décentralisation biométrie (Nouvelle-Zélande) : 200-300 M€ équipement mairies, formation agents. Renouvellement par vidéo : 100-150 M€ appli. Gagnants : 400k Français sans doc. Délai : 5 jours (express). Financement : ANTS budget ou usagers (+30 %). Risque : inégalité tarif (ceux qui peuvent payer vite).
 - ⚖️ **À trancher :** comment justifier délais longs alors que bio/numérique permet quasi-instantanéité, sauf volonté administrative de faire attendre?
 - **Statut :** ⬜
 
@@ -65,6 +70,7 @@
 - **Piste C, France-Alsace (Maison France Services) :** Depuis 2018. Guichets uniques dans villes petites/moyennes. 1 agent aide pour CAF, URSSAF, finances, mairie, emploi. Plus ou moins fonctionnel selon dotations (à confirmer). **Pour :** centralisation locale, réduction pèlerinage guichets. **Contre :** couverture très inégale (3000 communes seulement), agents surchargés, pas vraiment pour digital.
 - **Piste D, France interne (Dématérialisation obligatoire + agents numériques déconcentrés) :** Tous les services en ligne. Mais obligation légale : chaque CCAS (Centre Communal d'Action Sociale) doit embaucher 1/2 agent formé à l'inclusion numérique (financé État). Peut voter par procuration pour services numériques pour usagers illettrés numériquement. **Pour :** inclusion vraie, emploi, continuité territoriale. **Contre :** coûts État massifs (5-8 Md€/an), double emploi possible.
 - ⚖️ **Faisabilité juridique :** Loi Handicap 2005 + directive UE 2019/882 ; liberté direction admin (fermeture guichets légale) ; pas obligation parallèle numérique/humain.
+- **Simulation (ordres de grandeur) :** Agents numériques CCAS : 5-8 Md€/an RH (1/2 agent par commune). Hotline 24/7 Suède : 200-300 M€/an. Gagnants : 14 M sans connexion, 2.5 M illettrés numériques. Perdants : budget État. Délai : 3-5 ans déploiement complet. Risque : création emplois précaires, inégalité géographique.
 - ⚖️ **À trancher :** l'État a-t-il le droit de dématérialiser sans garantir que TOUS peuvent accéder (même si ça coûte), ou est-ce luxe ?
 - **Statut :** ⬜
 
@@ -76,6 +82,7 @@
 - **Piste C, 🇮🇹 Italie (CQC Online Portal) :** Plateforme unique pour permis + historique infos. Consultable sans login spécifique (via SPID = ID digitale italienne). Notification SMS auto. Renouvellement : signalement algo (30 jours avant) + appel direct. **Pour :** intégration eID + service. **Contre :** SPID lui-même complexe (3 types d'auth), pas vraiment simplifié si SPID l'est pas.
 - **Piste D, France interne (MonPermis.gouv simplifié + SMS pro-actifs) :** Consolider SAAQ + permis en 1 seul portail (MonPermis). Consulter points : click unique (pas de redirection). Signaler perte : 2 minutes online (pas de sous-préfecture). SMS auto si points < 4, ou renouvellement dans 60 jours. **Pour :** centralisation, UX minimaliste, equité avec paiement amende. **Contre :** refonte informatique coûteuse (SAAQ legacy), SMS peut être spam perçu.
 - ⚖️ **Faisabilité juridique :** Décret (SAAQ, code route) ; pas obligation SMS/notification proactive ; code route R. 231-1+ mais consultation simplifiée absent.
+- **Simulation (ordres de grandeur) :** MonPermis.gouv consolidé + SMS : 20-30 M€ refonte SAAQ. Notification SMS : 2-5 M€/an. Gagnants : tous conducteurs (UX simplifiée). Délai : 1-2 ans déploiement. Financement : budget SAAQ + économies gestion papier. Risque : SMS peut sembler spam, opt-out si abusé.
 - ⚖️ **À trancher :** les droits du citoyen (consulter infos légales le concernant) doivent-ils être aussi faciles que ses devoirs (payer) ?
 - **Statut :** ⬜
 
@@ -87,6 +94,7 @@
 - **Piste C, 🇳🇿 Nouvelle-Zélande (National Planning Statements) :** Délivrance permis du resource consent : 10 semaines garanti si dossier complet. Critères centralisés nationalement (pas local), donc plus prévisible. Appel : 20 jours, jugement administratif clair. **Pour :** prévisibilité, pas d'arbitraire local, accélération. **Contre :** centralisation (perte de local control), 1-size-fits-all peut être injuste territoires.
 - **Piste D, France interne (Permis accéléré + critères pré-validés + service de pré-dossier) :** Permis non-complexe (< 100 m2, pas patrimoine, < 2 étages, zone réglementaire claire) : 3 semaines max. Criteria affichées simplement en mairie + en ligne. Service gratuit pré-dossier (géomètre virtuel) pour corriger avant dépôt (gain 2 mois). Petits bâtiment (< 40 m2) : déclaration simple (2 pages). **Pour :** accélération réelle pour 60 % des cas, réduction coûts géomètre. **Contre :** risque de deux vitesses (permis rapide baclé vs. complexe slow), surcharge mairies au accueil pré-dossier.
 - ⚖️ **Faisabilité juridique :** Code urbanisme L. 421-1+ ; accord tacite 2 mois mais exceptions L. 421-5 (patrimoine, sites) très larges ; jurisprudence variable.
+- **Simulation (ordres de grandeur) :** Permis accéléré (< 100 m2) : 3 semaines. Service pré-dossier gratuit : 50-100 M€ initial (géomètre virtuel). Économies géomètres privés : 150-200 M€/an (petits projets). Gagnants : TPE, petits constructeurs (60 % des cas). Délai déploiement : 2-3 ans. Risque : deux vitesses (rapide/lent), surcharge mairies.
 - ⚖️ **À trancher :** faire plus vite au risque de moins bien contrôler, ou risquer de paralyser l'économie en vérifiant tout ?
 - **Statut :** ⬜
 
@@ -98,6 +106,7 @@
 - **Piste C, 🇦🇺 Australie (Lowering thresholds + independent support) :** Seuil : 500 signatures. AEC (Australian Electoral Commission) fournit service gratuit de dépôt (aide administrative). Indépendants : financement possible via crowdfunding non-limité (à condition transparence). **Pour :** accessibilité, soutien administratif. **Contre :** crowdfunding peut être opaque, financements internationalistes non-traçables.
 - **Piste D, France interne (Parrainages citoyens + dépôt en ligne + financement transparent) :** Seuil présidentielles : 5000 signatures (citoyens, via plateforme sécurisée en ligne). Candidature législative : dépôt 100 % en ligne (formulaire simple, 10 champs). Financement : tableau public en temps réel (tout don > 1000 € affiché). Partis petits : accès fonds publics dès 5 % votes (actuellement 10 %). **Pour :** égalité vraie, transparence, renouvellement politique. **Contre :** inflation candidatures (vrai question), financement public coûte + cher, manipulation parrainages online (bots ?).
 - ⚖️ **Faisabilité juridique :** Loi organique (code électoral) ; seuil 500 élus art. L. 52-1-1 (réforme 2022) ; Conseil constitutionnel peut encadrer.
+- **Simulation (ordres de grandeur) :** Seuil 5000 signatures citoyens + plateforme : 10-20 M€ initial. Inflation candidats : 20-30 % (chaos ballot risqué). Financement : fonds publics à 5 % votes = +100 M€/cycle. Gagnants : petits candidats, renouvellement politique. Perdants : grands partis. Délai déploiement : 1 an (techno). Risque : candidatures manipulées (bots parrainages).
 - ⚖️ **À trancher :** démocratiser l'accès à candidature c'est enrichir débat citoyen ou créer chaos électoral ?
 - **Statut :** ⬜
 
@@ -109,6 +118,7 @@
 - **Piste C, 🇩🇰 Danemark (Borger.dk + Portal de Plaintext) :** Portail unique où usagers voient toutes leurs décisions. Chaque rejet : justification en clair obligatoire (version FALC à demander si nécessaire). Appel : 30 jours, portail auto-calcule délai max. **Pour :** transparence centralisée, délai garanti, accessibilité. **Contre :** portail fragile si down, données sensibles centralisées (piratage?).
 - **Piste D, France interne (Droit à l'explication = droit légal + Médiateur gratuit renforcé) :** Loi : tout refus admin = justification écrite en langage clair (3 lignes min). Citoyen droit une réunion gratuite avec agent qui a décidé (30 jours dispo). Médiateur dept enfoui : budget x3 (embauche), délai max 2 mois. Ombudsman de recours : instance légale au-dessus (délai 6 mois). Sanction non-respect : nullité de la décision (refonte). **Pour :** responsabilité directe forte, double recours, droit garanti. **Contre :** fardeau admin énorme (formations + réunions), délai 2 mois + 6 mois possible = long pour urgent (allocations).
 - ⚖️ **Faisabilité juridique :** Loi ESSOC 2016 + art. L. 231-1 CRPA ; motivation imposée mais sanction faible ; Défenseur des droits recommandations non contraignantes.
+- **Simulation (ordres de grandeur) :** Médiateur dept enfoui x3 : 100-150 M€/an RH. Ombudsman recours : 50-80 M€. Formations agents explications : 20-30 M€. Gagnants : citoyens (accès justice accessible), femmes étrangères. Perdants : none. Délai recours : 2-6 mois. Risque : fardeau admin énorme, formations lentes, lenteur double recours.
 - ⚖️ **À trancher :** le citoyen a-t-il droit à comprendre les décisions qui le touchent, et à qui incombe de payer ce coût (admin ou État budgétaire) ?
 - **Statut :** ⬜
 
@@ -119,5 +129,6 @@
 - **Piste B : 🇪🇪 intégration aux guichets existants :** l'assistant branché dans les parcours (impots.gouv, ANTS...) comme l'Estonie intègre ses services à l'état civil numérique. **Pour :** aide au moment exact du besoin. **Contre :** dépend de chaque administration, plus lent.
 - **Piste C : accès garanti hors ligne :** le même assistant accessible par téléphone et dans les France Services, pour les exclus du numérique. **Pour :** égalité réelle. **Contre :** coût humain d'accompagnement.
 - ⚖️ **Faisabilité juridique :** aucune loi nouvelle requise pour un service public d'information (décret suffit) ; RGPD : pas de compte obligatoire, pas de conservation des questions ; le statut « information, pas conseil juridique » évite le périmètre réservé des avocats (loi du 31 décembre 1971, à vérifier en rédaction fine).
+- **Simulation (ordres de grandeur) :** Assistant IA (Mistral-like) : 10-15 M€ entraînement + 20-30 M€/an opération. Hébergement SecNumCloud : 5-10 M€/an. Gagnants : tous Français (accès droit immédiat), pauvres, étrangers. Délai : 6-12 mois déploiement. Risque : erreurs juridiques (besoin disclaimer clair), infrastructure critique, hallucinations IA.
 - ⚖️ **À trancher :** qui le porte (DINUM ? nouvel opérateur ?) ; ouverture du modèle (open source total ?) ; calendrier.
 - **Statut :** ⬜

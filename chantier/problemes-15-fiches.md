@@ -9,6 +9,7 @@
 - **Piste B : 🇧🇪 Belgique (Allocations familiales) :** Audit ciblé uniquement si anomalies signalées par tiers (employeur, services fiscaux), jamais automatique. **Pour :** Économies publiques prouvées (moins de faux positifs). **Contre :** Fraudes importantes non détectées, surtout revenus déclarés ailleurs.
 - **Piste C : 🇫🇷 Zéro friction (RADICAL) :** Versement automatique des droits sous plafonds (RSA, APL) sans dossier initial ; contrôles APRÈS versement, avec suspens d'indus si litiges en cours. **Pour :** Élimine non-recours, crises de trésorerie zéro. **Contre :** Faux positifs à recouvrer plus tard, augmente le stock d'indus.
 - ⚖️ **Faisabilité juridique :** Code action sociale + RGPD ; RGPD art. 22 (décisions automatisées interdites) + art. 9 (données sensibles) ; Attaque Conseil d'État 15 associations 2024.
+- **Simulation (ordres de grandeur) :** Audit algorithme : 10-20 M€. Transparence score : 5-10 M€ interface. Réduction fréquence contrôles (30M à 3M) : 100-150 M€ économies annuelles CAF. Notification préalable détaillée Allemagne : 20-30 M€ RH. Gagnants : millions allocataires (moins stress). Perdants : détection fraude réduite (à confirmer impact). Financement : CAF budget.
 - ⚖️ **À trancher :** Privilégier transparence (détail du score d'algorithme visible) ou réduction drastique de fréquence des contrôles (passage de 30M à 3M/an) ?
 - **Statut :** ⬜
 
@@ -19,6 +20,7 @@
 - **Piste B : 🇫🇮 Finlande (Kelan) :** Allocation de subsistance versée sans test de ressources durables si demande unique ; gestion simplifiée post-factum. **Pour :** Zéro honte, accès immédiat. **Contre :** Difficile à adapter aux droits résidentiels français, coûts publics débattus.
 - **Piste C : 🇫🇷 Zéro friction (RADICAL) :** RSA versement automatique dès éligibilité repérée (déclaration fiscale) + suppression du dossier papier/numérique. Campagne publique massive éliminant la honte. **Pour :** Élimine non-recours structurellement. **Contre :** Coût net de 3.5 à 4.5 milliards €/an si taux passe à 95%.
 - ⚖️ **Faisabilité juridique :** Loi RSA (L262 CASF) + art. 40 Constitution ; Art. 40 (hausse dépenses) + budget si versement auto + coût 3.5-4.5 Md€ ; DREES mai 2026 & Défenseur droits 2025.
+- **Simulation (ordres de grandeur) :** Versement automatique déclaration fiscale : 3.5-4.5 Md€/an supplémentaires (600k foyers x 417 €/mois). Taux non-recours baisse 34 % à 5 %. Campagne médias + accompagnement local : 100-150 M€ initial + 50 M€/an. Gagnants : 600k foyers pauvres. Délai : 2-3 ans déploiement. Risque : surversements si données fiscales en retard, surcoût budgétaire permanent.
 - ⚖️ **À trancher :** Versement automatique (choc budgétaire) ou ciblage médias + accompagnement local (moins rapide) ?
 - **Statut :** ⬜
 
@@ -29,6 +31,7 @@
 - **Piste B : 🇦🇹 Autriche (Pensionsversicherungsanstalt) :** Carnet de travail numérique synchronisé avec tous employeurs ; dossier clôturé 4 semaines. **Pour :** Zéro délai de transmission données. **Contre :** Requiert infrastructure IT robuste et confiance complète des tiers.
 - **Piste C : 🇫🇷 Zéro friction (RADICAL) :** Versement automatique au taux minimum dès 65 ans (ou seuil légal) si 150 trimestres ; dossier Carsat devenu optionnel pour optimiser uniquement. **Pour :** Zéro rupture de ressources. **Contre :** Millions de surpaiements à régulariser, complexité accrue pour pensions à points.
 - ⚖️ **Faisabilité juridique :** Loi retraite 2023 (L111 code sécurité sociale) + art. 40 Constitution ; Art. 40 si versement anticipé + surpaiements multimillions ; Loi réforme retraite 2023.
+- **Simulation (ordres de grandeur) :** Embauche 500 agents Carsat : 50-80 M€/an, délai 4 semaines. Algo multi-source (Pays-Bas) : 30-50 M€ plateforme, versement provisoire 6 sem. Versement auto min (radical) : 200-300 M€ surpaiements à régulariser. Gagnants : 1000s retraités en rupture ressources. Délai : 4-6 semaines (embauche) vs 6 semaines (algo) vs immédiat (auto).
 - ⚖️ **À trancher :** Accélérer traitements Carsat (embauche massive) vs automatisation partielle avec ajustements ultérieurs ?
 - **Statut :** ⬜
 
@@ -39,6 +42,7 @@
 - **Piste B : 🇮🇹 Italie (Agenzia delle Entrate) :** Versement brut sans prélèvement, puis impôt reversé en fin d'année sur base déclaration simplifiée ; tableau de synthèse obligatoire lisible (non fiscalo-jargonnique). **Pour :** Régularisation unique, lisible. **Contre :** Trésorier (salarié) avancé 12 mois d'impôts, peut être problématique pour bas revenus.
 - **Piste C : 🇫🇷 Zéro friction (RADICAL) :** Impôt versé annuellement en septembre (après déclaration), jamais en avance sur salaire. Avis d'imposition au format SMS + tableau Excel commenté, rédigé en français clair. **Pour :** Zéro surprise, zéro anticipation. **Contre :** Trésorier État affaibli, RSA/impôt sortent du même flux.
 - ⚖️ **Faisabilité juridique :** Loi finances + code monétaire financier + art. 40 Constitution ; Art. 40 si change régime impôt anticipé => recettes État ; DGFIP loi finances 2025.
+- **Simulation (ordres de grandeur) :** Synchronisation mensuelle employeur DGFIP : 50-100 M€ infrastructure. Avis impôt lisible SMS + Excel : 10-20 M€ refonte. Retour impôt annuel post-hoc : perte trésorier État 500 M€-1 Md€ (avance 12 mois perdue). Gagnants : 2.3 M contribuables (zéro surprise, clarté). Financement : DGFIP budget. Délai : 1-2 ans déploiement.
 - ⚖️ **À trancher :** Synchronisation employeur temps-réel ou retour à l'impôt annuel post-hoc ?
 - **Statut :** ⬜
 
@@ -49,6 +53,7 @@
 - **Piste B : 🇲🇱 Lituanie (system) :** Allocations modulées sur vraie pauvreté du foyer (dépenses logement, soins), non âge ; versement unique mensuel fusionné. **Pour :** Juste. **Contre :** Collecte données dépenses intrusive, surendettement caché mal détecté.
 - **Piste C : 🇫🇷 Zéro friction (RADICAL) :** Allocations fusionnées en versement unique, indexé sur revenus vérifiés une fois/an. Suppression majorations d'âge ; revalorisation autom. chaque 1er janvier. **Pour :** Zéro surprise, zéro calcul. **Contre :** Perte de capacité à adapter par étape de vie (nouveau-né, ado).
 - ⚖️ **Faisabilité juridique :** CASF + décret allocations familiales ; Censure CC si rétroactivité ou CEDH droit propriété ; UNAF attaque Conseil d'État avril 2026.
+- **Simulation (ordres de grandeur) :** Allocation fusionnée unique : 50-100 M€ refonte CAF/MSA. Suppression majorations âge : économies 500-800 M€/an. Revalorisation automatique annuelle : 20-30 M€ automatisation. Perte notification graduelle enfants : adaptation moins flexible. Gagnants : simplification massive (zéro calcul). Financement : budget social. Délai : 2-3 ans déploiement.
 - ⚖️ **À trancher :** Réforme par paliers (14/16/18 ans) vs suppression graduelle majorations d'âge vs fusion des allocations ?
 - **Statut :** ⬜
 
@@ -59,6 +64,7 @@
 - **Piste B : 🇬🇧 Royaume-Uni (DWP) :** Entretiens obligatoires 8/52 semaines si carrière fractionnée, annulables si offre CDI en cours ; version digital + humaine. **Pour :** Adapté à dynamique emploi. **Contre :** Très différent de régime français contributif, ne transfère pas.
 - **Piste C : 🇫🇷 Zéro friction (RADICAL) :** Inscription automatique si données déclaration fiscale montrent perte emploi ; versement ARE immédiat (sans condition RDV) si dossier complet déclaration antérieure. RDV devient optionnel pour formation/aide. Radiation jamais sans SMS + lettre recommandée + recours 30j. **Pour :** Zéro rupture allocation. **Contre :** Surversement massive si données retardées, chevalcade administratif ultérieur.
 - ⚖️ **Faisabilité juridique :** Loi France Travail 2023 (L5411 code travail) + CEDH art. 8 ; CEDH art. 8 (liberté) si conditions disproportionnées + art. 40 si surversements ; Loi 23 janvier 2023.
+- **Simulation (ordres de grandeur) :** RDV 30 jours min + repoussable (Norvège) : 50-80 M€ RH + 2 M€ formations. Versement auto depuis déclaration : 100-200 M€ infrastructure + 200-500 M€ surversements potentiels. Gagnants : indépendants transitoires (délai respecté). Délai : 30 jours garanti (vs 35+ actuellement). Risque : surversements massifs, chevauchement auto/contrôle.
 - ⚖️ **À trancher :** Assouplir délais ET conditions RDV (humaniser) vs automatiser versement primaire ?
 - **Statut :** ⬜
 
@@ -69,6 +75,7 @@
 - **Piste B : 🇩🇪 Allemagne (Algorithmic Accountability Act) :** Suspicion discrimination : renversement fardeau preuve (admin justifie neutralité, pas citoyen conteste). **Pour :** Dépasse secret. **Contre :** Judiciarisation systématique, contentieux massif.
 - **Piste C : 🇫🇷 Zéro friction (RADICAL) :** Interdiction stricte variables protégées (nationalité, sexe, handicap) dans tous algos prestations ; seuls revenus, âge, composition foyer acceptés. Audit annuel obligatoire CNIL, publié (versions redactées si nécessaire). Violation = pénalité 5% budget caisse. **Pour :** Élimine discrimination structurelle. **Contre :** Peut réduire efficacité ciblage fraude, limite data scientist public.
 - ⚖️ **Faisabilité juridique :** RGPD + Loi CNIL 1978 ; RGPD art. 9 (données sensibles) + art. 22 (auto-décisions) + CEDH discrimination ; Rapport Défenseur avril 2026.
+- **Simulation (ordres de grandeur) :** Interdiction variables protégées : 30-50 M€ audit/rearchitecture. Audit annuel CNIL : 10-20 M€/an. Pénalité 5 % budget caisse : 200-500 M€ dissuasion potentielle. Gagnants : minorités, pauvres (zéro discrimination structurelle). Perdants : efficacité fraude réduite (détection -20 % à confirmer). Délai : 2 ans rearchitecture. Financement : caisses sociales.
 - ⚖️ **À trancher :** Interdiction stricte variables vs audit transparent avec rectifications post-hoc ?
 - **Statut :** ⬜
 
@@ -79,5 +86,6 @@
 - **Piste B : 🇯🇵 Japon (Hello Work) :** Bureaux physiques décentralisés + dossier papier accepté. Numérisation optionnelle, pas imposée. **Pour :** Zéro exclusion. **Contre :** Redondance systèmes, difficile maintenance.
 - **Piste C : 🇫🇷 Zéro friction (RADICAL) :** Versement automatique depuis déclaration fiscale élimine dossier physique/numérique entièrement. Citoyen non concerné contacte admin = admin crée profil. Guichets obligatoires dans chaque commune, staffés pour accompagnement zéro coût. **Pour :** Zéro exclusion, zéro charge citoyens. **Contre :** Très coûteux (staff massif), change modèle public.
 - ⚖️ **Faisabilité juridique :** Loi accessibilité 2005 + RGPD ; CEDH droit accès + RGPD si collecte forcée ; ATD Quart Monde 2026 & Défenseur droits oct 2025.
+- **Simulation (ordres de grandeur) :** Hotline 24/7 Suède : 200-300 M€/an RH. Guichets obligatoires chaque commune : 5-8 Md€/an RH staff. Versement auto depuis données fiscales : 100-150 M€ infrastructure. Gagnants : 15 % sans connexion + 25 % illettrés numériques (3-4 M personnes). Délai accès : immédiat (guichets). Financement : budget État massif. Risque : création emplois précaires, inégalité territoriale.
 - ⚖️ **À trancher :** Maintenir dématérialisation + support humain renforcé (hybride) vs retour guichets obligatoires + versement auto ?
 - **Statut :** ⬜
