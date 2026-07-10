@@ -37,6 +37,11 @@ const METAS: Record<string, { titre: string; description: string }> = {
     description:
       "Presque rien, et c'est voulu : empreintes anonymes au lieu d'emails, pas de mot de passe, pas de tracker, pas de fichier d'opinions. Tout est expliqué en clair.",
   },
+  '/feuille-de-route': {
+    titre: 'Feuille de route : on attaque par quoi ? | MaRepublic',
+    description:
+      "Le dossier présidentiel du mouvement : jour 1 par décret, lois des 100 jours, chantiers de l'an I, ce qu'on abolit. Construit sur 241 fiches sourcées, tout reste en débat.",
+  },
   '/fondateur': {
     titre: 'Document fondateur | MaRepublic',
     description:

@@ -10,6 +10,7 @@ import axe2ServicesPublics from './axe-2-services-publics.md?raw'
 import axe3Fiscalite from './axe-3-fiscalite.md?raw'
 import axe4Souverainete from './axe-4-souverainete.md?raw'
 import axe5Ecologie from './axe-5-ecologie.md?raw'
+import feuilleDeRoute from './feuille-de-route.md?raw'
 
 export const content = {
   documentFondateur,
@@ -18,6 +19,7 @@ export const content = {
   axe3Fiscalite,
   axe4Souverainete,
   axe5Ecologie,
+  feuilleDeRoute,
 } as const
 
 export type ContentKey = keyof typeof content

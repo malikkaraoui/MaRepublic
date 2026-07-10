@@ -12,6 +12,7 @@ const links = [
   { to: '/fondateur', label: 'Document fondateur' },
   { to: '/programme', label: 'Programme' },
   { to: '/chantier', label: 'Chantier' },
+  { to: '/feuille-de-route', label: 'Feuille de route' },
 ]
 
 export default function Header() {

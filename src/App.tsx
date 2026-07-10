@@ -19,6 +19,7 @@ import Chantier from './pages/Chantier'
 import Accessibilite from './pages/Accessibilite'
 import GardeFous from './pages/GardeFous'
 import ViePrivee from './pages/ViePrivee'
+import FeuilleDeRoute from './pages/FeuilleDeRoute'
 import NotFound from './pages/NotFound'
 
 export default function App() {
@@ -35,6 +36,7 @@ export default function App() {
           <Route path="accessibilite" element={<Accessibilite />} />
           <Route path="garde-fous" element={<GardeFous />} />
           <Route path="vie-privee" element={<ViePrivee />} />
+          <Route path="feuille-de-route" element={<FeuilleDeRoute />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

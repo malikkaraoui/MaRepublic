@@ -15,6 +15,7 @@ const routes = [
   { path: '/', priorite: '1.0', freq: 'weekly' },
   { path: '/chantier', priorite: '1.0', freq: 'daily' },
   { path: '/programme', priorite: '0.9', freq: 'weekly' },
+  { path: '/feuille-de-route', priorite: '0.9', freq: 'weekly' },
   { path: '/fondateur', priorite: '0.8', freq: 'monthly' },
   { path: '/garde-fous', priorite: '0.6', freq: 'monthly' },
   { path: '/vie-privee', priorite: '0.5', freq: 'monthly' },
