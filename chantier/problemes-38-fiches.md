@@ -16,9 +16,7 @@ Un avis non contraignant n'empêche rien : le ministre peut ignorer le conseil d
 
 Rendre les avis contraignants (Pour : conflit résolu, Contre : atteinte à la liberté politique). Publier tous les avis (Pour : transparence totale, Contre : administratif lourd, avis bruts lisibles?). Créer un droit de veto sur les dossiers critiques (Pour : blindage, Contre : paralysie).
 
-**Simulation**
-
-Budget HATVP 2024 : 3,5 M€ pour 30 ministres + 750 saisines/an. Coût d'une vérification sérieuse par dossier : 15k€ (audit + documentation). Coût total d'une vérification exhaustive : 750 x 15k = 11,25 M€/an. Surcoût : +7,75 M€.
+- **Simulation (ordres de grandeur) :** Budget HATVP 2024 : 3,5 M€ pour 30 ministres + 750 saisines/an. Coût d'une vérification sérieuse par dossier : 15k€. Vérification exhaustive : 750 x 15k = 11,25 M€/an. Surcoût : +7,75 M€.
 
 **⚖️ Faisabilité juridique**
 
@@ -46,9 +44,7 @@ Ces cabinets façonnent les politiques publiques : santé, taxes, réforme admin
 
 Interdire les cabinets qui ont des clients du secteur régulé par ce ministère (Pour : pas de conflit, Contre : marché réduit, coûts élevés). Publier les livrables (Pour : transparence, Contre : secrets commerciaux, secrets d'État). Imposer un audit systématique du ROI (Pour : efficacité, Contre : administratif lourd). Forcer l'impôt sur les sociétés (Pour : équité, Contre : compétitivité, risque exit).
 
-**Simulation**
-
-Dépense 2024 estimée : 440 M€ (taux stable post-2021). Audit moyen par contrat : 30k€. Coût d'une vérification exhaustive (4000 contrats/an) : 120 M€/an. Impôts non collectés McKinsey : 60 M€/an. Total capture estimée : 180 M€/an en surcoûts + impôts perdus.
+- **Simulation (ordres de grandeur) :** Dépense 2024 : 440 M€. Économies auditées : 120 M€/an. Impôts McKinsey non collectés : 60 M€/an. Total capture : 180 M€/an. Qui perd : contributeurs (coûts cachés). Délai : 18 mois pour audit systématique.
 
 **⚖️ Faisabilité juridique**
 
@@ -76,9 +72,7 @@ Conflit d'intérêt permanent : tandis qu'il régule, le fonctionnaire sait qu'u
 
 Allonger la carence obligatoire à 5 ans (Pour : temps d'oubli, Contre : perte talent, surcoûts publics). Interdire l'embauche par les régulés pendant 3 ans (Pour : déconnexion, Contre : atteinte à la liberté de travail). Rotation des inspecteurs (Pour : limite familiarité, Contre : perte expertise). Transparence publique des pantouflages (Pour : dissuasion, Contre : administratif).
 
-**Simulation**
-
-IGF : 80 inspecteurs/an. 35% partent secteur privé soit 28/an vers banques/assurances. Délai carence actuel : 0 à 2 ans. Délai carence 5 ans = 140 inspecteurs bloqués. Coûts salaires retenus public : 140 x 120k€ = 16,8 M€/an. Bénéfice en contrôles renforcés non chiffré mais estimé 50+ M€ (moins de fraude tolérée).
+- **Simulation (ordres de grandeur) :** IGF : 80 inspecteurs/an, 35% vers secteur privé (28/an). Carence 5 ans = 140 inspecteurs retenus. Coûts rétention : 16,8 M€/an. Bénéfice en fraude détectée : estimé 50+ M€/an. Qui perd : banques (moins d'accès réseau). Délai : 6 mois implémentation.
 
 **⚖️ Faisabilité juridique**
 
@@ -106,9 +100,7 @@ La porte tourne vite (moins de 2 ans souvent). L'ancien régulateur arrive chez 
 
 Carence stricte 3-5 ans (Pour : oubli des secrets, Contre : perte talent régulateur, entreprises recrutent qui?). Interdire par décret le recrutement par régulés (Pour : efficacité, Contre : inégalité secteurs publics/privés). Roulement ARCEP/CSA (Pour : fraîcheur, Contre : perte expertise). Salaires publics alignés secteur privé (Pour : rétention, Contre : coûts publics énormes).
 
-**Simulation**
-
-ARCEP : 700 agents. 10 à 15 départs/an vers le secteur régulé. Carence 3 ans = 45 agents bloqués. Coûts (salaires différentiels) : 45 x 90k€ = 4,05 M€/an. Perte en expertise régulation : non chiffrable mais estimée 30 à 50 M€ en moins-value de contrôle.
+- **Simulation (ordres de grandeur) :** ARCEP : 700 agents, 12 départs/an vers régulés. Carence 3 ans = 36 agents retenus. Surcoûts rétention : 3,2 M€/an. Gain en contrôle régulation : estimé 30-50 M€/an. Qui perd : télécoms (moins de facilités). Délai : 3 mois révision statut.
 
 **⚖️ Faisabilité juridique**
 
@@ -136,9 +128,7 @@ C'est un privilège héréditaire de facto : une fois au sommet, on ne retombe j
 
 Pension décroissante (Pour : équité, Contre : stigmatisant). Condition "pas d'autre mandat" (Pour : logique, Contre : contrait carrière). Limite dans le temps (10 ans, Pour : temporaire, Contre : imprévisible). Moyens sécurité réévalués au cas par cas (Pour : économie, Contre : insécurité politique). Suppression pure (Pour : égalité, Contre : précédent, crainte exil).
 
-**Simulation**
-
-Rente présidentielle : 2 anciens x 5500€ x 12 = 132k€/an. Avantages PM : 6 anciens, moyenne 400k€/an en logistique/sécurité = 2,4 M€/an. Total : 2,53 M€/an. Si pension décroissante : 50% sur 10 ans = économie progressive 250k€/an (2,28 M€ à horizon 10 ans).
+- **Simulation (ordres de grandeur) :** Coût total 2024 : 2,53 M€/an (132k€ rentes présidents + 2,4 M€ avantages PM). Pension décroissante 50% sur 10 ans = économie 250k€/an. Qui gagne : trésor public. Qui perd : 2 présidents, 6 PM en fin de mandat. Délai : 12 mois transition.
 
 **⚖️ Faisabilité juridique**
 
@@ -166,9 +156,7 @@ Un député vote sous l'influence d'un avantage futur : une promesse d'embauche 
 
 Carence 2 ans (Pour : oubli votes, Contre : surcoûts réinsertion). Carence 5 ans comme Canada (Pour : déconnexion complète, Contre : très restrictif, talent perdu). Déclaration publique si lobby (Pour : transparence, Contre : compliance lourde). Interdiction si vote touche directement le futur employeur (Pour : logique, Contre : trop spécifique, trou passoire).
 
-**Simulation**
-
-Assemblée : 577 députés. Turnover moyen 20% / législature (115 départs). 30% deviennent lobbyistes soit 35/an. Carence 2 ans = 70 lobbyistes bloqués. Surcoûts réinsertion (allocation + formation) : 70 x 60k€ = 4,2 M€. Impact éco (moins de lobbying) : estimé 50 M€ en économies de "capture coûteuse".
+- **Simulation (ordres de grandeur) :** Assemblée : 577 députés, 35/an deviennent lobbyistes. Carence 2 ans = 70 lobbyistes bloqués. Surcoûts réinsertion : 4,2 M€/an. Économies lobbying : estimé 50 M€/an. Qui perd : lobbies (accès réduit). Délai : 2 mois révision loi 2016.
 
 **⚖️ Faisabilité juridique**
 
@@ -196,9 +184,7 @@ Un ambassadeur thématique a un budget, une équipe, un titre international. C'e
 
 Processus transparent avec jury indépendant (Pour : méritocratie, Contre : administratif, lenteur). Limite mandat 4 ans avec réélection concurrentielle (Pour : responsabilité, Contre : instabilité). Publication des critères de sélection (Pour : transparence, Contre : jurys blâmés). Abolir poste si pas candidat retenu (Pour : sélectivité, Contre : atrophie diplomatique).
 
-**Simulation**
-
-20 ambassadeurs thématiques. Budget moyen par poste : 200k€/an (salaire, equipe, déplacements). Total : 4 M€/an. Si 30% sont des nominations de complaisance pures : coût d'inefficacité 1,2 M€/an. Coût d'un processus de sélection indépendant : 50k€/an.
+- **Simulation (ordres de grandeur) :** 20 ambassadeurs thématiques à 200k€/an = 4 M€ budget. 30% nominations complaisance = 1,2 M€ coût inefficacité. Processus indépendant : 50k€/an supplé. Qui perd : politiciens en mal de réemploi. Gain : crédibilité diplomatique (à confirmer).
 
 **⚖️ Faisabilité juridique**
 
@@ -226,9 +212,7 @@ Une déclaration non vérifiée est un déclaration qui ment sans conséquence. 
 
 Augmenter budget HATVP de 50% (Pour : vérification réelle, Contre : coûts). Échange systématique avec DGFiP (Pour : détection fraude, Contre : secret fiscal?). Audit échantillonné annuel (Pour : dissuasion, Contre : administratif lourd). Sanction pour déclaration incomplete (Pour : efficacité, Contre : procédural long). Publier brut rapports d'audit (Pour : transparence, Contre : trop de bruit).
 
-**Simulation**
-
-HATVP 2024 : 75 agents, 3,5 M€ budget. Audit sérieux = 5 jours par dossier, soit 45 j.h./dossier. Pour 13k dossiers : 585 k j.h. Coût : 585k x 100€/j = 58,5 M€/an. Augmentation budget requise : +55 M€ (1500% d'augmentation). Alternative : sélection 20% des dossiers = 2,6 M€ supplémentaires (80% augmentation).
+- **Simulation (ordres de grandeur) :** HATVP 2024 : 3,5 M€, 13k dossiers/an. Audit 20% = 2,6 M€ surcoûts (80% augmentation). Audit exhaustif = 58,5 M€ (irréaliste). Qui gagne : transparence réelle. Qui perd : fraudeurs détectés. Délai : 6 mois intégration DGFiP.
 
 **⚖️ Faisabilité juridique**
 
@@ -256,9 +240,7 @@ Quand un PDG versant au parti au pouvoir reçoit la Légion d'honneur quelques m
 
 Publier critères d'attribution (Pour : transparence, Contre : jurys blâmés). Jury indépendant (Pour : légitimité, Contre : lenteur). Limiter nombre annuel à 1 500 (Pour : rareté, Contre : frustration plus grande). Interdire cumul Légion + mandat politique 5 ans après (Pour : neutralité, Contre : liberté). Mettre en place une liste publique critique (Pour : débat démocratique, Contre : lynch).
 
-**Simulation**
-
-3 000 Légions/an. Estimation 500 à 800 sont "complaisance politique" (ordre de grandeur). Avantage monétaire implicite : accès réseau + respectabilité, évalué à 50k€ en équivalent carrière. Transfert annuel de 25 à 40 M€ en avantages non déclarés vers élites politiques.
+- **Simulation (ordres de grandeur) :** 3000 Légions/an, 500-800 en complaisance politique. Avantage implicite par Légionnaire : 50k€ carrière. Transfert annuel : 25-40 M€ non déclarés. Qui gagne : élites politiques. Qui perd : méritocratie. Délai : 3 mois transparence critères.
 
 **⚖️ Faisabilité juridique**
 
@@ -286,9 +268,7 @@ IGF ne peut pas inspecter impartialement les banques si elle sait que ses inspec
 
 Carence 5 ans pour IGF vers secteur financier (Pour : impartialité, Contre : perte talent régulation). Agence anti-fraude indépendante de Bercy (Pour : autonomie, Contre : guerre bureaucratique). Poursuites automatiques si seuil dépassé (Pour : égalité, Contre : risque absurde). Transparence des abandons de poursuites (Pour : contrôle, Contre : secrets stratégiques). Augmenter sanctions de 300% si fraude constatée (Pour : dissuasion, Contre : imprévisibilité).
 
-**Simulation**
-
-IGF : 80 inspecteurs/an. 40% vers secteur financier = 32/an. Perte expertise contrôle : estimée 20 à 50 M€/an en fraude non détectée. Fraude fiscale estimée totale (France) : 80 à 100 Md€/an. Fraction grands fortunes/multinationales : 20 à 30 Md€/an. Taux poursuites moyen : 2%. Si taux augmentait à 10% grâce à meilleure inspection : 160 à 240 M€ en redressements supplémentaires/an.
+- **Simulation (ordres de grandeur) :** IGF : 80 inspecteurs/an, 40% vers financier privé (32/an). Perte expertise : 20-50 M€/an fraude non détectée. Carence 5 ans + indépendance anti-fraude = redressements +160-240 M€/an. Qui gagne : trésor public. Qui perd : fraudeurs élites. Délai : 9 mois structuration agence.
 
 **⚖️ Faisabilité juridique**
 
