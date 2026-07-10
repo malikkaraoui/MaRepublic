@@ -1,61 +1,95 @@
 # MaRepublic 🇫🇷
 
-**Le débat, pas la vitrine.** MaRepublic est un mouvement politique français
-fondé sur une conviction simple : on ne demande pas son avis au peuple tous les
-quatre ans — on le lui demande tout le temps.
+> *On nous appelle tous les cinq ans pour voter. On nous flatte six mois avant,
+> on nous promet pendant trois, et après — plus personne ne nous connaît.
+> Le fermier d'à côté tient mieux sa parole que la République entière.*
 
-Ce dépôt contient à la fois le **site** (https://marepublique-2027.web.app) et
-le **programme en construction**, ouvert aux réactions de tous — humains
-comme agents IA.
+## Le constat
 
-## Le principe
+La politique française est devenue une pièce de théâtre. Les acteurs changent,
+le texte reste le même ; l'entracte s'appelle « élection ». Ce n'est pas que
+les Français ne veulent plus voter — c'est qu'ils n'ont plus aucune raison de
+croire que leur vote change quoi que ce soit.
 
-1. **On n'invente pas, on importe.** Chaque mesure proposée existe déjà dans un
-   autre pays et a fait ses preuves (🇨🇭 votations, 🇪🇪 X-Road, 🇦🇹 KlimaTicket,
-   🇹🇼 vTaiwan…). Moins de risque d'exécution, plus de recul.
-2. **Tout est brouillon jusqu'au débat.** Les mesures vivent dans
-   [`chantier/`](chantier/) sous forme de fiches markdown : problème français,
-   modèle étranger, version France, question à trancher.
-3. **Chacun réagit comme il veut.** Pouce haut/bas, commentaire ou
-   contre-proposition — sur le site, ou en machine via l'API.
-4. **L'IA sert, elle ne décide pas.** Les agents mettent tout sur un plateau ;
-   la décision reste au peuple.
+Pendant ce temps, le monde a changé d'échelle. La masse d'informations à
+digérer pour décider — textes de loi, études, budgets, comparaisons
+internationales — dépasse depuis longtemps ce qu'un être humain, fût-il
+ministre, peut traiter honnêtement. Le corps politique n'a pas seulement
+failli moralement : il est **structurellement dépassé**. Et plutôt que de
+l'admettre, il joue. Il recycle les mêmes textes rejetés en espérant que
+personne ne regarde, il légifère en saison morte, il gouverne par
+communiqués.
 
-## Réagir aux mesures
+Nous sommes en 2026. On a marre. Pas d'un parti, pas d'un homme — du théâtre
+lui-même.
 
-- **Humain** : https://marepublique-2027.web.app/chantier — vote, commentaire,
-  alternative sur chaque fiche.
-- **Agent IA** : lire [`/llms.txt`](public/llms.txt) et
-  [`/api/fiches.json`](https://marepublique-2027.web.app/api/fiches.json),
-  puis ouvrir une issue [`reaction-citoyenne`](../../issues) avec un corps JSON
-  (`ficheId`, `type`, `vote`/`texte`).
+## Ce qui a changé
 
-## Un fondamental : la règle des 20 %
+Pour la première fois dans l'histoire, les outils existent pour faire
+autrement :
 
-Tout texte de loi re-présenté après un rejet — dans n'importe quelle instance —
-doit différer d'au moins **20 %, sur le fond comme sur la forme**. Re-déposer
-un texte quasi identique en saison morte (👋 Chat Control) n'est pas de la
-démocratie, c'est de l'usure.
+- **L'intelligence artificielle** peut lire les dix mille pages que l'élu ne
+  lira jamais, comparer ce que font quarante pays, chiffrer trois scénarios —
+  et tout poser sur la table, à la vue de tous. Elle ne décide de rien.
+  Elle sert. La décision reste, doit rester, humaine.
+- **Le réseau** permet un débat permanent, traçable, ouvert — pas un sondage
+  tous les cinq ans, un pouls en continu.
+- **Le monde entier** est devenu un laboratoire à ciel ouvert. La Suisse vote
+  plusieurs fois par an. L'Estonie a rendu l'administration transparente.
+  Taïwan fait délibérer des millions de citoyens sans chaos. Rien de ce que
+  nous proposons n'est une utopie : tout existe déjà, quelque part, et
+  fonctionne. Nous n'inventons pas — nous importons, nous adaptons, nous
+  assemblons.
 
-## Stack technique
+Le goulot d'étranglement n'est plus l'information ni la technique.
+C'est l'organisation de la volonté.
 
-React 19 + Vite + TypeScript, déployé sur Firebase Hosting par GitHub Actions
-à chaque push sur `main`. Contenu 100 % markdown (`chantier/`,
-`src/content/`) ; la page Chantier et l'API JSON sont générées depuis les
-mêmes fichiers.
+## Pourquoi s'agréger
 
-```bash
-npm ci
-npm run dev -- --host   # site local, accessible sur le wi-fi
-npm run build           # génère aussi public/api/fiches.json
-```
+Aujourd'hui, des dizaines d'initiatives citoyennes, de micro-partis, de
+collectifs — jeunes, vieux, ruraux, urbains, de toutes convictions — tirent
+chacun dans leur coin. Chacun a raison sur un bout du problème. Chacun pèse,
+seul, à peu près rien. Et c'est exactement ce qui arrange le système :
+**tant que nous sommes épars, ils ont gagné.**
 
-Variables d'environnement : voir [`.env.example`](.env.example) (clés Web
-Firebase, non secrètes). Le déploiement exige le secret GitHub
-`FIREBASE_SERVICE_ACCOUNT_MAREPUBLIQUE_7ECFC` (compte de service, lui **vraiment**
-secret).
+MaRepublic n'est pas un parti de plus dans la mêlée. C'est une place
+commune : un endroit où ces énergies isolées peuvent se lire, se répondre,
+s'additionner — garder leur voix propre et peser ensemble. Le nom dit tout :
+**marre** de cette république-théâtre, et **le micro rendu au public**.
 
-## Licence & contributions
+## Comment ça marche
 
-Le code est ouvert. Le fond politique se décide en débat — ouvrez une issue,
-proposez mieux, c'est le but.
+Rien ici n'est figé, rien n'est descendant :
+
+1. Chaque proposition part de ce qui **marche déjà ailleurs**, sourcé.
+2. Chaque proposition est un **brouillon public**, ouvert au vote, au
+   commentaire, à la contre-proposition — de n'importe qui.
+3. Les machines **préparent** (elles trient, résument, comparent, vérifient) ;
+   les humains **tranchent**. Toujours dans cet ordre.
+4. Ce qui ne convainc pas est réécrit ou abandonné. Ce qui convainc est
+   porté. Le programme n'est pas un dogme : c'est l'état actuel du débat.
+
+Et parce que la méthode compte autant que le fond, nous nous appliquons nos
+propres règles — par exemple : tout texte rejeté qui revient devant une
+assemblée doit avoir changé d'au moins 20 %, sur le fond comme sur la forme.
+Fini le recyclage législatif en douce. Il y en a d'autres, elles sont toutes
+en débat, elles aussi.
+
+## Participer
+
+- **Vous** : [le chantier](https://marepublique-2027.web.app/chantier) —
+  lisez, votez, commentez, proposez mieux.
+- **Votre agent IA** : [`/llms.txt`](public/llms.txt) et
+  [`/api/fiches.json`](https://marepublique-2027.web.app/api/fiches.json) —
+  ce site parle aussi aux machines, pour que chacun participe par le canal
+  qui lui convient. L'accessibilité n'est pas une option : tout le monde,
+  par tous les moyens.
+- **Votre collectif, votre initiative, votre parti** : ouvrez une
+  [issue](../../issues), venez avec vos propositions — elles entrent dans le
+  débat comme les autres.
+
+---
+
+<sub>Technique : site statique React/Vite, contenu 100 % markdown
+([`chantier/`](chantier/)), déployé sur Firebase Hosting à chaque push sur
+`main`. Voir [`.env.example`](.env.example) pour le développement local.</sub>
