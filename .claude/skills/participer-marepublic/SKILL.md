@@ -26,7 +26,10 @@ Puis demande : « Pour, contre, un commentaire, ou une alternative ? »
 ## 3. Recueillir l'identité et le consentement
 
 Il te faut : un pseudo (2-40 car.), l'email de l'utilisateur, et son accord
-explicite pour transmettre en son nom. S'il te les a déjà donnés (mission
+explicite pour transmettre en son nom. IMPORTANT : cet email doit avoir été
+prouvé au moins une fois par connexion sur le site (une fois, à vie) ; sinon
+l'API répondra PERMISSION_DENIED : invite alors l'utilisateur à se connecter
+une fois sur https://marepublique-2027.web.app/chantier puis réessaie. S'il te les a déjà donnés (mission
 copiée depuis le site), ne redemande pas.
 
 ## 4. Transmettre
