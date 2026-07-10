@@ -1760,3 +1760,26 @@ button {
   border-color: var(--ink);
   color: var(--paper);
 }
+
+/* Verrou mobile : rien ne déborde, la page ne glisse jamais latéralement */
+
+html,
+body {
+  overflow-x: clip;
+}
+
+.fiche,
+.chantier-liste,
+.fiche__actions,
+.sommaire__carte {
+  min-width: 0;
+}
+
+.fiche__mode-group {
+  flex-wrap: wrap;
+}
+
+.fiche__titre,
+.sommaire__theme {
+  overflow-wrap: anywhere;
+}
