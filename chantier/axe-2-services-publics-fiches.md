@@ -6,6 +6,7 @@
 - **Problème :** zones entières sans médecin ; liberté totale d'installation.
 - **Ça existe déjà :** 🇩🇪 Allemagne régule l'installation des médecins par zone ; 🇬🇧 NHS assigne un médecin traitant à chacun.
 - **Version France :** conventionnement territorial (installation régulée en zones surdotées), + garantie d'un médecin traitant.
+- ⚖️ **Faisabilité juridique :** Loi ordinaire (ordre public sanitaire) ; obstacle potentiel : liberté exercer profession, mais Const. accepte régulation sanitaire.
 - ⚖️ **À trancher :** contrainte vs incitation ; calendrier.
 - **Statut :** ⬜
 
@@ -13,6 +14,7 @@
 - **Problème :** transports chers et fragmentés ; frein à la mobilité.
 - **Ça existe déjà :** 🇦🇹 Autriche, **KlimaTicket** ~3 €/jour, tous transports publics du pays ; 🇱🇺 Luxembourg, transports **gratuits**.
 - **Version France :** abonnement national unique type KlimaTicket (train+bus+métro).
+- ⚖️ **Faisabilité juridique :** Loi ordinaire + conventions SNCF/RATP ; obstacle potentiel : art. 40 Const. (financement), structurable économiquement.
 - ⚖️ **À trancher :** prix ; financement ; gratuité ciblée (jeunes ?) ou forfait.
 - **Statut :** ⬜
 
@@ -20,6 +22,7 @@
 - **Problème :** métier dévalorisé, résultats en baisse, bureaucratie.
 - **Ça existe déjà :** 🇫🇮 Finlande, profs très formés et respectés, autonomie pédagogique, peu de tests standardisés.
 - **Version France :** revaloriser statut/formation, réduire la paperasse, autonomie des équipes.
+- ⚖️ **Faisabilité juridique :** Loi ordinaire + décrets (statut professeurs) ; pas d'obstacle majeur ; liberté pédagogique reconnue Const.
 - ⚖️ **À trancher :** priorité budgétaire ; degré d'autonomie des établissements.
 - **Statut :** ⬜
 
@@ -27,6 +30,7 @@
 - **Problème :** reconversions difficiles ; CPF sous-utilisé/complexe.
 - **Ça existe déjà :** 🇸🇬 Singapour, **SkillsFuture** : crédit formation individuel abondé par l'État tout au long de la vie ; 🇩🇰 flexicurité.
 - **Version France :** CPF refondu façon SkillsFuture, simple et abondé régulièrement.
+- ⚖️ **Faisabilité juridique :** Loi ordinaire (code du travail/formation) ; obstacle potentiel : art. 40 Const. (cotisations nouvelles) ; CPF existant, refonte possible.
 - ⚖️ **À trancher :** montant ; formations éligibles.
 - **Statut :** ⬜
 
@@ -34,6 +38,7 @@
 - **Problème :** loyers hors de prix ; parc social insuffisant.
 - **Ça existe déjà :** 🇦🇹 Vienne, logement social/subventionné de qualité pour ~60 % des habitants, y compris classes moyennes.
 - **Version France :** relance massive du logement abordable ouvert aux classes moyennes, hors logique de ghetto.
+- ⚖️ **Faisabilité juridique :** Loi ordinaire + décrets ; obstacle majeur : art. 40 Const. (financement massif) + liberté entreprendre (construction).
 - ⚖️ **À trancher :** échelle ; financement ; où construire.
 - **Statut :** ⬜
 
@@ -41,6 +46,7 @@
 - **Problème :** manque de places en crèche ; inégalités dès le départ ; frein à l'emploi des parents.
 - **Ça existe déjà :** 🇸🇪 🇩🇰 accueil du jeune enfant quasi universel et peu coûteux.
 - **Version France :** droit effectif à une place d'accueil, reste à charge plafonné.
+- ⚖️ **Faisabilité juridique :** Loi ordinaire (services publics) ; obstacle majeur : art. 40 Const. (financement droit effectif important).
 - ⚖️ **À trancher :** ampleur de l'investissement ; public/privé.
 - **Statut :** ⬜
 
@@ -48,6 +54,7 @@
 - **Problème :** dépendance mal financée ; reste à charge élevé ; EHPAD sous tension.
 - **Ça existe déjà :** 🇯🇵 Japon, assurance dépendance obligatoire depuis 2000 ; 🇩🇪 Pflegeversicherung.
 - **Version France :** créer une vraie branche « autonomie » financée, maintien à domicile privilégié.
+- ⚖️ **Faisabilité juridique :** Loi ordinaire (branche sécurité sociale) ; obstacle majeur : art. 40 Const. (création branche), finançable cotisations.
 - ⚖️ **À trancher :** financement (cotisation ? impôt ?).
 - **Statut :** ⬜
 
@@ -55,5 +62,6 @@
 - **Problème :** fermetures en zone rurale ; sentiment d'abandon.
 - **Ça existe déjà :** logique « France Services » à généraliser ; standards d'accès dans les pays nordiques.
 - **Version France :** engagement chiffré (santé, poste, administration accessibles en ≤ X min).
+- ⚖️ **Faisabilité juridique :** Loi ordinaire ; obstacle potentiel : art. 40 Const. si universalisation coûteuse ; ciblage géographique réduit coût.
 - ⚖️ **À trancher :** seuil ; services couverts.
 - **Statut :** ⬜

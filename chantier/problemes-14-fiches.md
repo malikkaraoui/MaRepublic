@@ -9,6 +9,7 @@
 - **Piste B : Délégation aux sous-préfectures et collectivités :** Créer des antennes de dépôt décentralisées (espaces publics partenaires : gares, entreprises, universités). **Pour :** disperse la demande, diminue saturation mairies. **Contre :** formation du personnel, interopérabilité des systèmes, dépôts fantômes sans suivi.
 - **Piste C : Zéro friction : dématérialisation via France Identité :** Intégration biométrique complète (reconnaissance faciale + NFC CNI existante), vérification par selfie timbré, remise physique par courrier. Supprime le rendez-vous entièrement. **Pour :** radical, éliminerait 60 % du trafic mairies, autonomie usager. **Contre :** cybersécurité des données faciales, fracture numérique (personnes âgées), débat éthique France Identité.
 - **Piste D : 🇩🇪 Modèle anticipé allemand :** Gestion informatisée des flux (prédiction demandes, staff adapté par saison, bonus heures atypiques). **Pour :** optimise ressources existantes. **Contre :** dépend prévention usagers (pré-demande en ligne), si non-utilisée = inefficace.
+- ⚖️ **Faisabilité juridique :** Loi France Identité ; Censure CC si dématérialisation biométrique (proportionnalité vie privée) ; Conseil constitutionnel 2012-652 DC.
 - ⚖️ **À trancher :** faut-il accepter dématérialisation biométrique complète pour eliminer la file d'attente, ou redoter les mairies pour un service physique décent ?
 - **Statut :** ⬜
 
@@ -19,6 +20,7 @@
 - **Piste B : Files prioritaires transparentes :** Affichage public temps moyen par profil (mineur, renouvellement, premier titre), rangement queue par urgence prouvée (visite programmée). **Pour :** donne visibilité, crée incitation traiter urgent d'abord. **Contre :** demande faux justificatifs « urgence », faut gérer fraude.
 - **Piste C : Production semi-locale :** Petites unités sécurisées en préfecture, impression titres « jours+2 ». Thales reste tiers certificateur. **Pour :** divise délai par 2, crée emplois préfecture. **Contre :** coût infrastructure énorme, complexe auditée.
 - **Piste D : Zéro friction : titres au format numérique d'abord :** Titre au standard européen EUDI Wallet, document papier optionnel, livré par email dès vérification. **Pour :** immédiat usager, papier suit par courrier sans urgence. **Contre :** adoption faible titres numériques avant 2030, reconnaissance pays tiers chaotique.
+- ⚖️ **Faisabilité juridique :** UE directive EUDI 2024 ; UE : reconnaissance titre numérique non garantie avant 2030 ; Règlement UE 2024/1523.
 - ⚖️ **À trancher :** comment diviser par 2 délais sans surcoût mairies : augmenter production Thales ou accepter titre numérique d'abord ?
 - **Statut :** ⬜
 
@@ -29,6 +31,7 @@
 - **Piste B : Audit externe tiers :** Cabinet international (McKinsey, Deloitte) audit 3 mois, prend main sur ANEF, remplacement équipe tech. **Pour :** crédibilité fix, timeline court. **Contre :** coût 5-10 M€, dépend cabinet qualité, risque nouveau cadre = nouveau bug.
 - **Piste C : Zéro friction : retrait plateforme numérique, 100 % papier :** Détruire ANEF, retour dossiers physiques, courrier recommandé. **Pour :** élimine toute friction technique, confiance usagers rétablie. **Contre :** paralysie mairies (volume papier énorme), délais traitement x 3, rupture promesse modernisation.
 - **Piste D : 🇸🇰 Slovaquie, doublon obligatoire :** ANEF existe mais usager peut toujours envoyer dossier papier copie (préfecture traite les deux, accepte d'abord reçu). **Pour :** usagers flexibilité, préfecture travaille sources multiples. **Contre :** redoublement travail usager, confusion qui dossier valide, gestion archives chaotique.
+- ⚖️ **Faisabilité juridique :** Loi 2016 dématérialisation + CESEDA L131-1 ; CEDH art. 8 (ruptures droits) et Défenseur des droits (rapports 2024) ; Arrêt Conseil d'État mai 2026.
 - ⚖️ **À trancher :** faut-il casser ANEF complètement, l'audit/réparer ou créer bypass papier obligatoire ?
 - **Statut :** ⬜
 
@@ -39,6 +42,7 @@
 - **Piste B : 🇳🇱 Pays-Bas, décision présumée favorable :** Silence administration > 60 jours = acceptation automatique renouvellement (titre prolongé par écrit). **Pour :** pression interne préfectures = rapidité, usagers protégés après 60 j. **Contre :** risque délivrance massives « par défaut », auditeurs externes furibonds, perte contrôle.
 - **Piste C : Automatisation IA triage :** Système IA classe dossiers « simple renouvellement » (même commune, même motif). Ceux-ci traitement 15 jours full-auto, transmission attestation provisoire. **Pour :** délai court, réduit backlog moitié. **Contre :** risque erreur IA (mal-classement = rejet injuste), contestation juridique massive.
 - **Piste D : Zéro friction : titre auto-renouvelé tacite :** Titre multiannuel (5-10 ans) renouvelé automatiquement sauf changement signalé usager. **Pour :** écrase arriérés, zéro demande. **Contre :** perte vigilance fraude, faille sécurité intégration, opposition politique très forte.
+- ⚖️ **Faisabilité juridique :** CESEDA L131-1 + Proposition loi Sénat 2026 (renouvellement auto) ; CEDH art. 8 (vie privée/familiale) ; Proposition loi avril 2026.
 - ⚖️ **À trancher :** accepter renouvellement tacite (silence = accord) pour débloquer 930 000 personnes, ou redoter mairies humainement ?
 - **Statut :** ⬜
 
@@ -49,6 +53,7 @@
 - **Piste B : 🇬🇧 Royaume-Uni, archives centralisées :** Généralisation index national, mairies consultent DB central. Recherche 2 jours, envoi immédiat. **Pour :** délai 3-4 jours garanti. **Contre :** migration données colossale, risque pertes, dépôt centralisé perte autonomie locales.
 - **Piste C : Zéro friction : silence = accord :** Au-delà 30 jours sans réponse, acte « réputé délivré », usager peut ceritfier demande + courrier mairie = acte valide. **Pour :** force mairies répondre vite. **Contre :** actes falsifiés risque, mairies furibondes (perte contrôle), chaos juridique.
 - **Piste D : Accès direct API pour usagers :** App mobile offre requête acte, mairie répond 48h ou délai légal court = 10 jours. **Pour :** transparence timing, usager suit progression. **Contre :** mairies petites n'ont pas IT, coût intégration.
+- ⚖️ **Faisabilité juridique :** Code civil + CRPA L231-1 (silence vaut accord) ; E-acte non reconnu intl sans timbre (CEDH reconnaissance docs) ; Service-public.gouv.fr.
 - ⚖️ **À trancher :** e-actes numérique (perte reconnaissance intl) ou centraliser archives papier (impact autonomie) ?
 - **Statut :** ⬜
 
@@ -59,6 +64,7 @@
 - **Piste B : Audit open-source tiers :** Code source app audit public (Inria, Synacktiv). Bug list publique, deadline fix 3 mois. **Pour :** crédibilité fix, transparence. **Contre :** révèle failles sécurité autres, frein adoption externe.
 - **Piste C : Zéro friction : abandon app, retour NFC direct mairie :** Mairie lit CNI NFC en local (lecteur sécurisé préfecture), plus besoin France Identité app. Titres numériques issus serveur mairie. **Pour :** supprime chaîne usager = zéro bugs usager, gain sécurité. **Contre :** mairies petites sans lecteur, coût équipement mairies.
 - **Piste D : 🇰🇷 Corée du Sud, multi-app ecosystem :** Laisser app tiers (Docusign, Onfido) certifier identité, interconnecter avec France Identité. Compétition = qualité. **Pour :** marché corrige bugs. **Contre :** fragmentation données, RGPD = cauchemar, faille sécurité = risque multi-app.
+- ⚖️ **Faisabilité juridique :** Loi France Identité + RGPD art. 9 (données biométriques) ; Censure CC dématérialisation biométrique ou fragmentation RGPD ; Conseil constitutionnel 2012-652 DC.
 - ⚖️ **À trancher :** garder France Identité obligatoire ET réparer urgence (coût, temps), ou la rendre optionnel/contrefaire via tiers ?
 - **Statut :** ⬜
 
@@ -69,6 +75,7 @@
 - **Piste B : Délais max légaux :** Loi fixe délai 8 jours notaires (apostille), pénalité 100€/jour dépassement. **Pour :** force réactivité notaires. **Contre :** notaires surchargés quand même, délai optimiste, risque faux actes « vite ».
 - **Piste C : Zéro friction : suppression légalisation dans UE :** Accord mutuel reconnaître actes pays UE sans apostille/légalisation (appliquée déjà successions UE depuis 2012). Généraliser tous actes internes UE. **Pour :** écrase formalisme, délai zéro pour Français en UE. **Contre :** hors UE rien change, crée brèche fraude.
 - **Piste D : 🇸🇪 Suède, certification blockchain :** Actes légalisés digitalement par notaire (hash blockchain), reconnu partout sans besoin parapheur papier. **Pour :** instant, traçable, immuable. **Contre :** pas de standard intl blockchain, pays tiers reconnaît pas.
+- ⚖️ **Faisabilité juridique :** Convention La Haye 1961 (apostille) + Règlement UE 650/2012 (successions UE) ; UE ne s'applique qu'intra-UE, hors-UE => Convention intl fixe ; Convention La Haye 1961 & Réglement UE 2012.
 - ⚖️ **À trancher :** unifier apostille/légalisation en procédure unique + délai max, ou supprimer intégralement en UE ?
 - **Statut :** ⬜
 
@@ -79,5 +86,6 @@
 - **Piste B : Recours accélérés usager :** Droit usager saisir tribunal administratif en 15 jours (procédure référé). Juge ordonne État délivrer titre provisoire valeur travail/allocations. **Pour :** justice intervient. **Contre :** surcharge tribunaux, temps juge = 1 mois quand même, pas vraiment urgent.
 - **Piste C : Zéro friction : compensation allocations parallèles :** CAF continue allocations si dossier renouvellement en cours prouvé (reçu ANEF). **Pour :** rompt chaîne ruptures (emploi ok = revenus ok). **Contre :** surcharge CAF de vérification, fraude (faux dossiers ANEF), budget social +500 M€.
 - **Piste D : 🇦🇺 Australie, titre temporaire automatique :** Demande renew = titre provisoire 30 jours renouvelable (valeur administrative complète : emploi, allocations, soins) jusqu'à décision. **Pour :** usager = zéro rupture, vraiment provisoire. **Contre :** charge préfecture délivrance titres temp., perte contrôle effectif (combien provisoires pas résolus ?).
+- ⚖️ **Faisabilité juridique :** CESEDA L131-1 + CRPA L231 (silence vaut accord) ; CEDH art. 6 (droit procès équitable) + art. 8 (rupture droits) ; Défenseur des droits rapport 2024.
 - ⚖️ **À trancher :** titre renouvelé tacitement pendant instruction (rupture = zéro) ou accélération justice/allocations parallèles (pansement partiel) ?
 - **Statut :** ⬜

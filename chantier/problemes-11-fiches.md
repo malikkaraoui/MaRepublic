@@ -9,6 +9,7 @@
 - **Piste B, 🇸🇪 Suède (réindustrialisation & stockage) :** En réaction 2020-2021, subventions pour créer ~30 usines de masques/génériques français ; renouvellement annuel des stocks. **Pour :** emplois, autonomie stratégique. **Contre :** risque de surcapacité en situation stable, dépendance aux aides.
 - **Piste C, 🇰🇷 Corée (chaebols défense civile) :** Grands groupes (Samsung, LG) maintiennent capacités dual-use (électronique/médical) comme branches défense. **Pour :** économies d'échelle, innovation croisée. **Contre :** concentration, risques de captation politique.
 - **Piste D, 🇺🇸 États-Unis (IRA + mandats DARPA) :** Législation (CHIPS Act, IRA) force reshoring ; DARPA mandate fabrication locale des APIs critiques. **Pour :** souveraineté garantie, volumes. **Contre :** coûts, délocalisation perdants (Chine/Inde).
+- ⚖️ **Faisabilité juridique :** Loi + décret ; droit concurrence UE (TFUE 101-109) limite aides d'État ; jurisprudence CJUE.
 - ⚖️ **À trancher :** Mix stocks + réindustrialisation ciblée ? Quels niveaux de surcoût acceptable (5%, 10%, 20%) ? Qui pilote (État, entreprises, UE) ?
 - **Statut :** ⬜
 
@@ -19,6 +20,7 @@
 - **Piste B, 🇦🇺 Australie/Qatar (LNG global) :** Diversifier par gaz liquéfié (moins dépendance géographique) ; ports de regazéification multiples (Bretagne, Fos…). **Pour :** flexibilité, prix marchés globaux. **Contre :** coûts logistique, prix volatiles, sécurité navale (détroits).
 - **Piste C, 🇫🇷 France (nucléaire massif + renouvelables) :** Relancer construction réacteurs (EPR, petits réacteurs) ; transition charbon → nucléaire + éolien/solaire. **Pour :** zéro gaz 2040, autonomie, décarbonation. **Contre :** temps construction (10-15 ans), coûts, acceptabilité.
 - **Piste D, 🇪🇺 Union Européenne (stocks communs + prix plafonnés) :** Créer réserve gaz UE mutualisée ; mécanisme prix-plancher défense contre chantage. **Pour :** solidarité, stabilité. **Contre :** chocs d'approvisionnement distribués, moral hazard (réduction efficacité).
+- ⚖️ **Faisabilité juridique :** Loi + Directive UE gaz ; compétences partagées (TFUE article 194) ; Directive 2021/55/UE.
 - ⚖️ **À trancher :** Nucléaire base (risque délai) ou LNG diversifié court terme ? Niveau d'indépendance cible (70%, 90%, 100% ?) ; calendrier ?
 - **Statut :** ⬜
 
@@ -29,6 +31,7 @@
 - **Piste B, 🇰🇷 Corée du Sud (chaebols + réarmement rapide) :** Mandater géants défense (Hyundai-Rotem, Samsung défense) capacités massives ; produire stocks 2 ans guerre régionale. **Pour :** vitesse, économies d'échelle. **Contre :** monopole, dépendance militaro-industrielle.
 - **Piste C, 🇫🇷 France (relocalisation BITD + dépenses) :** Subventions Thales, Nexter, MBDA ; relocalisations production acier/électronique critique ; +100 Md€ budget 2024-2030. **Pour :** autonomie, emplois. **Contre :** inflation, dette, efficacité douteuse.
 - **Piste D, 🇪🇺 Union (agence défense commune + production mutualisée) :** créer usines munitions/armes UE partagées (Pologne, Baltique) ; partage R&D, achats groupés. **Pour :** économies échelle, cohésion. **Contre :** lenteur (unanimité), souveraineté dilution.
+- ⚖️ **Faisabilité juridique :** Loi organique + Traité UE ; article 40 Constitution (dépenses massives) ; TFUE 346 (autonomie défense).
 - ⚖️ **À trancher :** Conscription réaliste ? Budget défense cible (2,5%, 3%, 4% PIB) ? Priorité armes lourdes (chars, avions) ou munitions/drones ?
 - **Statut :** ⬜
 
@@ -39,6 +42,7 @@
 - **Piste B, 🇷🇩 Afrique/Congo (cobalt, nickel) :** Contrats long terme mines Congo (cobalt/nickel) ; investir raffinage Afrique/France. **Pour :** diversification, développement local. **Contre :** instabilité politique, éthique (droits travail), volatilité prix.
 - **Piste C, 🇯🇵 Japon (recyclage circulaire + batteries) :** Déployer gigafactories Europe (Tesla, Northvolt, AESC) ; R&D batteries sans cobalt (LFP, sodium-ion). **Pour :** réduction dépendance, innovation. **Contre :** délais (production massale ~2027), coûts installation.
 - **Piste D, 🇫🇷 France (relance génie chimique / réserves nationales) :** Rouvrir mines France marginales (Al-Velly Allier terres rares à l'étude) ; créer fonds stratégique acquisitions minerais. **Pour :** autosuffisance politique. **Contre :** économiquement non viable, écologie locale, quantités modestes.
+- ⚖️ **Faisabilité juridique :** Loi + Directive UE déchets ; aides d'État TFUE 107-109 ; article 40 Constitution.
 - ⚖️ **À trancher :** Batteries gigafactories en Europe réaliste horizon 2030 ? Recyclage suffit ou extraction neuve ? Acceptabilité écologique mining ?
 - **Statut :** ⬜
 
@@ -49,6 +53,7 @@
 - **Piste B, 🇨🇭 Suisse (référendum commercial) :** Traités commerciaux soumis vote peuple (modèle suisse) ; referendum obligatoire si 50 000 citoyens demandent. **Pour :** légitimité démocratique. **Contre :** imprévisibilité, lobbies finançant campaigns.
 - **Piste C, 🇳🇿 Nouvelle-Zélande (traités asymétriques) :** Refuser clauses arbitrage privé ; imposer cours publiques ; exclure secteurs stratégiques (agriculture, défense, santé). **Pour :** souveraineté, protection secteurs. **Contre :** limitation accès marchés, rétorsions partenaires.
 - **Piste D, 🇪🇺 Union (agence évaluation commerciale) :** Créer organe indépendant UE pré-négociation : impact socio-environnemental public avant signature. Débat Parlement mois avant signature. **Pour :** info citoyens, ajustements possibles. **Contre :** délai, lobbies UE (Bruxelles dominant vs États).
+- ⚖️ **Faisabilité juridique :** Traité UE + Loi ratification ; TFUE 207 compétence exclusive Commission ; CETA/Mercosur précédents.
 - ⚖️ **À trancher :** Qui décide : Parlement UE seul, parlements nationaux, citoyens ? Quels secteurs non-négociables (agriculture, BITD) ?
 - **Statut :** ⬜
 
@@ -59,6 +64,7 @@
 - **Piste B, 🇫🇷 France (mini-latéral ou coalition avant-garde) :** Créer groupe « noyau dur » (FR, DE, PL, Baltes, Nordiques) décidant défense, appelant autres retrospectivement. **Pour :** initiative rapide. **Contre :** fragmentation UE, risque marginalisation Sud/Est, réaction américaine (dépasser OTAN).
 - **Piste C, 🇮🇹 Italie/Compromis (opt-out réversible) :** Défense/PESC : vote majorité simple, mais pays peut se récuser (opt-out) → pas lié statut UE. Revenir via demande. **Pour :** inclusif, souplesse. **Contre :** fragmentation réelle, crédibilité militaire amoindrie.
 - **Piste D, 🇪🇺 UE (commissions ad-hoc) :** Chaque crise (Ukraine, Iran…) → commission spéciale statut 6 mois ; vote majorité qualifiée commission + ratification UE28 + possibilité veto avec justification publique. **Pour :** focus/agilité, responsabilité. **Contre :** complexité procédurale, délais masqués.
+- ⚖️ **Faisabilité juridique :** Traité UE (révision) ; TUE articles 16, 31 (unanimité PESC) ; blocages Hongrie/Chypre documentés.
 - ⚖️ **À trancher :** Quels domaines sortir unanimité ? Défense seulement ou commerce aussi ? Risque fragmentation tolérable ?
 - **Statut :** ⬜
 
@@ -69,6 +75,7 @@
 - **Piste B, 🇱🇻 Lituanie (EU Foreign Influence Registry) :** Transparence obligatoire agents étrangers financant think-tanks, médias, partis UE ; registre public. **Pour :** info citoyens. **Contre :** dénonciation, risque réactions croisées (Us vs Chine accusations).
 - **Piste C, 🇬🇧 Royaume-Uni (National Security Act 2023) :** Criminaliser accès systèmes critiques par agents étrangers ; saisir assets ; expulsion diplomatique. **Pour :** geste fort, dissuasion cyber/espionnage. **Contre :** escalade géopolitique, représailles.
 - **Piste D, 🇫🇷 France (agence nouvelle dédiée + transparence) :** Créer autorité indépendante évaluation menaces ; imposer étiquetage désinformation identifiée (type Taïwan) ; sanctionner plateformes relayant sans signalement. **Pour :** protection, control français. **Contre :** censure accusations, définition "désinformation" politique, tension US (Parlement).
+- ⚖️ **Faisabilité juridique :** Loi pénale + Loi sécurité informatique ; CEDH articles 8, 10 (proportionnalité) ; loi France 2023 sécurité numérique.
 - ⚖️ **À trancher :** Régulation vs liberté expression (mesure) ? Qui juge désinformation d'État ? Réciprocité (si on expulse Russe, Russie expulse Français) ?
 - **Statut :** ⬜
 
@@ -79,6 +86,7 @@
 - **Piste B, 🇸🇬 Singapour (fonds souverain + taxes faibles) :** Fonds national tech investisseur massif startups étrangères ; taxes corp réduites tech (5-15%) ; « Tech zones » franches. **Pour :** compétitif US. **Contre :** fiscal faible = dépendance volatilité, PME non-tech exclues.
 - **Piste C, 🇫🇷 France (subventions doctorat + fonds stratégique étatique) :** Bourses doctorat gratuites (comme US) ; créer fonds 10-50 Md€ État investisseur IA/biotech français (modèle Norway sovereign wealth). **Pour :** rétention, autofinancement tech français. **Contre :** État venture capitalist inefficace ?, coûts (~50 Md€/an), dépendance politiques (visibilité=pression).
 - **Piste D, 🇪🇺 UE (Agence IA européenne + equity pooling) :** Fonds UE coordonné (100+ Md€ Horizon Europe+) investissant startups critiques (IA, biotech, batteries) ; priorité capital français/UE avant US. **Pour :** alternatives US régionales. **Contre :** lenteur UE, États grands dominent capitaux (DE, FR).
+- ⚖️ **Faisabilité juridique :** Loi organique + Loi budgétaire ; article 40 Constitution + TFUE 45 (liberté circulation) ; jurisprudence Conseil constitutionnel.
 - ⚖️ **À trancher :** Faire France/UE concurrente US venture capital vs protéger/taxer départs ? Quels secteurs critiques non-négociables (IA, biotech, défense) vs acceptables (mode, service) ?
 - **Statut :** ⬜
 

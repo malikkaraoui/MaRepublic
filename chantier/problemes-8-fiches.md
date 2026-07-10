@@ -11,6 +11,7 @@
 - **Piste B, 🇵🇹 Portugal (externalisation traitement) :** Délégation partielle à prestataires privés certifiés. **Pour :** mutualisation coûts, accélération. **Contre :** risque qualité juridique, supervision difficile, privatisation service public.
 - **Piste C, 🇸🇪 Suède (critères accélérés) :** Procédure rapide pour pays tiers "sûrs" (Dublin), reste normal sinon. **Pour :** efficience, discrimination objective. **Contre :** liste pays "sûrs" contestée, refusés risquent contestations juridiques.
 - **Piste D, Interne (numérisation/IA) :** Dématérialisation complète, pré-analyse dossiers par algorithme. **Pour :** gains productivité, traçabilité. **Contre :** risque biais algorithme, recours juridiques, fronde agents publics.
+- ⚖️ **Faisabilité juridique :** Loi, directive UE asile ; obstacle CEDH droit procédure équitable, art. 6 Convention Dublin UE.
 - ⚖️ **À trancher :** Volume d'embauches OFPRA vs. qualité decisions ; recours externalisations privées ; critères classification pays « sûrs » ; rôle technologie dans premier tri.
 - **Statut :** ⬜
 
@@ -23,6 +24,7 @@
 - **Piste B, 🇮🇳 Inde (accords bilat. pays origine) :** Traités avec capitale pour faciliter retours documentés. **Pour :** coopération officialisée, moins rejet. **Contre :** pays peut refuser (diplomatie), demandeurs restent bloqués ans, impacte pays transit.
 - **Piste C, 🇨🇦 Canada (demande supprimée vs. peine) :** Procédure mixte : asile accéléré OU expulsion avec délais (3-6 mois), jamais limbe. **Pour :** clarté, fin attente infinie. **Contre :** restrictif asile, pression départs forcés, critique organisations droits.
 - **Piste D, Interne (amputation droits recours) :** Réduction délais appel CJUE, simplification procédures. **Pour :** accélération mécanique. **Contre :** atteinte droits fondamentaux, contestation juridique européenne, légalité douteuse.
+- ⚖️ **Faisabilité juridique :** Loi ; obstacles CEDH art. 6 (droit procès équitable), directive Dublin UE (2013/32), jurisprudence Cour constitutionnelle sur droits étrangers.
 - ⚖️ **À trancher :** Équilibre sécurité/droits procéduraux ; rôle diplomatie pays d'origine ; coûts police vs. efficacité ; tolérance application stricte.
 - **Statut :** ⬜
 
@@ -35,6 +37,7 @@
 - **Piste B, 🇦🇹 Autriche (formation sectorielle immédiate) :** FLE sur-mesure métiers (santé, construction), apprentissage simultané. **Pour :** insertion rapide, langue + compétences tech. **Contre :** dérive apprentissage précaire, risque exploitation secteurs tendus.
 - **Piste C, 🇬🇧 UK (certificats professionnels valorisés) :** Reconnaissance diplômes étrangers + passerelle emploi (6 mois), pas FLE obligatoire. **Pour :** rapidité, autonomie adultes. **Contre :** qualité inégale, langue maîtrisée partiellement, inégalités accès certification.
 - **Piste D, Interne (quotas emploi public) :** % obligatoires fonction publique, bonus collectivités. **Pour :** modèle, formation. **Contre :** stigmatisation, dérive clientélisme, secteur privé non couvert.
+- ⚖️ **Faisabilité juridique :** Loi, code du travail ; obstacle directive UE mobilité (2021/1883 carte bleue) ; égalité traitement non-discrimination CEDH.
 - ⚖️ **À trancher :** Timing FLE vs. travail ; financement public formation ; secteurs prioritaires (santé, services) ; reconnaissance diplômes tiers-monde ; incitatifs secteur privé.
 - **Statut :** ⬜
 
@@ -47,6 +50,7 @@
 - **Piste B, 🇵🇹 Portugal (tutelle unique + régularisation) :** Tuteur administratif responsable 3 ans, droit résidence après 18 ans (pas OQTF). **Pour :** protection, continuité parcours, moins traite (stabilité). **Contre :** coût assez MJ long terme, encourage poursuite MNA, géopolitique pays transit.
 - **Piste C, 🇧🇪 Belgique (quota régional + dépôt centralisé) :** Répartition géographique forcée (Bruxelles → Wallonie), dépôt Bruxelles centralise. **Pour :** équité charges régions, traçabilité. **Contre :** pu coopération régions, bureaucratie, délais séjour provisoire.
 - **Piste D, Interne (partenariat pays origine) :** Rapatriement consenti + réintégration (école, métier) pays source. **Pour :** retour souhaitable si familles retrouvées. **Contre :** conditions pays dangereuses, risque enfances perdues, diplomatie fragile.
+- ⚖️ **Faisabilité juridique :** Loi, code civil ; obstacles Convention droit enfant UE/CEDH, art. 8 (droit vie famille), CEDH art. 3 (interdiction torture).
 - ⚖️ **À trancher :** Critères majorité vrais/faux ; ressources accueil vs. coûts qualité ; traçabilité traite sexuelle ; rôle pays origines ; droit majorité administrative.
 - **Statut :** ⬜
 
@@ -59,6 +63,7 @@
 - **Piste B, 🇮🇹 Italie (amnesties périodiques) :** Régularisation en bloc 2-3 ans, conditions emploi + contrat formalisé. **Pour :** légal d'emblée, moins clandestinité. **Contre :** répétitif (signal régularisation=normal), peu durable, complexité administrative.
 - **Piste C, 🇳🇿 Nouvelle-Zélande (points immigration travail) :** Sans-papiers candidatent pour visa travail (secteurs déficit), bonus si employeur local. **Pour :** mérité, régularisation justifiée, pérenne. **Contre :** pas asile (utile refusés politiques), coût visa/transfert pays.
 - **Piste D, Interne (verbalisation doublée + régularisation) :** Amende patronale très élevée (100 k€+), mais sans-papier =régularisation automatique dénoncé. **Pour :** dissuasion embauche clandestine. **Contre :** contre-productif (moins signalement par peur réaction), employeurs cherchent faux papiers, exploitation accrue.
+- ⚖️ **Faisabilité juridique :** Code du travail, loi pénale ; obstacles CEDH art. 4 (travail forcé), art. 8 (vie privée), directive UE 2009/52 (sanction employeurs).
 - ⚖️ **À trancher :** Régularisation sectoriellement justifiée? Durée/conditions titre provisoire ; responsabilité employeurs vs. migrant ; peines pénales ; secteurs priorités.
 - **Statut :** ⬜
 
@@ -71,6 +76,7 @@
 - **Piste B, 🇩🇪 Allemagne (rénovation + investissement localisé) :** Quartiers priorités : transport, emploi, écoles renforcées, pas expulsion forcée. **Pour :** améliorations tangibles, confiance, moins déplacée. **Contre :** reste ségrégation « de facto », coûts durable énormes.
 - **Piste C, 🇧🇪 Belgique (politique d'accueil communaliste) :** Bruxelles : accueil explicite réfugiés, services multilingues intégrés, identité diversité acceptée. **Pour :** inclusion assumée, services adéquats. **Contre :** concentration maintenue volontairement, risque « ghettos heureux » illusoires.
 - **Piste D, Interne (démantèlement urbain) :** Destruction/dispersion quartiers, relogement dispersé obligatoire. **Pour :** décentralisation. **Contre :** arrachement communautés, précarité relogement, récit déportation, résistance massive.
+- ⚖️ **Faisabilité juridique :** Loi, code de la construction ; obstacles CEDH art. 8 (droit au logement, vie privée famille), art. 1 protocole 1 (droit propriété).
 - ⚖️ **À trancher :** Causes ségrégation : discrimination vs. choix groupe? ; interventions (forcées vs. incitatifs) ; ressources réelles (infrastructures vs. quotas symboliques) ; acceptabilité sociale.
 - **Statut :** ⬜
 
@@ -83,6 +89,7 @@
 - **Piste B, 🇪🇺 UE-modèle (financements développement lié) :** Budgets aide pays origine conditionnés accords retour (Niger, Sénégal, etc.). **Pour :** volontaire, bénéfice mutuel (aide). **Contre :** critique colonialisme blanc, efficacité variable, pays externaliser frontière.
 - **Piste C, 🇪🇹 Éthiopie (rapatriement avec réintégration) :** Retour accompagné (ONG) + microprojets pays (école, micro-crédit). **Pour :** humanisé, rouvre perspectives. **Contre :** coûts élevés, efficacité socio-économie locale douteuse.
 - **Piste D, Interne (absence accord coercitif) :** Maintien France, asile/régularisation interne, pas retour forcé pays. **Pour :** respects droits humains, protège réfugiés politiques. **Contre :** appel d'air perçu, charge infinie, tension géopolitique pays transit.
+- ⚖️ **Faisabilité juridique :** Convention Genève 1951, loi ; obstacles CEDH art. 3 (interdiction expulsion torture), art. 2 (droit vie), traités bilatéraux.
 - ⚖️ **À trancher :** Diplomatie douce vs. « hard power » commercial ; conditionnalité aide = moral? ; pays tiers (transit) responsabilité? ; modèle EXTERNALISATION frontière acceptable?
 - **Statut :** ⬜
 
@@ -95,6 +102,7 @@
 - **Piste B, 🇦🇺 Australie (visa provisoire secteur) :** Visa 2-3 ans secteurs pénuries (infirmier, menuisier), point-système combiné, pas citoyenneté auto. **Pour :** adaptatif, temporaire = flexibilité. **Contre :** précarité travaillers, abuse employeurs possible, dérive exploitation.
 - **Piste C, 🇩🇪 Allemagne (« Fachkräfte ») :** 2024 : régularisation sans-papiers métiers critiques. **Pour :** pragmatisme, honnête sur besoins. **Contre :** régularisation a posteriori (inefficace dissuasion), intégration partielle.
 - **Piste D, Interne (réglementaire asile + flux économique séparé) :** Asile = droit humanitaire, flux économique = contrat signé AVANT arrivée (employeur garant). **Pour :** clarté systémique, honneur engagements. **Contre :** accès asile réduit (pression), exploitation si clause travail trop rigide, dumping salarial.
+- ⚖️ **Faisabilité juridique :** Loi, Convention Genève 1951 ; obstacles art. 40 si financement public asile massif ; directive UE 2021/1883 mobilité ; CEDH art. 3.
 - ⚖️ **À trancher :** Besoin réel main-d'œuvre chiffré par secteur? ; asile obligation vs. choix politique ; frontière asile/immigration économique: floue ou nette? ; citoyenneté : critère automatique ou point?
 - **Statut :** ⬜
 

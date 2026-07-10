@@ -8,6 +8,7 @@
 - **Piste B : 🇴🇪 Versement d'avance AAH/PCH durant l'attente.** Allocation provisoire automatique couvrant 60 % du montant estimé pendant instruction (Suède, allocation rétroactive à versement final). **Pour :** accès immédiat, pas d'effet de seuil, dignité. **Contre :** surcoûts transitoires, fraude possible, complexité comptable (ajustement final).
 - **Piste C : 🇩🇪 Automatisation MDPH (scoring numérique).** Pré-traitement par algo sur critères objectifs (taux incapacité médicale, revenus), révision humaine sur appel. Modèle Allemagne Versorgungsamt. **Pour :** 90 % des cas traités en 2 semaines. **Contre :** risque d'erreur systématique, pas d'équité (IA biaisée), appels non-traités = blocage.
 - **Piste D : ⚡ Droits à vie pour tout handicap stabilisé : stop notification.** Pour taux permanent (ex : amputation), la MDPH notifie une seule fois, versement jusqu'à 62 ans, sans renouvellement. Demande renouvellement que si aggravation signalée. **Pour :** zéro friction administrative, liberté. **Contre :** coûts irréversibles si amélioration médicale imprévisible, perte de suivi.
+- ⚖️ **Faisabilité juridique :** CASF L245 + Décret 2026-227 (handicap stable = durée illimitée) ; Décret 2026-227 permet déjà durée illimitée depuis avril 2026 ; Décret 30 mars 2026.
 - ⚖️ **À trancher :** Combiner court terme (avance AAH) et moyen terme (automatisation + droits à vie pour stable) ?
 - **Statut :** ⬜
 
@@ -16,6 +17,7 @@
 - **Piste A : 🇫🇷 Harmonisation nationale 2026.** Unifié janvier 2026 : liste unique nationale de pièces, formulaire unique remplacé par 3 versions. **Pour :** fin fragmentations, équité. **Contre :** retard implémentation possible, anciennes demandes créent décalages temporaires.
 - **Piste B : 🇬🇧 Portabilité dossier digitale.** Dossier MDPH stocké en cloud national (Mon Parcours Handicap API), transférable d'un MDPH à l'autre sans reprise. Modèle UK NHS (Patient Record portable). **Pour :** mobilité sans rupture, suivi continu. **Contre :** risque données/sécurité, coûts infrastructure.
 - **Piste C : ⚡ Zéro papier obligatoire.** Tous MDPH numériques fin 2027, plus d'envoi postal, accès app mobile natif. **Pour :** rapidité (+50%), suivi temps réel. **Contre :** fracture numérique personnes âgées, MDPH rurales en retard tech.
+- ⚖️ **Faisabilité juridique :** CASF L241-1 + Décret 2026 harmonisation MDPH ; Loi accessibilité 2005 impose alternative papier ; Dossier-mdph.fr 2025 & Décret harmonisation 2026.
 - ⚖️ **À trancher :** date 2026 réaliste ou report ? Papier coexiste combien de temps ?
 - **Statut :** ⬜
 
@@ -24,6 +26,7 @@
 - **Piste A : 🇫🇷 Renouvellement par mise à jour légère.** Renouvellement AAH : seulement formulaire 2 pages "changements depuis X" + attestation revenus CAF. Historique recopiable. **Pour :** -80 % paperasse. **Contre :** oubli signalement d'aggravation, demandeur ne savait pas infos anciennes.
 - **Piste B : 🇩🇰 Présomption de stabilité.** Santé stable = silence = acceptation. MDPH envoie juste "Votre dossier reconduit sauf avis contraire dans 30 j". Dossier complet seulement si changement signalé ou date d'expiration légale. **Pour :** zéro tracas pour 90 %, liberté. **Contre :** désaccord tacite, risque personne oublie deadline.
 - **Piste C : ⚡ Dossier unique permanent (jusqu'à 62 ans) pour tout handicap définitif.** Certificat médical stable = dossier MDPH gelé, pas renouvellement sauf demande usager ou AGE + 5 ans (révision en bloc). **Pour :** définitif = définitif, bureaucratie zéro. **Contre :** coûts si aggravation (légal appel rétroactif ?), oubli usager alerter.
+- ⚖️ **Faisabilité juridique :** CASF L243 (décision MDPH) + Décret 2026-227 ; Décret 2026-227 autorise déjà durée illimitée pour stable ; Décret 30 mars 2026.
 - ⚖️ **À trancher :** Qui détecte changement ? Médecin, usager, relance automatique ou silence ?
 - **Statut :** ⬜
 
@@ -32,6 +35,7 @@
 - **Piste A : 🇫🇷 Médecin partagé/itinérant.** Déploiement ex-docteurs mobiles dans zones blanches, compensation +30 % honoraires. Hôpital local = médecin ALD de secours. **Pour :** accès garanti. **Contre :** coûts, kilométrage, qualité suivi limité.
 - **Piste B : 🇸🇪 Droit à suivi infirmier sans docteur (ALD).** Infirmier coordinateur ALD mandate = visite domicile, coordination directe CPAM/spécialiste, sans "vrai" médecin traitant. **Pour :** ALD couvertes 100 %, moins d'abandon. **Contre :** perte prescription, responsabilité infirmier étendue (légal ?).
 - **Piste C : ⚡ Médecin par téléconsultation + partenaire physique.** Médecin traitant distant (appel/app), maison santé locale = infirmière + aide-soignant pour prélèves/examen. **Pour :** couverture rapide, filière validée. **Contre :** fragmentation soins, usager méfiant télé-diagnostic.
+- ⚖️ **Faisabilité juridique :** Code sécurité sociale L322-1 (filière coordonnée) + art. 44 charte patient ; Droit impose médecin référent (infirmier pas équivalent légal) ; Code sécurité sociale & jurisprudence.
 - ⚖️ **À trancher :** Infirmier peut remplacer docteur légalement pour ALD ? Financement télé par qui ?
 - **Statut :** ⬜
 
@@ -40,6 +44,7 @@
 - **Piste A : 🇫🇷 Certificat permanent pour handicap reconnu stabilisé.** Équipe MDPH statue : "stabilité complète" = certificat valide à vie, révision seulement sur demande usager ou signal médecin. **Pour :** -90 % rendez-vous inutiles. **Contre :** coûts si omnisc changement, MDPH assume responsabilité légale.
 - **Piste B : 🇬🇧 Certificat tous les 5 ans = révision en bloc.** Pas revalidation annuelle, certificat 5 ans = relecture dossier tous les 5 ans = 1 visite/5 ans au lieu de 10. **Pour :** moins de fardeau. **Contre :** risque de sous-détection si état s'aggrave.
 - **Piste C : ⚡ Droits à vie pour tout handicap médical permanent reconnu à l'origine.** État à t0 = Dossier MDPH gelé à vie, certificat médical fini. Appel usager si aggravation, révision rapide 6 semaines. **Pour :** liberté, zéro friction. **Contre :** légalité (droit peut évoluer), pas de suivi moderne (personne peut avoir iatrogénie).
+- ⚖️ **Faisabilité juridique :** Circulaire MDPH + CASF L245 (décision révision) ; Décret 2026-227 déjà autorise certificat permanent si stable ; Décret 30 mars 2026.
 - ⚖️ **À trancher :** Comment coder "permanent" médicalement sans test régulier ? Qui trace évolution oubliée ?
 - **Statut :** ⬜
 
@@ -48,6 +53,7 @@
 - **Piste A : 🇫🇷 Congé rémunéré 1 an pour aidant reconnu.** Reconnaissance officielle : 1 j/mois ou 5 j/an rémunérés à même taux salaire, cotisations SSI gratuites (existe partiellement). **Pour :** revenus stables, respiration. **Contre :** coûts entreprises, turn-over.
 - **Piste B : 🇦🇹 Salaire direct aidant via PCH.** Aidant = employé de la personne handicapée, versement PCH direct à aidant (salaire +cotisations). Autriche modèle : 1 800 €/mois. **Pour :** dignité, légalité travail. **Contre :** charge impôt usager, relation employeur/employé complexe.
 - **Piste C : ⚡ Droit de décharge 1 semaine/mois SANS demande renouvelée.** Aidant = droit acquis à 1 semaine respiro/mois PRIS EN CHARGE 100 % (accueil de jour, internat temporaire, help domicile) AUTOMATIQUE. Zéro dossier MDPH. **Pour :** libertéaidant, charge mentale zéro. **Contre :** surcoût structures, capacité d'accueil limitée.
+- ⚖️ **Faisabilité juridique :** CASF L245-12 (PCH aide humaine) + code travail ; Art. 40 si droits auto (surcoût structures massif) ; CASF & Cap Family 2026.
 - ⚖️ **À trancher :** Rémunération aidant = reconnaissance ou précarité (CDI requis) ?
 - **Statut :** ⬜
 
@@ -56,6 +62,7 @@
 - **Piste A : 🇫🇷 Accepter app Ameli + code SMS = équivalent carte.** Pharmacie reçoit code à SMS depuis app, valide versement sans physique. **Pour :** moderne, sécurisé (2FA). **Contre :** digital divide personnes âgées, SMS pas garanti réseau.
 - **Piste B : 🇪🇸 Papier de secours 15 jours.** Si perte/délai renouvellement, pharmacien imprime attestation papier temporaire (15 j) après justificatif Ameli téléphone. Valide 2024. **Pour :** accès d'urgence garanti. **Contre :** contrefaçon, coûts impression.
 - **Piste C : ⚡ Droits d'accès au médicament AVANT Carte Vitale.** Pharmacien accès directement base CPAM en ligne pour confirmer droits, Carte Vitale = bonus suivi. Obligation versement même sans carte si droits confirmés. **Pour :** zéro blocage. **Contre :** coûts serveurs, piratage données.
+- ⚖️ **Faisabilité juridique :** Code sécurité sociale L161-33 (droit accès) + RGPD ; Obligation légale carte physique depuis 2024 (pas équivalence app) + RGPD données santé ; Ameli 2024 & Code sécurité sociale.
 - ⚖️ **À trancher :** Qui garantit accès en cas perte ? Délai renouvellement Carte Vitale tolérable ?
 - **Statut :** ⬜
 
@@ -64,5 +71,6 @@
 - **Piste A : 🇫🇷 Encadrer dépassements ALD à +10 %.** Kiné conventionné ALD = max 10 % dépassement (raisonnablement justifié), mutuelle obligée dérembourser 50 %. **Pour :** transparence, patient prévisibilité. **Contre :** kiné fronde, marges réduites.
 - **Piste B : 🇳🇴 Tarif unique sans dépassement ALD possible.** Tous kinés ALD = tarif unique 20 €/séance base révisée (remonte actualisation), zéro dépassement légal. Modèle Norvège tarification. **Pour :** égalité, pas surprise. **Contre :** coûts Secu, kiné privés exode.
 - **Piste C : ⚡ PCH kinésithérapie automatique pour ALD mobile réduite.** ALD+mobilité <50 % = PCH humaine assistance + kiné incluse (prescription illimitée, remboursement 100 % + PCH aide transport). **Pour :** accès égal, pas rationnement. **Contre :** surcoût budgétaire illimité.
+- ⚖️ **Faisabilité juridique :** Convention UNCAM + code sécurité sociale L162-5 (tarifs) + art. 40 ; Dépassement = liberté tarifaire kinés (pas encadrement) + art. 40 si PCH illimitée ; Convention UNCAM 2025.
 - ⚖️ **À trancher :** Qui absorbe dépassements : Secu, mutuelle ou patient ? Tarif unique réaliste politiquement ?
 - **Statut :** ⬜

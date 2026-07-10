@@ -24,6 +24,7 @@
 **Pour :** légitime, réversible, permet ajustements fondés sur données réelles.  
 **Contre :** lent, coûteux en temps politique, risque d'immobilisme si pas accord.
 
+- ⚖️ **Faisabilité juridique :** Loi organique (article 39 Constitution) ; obstacle art. 40 sur financement déficit si aucun gage ; jurisprudence Conseil constitutionnel 2023 loi retraites.
 - ⚖️ **À trancher :** Comment concilier viabilité financière (urgence démographique 2030-2040) et légitimité démocratique ? Faut-il reculer de 2 ans de suite, ou par paliers ?
 
 - **Statut :** ⬜
@@ -50,6 +51,7 @@
 **Pour :** transition douce, conserve qualifications, crée lien générationnel.  
 **Contre :** baisse revenus définitive, peut entraîner baisse future pension, effet inégal selon secteurs.
 
+- ⚖️ **Faisabilité juridique :** Loi ; obstacles art. 40 (dépenses publiques subventions) et égalité rémunération CEDH ; art. L4121-1 code du travail (santé sécurité).
 - ⚖️ **À trancher :** Reconnaître la pénibilité par anticipation retraite ou par compensations emploi/formation ? Charge publique vs charge patronale ?
 
 - **Statut :** ⬜
@@ -76,6 +78,7 @@
 **Pour :** propriété collective, droits individuels détachés employeur.  
 **Contre :** peu scalables, nécessite financement initial fort, acceptation culturelle faible.
 
+- ⚖️ **Faisabilité juridique :** Loi ; obstacles Cour de cassation jurisprudence instable (2024/2025 revirements sur subordination livreurs) ; CEDH droit travail.
 - ⚖️ **À trancher :** Faut-il obliger plateforme à salariser, ou créer statut intermédiaire protégé ? Comment gérer plateforme = quasi-monopole vs libre concurrence ?
 
 - **Statut :** ⬜
@@ -102,6 +105,7 @@
 **Pour :** mobilité âges, donne chance seconde carrière.  
 **Contre :** 6 mois court pour BTP physique, coûts mixte public-privé élevés, succès inégal (taux réussite ~60-70 %).
 
+- ⚖️ **Faisabilité juridique :** Loi, code du travail ; obstacle art. 40 financement public massif formation ; directive UE mobilité travailleurs si immigration qualifiée.
 - ⚖️ **À trancher :** Faut-il privilégier création local (apprentissage/formation France) ou ouverture immigration temporaire ? Revalorisation salariale d'entrée suffit-elle ?
 
 - **Statut :** ⬜
@@ -128,6 +132,7 @@
 **Pour :** flexibilité par secteur, syndicalisme fort = pression naturelle, État complète secteurs moins productifs.  
 **Contre :** inégalités branche à branche, secteurs faibles restent à la traîne, coûts État élevés.
 
+- ⚖️ **Faisabilité juridique :** Loi ; obstacles art. 40 (financement fonds publics) ; égalité rémunération art. L3221-2 code du travail.
 - ⚖️ **À trancher :** Lier salaires à productivité = juste mais impossible à mesurer réellement ? Faut-il intervention législative ou confier négociation syndicale/patronale ?
 
 - **Statut :** ⬜
@@ -154,6 +159,7 @@
 **Pour :** rapide, adapté régions, mentorat force lien.  
 **Contre :** courte durée risque incompétence, mentorat coûteux/inégal qualité, peu transfert technologique si métiers bas de gamme.
 
+- ⚖️ **Faisabilité juridique :** Loi, code du travail ; obstacle art. 40 financement public massif formation et subsides régionaux.
 - ⚖️ **À trancher :** Faut-il formation d'abord (apprentissage/école) ou emploi d'abord avec formation continue ? Quelle durée minimum avant insertion réelle ?
 
 - **Statut :** ⬜
@@ -180,6 +186,7 @@
 **Pour :** visibilité RPS, intervention précoce, culture du dialogue.  
 **Contre :** mesure contestée (salariés surestiment ou minimisent), formations peu efficaces, arbitre lent.
 
+- ⚖️ **Faisabilité juridique :** Loi, code du travail art. L4121-1 ; obstacle art. 40 investissement prévention massif ; CEDH droit à la santé.
 - ⚖️ **À trancher :** Prévention ≠ cure : investir prévention amont évitera absentéisme futur, mais coûts publics élevés. Comment financer sans reculer sur autre dépense ?
 
 - **Statut :** ⬜
@@ -206,6 +213,7 @@
 **Pour :** flexibilité (compte individuel), uni-PME lien, coûts État progressifs.  
 **Contre :** compte individuel fragmenté = peu cohérence, partenariat uni-PME lent à démarrer, accès faible PME rurales (peu universités).
 
+- ⚖️ **Faisabilité juridique :** Loi, code du travail ; obstacle art. 40 financement État 70 % pour PME <50 salariés ; directive UE formation continue.
 - ⚖️ **À trancher :** Faut-il droit individuel à formation (CPF-like) ou obligation collective entreprise (Allemagne-like) ? Comment garantir contenus pertinents sans lourdeur ?
 
 - **Statut :** ⬜

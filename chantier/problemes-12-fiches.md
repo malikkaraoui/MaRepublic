@@ -9,6 +9,7 @@
 - **Piste B, 🇨🇭 Suisse (freins démocratiques) :** Restrictions cantonales via référendum sur l'endettement ; peu de dépenses fédérales. **Pour :** Légitimité populaire, participation citoyenne. **Contre :** Non transposable en régime unitaire, lenteur décisionnelle, risque de balkanisation fiscale.
 - **Piste C, 🇩🇪 Allemagne (frein à l'endettement, révision 2023) :** Limite structurelle de 0,35 % du PIB en déficit structurel ; exceptions conjoncturelles / urgences. **Pour :** Équilibre discipline + flexibilité, légitimité économique. **Contre :** Rigidité toujours contestée en période basse, charge sur générations futures via dette existante.
 - **Piste D, Restructuration de la dette existante :** Allongement des maturités, conversion de dettes court terme en long terme, éventuellement dépréciation contrôlée (décote à l'amiable). **Pour :** Réduit le coût annuel de refinancement. **Contre :** Casse les portefeuilles d'épargnants, risque de contagion (banques), perte de crédibilité souveraine.
+- ⚖️ **Faisabilité juridique :** Loi organique de finances (article 34 Constitution) ; article 34 Constitution (LFSS, budget) ; Traité Maastricht (déficit 3%).
 - ⚖️ **À trancher :** Impératif à long terme : quelle règle de discipline acceptent les Français ? Coût du service de la dette vs priorités sociales/investissements. Calendrier de réduction : 5 ans, 10 ans, 20 ans ?
 - **Statut :** ⬜
 
@@ -19,6 +20,7 @@
 - **Piste B, Réforme structurelle des transferts sociaux :** Ciblage renforcé des aides (moyens testés), fusionner/simplifier allocations. **Pour :** Allège masse versée de ~3-4 Md€. **Contre :** Pauvreté relative croissante, contentieux politique/social, effets de seuil pénalisants.
 - **Piste C, Augmentation des prélèvements obligatoires :** Impôts sur le capital, TVA sociale, CSG accrue. **Pour :** Rentrées rapides (+10-20 Md€ selon mesures). **Contre :** Récession, fuite des contribuables/capital (compétitivité), acceptabilité politique faible.
 - **Piste D, Partenariat public-privé / cession d'actifs :** Vente d'infrastructures, PPP sur écoles/hôpitaux, réduction du patrimoine de l'État. **Pour :** Entrées cash immédiates (chiffre unique : 5-10 Md€ sur 5 ans). **Contre :** Perte de revenus futurs, « fire sale » en crise, fardeau du contribuable/usager.
+- ⚖️ **Faisabilité juridique :** Loi de finances + Loi organique ; article 40 Constitution (diminution ressources) ; Cour des comptes 2024.
 - ⚖️ **À trancher :** Séquence : d'abord dépenses (où? quelles coupes?), puis impôts (qui paie?), puis ventes (quels actifs?). Acceptabilité politique du trinôme.
 - **Statut :** ⬜
 
@@ -29,6 +31,7 @@
 - **Piste B, 🇪🇪 Estonie (numérisation intégrale, données en temps réel) :** Tous les flux financiers tracés électroniquement, déclarations pré-remplies via big data. Fraude réduite de moitié en 10 ans. **Pour :** Automatisation, détection quasi temps réel, coût marginal faible une fois déployé. **Contre :** Coûts initiaux énormes (2-3 Md€), vie privée/surveillance, réticence culturelle française.
 - **Piste C, Augmentation drastique des effectifs de contrôle :** Recruter 5 000 agents supplémentaires, investir 500 M€/an en équipement. **Pour :** Retour direct (5-10 Md€ additionnels), effet dissuasion. **Contre :** Délais de recrutement/formation (3-5 ans), coût politique, croissance de l'administration.
 - **Piste D, Amnistie fiscale + compliance incitative :** Régularisation volontaire (taxe faible sur arriérés + pardon pénal), puis renforcement ultérieur. **Pour :** Entrées immédiates (2-3 Md€), fluidifie base taxable. **Contre :** Moral hazard massif (fraudeurs attendent l'amnistie suivante), injustice envers conformes.
+- ⚖️ **Faisabilité juridique :** Loi de finances + décret administration ; article 40 Constitution (charges audit) ; code fiscal Légifrance.
 - ⚖️ **À trancher :** Investissement public (effectifs) vs technologie vs incitatifs. Fenêtre d'amnistie OUI/NON, si OUI avec quelle contrepartie ? Qu'accepte l'opinion ?
 - **Statut :** ⬜
 
@@ -39,6 +42,7 @@
 - **Piste B, Renforcement des équipes et audits cibles :** Doubler les effectifs de contrôle (5 000 → 10 000), audit annuel sur 10 % des allocataires à haut risque. **Pour :** Effet dissuasion, détection locale. **Contre :** Coût (~200-300 M€/an), lenteur, rend l'administration plus « pointilleuse » (friction avec usagers).
 - **Piste C, Décentralisation + responsabilité locale :** Donner aux mairies/CAF les pouvoirs de contrôle et la part de fraudes recouvrées. **Pour :** Connaissance du terrain, mobilisation locale. **Contre :** Disparités inter-régionales, petites caisses surchargées, tentation de laisser-faire.
 - **Piste D, Simplification des allocations + réduction des conditions d'éligibilité :** Fusionner 50+ allocations en 3-4, critères unifiés. Moins d'erreurs, moins à contrôler. **Pour :** Coût de contrôle baisse de 50 %, usagers comprennent mieux. **Contre :** Perte de ciblage fin, glissement vers universalisme coûteux, transition chaotique.
+- ⚖️ **Faisabilité juridique :** LFSS + décret ; article 40 Constitution (charges de contrôle) ; code Sécurité sociale.
 - ⚖️ **À trancher :** Technologie vs ressources humaines. Acceptabilité du flicage social. Réformer les aides elles-mêmes (si oui, lesquelles en priorité) ou juste mieux contrôler l'existant ?
 - **Statut :** ⬜
 
@@ -49,6 +53,7 @@
 - **Piste B, 🇮🇪 Irlande (réduction drastique + impôts faibles) :** Supprimer ~100 niches, baisser les taux de base de 3-5 points. Fiscalité « lisse », lisible, peu de dérogations. **Pour :** Transparence, simplication, confiance. **Contre :** Perte de revenus nette (requiert croissance/assiette large), abandon de politique industrielle ciblée.
 - **Piste C, Évaluation + seuil de reconduction :** Chaque niche revue tous les 3 ans, impact mesurable ; suppression si ROI < 1,5 ou bénéficiaires < 10k ou coût de 10 M€+. **Pour :** Rationalité progressive, sauvegarde des petites niches utiles. **Contre :** Débats politiques infinis, lobbying intensifié, délai de mise en œuvre.
 - **Piste D, Conversion en allocations ciblées :** Remplacer crédit d'impôt par allocations/subventions explicites (budget État visible), ciblées par secteur/taille entreprise. **Pour :** Transparence, précision du ciblage, facilite débat politique. **Contre :** Augmente apparence de dépense budgétaire (réaction des conservateurs), charge administrative accrue.
+- ⚖️ **Faisabilité juridique :** Loi de finances ; article 40 Constitution (modification ressources/dépenses) ; évaluation niches fiscales.
 - ⚖️ **À trancher :** Somme à économiser (quelle cible : 20 Md€? 50 Md€?) et calendrier. Quelles niches défendables? Quelles imprécations seront acceptées ?
 - **Statut :** ⬜
 
@@ -59,6 +64,7 @@
 - **Piste B, 🇬🇧 Royaume-Uni (veto parlementaire sur budget ; gouvernement peut être renversé) :** Assemblée peut rejeter budget complet, force négociation. Gouvernement minoritaire = instabilité visible. **Pour :** Pouvoir réel de la chambre. **Contre :** Paralysie possibile, gouvernements minoritaires fragiles.
 - **Piste C, Révision de l'art. 49.3 : limiter à 2 utilisations par législature :** Garde-fou démocratique, force négociation. **Pour :** Restaure débat parlementaire sans bouleverser Constitution. **Contre :** Pas de solution si majorité stable absente, risque de crise politique.
 - **Piste D, Suppression pure du 49.3 pour lois de finances :** Gouvernement doit négocier réellement ; vote direct sur budget complet. Si rejet, gouvernement tombe ou dissout l'assemblée. **Pour :** Rétablit souveraineté parlementaire sur fiscalité. **Contre :** Instabilité chronique possible, budgets bloqués, paralysie.
+- ⚖️ **Faisabilité juridique :** Loi constitutionnelle (article 89) ; article 49 alinéa 3 Constitution (49.3 est procédure constitutionnelle) ; révision nécessaire.
 - ⚖️ **À trancher :** Accepte-t-on plus d'instabilité gouvernementale pour plus de légitimité budgétaire? Que changer à la Constitution sur ce point ?
 - **Statut :** ⬜
 
@@ -69,6 +75,7 @@
 - **Piste B, Privatisation / externalisation de services publics :** Gestion des routes aux sociétés privées (péages), santé semi-privée type Allemagne, écoles/universités autonomes. **Pour :** Efficacité comparée, réduction coûts de masse. **Contre :** Perte de maîtrise publique, fragmentations d'équité, inégalités régionales, « deux France ».
 - **Piste C, Consolidation de patrimoine immobilier :** Audit de tous les bâtiments État/collectivités, vente des vacants (5-10 Md€ sur 5 ans), regroup ministères/agences. **Pour :** Entrées cash, économies d'énergie/maintenance. **Contre :** Délais longs, marchés immobiliers mous en province, risque de surfire en Paris/métropoles.
 - **Piste D, Renforcement audit interne + sanctions pour managers :** Audit continu des projets, sanctions financières/carrière en cas de dépassement non justifié. **Pour :** Responsabilité accrue, vigilance permanente. **Contre :** Freinage des initiatives, crainte des managers, paralysie bureaucratique.
+- ⚖️ **Faisabilité juridique :** Loi + Loi organique ; article 40 Constitution (charges audit) + lois décentralisation ; Cour des comptes 2024.
 - ⚖️ **À trancher :** Cible d'économies durable (3-5 Md€/an ? 10 Md€/an sur 5 ans?). Quels secteurs toucher en priorité? Quels services à externaliser? Comment protéger l'emploi public ?
 - **Statut :** ⬜
 
@@ -79,6 +86,7 @@
 - **Piste B, 🇨🇭 Suisse (impôts cantonaux réduits, concurrence fiscale inter-cantons) :** CVAE cantonale moyenne ~0,5 %, compétition pousse vers efficacité. PME prospères. **Pour :** Efficacité locale, flexibilité, moins de bureaucratie. **Contre :** Disparités énormes, zones riches vs pauvres, dumping fiscal à la frontière franco-suisse, perte de solidarité nationale.
 - **Piste C, Réduction progressive CVAE (1,45 % → 0,75 % en 3 ans) + compensation par TVA/CSG renforcée :** **Pour :** Allègement net pour PME, investissement relancé, financement national équitable. **Contre :** Régions perdent recettes (réduction 2-3 Md€/an), demandent compensation État, TVA plus régressive (consommateurs paient).
 - **Piste D, Assouplissement territorial : CVAE réduite en zones en difficulté (50 % en ruralité, QPV), taux normal ailleurs :** **Pour :** Discrimination positive, redynamise zones sinistrées. **Contre :** Complexité accrue, risque de migrations fictives de sièges sociaux, débat territorial acerbe.
+- ⚖️ **Faisabilité juridique :** Loi de finances + Loi local ; article 40 Constitution (diminution ressources collectivités) + autonomie financière collectivités ; jurisprudence Conseil constitutionnel.
 - ⚖️ **À trancher :** Accépte-t-on réduction CVAE? Si oui, jusqu'à quel taux? Comment compenser pour collectivités? Qui supporte le coût ? TVA ou revenu direct ?
 - **Statut :** ⬜
 

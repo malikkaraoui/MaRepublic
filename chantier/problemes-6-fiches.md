@@ -10,6 +10,7 @@
 - **Piste B, 🇪🇪 Estonie (audit indépendant) :** Évaluation externe annuelle de l'efficacité réelle (pédopornographie détectée vs faux positifs). **Pour :** données factuelles, rend légitime ou révèle l'inefficacité. **Contre :** long, coûteux, repousse implémentation.
 - **Piste C, 🇨🇭 Suisse (consentement et opt-out) :** Légaliser scan seulement sur accord explicite utilisateur, pas par défaut. **Pour :** redonne choix, respecte libertés. **Contre :** compliance très basse, rend dispositif inefficace par conception.
 - **Piste D, 🇫🇷 France (« Règle des 20 % ») :** Interdire rétroposition de texte identique avant 20 ans ; exiger rédaction nouvelle ou abandon. **Pour :** freina recyclage politique, force débat de fond. **Contre :** rigide, peut bloquer législation utile.
+- ⚖️ **Faisabilité juridique :** Réglement UE ; CEDH art. 8 + Charte UE ; Directive ePrivacy 2002.
 - ⚖️ **À trancher :** Accepte-t-on scan obligatoire contre pédopornographie ? Si oui, techniquement comment sans casser chiffrement ? Qui évalue ?
 - **Statut :** ⬜
 
@@ -21,6 +22,7 @@
 - **Piste B, 🇳🇱 Pays-Bas (audit tiers, audit biais) :** Conserver VSA mais audit indépendant annuel (effectivité + biais racial/genre sur 1M+ détections). **Pour :** données probantes, limite abus. **Contre :** coûteux, entreprises résistent, délais longs.
 - **Piste C, 🇬🇧 UK (transparence locale) :** Publier bilans trimestriels par quartier (nb détections, infractions confirmées, démographies touchées). **Pour :** rend visible abus, pression publique. **Contre :** peut exposer failles sécurité, résistance données sensibles.
 - **Piste D, 🇪🇸 Espagne (interdiction E2E reconnaissance faciale) :** Interdire reconn. faciale, autoriser seulement analyse comportement/foules. **Pour :** limite biométrie la plus intrusive. **Contre :** réduit utilité sécurité, difficile techniquement.
+- ⚖️ **Faisabilité juridique :** Loi + RGPD + CNIL ; CEDH art. 8, 14 ; Jurisprudence CNIL reconnaissance faciale.
 - ⚖️ **À trancher :** VSA efficace pour sécu ou prétexte ? Comment garantir non-biais ? Qui contrôle les 4 entreprises ?
 - **Statut :** ⬜
 
@@ -32,6 +34,7 @@
 - **Piste B, 🇪🇺 UE (traités bilatéraux) :** Négocier traité UE-USA : autorités US accès seulement sur ordre judiciaire français + appel UE possible. **Pour :** légitime en diplomatie, moins coûteux. **Contre :** US peut refuser, fragile politiquement.
 - **Piste C, 🇮🇹 Italie (encadrement strict US) :** Autoriser Microsoft/AWS mais chiffrement client (clés France), audit IT trimestriel, interdiction partage NSA. **Pour :** usage pragmatique US + garde-fous. **Contre :** confiance limitée, chiffrement peut réduire perfs, US peut ignorer restrictions.
 - **Piste D, 🇪🇪 Estonie (zéro-trust décentralisé) :** Architecturer données santé décentralisées (hôpitaux régionaux = ses clés), pas cloud centralisé. **Pour :** pas point unique défaillance. **Contre :** complexe, fragmentation, synergies perdues.
+- ⚖️ **Faisabilité juridique :** Traité + RGPD ; RGPD art. 44 (transfert) ; CJUE Schrems II 2020.
 - ⚖️ **À trancher :** Faut-il vraiment nuage français ? Ou traité US suffit ? Somme-nous prêts à payer surcoût souveraineté ?
 - **Statut :** ⬜
 
@@ -43,6 +46,7 @@
 - **Piste B, 🇳🇱 Pays-Bas (tiers d'accompagnement) :** Agents numériques bénévoles + kiosques en mairies/bibliothèques pour aide en ligne. Formation gratuite seniors. **Pour :** inclusif, social, coût modéré. **Contre :** dépend bénévolat, limité en zones désertées.
 - **Piste C, 🇧🇪 Belgique (responsabilité conditionnée) :** Dématérialisation autorisée seulement si organisme prouve > 90 % population capable (étude annuelle). Sinon maintien papier. **Pour :** force preuve d'inclusion. **Contre :** frein réforme, seuil arbitraire.
 - **Piste D, 🇫🇷 France (évaluation d'impact 50+) :** Avant toute dématérialisation, audit impact sur personnes 65+/analphabètes/pauvres. Exempter certains publics de pénalités (délais allongés, frais réduits). **Pour :** identifie vrais problèmes. **Contre :** compliqué administrativement.
+- ⚖️ **Faisabilité juridique :** Loi + Égalité service public ; CEDH art. 14 ; Jurisprudence dématérialisation France.
 - ⚖️ **À trancher :** Faut-il service public physique obligatoire parallèle ? Jusqu'à quel coût ? Qui finance inclusion ?
 - **Statut :** ⬜
 
@@ -54,6 +58,7 @@
 - **Piste B, 🇸🇪 Suède (cyber-brigade dédiée) :** Police : unité nationale cyberharcèlement, formation spécifique, appel gratuit 24/7. Suivi judiciaire garanti. **Pour :** expertise, prise au sérieux. **Contre :** coûteux, saturé rapidement.
 - **Piste C, 🇳🇱 Pays-Bas (civile no-platform) :** Victime peut demander justice ordonnance contre harcèlement : suspension compte demandeur/ami (droit civil rapide, pas criminel). **Pour :** rapide, dissuasif sans prison. **Contre :** peut être abusée pour censure/intimidation.
 - **Piste D, 🇬🇧 UK (transparency + algorithm audit) :** Plateforme publie algo modération, nb suppressions/appels gagnés. Audit indépendant annuel. Utilisateur : droit appel suppression en 48h. **Pour :** transparence, responsabilité. **Contre :** coûteux, révèle failles sécurité.
+- ⚖️ **Faisabilité juridique :** Loi + Réglement UE DSA ; CEDH art. 6, 8, 10 ; Loi 2017 cyberharcèlement.
 - ⚖️ **À trancher :** Responsabilité plateforme ou harceleurs ? Vitesse = justice ? Qui finance augmentation moyens ?
 - **Statut :** ⬜
 
@@ -65,6 +70,7 @@
 - **Piste B, 🇩🇪 Allemagne (forensique+police) :** Équipe nationale (police+scientifiques) analyse désinformation massive : forensique audio/vidéo. Plateforme = obligation coopération enquête. **Pour :** expert, légal clair. **Contre :** lent, peut arriver après scrutin.
 - **Piste C, 🇮🇹 Italie (literacy + démenti) :** Campagne d'éducation vidéo « Comment repérer deepfake ». Gouvernement : débunking automatisé (fact-check lié posts faux, masque par défaut). **Pour :** inclusif, responsabilise citoyens. **Contre :** impact limité, algorithme fact-check peut être contested.
 - **Piste D, 🇸🇬 Singapour (délai protection) :** Loi : 30 jours avant vote = interdiction publication toute vidéo politique non-sourced. Après : libre. **Pour :** simple, temporaire. **Contre :** censure perçue, contournements faciles.
+- ⚖️ **Faisabilité juridique :** Loi + Réglement UE DSA ; CEDH art. 10 ; Jurisprudence désinformation 2022.
 - ⚖️ **À trancher :** Qui vérifie vérité avant élection ? Combien de délai ? Faut-il tech détection auto deepfakes ?
 - **Statut :** ⬜
 
@@ -76,6 +82,7 @@
 - **Piste B, 🇮🇱 Israël (interdiction < 16) :** Ban complet < 16 ans réseaux sociaux (technique : vérification âge par documento/SMS). **Pour :** simple, zéro exposition. **Contre :** discrimination numérque massive, effet pervers (marché noir applis).
 - **Piste C, 🇸🇪 Suède (algo neutre enfants) :** Loi : enfants < 15 ans = algorithme désactivé (feed chronologique, pas recommandation). Contenu violent/sexuel bloqué automatiquement. **Pour :** protège sans ban, basé science. **Contre :** coûteux techn, compétitivité vs US.
 - **Piste D, 🇫🇷 France (education+transparence) :** Curriculum obligatoire école : usage réseaux, repérage addictio / harcèlement. Plateforme : rapport trimestriel metrics temps écran moyen enfants par tranche (anonyme). **Pour :** inclusif, awareness. **Contre :** peu dissuasif, compliance basse si pas sanction.
+- ⚖️ **Faisabilité juridique :** Loi + Réglement UE DSA ; CEDH art. 8 ; Directive enfance UE.
 - ⚖️ **À trancher :** Ban complet < 16 ou contrôle/éducation ? Qui vérifie âge ? Qui supervise algos ?
 - **Statut :** ⬜
 
@@ -87,6 +94,7 @@
 - **Piste B, 🇩🇪 Allemagne (open-source décentralisé) :** Financer open-source IA (Hugging Face, mistral). Chaque pays lab IA public. Partage modèles européens = libre commun. **Pour :** rapide, inclusif, limite contrôle centralise. **Contre :** fragmentation, perte economies d'échelle.
 - **Piste C, 🇩🇰 Danemark (partenariat US) :** Accord stratégique Microsoft/Amazon : co-invest cloud IA EU, localisation data, garanties non-accès NSA (à confirmer négo). **Pour :** pragmatique, rapide. **Contre :** reste dépendance US, peut être revoqué.
 - **Piste D, 🇸🇬 Singapour (hub neutre) :** Positionner UE "hub IA neutre" : plateforme ouverte startup US/Chine/EU coopérent, régulation light vs US/Chine. **Pour :** attractivité talens. **Contre :** pas solutionner retard compute, géopolitique risqué.
+- ⚖️ **Faisabilité juridique :** Loi + Réglement UE IA Act ; Compétitivité vs régulation ; Réglement IA 2024.
 - ⚖️ **À trancher :** Investir massif public (risque gaspillage) ? Miser open-source (lent) ? Accepter dépendance stratégique US ?
 - **Statut :** ⬜
 

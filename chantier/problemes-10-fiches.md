@@ -8,6 +8,7 @@
 - **Piste B, 🇨🇭 Suisse (Paiements directs découplés du volume de production) :** Remplacer les subventions productivistes par des aides directes aux agriculteurs, indexées sur la gestion territoriale et l'emploi, pas sur le rendement. **Pour :** Stabilise les revenus sans favoriser l'intensification ; soutient les petites structures. **Contre :** Coût budgétaire massif ; favorise l'installation de nouveaux agriculteurs sans garanties de viabilité.
 - **Piste C, 🇦🇺 Australie (Fonds d'ajustement et reconversion) :** Créer un fonds d'accompagnement pour les agriculteurs en difficulté structurelle, finançant reconversion professionnelle, diversification (agritourisme, circuits courts, bio), ou cessation d'activité volontaire. **Pour :** Transition progressive, évite les ruptures sociales. **Contre :** Coûteux ; risque de "fuite des talents" agricoles vers d'autres secteurs.
 - **Piste D, 🇳🇱 Pays-Bas (Contrats multi-annuels avec distributeurs) :** Encourager des contrats de long terme (3-5 ans) entre producteurs et distributeurs/industrie agroalimentaire, avec prix plancher indexé sur les coûts. **Pour :** Prévisibilité, réduction des crises de trésorerie. **Contre :** Possible concentration des acheteurs ; perte de flexibilité marchande.
+- ⚖️ **Faisabilité juridique :** Loi + Règlement UE ; compétences UE fortes (PAC, art. 40 TFUE) ; Règlement UE 2024/1468.
 - ⚖️ **À trancher :** Réciprocité commerciale vs. intégration européenne ? Paiements directs vs. soutien au productivisme ? Qui finance la reconversion ? Faut-il intervenir dans les contrats commerciaux ?
 - **Statut :** ⬜
 
@@ -17,6 +18,7 @@
 - **Piste B, 🇩🇪 Allemagne (Accompagnement psychosocial + aide fiscale temporaire) :** Psys spécialisés en milieu rural ; allègement fiscal pour les agriculteurs en difficulté psychosociale (réduction cotisations, report de dettes). **Pour :** Holistique ; réduit la honte/stigmatisation. **Contre :** Coûteux ; complexité administrative.
 - **Piste C, 🇨🇦 Canada (Fonds de dépistage et accompagnement de transition) :** Médecins et travailleurs sociaux mobiles dans les zones rurales ; accompagnement contractuel (2-3 ans) vers transition de carrière ou amélioration de structure. **Pour :** Proactif ; accompagnement long terme. **Contre :** Demande forte de ressources humaines ; peut stigmatiser les agriculteurs.
 - **Piste D, 🇳🇿 Nouvelle-Zélande (Obligations d'empathie légales pour créanciers/banquiers) :** Imposer aux banques et organismes de crédit de prévoir des "respirations" (moratoires) automatiques en cas de détresse identifiée, avec obligation de recommandation vers soutien psychosocial. **Pour :** Réduit les pressions de court terme ; responsabilise les créanciers. **Contre :** Perte de recouvrabilité ; complexité juridique.
+- ⚖️ **Faisabilité juridique :** Loi ; article 40 Constitution (création charge publique) ; jurisprudence Conseil constitutionnel.
 - ⚖️ **À trancher :** Prévention locale vs. interventions d'État ? Qui paye les psys ruraux ? Faut-il des droits spéciaux pour agriculteurs en détresse ?
 - **Statut :** ⬜
 
@@ -26,6 +28,7 @@
 - **Piste B, 🇯🇵 Japon (Parcelles collectives + formation obligatoire des successeurs) :** Grouper les petites parcelles en structures collectives gérées par coopératives ; formation pédagogique obligatoire des héritiers dès 18 ans (agonomie, gestion, tech). **Pour :** Viabilité accrue ; génération préparée. **Contre :** Perte d'autonomie pour petits propriétaires ; bureaucratie.
 - **Piste C, 🇨🇭 Suisse (Bonus social pour transmission + donation progressive) :** Réduction fiscale majeure (jusqu'à 50 %) pour donation anticipée de ferme à héritier avant 60 ans ; bonus social si reprise engagée par jeune de moins de 35 ans. **Pour :** Incite à la transmission précoce ; étale la succession. **Contre :** Avantage aux riches ; peut fragmenter les fermes.
 - **Piste D, 🇪🇸 Espagne (Fermage à 0 % + assurance succession) :** Crédit à 0 % pour jeune agriculteur qui reprend ferme existante ; assurance succession pour enfant non-agriculteur (indemnité si refus de reprendre). **Pour :** Démocratise l'accès ; réduit les contentieux familiaux. **Contre :** Impact fiscal lourd ; protection limitée des parents.
+- ⚖️ **Faisabilité juridique :** Loi + dispositif fiscal ; article 40 Constitution (allocations directes) ; jurisprudence Conseil constitutionnel.
 - ⚖️ **À trancher :** Faut-il favoriser les jeunes par des droits spéciaux ? Qui finance l'installation ? Doit-on restructurer les terres (regroupement vs. liberté de division) ?
 - **Statut :** ⬜
 
@@ -35,6 +38,7 @@
 - **Piste B, 🇦🇹 Autriche (Pôles de services régionaux + transport gratuit) :** Concentrer services en 2-3 pôles par vallée (10-15 km rayon) ; transport gratuit pour habitants vers pôle. **Pour :** Efficacité ; préserve accès. **Contre :** Déplacement des services source de colère ; discriminant pour handicapés/personnes âgées.
 - **Piste C, 🇨🇦 Canada (Allocations de compensation pour habitants isolés) :** Créer allocation mensuelle pour habitants en zone isolée (ex. 50-100 €/mois), compensant le surcoût déplacement et absence de services proches. **Pour :** Reconnaissance des "pénalités" rurales ; redistribution. **Contre :** Stigmatise les ruraux ; coûteux ; ne remplace pas les services.
 - **Piste D, 🇮🇷 Irlande (Incitations fiscales pour professionnels en zones rurales) :** Exonération d'impôts sur le revenu (10-15 ans) pour médecins, pharmaciens, avocats qui s'installent en zone rurale ; subventions pour modernisation cabinet rural. **Pour :** Attire professionnels ; marché. **Contre :** Inégalité territoriale d'imposition ; peut fragmenter les services.
+- ⚖️ **Faisabilité juridique :** Loi de finances + décret ; article 40 Constitution (dépenses fiscales/allocations) ; jurisprudence Conseil constitutionnel.
 - ⚖️ **À trancher :** Préserver services décentralisés vs. concentration en pôles ? Qui paie le déplacement/accès ? Faut-il pénaliser ceux qui quittent ?
 - **Statut :** ⬜
 
@@ -44,6 +48,7 @@
 - **Piste B, 🇩🇪 Allemagne (Régie publique + abonnements forfaitaires) :** Reprendre exploitation directe (pas de franchise privée) ; forfait régional illimité (30-50 €/mois) pour accès tous transports collectifs ruraux (bus, train). **Pour :** Simplification ; démographie preuve de concept. **Contre :** Coûts d'exploitation très élevés ; modèle d'équilibre complexe.
 - **Piste C, 🇳🇿 Nouvelle-Zélande (Multimodalité légère : mini-train + bus électriques) :** Remplacer grandes lignes par réseau "léger" (mini-trains à faible capacité, électriques, 1-2 trajets/jour + bus de rabattement). **Pour :** Moins cher à opérer ; flexibilité horaire. **Contre :** Pas de cargo lourd ; temps de trajet augmenté.
 - **Piste D, 🇵🇹 Portugal (Partenariat public-privé avec obligation de service) :** Ouvrir exploitation à privé sous cahier des charges strict (fréquence min., tarifs sociaux, durée 15 ans) ; subvention pour couvrir déficit si < seuil de rentabilité. **Pour :** Risque partagé ; innovation possible. **Contre :** Coûts cachés ; peut négliger rentabilité sociale.
+- ⚖️ **Faisabilité juridique :** Loi + décret ; article 40 Constitution (tarifs sociaux = subvention) ; statut SNCF.
 - ⚖️ **À trancher :** Régie publique vs. appels d'offres ? Faut-il forcer la continuité ou accepter la fin des petites lignes ?
 - **Statut :** ⬜
 
@@ -53,6 +58,7 @@
 - **Piste B, 🇬🇧 Royaume-Uni (Tiers-lieux publics + locaux hybrides) :** Transformer bâtiments publics vacants en tiers-lieux (coworking, petites salles événements) ; soutenir cafés-épiceries-bibliothèques "fusionnées" (un lieu, plusieurs usages). **Pour :** Baisse coût par commerce ; animation garantie. **Contre :** Dépend fortement de subsides publics ; viabilité au-delà du subventionnement incertaine.
 - **Piste C, 🇮🇹 Italie (Statut de "village patrimoine" + aide à artisanat traditionnel) :** Labéliser petits bourgs (< 3 000 hab.) comme "patrimoine villageois" ; aides majorées (70 %) pour artisans et micro-commerces traditionnels (boulanger, fromager, menuisier) s'installant. **Pour :** Valorise identité locale ; attire tourisme. **Contre :** Folklorisation ; marginalise activités modernes ; faible viabilité sans tourisme.
 - **Piste D, 🇵🇱 Pologne (Bourse pour entrepreneurs ruraux + formation) :** Allocation création d'entreprise pour chômeur/jeune s'installant dans bourg (ex. 15 000 €) ; formations gratuites gestion/marketing. **Pour :** Incite la prise de risque. **Contre :** Forte mortalité des jeunes entreprises ; allocation ne suffit pas seule.
+- ⚖️ **Faisabilité juridique :** Loi + décret ; article 40 Constitution (allocations entrepreneurs) ; jurisprudence Conseil constitutionnel.
 - ⚖️ **À trancher :** Qui finance la revitalisation ? Faut-il protéger le commerce local par la fiscalité ou laisser la concurrence libre ? Peut-on imposer activités "patrimoniales" ?
 - **Statut :** ⬜
 
@@ -62,6 +68,7 @@
 - **Piste B, 🇧🇷 Brésil (Accords d'échange préférentiel avec conditions de normes) :** Négocier traités sélectifs (Mercosur optionnel) : préférence douanière 0 % si pays respecte normes eau/pesticides équivalentes EU ; tarif 25-30 % sinon. **Pour :** Réciprocité ; flexibilité diplomatique. **Contre :** Risque protectionniste ; représailles ; inflation alimentaire si limitation importations.
 - **Piste C, 🇬🇪 Géorgie (Réseaux de solidarité alimentaire locale + courtes distances) :** Créer une obligation pour collectivités territoriales : 50 % de repas collectifs (cantines, hôpitaux) doivent être locaux (rayon 100 km) avec certification. Subventions pour petits distributeurs locaux. **Pour :** Réduit transports ; crée marché local stable. **Contre :** Coûteux ; limités en variété hiver ; peut augmenter prix de repas collectifs.
 - **Piste D, 🇷🇴 Roumanie (Décentralisation de la transformation agroalimentaire) :** Aides pour installer petits ateliers de transformation (boulangeries, fromageries, conserveries) en zones rurales, pour transformer produits locaux ; vente directe + approvisionnement courte distance. **Pour :** Créé valeur ajoutée locale ; revenus agricoles. **Contre :** Risques sanitaires complexes à maîtriser ; viabilité si micro-unités.
+- ⚖️ **Faisabilité juridique :** Loi + Traité UE (Mercosur) ; PAC compétences UE fortes ; Mercosur appliqué mai 2026.
 - ⚖️ **À trancher :** Faut-il accepter protectionnisme pour souveraineté ? Qui contrôle les normes des importations ? Peut-on forcer local sans coûts ?
 - **Statut :** ⬜
 
@@ -71,5 +78,6 @@
 - **Piste B, 🇮🇹 Italie (Mégabassines limitées + réserve écologique obligatoire) :** Autoriser bassines si et seulement si : (1) capacité ≤ X m³ (ex. 500 000) ; (2) 30 % de l'eau captée préservée pour débits écologiques garantis ; (3) gestion collégiale (agriculteurs + commune + agence eau). **Pour :** Compromis ; préserve écosystème. **Contre :** Réduction rendements ; conflit sur % réservé.
 - **Piste C, 🇦🇺 Australie (Tarification progressive + fonds pour transition) :** Eau agricole facturée progressivement (0-500 m³ : 0,01 €/m³ ; 500-5000 : 0,05 € ; > 5000 : 0,15 €) ; fonds redistribué vers agriculteurs bas revenu pour économies d'eau (goutte-à-goutte, mulch). **Pour :** Incite sobriété ; redistributif. **Contre :** Agriculteurs gros consommateurs quittent ; inéquité socio-spatiale.
 - **Piste D, 🇫🇮 Finlande (Réserves écologiques + technologie stockage alternatif) :** Refuser mégabassines au sol ; investir en lieu : neige artificielle (ski farming), irrigation goutte-à-goutte ultra-précise, substrats de rétention souterraine. Subventions 70 % pour adoption. **Pour :** Zéro impact écologique sol/surface. **Contre :** Très coûteux ; faisabilité climatique limitée à régions froides ; gain net d'eau incertain.
+- ⚖️ **Faisabilité juridique :** Loi + Directive UE cadre eau ; censure CC 2025-891 DC (réserves interprétatives Duplomb) ; Directive 2000/60/CE.
 - ⚖️ **À trancher :** Doit-on autoriser mégabassines ou les limiter drastiquement ? Qui arbitre conflit agriculteur-écologiste ? Quels débits minimums pour écosystème ? Qui paie transition (agriculteurs vs. État vs. consommateurs) ?
 - **Statut :** ⬜

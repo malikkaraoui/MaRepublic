@@ -12,6 +12,7 @@
 
 - **Piste C : 🔴 Zéro friction : Mairies comme guichets papier et numériques décentralisés :** Rendre mairies légales pour émettre cartes grrise (comme avant 2017). Chaque commune contrôle ses données. Refus d'état centralisé = refus de cybersécurité d'état. **Pour :** aucune attaque centralisée possible, citoyens proches de l'autorité. **Contre :** fragmentation administrative, risque de qualité variable.
 
+- ⚖️ **Faisabilité juridique :** Décret 2017 centralisation ANTS + CNIL cybersécurité ; Aucun obstacle légal à décentralisation (choix politique) ; Code administratif & ANTS 2026.
 - ⚖️ **À trancher :** Est-ce normal qu'une arme de guerre informatique (cyberattaque) immobilise 12M de citoyens ? La centralisation numérique de l'état crée des points de rupture inacceptables. Faut-il recréer des guichets papier assurés localement ?
 
 - **Statut :** ⬜
@@ -26,6 +27,7 @@
 
 - **Piste C : 🔴 Zéro friction : Bordereau de confiance décentralisé :** Chaque artisan RGE crée un badge blockchain non falsifiable, envoi direct des fonds à son portefeuille numérique. Aucun intermédiaire Anah. **Pour :** impossible d'usurper, traçabilité totale. **Contre :** nécessite révolution organisationnelle, perte de contrôle Anah.
 
+- ⚖️ **Faisabilité juridique :** CASF L481 (Anah) + code travail (artisans) ; Responsabilité civile Anah non stipulée dans loi (art. 40 si compensation) ; Anah 2025 & Franceinfo avril 2026.
 - ⚖️ **À trancher :** Pourquoi l'Anah n'a-t-elle pas de responsabilité civile sur fraudes ? Qui paie le coût réel pour les victimes ? Le système reconnaît-il la fraude comme risque structurel ou accident ?
 
 - **Statut :** ⬜
@@ -40,6 +42,7 @@
 
 - **Piste C : 🔴 Zéro friction : Permis présumé accordé après 30 jours :** Dépôt dématérialisé → présomption d'accord à 30j. Mairie fait contestation écrite si problème (charge de preuve à elle). **Pour :** supprime tout délai fictif, pousse mairies à être efficaces. **Contre :** perte contrôle urbanisme communal, risques qualité construction.
 
+- ⚖️ **Faisabilité juridique :** Code urbanisme L421-1 + CRPA L231-1 (silence vaut accord) ; Exceptions légales (ABF, environnement) + art. 40 si indemnités ; Service-public.gouv.fr & Article L231-1 CRPA.
 - ⚖️ **À trancher :** Est-ce acceptable que délai légal de 2 mois devienne 5+ mois en pratique ? Qui assume le surcoût du propriétaire pendant suspension ? Le citoyen est-il coupable jusqu'à preuve du contraire (charge preuve à mairie) ou victime ?
 
 - **Statut :** ⬜
@@ -54,6 +57,7 @@
 
 - **Piste C : 🔴 Zéro friction : Algorithme public de calcul DPE, pas de diagnostiqueur :** Upload photos/plans → algorithme public (Anah) calcule DPE gratuitement, valide légalement. Diagnostiqueur = attesteur seulement, pas calculateur. **Pour :** élimine erreurs humaines, gratuit. **Contre :** dépendance algorithme (peut être inexact aussi).
 
+- ⚖️ **Faisabilité juridique :** Code énergie L134-1 + loi 2021 ; Aucun obstacle légal (68% contestations réussies = système défaillant, pas obstacle juridique) ; DGEC & Estime.immo.
 - ⚖️ **À trancher :** Comment justifier que 68% des contestations aboutissent si système fiable ? Qui paie l'asymétrie : diagnostiqueur qui se trompe ou propriétaire victime de mauvaise classification ?
 
 - **Statut :** ⬜
@@ -68,6 +72,7 @@
 
 - **Piste C : 🔴 Zéro friction : Raccordements décentralisés par microgrids citoyens :** Groupes habitants financent microréseau local, indépendant Enedis. Enedis = dernier recours (prix fort). **Pour :** supprime monopole Enedis, accélère déploiement. **Contre :** fracture électrique (riches ont microgrid, pauvres Enedis lent).
 
+- ⚖️ **Faisabilité juridique :** Code énergie L322-1 (monopole Enedis) + contrats ; Monopole = pas de délai max légal, Enedis service public décentralisé ; Code énergie & Enedis 2025.
 - ⚖️ **À trancher :** Enedis est monopole public : pourquoi incapable honorer délais ? Qui assume coût social de retards (propriétaires attendent revenus PV) ? L'indemnité de retard compense-t-elle vraiment ?
 
 - **Statut :** ⬜
@@ -82,6 +87,7 @@
 
 - **Piste C : 🔴 Zéro friction : Portabilité numéro + réseau sans frais, 7 jours max :** Droit universel : changer opérateur = 7 jours, zéro frais, numéro suit. Infrastructure ouverte. **Pour :** ubérisation marché, disparition frais. **Contre :** monopole incumbent Enedis/Orange réseau physique.
 
+- ⚖️ **Faisabilité juridique :** Décret 2012 résiliation (50-69€) + code postal/commerce ; Liberté tarifaire opérateurs (libre marché) + art. 40 si indemnité obligatoire ; Ariase & Code des postes.
 - ⚖️ **À trancher :** Comment justifier 50 à 69€ de coûts admin pour résiliation dans monde numérique ? Est-ce bien un coût technique ou un piège intentionnel ? Qui paie vraiment : nouveau client ou ancien client ?
 
 - **Statut :** ⬜
@@ -96,6 +102,7 @@
 
 - **Piste C : 🔴 Zéro friction : Pas de stage, auto-apprentissage libre, test optionnel :** Citoyen récupère points automatique 6 mois après infraction (délai repentir). Test optionnel gratuit si veut plus vite. **Pour :** liberté citoyens, supprime rente centres. **Contre :** perte sensibilisation sécurité routière.
 
+- ⚖️ **Faisabilité juridique :** Code route R215 + loi 1989 (stages) ; Tarification libre (pas de max) = pas d'obstacle légal (mais art. 40 si stage obligatoire gratuit) ; Code route & ECF.
 - ⚖️ **À trancher :** Pourquoi tarification complètement libre ? Y a-t-il vraiment besoin de stage pédagogique ou c'est une rente ? 150€ vs 300€ pour même résultat, c'est du racket administratif ?
 
 - **Statut :** ⬜
@@ -110,6 +117,7 @@
 
 - **Piste C : 🔴 Zéro friction : Amendes sans contact proscrites, verbalisation humaine obligatoire :** Agent verbalisateur doit être sur place. Amende écrite à chaud sur site ou pas d'amende. Supprime vidéo Big Brother stationnement. **Pour :** contact citoyen-autorité, responsabilité humaine. **Contre :** coûts agents massivement augmentés.
 
+- ⚖️ **Faisabilité juridique :** Code route R626 + CRPA L231 + CEDH art. 6 ; CEDH art. 6 (droit équitable) + art. 8 (géolocalisation données) + asymétrie procédurale ; Code route & CEDH jurisprudence.
 - ⚖️ **À trancher :** L'état dispose d'outil sans friction pour punir (caméra), mais impose friction maximale pour se défendre (paiement avant contestation). N'est-ce pas fondamentalement injuste ? Qui contrôle les caméras et fraudes de la machine ?
 
 - **Statut :** ⬜

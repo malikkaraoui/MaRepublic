@@ -16,6 +16,7 @@
 
 - **Piste D, 🇮🇹 Italie (alternatives judiciaires) :** Mesures de médiation pénale, travail d'intérêt général systématisé. **Pour :** Décongestionnement sans traumatisme, responsabilisation. **Contre :** Système judiciaire déjà paralysé, risque d'impunité perçue.
 
+- ⚖️ **Faisabilité juridique :** Loi pénale ; CEDH art. 3 (conditions détention) + art. 40 Constitution (compensation) ; Muller c/ France 2020.
 - ⚖️ **À trancher :** Quelle part dépénalisation vs construction vs alternatives ? Seuil de densité acceptable politiquement ? Crimes/délits graves : vraie différenciation ou rhétorique ?
 
 - **Statut :** ⬜
@@ -34,6 +35,7 @@
 
 - **Piste D, Investissement massif (France interne) :** +500 juges, +1 000 greffiers, dématérialisation (dossier unique numérique). Modèle suédois : 6-8 mois pénal. **Pour :** Solution pérenne, robuste, respect procédure. **Contre :** Coût politique énorme (~2 Md€ structures), calendrier 5-7 ans, impopulaire face défense.
 
+- ⚖️ **Faisabilité juridique :** Loi organique ; CEDH art. 6 (délai raisonnable) ; S. & Marini c/ Italie 1995.
 - ⚖️ **À trancher :** Hiérarchie : célérité vs garanties ? Déjudiciariser quels délits ? Investissement ou triage ?
 
 - **Statut :** ⬜
@@ -52,6 +54,7 @@
 
 - **Piste D, Corridor intelligence + répression (France) :** Créer DEA française, procureur anti-drogue national, écoute judiciaire rapide (72h). Cibler logistique (ports, aéroports). Investir renseignement. **Pour :** Adaptation légale, coopération EU, démantèlement tête réseau. **Contre :** Coût massif (500 M€+), escalade autoritaire, victime à courte vue (capture leader = nouveau leader 6 mois).
 
+- ⚖️ **Faisabilité juridique :** Loi pénale + Directive UE ; Traité ONU 1988 drogue ; Convention ONU drogue.
 - ⚖️ **À trancher :** Décriminaliser consommation (séparation trafic) oui/non ? Tolérance production locale ? Accepter perte fiscale pour réduction répression ?
 
 - **Statut :** ⬜
@@ -70,6 +73,7 @@
 
 - **Piste D, France interne (formation + bracelet systématique) :** Tous juges/policiers formés (module 12h). Bracelet électronique ordonnance de protection par défaut. Budget refuges +50 %. **Pour :** Cohésion nationale, réponse multisectorielle. **Contre :** Autoritarisme perçu, liberté restriction massive (hommes même suspects), économique.
 
+- ⚖️ **Faisabilité juridique :** Loi pénale ; CEDH art. 5 (liberté) + droits défense ; Loi France 2010.
 - ⚖️ **À trancher :** Accélération procédure vs garanties légales (accusation vs preuve) ? Refuges=autonomie ou assistanat ? Surveillance électronique : proportionnalité ?
 
 - **Statut :** ⬜
@@ -88,6 +92,7 @@
 
 - **Piste D, France (caméra corporelle + jury d'honneur police) :** Équipement systématique policiers, footage public demande. Commission mixte vic-syndicats-public enquête tirs. Sanctions graduées transparentes. **Pour :** Accountability sans affaiblir police, légitimité retrouvée. **Contre :** Coût infrastructure+data, résistance syndicale totale, victimes attaques aiment pas documenter.
 
+- ⚖️ **Faisabilité juridique :** Loi + Directive UE ; CEDH art. 6 (procès équitable) + CNIL (données) ; Directive UE accountability.
 - ⚖️ **À trancher :** Police plus légère ou plus forte ? Militarisation vs dépoliciarisation ? Qui enquête bavures ?
 
 - **Statut :** ⬜
@@ -106,6 +111,7 @@
 
 - **Piste D, France (travail normal carcéral + logement réservé) :** Payer détenus 50 % salaire SMIC (économies carcérales allégées). Réserver logement HLM sortie (contrat avancé). Psycho systématique 1 an. **Pour :** Dignité+pratique, signal économique, suivi faisable. **Contre :** HLM rejet détenu (quartier), patronat emploi faux chiffre (détenu parti 6 mois redémarre), révolte personnels (sous-pay vs détenu).
 
+- ⚖️ **Faisabilité juridique :** Loi pénale + Code travail ; art. 40 Constitution (nouveau coût) ; Normes CE prison.
 - ⚖️ **À trancher :** Prison=punition vs rédemption ? Salaire détenu=juste ou démagogie ? Responsabilité employeur insérer ou État ?
 
 - **Statut :** ⬜
@@ -124,6 +130,7 @@
 
 - **Piste D, France (gardien+++ et UPR dédiées trafiquants) :** Embauche 2 000 gardiens (doubler encadrement). Unité de Prévention Renforcée : trafiquants présomptifs isolés, étude cas 3-6 mois. **Pour :** Dissuasion employabilité, signalisation trafic. **Contre :** Coût 300-400 M€/an personnel, surislation= radicalisation (à confirmer), droits détenu flou.
 
+- ⚖️ **Faisabilité juridique :** Loi + CNIL (surveillance) ; CEDH art. 8 (privée) + art. 40 Constitution ; Jurisprudence CNIL.
 - ⚖️ **À trancher :** Technologie vs humain ? Tolérance zéro vs réduction-risque (méthadone prison) ? UPR=préventif ou punitif-caché ?
 
 - **Statut :** ⬜
@@ -142,6 +149,7 @@
 
 - **Piste D, France (responsabilité 13-14 ans, éducateurs + justice accélérée) :** Mineur 10-12 : mesure administrative (école+éducateur). Mineur 13+ : procès pénal mais peine allégée (30 % max adulte). Justice mineure délai max 9 mois. Embauche 1 000 éducateurs. **Pour :** Responsabilisation, précocité intervention. **Contre :** Risque inégalité classe (pauvre enfance chaotique → procès; riche → mesure). Administratif vs justice frontière.
 
+- ⚖️ **Faisabilité juridique :** Loi (Ordonnance 1945) ; Convention ONU enfant art. 37 ; Jurisprudence CJJ.
 - ⚖️ **À trancher :** Responsabilité oui/non quel âge (logique : développement vs droit) ? Prévention précoce = contrôle social ? Victime mineur : procédure parallèle ?
 
 - **Statut :** ⬜
