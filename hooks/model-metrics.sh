@@ -105,7 +105,9 @@ except Exception:
 fi
 if [ -z "$CONTEXT_WINDOW" ]; then
     case "$LIVE_MODEL$MODEL" in
-        *'[1m]'*|*'[1M]'*|*opus-4-8*|*sonnet-5*) CONTEXT_WINDOW=1000000 ;;
+        # fable-5 ajouté (fenêtre 1M vérifiée via /context le 2026-07-10) :
+        # tout modèle absent de cette table retombe sur 200k et fausse le %.
+        *'[1m]'*|*'[1M]'*|*opus-4-8*|*sonnet-5*|*fable*) CONTEXT_WINDOW=1000000 ;;
         *) CONTEXT_WINDOW=200000 ;;
     esac
 fi
