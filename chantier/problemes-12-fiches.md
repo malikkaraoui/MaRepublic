@@ -10,6 +10,7 @@
 - **Piste C, 🇩🇪 Allemagne (frein à l'endettement, révision 2023) :** Limite structurelle de 0,35 % du PIB en déficit structurel ; exceptions conjoncturelles / urgences. **Pour :** Équilibre discipline + flexibilité, légitimité économique. **Contre :** Rigidité toujours contestée en période basse, charge sur générations futures via dette existante.
 - **Piste D, Restructuration de la dette existante :** Allongement des maturités, conversion de dettes court terme en long terme, éventuellement dépréciation contrôlée (décote à l'amiable). **Pour :** Réduit le coût annuel de refinancement. **Contre :** Casse les portefeuilles d'épargnants, risque de contagion (banques), perte de crédibilité souveraine.
 - ⚖️ **Faisabilité juridique :** Loi organique de finances (article 34 Constitution) ; article 34 Constitution (LFSS, budget) ; Traité Maastricht (déficit 3%).
+- **Simulation (ordres de grandeur) :** Frein constitutionnel Suède 1% PIB suppose corrections 50-80 Md€/an (impôts+coupes) ; restructuration dette 1-2 Md€ one-shot (à confirmer acceptabilité épargnants) ; gagnants confiance marchés, taux faibles long terme, perdants coupes budgétaires sociales/investissement si strict, jeunes générations endettées ; délai implémentation 2-5 ans, crédibilité marchés 5-10 ans.
 - ⚖️ **À trancher :** Impératif à long terme : quelle règle de discipline acceptent les Français ? Coût du service de la dette vs priorités sociales/investissements. Calendrier de réduction : 5 ans, 10 ans, 20 ans ?
 - **Statut :** ⬜
 
@@ -21,6 +22,7 @@
 - **Piste C, Augmentation des prélèvements obligatoires :** Impôts sur le capital, TVA sociale, CSG accrue. **Pour :** Rentrées rapides (+10-20 Md€ selon mesures). **Contre :** Récession, fuite des contribuables/capital (compétitivité), acceptabilité politique faible.
 - **Piste D, Partenariat public-privé / cession d'actifs :** Vente d'infrastructures, PPP sur écoles/hôpitaux, réduction du patrimoine de l'État. **Pour :** Entrées cash immédiates (chiffre unique : 5-10 Md€ sur 5 ans). **Contre :** Perte de revenus futurs, « fire sale » en crise, fardeau du contribuable/usager.
 - ⚖️ **Faisabilité juridique :** Loi de finances + Loi organique ; article 40 Constitution (diminution ressources) ; Cour des comptes 2024.
+- **Simulation (ordres de grandeur) :** Audit dépenses 50-200 M€ étude ; coupes 3-5 Md€/an si 2-3% réduction fonctionnement ; ciblage social ~2-3 Md€ réduction allocations ; impôts capital/TVA +10-20 Md€ selon mesures ; cession actifs 5-10 Md€ sur 5 ans ; gagnants équilibre budget, perdants fonctionnaires/allocataires/contribuables (selon mix choisi), risque récession 0.5-1% PIB ; délai mise en place 1-2 ans, effet stable 3-5 ans.
 - ⚖️ **À trancher :** Séquence : d'abord dépenses (où? quelles coupes?), puis impôts (qui paie?), puis ventes (quels actifs?). Acceptabilité politique du trinôme.
 - **Statut :** ⬜
 
@@ -32,6 +34,7 @@
 - **Piste C, Augmentation drastique des effectifs de contrôle :** Recruter 5 000 agents supplémentaires, investir 500 M€/an en équipement. **Pour :** Retour direct (5-10 Md€ additionnels), effet dissuasion. **Contre :** Délais de recrutement/formation (3-5 ans), coût politique, croissance de l'administration.
 - **Piste D, Amnistie fiscale + compliance incitative :** Régularisation volontaire (taxe faible sur arriérés + pardon pénal), puis renforcement ultérieur. **Pour :** Entrées immédiates (2-3 Md€), fluidifie base taxable. **Contre :** Moral hazard massif (fraudeurs attendent l'amnistie suivante), injustice envers conformes.
 - ⚖️ **Faisabilité juridique :** Loi de finances + décret administration ; article 40 Constitution (charges audit) ; code fiscal Légifrance.
+- **Simulation (ordres de grandeur) :** Effectifs +5k agents 500 M€/an coûts, retour 5-10 Md€ additionnels (ROI 10-20x sur 5 ans) ; numérisation Estonie-style 2-3 Md€ one-shot, retour 3-5 Md€/an maintenance basse ; amnistie fiscale 2-3 Md€ entrées immédiates mais moral hazard futur (à confirmer) ; gagnants recettes État, perdants fraudeurs détectés, contribuables honnêtes (inégalité si amnistie) ; délai effectifs 3-5 ans, technologie 2-4 ans, retour mesurable 2-3 ans.
 - ⚖️ **À trancher :** Investissement public (effectifs) vs technologie vs incitatifs. Fenêtre d'amnistie OUI/NON, si OUI avec quelle contrepartie ? Qu'accepte l'opinion ?
 - **Statut :** ⬜
 
@@ -43,6 +46,7 @@
 - **Piste C, Décentralisation + responsabilité locale :** Donner aux mairies/CAF les pouvoirs de contrôle et la part de fraudes recouvrées. **Pour :** Connaissance du terrain, mobilisation locale. **Contre :** Disparités inter-régionales, petites caisses surchargées, tentation de laisser-faire.
 - **Piste D, Simplification des allocations + réduction des conditions d'éligibilité :** Fusionner 50+ allocations en 3-4, critères unifiés. Moins d'erreurs, moins à contrôler. **Pour :** Coût de contrôle baisse de 50 %, usagers comprennent mieux. **Contre :** Perte de ciblage fin, glissement vers universalisme coûteux, transition chaotique.
 - ⚖️ **Faisabilité juridique :** LFSS + décret ; article 40 Constitution (charges de contrôle) ; code Sécurité sociale.
+- **Simulation (ordres de grandeur) :** Automatisation Danemark 500 M€-1 Md€ setup, réduction fraude estimée 50% (7-9 Md€ récupérés additionnels) ; effectifs +5k agents 200-300 M€/an, retour 3-5 Md€ (ROI 10-15x) ; décentralisation CAF-mairies risque disparités (à confirmer faisabilité) ; simplification allocations 50-100 M€ transition, économie contrôle 30-50% ; gagnants conformes (équité), contribuables, perdants fraudeurs détectés, populations dénoncées si surveillance ; délai déploiement 2-4 ans, stabilisation 5+ ans.
 - ⚖️ **À trancher :** Technologie vs ressources humaines. Acceptabilité du flicage social. Réformer les aides elles-mêmes (si oui, lesquelles en priorité) ou juste mieux contrôler l'existant ?
 - **Statut :** ⬜
 
@@ -54,6 +58,7 @@
 - **Piste C, Évaluation + seuil de reconduction :** Chaque niche revue tous les 3 ans, impact mesurable ; suppression si ROI < 1,5 ou bénéficiaires < 10k ou coût de 10 M€+. **Pour :** Rationalité progressive, sauvegarde des petites niches utiles. **Contre :** Débats politiques infinis, lobbying intensifié, délai de mise en œuvre.
 - **Piste D, Conversion en allocations ciblées :** Remplacer crédit d'impôt par allocations/subventions explicites (budget État visible), ciblées par secteur/taille entreprise. **Pour :** Transparence, précision du ciblage, facilite débat politique. **Contre :** Augmente apparence de dépense budgétaire (réaction des conservateurs), charge administrative accrue.
 - ⚖️ **Faisabilité juridique :** Loi de finances ; article 40 Constitution (modification ressources/dépenses) ; évaluation niches fiscales.
+- **Simulation (ordres de grandeur) :** Évaluation révision 5 ans (Finlande) 30-50 M€/an audit, suppression ciblée ~20-50 Md€/an selon agressivité ; conversion allocations visibilité budgétaire +50-100 M€ apparence (sans économie réelle) ; gagnants transparence fiscale, ciblage plus fin, perdants secteurs/lobbies (R&D, immobilier, donation), contribuables si niches remplacées impôts ; délai débat politique 2-5 ans, implémentation 3-10 ans graduelle (à confirmer acceptabilité).
 - ⚖️ **À trancher :** Somme à économiser (quelle cible : 20 Md€? 50 Md€?) et calendrier. Quelles niches défendables? Quelles imprécations seront acceptées ?
 - **Statut :** ⬜
 
@@ -65,6 +70,7 @@
 - **Piste C, Révision de l'art. 49.3 : limiter à 2 utilisations par législature :** Garde-fou démocratique, force négociation. **Pour :** Restaure débat parlementaire sans bouleverser Constitution. **Contre :** Pas de solution si majorité stable absente, risque de crise politique.
 - **Piste D, Suppression pure du 49.3 pour lois de finances :** Gouvernement doit négocier réellement ; vote direct sur budget complet. Si rejet, gouvernement tombe ou dissout l'assemblée. **Pour :** Rétablit souveraineté parlementaire sur fiscalité. **Contre :** Instabilité chronique possible, budgets bloqués, paralysie.
 - ⚖️ **Faisabilité juridique :** Loi constitutionnelle (article 89) ; article 49 alinéa 3 Constitution (49.3 est procédure constitutionnelle) ; révision nécessaire.
+- **Simulation (ordres de grandeur) :** Révision Constitution 6-12 mois débat + 2-3 ans ratification cantonale type ; limiter 49.3 à 2/législature réduit blocages, ajoute 2-4 mois négociations/débat ; suppression pure risque crise 1-3 mois si rejet budgets ; gagnants légitimité parlementaire, débat démocratique, perdants exécutif (flexibilité), stabilité si impasse politique ; délai implémentation révision 3-6 ans, effet stabilité politique 5-10 ans (à confirmer acceptabilité).
 - ⚖️ **À trancher :** Accepte-t-on plus d'instabilité gouvernementale pour plus de légitimité budgétaire? Que changer à la Constitution sur ce point ?
 - **Statut :** ⬜
 
@@ -76,6 +82,7 @@
 - **Piste C, Consolidation de patrimoine immobilier :** Audit de tous les bâtiments État/collectivités, vente des vacants (5-10 Md€ sur 5 ans), regroup ministères/agences. **Pour :** Entrées cash, économies d'énergie/maintenance. **Contre :** Délais longs, marchés immobiliers mous en province, risque de surfire en Paris/métropoles.
 - **Piste D, Renforcement audit interne + sanctions pour managers :** Audit continu des projets, sanctions financières/carrière en cas de dépassement non justifié. **Pour :** Responsabilité accrue, vigilance permanente. **Contre :** Freinage des initiatives, crainte des managers, paralysie bureaucratique.
 - ⚖️ **Faisabilité juridique :** Loi + Loi organique ; article 40 Constitution (charges audit) + lois décentralisation ; Cour des comptes 2024.
+- **Simulation (ordres de grandeur) :** Spending review annuel Suède 50-100 M€ audit, identification 3-5 Md€ gaspillages/an ; privatisation routes/services coûts transition 200-500 M€ + perte revenus futurs (à confirmer bilan) ; immobilier consolidation 5-10 Bd€ sur 5 ans cession + 200-300 M€/an économies maintenance ; audit managers + sanctions 30-50 M€ admin, freinage initiatives 10-20% (à confirmer) ; gagnants efficacité publique, transparence, perdants services publics si coupure nette, emploi public, contribuables via fragmentation ; délai implémentation 2-5 ans, stabilisation 5-10 ans.
 - ⚖️ **À trancher :** Cible d'économies durable (3-5 Md€/an ? 10 Md€/an sur 5 ans?). Quels secteurs toucher en priorité? Quels services à externaliser? Comment protéger l'emploi public ?
 - **Statut :** ⬜
 
@@ -87,6 +94,7 @@
 - **Piste C, Réduction progressive CVAE (1,45 % → 0,75 % en 3 ans) + compensation par TVA/CSG renforcée :** **Pour :** Allègement net pour PME, investissement relancé, financement national équitable. **Contre :** Régions perdent recettes (réduction 2-3 Md€/an), demandent compensation État, TVA plus régressive (consommateurs paient).
 - **Piste D, Assouplissement territorial : CVAE réduite en zones en difficulté (50 % en ruralité, QPV), taux normal ailleurs :** **Pour :** Discrimination positive, redynamise zones sinistrées. **Contre :** Complexité accrue, risque de migrations fictives de sièges sociaux, débat territorial acerbe.
 - ⚖️ **Faisabilité juridique :** Loi de finances + Loi local ; article 40 Constitution (diminution ressources collectivités) + autonomie financière collectivités ; jurisprudence Conseil constitutionnel.
+- **Simulation (ordres de grandeur) :** Réduction CVAE 1,45% à 0,75% coûte ~2-3 Md€/an collectivités, compensation TVA/CSG +3-5 Md€ revenu (net : +0-2 Bd€ État, régressif pour consommateurs) ; Suisse/Allemagne modèles disparités énormes (à confirmer tolérance) ; zones rurales réduction 50% CVAE perd 1-1.5 Bd€/an pour régions ; gagnants PME compétitivité, investissement, perdants collectivités (impôts locaux baissent), contribuables (TVA hausse si compensation) ; délai réforme 2-4 ans, délocalisation PME/siège social (à confirmer ampleur).
 - ⚖️ **À trancher :** Accépte-t-on réduction CVAE? Si oui, jusqu'à quel taux? Comment compenser pour collectivités? Qui supporte le coût ? TVA ou revenu direct ?
 - **Statut :** ⬜
 

@@ -10,6 +10,7 @@
 - **Piste C, 🇰🇷 Corée (chaebols défense civile) :** Grands groupes (Samsung, LG) maintiennent capacités dual-use (électronique/médical) comme branches défense. **Pour :** économies d'échelle, innovation croisée. **Contre :** concentration, risques de captation politique.
 - **Piste D, 🇺🇸 États-Unis (IRA + mandats DARPA) :** Législation (CHIPS Act, IRA) force reshoring ; DARPA mandate fabrication locale des APIs critiques. **Pour :** souveraineté garantie, volumes. **Contre :** coûts, délocalisation perdants (Chine/Inde).
 - ⚖️ **Faisabilité juridique :** Loi + décret ; droit concurrence UE (TFUE 101-109) limite aides d'État ; jurisprudence CJUE.
+- **Simulation (ordres de grandeur) :** Réserves décentralisées 100-200 M€ setup + 30-50 M€/an maintenance ; réindustrialisation ~30 usines masques 500 M€-1 Md€ + 100-200 M€/an exploitation ; stocks renouvellement 50-100 M€/an ; gagnants autonomie stratégique, emplois régionaux, perdants contribuables si surcoûts ; délai déploiement 2-4 ans, résilience visée horizon 5-10 ans.
 - ⚖️ **À trancher :** Mix stocks + réindustrialisation ciblée ? Quels niveaux de surcoût acceptable (5%, 10%, 20%) ? Qui pilote (État, entreprises, UE) ?
 - **Statut :** ⬜
 
@@ -21,6 +22,7 @@
 - **Piste C, 🇫🇷 France (nucléaire massif + renouvelables) :** Relancer construction réacteurs (EPR, petits réacteurs) ; transition charbon → nucléaire + éolien/solaire. **Pour :** zéro gaz 2040, autonomie, décarbonation. **Contre :** temps construction (10-15 ans), coûts, acceptabilité.
 - **Piste D, 🇪🇺 Union Européenne (stocks communs + prix plafonnés) :** Créer réserve gaz UE mutualisée ; mécanisme prix-plancher défense contre chantage. **Pour :** solidarité, stabilité. **Contre :** chocs d'approvisionnement distribués, moral hazard (réduction efficacité).
 - ⚖️ **Faisabilité juridique :** Loi + Directive UE gaz ; compétences partagées (TFUE article 194) ; Directive 2021/55/UE.
+- **Simulation (ordres de grandeur) :** LNG contrats long terme Norvège/Qatar nécessitent 1-2 Md€ infra regazéification ; nucléaire massif 200-400 Md€ (5-7 EPR) + 10-15 ans délai ; renouvelables 100-150 Md€ déploiement accéléré ; gagnants indépendance énergétique, décarbonation, perdants contribuables, SNCF (nucléaire), délais d'exécution ; horizon cible 2040-2050 dépend option choisie (à confirmer mix).
 - ⚖️ **À trancher :** Nucléaire base (risque délai) ou LNG diversifié court terme ? Niveau d'indépendance cible (70%, 90%, 100% ?) ; calendrier ?
 - **Statut :** ⬜
 
@@ -32,6 +34,7 @@
 - **Piste C, 🇫🇷 France (relocalisation BITD + dépenses) :** Subventions Thales, Nexter, MBDA ; relocalisations production acier/électronique critique ; +100 Md€ budget 2024-2030. **Pour :** autonomie, emplois. **Contre :** inflation, dette, efficacité douteuse.
 - **Piste D, 🇪🇺 Union (agence défense commune + production mutualisée) :** créer usines munitions/armes UE partagées (Pologne, Baltique) ; partage R&D, achats groupés. **Pour :** économies échelle, cohésion. **Contre :** lenteur (unanimité), souveraineté dilution.
 - ⚖️ **Faisabilité juridique :** Loi organique + Traité UE ; article 40 Constitution (dépenses massives) ; TFUE 346 (autonomie défense).
+- **Simulation (ordres de grandeur) :** Conscription 12-18 mois coûte ~40 Md€/an exploitation ; réarmement rapide BITD 100 Md€ 2024-2030 (~15-20 Md€/an) ; stocks munitions 3-6 mois intensité 30-50 Md€ one-shot ; gagnants autonomie militaire, emplois industrie défense, perdants jeunes (conscription), compétitivité civile, contribuables ; délai déploiement 2-4 ans, opérationnel 5-10 ans.
 - ⚖️ **À trancher :** Conscription réaliste ? Budget défense cible (2,5%, 3%, 4% PIB) ? Priorité armes lourdes (chars, avions) ou munitions/drones ?
 - **Statut :** ⬜
 
@@ -43,6 +46,7 @@
 - **Piste C, 🇯🇵 Japon (recyclage circulaire + batteries) :** Déployer gigafactories Europe (Tesla, Northvolt, AESC) ; R&D batteries sans cobalt (LFP, sodium-ion). **Pour :** réduction dépendance, innovation. **Contre :** délais (production massale ~2027), coûts installation.
 - **Piste D, 🇫🇷 France (relance génie chimique / réserves nationales) :** Rouvrir mines France marginales (Al-Velly Allier terres rares à l'étude) ; créer fonds stratégique acquisitions minerais. **Pour :** autosuffisance politique. **Contre :** économiquement non viable, écologie locale, quantités modestes.
 - ⚖️ **Faisabilité juridique :** Loi + Directive UE déchets ; aides d'État TFUE 107-109 ; article 40 Constitution.
+- **Simulation (ordres de grandeur) :** Extraction Australie/Congo contrats 2-3 Md€ ; raffinage UE 300-500 M€ setup + 50-100 M€/an (3x plus cher Chine) ; gigafactories Europe 50-100 Md€ déploiement 2024-2030 ; recyclage batteries 10-20 M€/an infrastructure ; gagnants indépendance batteries, emplois UE, perdants contribuables (surcoûts), compétitivité vs Chine ; délai production massale 2027+ (à confirmer).
 - ⚖️ **À trancher :** Batteries gigafactories en Europe réaliste horizon 2030 ? Recyclage suffit ou extraction neuve ? Acceptabilité écologique mining ?
 - **Statut :** ⬜
 
@@ -54,6 +58,7 @@
 - **Piste C, 🇳🇿 Nouvelle-Zélande (traités asymétriques) :** Refuser clauses arbitrage privé ; imposer cours publiques ; exclure secteurs stratégiques (agriculture, défense, santé). **Pour :** souveraineté, protection secteurs. **Contre :** limitation accès marchés, rétorsions partenaires.
 - **Piste D, 🇪🇺 Union (agence évaluation commerciale) :** Créer organe indépendant UE pré-négociation : impact socio-environnemental public avant signature. Débat Parlement mois avant signature. **Pour :** info citoyens, ajustements possibles. **Contre :** délai, lobbies UE (Bruxelles dominant vs États).
 - ⚖️ **Faisabilité juridique :** Traité UE + Loi ratification ; TFUE 207 compétence exclusive Commission ; CETA/Mercosur précédents.
+- **Simulation (ordres de grandeur) :** Scrutin parlementaire ajoute 3-6 mois négociation ; référendum suisse ajoute 4-12 mois débat + risque veto ; traités asymétriques perte marchés estimée 5-10 Md€/an (à confirmer) ; agence évaluation UE 20-50 M€/an fonctionnement ; gagnants légitimité démocratique, protection secteurs, perdants rapidité commerciale, compétitivité exportations, PED bénéficiaires traités ; délai procédurale additionnel 3-12 mois selon modèle.
 - ⚖️ **À trancher :** Qui décide : Parlement UE seul, parlements nationaux, citoyens ? Quels secteurs non-négociables (agriculture, BITD) ?
 - **Statut :** ⬜
 
@@ -65,6 +70,7 @@
 - **Piste C, 🇮🇹 Italie/Compromis (opt-out réversible) :** Défense/PESC : vote majorité simple, mais pays peut se récuser (opt-out) → pas lié statut UE. Revenir via demande. **Pour :** inclusif, souplesse. **Contre :** fragmentation réelle, crédibilité militaire amoindrie.
 - **Piste D, 🇪🇺 UE (commissions ad-hoc) :** Chaque crise (Ukraine, Iran…) → commission spéciale statut 6 mois ; vote majorité qualifiée commission + ratification UE28 + possibilité veto avec justification publique. **Pour :** focus/agilité, responsabilité. **Contre :** complexité procédurale, délais masqués.
 - ⚖️ **Faisabilité juridique :** Traité UE (révision) ; TUE articles 16, 31 (unanimité PESC) ; blocages Hongrie/Chypre documentés.
+- **Simulation (ordres de grandeur) :** Majorité qualifiée PESC nécessite révision traité (2-3 ans minimum) ; coalition avant-garde fragmente UE court terme (à confirmer risque résilience) ; opt-out réversible réduit cohésion militaire estimée 10-15% (à confirmer) ; commissions ad-hoc ajoutent 2-4 mois process ; gagnants agilité décisions, perdants États petits si exclusion, cohésion UE ; délai implémentation 1-3 ans selon modèle.
 - ⚖️ **À trancher :** Quels domaines sortir unanimité ? Défense seulement ou commerce aussi ? Risque fragmentation tolérable ?
 - **Statut :** ⬜
 
@@ -76,6 +82,7 @@
 - **Piste C, 🇬🇧 Royaume-Uni (National Security Act 2023) :** Criminaliser accès systèmes critiques par agents étrangers ; saisir assets ; expulsion diplomatique. **Pour :** geste fort, dissuasion cyber/espionnage. **Contre :** escalade géopolitique, représailles.
 - **Piste D, 🇫🇷 France (agence nouvelle dédiée + transparence) :** Créer autorité indépendante évaluation menaces ; imposer étiquetage désinformation identifiée (type Taïwan) ; sanctionner plateformes relayant sans signalement. **Pour :** protection, control français. **Contre :** censure accusations, définition "désinformation" politique, tension US (Parlement).
 - ⚖️ **Faisabilité juridique :** Loi pénale + Loi sécurité informatique ; CEDH articles 8, 10 (proportionnalité) ; loi France 2023 sécurité numérique.
+- **Simulation (ordres de grandeur) :** Agence désinformation 30-50 M€/an fonctionnement + personnel ; régistry agents étrangers 10-20 M€ infra ; cyber-défense renforcée 50-100 M€/an (à confirmer moyens) ; criminalisation espionnage/désinformation coûts procédure (~100 M€ sur 10 ans) ; gagnants sécurité info, citoyens informés, perdants libertés expression si surréglementation, relations diplomatiques tensionnées ; délai mise en place 1-2 ans.
 - ⚖️ **À trancher :** Régulation vs liberté expression (mesure) ? Qui juge désinformation d'État ? Réciprocité (si on expulse Russe, Russie expulse Français) ?
 - **Statut :** ⬜
 
@@ -87,6 +94,7 @@
 - **Piste C, 🇫🇷 France (subventions doctorat + fonds stratégique étatique) :** Bourses doctorat gratuites (comme US) ; créer fonds 10-50 Md€ État investisseur IA/biotech français (modèle Norway sovereign wealth). **Pour :** rétention, autofinancement tech français. **Contre :** État venture capitalist inefficace ?, coûts (~50 Md€/an), dépendance politiques (visibilité=pression).
 - **Piste D, 🇪🇺 UE (Agence IA européenne + equity pooling) :** Fonds UE coordonné (100+ Md€ Horizon Europe+) investissant startups critiques (IA, biotech, batteries) ; priorité capital français/UE avant US. **Pour :** alternatives US régionales. **Contre :** lenteur UE, États grands dominent capitaux (DE, FR).
 - ⚖️ **Faisabilité juridique :** Loi organique + Loi budgétaire ; article 40 Constitution + TFUE 45 (liberté circulation) ; jurisprudence Conseil constitutionnel.
+- **Simulation (ordres de grandeur) :** Bourses doctorat gratuites ~50 M€/an pour ~20k doctorants France ; fonds souverain 10-50 Md€ investissements IA/biotech ; équivalent US venture capital nécessite 100+ Md€ capital horizon 10 ans (à confirmer mobilisabilité) ; gagnants rétention talents, startups françaises, perdants contribuables, US si réduction fuite (représailles) ; délai compétitivité visible 5-10 ans.
 - ⚖️ **À trancher :** Faire France/UE concurrente US venture capital vs protéger/taxer départs ? Quels secteurs critiques non-négociables (IA, biotech, défense) vs acceptables (mode, service) ?
 - **Statut :** ⬜
 
