@@ -82,8 +82,22 @@ function CarteFiche({ fiche, identiteValide }: { fiche: Fiche; identiteValide: b
     })
   }
 
+  // Identité manquante : on guide vers le bandeau au lieu d'un bouton muet.
+  const rappelerIdentite = () => {
+    const bandeau = document.querySelector('.identite')
+    if (bandeau) {
+      bandeau.scrollIntoView({ behavior: 'smooth', block: 'center' })
+      bandeau.classList.add('identite--alerte')
+      window.setTimeout(() => bandeau.classList.remove('identite--alerte'), 2000)
+    }
+  }
+
   // Vote : bascule locale + envoi Firestore (sauf annulation d'un vote).
   const voterEtEnvoyer = (v: 'pour' | 'contre') => {
+    if (!identiteValide) {
+      rappelerIdentite()
+      return
+    }
     const annulation = reaction.vote === v
     voter(v)
     if (!annulation) void envoyerAvis({ ficheId: fiche.id, type: 'vote', vote: v })
@@ -124,7 +138,6 @@ function CarteFiche({ fiche, identiteValide }: { fiche: Fiche; identiteValide: b
           className={`vote vote--pour${reaction.vote === 'pour' ? ' vote--actif' : ''}`}
           onClick={() => voterEtEnvoyer('pour')}
           aria-pressed={reaction.vote === 'pour'}
-          disabled={!identiteValide}
           title={identiteValide ? 'Pour cette mesure' : 'Renseignez pseudo et email en haut de page'}
         >
           <span aria-hidden="true">👍</span> Pour
@@ -134,7 +147,6 @@ function CarteFiche({ fiche, identiteValide }: { fiche: Fiche; identiteValide: b
           className={`vote vote--contre${reaction.vote === 'contre' ? ' vote--actif' : ''}`}
           onClick={() => voterEtEnvoyer('contre')}
           aria-pressed={reaction.vote === 'contre'}
-          disabled={!identiteValide}
           title={identiteValide ? 'Contre cette mesure' : 'Renseignez pseudo et email en haut de page'}
         >
           <span aria-hidden="true">👎</span> Contre
@@ -166,6 +178,12 @@ function CarteFiche({ fiche, identiteValide }: { fiche: Fiche; identiteValide: b
           </button>
         </div>
       </div>
+
+      <p className="fiche__confirmation" aria-live="polite">
+        {reaction.vote
+          ? `✓ Votre vote « ${reaction.vote} » est enregistré et transmis.`
+          : ''}
+      </p>
 
       <div className="fiche__saisie">
         <label htmlFor={`textarea-${fiche.id}`} className="visually-hidden">

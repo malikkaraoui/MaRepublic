@@ -1783,3 +1783,23 @@ body {
 .sommaire__theme {
   overflow-wrap: anywhere;
 }
+
+/* Confirmation de vote + rappel d'identité */
+
+.fiche__confirmation {
+  margin: 0.4rem 0 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #2d7a2d;
+  min-height: 0;
+}
+
+.fiche__confirmation:empty {
+  display: none;
+}
+
+.identite--alerte {
+  outline: 3px solid var(--rouge);
+  outline-offset: 2px;
+  transition: outline 150ms ease;
+}
