@@ -40,3 +40,6 @@ marepublique-*-firebase-adminsdk-*.json
 /Dossier candidats 2022/
 /Fichier pour constitution*
 /document_fondateur.docx
+
+# API statique générée au build (source : chantier/*.md)
+/public/api/
