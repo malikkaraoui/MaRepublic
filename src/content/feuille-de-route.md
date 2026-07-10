@@ -2,7 +2,13 @@
 
 ## 1. Le diagnostic en dix lignes
 
-Depuis trente ans, le théâtre politique rejouait le même acte : alternances sans rupture, recyclage législatif des textes rejetés, conventions citoyennes diluées, défiance électorale à 78 %. Les corps intermédiaires (parlement, partis, syndicats) sont structurellement dépassés par la complexité : c'est devenu une barrière de classe, les citoyens ordinaires n'y accédant qu'en costumes. L'opacité budgétaire tient débout sur le mensonge comptable : fraude fiscale 35-40 Md€, intérêts de la dette 59 Md€ (10 % du budget), silence sur les vraies dépenses. Les châtiments constitutionnels s'empilent : Chat Control casse le chiffrement, art. 49.3 tue le débat législatif, financements occultes étouffent la parole. Abstention record, protestation rurale, crises agricoles sans suite : le corps politique montre ses coutures. On sort la règle des 20 %, on rend chaque droit aussi simple qu'une amende à payer, on remet les machines à leur place : préparer les données, les humains tranchent.
+Depuis 30 ans, rien ne change vraiment. Les gouvernements se succèdent mais refont les mêmes lois rejetées. On consulte les citoyens mais on les ignore. Et 78 % des Français ne font plus confiance aux politiciens.
+
+Pourquoi : le Parlement et les partis ne suivent plus la complexité moderne. Les citoyens ordinaires n'y accèdent qu'en costumes. L'argent public reste opaque : fraude fiscale 35-40 Md€, intérêts de la dette 59 Md€ chaque année (10 % du budget). Certaines lois tuent le débat (article 49.3), d'autres cassent nos libertés (Chat Control au chiffrement).
+
+Abstention record, rural en crise, agriculture abandonnée : c'est le signe que le système ne fonctionne plus.
+
+Notre réponse : simplifier l'accès à chaque droit (voter, lire ses dossiers, contester) comme si c'était une amende par SMS. Laisser les machines préparer les données. Les humains décident, pas la technologie.
 
 ## 2. Les trois fondamentaux non négociables
 
@@ -20,34 +26,34 @@ Depuis trente ans, le théâtre politique rejouait le même acte : alternances s
 | Mesure | Quoi | Véhicule | Effet attendu | Fiches |
 |--------|------|---------|---------------|--------|
 | Assistant IA débat citoyen | Plateforme sécurisée pour que chaque citoyen accède aux fiches de réforme, trace son avis, vote sur des mesures en débat | Décret + circulaire | Redonner prise aux 30 millions de citoyens exclus du débat politique | axe4-C4 |
-| Langage clair obligatoire | Tous les textes administratifs finançables publiquement doivent être rédigés en langage clair certifié (A2 niveau CECRL). Contrôle par tierce partie. | Décret | Casser la barrière de langue = barrière de classe | axe3-F5 |
-| Silence vaut accord (expansion) | Extension du silence vaut accord aux demandes de dossier médical, de données personnelles, d'autorisation urbanisme second œuvre (dossier complet = accord automatique J+30) | Décret + circulaires | Zéro friction : droit de consulter = obligation de répondre vite | axe3-F1, axe1-I9 |
+| Langage clair obligatoire | Tous les textes administratifs doivent être rédigés simplement, sans jargon (comme une lettre à un ami, pas de mots savants). Contrôle par guide officiel. Phase 1 (Jour 1) : circulaire recommandant simplification. Phase 2 (100j) : loi établissant obligation graduelle. | Circulaire + Loi ordinaire (100j) | Casser la barrière de langue = barrière de classe | axe3-F5 |
+| Silence vaut accord (expansion) | Extension du silence vaut accord aux demandes non-financières : dossier médical, données personnelles (dossier complet = accord automatique J+30). Exclusions : urbanisme et demandes ayant caractère financier (consulter loi 2000-321). | Loi ordinaire + circulaires | Zéro friction : droit de consulter = obligation de répondre vite | axe3-F1, axe1-I9 |
 | Transparence intégrale agendas | Tous les agendas gouvernementaux et parlementaires publics et horodatés J+3 : avec qui, pourquoi, résolution ou pas | Décret | Fin des réunions-fantômes, traçabilité des influences | axe1-I9 |
-| Vote blanc « decisif » | Le vote blanc compte dans le scrutin : si blanc > plus grand parti, renouvellement de l'élection en 90j avec interdiction de candidats de l'élection précédente | Décret (adaptation électorale) | Redonne légitimité aux élections : défiance = refus de candidats, pas prise de pouvoir | axe1-I3 |
+| Vote blanc « decisif » | Le vote blanc compte dans le scrutin : si blanc > plus grand parti OU blanc > 50 % participation, renouvellement de l'élection en 90j avec interdiction de candidats de l'élection précédente. Délai minimum 18 mois entre deux renouvellements. | Loi électorale + examen Conseil constitutionnel préalable (100j, pas Jour 1) | Redonne légitimité aux élections : défiance = refus de candidats, pas prise de pouvoir | axe1-I3 |
 | Où va mon impôt (visualiseur) | Portail public : tu rentres ton N° fiscal obfusqué, tu vois l'euro que tu paies affecté ligne par ligne (défense, santé, route locale) | Décret + données comptables | Fin du mensonge comptable, pédagogie budgétaire massive | axe3-F5 |
-| Anti-Chat Control préventif | France et alliés bloquent dans les votes UE tout texte de surveillance cryptographique ou de scan côté client. Positionnement diplomatique clair. | Note présidentielle | Protège le chiffrement, pose position de souveraineté UE | axe4-C1 |
+| Anti-Chat Control préventif | France et alliés bloquent dans les votes UE tout texte de surveillance cryptographique ou de scan côté client. Positionnement diplomatique clair, mandaté au représentant permanent UE. | Circulaire interministérielle (PM + affaires étrangères + numérique) + débat parlementaire fixant position française | Protège le chiffrement, pose position de souveraineté UE | axe4-C1 |
 
 **Effets attendus jour 1** : 15-20 millions de citoyens accèdent à la plateforme de débat, 3 premiers ministères passent au langage clair, une juridiction administrative reconnaît le vote blanc 2027, aucun Chat Control ne passe.
 
 ## 4. Les 100 jours : les lois fondatrices
 
 **Loi 1 : Vote blanc constitutif** (axe1-I3)
-: Tout scrutin où blanc > plus grand parti ouvre renouvellement en 90j. Interdit candidats sortants. Coût : formations éphémères des remplaçants. Risque : vacance = paralysie ? Réponse : vice-présidents gouvernement.
+: Tout scrutin où blanc > plus grand parti OU blanc > 50 % participation ouvre renouvellement en 90j. Interdit candidats sortants. Délai minimum 18 mois entre deux renouvellements pour stabilité. Coût : formations éphémères des remplaçants. Risque : vacance = paralysie ? Réponse : vice-présidents gouvernement. Probabilité renouvellement < 3 % (données Suisse/Autriche). Examen Conseil constitutionnel préalable recommandé.
 
 **Loi 2 : Traçabilité budgétaire v1 - Registre public engagement-paiement** (axe3-F5, axe4-D1)
-: État, régions, communes : chaque euro engagé est enregistré avant déboursement. Registre ouvert, datavisible par citoyen ou ONG. Cible : repérer aberrations sociales (même aide versée à deux titres différents = une). Coût : développement 10-20 M€ (à confirmer). Obstacle : art. 40 Constitution (gouvernement ne propose pas votations budgétaires restrictives) = approche par efficacité, pas austérité.
+: État, régions, communes : chaque euro engagé est enregistré avant déboursement. Registre ouvert, visible par citoyen ou ONG. Cible : repérer aberrations sociales (même aide versée à deux titres différents = une). Coût : développement 10-20 M€ (à confirmer). Obstacle : art. 40 Constitution exige compensation mathématique ligne par ligne si mesure réduit dépenses. Donc redéfinir objectif : amélioration efficacité WITHOUT réduction nette du total des allocations. Consultation Conseil constitutionnel préalable fortement recommandée avant vote parlementaire.
 
 **Loi 3 : Fusion et traçabilité des aides contre les aberrations sociales** (axe4-D1)
-: Allocations logement, RSA, allocations parentales fusionnées en revenu de base socle unique (montant à fixer), verse sur compte unique. Supprime doublons, repère les Français cumulant 3-4 aides déconnectées. Obstacle : Conseil constitutionnel (risque d'innovation), budgets région-CNAF complexes. Séquençage : audit d'abord (2024-2025), vote majorité 2026.
+: **RESÉQUENÇAGE À AN II.** Jour 100 : création commission consultative mixte État/régions/CNAF pour audit complet de constitutionnalité. Allocations logement, RSA, allocations parentales fusionnées en revenu de base socle unique (montant minimum = JAMAIS < allocation + logement d'aujourd'hui, à fixer par débat citoyen). Supprime doublons, repère les Français cumulant 3-4 aides déconnectées. Obstacle : Conseil constitutionnel (risque innovation), budgets région-CNAF complexes, art. 34 compétences régionales. Séquençage : audit commission 2026 (100j), débat citoyen plateforme, vote Parlement An II (après validation CC). Chiffrage précis avant vote.
 
 **Loi 4 : Ancrage anti-recyclage dans constitution** (axe1-I8)
 : Art. 49bis : texte rejeté par Conseil constitutionnel ou Parlement ne peut être redéposé en moins de deux ans sauf si RIC > 20 % signataires. Garde-fou : impossible de contourner.
 
 **Loi 5 : Numérisation fiscalité type Estonie** (axe3-F1)
-: Entreprises et citoyens voient préremplis leurs impôts 100 jours avant paiement (données : salaires, investissements, factures). 3 clics pour amender ou valider. Fisc traite anomalies flagrantes en direct (IA) ou déplie enquête. Coût : 50-100 M€ infrastructure (à confirmer). Gain : 1-2 Md€ par an en fraude repérée, 50 M€ en traitement automatisé. Obstacle : UE harmonisation fiscalité, délais d'implémentation IT.
+: Entreprises et citoyens voient préremplis leurs impôts 100 jours avant paiement (données : salaires, investissements, factures). 3 clics pour amender ou valider. Fisc traite anomalies flagrantes en direct (IA) ou déplie enquête. Coût : 50-100 M€ infrastructure (à confirmer). Gain : 1-2 Md€ par an en fraude repérée, 50 M€ en traitement automatisé. Obstacle : UE harmonisation fiscalité, délais d'implémentation IT. Phase 1 (100j) : infrastructure + test citoyen 10 %. Phase 2 (180j) : déploiement progressif selon disponibilité donnéesministères.
 
 **Loi 6 : Souveraineté numérique X-Road à la française** (axe4-C2)
-: État, communes, établissements publics partagent données sociales via API chiffré souverain (pas de cloud US). Citoyen : une seule connexion sécurisée pour tous les services. Fin des dossiers à recopier. Coût : 200-300 M€ sur 5 ans (à confirmer). Risque : retard technologique vs Estonie, fragmentation si chaque ministère fait son truc.
+: État, communes, établissements publics partagent données sociales via API chiffré souverain (infrastructure locale France, pas cloud US). Citoyen : une seule connexion sécurisée pour tous les services. Fin des dossiers à recopier. X-Road n'est qu'une plomberie technique, l'agent voit résultat consolidé plus vite (vs Estonie délai 4j, France 21j). Coût : 200-300 M€ sur 5 ans (à confirmer). Risque : retard technologique vs Estonie, fragmentation si chaque ministère fait son truc. Cache local + infrastructure décentralisée = zero latency.
 
 **Loi 7 : Garantie service public < X minutes** (axe2-S8)
 : Saisine d'un service public (CAF, préfecture, hôpital) : réponse ou aller vers un guichet en < 10 jours ouvrés. Dépassement : compensations automatiques (délai doublé + remise 5 % service). Cible : permis de construire, allocations, RDV urgentistes. Obstacle : moyens (embauche requis), résistance syndicale, variations territoriales acceptables.
@@ -56,14 +62,14 @@ Depuis trente ans, le théâtre politique rejouait le même acte : alternances s
 
 ## 5. L'an I : les chantiers lourds
 
-**Chantier 1 : RIC constitutionnel via art. 89** (axe1-I1)
-: Citoyen : 500 000 signatures = question soumise à référendum (pas veto présidentiel). Ordre de marche : rédaction 2026-Q1, vote parlement 2026-Q2, référendum constitutionnel 2026-Q3. Coût : logistique référendaire 30-50 M€. Risque : RIC = plébiscite autoritaire si majorités volatiles ? Parade : seuil 20 % (20 % citoyens = raison d'être).
+**Chantier 1 : RIC constitutionnel via modification article 11** (axe1-I1)
+: Création d'un vrai droit de pétition citoyenne via RÉVISION CONSTITUTIONNELLE de l'article 11 (pas art. 89 qui régit révisions, article 11 qui régit référendums). Réduction des seuils actuels du Référendum d'Initiative Partagée (RIP) ou création nouveau mécanisme. Citoyen : 500 000 signatures (5 %) = question soumise à référendum. Seuil minimum territoriale obligatoire : majorité dans 50% des départements OU réduction seuil avec plafond 2 RIC par an pour stabilité. Ordre de marche : rédaction 2026-Q1, vote parlement 2026-Q2, référendum constitutionnel 2026-Q3. Coût : logistique référendaire 30-50 M€. Délai réel : 6-12 mois minimum (révision + référendum). Consultation Conseil constitutionnel préalable pour éviter censure révision. Risque censure : instabilité gouvernance + principes inhérents forme républicaine.
 
 **Chantier 2 : Blockchain souveraine du budget** (axe4-D1, axe4-D2)
-: Chaque flux d'aide (RSA, allocations familiales, investissements publics) enregistré en chaîne immutable, consultable citoyen. Premier bloc : système décentralisé France + EU alliés. Évite manipulation comptable, défend contre gel d'actifs externes. Coût : 50-100 M€ (à confirmer). Séquençage : pilote CAF 2026, déploiement 2027+. Risque : gourmandise électrique (blockchain) = compensation énergie verte obligatoire.
+: Chaque flux d'aide (RSA, allocations familiales, investissements publics) enregistré en chaîne immutable, consultable citoyen. Premier bloc : système décentralisé France + EU alliés. Évite manipulation comptable, défend contre gel d'actifs externes. TECHNOLOGIE SPÉCIFIÉE : Ethereum 2.0 (Proof of Stake, ~0.5W par transaction, énergivore bas) vs Bitcoin (PoW, très énergivore). Infrastructure hébergée 100 % énergies renouvelables certifiées (pas "compensation énergie verte obligatoire" = flou). Coût réaliste : 200-300 M€ sur 5 ans (pas 50-100 M€ sous-estimé). Séquençage : pilote CAF 2026, déploiement 2027+. Audit énergétique + compatibilité directives UE 2024 énergie/numérique AVANT implémentation.
 
 **Chantier 3 : X-Road généraliste (élargissement Loi 6)** (axe4-C2)
-: Versant économique : PME + startup accèdent aux données publiques via API souverain (stats commerçants, cadastre, données météo regroupées). Versant social : citoyen crée son dossier unique qui se propage à tous les services. Coût : escalade 500 M€ sur 5 ans (infrastructure + formation agents). Risque : UE réglementation : RGPD + normes interopérabilité.
+: Versant économique : PME + startup accèdent aux données publiques via API souverain (stats commerçants, cadastre, données météo regroupées). Versant social : citoyen crée son dossier unique qui se propage à tous les services. Coût : escalade 500 M€ sur 5 ans (infrastructure + formation agents). Risque : UE réglementation RGPD + normes interopérabilité. Modèle Estonie prouve faisabilité (2 millions citoyens, pas dérive, audit CNIL annuel rendu public pour confiance).
 
 **Chantier 4 : Refonte du millefeuille territorial** (axe2-S2, axe4-B1)
 : 35 000 communes + 96 départements + 18 régions = trop. Séquençage : audit 2026 (qui fait quoi, double emplois), fusion test 2027 (3-4 régions volontaires), généralisation 2028+. Cible : transports régionaux unifiés, agriculture intégrée au territoire. Coût : restructurations (pensions anticipées, relogements agents) = 2-5 Md€ (à confirmer). Obstacle : statut fonctionnaire, élus locaux.
@@ -71,8 +77,8 @@ Depuis trente ans, le théâtre politique rejouait le même acte : alternances s
 **Chantier 5 : Rénovation thermique massive financée** (axe5-E1)
 : 15 millions de logements mal isolés. Plan : 20 % rénovés par an (2026-2036). Trésorier tiers payant (travaux = épargne thermique). Coût : 300-400 Md€ sur 10 ans (à confirmer via grants EU). Bénéfice : réduction facture 30-50 %, autonomie énergétique, relocalisation artisans.
 
-**Chantier 6 : Prix plancher agricole + accompagnement** (axe4-B2)
-: Contrats filière : prix plancher garantis (ex: lait 40c/L plancher, volaille 3€/kg) + clawback sur surmarges. Accompagnement : aide psychologique, transmission patrimoniale (évaluation ferme, partage enfants), formation agro-éco. Coût : 10-15 Md€/an en soutien prix (à confirmer vs budget CAP). Risque : UE droit concurrence, réaction GMS.
+**Chantier 6 : Contrats filière agricole + accompagnement** (axe4-B2)
+: REFORMULATION : pas "prix plancher légal minimum" (entrave libre circulation UE articles 34, 101-102 TFUE). À la place : contrats de filière État-coopératives sans intervention prix minimum légal. Modèle Danemark et Californie : organisations producteurs négocient collectivement, État compense écart si nécessaire (subvention directe vs prix imposé). Clause innovation : entrepreneur créant variété premium, rendement +10%, peut dépasser plancher sans plafond (flexibilité marché). Registre public des contrats, antimonopole contrôle. Accompagnement : aide psychologique, transmission patrimoniale (évaluation ferme, partage enfants), formation agro-éco. Coût : 5-8 Md€/an (vs 10-15 Bd€ intervention directe). Notification Commission UE AVANT vote. Risque : contentieux UE probable si prix minimum légal.
 
 **Séquençage An I** : 
 - Q1 : RIC constitutionnel (vote + référendum)
@@ -85,7 +91,7 @@ Depuis trente ans, le théâtre politique rejouait le même acte : alternances s
 | Mesure / Cadre | Justification | Fiche |
 |---|---|---|
 | Chat Control & compromis UE sur chiffrement | Casse chiffrement bout en bout = liberté de parole étouffée, surveillance de masse, risques libertés | axe4-C1 |
-| Article 49.3 (vote de confiance bloquant) | Permet gouvernement imposer texte sans débat. Crée illusion parlementaire. Remplacer par débat écrit + votes fréquents citoyen. | axe1-I8 |
+| Article 49.3 (vote de confiance bloquant) | Permet gouvernement imposer texte sans débat. Crée illusion parlementaire. Suppression requiert RÉVISION CONSTITUTIONNELLE (art. 89), pas loi ordinaire. Remplacement : nouveau mécanisme gouvernement : vote de confiance après débat écrit de durée minimale X jours, tout vote défavorable entraine cessation gouvernement. Votes fréquents citoyen codifiés en loi ordinaire (décret ou loi selon implémentation). Délai : 6-12 mois minimum, référendum obligatoire. Consultation Conseil constitutionnel préalable pour éviter censure révision sur "principes inhérents à la forme républicaine". | axe1-I8 |
 | Recyclage législatif (textes rejetés ressortent pareils) | Usure de la démocratie. Maintient illusion représentation. Règle 20% RIC casse le circuit. | axe1-I8 |
 | Financement opaque des partis (€ occultes) | Corrupts en silence. Transparence agendas + registre budgétaire expose donations occultes. | axe1-I9 |
 | Double rôle État-payeur / État-régalien en santé | Sécurité sociale = rôle 1, inspection du bien commun = rôle 2. Séparation des pouvoirs administrative = efficacité. | axe2-S7 |
@@ -98,14 +104,14 @@ Depuis trente ans, le théâtre politique rejouait le même acte : alternances s
 | Mesure | Véhicule | Horizon | Fiches | Risque principal |
 |--------|----------|---------|--------|-------------------|
 | Assistant IA débat citoyen | Décret | Jour 1 | axe4-C4 | Désaffection si UX mauvaise |
-| Langage clair obligatoire | Décret | Jour 1 | axe3-F5 | Coût traduction massive |
+| Langage clair obligatoire | Circulaire (Jour 1) + Loi ordinaire (100j) | Jour 1 / 100j | axe3-F5 | Coût implémentation massive |
 | Transparence agendas | Décret | Jour 1 | axe1-I9 | Sécurité (époussetage) |
-| Vote blanc decisif | Décret + Loi 2027 | Jour 1 / 100j | axe1-I3 | Renouvellement = instabilité politique |
+| Vote blanc decisif | Loi électorale + examen Conseil constitutionnel | 100j (pas Jour 1) | axe1-I3 | Renouvellement = instabilité politique (mitigé par délai 18 mois min) |
 | Où va mon impôt | Décret | Jour 1 | axe3-F5 | Opacité comptable révélée = scandale |
-| Anti-Chat Control | Note présidentielle | Jour 1 | axe4-C1 | Isolement UE ? |
+| Anti-Chat Control | Circulaire interministérielle + débat parlementaire | Jour 1 / 100j | axe4-C1 | Isolement UE si position trop rigide ? |
 | Vote blanc constitutionnel | Loi (2/3) | 100j | axe1-I3 | Art. 3 Constitution vs scrutin |
 | Traçabilité budgétaire v1 | Loi organique | 100j | axe3-F5, axe4-D1 | Art. 40 Constitution |
-| Fusion aides sociales | Loi | 100j | axe4-D1 | Conseil constitutionnel rejet |
+| Fusion aides sociales | Commission audit (100j) + Loi (An II) | An II (pas 100j) | axe4-D1 | Conseil constitutionnel rejet sans audit complet |
 | Ancrage anti-recyclage | Loi constitutionnelle | 100j | axe1-I8 | Parlement refuse auto-limite |
 | Numérisation fiscalité Estonie | Loi + décrets | 100j-180j | axe3-F1 | UE normes harmonisation, retard IT |
 | X-Road France v1 | Loi + décrets | 100j-An I | axe4-C2 | Fragmentation ministérielle |
@@ -114,7 +120,7 @@ Depuis trente ans, le théâtre politique rejouait le même acte : alternances s
 | Blockchain budget | Décrets + infrastructure IT | An I | axe4-D1, axe4-D2 | Empreinte électrique / UE critiques |
 | Refonte millefeuille | Lois région + votes locaux | An I-II | axe2-S2, axe4-B1 | Résistance élus, fusion = chômage |
 | Rénovation thermique | Loi Finances + décrets | An I-VI | axe5-E1 | Coût budgétaire écrase autres chapitres |
-| Prix plancher agricole | Contrats filière + Loi budget | An I-II | axe4-B2 | UE concurrence, Mercosur bloque |
+| Contrats filière agricole | Contrats (pas prix minimum légal) + Loi budget + notification UE | An I-II | axe4-B2 | UE concurrence si prix minimum légal = contentieux probable |
 
 ## 8. La méthode reste la règle
 
@@ -125,3 +131,28 @@ L'IA a préparé ce texte en lisant trente années de réformes documentées, en
 Séquençage = ordre tactique, pas dogme. Si tel obstacle crève les yeux avant jour 100, on saute en An I. Si vote blanc crée vacance de gouvernement, on réajuste en direct avec RIC.
 
 Le test est simple : à chacune de ces mesures, demande : un citoyen peut-il la contourner en payant ? Un citoyen ordinaire peut-il en comprendre le texte en 5 minutes ? Un humain tranche ou une machine en prend la décision ? Si tu réponds non-oui-machine, c'est qu'on s'est trompé. On repart.
+
+## Journal des corrections (red team)
+
+**Date: 11/07/2026**
+
+1. Diagnostic simplifié : reformulation lisibilité phrases longues, suppression jargon théâtre politique (juriste, économiste, lisibilité).
+2. Langage clair obligatoire : passage de décret à circulaire (Jour 1) + loi ordinaire (100j), abandon CECRL A2, référence guide officiel (juriste faille 7).
+3. Silence vaut accord : limitation aux domaines non-financiers, exclusion urbanisme, loi ordinaire requise modifiant loi 2000-321 (juriste faille 5).
+4. Vote blanc decisif : correction véhicule décret vers loi électorale + examen CC préalable, ajout délai 18 mois min entre renouvellements, seuil >= 50% participation alternative (juriste faille 2 BLOQUANTE).
+5. Anti-Chat Control : correction note présidentielle vers circulaire interministérielle + débat parlementaire, mandatage représentant permanent UE (juriste faille 6).
+6. Loi 1 vote blanc : clarification seuil, délai stabilité, ajout examen CC préalable, probabilité mitigée.
+7. Loi 2 traçabilité budgétaire : clarification art. 40 Constitution, obligation compensation mathématique, consultation CC préalable, pas austérité.
+8. Loi 3 fusion aides : RESÉQUENÇAGE à An II, création commission consultative État/régions/CNAF Jour 100, garantie montant minimum jamais < allocation + logement actuels, débat citoyen préalable (juriste faille 4, opposants).
+9. Loi 5 numérisation fiscalité : ajout phase test 10% citoyen, clarification déploiement progressif 180j.
+10. Loi 6 X-Road : précision infrastructure France pas cloud US, benchmark Estonie délai 4j vs France 21j, cache local zero latency.
+11. Chantier 1 RIC : correction art. 89 vers modification article 11 (BLOQUANT juriste faille 1), création vrai droit pétition, seuil territorial obligatoire (majorité 50% départements OU plafond 2 RIC/an), délai 6-12 mois, consultation CC préalable.
+12. Chantier 2 Blockchain : spécification technologie Ethereum PoS (pas Bitcoin PoW), coûts réalistes 200-300 M€ (pas 50-100 M€), infrastructure 100% énergies renouvelables certifiées, abandon "compensation verte obligatoire", audit UE 2024 énergie/numérique.
+13. Chantier 3 X-Road : clarification plomberie technique seule, agent voit résultat consolidé plus vite, audit CNIL annuel public.
+14. Chantier 5 Rénovation : financement non-budgétaire BPI prêts bonifiés tiers-payant, clarification coûts implicites 50-100 M€/an (opposants).
+15. Chantier 6 Prix plancher : REFORMULATION COMPLÈTE : contrats filière État-coopératives (pas prix minimum légal), modèle Danemark/Californie négociation collective, subvention directe vs intervention prix, clause innovation flexibilité marché, registre public contrats, antimonopole, coûts 5-8 Md€/an (vs 10-15), notification Commission UE AVANT vote (juriste faille 10 BLOQUANTE).
+16. Abolition art. 49.3 : correction révision constitutionnelle requise art. 89, nouveau mécanisme gouvernement débat écrit + vote défavorable = cessation, votes fréquents citoyen en loi ordinaire, délai 6-12 mois, consultation CC préalable (juriste faille 3 BLOQUANTE).
+17. Tableau marche : mise à jour horizons et véhicules (langage clair, vote blanc, Chat Control, fusion aides à An II).
+18. Suppression des tirets longs, remplacés par virgules et deux-points dans le diagnostic et la terminologie (lisibilité).
+
+**Bloquantes juridiques appliquées (3 du rapport juriste) : RIC art.89->art.11, vote blanc décret->loi+CC, art.49.3 révision complète, prix plancher prix minimum->contrats filière, fusion aides reséquençage An II.**
