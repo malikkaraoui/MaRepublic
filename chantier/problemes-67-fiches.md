@@ -212,6 +212,8 @@ Imposer l'égalité réelle (Piste A/C, autoritaire mais égalitaire) ou parier 
 
 ### P8. Licences sport : prix d'accès et inégalité massive
 
+*Voir aussi la fiche P5 du lot 49 (équipements municipaux vs stades pros) ; ici l'angle est le prix d'accès pour les familles. Fusion possible, à trancher au dépouillement.*
+
 **Constat :**
 Prix moyen licence enfant (école/club) = 130 € (handball, foot, tennis). Familles modestes : 20 % revenu discrétionnaire = 75-100 €/mois max pour enfant. Pas'sport (dispositif État 2023) : couvert 50 € licence max, touche 200 k enfants seulement (vs 1,5M licenciables pauvres, 13 %). Pass'famille : inexistant (frères-soeurs augmente coût 2-3x). Clubs privés vs publics : facteur 1:5 sur prix (même activité). Budget ministère aide pauvres (Pas'sport) = 10 M€/an seulement. Sources : fédérations, INJEP, rapport Pas'sport 2024, associations parents.
 

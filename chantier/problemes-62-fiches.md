@@ -98,6 +98,8 @@ Accepte-t-on une AAH sans condition de ressources du conjoint, et à quel coût 
 
 ### P4. École inclusive sans AESH : l'adaptation se limite au professeur seul
 
+*Voir aussi la fiche P9 du lot 56 (angle école/moyens) ; ici l'angle est celui des familles face à la MDPH qui notifie sans que l'AESH arrive. Fusion possible, à trancher au dépouillement.*
+
 **Constat :**
 L'école inclusive (loi 2005-102, Loi Handicap) exige la présence d'Accompagnants des élèves en situation de handicap (AESH), payés par l'État. En 2024, le ministère recense 138 000 enfants notifiés en besoin d'AESH (source : ministère Éducation, RASED 2024) ; 92 000 AESH recrutés en CDD (source : Fonction publique 2024) = 1,5 enfants par AESH si occupation plein temps. Réalité : absentéisme administratif, congés non remplacés, shortfall systématique : 30-40% des besoins notifiés non pourvus (rapport Inspection générale 2023). Impact : enfants en classe sans accompagnement, rupture de scolarité, parents qui abandonnent emploi pour accompagner à domicile.
 
