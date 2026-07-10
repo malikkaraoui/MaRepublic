@@ -1676,3 +1676,35 @@ button {
 .avancement__seg {
   min-width: 4px;
 }
+
+/* Section mobilisation : appel à participer au chantier */
+
+.section--mobilisation {
+  border-top: 3px solid var(--ink);
+  background: var(--paper-alt);
+}
+
+.card--action {
+  border-top: 2px solid var(--bleu);
+}
+
+.card__chip {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--paper);
+  background: var(--ink);
+  border-radius: 999px;
+  padding: 0.2rem 0.7rem;
+  margin: 0 0 0.6rem;
+}
+
+.grid--mobilisation {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}

@@ -80,11 +80,60 @@ export default function Home() {
             d'étiquette sur la voix du peuple.
           </p>
           <div className="hero__actions">
-            <Link to="/fondateur" className="button button--primary">
+            <Link to="/chantier" className="button button--primary">
+              Entrer dans le chantier
+            </Link>
+            <Link to="/fondateur" className="button button--ghost">
               Lire le document fondateur
             </Link>
-            <Link to="/programme" className="button button--ghost">
-              Découvrir le programme
+          </div>
+        </div>
+      </section>
+
+      <section className="section section--mobilisation">
+        <div className="container">
+          <header className="section__head">
+            <p className="section__kicker">Appel à la population</p>
+            <h2 className="section__title">
+              Ce mouvement ne s'écrit pas pour vous. Il s'écrit avec vous.
+            </h2>
+            <p className="section__intro">
+              180 fiches sont ouvertes au débat : des problèmes réels, des
+              solutions qui existent ailleurs. Aucune n'est figée tant que vous
+              ne l'avez pas jugée. Cinq minutes ou un engagement durable : tout
+              compte, tout est visible, rien ne se perd.
+            </p>
+          </header>
+          <div className="grid grid--mobilisation">
+            <article className="card card--action">
+              <p className="card__chip">5 minutes</p>
+              <h3 className="card__title">Jugez une mesure</h3>
+              <p className="card__text">
+                Ouvrez une fiche, lisez, votez pour ou contre. C'est anonyme
+                pour le public, et chaque voix pèse dans le tri.
+              </p>
+            </article>
+            <article className="card card--action">
+              <p className="card__chip">30 minutes</p>
+              <h3 className="card__title">Améliorez une proposition</h3>
+              <p className="card__text">
+                Commentez, pointez une faille, ou proposez votre alternative.
+                Les meilleures contributions remontent dans les fiches.
+              </p>
+            </article>
+            <article className="card card--action">
+              <p className="card__chip">Plus loin</p>
+              <h3 className="card__title">Rejoignez un groupe de travail</h3>
+              <p className="card__text">
+                Soignant, agriculteur, juriste, développeur, retraité :
+                apportez votre terrain sur un des 22 sujets, ou fédérez votre
+                collectif au mouvement.
+              </p>
+            </article>
+          </div>
+          <div className="hero__actions">
+            <Link to="/chantier" className="button button--primary">
+              Choisir un sujet et participer
             </Link>
           </div>
         </div>
