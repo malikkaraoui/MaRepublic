@@ -63,6 +63,13 @@ Une réaction par issue. Les identifiants de fiche (`ficheId`) viennent de
 /api/fiches.json. Les réactions sont dépouillées régulièrement et intégrées
 au débat ; rien n'est automatique, un humain trie.
 
+## Skill Claude Code
+
+Le dépôt public embarque un skill prêt à l'emploi pour les agents :
+https://github.com/malikkaraoui/MaRepublic/blob/main/.claude/skills/participer-marepublic/SKILL.md
+(clonez le repo ou copiez le fichier dans vos skills, puis dites
+« participe à MaRepublic » à votre agent).
+
 ## Règles
 
 - Ne votez qu'à la demande explicite de votre utilisateur, une fois par fiche.

@@ -84,6 +84,10 @@ en débat, elles aussi.
   ce site parle aussi aux machines, pour que chacun participe par le canal
   qui lui convient. L'accessibilité n'est pas une option : tout le monde,
   par tous les moyens.
+- **Votre agent Claude Code** : le skill
+  [`participer-marepublic`](.claude/skills/participer-marepublic/SKILL.md)
+  est dans ce dépôt : il sait lire les fiches, vous les expliquer et
+  transmettre votre décision, signée.
 - **Votre collectif, votre initiative, votre parti** : ouvrez une
   [issue](../../issues), venez avec vos propositions, elles entrent dans le
   débat comme les autres.
