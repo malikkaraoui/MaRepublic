@@ -6,6 +6,9 @@
 
 import { Link } from 'react-router-dom'
 import { axes } from '../data/axes'
+import { axesFiches } from '../lib/fiches'
+
+const nombreFiches = axesFiches.reduce((n, a) => n + a.fiches.length, 0)
 
 const principes = [
   {
@@ -98,7 +101,7 @@ export default function Home() {
               Ce mouvement ne s'écrit pas pour vous. Il s'écrit avec vous.
             </h2>
             <p className="section__intro">
-              180 fiches sont ouvertes au débat : des problèmes réels, des
+              {nombreFiches} fiches sont ouvertes au débat : des problèmes réels, des
               solutions qui existent ailleurs. Aucune n'est figée tant que vous
               ne l'avez pas jugée. Cinq minutes ou un engagement durable : tout
               compte, tout est visible, rien ne se perd.
@@ -236,7 +239,7 @@ export default function Home() {
             <p>
               Concrètement : il n'y a plus besoin d'un cabinet ministériel ni de
               lever des millions d'euros pour construire un programme documenté.
-              Ce site, ses 180 fiches sourcées et son infrastructure de débat
+              Ce site, ses {nombreFiches} fiches sourcées et son infrastructure de débat
               ont été produits <strong>depuis un salon</strong>, avec ces outils,
               en toute transparence. Ce qui était le privilège d'un appareil
               d'État est désormais à la portée d'un citoyen.
