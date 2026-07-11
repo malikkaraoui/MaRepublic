@@ -1,6 +1,6 @@
 # Problèmes : Familles séparées, la justice familiale qui déborde et les enfants au milieu
 
-### PN1. Les Juges aux Affaires Familiales débordés : délais moyens de 6 à 18 mois pour une décision de garde ou de résidence
+### P1. Les Juges aux Affaires Familiales débordés : délais moyens de 6 à 18 mois pour une décision de garde ou de résidence
 
 **Constat :** Le nombre de saisines au JAF augmente (+15% depuis 2015), alors que le nombre de magistrats stagne (9 500 JAF en France métropolitaine pour ~4 millions de divorces ou contentieux de filiation par décennie). Résultat : délai moyen de 6 mois à 18 mois entre le dépôt de l'assignation et la première audience, selon les ressorts. En Île-de-France, certains JAF attendent 2 ans pour une affaire complexe. Pendant ce temps, l'enfant vit en situation provisoire, les arrangements sont précaires, les conflits s'enveniment. Source : rapports Cour des comptes 2018 et 2022 sur la Justice, « La justice face à ses défis » ; INSEE, tableau des temps d'attente dans les TGI (2023). Lien : https://www.ccomptes.fr/fr/publications/la-justice-face-ses-defis
 
@@ -37,7 +37,7 @@
 
 ---
 
-### PN2. Résidence alternée : 12% en France, 30-50% en Belgique, Suède, Pays-Bas. Débat de fond : égalité parentale vs stabilité de l'enfant selon l'âge.
+### P2. Résidence alternée : 12% en France, 30-50% en Belgique, Suède, Pays-Bas. Débat de fond : égalité parentale vs stabilité de l'enfant selon l'âge.
 
 **Constat :** En France, seuls 12% des enfants de parents séparés bénéficient d'une résidence alternée équilibrée (50/50 ou proche). En Belgique (loi 2006, révisée 2018), 40-45%. En Suède et Pays-Bas, 30-50% selon les régions urbaines. Les juges français invoquent « l'intérêt de l'enfant » : avant 5 ans, considéré comme contraire (rupture du continuum maternel) ; après 8-10 ans, plus admis, mais toujours minoritaire. Source : INSEE enquête « Familles et modes de garde 2021 » ; étude CNRS « La coparentalité en Europe » (2022) ; Légifrance, Code civil art. 372 et jurisprudence Cour de Cassation. Lien : https://www.insee.fr/fr/statistiques/6011070 (modes de garde)
 
@@ -81,7 +81,7 @@
 
 ---
 
-### PN3. Les mères solos à 85% des familles monoparentales : pauvreté, charge mentale, travail à temps partiel contraint. Chiffres INSEE et trajectoires.
+### P3. Les mères solos à 85% des familles monoparentales : pauvreté, charge mentale, travail à temps partiel contraint. Chiffres INSEE et trajectoires.
 
 **Constat :** En France, 1,6 million de familles monoparentales (2021, INSEE). 85% sont des mères seules (contre 15% pères). Taux de pauvreté : 32% (vs 15% moyenne population). Revenu médian : 1 400 euros net/mois pour mère + 2 enfants (données CAF 2023). Principales raisons du temps partiel : 62% déclarent impossibilité de trouver garde (enfant < 3 ans : zéro place crèche ville, nourrice inabordable), 28% expliquent que full-time + enfant seul = impossible (fatigue, soutien scolaire, accidents, maladie enfant = absence travail = licenciement). Données : INSEE « Fonds Thématique Familles » 2022 ; CAF rapport annuel 2023 ; Cour des comptes « Minima sociaux et revenus d'activité » 2021. Lien : https://www.insee.fr/fr/statistiques/5395894 (familles monoparentales)
 
@@ -117,7 +117,7 @@
 
 ---
 
-### PN4. Violences conjugales et séparation : ordonnances de protection émises, délais pour bracelets anti-rapprochement, efficacité réelle.
+### P4. Violences conjugales et séparation : ordonnances de protection émises, délais pour bracelets anti-rapprochement, efficacité réelle.
 
 **Constat :** ~225 000 femmes victimes de violences conjugales/an en France (enquête Enveff INSEE 2019). Lors de séparation, risque d'escalade : 50% des homicides conjugaux interviennent lors de rupture ou séparation (données Ministère Justice, observatoire crimes violents 2022). Ordonnances de protection : ~15 000 demandes/an, ~70% accordées (délai : 1-3 semaines en général, urgence 24-48h). Bracelets anti-rapprochement (bracelet électronique avec géolocalisation) : déployés lentement depuis 2017 (loi Schiappa 2018) ; actuellement ~8 000 bracelets actifs en France (soit 53% des ordonnances, reste sous forme simple interdiction + contrôle police). Délai installation bracelet : 2-4 semaines après ordonnance (attente fournisseur). Source : Ministère Justice, rapport sur violences intrafamiliales 2023 ; INSEE enquête Enveff ; Cour de Cassation, chambre criminelle, jurisprudence 2020+. Lien : https://www.justice.gouv.fr/nos-domaines-dintervention/lutte-contre-les-violences/violences-conjugales
 
@@ -153,7 +153,7 @@
 
 ---
 
-### PN5. Aliénation parentale : concept contesté, utilisé au tribunal pour justifier réduction de garde, controverse scientifique.
+### P5. Aliénation parentale : concept contesté, utilisé au tribunal pour justifier réduction de garde, controverse scientifique.
 
 **Constat :** L'« aliénation parentale » (défini par psychiatre américain Richard Gardner 1985) : campagne d'un parent pour dénigrer l'autre, menant l'enfant à le rejeter injustement. Utilisé au tribunal français depuis ~2010. Estimations tribunal : ~20-30% des affaires familiales contentieuses (débat, pas consensus). Controverse : l'American Psychological Association (2020) a refusé de valider comme diagnostic (absent DSM-5). Études françaises (Afifa 2019) : aliénation vraie rare (< 5% cas), mais syndrome mal-être enfant fréquent (40%) lors conflict parental (confusion aliénation / détresse d'enfant). Jurisprudence instable : Cour Appel Lyon (2018) a réduit garde mère au motif aliénation ; Cour Appel Paris (2021) l'a rejété (concept infondé scientifiquement). Source : avis APA 2020 ; rapport Afifa 2019 ; Légifrance jurisprudence chambre civile Cour de Cassation (2015-2023) ; rapport Ministère Justice sur expertise psy au JAF (2020). Lien : https://www.legifrancerecherche.fr/ (jurisprudence aliénation, requête « aliénation parentale »)
 
@@ -191,7 +191,7 @@ Piste C (responsabilité expert) : besoin modification Code de la procédure civ
 
 ---
 
-### PN6. Droit de visite des grands-parents : ~30 000 demandes/an au JAF, délais mediation, révocation peu courante. Risque de viol d'ordonnance.
+### P6. Droit de visite des grands-parents : ~30 000 demandes/an au JAF, délais mediation, révocation peu courante. Risque de viol d'ordonnance.
 
 **Constat :** Articles L212-1 à L212-5 du Code civil (introduits 1993) : enfants ont « droit d'entretenir des relations avec grands-parents », droit contraignable au JAF. Environ 30 000 demandes/an (enfant mineur, parent a rompu lien grand-parents). 65% cas : rupture suite à conflit entre parents (père parti, mère coupe les liens "pour punir" ex-belle-famille). 20% cas : grands-parents problématiques (négligence, abus ancien). 15% cas : enfant adulte + grand-parent, accord rompu, demande au JAF.
 Ordonnances accordées : ~80% des demandes. Revocation : rare (~5% des cas, surtout si nouveaux abus révélés). Violations d'ordonnance (parent empêche visite) : signalées dans ~40% des dossiers JAF, rarement poursuivies (non-présentation enfant = contrainte pénale légère). Médiation : utilisée dans 30% des cas (pré-JAF), succès : 50% des médiations trouvent accord.
@@ -229,7 +229,7 @@ Source : Ministère Justice, statistiques JAF 2022 ; Code civil art. L212-1+ ; �
 
 ---
 
-### PN7. Coût réel du divorce : avocats, barème, frais de justice, divorce sans juge. Bilan comparé.
+### P7. Coût réel du divorce : avocats, barème, frais de justice, divorce sans juge. Bilan comparé.
 
 **Constat :** Coût moyen divorce en France (2022) : 1 200-3 000 euros avec avocat (simple, pas conflit sur garde/pension) ; 5 000-15 000 euros si conflit (JAF, expertises, multiple audiences). Barème avocat : pas réglementé (liberté de fixer, mais professions: barème indicatif ~150-300 euros/heure). Frais de justice : ~300 euros (droit de timbre + enregistrement), frais huissier si signification : ~200 euros. Expertise psy/socio : 800-2000 euros (si JAF demande, souvent parties paient).
 Divorce sans juge (depuis 2017, loi Macron, art. 229-1 Code civil) : entre conjoints d'accord total, réalisable chez notaire : coût ~800-1500 euros (notaire, enregistrement). Statistiques : 50% divorces sont maintenant par consentement mutuel (60% chez +35 ans). Reste 50% contentieux : 30% JAF simple, 20% JAF complexe (garde, expertises). Impact : famille bas-revenus (~25% pop) : divorce contentieux = 2-3 mois salaire, dette crédit souvent. Source : Ministère Justice, stats 2022 ; Cour des comptes, rapport justice civile 2020 ; Conseil national barreaux, barème avocat 2023. Lien : https://www.justice.gouv.fr/notre-justice/divorce
@@ -266,7 +266,7 @@ Divorce sans juge (depuis 2017, loi Macron, art. 229-1 Code civil) : entre conjo
 
 ---
 
-### PN8. Enquêtes sociales et expertises au JAF : délai 4-12 mois, qualité variable, droit de contradictoire souvent absent. Réforme procédure.
+### P8. Enquêtes sociales et expertises au JAF : délai 4-12 mois, qualité variable, droit de contradictoire souvent absent. Réforme procédure.
 
 **Constat :** Le JAF peut ordonner expertise (psy, socio, psychiatrique) pour éclairer sa décision (résidence, autorité parentale). Enquête sociale : investigation par assistant social du TGI, visite domicile, entretien parents/enfant, rapport 20-30 pages. Délai : 6-12 mois (assistants sociaux insuffisant : ~1 400 pour 9 500 JAF). Expertise psy : 4-8 mois (experts peu nombreux). Coût : 1000-2000 euros, généralement imputé au demandeur (ou partie/parts par juge).
 Problème contradictoire : rapport expert = « secret » jusqu'à audiences finale (parent accusé ne connaît pas critique jusqu'à dernier moment). Risque : juge fonde sa décision sur allégations expert, parent n'a pas pu contredire.
@@ -305,7 +305,7 @@ Source : Ministère Justice, rapports JAF 2022 ; Commission Nationales d'Aide au
 
 ---
 
-### PN9. Modèles étrangers : tribunaux familiaux unifiés (Canada), médiation préalable obligatoire (Québec, Norvège), One-Stop-Shop pour enfants. Transfert France.
+### P9. Modèles étrangers : tribunaux familiaux unifiés (Canada), médiation préalable obligatoire (Québec, Norvège), One-Stop-Shop pour enfants. Transfert France.
 
 **Constat :** Plusieurs pays ont réformé justice familiale avec résultats mesurés :
 - **Québec** : médiation obligatoire préalable au tribunal (1997). Délai moyen séparation/jugement : 4 mois (vs 12 mois France). Coût médiation État : ~50M CAD/an (~30M euros). Effet : 65% cas résolus mediation, 35% tribunal. Satisf parties : 72% vs 45% France.
@@ -346,7 +346,7 @@ Source : Étude comparative ministère Justice 2020 ; rapport Légifrance sur dr
 
 ---
 
-### PN10. Parenting Coordinator : médiateur spécialisé (États-Unis, Australie). Rôle entre magistrat/mediation. Déploiement France ?
+### P10. Parenting Coordinator : médiateur spécialisé (États-Unis, Australie). Rôle entre magistrat/mediation. Déploiement France ?
 
 **Constat :** Le « Parenting Coordinator » (PC) est un tiers désigné par court pour faciliter mise en œuvre ordonnances familiales (résidence, pension, visite) lors conflit récurrent. Historiquement États-Unis (Colorado, Californie 1990s), adopté Australie, Canada anglophone. Rôle : pas magistrat, pas mediation classique, mais « facilitateur exécution ». Exemples décisions PC : parent ne livre pas enfant à l'heure => PC rencontre parent, éduque sur impacts enfant, peut recommander amende symbolique ou perte jour visite. Litiges mineurs détournés de tribunal (économie 50% contentieux futurs estimé).
 Données : États-Unis : 30 000 PC environ. Délai dossier : 2-3 semaines (urgence 72h). Coût : 150-300 dollars/heure (payé parents, ou moitié-moitié). Satisfaction : 75% des parents (vs 45% après jugement classique). Enfants : impacts positifs sur stress (moins de procès, plus de stabilité). France : pas de PC officiel, mais concept peu connu. Premiers essais associatif : AFIFA a proposé « tiers-tiers » (approche approchante). Source : American Family Mediation Council (2020) ; étude Australie (ACE) 2019 ; rapport AFIFA France 2021 (proposition PC-équivalent). Lien : https://www.afcc.org/ (American Family Conciliation Council, référence PC)
