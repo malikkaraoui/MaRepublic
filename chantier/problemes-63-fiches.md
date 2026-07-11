@@ -217,3 +217,24 @@
 ⚖️ **À trancher :** La justice restaurative est-elle "humanité" (accès égal tous délinquants) ou "luxe" (pour profils bas-risque consentants) ? Doit-on forcer victime conférence (trauma amplifié ?) pour efficacité auteur ? Quel équilibre : compensations État (fragilise budget) vs justice "gratuite" (déporte coûts victimes) ?
 
 **Statut :** ⬜
+
+### P11. Vie familiale et visites conjugales : un levier de réinsertion modulé par le juge selon le parcours
+
+**Constat :** La loi pénitentiaire du 24 novembre 2009 (art. 36) reconnaît le droit aux unités de vie familiale (UVF, jusqu'à 72h) et aux parloirs familiaux, permettant le maintien du lien conjugal et parental, mariage inclus (droit indérogeable, art. 12 CEDH). Mais l'équipement est très inégal : de nombreux établissements ne disposent d'aucune UVF, si bien que l'accès dépend du lieu d'incarcération et non du parcours du détenu. Or le maintien du lien familial est un des prédicteurs les plus solides de la non-récidive : la sortie "sèche" (sans aménagement ni lien maintenu) reste le premier facteur de re-condamnation, de l'ordre de 60% à 5 ans contre nettement moins avec aménagement (chiffres à re-sourcer finement, DAP / Ministère de la Justice). Le débat n'oppose pas "faveur aux détenus" et "fermeté" : 95% des détenus ressortent, la vraie question est de savoir quelle version revient dans la société. https://www.justice.gouv.fr/statistiques-et-etudes
+
+**Pistes :**
+1. Modulation individualisée par le juge de l'application des peines (JAP). Le JAP décide de l'accès aux UVF et visites conjugales au vu du parcours réel : efforts de réinsertion, travail, formation, comportement, projet de sortie. Le primo-délinquant engagé y accède largement pour préparer son retour ; le récidiviste qui refuse tout projet peut en être restreint, par décision motivée et révisable. Pour : proportionné, réversible, aligné sur la logique déjà existante des réductions de peine au mérite (loi du 22 décembre 2021, art. 721 CPP). Sécurise sans couper aveuglément. Contre : charge supplémentaire pour des JAP engorgés ; risque d'inégalité de traitement d'un tribunal à l'autre.
+2. Généralisation sans condition (on équipe seulement). On installe des UVF partout, accès égal, sans conditionner au parcours. Pour : simple, égalitaire, efficace sur la récidive globale. Contre : ne répond pas à l'objection sur le récidiviste non-réinséré ; sentiment d'impunité.
+3. Restriction automatique par statut (à écarter). Priver d'office les récidivistes de visites. Pour : lisible politiquement. Contre : condamnation CEDH quasi certaine (Khoroshenko c. Russie, GC 2015, qui proscrit toute privation automatique de visites), inapplicable en l'état.
+
+**Simulation (ordres de grandeur) :**
+- Équiper les établissements manquants en UVF : coût immobilier par site (construction/aménagement de logements sécurisés), à chiffrer selon le parc concerné.
+- Chaque récidive évitée économise un procès, une réincarcération (~40 000 €/détenu/an) et une victime. Si le maintien du lien fait baisser la récidive ne serait-ce que de quelques points sur la population concernée, le dispositif est rentable au sens strict.
+- Modulation par le JAP : coût marginal (temps de magistrat et de greffe), pas d'investissement lourd, mais suppose des effectifs suffisants pour instruire au cas par cas.
+- Gagnants : détenus engagés dans un projet, familles et enfants (lien préservé), société (récidive plus basse). Perdants : opinion "molle pénale", budget immobilier court-terme.
+
+⚖️ **Faisabilité juridique :** Solide à une condition stricte : la décision doit être individualisée et motivée. Fondements : art. 8 CEDH (vie familiale), art. 12 (mariage, indérogeable), Khoroshenko c. Russie (GC, 30 juin 2015, qui interdit la privation automatique de visites), Dickson c. Royaume-Uni (GC, 4 décembre 2007). Le droit français sait déjà moduler par le juge selon le mérite (réductions de peine réformées en 2021, art. 721 CPP) : on prolonge cette logique. Le seul montage illégal serait l'automaticité par étiquette "récidiviste" (piste 3).
+
+⚖️ **À trancher :** Le curseur du juge doit-il pouvoir aller jusqu'à la suspension totale des visites conjugales pour un détenu qui refuse tout projet de réinsertion, ou seulement les restreindre (fréquence, durée), le contact avec conjoint et enfants restant un plancher intouchable ?
+
+**Statut :** ⬜
