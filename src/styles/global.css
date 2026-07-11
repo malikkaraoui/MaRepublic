@@ -2060,6 +2060,12 @@ body {
   color: var(--ink);
   padding: 0;
   margin: 0 0 1rem;
+  /* La question est recentrée à chaque étape : on la décale sous l'en-tête. */
+  scroll-margin-top: 5.5rem;
+}
+
+.wizard__question:focus {
+  outline: none;
 }
 
 .wizard__question--sous {
@@ -2348,4 +2354,120 @@ body {
 
 .sommaire__filtre-clear:hover {
   text-decoration: underline;
+}
+
+/* Page de partage : lien + QR + canaux */
+.partage {
+  max-width: 40rem;
+}
+
+.partage__lien {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.partage__url {
+  flex: 1 1 14rem;
+  font: inherit;
+  font-size: 0.9rem;
+  padding: 0.7rem 0.85rem;
+  border: 1.5px solid var(--rule-strong);
+  border-radius: var(--radius);
+  background: var(--paper-alt);
+  color: var(--ink);
+}
+
+.partage__copier {
+  font: inherit;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.7rem 1.1rem;
+  min-height: 44px;
+  border: none;
+  border-radius: var(--radius);
+  background: var(--ink);
+  color: var(--paper);
+  cursor: pointer;
+  white-space: nowrap;
+  touch-action: manipulation;
+}
+
+.partage__copier:hover {
+  background: var(--ink-soft);
+}
+
+.partage__natif {
+  margin-top: 0.75rem;
+  font: inherit;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 0.75rem 1.2rem;
+  min-height: 44px;
+  border: 1.5px solid var(--ink);
+  border-radius: var(--radius);
+  background: var(--paper);
+  color: var(--ink);
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.partage__natif:hover {
+  background: var(--paper-alt);
+}
+
+.partage__canaux {
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.partage__canal {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0.5rem 1rem;
+  border: 1.5px solid var(--rule-strong);
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--ink);
+  text-decoration: none;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.partage__canal:hover {
+  border-color: var(--ink);
+  background: var(--paper-alt);
+}
+
+.partage__qr {
+  margin: 1.75rem 0 0;
+  text-align: center;
+}
+
+.partage__qr img {
+  display: block;
+  margin: 0 auto 0.5rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: #fff;
+  padding: 0.5rem;
+}
+
+.partage__qr figcaption {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.partage__qr-vide {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  color: var(--muted);
+  font-size: 0.85rem;
 }

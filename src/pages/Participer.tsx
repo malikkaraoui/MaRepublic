@@ -3,7 +3,7 @@
 // Zéro identité, profil gardé en local. Spec : docs/superpowers/specs/
 // 2026-07-11-participer-aiguilleur-design.md
 
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { axesFiches } from '../lib/fiches'
 import { familleDeOnglet, FAMILLES, famille as familleParSlug } from '../lib/familles'
@@ -95,9 +95,9 @@ function actionPourVerbe(verbe: Motivation, slug: string, temps: Temps): Action 
       }
     case 'diffuser':
       return {
-        titre: `Faire connaître les fiches ${nom}`,
-        sous: `Confiez une fiche à votre IA ou partagez-la autour de vous. ${dose}`,
-        to,
+        titre: `Faire connaître ${nom}`,
+        sous: 'Un lien, un QR code, le partage en un geste : amenez du monde au débat.',
+        to: `/partager?famille=${slug}`,
       }
   }
 }
@@ -202,6 +202,23 @@ export default function Participer() {
   const [slug, setSlug] = useState<string | null>(null)
   const [niveau, setNiveau] = useState<Niveau | null>(null)
 
+  // À chaque changement d'étape, on ramène la question en haut de l'écran et on
+  // y place le focus : sans ça, la nouvelle question s'affiche hors champ (la
+  // page garde la position de scroll de l'étape précédente).
+  const questionRef = useRef<HTMLLegendElement>(null)
+  const premierRendu = useRef(true)
+  useEffect(() => {
+    if (premierRendu.current) {
+      premierRendu.current = false
+      return
+    }
+    const el = questionRef.current
+    if (el) {
+      el.focus({ preventScroll: true })
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }
+  }, [etape])
+
   // Dès qu'un profil existe (fraîchement rempli ou relu au retour), on montre le
   // résultat. « Refaire » efface le profil ET réinitialise le wizard.
   if (profil) {
@@ -247,7 +264,9 @@ export default function Participer() {
 
         {etape === 0 && (
           <fieldset className="wizard__etape">
-            <legend className="wizard__question">Combien de temps avez-vous, là ?</legend>
+            <legend ref={questionRef} tabIndex={-1} className="wizard__question">
+              Combien de temps avez-vous, là ?
+            </legend>
             <div className="wizard__options">
               {TEMPS.map((t) => (
                 <button
@@ -266,7 +285,9 @@ export default function Participer() {
 
         {etape === 1 && (
           <fieldset className="wizard__etape">
-            <legend className="wizard__question">Quel sujet vous parle ?</legend>
+            <legend ref={questionRef} tabIndex={-1} className="wizard__question">
+              Quel sujet vous parle ?
+            </legend>
             <div className="wizard__familles">
               {FAMILLES.map((f) => (
                 <button
@@ -311,7 +332,9 @@ export default function Participer() {
 
         {etape === 2 && (
           <fieldset className="wizard__etape">
-            <legend className="wizard__question">Vous préférez…</legend>
+            <legend ref={questionRef} tabIndex={-1} className="wizard__question">
+              Vous préférez…
+            </legend>
             <div className="wizard__options">
               {MOTIVATIONS.map((m) => (
                 <button

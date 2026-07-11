@@ -24,6 +24,7 @@ import ViePrivee from './pages/ViePrivee'
 import FeuilleDeRoute from './pages/FeuilleDeRoute'
 import Signaler from './pages/Signaler'
 import Participer from './pages/Participer'
+import Partager from './pages/Partager'
 import NotFound from './pages/NotFound'
 
 export default function App() {
@@ -42,6 +43,7 @@ export default function App() {
           <Route path="vie-privee" element={<ViePrivee />} />
           <Route path="feuille-de-route" element={<FeuilleDeRoute />} />
           <Route path="participer" element={<Participer />} />
+          <Route path="partager" element={<Partager />} />
           <Route path="signaler" element={<Signaler />} />
           <Route path="*" element={<NotFound />} />
         </Route>
