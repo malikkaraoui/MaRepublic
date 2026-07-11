@@ -18,7 +18,7 @@ jobs:
       - name: Présence du compte de service
         id: cle
         run: |
-          if [ -n "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}" ]; then
+          if [ -n "${{ secrets.FIREBASE_SERVICE_ACCOUNT_MAREPUBLIQUE_7ECFC }}" ]; then
             echo "ok=true" >> "$GITHUB_OUTPUT"
           else
             echo "ok=false" >> "$GITHUB_OUTPUT"
@@ -34,5 +34,5 @@ jobs:
       - name: Agrégation des votes
         if: steps.cle.outputs.ok == 'true'
         env:
-          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MAREPUBLIQUE_7ECFC }}
         run: node scripts/maj-compteurs.mjs
