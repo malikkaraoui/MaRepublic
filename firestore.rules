@@ -58,7 +58,8 @@ service cloud.firestore {
         && request.resource.data.type in ['vote', 'commentaire', 'alternative']
         && (
           (request.resource.data.type == 'vote'
-            && request.resource.data.vote in ['pour', 'contre']
+            && request.resource.data.vote in
+              ['pour', 'contre', 'piste-a', 'piste-b', 'piste-c', 'piste-d', 'piste-e']
             && !('texte' in request.resource.data))
           ||
           (request.resource.data.type != 'vote'
@@ -68,6 +69,14 @@ service cloud.firestore {
             && request.resource.data.texte.size() <= 500)
         )
         && request.resource.data.date == request.time;
+    }
+
+    // Compteurs publics : totaux de votes agrégés par le job d'administration
+    // (scripts/maj-compteurs.mjs). Aucune donnée personnelle n'y transite :
+    // seuls les nombres sortent, les réactions individuelles restent fermées.
+    match /compteurs/{docId} {
+      allow read: if true;
+      allow write: if false;
     }
 
     // Registre des empreintes prouvées : alimenté par le site à la connexion.

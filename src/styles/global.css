@@ -1343,6 +1343,13 @@ button {
   font-weight: 600;
 }
 
+.vote--piste.vote--actif {
+  background: #e3f2fd;
+  border-color: #0d47a1;
+  color: #082b60;
+  font-weight: 600;
+}
+
 .fiche__mode-group {
   display: flex;
   gap: 0.4rem;
@@ -1796,6 +1803,13 @@ body {
 
 .fiche__confirmation:empty {
   display: none;
+}
+
+/* Compteur public de votants (agrégé toutes les heures, aucune identité) */
+.fiche__compteur {
+  margin: 0.4rem 0 0;
+  font-size: 0.8rem;
+  color: var(--ink-soft, #555);
 }
 
 .identite--alerte {

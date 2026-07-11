@@ -33,12 +33,22 @@ const axes = readdirSync(dossierChantier)
     const fiches = matches.map((m, i) => {
       const debut = (m.index ?? 0) + m[0].length
       const fin = i + 1 < matches.length ? matches[i + 1].index : brut.length
+      const corpsMarkdown = brut.slice(debut, fin).trim()
+      // Pistes lettrées : quand il y en a >= 2, le vote se fait par piste
+      // (valeurs "piste-a"..."piste-e") plutôt qu'en pour/contre.
+      const lettres = [
+        ...new Set([...corpsMarkdown.matchAll(/\*\*Piste\s+([A-E])\b/g)].map((x) => x[1])),
+      ].sort()
       return {
         id: `axe${numero}-${m[1]}`,
         code: m[1],
         titre: m[2].replace(/🔥/g, '').trim(),
         statut: 'brouillon',
-        corpsMarkdown: brut.slice(debut, fin).trim(),
+        votesPossibles:
+          lettres.length >= 2
+            ? [...lettres.map((l) => `piste-${l.toLowerCase()}`), 'pour', 'contre']
+            : ['pour', 'contre'],
+        corpsMarkdown,
       }
     })
 
@@ -62,7 +72,7 @@ const api = {
     documentation: 'https://marepublique-2027.web.app/llms.txt',
     format: {
       title: '[<ficheId>] <vote|commentaire|alternative> : <résumé court>',
-      body: 'JSON : { "ficheId": "...", "type": "vote|commentaire|alternative", "vote": "pour|contre" (si type=vote), "texte": "..." (sinon), "auteur": "pseudo ou agent" }',
+      body: 'JSON : { "ficheId": "...", "type": "vote|commentaire|alternative", "vote": une valeur de votesPossibles de la fiche (si type=vote), "texte": "..." (sinon), "auteur": "pseudo ou agent" }',
       labels: ['reaction-citoyenne'],
     },
   },

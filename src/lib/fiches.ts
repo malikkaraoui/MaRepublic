@@ -24,6 +24,13 @@ const STATUTS: Record<string, StatutFiche> = {
   '🟥': 'rejete',
 }
 
+export interface Piste {
+  /** Lettre de la piste ("A", "B"...) : la valeur votable est `piste-a`. */
+  lettre: string
+  /** Début de l'intitulé, pour l'infobulle du bouton de vote. */
+  libelle: string
+}
+
 export interface Fiche {
   /** Identifiant stable : "axe4-C1" (sert de clé aux votes/commentaires). */
   id: string
@@ -34,6 +41,8 @@ export interface Fiche {
   corps: string
   /** Avancement : en débat (défaut), en discussion, validé, rejeté. */
   statut: StatutFiche
+  /** Pistes lettrées détectées dans le corps : le vote se fait par piste. */
+  pistes: Piste[]
 }
 
 export interface AxeFiches {
@@ -44,6 +53,27 @@ export interface AxeFiches {
   /** Thème court pour l'onglet ("Souveraineté", "Santé & hôpital"…). */
   theme: string
   fiches: Fiche[]
+}
+
+/**
+ * Détecte les pistes lettrées d'une fiche (« **Piste A, 🇦🇹 Autriche...** »).
+ * Quand une fiche propose plusieurs hypothèses, le vote se fait par piste
+ * plutôt qu'en oui/non. Une seule lettre trouvée = pas un vrai choix,
+ * on retombe sur pour/contre.
+ */
+function extrairePistes(corps: string): Piste[] {
+  const vues = new Map<string, string>()
+  for (const m of corps.matchAll(/\*\*Piste\s+([A-E])\b[\s,:.]*([^*]*)\*\*/g)) {
+    const lettre = m[1]
+    if (!vues.has(lettre)) {
+      const libelle = m[2].replace(/\s+/g, ' ').trim().slice(0, 80)
+      vues.set(lettre, libelle)
+    }
+  }
+  const pistes = [...vues.entries()]
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([lettre, libelle]) => ({ lettre, libelle }))
+  return pistes.length >= 2 ? pistes : []
 }
 
 /** Découpe un document en fiches à partir des titres `### X1. …`. */
@@ -66,6 +96,7 @@ function parseDocument(numero: number, raw: string): AxeFiches {
       titre: m[2].replace(/🔥/g, '').trim(),
       corps,
       statut: (emoji && STATUTS[emoji]) || 'debat',
+      pistes: extrairePistes(corps),
     })
   })
 

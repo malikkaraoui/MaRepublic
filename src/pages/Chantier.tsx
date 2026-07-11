@@ -8,7 +8,8 @@ import { useEffect, useRef, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import Markdown from '../components/Markdown'
 import { axesFiches, type Fiche, type StatutFiche } from '../lib/fiches'
-import { useReaction } from '../lib/reactions'
+import { useReaction, type VoteChoix } from '../lib/reactions'
+import { chargerCompteurs, type Compteurs } from '../lib/compteurs'
 import { identiteCourante, useIdentite } from '../lib/identite'
 import { envoyerAvis } from '../lib/avis'
 import { envoyerLien, seDeconnecter, useUtilisateur } from '../lib/auth'
@@ -113,7 +114,7 @@ function promptMission(fiche: Fiche): string {
     `Mission citoyenne MaRepublic (référence ${ref}).`,
     `1. Lis le mode d'emploi machine : https://marepublique-2027.web.app/llms.txt`,
     `2. Lis la fiche "${fiche.titre}" (id ${fiche.id}) dans https://marepublique-2027.web.app/api/fiches.json`,
-    `3. Explique-moi la fiche simplement, discute-la avec moi, puis demande-moi : pour, contre, commentaire ou alternative ?`,
+    `3. Explique-moi la fiche simplement, discute-la avec moi, puis demande-moi mon vote : si la fiche propose des pistes lettrées, quelle piste je choisis (vote "piste-a", "piste-b"...) ; sinon pour ou contre ; et un commentaire ou une alternative si j'en ai.`,
     identiteConnue
       ? `4. Envoie MA décision via l'API (canal "api"), signée agent:"<ton-modele>/${ref}", avec mon pseudo "${pseudo.trim()}" et mon email "${email.trim()}" (je consens à cette transmission en mon nom).`
       : `4. Envoie MA décision via l'API (canal "api"), signée agent:"<ton-modele>/${ref}", avec mon pseudo et mon email que je vais te donner.`,
@@ -121,7 +122,36 @@ function promptMission(fiche: Fiche): string {
   ].join('\n')
 }
 
-function CarteFiche({ fiche, identiteValide }: { fiche: Fiche; identiteValide: boolean }) {
+/** Libellé humain d'un choix de vote (« piste-a » → « Piste A »). */
+function libelleChoix(choix: string): string {
+  const piste = choix.match(/^piste-([a-e])$/)?.[1]
+  return piste ? `Piste ${piste.toUpperCase()}` : choix
+}
+
+// Hook module-level : compteurs publics chargés une fois pour toute la page.
+function useCompteurs(): Compteurs | null {
+  const [compteurs, setCompteurs] = useState<Compteurs | null>(null)
+  useEffect(() => {
+    let actif = true
+    void chargerCompteurs().then((c) => {
+      if (actif) setCompteurs(c)
+    })
+    return () => {
+      actif = false
+    }
+  }, [])
+  return compteurs
+}
+
+function CarteFiche({
+  fiche,
+  identiteValide,
+  compteurs,
+}: {
+  fiche: Fiche
+  identiteValide: boolean
+  compteurs: Compteurs | null
+}) {
   const { reaction, voter, commenter } = useReaction(fiche.id)
   const [ouvert, setOuvert] = useState(false)
   const [mode, setMode] = useState<'commentaire' | 'alternative'>('commentaire')
@@ -146,13 +176,13 @@ function CarteFiche({ fiche, identiteValide }: { fiche: Fiche; identiteValide: b
   }
 
   // Vote : bascule locale + envoi Firestore (sauf annulation d'un vote).
-  const voterEtEnvoyer = (v: 'pour' | 'contre') => {
+  const voterEtEnvoyer = (v: VoteChoix) => {
     if (!identiteValide) {
       rappelerIdentite()
       return
     }
     const annulation = reaction.vote === v
-    voter(v)
+    voter(annulation ? null : v)
     if (!annulation) void envoyerAvis({ ficheId: fiche.id, type: 'vote', vote: v })
   }
 
@@ -186,12 +216,39 @@ function CarteFiche({ fiche, identiteValide }: { fiche: Fiche; identiteValide: b
       </details>
 
       <div className="fiche__actions">
+        {fiche.pistes.map(({ lettre, libelle }) => {
+          const choix = `piste-${lettre.toLowerCase()}` as VoteChoix
+          return (
+            <button
+              key={choix}
+              type="button"
+              className={`vote vote--piste${reaction.vote === choix ? ' vote--actif' : ''}`}
+              onClick={() => voterEtEnvoyer(choix)}
+              aria-pressed={reaction.vote === choix}
+              title={
+                identiteValide
+                  ? libelle
+                    ? `Je choisis la piste ${lettre} : ${libelle}`
+                    : `Je choisis la piste ${lettre}`
+                  : 'Renseignez pseudo et email en haut de page'
+              }
+            >
+              <span aria-hidden="true">🗳️</span> Piste {lettre}
+            </button>
+          )
+        })}
         <button
           type="button"
           className={`vote vote--pour${reaction.vote === 'pour' ? ' vote--actif' : ''}`}
           onClick={() => voterEtEnvoyer('pour')}
           aria-pressed={reaction.vote === 'pour'}
-          title={identiteValide ? 'Pour cette mesure' : 'Renseignez pseudo et email en haut de page'}
+          title={
+            identiteValide
+              ? fiche.pistes.length
+                ? 'Pour, sans préférence entre les pistes'
+                : 'Pour cette mesure'
+              : 'Renseignez pseudo et email en haut de page'
+          }
         >
           <span aria-hidden="true">👍</span> Pour
         </button>
@@ -234,9 +291,25 @@ function CarteFiche({ fiche, identiteValide }: { fiche: Fiche; identiteValide: b
 
       <p className="fiche__confirmation" aria-live="polite">
         {reaction.vote
-          ? `✓ Votre vote « ${reaction.vote} » est enregistré et transmis.`
+          ? `✓ Votre vote « ${libelleChoix(reaction.vote)} » est enregistré et transmis.`
           : ''}
       </p>
+
+      {(() => {
+        const compteur = compteurs?.parFiche[fiche.id]
+        if (!compteur?.total) return null
+        const detail = Object.entries(compteur.parChoix)
+          .filter(([, n]) => n > 0)
+          .sort(([a], [b]) => a.localeCompare(b))
+          .map(([choix, n]) => `${libelleChoix(choix)} ${n}`)
+          .join(' · ')
+        return (
+          <p className="fiche__compteur">
+            🗳️ {compteur.total} votant{compteur.total > 1 ? 's' : ''}
+            {detail ? ` : ${detail}` : ''}
+          </p>
+        )
+      })()}
 
       <div className="fiche__saisie">
         <label htmlFor={`textarea-${fiche.id}`} className="visually-hidden">
@@ -324,6 +397,7 @@ function Sommaire() {
   const problemes = axesFiches.filter((a) => a.numero > 5)
   const global = compter(axesFiches.flatMap((a) => a.fiches))
   const total = axesFiches.reduce((n, a) => n + a.fiches.length, 0)
+  const compteurs = useCompteurs()
 
   const carte = (a: (typeof axesFiches)[number]) => {
     const c = compter(a.fiches)
@@ -374,6 +448,15 @@ function Sommaire() {
               <span className="dash__libelle">{s.libelle}</span>
             </div>
           ))}
+          <div className="dash__tuile" role="listitem">
+            <span className="dash__nombre">🗳️ {compteurs?.totalVotants ?? '…'}</span>
+            <span className="dash__libelle">
+              votant{(compteurs?.totalVotants ?? 0) > 1 ? 's' : ''}
+              {compteurs?.majDate
+                ? ` (compté ${new Date(compteurs.majDate).toLocaleString('fr-FR', { day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit' })})`
+                : ''}
+            </span>
+          </div>
         </div>
       </section>
 
@@ -399,6 +482,7 @@ export default function Chantier() {
   const scrollContainerRef = useRef<HTMLDivElement>(null)
   const utilisateur = useUtilisateur()
   const { identite } = useIdentite()
+  const compteursPage = useCompteurs()
   // Réagir exige un email PROUVÉ (connexion par lien) + un pseudo.
   const valide = Boolean(utilisateur) && identite.pseudo.trim().length >= 2
 
@@ -537,7 +621,7 @@ export default function Chantier() {
                   (f.titre + ' ' + f.corps).toLowerCase().includes(recherche.trim().toLowerCase()),
               )
               .map((f) => (
-                <CarteFiche key={f.id} fiche={f} identiteValide={valide} />
+                <CarteFiche key={f.id} fiche={f} identiteValide={valide} compteurs={compteursPage} />
               ))}
           </section>
         </>

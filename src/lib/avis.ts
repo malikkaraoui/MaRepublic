@@ -17,9 +17,10 @@ import { getAuth } from 'firebase/auth'
 import { getFirebaseApp } from './firebase'
 import { identiteCourante, identiteValide } from './identite'
 import { empreinteEmail } from './empreinte'
+import type { VoteChoix } from './reactions'
 
 export type AvisPayload =
-  | { ficheId: string; type: 'vote'; vote: 'pour' | 'contre' }
+  | { ficheId: string; type: 'vote'; vote: VoteChoix }
   | { ficheId: string; type: 'commentaire' | 'alternative'; texte: string }
 
 /**

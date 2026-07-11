@@ -7,7 +7,17 @@
 
 import { useCallback, useSyncExternalStore } from 'react'
 
-export type Vote = 'pour' | 'contre' | null
+/** Choix de vote : oui/non, ou une piste lettrée quand la fiche en propose. */
+export type VoteChoix =
+  | 'pour'
+  | 'contre'
+  | 'piste-a'
+  | 'piste-b'
+  | 'piste-c'
+  | 'piste-d'
+  | 'piste-e'
+
+export type Vote = VoteChoix | null
 
 export interface Commentaire {
   /** 'commentaire' = réaction libre ; 'alternative' = contre-proposition. */
