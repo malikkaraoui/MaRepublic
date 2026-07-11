@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
     "deploy": "npm run build && firebase deploy --only hosting",
-    "a11y": "node scripts/audit-a11y.mjs"
+    "a11y": "node scripts/audit-a11y.mjs",
+    "test": "node scripts/smoke-test.mjs"
   },
   "dependencies": {
     "claude-atelier": "^0.28.2",
