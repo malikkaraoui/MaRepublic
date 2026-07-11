@@ -1,0 +1,38 @@
+# Met à jour les compteurs publics de votes (document Firestore
+# `compteurs/global`) toutes les heures. Les réactions individuelles
+# restent fermées : seuls les totaux sortent.
+name: Compteurs de votes
+
+on:
+  schedule:
+    - cron: '7 * * * *'
+  workflow_dispatch:
+
+jobs:
+  agreger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout du dépôt
+        uses: actions/checkout@v4
+
+      - name: Présence du compte de service
+        id: cle
+        run: |
+          if [ -n "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}" ]; then
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+            echo "Secret FIREBASE_SERVICE_ACCOUNT absent : étape sautée proprement."
+          fi
+
+      - name: Installation de Node.js
+        if: steps.cle.outputs.ok == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Agrégation des votes
+        if: steps.cle.outputs.ok == 'true'
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: node scripts/maj-compteurs.mjs
