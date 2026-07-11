@@ -114,6 +114,11 @@ button {
   outline-offset: 3px;
 }
 
+/* Sur fond encre, le halo de focus passe au papier pour rester lisible. */
+.site-footer :focus-visible {
+  outline-color: var(--paper);
+}
+
 /* --- Coquille & hairline tricolore ------------------------------------ */
 .app-shell {
   display: flex;
@@ -161,8 +166,7 @@ button {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(255, 255, 255, 0.92);
-  backdrop-filter: saturate(180%) blur(8px);
+  background: var(--paper);
   border-bottom: 1px solid var(--rule);
 }
 
