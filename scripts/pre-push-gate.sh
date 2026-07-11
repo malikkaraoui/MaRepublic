@@ -82,6 +82,20 @@ if git diff HEAD 2>/dev/null | grep -iEq "$SECRET_PATTERNS"; then
     warn "Pattern suspect detecte dans les changements non staged. Verifier avant push."
 fi
 
+# Filet full-tree : un secret DEJA commite (hors diff) doit aussi bloquer le push.
+# Le scan de diff ci-dessus rate les clés introduites lors d'un commit anterieur
+# et jamais re-touchees (cas de la clé web Firebase du 10/07). On rescanne donc
+# TOUT l'arbre tracké, mais uniquement sur des formats de clés à haute confiance,
+# pour éviter les faux positifs des mots génériques (api_key, password...).
+HARDSECRET='(sk-[a-zA-Z0-9]{20,}|AIza[a-zA-Z0-9_-]{35}|AKIA[A-Z0-9]{16}|ghp_[a-zA-Z0-9]{36}|gho_[a-zA-Z0-9]{36}|ya29\.[a-zA-Z0-9_-]+|-----BEGIN (RSA|OPENSSH|EC) PRIVATE KEY-----)'
+if git grep -InE "$HARDSECRET" -- ':!scripts/pre-push-gate.sh' 2>/dev/null | grep -q .; then
+    echo ""
+    git grep -InE "$HARDSECRET" -- ':!scripts/pre-push-gate.sh' 2>/dev/null \
+        | sed -E 's/(AIza|AKIA|sk-|ghp_|gho_)[A-Za-z0-9_-]+/\1…[masque]/g' | head -20
+    echo ""
+    fail "SECRET present dans un fichier tracke (hors diff). Rotation + purge necessaires."
+fi
+
 pass "Aucun secret detecte"
 
 # ─── 2/5 Tracked sensitive files ─────────────────────────────────────────────

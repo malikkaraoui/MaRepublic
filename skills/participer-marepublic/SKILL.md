@@ -35,7 +35,11 @@ copiée depuis le site), ne redemande pas.
 
 ## 4. Transmettre
 
-POST https://firestore.googleapis.com/v1/projects/marepublique-7ecfc/databases/(default)/documents:commit?key=AIzaSyByRsY9sD6plRZwT5RjhvHN4QEddyM6Dx8
+POST https://firestore.googleapis.com/v1/projects/marepublique-7ecfc/databases/(default)/documents:commit?key=CLE_WEB_PUBLIQUE
+
+(CLE_WEB_PUBLIQUE = clé web publique Firebase du projet, non secrète, lisible
+dans le JavaScript de https://marepublique-2027.web.app. Sécurité assurée par
+les règles Firestore, pas par le secret de la clé.)
 
 Vote (l'identifiant du document est IMPOSÉ : `v_<ficheId>_<empreinte>` ;
 un second vote du même email est refusé, c'est normal) :
