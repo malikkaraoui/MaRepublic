@@ -233,7 +233,7 @@ function CarteFiche({
                   : 'Renseignez pseudo et email en haut de page'
               }
             >
-              <span aria-hidden="true">🗳️</span> Piste {lettre}
+              <span aria-hidden="true">◈</span> Piste {lettre}
             </button>
           )
         })}
@@ -250,7 +250,7 @@ function CarteFiche({
               : 'Renseignez pseudo et email en haut de page'
           }
         >
-          <span aria-hidden="true">👍</span> Pour
+          <span aria-hidden="true">✓</span> Pour
         </button>
         <button
           type="button"
@@ -259,7 +259,7 @@ function CarteFiche({
           aria-pressed={reaction.vote === 'contre'}
           title={identiteValide ? 'Contre cette mesure' : 'Renseignez pseudo et email en haut de page'}
         >
-          <span aria-hidden="true">👎</span> Contre
+          <span aria-hidden="true">✕</span> Contre
         </button>
         <div className="fiche__mode-group">
           <button

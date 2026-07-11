@@ -1431,6 +1431,19 @@ button {
   transform: scale(0.98);
 }
 
+/* État de repos parlant : Pour vert léger, Contre rouge léger. */
+.vote--pour {
+  background: #eef6ee;
+  border-color: #2d7a2d;
+  color: #1b5e20;
+}
+
+.vote--contre {
+  background: #fbecef;
+  border-color: #c8102e;
+  color: #8a0f24;
+}
+
 .vote--pour.vote--actif {
   background: #e8f5e9;
   border-color: #1b5e20;
