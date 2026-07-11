@@ -1052,6 +1052,7 @@ button {
   .fiche__mode-btn {
     width: 100%;
     justify-content: center;
+    min-height: 44px;
   }
 
   .fiche__mode-group {
@@ -1306,7 +1307,7 @@ button {
   font: inherit;
   font-size: 0.8rem;
   font-weight: 500;
-  padding: 0.4rem 0.75rem;
+  padding: 0.5rem 1rem;
   border: 1.5px solid var(--rule-strong);
   border-radius: 20px;
   background: var(--paper);
@@ -1316,7 +1317,7 @@ button {
   display: inline-flex;
   align-items: center;
   gap: 0.3rem;
-  min-height: 2rem;
+  min-height: 44px;
   touch-action: manipulation;
 }
 
@@ -1361,7 +1362,7 @@ button {
   font: inherit;
   font-size: 0.8rem;
   font-weight: 500;
-  padding: 0.4rem 0.75rem;
+  padding: 0.5rem 1rem;
   border: 1.5px solid var(--rule-strong);
   border-radius: 20px;
   background: var(--paper);
@@ -1371,7 +1372,7 @@ button {
   display: inline-flex;
   align-items: center;
   gap: 0.3rem;
-  min-height: 2rem;
+  min-height: 44px;
   white-space: nowrap;
   touch-action: manipulation;
 }
@@ -1443,7 +1444,7 @@ button {
   color: var(--paper);
   cursor: pointer;
   transition: all 0.15s ease;
-  min-height: 2rem;
+  min-height: 44px;
   white-space: nowrap;
   touch-action: manipulation;
 }
@@ -1753,13 +1754,13 @@ button {
   font: inherit;
   font-family: var(--sans);
   font-size: 0.78rem;
-  padding: 0.45rem 0.8rem;
+  padding: 0.5rem 1rem;
   border: 1px solid var(--rule-strong);
   border-radius: 999px;
   background: var(--paper);
   color: var(--ink-soft);
   cursor: pointer;
-  min-height: 36px;
+  min-height: 44px;
 }
 
 .filtres__chip--actif {
