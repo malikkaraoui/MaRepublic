@@ -15,13 +15,15 @@ export interface CompteurFiche {
 
 export interface Compteurs {
   parFiche: Record<string, CompteurFiche>
+  /** Votes exprimés au total (1 personne peut voter sur plusieurs fiches). */
+  totalVotes: number
   /** Personnes distinctes ayant voté au moins une fois, tout le site. */
   totalVotants: number
   /** Date de la dernière agrégation (ISO), affichée pour l'honnêteté. */
   majDate: string | null
 }
 
-const VIDE: Compteurs = { parFiche: {}, totalVotants: 0, majDate: null }
+const VIDE: Compteurs = { parFiche: {}, totalVotes: 0, totalVotants: 0, majDate: null }
 
 let promesse: Promise<Compteurs> | null = null
 
@@ -64,6 +66,7 @@ export function chargerCompteurs(): Promise<Compteurs> {
       }
       return {
         parFiche,
+        totalVotes: Number(f.totalVotes ?? 0),
         totalVotants: Number(f.totalVotants ?? 0),
         majDate: (f.majDate as string) ?? null,
       }

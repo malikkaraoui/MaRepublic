@@ -531,9 +531,12 @@ function Sommaire() {
             </div>
           ))}
           <div className="dash__tuile" role="listitem">
-            <span className="dash__nombre">🗳️ {compteurs?.totalVotants ?? '…'}</span>
+            <span className="dash__nombre">🗳️ {compteurs?.totalVotes ?? '…'}</span>
             <span className="dash__libelle">
-              votant{(compteurs?.totalVotants ?? 0) > 1 ? 's' : ''}
+              vote{(compteurs?.totalVotes ?? 0) > 1 ? 's' : ''} exprimé
+              {(compteurs?.totalVotes ?? 0) > 1 ? 's' : ''}
+              {' '}par {compteurs?.totalVotants ?? 0} votant
+              {(compteurs?.totalVotants ?? 0) > 1 ? 's' : ''}
               {compteurs?.majDate
                 ? ` (compté ${new Date(compteurs.majDate).toLocaleString('fr-FR', { day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit' })})`
                 : ''}
