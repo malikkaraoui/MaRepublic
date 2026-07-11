@@ -22,8 +22,8 @@
   --bleu: #0a3d91;
   --rouge: #c8102e;
 
-  --sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --serif: 'Newsreader', Georgia, 'Times New Roman', serif;
+  --sans: 'Archivo', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --serif: 'Spectral', Georgia, 'Times New Roman', serif;
 
   --page-max: 72rem;
   --reading-max: 44rem;
