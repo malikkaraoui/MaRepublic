@@ -135,8 +135,8 @@ export default function Home() {
             </article>
           </div>
           <div className="hero__actions">
-            <Link to="/chantier" className="button button--primary">
-              Choisir un sujet et participer
+            <Link to="/participer" className="button button--primary">
+              Trouver ma façon d'aider
             </Link>
           </div>
         </div>

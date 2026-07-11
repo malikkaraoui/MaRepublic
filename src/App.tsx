@@ -6,6 +6,7 @@
 //   /programme/:slug     Detail d'un axe
 //   /chantier            Chantier, debat ouvert
 //   /accessibilite       Declaration d'accessibilite
+//   /participer          Aiguilleur : 3 questions -> ou aider
 //   /signaler            Signaler un souci (zero friction, sans compte)
 //   *                    404
 
@@ -22,6 +23,7 @@ import GardeFous from './pages/GardeFous'
 import ViePrivee from './pages/ViePrivee'
 import FeuilleDeRoute from './pages/FeuilleDeRoute'
 import Signaler from './pages/Signaler'
+import Participer from './pages/Participer'
 import NotFound from './pages/NotFound'
 
 export default function App() {
@@ -39,6 +41,7 @@ export default function App() {
           <Route path="garde-fous" element={<GardeFous />} />
           <Route path="vie-privee" element={<ViePrivee />} />
           <Route path="feuille-de-route" element={<FeuilleDeRoute />} />
+          <Route path="participer" element={<Participer />} />
           <Route path="signaler" element={<Signaler />} />
           <Route path="*" element={<NotFound />} />
         </Route>

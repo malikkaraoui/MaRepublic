@@ -5,12 +5,13 @@
 // Rien ici n'est une position figée du mouvement : c'est la matière à débat.
 
 import { useEffect, useRef, useState } from 'react'
-import { Link, useNavigate, useParams } from 'react-router-dom'
+import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import Markdown from '../components/Markdown'
 import { axesFiches, type Fiche, type StatutFiche } from '../lib/fiches'
 import { useReaction, type VoteChoix } from '../lib/reactions'
 import { chargerCompteurs, type Compteurs } from '../lib/compteurs'
 import { identiteCourante, useIdentite } from '../lib/identite'
+import { familleDeOnglet, famille as familleParSlug } from '../lib/familles'
 import { envoyerAvis } from '../lib/avis'
 import { envoyerLien, seDeconnecter, useUtilisateur } from '../lib/auth'
 
@@ -475,8 +476,16 @@ function compter(fiches: Fiche[]): Record<StatutFiche, number> {
 
 // Sommaire du chantier : tableau de bord + tous les sujets, en clair.
 function Sommaire() {
-  const programme = axesFiches.filter((a) => a.numero <= 5)
-  const problemes = axesFiches.filter((a) => a.numero > 5)
+  // Filtre par famille thématique (arrivée depuis /participer) : on ne montre
+  // que les onglets de cette famille, avec une bannière et un « voir tout ».
+  const [params, setParams] = useSearchParams()
+  const familleFiltre = params.get('famille')
+  const famActive = familleFiltre ? familleParSlug(familleFiltre) : undefined
+  const dansFamille = (a: (typeof axesFiches)[number]) =>
+    !familleFiltre || familleDeOnglet(a.numero) === familleFiltre
+
+  const programme = axesFiches.filter((a) => a.numero <= 5 && dansFamille(a))
+  const problemes = axesFiches.filter((a) => a.numero > 5 && dansFamille(a))
   const global = compter(axesFiches.flatMap((a) => a.fiches))
   const total = axesFiches.reduce((n, a) => n + a.fiches.length, 0)
   const compteurs = useCompteurs()
@@ -545,18 +554,45 @@ function Sommaire() {
         </div>
       </section>
 
-      <section aria-labelledby="sommaire-programme">
-        <h2 id="sommaire-programme">Le programme : 5 axes de travail</h2>
-        <p className="sommaire__note">Les mesures que le mouvement propose, importées de pays où elles fonctionnent.</p>
-        <div className="sommaire__grille">{programme.map(carte)}</div>
-      </section>
-      <section aria-labelledby="sommaire-problemes">
-        <h2 id="sommaire-problemes">Les problèmes : {problemes.length} groupes de travail</h2>
-        <p className="sommaire__note">
-          Les problèmes réels de la France (2016-2026), documentés et sourcés, avec plusieurs pistes chacun : à vous de juger.
-        </p>
-        <div className="sommaire__grille">{problemes.map(carte)}</div>
-      </section>
+      {famActive && (
+        <div className="sommaire__filtre" role="status">
+          <span>
+            Filtré sur <strong>{famActive.emoji} {famActive.libelle}</strong> :{' '}
+            {programme.length + problemes.length} sujet
+            {programme.length + problemes.length > 1 ? 's' : ''}.
+          </span>
+          <button
+            type="button"
+            className="sommaire__filtre-clear"
+            onClick={() => setParams({}, { replace: true })}
+          >
+            Voir tout le chantier
+          </button>
+        </div>
+      )}
+
+      {programme.length > 0 && (
+        <section aria-labelledby="sommaire-programme">
+          <h2 id="sommaire-programme">
+            {famActive ? 'Le programme' : 'Le programme : 5 axes de travail'}
+          </h2>
+          <p className="sommaire__note">Les mesures que le mouvement propose, importées de pays où elles fonctionnent.</p>
+          <div className="sommaire__grille">{programme.map(carte)}</div>
+        </section>
+      )}
+      {problemes.length > 0 && (
+        <section aria-labelledby="sommaire-problemes">
+          <h2 id="sommaire-problemes">
+            {famActive
+              ? `Les problèmes : ${problemes.length} groupe${problemes.length > 1 ? 's' : ''} de travail`
+              : `Les problèmes : ${problemes.length} groupes de travail`}
+          </h2>
+          <p className="sommaire__note">
+            Les problèmes réels de la France (2016-2026), documentés et sourcés, avec plusieurs pistes chacun : à vous de juger.
+          </p>
+          <div className="sommaire__grille">{problemes.map(carte)}</div>
+        </section>
+      )}
     </div>
   )
 }

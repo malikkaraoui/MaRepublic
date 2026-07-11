@@ -2032,3 +2032,320 @@ body {
 .identite__info--erreur {
   color: var(--rouge);
 }
+
+/* ─── Aiguilleur /participer ───────────────────────────────────────────────
+   Wizard 3 questions puis 1 action principale + 2 secondaires. Sobre, cibles
+   44px, focus encre hérité du global, jamais la couleur seule. */
+.wizard {
+  max-width: 46rem;
+  margin: 1.5rem 0;
+}
+
+.wizard__progression {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin: 0 0 0.75rem;
+}
+
+.wizard__etape {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.wizard__question {
+  font-family: var(--serif);
+  font-size: 1.4rem;
+  line-height: 1.25;
+  color: var(--ink);
+  padding: 0;
+  margin: 0 0 1rem;
+}
+
+.wizard__question--sous {
+  font-size: 1.1rem;
+  margin: 1.25rem 0 0.75rem;
+}
+
+.wizard__options {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.wizard__options--ligne {
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
+
+@media (max-width: 540px) {
+  .wizard__options--ligne {
+    grid-auto-flow: row;
+  }
+}
+
+.wizard__option {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  text-align: left;
+  font: inherit;
+  padding: 0.85rem 1rem;
+  min-height: 44px;
+  border: 1.5px solid var(--rule-strong);
+  border-radius: var(--radius);
+  background: var(--paper);
+  color: var(--ink);
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease;
+  touch-action: manipulation;
+}
+
+.wizard__option:hover {
+  border-color: var(--ink);
+  background: var(--paper-alt);
+}
+
+.wizard__option--compact {
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+}
+
+.wizard__option-titre {
+  font-weight: 600;
+}
+
+.wizard__option-sous {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.wizard__familles {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.6rem;
+}
+
+@media (max-width: 540px) {
+  .wizard__familles {
+    grid-template-columns: 1fr;
+  }
+}
+
+.wizard__famille {
+  font: inherit;
+  font-weight: 500;
+  text-align: left;
+  padding: 0.85rem 1rem;
+  min-height: 44px;
+  border: 1.5px solid var(--rule-strong);
+  border-radius: var(--radius);
+  background: var(--paper);
+  color: var(--ink);
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease;
+  touch-action: manipulation;
+}
+
+.wizard__famille:hover {
+  border-color: var(--ink);
+  background: var(--paper-alt);
+}
+
+.wizard__famille--actif {
+  border-color: var(--bleu);
+  background: #eef2fb;
+  font-weight: 600;
+}
+
+.wizard__retour {
+  margin-top: 1.25rem;
+  font: inherit;
+  font-size: 0.85rem;
+  color: var(--muted);
+  background: none;
+  border: none;
+  padding: 0.5rem 0;
+  min-height: 44px;
+  cursor: pointer;
+}
+
+.wizard__retour:hover {
+  color: var(--ink);
+  text-decoration: underline;
+}
+
+/* Résultat */
+.participer__recap {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.participer__resultat {
+  max-width: 46rem;
+}
+
+.participer__principale {
+  display: block;
+  position: relative;
+  padding: 1.4rem 3rem 1.4rem 1.4rem;
+  border: 2px solid var(--ink);
+  border-radius: var(--radius);
+  background: var(--ink);
+  color: var(--paper);
+  text-decoration: none;
+  transition: background 0.15s ease;
+}
+
+.participer__principale:hover {
+  background: var(--ink-soft);
+}
+
+.participer__principale-titre {
+  display: block;
+  font-family: var(--serif);
+  font-size: 1.3rem;
+  line-height: 1.25;
+  font-weight: 600;
+}
+
+.participer__principale-sous {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+.participer__principale-fleche {
+  position: absolute;
+  right: 1.2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.5rem;
+}
+
+.participer__aussi {
+  margin: 1.5rem 0 0.6rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.participer__secondaires {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.participer__secondaire {
+  display: block;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius);
+  background: var(--paper);
+  color: var(--ink);
+  text-decoration: none;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.participer__secondaire:hover {
+  border-color: var(--ink);
+  background: var(--paper-alt);
+}
+
+.participer__secondaire-titre {
+  display: block;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.participer__secondaire-sous {
+  display: block;
+  margin-top: 0.15rem;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.participer__atelier {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border: 1px dashed var(--rule-strong);
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.participer__interet {
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  min-height: 44px;
+  border: 1.5px solid var(--rule-strong);
+  border-radius: var(--radius);
+  background: var(--paper);
+  color: var(--ink);
+  cursor: pointer;
+  white-space: nowrap;
+  touch-action: manipulation;
+}
+
+.participer__interet--actif {
+  border-color: #1b5e20;
+  background: #e8f5e9;
+  color: #0d3817;
+}
+
+.participer__recommencer {
+  margin-top: 1.5rem;
+  font: inherit;
+  font-size: 0.85rem;
+  color: var(--muted);
+  background: none;
+  border: none;
+  padding: 0.5rem 0;
+  min-height: 44px;
+  cursor: pointer;
+}
+
+.participer__recommencer:hover {
+  color: var(--ink);
+  text-decoration: underline;
+}
+
+/* Bannière de filtre famille sur le sommaire du chantier */
+.sommaire__filtre {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  justify-content: space-between;
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius);
+  background: var(--paper-alt);
+  font-size: 0.9rem;
+}
+
+.sommaire__filtre-clear {
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--bleu);
+  background: none;
+  border: none;
+  padding: 0.5rem 0;
+  min-height: 44px;
+  cursor: pointer;
+}
+
+.sommaire__filtre-clear:hover {
+  text-decoration: underline;
+}
