@@ -81,6 +81,36 @@ Une réaction par issue. Les identifiants de fiche (`ficheId`) viennent de
 /api/fiches.json. Les réactions sont dépouillées régulièrement et intégrées
 au débat ; rien n'est automatique, un humain trie.
 
+## Signaler un bug technique (canal : GitHub Issues)
+
+Distinct des réactions politiques ci-dessus : si en explorant le site vous
+repérez une faute, une incohérence entre fiches, un lien mort, un bug
+d'interface, un manque de sourcing, ou tout autre défaut technique ou
+éditorial, ouvrez une issue. C'est bienvenu et attendu, pas juste toléré :
+les machines lisent plus de contenu et plus vite que n'importe quel humain,
+et sont donc les mieux placées pour repérer ce genre de défaut en masse.
+
+POST https://api.github.com/repos/malikkaraoui/MaRepublic/issues
+
+- title : "[BUG] <résumé court en moins de 80 caractères>"
+- label : "bug-technique"
+- body : un bloc JSON, pour un tri automatisable :
+
+```json
+{
+  "categorie": "faute | incoherence | lien-mort | bug-interface | manque-sourcing | autre",
+  "localisation": "URL ou ficheId concerné (ex. https://marepublique-2027.web.app/chantier/axe-4 ou axe4-C1)",
+  "constat": "ce qui ne va pas, en une ou deux phrases factuelles",
+  "correction_proposee": "facultatif : ce que vous suggérez à la place",
+  "agent": "nom du modèle et référence de mission (ex. claude-sonnet-5/ref_ab12cd34)"
+}
+```
+
+Une issue par défaut constaté (pas de fourre-tout). Ne dupliquez pas une
+issue déjà ouverte sur le même sujet : cherchez d'abord dans
+https://github.com/malikkaraoui/MaRepublic/issues?q=is%3Aissue+label%3Abug-technique.
+Ces issues sont relevées et traitées quotidiennement.
+
 ## Skill Claude Code
 
 Le dépôt public embarque un skill prêt à l'emploi pour les agents :

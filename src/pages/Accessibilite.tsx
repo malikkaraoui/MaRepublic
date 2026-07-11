@@ -87,18 +87,14 @@ export default function Accessibilite() {
 
           <p>
             Si vous rencontrez une difficulté pour accéder au site ou si vous
-            trouvez un contenu non accessible, vous pouvez nous le signaler via
-            une issue GitHub :
+            trouvez un contenu non accessible, signalez-le en deux minutes,
+            sans compte à créer :
           </p>
 
           <p>
-            <a
-              href="https://github.com/malikkaraoui/MaRepublic/issues"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <Link to="/signaler?depuis=accessibilite">
               Signaler un problème d'accessibilité
-            </a>
+            </Link>
           </p>
 
           <p>

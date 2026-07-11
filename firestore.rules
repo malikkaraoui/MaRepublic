@@ -79,6 +79,25 @@ service cloud.firestore {
       allow write: if false;
     }
 
+    // Signalements techniques (bug, incohérence, contenu manquant) : zéro
+    // friction assumé, donc anonyme, sans compte ni pseudo. Contrepartie
+    // acceptée : lecture fermée (pas de scraping), pas de modification
+    // possible une fois envoyé, bornes de taille pour limiter l'abus.
+    match /signalements/{id} {
+      allow read: if false;
+      allow update, delete: if false;
+      allow create: if
+        request.resource.data.keys().hasOnly(['message', 'page', 'contact', 'date'])
+        && request.resource.data.message is string
+        && request.resource.data.message.size() >= 5
+        && request.resource.data.message.size() <= 1000
+        && (!('page' in request.resource.data)
+          || (request.resource.data.page is string && request.resource.data.page.size() <= 200))
+        && (!('contact' in request.resource.data)
+          || (request.resource.data.contact is string && request.resource.data.contact.size() <= 200))
+        && request.resource.data.date == request.time;
+    }
+
     // Registre des empreintes prouvées : alimenté par le site à la connexion.
     // On ne peut ancrer QUE l'empreinte de son propre email (hachage vérifié
     // par le serveur) : impossible d'ancrer des empreintes fabriquées.

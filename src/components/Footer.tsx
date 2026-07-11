@@ -47,13 +47,7 @@ export default function Footer() {
           <nav className="site-footer__col" aria-label="Accès">
             <p className="site-footer__col-title">Accès</p>
             <Link to="/accessibilite">Accessibilité</Link>
-            <a
-              href="https://github.com/malikkaraoui/MaRepublic/issues"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Signaler un souci
-            </a>
+            <Link to="/signaler?depuis=footer">Signaler un souci</Link>
             <a
               href="https://github.com/malikkaraoui/MaRepublic"
               target="_blank"

@@ -6,6 +6,7 @@
 //   /programme/:slug     Detail d'un axe
 //   /chantier            Chantier, debat ouvert
 //   /accessibilite       Declaration d'accessibilite
+//   /signaler            Signaler un souci (zero friction, sans compte)
 //   *                    404
 
 import { Route, Routes } from 'react-router-dom'
@@ -20,6 +21,7 @@ import Accessibilite from './pages/Accessibilite'
 import GardeFous from './pages/GardeFous'
 import ViePrivee from './pages/ViePrivee'
 import FeuilleDeRoute from './pages/FeuilleDeRoute'
+import Signaler from './pages/Signaler'
 import NotFound from './pages/NotFound'
 
 export default function App() {
@@ -37,6 +39,7 @@ export default function App() {
           <Route path="garde-fous" element={<GardeFous />} />
           <Route path="vie-privee" element={<ViePrivee />} />
           <Route path="feuille-de-route" element={<FeuilleDeRoute />} />
+          <Route path="signaler" element={<Signaler />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

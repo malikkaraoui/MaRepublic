@@ -1,6 +1,8 @@
 // Page Vie privée : ce qu'on stocke, pourquoi, et comment l'effacer.
 // Langage clair, conforme à la doctrine de transparence du mouvement.
 
+import { Link } from 'react-router-dom'
+
 export default function ViePrivee() {
   return (
     <div className="page">
@@ -48,10 +50,10 @@ export default function ViePrivee() {
         <h2>Vos droits</h2>
         <p>
           Pour supprimer votre compte de connexion ou vos réactions (droit à
-          l'effacement, RGPD), ouvrez une demande sur
-          {' '}<a href="https://github.com/malikkaraoui/MaRepublic/issues">notre
-          dépôt public</a> ou écrivez-nous : nous effaçons, et nous le
-          confirmons. Le reste de nos défenses est documenté sur la page
+          l'effacement, RGPD),
+          {' '}<Link to="/signaler?depuis=vie-privee">signalez votre demande</Link>
+          {' '}: nous effaçons, et nous le confirmons. Le reste de nos
+          défenses est documenté sur la page
           {' '}<a href="/garde-fous">Garde-fous</a>.
         </p>
       </div>
