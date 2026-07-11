@@ -196,6 +196,13 @@ function CarteFiche({
   const textCount = texte.length
   const maxLength = 500
 
+  // Une fois le vote posé, on masque le camp opposé : voter « pour » (ou une
+  // piste) fait disparaître « contre », et inversement. Le bouton du choix
+  // retenu reste affiché et actif ; le recliquer annule le vote et fait
+  // réapparaître les deux camps (mécanique d'annulation de voterEtEnvoyer).
+  const aChoisiAccord = reaction.vote === 'pour' || Boolean(reaction.vote?.startsWith('piste-'))
+  const aChoisiContre = reaction.vote === 'contre'
+
   return (
     <article className="fiche" id={fiche.id}>
       <header className="fiche__header">
@@ -216,51 +223,67 @@ function CarteFiche({
       </details>
 
       <div className="fiche__actions">
-        {fiche.pistes.map(({ lettre, libelle }) => {
-          const choix = `piste-${lettre.toLowerCase()}` as VoteChoix
-          return (
-            <button
-              key={choix}
-              type="button"
-              className={`vote vote--piste${reaction.vote === choix ? ' vote--actif' : ''}`}
-              onClick={() => voterEtEnvoyer(choix)}
-              aria-pressed={reaction.vote === choix}
-              title={
-                identiteValide
-                  ? libelle
-                    ? `Je choisis la piste ${lettre} : ${libelle}`
-                    : `Je choisis la piste ${lettre}`
-                  : 'Renseignez pseudo et email en haut de page'
-              }
-            >
-              <span aria-hidden="true">◈</span> Piste {lettre}
-            </button>
-          )
-        })}
-        <button
-          type="button"
-          className={`vote vote--pour${reaction.vote === 'pour' ? ' vote--actif' : ''}`}
-          onClick={() => voterEtEnvoyer('pour')}
-          aria-pressed={reaction.vote === 'pour'}
-          title={
-            identiteValide
-              ? fiche.pistes.length
-                ? 'Pour, sans préférence entre les pistes'
-                : 'Pour cette mesure'
-              : 'Renseignez pseudo et email en haut de page'
-          }
-        >
-          <span aria-hidden="true">✓</span> Pour
-        </button>
-        <button
-          type="button"
-          className={`vote vote--contre${reaction.vote === 'contre' ? ' vote--actif' : ''}`}
-          onClick={() => voterEtEnvoyer('contre')}
-          aria-pressed={reaction.vote === 'contre'}
-          title={identiteValide ? 'Contre cette mesure' : 'Renseignez pseudo et email en haut de page'}
-        >
-          <span aria-hidden="true">✕</span> Contre
-        </button>
+        {!aChoisiContre &&
+          fiche.pistes.map(({ lettre, libelle }) => {
+            const choix = `piste-${lettre.toLowerCase()}` as VoteChoix
+            const actif = reaction.vote === choix
+            return (
+              <button
+                key={choix}
+                type="button"
+                className={`vote vote--piste${actif ? ' vote--actif' : ''}`}
+                onClick={() => voterEtEnvoyer(choix)}
+                aria-pressed={actif}
+                title={
+                  identiteValide
+                    ? actif
+                      ? `Piste ${lettre} retenue : recliquez pour changer d'avis`
+                      : libelle
+                        ? `Je choisis la piste ${lettre} : ${libelle}`
+                        : `Je choisis la piste ${lettre}`
+                    : 'Renseignez pseudo et email en haut de page'
+                }
+              >
+                <span aria-hidden="true">◈</span> Piste {lettre}
+              </button>
+            )
+          })}
+        {!aChoisiContre && (
+          <button
+            type="button"
+            className={`vote vote--pour${reaction.vote === 'pour' ? ' vote--actif' : ''}`}
+            onClick={() => voterEtEnvoyer('pour')}
+            aria-pressed={reaction.vote === 'pour'}
+            title={
+              identiteValide
+                ? reaction.vote === 'pour'
+                  ? "Vote « pour » retenu : recliquez pour changer d'avis"
+                  : fiche.pistes.length
+                    ? 'Pour, sans préférence entre les pistes'
+                    : 'Pour cette mesure'
+                : 'Renseignez pseudo et email en haut de page'
+            }
+          >
+            <span aria-hidden="true">✓</span> Pour
+          </button>
+        )}
+        {!aChoisiAccord && (
+          <button
+            type="button"
+            className={`vote vote--contre${aChoisiContre ? ' vote--actif' : ''}`}
+            onClick={() => voterEtEnvoyer('contre')}
+            aria-pressed={aChoisiContre}
+            title={
+              identiteValide
+                ? aChoisiContre
+                  ? "Vote « contre » retenu : recliquez pour changer d'avis"
+                  : 'Contre cette mesure'
+                : 'Renseignez pseudo et email en haut de page'
+            }
+          >
+            <span aria-hidden="true">✕</span> Contre
+          </button>
+        )}
         <div className="fiche__mode-group">
           <button
             type="button"
@@ -298,16 +321,57 @@ function CarteFiche({
       {(() => {
         const compteur = compteurs?.parFiche[fiche.id]
         if (!compteur?.total) return null
+        // Sens de la fiche : les accords (pour + toutes les pistes, qui sont
+        // des façons de dire oui à une hypothèse) contre les rejets (contre).
+        const accords = Object.entries(compteur.parChoix)
+          .filter(([k]) => k === 'pour' || k.startsWith('piste-'))
+          .reduce((n, [, v]) => n + v, 0)
+        const rejets = compteur.parChoix['contre'] ?? 0
+        const exprimes = accords + rejets
+        const pctAccord = exprimes ? Math.round((accords / exprimes) * 100) : 50
+        const sens =
+          !exprimes || accords === rejets
+            ? 'au coude à coude'
+            : accords > rejets
+              ? 'penche plutôt pour'
+              : 'penche plutôt contre'
         const detail = Object.entries(compteur.parChoix)
           .filter(([, n]) => n > 0)
           .sort(([a], [b]) => a.localeCompare(b))
           .map(([choix, n]) => `${libelleChoix(choix)} ${n}`)
           .join(' · ')
         return (
-          <p className="fiche__compteur">
-            🗳️ {compteur.total} votant{compteur.total > 1 ? 's' : ''}
-            {detail ? ` : ${detail}` : ''}
-          </p>
+          <div className="fiche__tendance">
+            <p className="fiche__compteur">
+              🗳️ {compteur.total} votant{compteur.total > 1 ? 's' : ''}
+              {detail ? ` : ${detail}` : ''}
+            </p>
+            {exprimes > 0 && (
+              <>
+                <div
+                  className="jauge"
+                  role="img"
+                  aria-label={`Tendance : ${accords} pour, ${rejets} contre. La fiche ${sens}.`}
+                >
+                  <div
+                    className="jauge__pour"
+                    style={{ width: `${pctAccord}%` }}
+                  />
+                  <div
+                    className="jauge__contre"
+                    style={{ width: `${100 - pctAccord}%` }}
+                  />
+                </div>
+                <p className="jauge__legende">
+                  <span className="jauge__part jauge__part--pour">Pour {pctAccord}%</span>
+                  <span className="jauge__sens">La fiche {sens}</span>
+                  <span className="jauge__part jauge__part--contre">
+                    Contre {100 - pctAccord}%
+                  </span>
+                </p>
+              </>
+            )}
+          </div>
         )
       })()}
 

@@ -1927,6 +1927,57 @@ body {
   color: var(--ink-soft, #555);
 }
 
+/* Tendance de la fiche : jauge accords / rejets, pour voir dans quel sens
+   elle penche. Alimentée par les compteurs publics (agrégation horaire). */
+.fiche__tendance {
+  margin-top: 0.4rem;
+}
+
+.jauge {
+  display: flex;
+  height: 8px;
+  margin-top: 0.5rem;
+  border-radius: 999px;
+  overflow: hidden;
+  background: var(--rule);
+}
+
+.jauge__pour {
+  background: #2d7a2d;
+  transition: width 0.4s ease;
+}
+
+.jauge__contre {
+  background: #c8102e;
+  transition: width 0.4s ease;
+}
+
+.jauge__legende {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin: 0.3rem 0 0;
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.jauge__part--pour {
+  color: #1b5e20;
+  font-weight: 600;
+}
+
+.jauge__part--contre {
+  color: #8a0f24;
+  font-weight: 600;
+}
+
+.jauge__sens {
+  font-style: italic;
+  text-align: center;
+  flex: 1;
+}
+
 .identite--alerte {
   outline: 3px solid var(--rouge);
   outline-offset: 2px;
