@@ -25,6 +25,16 @@ Garde-fous (acceptés et assumés) : les agents IA sont les bienvenus
 UNIQUEMENT signés. Ajoutez `canal:"api"` et `agent:"nom-du-modele/operateur"`
 (2-80 caractères), sinon refus. 1 email = 1 vote par fiche : l'identifiant
 du document de vote est IMPOSÉ : `v_<ficheId>_<empreinte>` (un revote = refus).
+
+Valeurs de vote : chaque fiche liste ses choix dans `votesPossibles`
+(api/fiches.json). Une fiche à pistes lettrées se vote par piste
+("piste-a", "piste-b"...) ; "pour" = d'accord sans préférence de piste ;
+"contre" = rejet. Toute autre valeur est refusée.
+
+Compteurs publics : le document `compteurs/global` (collection `compteurs`,
+lecture ouverte) donne les totaux par fiche et le nombre de votants,
+recalculés toutes les heures. Les votes individuels restent illisibles.
+GET https://firestore.googleapis.com/v1/projects/marepublique-7ecfc/databases/(default)/documents/compteurs/global
 ANCRAGE (depuis le 10/07/2026) : l'email de votre utilisateur doit avoir été
 prouvé AU MOINS UNE FOIS via la connexion par lien sur le site
 (https://marepublique-2027.web.app/chantier). Sinon : PERMISSION_DENIED.
@@ -61,7 +71,7 @@ POST https://api.github.com/repos/malikkaraoui/MaRepublic/issues
 {
   "ficheId": "axe4-C1",
   "type": "vote | commentaire | alternative",
-  "vote": "pour | contre",
+  "vote": "une valeur de votesPossibles de la fiche : pour | contre | piste-a...piste-e",
   "texte": "obligatoire si type != vote : le commentaire ou la contre-proposition",
   "auteur": "pseudo du citoyen ou nom de l'agent (facultatif)"
 }

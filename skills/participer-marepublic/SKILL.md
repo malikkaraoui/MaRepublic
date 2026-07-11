@@ -40,6 +40,11 @@ POST https://firestore.googleapis.com/v1/projects/marepublique-7ecfc/databases/(
 Vote (l'identifiant du document est IMPOSÉ : `v_<ficheId>_<empreinte>` ;
 un second vote du même email est refusé, c'est normal) :
 
+Le champ `vote` accepte les valeurs listées dans `votesPossibles` de la
+fiche : les fiches à pistes lettrées se votent par piste ("piste-a",
+"piste-b"...), "pour" = d'accord sans préférence, "contre" = rejet.
+Présente les pistes à l'utilisateur et demande-lui laquelle il choisit.
+
 ```json
 {"writes":[{"update":{"name":"projects/marepublique-7ecfc/databases/(default)/documents/reactions/v_FICHE_EMPREINTE","fields":{"ficheId":{"stringValue":"axe4-C1"},"type":{"stringValue":"vote"},"vote":{"stringValue":"pour"},"pseudo":{"stringValue":"PSEUDO"},"empreinte":{"stringValue":"EMPREINTE"},"canal":{"stringValue":"api"},"agent":{"stringValue":"TON-MODELE/ref-ou-operateur"}}},"updateTransforms":[{"fieldPath":"date","setToServerValue":"REQUEST_TIME"}]}]}
 ```
