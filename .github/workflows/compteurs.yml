@@ -17,12 +17,17 @@ jobs:
 
       - name: Présence du compte de service
         id: cle
+        env:
+          # Passer par une variable d'environnement : le secret est un JSON
+          # multi-ligne, l'injecter en clair dans la condition casserait la
+          # ligne bash (les retours à la ligne coupent le test).
+          SA: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MAREPUBLIQUE_7ECFC }}
         run: |
-          if [ -n "${{ secrets.FIREBASE_SERVICE_ACCOUNT_MAREPUBLIQUE_7ECFC }}" ]; then
+          if [ -n "$SA" ]; then
             echo "ok=true" >> "$GITHUB_OUTPUT"
           else
             echo "ok=false" >> "$GITHUB_OUTPUT"
-            echo "Secret FIREBASE_SERVICE_ACCOUNT absent : étape sautée proprement."
+            echo "Secret du compte de service absent : étape sautée proprement."
           fi
 
       - name: Installation de Node.js
