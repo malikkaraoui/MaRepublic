@@ -29,6 +29,12 @@ export interface Commentaire {
 interface Reaction {
   vote: Vote
   commentaires: Commentaire[]
+  /**
+   * Horodatage ISO du dernier vote posé (absent si pas de vote ou annulé).
+   * Sert à afficher la voix en direct dans la jauge tant que l'agrégation
+   * horaire ne l'a pas encore prise en compte (voir la jauge du Chantier).
+   */
+  voteDate?: string
 }
 
 const KEY = 'marep-reactions-v1'
@@ -67,10 +73,15 @@ export function useReaction(ficheId: string) {
   const voter = useCallback(
     (vote: Vote) => {
       const courant = cache[ficheId] ?? VIDE
+      // Re-cliquer sur le même vote l'annule.
+      const annule = courant.vote === vote
       ecrire({
         ...cache,
-        // Re-cliquer sur le même vote l'annule.
-        [ficheId]: { ...courant, vote: courant.vote === vote ? null : vote },
+        [ficheId]: {
+          ...courant,
+          vote: annule ? null : vote,
+          voteDate: annule ? undefined : new Date().toISOString(),
+        },
       })
     },
     [ficheId],

@@ -320,14 +320,32 @@ function CarteFiche({
 
       {(() => {
         const compteur = compteurs?.parFiche[fiche.id]
-        if (!compteur?.total) return null
-        // Sens de la fiche : les accords (pour + toutes les pistes, qui sont
-        // des façons de dire oui à une hypothèse) contre les rejets (contre).
-        const accords = Object.entries(compteur.parChoix)
+
+        // Voix en direct : on ajoute le vote local de l'utilisateur à la jauge
+        // TANT QUE l'agrégation horaire ne l'a pas encore compté. Dès que la
+        // dernière agrégation (majDate) est postérieure au vote, la voix est
+        // déjà dans le total officiel : on arrête de l'ajouter (zéro double
+        // comptage). Si aucune agrégation n'a encore eu lieu, on l'affiche.
+        const voteEnDirect =
+          reaction.vote &&
+          reaction.voteDate &&
+          (!compteurs?.majDate ||
+            new Date(reaction.voteDate).getTime() > new Date(compteurs.majDate).getTime())
+
+        // Décompte affiché = agrégat officiel + éventuelle voix en direct.
+        const parChoix: Record<string, number> = { ...(compteur?.parChoix ?? {}) }
+        if (voteEnDirect && reaction.vote) {
+          parChoix[reaction.vote] = (parChoix[reaction.vote] ?? 0) + 1
+        }
+
+        const accords = Object.entries(parChoix)
           .filter(([k]) => k === 'pour' || k.startsWith('piste-'))
           .reduce((n, [, v]) => n + v, 0)
-        const rejets = compteur.parChoix['contre'] ?? 0
+        const rejets = parChoix['contre'] ?? 0
         const exprimes = accords + rejets
+        const total = Object.values(parChoix).reduce((n, v) => n + v, 0)
+        if (total === 0) return null
+
         const pctAccord = exprimes ? Math.round((accords / exprimes) * 100) : 50
         const sens =
           !exprimes || accords === rejets
@@ -335,7 +353,7 @@ function CarteFiche({
             : accords > rejets
               ? 'penche plutôt pour'
               : 'penche plutôt contre'
-        const detail = Object.entries(compteur.parChoix)
+        const detail = Object.entries(parChoix)
           .filter(([, n]) => n > 0)
           .sort(([a], [b]) => a.localeCompare(b))
           .map(([choix, n]) => `${libelleChoix(choix)} ${n}`)
@@ -343,7 +361,7 @@ function CarteFiche({
         return (
           <div className="fiche__tendance">
             <p className="fiche__compteur">
-              🗳️ {compteur.total} votant{compteur.total > 1 ? 's' : ''}
+              🗳️ {total} votant{total > 1 ? 's' : ''}
               {detail ? ` : ${detail}` : ''}
             </p>
             {exprimes > 0 && (
@@ -353,14 +371,8 @@ function CarteFiche({
                   role="img"
                   aria-label={`Tendance : ${accords} pour, ${rejets} contre. La fiche ${sens}.`}
                 >
-                  <div
-                    className="jauge__pour"
-                    style={{ width: `${pctAccord}%` }}
-                  />
-                  <div
-                    className="jauge__contre"
-                    style={{ width: `${100 - pctAccord}%` }}
-                  />
+                  <div className="jauge__pour" style={{ width: `${pctAccord}%` }} />
+                  <div className="jauge__contre" style={{ width: `${100 - pctAccord}%` }} />
                 </div>
                 <p className="jauge__legende">
                   <span className="jauge__part jauge__part--pour">Pour {pctAccord}%</span>
@@ -369,6 +381,12 @@ function CarteFiche({
                     Contre {100 - pctAccord}%
                   </span>
                 </p>
+                {voteEnDirect && (
+                  <p className="jauge__transparence">
+                    Votre voix est comptée ici en direct. Le total officiel est
+                    recalculé toutes les heures.
+                  </p>
+                )}
               </>
             )}
           </div>

@@ -1978,6 +1978,13 @@ body {
   flex: 1;
 }
 
+/* Transparence : la jauge inclut la voix locale avant l'agrégation horaire. */
+.jauge__transparence {
+  margin: 0.35rem 0 0;
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+
 .identite--alerte {
   outline: 3px solid var(--rouge);
   outline-offset: 2px;
