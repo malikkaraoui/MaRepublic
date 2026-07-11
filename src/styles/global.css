@@ -744,52 +744,149 @@ button {
   flex-wrap: wrap;
 }
 
-/* --- Pied de page ----------------------------------------------------- */
+/* =========================================================================
+   Pied de page recomposé
+   Remplace l'ancien bloc .site-footer { ... } de global.css (jusqu'à
+   .site-footer__copy inclus). À coller tel quel : lit les variables de thème.
+   ========================================================================= */
+
 .site-footer {
   background: var(--ink);
-  color: #d9d9d9;
-  padding-block: clamp(3rem, 7vw, 5rem);
+  color: #cfcfcf;
+}
+
+/* Filet tricolore, écho de la hairline de tête. */
+.site-footer__filet {
+  height: 3px;
+  background: linear-gradient(
+    to right,
+    var(--bleu) 0 33.333%,
+    #ffffff 33.333% 66.666%,
+    var(--rouge) 66.666% 100%
+  );
 }
 
 .site-footer__inner {
   max-width: var(--page-max);
   margin-inline: auto;
-  padding-inline: var(--space);
+  padding: clamp(2.5rem, 5vw, 4rem) var(--space) clamp(1.75rem, 3vw, 2.5rem);
   display: grid;
-  gap: 1.75rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: clamp(2rem, 5vw, 4rem);
+}
+
+.site-footer__lead {
+  max-width: 26rem;
+}
+
+.site-footer__eyebrow {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #8a8a8a;
+  margin-bottom: 1.1rem;
 }
 
 .site-footer__statement {
   font-family: var(--serif);
-  font-size: clamp(1.3rem, 3.5vw, 1.9rem);
-  line-height: 1.3;
+  font-weight: 500;
+  font-size: clamp(1.5rem, 2.6vw, 2.1rem);
+  line-height: 1.22;
+  letter-spacing: -0.01em;
   color: var(--paper);
+  max-width: 20ch;
 }
 
-.site-footer__nav {
-  display: flex;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-}
-
-.site-footer__nav a {
-  color: #d9d9d9;
+.site-footer__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 48px;
+  margin-top: 1.75rem;
+  padding-inline: 1.4rem;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: var(--radius);
+  color: var(--paper);
   text-decoration: none;
-  font-size: 0.92rem;
-  border-bottom: 1px solid #444;
-  padding-bottom: 0.15rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
 }
 
-.site-footer__nav a:hover {
+.site-footer__cta:hover {
+  background: var(--paper);
+  color: var(--ink);
+  border-color: var(--paper);
+}
+
+.site-footer__cols {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  gap: 2rem;
+}
+
+.site-footer__col-title {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: #8a8a8a;
+  margin-bottom: 0.6rem;
+}
+
+.site-footer__col a {
+  display: flex;
+  align-items: center;
+  min-height: 44px; /* cible tactile */
+  color: #cfcfcf;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.15s ease;
+}
+
+.site-footer__col a:hover {
   color: var(--paper);
-  border-bottom-color: var(--paper);
 }
 
-.site-footer__meta,
+.site-footer__bottom {
+  border-top: 1px solid #262626;
+}
+
+.site-footer__bottom-inner {
+  max-width: var(--page-max);
+  margin-inline: auto;
+  padding: 1.25rem var(--space);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
 .site-footer__copy {
-  color: var(--faint);
+  font-size: 0.82rem;
+  color: #8a8a8a;
+  max-width: 52ch;
+  line-height: 1.5;
+}
+
+.site-footer__haut {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-height: 44px; /* cible tactile */
+  color: #cfcfcf;
+  text-decoration: none;
   font-size: 0.85rem;
-  max-width: 60ch;
+  transition: color 0.15s ease;
+}
+
+.site-footer__haut:hover {
+  color: var(--paper);
+}
+
+/* Focus lisible sur fond encre : le halo passe au papier. */
+.site-footer :focus-visible {
+  outline-color: var(--paper);
 }
 
 /* =========================================================================
