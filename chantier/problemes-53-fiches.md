@@ -63,7 +63,7 @@ AFIR UE 2026 : obligation tarification kWh (non à la minute). France 160 000 bo
 [AFIR 2026 obligations](https://particuliers.engie.fr/electricite/conseils-electricite/conseils-mobilite-electrique/AFIR-tout-savoir-sur-cette-nouvelle-reglementation-europeene.html)
 
 **Pourquoi**
-Oligopole infrastructure : FNAC-TotalEnergies, Ionity (Tesla/Shell/BMW), Allego (IFP-Energies). Chacun taxe différemment. Absence prix affichage avant session = captivité client (batterie 10%, recharge obligée). Comparaison impossible app mobile vs app concurrent. Surcoût recharge rapide DC = 0.80-0.99 €/kWh, standard AC maison = 0.18 €/kWh, écart 4-5x = désincentive mobilité.
+Oligopole infrastructure : FNAC-TotalEnergies, Ionity (Tesla/Shell/BMW), Allego (IFP-Energies). Chacun taxe différemment. Absence prix affichage avant session = captivité client (batterie 10%, recharge obligée). Comparaison impossible app mobile vs app concurrent. Surcoût recharge rapide DC = 0.80-0.99 €/kWh, standard AC maison = 0.18 €/kWh, écart 4-5x = désincentive mobilité. (Le kWh est l'unité d'énergie facturée à la borne, comme le litre à la pompe à essence : 1 kWh permet 5-7 km parcours en électrique moyen.)
 
 **Pistes Pour-Contre**
 - Pour : AFIR force transparence kWh, interopérabilité accélère 2026-2027, petits opérateurs entrent (Fastned, ChargePoint)
@@ -226,7 +226,7 @@ Contexte Norvège non-généraliste : (1) Richesse pétrolière 80 ans = accumul
 - Contre : modèle Norvège irréplicable Europe : hydro limité Suisse/Autriche <5% pop EU, pétrole EU quasi-nul, fonds pétrolier neuf = 0 accumulation, transition thermique-électrique Norvège graduelle (25 ans), France impose 13 ans = fragmentation socio-politique violente
 
 **Simulation (ordres de grandeur) :**
-France applique Norvège-light : créer fonds souverain 5 Mds €/an taxation CO2 (taxe carbone accentuée 200 €/tonne vs 50 €/tonne actuelle). 25 ans accumulation = 125 Mds €. Subvention électrique 3%/an (3,75 Mds €/an après 25 ans) = bonus achat +8 000 €/VE pour 500 000 VE/an, ou recharge gratuite (500 kWh = 40 € par personne/an). Mais : implique hausse essence 1.50 € → 2.50 €/L immédiatement (Yellow Vests), gouvernement chute (2019 pédagogie échouée). Faisable oui, acceptabilité politique zéro.
+France applique Norvège-light : créer fonds souverain 5 Mds €/an taxation CO2 (taxe carbone accentuée 200 €/tonne vs 50 €/tonne actuelle). 25 ans accumulation = 125 Mds €. Subvention électrique 3%/an (3,75 Mds €/an après 25 ans) = bonus achat +8 000 €/VE pour 500 000 VE/an, ou recharge gratuite. Référence comparable : fonds souverain Norvège 850 Mds € (1er monde, généré 80 ans pétrole), rendement 3% distribué = 25 Mds €/an (vs France 125 Mds € en 25 ans = 5 Mds €/an, soit 5x moins généreux). Perdants/effets de bord : (1) hausse essence 1.50 € → 2.50 €/L immédiatement (Yellow Vests 2019, gouvernement chute), (2) secteur pétrolier France (Aquitaine gaz) disparaît sans réinsertion employés, (3) retraités thermique = penalisés sans allocation chômage transitionnel (à confirmer cotation budgétaire). Faisable techniquement, acceptabilité politique zéro.
 
 **⚖️ Faisabilité juridique**
 Fonds souverain France = cadre légal FNF (Fonds National Français), géré Banque de France (comme Norvège). Créer = loi nouvelle, vote Parlement. Faisable légalement oui. Mais : stabilité politique nécessaire 15+ ans (gouvernement pérenne Norvège, France 5-7 ans cycle), risque vidage fonds si crise budgétaire (2025 déficit 300 Mds € impossible pérennité fonds).
