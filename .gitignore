@@ -45,3 +45,5 @@ marepublique-*-firebase-adminsdk-*.json
 /public/api/
 /public/sitemap.xml
 handoff design/
+.gstack/
+vault/
