@@ -43,6 +43,10 @@ export interface Fiche {
   statut: StatutFiche
   /** Pistes lettrées détectées dans le corps : le vote se fait par piste. */
   pistes: Piste[]
+  /** Numéro de l'axe/lot parent, pour construire le lien direct vers la fiche. */
+  axeNumero: number
+  /** Date de dernière retouche de fond (ligne « Mis à jour » du markdown), si posée. */
+  majLe?: string
 }
 
 export interface AxeFiches {
@@ -90,6 +94,7 @@ function parseDocument(numero: number, raw: string): AxeFiches {
     const fin = i + 1 < matches.length ? matches[i + 1].index : raw.length
     const corps = raw.slice(debut, fin).trim()
     const emoji = corps.match(/\*\*Statut\s*:\*\*\s*(⬜|🟧|🟩|🟥)/)?.[1]
+    const majLe = corps.match(/\*\*Mis à jour\s*:\*\*\s*(\d{4}-\d{2}-\d{2})/)?.[1]
     fiches.push({
       id: `axe${numero}-${m[1]}`,
       code: m[1],
@@ -97,6 +102,8 @@ function parseDocument(numero: number, raw: string): AxeFiches {
       corps,
       statut: (emoji && STATUTS[emoji]) || 'debat',
       pistes: extrairePistes(corps),
+      axeNumero: numero,
+      majLe,
     })
   })
 

@@ -490,6 +490,14 @@ function Sommaire() {
   const total = axesFiches.reduce((n, a) => n + a.fiches.length, 0)
   const compteurs = useCompteurs()
 
+  // Dernières fiches retouchées sur le fond (ligne « Mis à jour » du markdown),
+  // la plus récente en tête : donne un point d'entrée à qui revient sur le site.
+  const nouveautes = axesFiches
+    .flatMap((a) => a.fiches)
+    .filter((f) => f.majLe && (!familleFiltre || familleDeOnglet(f.axeNumero) === familleFiltre))
+    .sort((a, b) => (b.majLe as string).localeCompare(a.majLe as string))
+    .slice(0, 6)
+
   const carte = (a: (typeof axesFiches)[number]) => {
     const c = compter(a.fiches)
     return (
@@ -523,6 +531,27 @@ function Sommaire() {
 
   return (
     <div className="sommaire">
+      {nouveautes.length > 0 && (
+        <section aria-labelledby="sommaire-nouveaute">
+          <h2 id="sommaire-nouveaute">🆕 Dernières mises à jour</h2>
+          <p className="sommaire__note">Les fiches retouchées sur le fond récemment, la plus récente en tête.</p>
+          <div className="sommaire__grille">
+            {nouveautes.map((f) => (
+              <Link
+                key={f.id}
+                to={`/chantier/${slugDeNumero(f.axeNumero)}#${f.id}`}
+                className="sommaire__carte"
+              >
+                <span className="nouveaute__date">
+                  {new Date(f.majLe as string).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' })}
+                </span>
+                <span className="sommaire__theme">{f.code}. {f.titre}</span>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
       <section aria-labelledby="sommaire-dash">
         <h2 id="sommaire-dash">Où en est le chantier</h2>
         <div className="dash" role="list">
@@ -630,6 +659,16 @@ export default function Chantier() {
       }
     }
   }, [axeActif])
+
+  // Arrivée depuis un lien direct vers une fiche (ex. section « nouveauté ») :
+  // le routeur ne scrolle pas seul vers le hash, on le fait une fois l'axe rendu.
+  useEffect(() => {
+    if (!axe) return
+    const id = window.location.hash.slice(1)
+    if (!id) return
+    const cible = document.getElementById(id)
+    if (cible) cible.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }, [axe])
 
   return (
     <div className="page">
