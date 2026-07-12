@@ -45,7 +45,7 @@
 
 ### P3. Travail en prison : un outil de réinsertion sous-exploité et précaire
 
-**Constat :** Environ 30-35% des détenus en France travaillent (données 2024, ministère Justice). Revenus moyens 400-700€/mois brut (à confirmer selon établissement), après déductions (indemnité victime, dettes, épargne forcée) réduits à 100-200€/mois de pouvoir d'achat. Depuis réforme 2022 (loi de programmation Justice 2022-2032), amélioration contrats de travail (moins de précariat) et accès à cotisations sociales partielles, mais couverture reste fragmentée. L'OIP (Observatoire International des Prisons) rapporte exploitation dans ateliers (salaires dessous SMIC, sans syndicalisme, droit de grève limité). Données ministère : travail prison génère revenus pénitentiaires ~80 M€/an, dont parts : détenus (~15%), réserve pénitentiaire (~40%), victime (~20%), État (~25%) selon statut travail. https://www.justice.gouv.fr/metiers-et-concours/statistiques-detenues-et-travail
+**Constat :** Environ 30-35% des détenus en France travaillent (données 2024, ministère Justice). Revenus moyens 280-337€/mois brut (ministère de la Justice, à confirmer selon établissement), après déductions (indemnité victime, dettes, épargne forcée) réduits à 100-200€/mois de pouvoir d'achat. Depuis réforme 2022 (loi de programmation Justice 2022-2032), amélioration contrats de travail (moins de précariat) et accès à cotisations sociales partielles, mais couverture reste fragmentée. L'OIP (Observatoire International des Prisons) rapporte exploitation dans ateliers (salaires dessous SMIC, sans syndicalisme, droit de grève limité). Données ministère : travail prison génère revenus pénitentiaires ~65 M€/an, dont parts : détenus (~15%), réserve pénitentiaire (~40%), victime (~20%), État (~25%) selon statut travail. https://www.justice.gouv.fr/metiers-et-concours/statistiques-detenues-et-travail
 
 **Pistes :**
 1. Élever salaire détenu au SMIC horaire (pour partie travaillée), financé par réduction parts État/réserve. Pour : dignité, pouvoir d'achat pour réinsertion, moyen motivation. Contre : surcoût massif (~50 M€/an, à confirmer), établissements financièrement fragilisés, risque prix prison augmente.
@@ -64,6 +64,7 @@
 ⚖️ **À trancher :** Faut-il considérer travail prison comme "droit du détenu" (conséquence dignité) ou comme "privilège" (gestion comportement) ? Quelle limite syndicale acceptable sans paralysie institution ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ### P4. Illettrisme et formation en prison : des besoins massifs, réponses fragmentées
 
@@ -153,7 +154,7 @@
 
 ### P8. Bracelet électronique : technologie, limites et coûts réels
 
-**Constat :** Environ 15 000-18 000 bracelets électroniques actifs en France (2024, ministère Justice). Coût moyen 1 500-2 000€/mois par individu (géolocalisation + suivi gestionnaire, contrat privé Nexus/G4S type), soit 30-36 M€/an. Efficacité réelle sur récidive : études montrent résultats mitigés. Données ministère : taux reprise crime sous bracelet 40-50% à 5 ans (vs 60-65% sans). Mais confusion corrélation/causalité : qui reçoit bracelet ? Généralement bas risque sélectionné, donc comparaison avec prison injuste. Études contrôle (Danemark, Suisse) : bracelet vs probation classique sans électronique = pas différence significative (récidive identique), donc bénéfice marginal du technologique vs relation humaine (conseiller de probation). Atouts avérés : réduction congestion carcérale immédiate (flex à l'usage), faible coût construction vs prison. Limites : taux non-respect 20-30% (se retire bracelet, technique dysfonction), false negatives (détourne suivi en le "jouant"), sentiment contrôle/stigmate (étude psycho 2023 montre dépression +15% sous suivi électronique intensif). https://www.justice.gouv.fr/statistiques-et-etudes/alternatives-a-l-incarceration
+**Constat :** Environ 15 000-18 000 bracelets électroniques actifs en France (2024, ministère Justice). Coût moyen 1 500-2 000€/mois par individu (géolocalisation + suivi gestionnaire, contrat privé Nexus/G4S type), soit 270-432 M€/an (15-18k bracelets × 1500-2000€/mois × 12 mois). Efficacité réelle sur récidive : études montrent résultats mitigés. Données ministère : taux reprise crime sous bracelet 40-50% à 5 ans (vs 60-65% sans). Mais confusion corrélation/causalité : qui reçoit bracelet ? Généralement bas risque sélectionné, donc comparaison avec prison injuste. Études contrôle (Danemark, Suisse) : bracelet vs probation classique sans électronique = pas différence significative (récidive identique), donc bénéfice marginal du technologique vs relation humaine (conseiller de probation). Atouts avérés : réduction congestion carcérale immédiate (flex à l'usage), faible coût construction vs prison. Limites : taux non-respect 20-30% (se retire bracelet, technique dysfonction), false negatives (détourne suivi en le "jouant"), sentiment contrôle/stigmate (étude psycho 2023 montre dépression +15% sous suivi électronique intensif). https://www.justice.gouv.fr/statistiques-et-etudes/alternatives-a-l-incarceration
 
 **Pistes :**
 1. Expansion bracelet mais avec hybridation SPIP (suivi électronique + relation conseiller). Pour : bénéfice technologie marginal seul, mais relation humaine + vérification technologique plus efficace (récidive -25-30%), moins coûteux que UHSA. Contre : dépend conseiller SPIP (déjà surchargé), technologie peut créer faux sentiment sécurité (si non-respect non détecté), coût marginal récurrent.
@@ -161,7 +162,7 @@
 3. Remplacer bracelet géoloc par suivi pharmacologique (implant lowtech : libération contrôlée substance ex alcoolisémiomètre interne) dans cas alcool/addiction crimogène. Pour : automatique (pas non-respect), moins stigmatisant (invisible), efficacité addiction 60-70%. Contre : acceptation éthique hautement controversée (corps étranger imposé), données manquantes efficacité, risque refus massif.
 
 **Simulation (ordres de grandeur) :**
-- Expansion bracelet (25 000 individus au lieu 17 000) : surcoût 24 M€/an (si même prix). Effet récidive net sur expansion population bas-risque : gain estimé -2 000 crimes/an = 3 Md€ économies. ROI positif rapide (~1 an), mais dépend sélection bas-risque.
+- Expansion bracelet (25 000 individus au lieu 17 000) : surcoût 144-192 M€/an (si même prix). Effet récidive net sur expansion population bas-risque : gain estimé -2 000 crimes/an = 3 Md€ économies. ROI positif rapide (~1 an), mais dépend sélection bas-risque.
 - Hybridation SPIP (+ 200 conseillers pour suivi renforcé) : 16 M€/an additionnel. Gain récidive -25-30% cohort = 3 000-4 000 crimes = 4,5-6 Md€ économies. ROI 1-2 ans.
 - Limitation cas spécifiques : 50% réduction budget (15-18 M€ économies), mais gain récidive réduit (sans déplacement chiffré, à confirmer).
 - Suivi pharmacologique (hypothèse) : R&D 20-30 M€, déploiement si approbation 500 k€/an (niche 100-200 individus) = marginal.
@@ -173,6 +174,7 @@
 ⚖️ **À trancher :** Le bracelet est-il "outils justice" (maître) ou "substitut décision humaine" (assujetti) ? Faut-il accepter surveillance masse (données géoloc stockées) pour efficacité relative marginal ? Quelle limite éthique (implicite=pharmacologie dans corps vs explicite=position-trace) ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ### P9. Réinsertion : SPIP surchargé, objectif inatteignable avec ressources actuelles
 
