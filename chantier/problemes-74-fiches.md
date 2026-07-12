@@ -36,7 +36,7 @@ Faut-il accepter une tarification différenciée par saison/région pour allonge
 ### P2. Airbnb et meublés touristiques : vide-centres-villes, loi Le Meur 2024 non appliquée uniformément, quotas absents
 
 **Constat :**
-Selon l'Ademe et données INSEE, les plates-formes de meublés touristiques (Airbnb, Booking, Vrbo) représentent 300 000 + annonces en France (2023), concentration forte en zones A (Paris, Lyon, Marseille, Bordeaux : 40% des annonces). Effet documenté : transformation de 8-12% des petits immeubles parisiens en meublés touristiques (rapport Fondation Abbé Pierre 2023), créant désertification hivernale et congestion estivale. Loi Le Meur (2024, art. L. 631-7 Code monétaire) limite à 120 jours/an sans déclaration en zone tendue, mais application réelle reste très inégale : Paris applique, autres communes peu (contrôles insuffisants). Quotas régionaux inexistants (à la différence de Barcelone : 9% max du parc locatif).
+Selon l'Ademe et données INSEE, les plates-formes de meublés touristiques (Airbnb, Booking, Vrbo) représentent 300 000 + annonces en France (2023), concentration forte en zones A (Paris, Lyon, Marseille, Bordeaux : 40% des annonces). Effet documenté : transformation de 8-12% des petits immeubles parisiens en meublés touristiques (rapport Fondation Abbé Pierre 2023), créant désertification hivernale et congestion estivale. Loi Le Meur (2024, art. L. 631-7 Code monétaire) limite à 120 jours/an par défaut, réduit à 90 jours/an dans les communes en zone tendue ayant délibéré en ce sens depuis janvier 2025 (Paris et Marseille l'appliquent déjà ; Lyon, Bordeaux, Nice prévu 2026), mais application réelle reste très inégale : peu de communes ont délibéré, contrôles insuffisants. Quotas régionaux inexistants (à la différence de Barcelone : 9% max du parc locatif).
 
 Sources : [INSEE](https://www.insee.fr), [Ademe](https://www.ademe.fr), [Fondation Abbé Pierre 2023](https://www.fondation-abbe-pierre.fr), [Légifrance - Loi Le Meur](https://www.legifrance.gouv.fr)
 
@@ -64,18 +64,19 @@ Loi Le Meur existe (2024) ; renforcer contrôle : compétence communes (art. L. 
 Faut-il limiter les meublés touristiques par quota strict, quitte à réduire offre courte durée (impactant touristes budgets limités), pour préserver logement ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 
 ### P3. Résidences secondaires : 3,7 millions de logements gelés en zones tendues, imposition insuffisante (Suisse/Autriche modèles)
 
 **Constat :**
-Selon INSEE (Recensement 2019-2021), la France compte 3,7 millions de résidences secondaires (env. 10% du parc), forte concentration côtière (Côte d'Azur, Bretagne, Aquitaine) et périalpin (Chamonix, Méribel). En zones A+B1 (Paris région, grandes agglomérations), ces immeubles restent vides 200-250 j/an, gelant offre locative permanente. Imposition actuelle : taxe foncière + CFE, très limitée (~1-2% de la valeur vénale vs 5-8% Suisse). Suisse applique taxe résidences secondaires 5-15% annuels (Canton Valais 15%, Zurich 5-10%), Autriche taxe immobilière progressive sur patrimoine non-principal (3-4% annuel). Résultat Suisse : réduction volontaire vers PMR (principal), libération logement accessible.
+Selon INSEE (Recensement 2019-2021), la France compte 3,7 millions de résidences secondaires (env. 10% du parc), forte concentration côtière (Côte d'Azur, Bretagne, Aquitaine) et périalpin (Chamonix, Méribel). En zones A+B1 (Paris région, grandes agglomérations), ces immeubles restent vides 200-250 j/an, gelant offre locative permanente. Imposition actuelle : taxe foncière + CFE, très limitée (~1-2% de la valeur vénale vs 5-8% Suisse). La Suisse n'applique en réalité aucune taxe résidences secondaires de 5-15% : le système actuel repose sur la valeur locative imputée (loyer théorique ajouté au revenu imposable) et un impôt sur la fortune immobilière de 0-0,3% (Zurich applique 3,5-4,25%, pas 5-10%) ; une réforme de septembre 2025 (57,7% des voix) abolit la valeur locative dès 2029 et donne aux cantons l'OPTION, non l'obligation, d'instaurer une taxe résidences secondaires à des taux non encore définis. L'Autriche n'a pas non plus de taxe progressive nationale de 3-4% : l'impôt foncier (Liegenschaftsteuer) y est de 0,4-0,9% annuel, avec des taxes régionales ponctuelles sur les résidences secondaires dans certains Länder (Vienne depuis 2025 : montants fixes de 300-550 EUR/an, pas un pourcentage).
 
 Sources : [INSEE Recensement 2019-2021](https://www.insee.fr), [Suisse DFF - Impôts](https://www.estv.admin.ch), [Autriche BMF - Liegenschaftsteuer](https://www.bmf.gv.at), [Cour des comptes rapport surtaxe 2021](https://www.ccomptes.fr)
 
 **Pistes :**
 
-1. **Appliquer taxe résidences secondaires progressive 5-10% annuelle (modèle Suisse Valais)**
+1. **Appliquer taxe résidences secondaires progressive 5-10% annuelle (proposition française, sans équivalent suisse actuel : voir constat)**
    - Pour : libère logement permanent, rentrée fiscale 3,5-7 Md EUR/an, incitatif propriétaires vers vente/location PMR.
    - Contre : risque départ capitaux vers étranger, baisse marché immobilier régional (- 10-15% prix), contestation juticiaire (égalité fiscale), propriétaires retraités lésés.
 
@@ -97,6 +98,7 @@ Taxe nouvelle : compétence État (réserve UE art. 346 TFUE). Risque égalité 
 Doit-on taxer fortement les résidences secondaires pour libérer logement, au risque de réduire patrimoine retraités et revenus touristiques régionaux ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 
 ### P4. Saisonniers du tourisme sans logement : hôteliers ne recrutent plus, crise structurelle sous-estimée
@@ -135,7 +137,7 @@ Doit-on subventionner logement saisonnier (coût public-contribuable) pour pére
 ### P5. Surtourisme : Étretat, calanques, Mont-Blanc jauges insuffisantes, réservation partout sauf France
 
 **Constat :**
-Selon rapports Gouvernance des sites touristiques (Atout France 2021-2022) et données communes, sites majeurs de France accueillent surcharges chroniques : Étretat (120 000 visiteurs/an prévu, 200 000+ réels en haute saison), parc national des Calanques Marseille (1 M visiteurs/an, infrastructure path 400 pers/jour max), Mont-Blanc massif (100 000 randonneurs/saison juin-septembre sur 200 km de sentiers). Conséquences : dégradation écologique (érosion sentiers, piétinement flore alpine), congestion parking (Étretat : files 2-3h), baisse bien-être visiteurs et riverains (bruit, pollution). Comparaison : Interlaken Suisse applique réservation 90% randos (Jungfraujoch : réservation 8 semaines avance), Arches Utah (USA) : contingent 200/jour depuis 2021. France : aucune réservation obligatoire, quelques appels à auto-limitation.
+Selon rapports Gouvernance des sites touristiques (Atout France 2021-2022) et données communes, sites majeurs de France accueillent surcharges chroniques : Étretat (1,2 à 1,5 million de visiteurs/an, 2024-2026, avec des pics d'environ 10 000/jour en haute saison, très au-dessus des 120 000/an parfois cités), parc national des Calanques Marseille (1 M visiteurs/an, infrastructure path 400 pers/jour max), Mont-Blanc massif (100 000 randonneurs/saison juin-septembre sur 200 km de sentiers). Conséquences : dégradation écologique (érosion sentiers, piétinement flore alpine), congestion parking (Étretat : files 2-3h), baisse bien-être visiteurs et riverains (bruit, pollution). Comparaison : Interlaken Suisse applique réservation 90% randos (Jungfraujoch : réservation 8 semaines avance), Arches Utah (USA) : contingent 200/jour depuis 2021. France : aucune réservation obligatoire, quelques appels à auto-limitation.
 
 Sources : [Atout France - Gouvernance 2021](https://www.atout-france.fr), [Parc national Calanques](https://www.calanques-parcnational.fr), [Communes Étretat/Chamonix rapports 2022](https://www.legifrance.gouv.fr), [Interlaken Tourism](https://www.interlaken.ch), [NPS Arches Utah](https://www.nps.gov)
 
@@ -163,6 +165,7 @@ Réservation : compétence communes (espaces publics) ou État (parcs nationaux,
 Faut-il limiter accès gratuit aux sites majeurs par réservation/contingent, quitte à réduire flux et exclure bas revenus ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 
 ### P6. Stations de ski : fin de la neige (réchauffement 1.5-2°C), reconversion honnête vs expansion canons (économie de l'illusion)
@@ -201,7 +204,7 @@ Faut-il accepter fermeture permanente de stations de ski mi-altitude pour respec
 ### P7. Quarante pour cent des Français ne partent jamais en vacances : tourisme social abandonné, chèques-vacances déclinants
 
 **Constat :**
-Selon enquête conditions de vie INSEE 2022, 38-40% des ménages français n'ont pas pris vacances au cours de l'année (multivacances exclues). Causes documentées : 60% bas revenus (< 1 400 EUR/mois), 35% isolement social, 25% handicap/santé. Historique : tourisme social 1980-2000 via colonies (3,5 M enfants), UCPA, chèques-vacances (Loi Deferre 1978). Déclin : colonies effondrement (350 k enfants 2023 vs 1,2 M 1990), chèques-vacances stagnants (3 Md EUR 2023 vs 5 Md EUR 2010, perte 40%). CAF subventions faibles (500 EUR/famille/an moyenne). Raison : glissement budgétaire État vers infrastructure touristique (aéroports, autoroutes) vs allocation directe bas revenus. Comparaison : Espagne programme "summer camps" 2M enfants/an, Italie chèques vacances-loisirs 8% masse salariale, Belgique allocation touristique universelle 50 EUR/enfant.
+Selon enquête conditions de vie INSEE 2022, 38-40% des ménages français n'ont pas pris vacances au cours de l'année (multivacances exclues). Causes documentées : 60% bas revenus (< 1 400 EUR/mois), 35% isolement social, 25% handicap/santé. Historique : tourisme social 1980-2000 via colonies (3,5 M enfants), UCPA, chèques-vacances (Loi Deferre 1978). Déclin : colonies effondrement (47 000 enfants en colonies stricto sensu en 2023 selon UNOSEL, ou 1,34 million si l'on compte tous les séjours collectifs avec hébergement selon l'INJEP, vs 1,2 M 1990 ; le chiffre de 350 000 ne correspond à aucune donnée officielle), chèques-vacances stagnants (1,77 à 1,8 Md EUR émis en 2023 selon l'ANCV, pas 3 Md EUR, soit une perte de 64-65% par rapport aux 5 Md EUR 2010, plus sévère que les 40% parfois cités). CAF subventions faibles (500 EUR/famille/an moyenne). Raison : glissement budgétaire État vers infrastructure touristique (aéroports, autoroutes) vs allocation directe bas revenus. Comparaison : Espagne programme "summer camps" 2M enfants/an, Italie chèques vacances-loisirs 8% masse salariale, Belgique allocation touristique universelle 50 EUR/enfant.
 
 Sources : [INSEE - Enquête conditions vie 2022](https://www.insee.fr), [Ministère Famille - Chiffres colonies](https://www.senat.fr), [UCPA - Rapport social 2023](https://www.ucpa.asso.fr), [CAF - Données aide sociale](https://www.caf.fr), [Cour des comptes - Tourisme social 2018](https://www.ccomptes.fr)
 
@@ -229,6 +232,7 @@ Allocation enfants : compétence État + collectivités (joint-venture CAF-régi
 Faut-il relancer tourisme social via allocation directe (coûts publics 5+ Md EUR/an), ou accepter inégalité d'accès (40% Français exclu) ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 
 ### P8. Campings repris par fonds de capital-investissement : montée en gamme forcée, expulsion mobil-homes familiaux
@@ -267,7 +271,7 @@ Doit-on protéger campings familiaux de rachat fonds et expulsion mobil-homes (l
 ### P9. Trains de nuit et tourisme bas-carbone sous-développés : gap gigantesque vs Autriche/Italie, investissement rail insuffisant
 
 **Constat :**
-Selon SNCF Connect & Trenitalia (2022-2023), France offre 10-12 lignes nuit (Paris-Nice, Paris-Venise, 8 autres), occupant ~20-30% capacité, vs Autriche 20 lignes nuit (ÖBB Nightjet : 2,5 M passagers/an, occupation 80%), Italie 15 lignes (Trenitalia, + 30 % crois. 2022-2024). Raison France : sous-investissement infrastructure (30 ans trains vieillissants, retrofit 200 M EUR en attente), tarifs élevés (250-400 EUR Paris-Venise vs 60 EUR bus), peu marketing (SNCF priorité TGV jour). Potentiel : 4-5 M passagers/an si offre pari vol intérieur. Bénéfices carbone : train nuit = 10x moins CO2 qu'avion (15 g CO2/km/pers vs 150 g), rendement énergétique. Infrastructure défaut : raccordement gares-hôtels faible, réservation pas intégré booking (vs Nightjet app). Investissements manqués : corridors touristiques Alpes (Chamonix-Turin), Pyrénées (Pau-Barcelone), Méditerranée express (Marseille-Gênes), tous opérants Autriche/Italie, fermés France.
+Selon SNCF Connect & Trenitalia (2022-2023), France offre 10-12 lignes nuit (Paris-Nice, Paris-Venise, 8 autres), occupant ~20-30% capacité, vs Autriche 20 lignes nuit (ÖBB Nightjet : 1,5 M passagers/an en 2024, pas 2,5 M, occupation 80% ; routes majeures Paris-Vienne et Munich-La Spezia fermées depuis fin 2025-2026, fragilisant le modèle), Italie 15 lignes (Trenitalia, + 30 % crois. 2022-2024). Raison France : sous-investissement infrastructure (30 ans trains vieillissants, retrofit 200 M EUR en attente), tarifs élevés (250-400 EUR Paris-Venise vs 60 EUR bus), peu marketing (SNCF priorité TGV jour). Potentiel : 4-5 M passagers/an si offre pari vol intérieur. Bénéfices carbone : train nuit = 10x moins CO2 qu'avion (15 g CO2/km/pers vs 150 g), rendement énergétique. Infrastructure défaut : raccordement gares-hôtels faible, réservation pas intégré booking (vs Nightjet app). Investissements manqués : corridors touristiques Alpes (Chamonix-Turin), Pyrénées (Pau-Barcelone), Méditerranée express (Marseille-Gênes), tous opérants Autriche/Italie, fermés France.
 
 Sources : [SNCF - Prospective rail 2023](https://www.sncf.fr), [Trenitalia - Rapports activité](https://www.trenitalia.com), [ÖBB Nightjet - Données passagers](https://www.nightjet.com), [ADEME - Comparaison carbone transports 2022](https://www.ademe.fr), [Rapport sénatorial rail tourisme 2021](https://www.senat.fr)
 
@@ -295,6 +299,7 @@ Investissement SNCF : compétence État (shareholder SNCF, budget transport). Pa
 Faut-il investir massivement train nuit (400 M EUR capex + 5-10 M EUR/an subventions) pour décarboner tourisme courte part, ou prioriser routes/routes électrification ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 
 ### P10. Atout France : promotion touristique émietée et fragmentée vs offices espagnols/italiens monolithes, perte parts marché
