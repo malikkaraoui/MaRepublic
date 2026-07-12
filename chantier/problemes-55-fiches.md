@@ -25,7 +25,7 @@
 
 ### P2. Attentes excessives chez les spécialistes
 
-**Constat :** Délai médian pour voir un cardiologue/dermatologue en France : 3 mois (public), 6-12 mois en zones rurales (DREES 2024). Allemagne : 4 semaines max (loi Krankenversicherung 2015). Royaume-Uni NHS : 18 semaines = seuil limite. France : surcharge structurelle = 30 % des consultations dépassent les seuils recommandés (HAS 2023). Conséquence : 15 % des patients renonçaient avant crise sanitaire (à confirmer), suppurations/complications chez 5-7 % (ordres de grandeur).
+**Constat :** Délai médian pour voir un cardiologue en France : 42 jours (environ 6 semaines), dermatologue : 32 jours (environ 4,5 semaines) (Doctolib/DREES 2025), avec des délais bien plus longs en zones rurales. Allemagne : 4 semaines max (loi Krankenversicherung 2015). Royaume-Uni NHS : 18 semaines = seuil limite. France : surcharge structurelle = 30 % des consultations dépassent les seuils recommandés (HAS 2023). Conséquence : 15 % des patients renonçaient avant crise sanitaire (à confirmer), suppurations/complications chez 5-7 % (ordres de grandeur).
 
 **Pistes :**
 1. Augmenter capacité par recrutement spécialistes étrangers (levée PADHUE, rémunération alignée sur pays origin) + téléconsultation spécialisée systématique. Pour : gain rapide, baisse coûts salariaux. Contre : drain cerveau européen, téléconsultation inadaptée, creuse inégalités (spécialistes concentrés encore plus).
@@ -39,6 +39,7 @@
 **⚖️ À trancher :** Augmenter capacité par recrutement/formation (long terme) ou mobiliser secteur privé par convention tarifaire (risque dérive) ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
@@ -130,7 +131,7 @@
 
 ### P7. Santé mentale parent pauvre : MonPsy limité
 
-**Constat :** Santé mentale = 2,4 % dépenses santé France (OECD, 2021) vs 5-7 % Allemagne/Nordiques. Dépression/anxiété : 15 % population, 40 % recours non satisfait (HAS 2023). MonPsy (remboursement psychologue) depuis 2022 = 8 séances/an max, 60-70 EUR remboursement vs 80-120 EUR tarif libre. Conséquence : accès restreint. Attente psys publics : 3-6 mois. Taux suicide France = 14/100 k (vs 10 Suède, 9 UK, à confirmer chiffres exacts).
+**Constat :** Santé mentale = 2,4 % dépenses santé France (OECD, 2021) vs 5-7 % Allemagne/Nordiques. Dépression/anxiété : 15 % population, 40 % recours non satisfait (HAS 2023). MonPsy (remboursement psychologue) depuis 2022 = 8 séances/an max, augmenté à 12 séances/an depuis le décret du 15 mai 2025, 60-70 EUR remboursement vs 80-120 EUR tarif libre. Conséquence : accès restreint. Attente psys publics : 3-6 mois. Taux suicide France = 13/100 k (2023, Santé publique France) vs 11,4/100 k Royaume-Uni (2024, ONS).
 
 **Pistes :**
 1. Augmenter MonPsy à 20-30 séances/an + majorité remboursement (90 %) + intégration psys salariés CMP/PMI. Pour : accès équitable, dépistage. Contre : coût massif (1,5-2 Md EUR/an estimation), « médicalise » malheurs normaux.
@@ -144,6 +145,7 @@
 **⚖️ À trancher :** Augmenter remboursement psy pour universaliser accès (coûteux) ou privilégier dépistage léger par télé-psy (inégalité) ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
@@ -151,7 +153,7 @@
 
 ### P8. EHPAD : refilage hôpital/médico-social
 
-**Constat :** EHPAD France = 750 k lits, 90 % public/associatif. Taux encadrement : 0,6 soignant/résident vs 1,2 Allemagne. Conséquence : transferts « administratifs » hôpital (patient stable mais EHPAD plein) = 20-30 % lits d'hospitalisation (Cour comptes 2022, 800 k séjours/an), coût massif (500 EUR/jour hôpital vs 100-150 EHPAD). Refilage inverse (hôpital renvoie trop tôt) = complications 15-20 % (chutes, infections, décès à domicile). Coût global : 5-7 Md EUR dépenses « inadéquates » gérées mauvais étage.
+**Constat :** EHPAD France = 570-610 k lits (environ 610 000 en 2023, données DREES), 90 % public/associatif. Taux encadrement : 0,6 soignant/résident vs 1,2 Allemagne. Conséquence : transferts « administratifs » hôpital (patient stable mais EHPAD plein) = 20-30 % lits d'hospitalisation (Cour comptes 2022, 800 k séjours/an), coût massif (500 EUR/jour hôpital vs 100-150 EHPAD). Refilage inverse (hôpital renvoie trop tôt) = complications 15-20 % (chutes, infections, décès à domicile). Coût global : 5-7 Md EUR dépenses « inadéquates » gérées mauvais étage.
 
 **Pistes :**
 1. Augmenter taux encadrement EHPAD à 1 soignant/résident + offre publique (400 places/an). Coût : 2-3 Md EUR investissement + 500 M EUR récurrent/an. Pour : qualité, réduction transferts hôpital. Contre : massif budgétaire, personnel infirmier pénurie ailleurs.
@@ -165,6 +167,7 @@
 **⚖️ À trancher :** Améliorer EHPAD (massif budgétaire) ou favoriser maintien domicile (préférence patient, coûts identiques) ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
@@ -172,7 +175,7 @@
 
 ### P9. Prévention : 2 % budget santé vs curatif 98 %
 
-**Constat :** Prévention/santé publique = 1,8 % dépenses santé France (60 EUR/habitant/an), curatif = 98,2 %. Suède = 6 %, Canada = 5 %. Bénéfice prévention : 1 EUR prévention = 3-7 EUR économisés curatif (littérature). France : 30 % obésité (vs 18 % Japon), 15 % diabète type 2 prévention insuffisante, consomm alcool = 15 % populaire (vs 8 % moyenne OECD). Coûts : diabète 4 Md EUR/an, obésité 7 Md EUR/an (ordre grandeur).
+**Constat :** Prévention/santé publique = 1,8 % dépenses santé France (60 EUR/habitant/an), curatif = 98,2 %. Suède = 6 %, Canada = 5 %. Bénéfice prévention : 1 EUR prévention = 3-7 EUR économisés curatif (littérature). France : 18,1 % obésité chez les adultes (2024-2025 ; 48,8 % si on inclut le surpoids) (le chiffre de comparaison "18 % Japon" cité ici n'est pas vérifié et mérite d'être recontrôlé), 15 % diabète type 2 prévention insuffisante, consomm alcool = 15 % populaire (vs 8 % moyenne OECD). Coûts : diabète 4 Md EUR/an, obésité 7 Md EUR/an (ordre grandeur).
 
 **Pistes :**
 1. Augmenter budget prévention à 5 % (rebalancer curatif) = +3-4 Md EUR, placer médecine travail/scolaire + nutrition/activité. Pour : retour sur investissement. Contre : long terme (20+ ans), lobbying pharma résiste, intérêts privés (malbouffe/alcool).
@@ -186,6 +189,7 @@
 **⚖️ À trancher :** Investir massivement prévention (retour long terme) ou accepter coûts curatif élevés pour éviter fiscalité/lobbying court terme ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
