@@ -117,7 +117,7 @@ URL : https://www.interieur.gouv.fr/nos-competences/france-identite (consulter)
 
 ### P6. Les seniors et les arnaques en ligne : responsabilité bancaire et remboursement
 
-**Constat :** 1,2 million de seniors (65+) victimes de cyberfraude par an (phishing bancaire, faux conseillers, usurpation d'identité) ; montant moyen : 2 500 €. Taux de remboursement par les banques : 3 % (presque jamais). Raison officielle : « victime de sa propre négligence ». Or, en Allemagne et Suisse, les banques remboursent 30-50 % des fraudes seniors (règle : obligation de soin envers les clients vulnérables). France : aucune obligation légale de remboursement. Source : Banque de France rapports 2023-2024 ; Agence nationale de lutte contre la fraude (ANLF).
+**Constat :** Le chiffre de 1,2 million de seniors (65+) victimes de cyberfraude par an ne trouve aucune source dans les données officielles (Ministère de l'Intérieur, INSEE, Banque de France, 2023-2025) : les 65-74 ans représentent environ 17 % des 411 700 victimes totales d'escroqueries et fraudes en France (soit environ 70 000 seniors), la confusion provenant probablement d'un mélange entre nombre de victimes et montant total des pertes (de l'ordre de 1,2 milliard d'euros). Montant moyen par victime : 2 500 €. Taux de remboursement par les banques : 3 % (presque jamais). Raison officielle : « victime de sa propre négligence ». Or, en Allemagne et Suisse, les banques remboursent 30-50 % des fraudes seniors (règle : obligation de soin envers les clients vulnérables). France : aucune obligation légale de remboursement. Source : Banque de France rapports 2023-2024 ; Agence nationale de lutte contre la fraude (ANLF).
 URL : https://www.banque-france.fr/le-systeme-financier/paiements/denonciation-des-fraudes
 
 **Pistes :**
@@ -126,7 +126,7 @@ URL : https://www.banque-france.fr/le-systeme-financier/paiements/denonciation-d
 3. Imposer aux banques une formation anti-arnaque annuelle (certification) et une ligne téléphonique vérifiée pour confirmer les ordres importants (65+). Pour : prévention au lieu de remboursement. Contre : coûteux en RH bancaire ; effet limité si senior en début de démence.
 
 **Simulation (ordres de grandeur) :**
-- Obligation de remboursement 80 % pour fraudes 65+ : 2 Md€/an (1,2 million fraudes x 2 500 € x 0,8). Coût bancaire net : 1,5 Md€/an (après provisions). Répercussion moyenne client : +2-3 € de frais/mois. Gagnants : 1,2 million victimes seniors. Perdants : tous les clients bancaires (+frais généraux).
+- Obligation de remboursement 80 % pour fraudes 65+ : ~140 M€/an (70 000 fraudes environ x 2 500 € x 0,8, hypothèse à réviser si le périmètre réel de victimes diffère). Répercussion moyenne client : minime au regard de la base précédente. Gagnants : environ 70 000 victimes seniors par an. Perdants : tous les clients bancaires (+frais généraux, dans une moindre mesure qu'estimé initialement).
 - Délai réaliste : 6 mois débat légal + 12 mois implémentation bancaire.
 
 ⚖️ **Faisabilité juridique :** Article L. 133-6 du Code monétaire et financier : les consommateurs sont responsables en cas de fraude sauf si négligence grave. La CJUE (2015, Volkswagen Financial Services) : responsabilité atténuée envers clients vulnérables. Vecteur : loi modifiant le Code monétaire et financier ; risque faible (Cour de cassation admet déjà exceptions pour vulnérabilité).
@@ -134,6 +134,7 @@ URL : https://www.banque-france.fr/le-systeme-financier/paiements/denonciation-d
 ⚖️ **À trancher :** Qui décide de la « vulnérabilité » : la banque (auto-déclaration) ou l'administration (certification) ? Faut-il 50 %, 80 % ou 100 % de remboursement ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
@@ -159,9 +160,9 @@ URL : https://www.education.gouv.fr/suivi-scolaire-et-vie-scolaire
 
 ---
 
-### P8. L'illettrisme courant : 2,5 millions d'adultes que le numérique aggrave
+### P8. L'illettrisme courant : 3,7 millions d'adultes que le numérique aggrave
 
-**Constat :** 2,5 millions d'adultes français (20% dans certains milieux précaires) ne maîtrisent pas les compétences de base (lire, écrire, compter). La dématérialisation administrative accélère leur exclusion (formulaires en ligne incompréhensibles, absence d'aide visuelle). Des administrations (exemple : demande d'allocation de solidarité) offrent zéro alternative papier lisible. L'ANLCI (Agence nationale de lutte contre l'illettrisme) estime que 40 % des demandes d'allocations sont mal remplies en ligne par manque de compréhension. Accès à l'emploi : les candidatures sont 100% numériques ; un illetré ne peut même pas s'inscrire à Pôle Emploi sans aide.
+**Constat :** 3,7 millions d'adultes français (20% dans certains milieux précaires) ne maîtrisent pas les compétences de base (lire, écrire, compter) selon les données ANLCI 2024-2026 (le chiffre de 2,5 millions parfois cité sous-estime la réalité d'environ 1,2 million). La dématérialisation administrative accélère leur exclusion (formulaires en ligne incompréhensibles, absence d'aide visuelle). Des administrations (exemple : demande d'allocation de solidarité) offrent zéro alternative papier lisible. L'ANLCI (Agence nationale de lutte contre l'illettrisme) estime que 40 % des demandes d'allocations sont mal remplies en ligne par manque de compréhension. Accès à l'emploi : les candidatures sont 100% numériques ; un illetré ne peut même pas s'inscrire à Pôle Emploi sans aide.
 URL : https://www.anlci.gouv.fr/nos-publications
 
 **Pistes :**
@@ -170,7 +171,7 @@ URL : https://www.anlci.gouv.fr/nos-publications
 3. Maintenir des agents administratifs formés au service aux personnes illettrées (droit d'accueil sans jugement, aide rédaction formulaires, lecture textes officiels). Pour : humanité, efficacité immédiate. Contre : coûteux (40 M€/an en RH) ; stigmatisant.
 
 **Simulation (ordres de grandeur) :**
-- Formulaires lisibles + agents spécialisés : 150 M€ conception + 40 M€/an RH = total 10 ans = 550 M€. Formation illettrés (école populaire) : 300 M€/an sur 10 ans = 3 Md€. Impact : 30-40 % des 2,5 millions bénéficiaires retrouvent autonomie administrative (à confirmer). Gagnants : 750 000 à 1 million de personnes. Perdants : budgets d'État.
+- Formulaires lisibles + agents spécialisés : 150 M€ conception + 40 M€/an RH = total 10 ans = 550 M€. Formation illettrés (école populaire) : 300 M€/an sur 10 ans = 3 Md€. Impact : 30-40 % des 3,7 millions bénéficiaires retrouvent autonomie administrative (à confirmer). Gagnants : 1,1 à 1,5 million de personnes. Perdants : budgets d'État.
 - Délai réaliste : 12 mois structuration + 5 ans effet mesurable.
 
 ⚖️ **Faisabilité juridique :** Droit d'accès administrative : article 1 de la Déclaration Universelle de 1948 (égalité) + CRPA article L. 100-3. Jurisprudence Conseil d'État (2015) : impossibilité totale d'accéder à un droit = recours possible. Vecteur : loi obligeant à des formulaires « accessibles » (modèle : loi accessibilité handicap) ; risque très faible.
@@ -178,6 +179,7 @@ URL : https://www.anlci.gouv.fr/nos-publications
 ⚖️ **À trancher :** Faut-il créer une obligation légale de « formulaires lisibles » (comme pour l'accessibilité handicap) ? Qui finance la refonte : l'État ou les agences prestataires ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
