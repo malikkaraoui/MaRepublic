@@ -14,7 +14,7 @@
 - **Statut :** ⬜
 
 ### P2. Suicides et crises de santé mentale des agriculteurs
-- **Le problème (France, 2016-2026) :** Taux de suicide des agriculteurs de 55 ans et plus trois fois supérieur à la population générale (à confirmer). Estimé à environ un suicide tous les deux jours dans le secteur agricole. Facteurs identifiés : impossibilité de transmission, isolement rural, endettement chronique, perte d'identité professionnelle, rapport aux normes administratives.
+- **Le problème (France, 2016-2026) :** Surrisque de suicide chez les agriculteurs de 46 % (15-64 ans) à 77 % (propriétaires exploitants) par rapport à la population générale selon la MSA (le facteur « trois fois » souvent cité vaut pour la comparaison avec les cadres, pas avec la population générale). Estimé à environ un suicide tous les deux jours dans le secteur agricole. Facteurs identifiés : impossibilité de transmission, isolement rural, endettement chronique, perte d'identité professionnelle, rapport aux normes administratives.
 - **Piste A, 🇬🇧 Royaume-Uni (Ligne d'écoute dédiée et formation des pairs) :** Implémenter un réseau national d'écoute 24/7 pour agriculteurs en détresse, formation aux premiers secours en santé mentale adaptée au milieu rural. **Pour :** Prévention à bas coût ; démédicalise ; s'appuie sur les pairs. **Contre :** Demande du volontariat durable ; risque de surcharge émotionnelle pour les pairs.
 - **Piste B, 🇩🇪 Allemagne (Accompagnement psychosocial + aide fiscale temporaire) :** Psys spécialisés en milieu rural ; allègement fiscal pour les agriculteurs en difficulté psychosociale (réduction cotisations, report de dettes). **Pour :** Holistique ; réduit la honte/stigmatisation. **Contre :** Coûteux ; complexité administrative.
 - **Piste C, 🇨🇦 Canada (Fonds de dépistage et accompagnement de transition) :** Médecins et travailleurs sociaux mobiles dans les zones rurales ; accompagnement contractuel (2-3 ans) vers transition de carrière ou amélioration de structure. **Pour :** Proactif ; accompagnement long terme. **Contre :** Demande forte de ressources humaines ; peut stigmatiser les agriculteurs.
@@ -23,6 +23,7 @@
 - **Simulation (ordres de grandeur) :** Ligne d'écoute 5-10 M€/an ; psys ruraux 30-50 M€/an si déploiement national ; gagnants agriculteurs en détresse et familles, économies psychiatriques long terme ; délai mise en place 1-2 ans, réduction suicides estimée 10-20% horizon 3-5 ans.
 - ⚖️ **À trancher :** Prévention locale vs. interventions d'État ? Qui paye les psys ruraux ? Faut-il des droits spéciaux pour agriculteurs en détresse ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P3. Transmission des fermes et renouvellement des générations
 - **Le problème (France, 2016-2026) :** Entre 1988 et 2000, accélération du déclin du nombre de fermes, particulièrement aux deux extrémités de la pyramide des âges. Génération montante : niveau d'études plus élevé, capital académique monétisable ailleurs, désintérêt pour la transmission familiale. Entre 2000-2026, la tendance s'accentue : fermes familiales fragmentées ou abandonnées. Problème d'installation des jeunes agriculteurs face aux coûts d'équipement.
