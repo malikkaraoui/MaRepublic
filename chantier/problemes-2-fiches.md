@@ -36,7 +36,7 @@
 - **Statut :** ⬜
 
 ### P4. Santé mentale des jeunes en détresse
-- **Le problème (France, 2016-2026) :** Dépression, anxiété, pensées suicidaires en augmentation chez 15-24 ans (à confirmer : +60 % environ entre 2015-2024). Manque de psychologues en secteur public (attentes 3-6 mois), TikTok/réseaux sociaux amplifient l'anxiété. Suicide : 3e cause de mortalité chez 15-24 ans.
+- **Le problème (France, 2016-2026) :** Dépression, anxiété, pensées suicidaires en augmentation chez 15-24 ans (à confirmer : +60 % environ entre 2015-2024). Manque de psychologues en secteur public (attentes 3-6 mois), TikTok/réseaux sociaux amplifient l'anxiété. Suicide : 2e cause de mortalité chez 15-24 ans, derrière les accidents de la route (DREES, Observatoire national du suicide).
 - **Piste A, 🇫🇷 France (Créer un corps de psychologues jeunesse publics) :** 2 000 psychologues salariés en écoles et université, consultation gratuite 1x/mois garanti. **Pour :** Accès égal, dépistage précoce. **Contre :** Coûteux (estimé 200M€/an), problématique de confidentialité scolaire.
 - **Piste B, 🇦🇺 Australie (Peer counselling + app) :** Former des jeunes (16-21) comme pairs-aidants bénévoles, app de chat avec psycho supervisé en ligne. **Pour :** Accessible 24/7, jeunes se reconnaissent. **Contre :** Qualité variable, risque de débordement sans supervision réelle.
 - **Piste C, 🇩🇰 Danemark (Écoles à réseau mental) :** Infirmier scolaire + psychologue à temps partiel dans chaque collège, curriculum de résilience. **Pour :** Intervient tôt, pas de stigmate. **Contre :** Nécessite formation des enseignants, culturel.
@@ -45,9 +45,10 @@
 - ⚖️ **Faisabilité juridique :** Loi (corps psychologues publics, peer-counselling encadré) ; Art. 40 (200M€/an estimé pour 2000 psychologues) ; aucun obstacle constitutionnel majeur.
 - ⚖️ **À trancher :** Agir en prévention (école, réseaux) ou en soin (psy) ? Quel équilibre entre peer-support et professionnel ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P5. Conditions dégradées en EHPAD et financiarisation
-- **Le problème (France, 2016-2026) :** Scandale Orpea (janvier 2022) : révélé maltraitance, rationnement de nourriture/protections, staff sous-payé et surmenée. Depuis, améliorations ponctuelles mais manquements persistent (enquête 2024). 743 000 résidents en EHPAD (à confirmer), majorité dépendants de la capacité financière du gestionnaire.
+- **Le problème (France, 2016-2026) :** Scandale Orpea (janvier 2022) : révélé maltraitance, rationnement de nourriture/protections, staff sous-payé et surmenée. Depuis, améliorations ponctuelles mais manquements persistent (enquête 2024). Environ 577 000 à 600 000 résidents en EHPAD (DREES 2025), majorité dépendants de la capacité financière du gestionnaire.
 - **Piste A, 🇫🇷 France (Nationaliser partiellement + tarifation régulée) :** Reprendre ~30 % des EHPAD privés en gestion directe, fixer tarif max basé sur coûts réels. **Pour :** Évite l'extraction de profit, qualité contrôlable. **Contre :** Lourd administrativement, dilapide le privé efficace.
 - **Piste B, 🇩🇪 Allemagne (Mutualisation + contrôle qualité strict) :** EHPAD gérés via coopératives de familles/staff, inspection trimestrielle, sanction financière immédiate. **Pour :** Aligne incitations (pas de profit pervers), régulation forte. **Contre :** Coopératives complexes, inspection coûteuse.
 - **Piste C, 🇬🇧 Royaume-Uni (Public-Private Partnership stricte) :** Privés acceptent s'ils signent contrat de ratios staff/résidents, prix plafonnés, audit annuel. **Pour :** Garde dynamique du privé, standards clairs. **Contre :** Privés sortent si marges réduites, crée vide.
@@ -56,6 +57,7 @@
 - ⚖️ **Faisabilité juridique :** Loi (nationalisation partielle, PPP, mutualisation) ; CEDH art. 1 protocole 1 (droit propriété, reprises = indemnisation), Art. 40 (coûts) ; scandale Orpea 2022.
 - ⚖️ **À trancher :** Est-ce un problème de profit ou de moyens insuffisants ? Faut-il réguler ou restructurer ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P6. Burn-out et démotivation du personnel soignant
 - **Le problème (France, 2016-2026) :** 50-60 % des infirmiers et médecins déclarent l'épuisement professionnel (à confirmer). Départs anticipés en retraite accélérés. Salaires bas comparés à Europe du Nord. Horaires flexibles inexistants, violence de patients croissante. Impacts : qualité de soin, accidents médicaux, démission massives.
