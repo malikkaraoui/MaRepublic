@@ -28,7 +28,7 @@
 - **Piste B : Barème décroissant pré-annoncé :** Au lieu de surprises, publier le calendrier de baisse dès 2026 (ex: -10 %/an sur 3 ans). Artisans et ménages s'ajustent graduellement. **Pour :** réduction budgétaire transparente, transversale. **Contre :** risque précipitation finie de travaux en année 1, surcharges, qualité dégradée.
 - **Piste C : Crédit d'impôt permanent garanti :** Remplacer MaPrimeRénov' par crédit d'impôt 30 % (longue durée) + emprunt bancaire super-subventionné pour ménages modestes (taux 0 %). **Pour :** plus facile à budgéter, artisans ont visibilité. **Contre :** crédit d'impôt mal ciblé (fuit vers ménages riches qui feraient les travaux quand même), endettement accru.
 - **Simulation (ordres de grandeur) :**
-  - Budget MaPrimeRénov' 2025 : ~3 Md€. Réduction 2026 : 1,5 à 2,4 Md€ (-50 à 80 %).
+  - Budget MaPrimeRénov' global stable ou en légère hausse en 2026 (3,5-3,6 Md€ + 500 M€ CEE, contre ~3 Md€ en 2025, Anah) : la baisse de 50 à 80 % touche le montant individuel par dossier selon les revenus, pas l'enveloppe globale.
   - Coût Piste A : maintien 3 Md€/an × 5 ans = 15 Md€ engagés sur mandat. Financement : budget climat + impôt CO2.
   - Coût Piste B : économies programmées (ex: 500 M€/an cumulés sur 3 ans). Financement : redirection versus autres aides logement.
   - Coût Piste C : crédit d'impôt 30 % = ~4,5 Md€/an (similaire). Emprunt 0 % = 800 M€/an coût trésor.
@@ -37,6 +37,7 @@
 - ⚖️ **Faisabilité juridique :** Piste A : vote budgétaire normal. Piste B : modification du barème par arrêté. Piste C : changement du code fiscal, débat parlementaire.
 - ⚖️ **À trancher :** Rénov est-elle un bien public (financer le flux) ou un service marchand (subventionner la demande) ? Qui porte le risque si inflation matériaux dépasse subvention ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P3. APL : les aides absorbées par la hausse des loyers
 
@@ -58,7 +59,7 @@
 
 ### P4. Taxe foncière : explosion après suppression de la taxe d'habitation
 
-- **L'aberration (chiffrée, source) :** Suppression TH 2026 : +15 Md€ pour collectivités. Transfert vers taxe foncière annoncé, puis repoussé au printemps 2026. Hausse minimale TF 2026 : +0,9 % (indexation INSEE) + votes locaux. Gouvernement a suspendu réforme majeure fin novembre 2025 pour 7,4 M logements. Enjeu : propriétaires de maison individuelle risquent TF +30 à 60 % pour compenser TH (à confirmer).
+- **L'aberration (chiffrée, source) :** La taxe d'habitation sur la résidence principale a été supprimée le 1er janvier 2023 (manque à gagner ~15 Md€ pour les collectivités). Le transfert compensatoire vers la taxe foncière, annoncé pour compenser ce manque, a été repoussé au printemps 2026. Hausse minimale TF 2026 : +0,9 % (indexation INSEE) + votes locaux. Gouvernement a suspendu réforme majeure fin novembre 2025 pour 7,4 M logements. Enjeu : propriétaires de maison individuelle risquent TF +30 à 60 % pour compenser TH (à confirmer).
 - **Pourquoi c'est illogique :** TH disparaît, TF doit compenser localement. Or TF est cadastre archaïque (valeur vénale années 1970). Réévaluation juste serait implosion. État repousse pour éviter tempête politique. Propriétaires restent en incertitude, investisseurs fuient.
 - **Piste A : Réévaluation cadastrale programmée sur 10 ans :** Recalculer la valeur cadastrale progressivement (+10 %/an), intégrer immobilier 2020+. TF augmente linéairement mais prévisible. **Pour :** juste long terme, élasticité fiscale réelle. **Contre :** technocratique, audit coûteux, contestations massives, délai très long.
 - **Piste B : Remplacer TF par taxe sur la plus-value immobilière latente :** Au lieu de taxe annuelle, taxe au moment de la vente ou héritage (ex: 10 % de plus-value). **Pour :** non immédiat, ciblé sur enrichissement. **Contre :** tue les transactions, perte revenus stables pour collectivités, incite rétention bien.
@@ -74,6 +75,7 @@
 - ⚖️ **Faisabilité juridique :** Piste A : décret réévaluation, aucun obstacle majeur. Piste B : modification code fiscal, débat collectivités vs État. Piste C : changement TVA, débat parlementaire.
 - ⚖️ **À trancher :** Qui assume la perte TH : propriétaires ou tous les impôts ? Cadastre doit-il refléter valeur réelle ou rester archaïque pour stabilité sociale ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P5. Passoires interdites : retrait de l'offre et pénurie aggravée
 
@@ -138,7 +140,7 @@
 - **Piste B : Exonération taxe si travaux lancés dans 2 ans :** Propriétaire en défaut paiement TLV peut obtenir sursis 2 ans si contrat rénov signé attesté architecte. Défaut travaux = rappel + intérêts. **Pour :** incite sans coûts directs. **Contre :** contrôle quasi impossible, 90 % arnaquent (contrat fantôme).
 - **Piste C : Retrait à usage public temporaire (emphytéose 18 ans) :** État reprend logement vacant moyennant indemnité basse + engagement rénov 3 ans. Loue ensuite HLM. Après 18 ans, propriétaire initial récupère bien rénové. **Pour :** offre augmente, bien amélioré. **Contre :** atteinte propriété massive, risque constitutionnel, contestation barreau.
 - **Simulation (ordres de grandeur) :**
-  - Revenus TLV/TVLH actuels : ~300 M€/an (inefficace). Collectivités les dépensent presque intégralement faute d'effet.
+  - Revenus TLV actuels (2026, avant remplacement par la TVLH en 2027) : ~300 M€/an (inefficace). Collectivités les dépensent presque intégralement faute d'effet.
   - Coût Piste A : achat 2 M vacant × 200 k€ prix moyen = 400 Md€ (!). Sur 20 ans = 20 Md€/an (absurde). Revente HLM : -40 % (perte trésor). Non soutenable.
   - Coût Piste B : aucun (on renonce taxe). Bénéfice si 50 % lancent travaux = 1 M rénov × valeur 80 k€ = 80 Md€ bien public (très optimiste).
   - Coût Piste C : indemnité 50 % prix cadastral × 1,5 M = ~30 Md€ initial (cher). Rénov État 50 k€ × 1,5 M = 75 Md€ sur 3 ans = 25 Md€/an. Total : 55 Md€/an. Revenu HLM 18 ans stabilise.
@@ -147,6 +149,7 @@
 - ⚖️ **Faisabilité juridique :** Piste A : faisable (achat gré à gré). Piste B : légal (sursis fiscal). Piste C : risque constitutionnel majeur (propriété protégée), débat Conseil d'État.
 - ⚖️ **À trancher :** Faut-il massifier offre publique (HLM) vs sauver marché privé ? Atteinte propriété acceptable au nom de pénurie ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P9. Airbnb fiscal : avantage meublé touristique vs location longue durée
 
@@ -169,14 +172,14 @@
 
 ### P10. Copropriétés dégradées : fonds travaux insuffisants et blocages majorité
 
-- **L'aberration (chiffrée, source) :** 1,1 M personnes vivent en copropriété dégradée (Fondation Abbé Pierre 2024). 110 k copropriétés dégradées France. Fonds travaux obligation 2026 : 30 €/m² minimu/an obligatoire. Mais petit copro 5000 m² = 150 k€/an pour 20 familles pauvres = insoutenable. Blocages : résolution travaux demande majorité qualifiée (article 25 = 50 %+ présents, ou article 24 = simple 33 % si article 25 échoue). Attente moyenne travaux votés : 5 ans avant lancement (procédures, contentieux, accumulation insuffisances).
+- **L'aberration (chiffrée, source) :** 1,1 M personnes vivent en copropriété dégradée (Fondation Abbé Pierre 2024). 110 k copropriétés dégradées France. L'obligation légale (loi 1965 modifiée ALUR 2014) n'est pas un montant fixe en €/m², mais un minimum de 5 % du budget prévisionnel voté en assemblée générale (2,5 % avec un Plan Pluriannuel de Travaux). Pour une petite copropriété pauvre au budget déjà contraint, ce pourcentage reste hors de portée : le fonds ne couvre jamais l'ampleur des travaux de structure nécessaires, 20 familles pauvres ne pouvant abonder davantage. Blocages : résolution travaux demande majorité qualifiée (article 25 = 50 %+ présents, ou article 24 = simple 33 % si article 25 échoue). Attente moyenne travaux votés : 5 ans avant lancement (procédures, contentieux, accumulation insuffisances).
 - **Pourquoi c'est illogique :** Copro ancien (années 1970-80) déjà en retard maintenance. Propriétaires occupants pauvres ne peuvent contribuer 150 k€/an. Fonds n'accumule rien, dégradation s'accélère. Majorité permet quelques copropriétaires riches de bloquer rénov. 10 ans plus tard : immeuble nid de rats, valeur =0, évacuation forcée.
 - **Piste A : Financement public rénov copro dégradée (prêt 0 % + subside 40 %) :** État finance 60 % rénov lourds (structure, toiture), ménages occupants 40 % via versement échelonné sans intérêt (20 ans). **Pour :** sauve immeubles, occupants pas éjectés. **Contre :** coûts publics énormes, sélection difficile, risque aléa moral (propriétaires abandonnent fonds propre).
 - **Piste B : Majorité simplifiée travaux urgence (article 24-1) :** Travaux d'urgence sécurité (toiture, électricité, gaz) = simple majorité 25 % présents quorum (vs 50 % actuel). Autres travaux = article 25 normal. **Pour :** déblocage rapide urgent. **Contre :** abus majorité minoritaire, petits copro paralysés (si 3 propriétaires sur 20 imposent hausse charges).
 - **Piste C : Regroupement copropriétés (fusion admi-légale) :** Petites copros dégradées (< 100 unités) fusionnées avec grande copro voisine viable, moyennant compensation ménages pauvres (baisses charges 10 ans). **Pour :** économies d'échelle, fonds travaux mutualisé. **Contre :** perte autonomie résidents, risque explosion charges fusion, conflits massifs.
 - **Simulation (ordres de grandeur) :**
   - Coûts rénov copro dégradée : 2 k€/m² en moyenne (moyen toit, électricité, étanchéité). Copro 5000 m² = 10 M€ travaux.
-  - Fonds travaux actuel minimu 30 €/m² × 5000 m² = 150 k€/an. Accumulation 20 ans = 3 M€. Manque financier : 7 M€.
+  - Fonds travaux actuel (5 % du budget prévisionnel voté, 2,5 % avec PPT) : très inférieur aux besoins réels sur une copropriété dégradée (ordre de grandeur à recalculer précisément par copropriété, pas un montant fixe). Manque financier estimé du même ordre de grandeur que le coût des travaux non couverts, soit plusieurs millions d'euros pour une copropriété de 5000 m².
   - Coût Piste A : État finance 60 % × 110 k copro dégradées × 10 M€ moyen = 6,6 Md€ initial (!). Sur 10 ans = 660 M€/an. Contribution ménage : 4 M€ × 40 % = 1,6 M€/logement étalée 20 ans = 6,7 k€/an. Soutenable si revenus > 1,5x seuil pauvreté.
   - Coût Piste B : aucun (simplicité administrative). Risque blocages mini-majorité non quantifié.
   - Coût Piste C : compensation ménages 5 k€/logement × 2 M résidents copro petites = 10 Md€ initial (!). Économies d'échelle réduit charges 8 % = gain 200 M€/an long terme (compensation + 20 ans).
@@ -185,6 +188,7 @@
 - ⚖️ **Faisabilité juridique :** Piste A : création agences financement public, faisable (type ANRU). Piste B : modification article 24/25 loi 1965 copropriété, débat syndicaliste fort. Piste C : fusion admi-légale remet en cause propriété unitaire, contentieux massif.
 - ⚖️ **À trancher :** État responsable sauver copro dégradée (bien public) ou responsabilité propriétaire ? Majorité qualifiée + ultra-minorité peut-elle bloquer indéfiniment ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ---
 
