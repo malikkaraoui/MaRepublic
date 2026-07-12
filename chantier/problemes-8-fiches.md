@@ -104,8 +104,8 @@
 
 ### P8. Démographie & besoins de main-d'œuvre : immigration économique vs. asile
 
-- **Le problème (France, 2016-2026) :** France vieillit (taux natalité ~1,5), besoins secteurs : santé (500 k postes/10 ans), constructions, services (à confirmer). Immigration économique régulée (~250 k/an), mais asile-refuges + clandestine = ~600 k/an total. Débat : asile comme proxy immigration économique? ; inégalité Europe Nord(points) vs. France (asile).
-- **Piste A, 🇨🇦 Canada (points immigration économique claire) :** Scoring explicite (âge, langue, diplôme, secteur), quota annuels transparents (380 k 2024). **Pour :** clarté, sélection besoin, légitimité. **Contre :** sélectionne diplômés (fuite cerveaux pays Sud), exclut précaires, fuit asile responsabilité.
+- **Le problème (France, 2016-2026) :** France vieillit (taux natalité ~1,5), besoins secteurs : santé (500 k postes à pourvoir d'ici 2030, soit 4 ans et non 10 ans, selon France Travail 2026), constructions, services (à confirmer). Immigration économique régulée (~55-60 k visas économiques/an en 2024 selon les données officielles françaises, chiffre nettement inférieur au ~250 k/an parfois cité selon la définition retenue, à clarifier), mais asile-refuges + clandestine = ~600 k/an total. Débat : asile comme proxy immigration économique? ; inégalité Europe Nord(points) vs. France (asile).
+- **Piste A, 🇨🇦 Canada (points immigration économique claire) :** Scoring explicite (âge, langue, diplôme, secteur), quota annuels transparents (485 k résidents permanents en 2024, 483 395 admissions réelles ; le chiffre de 380 k correspond à la cible révisée pour 2026, annoncée en octobre 2024, pas 2024 elle-même). **Pour :** clarté, sélection besoin, légitimité. **Contre :** sélectionne diplômés (fuite cerveaux pays Sud), exclut précaires, fuit asile responsabilité.
 - **Piste B, 🇦🇺 Australie (visa provisoire secteur) :** Visa 2-3 ans secteurs pénuries (infirmier, menuisier), point-système combiné, pas citoyenneté auto. **Pour :** adaptatif, temporaire = flexibilité. **Contre :** précarité travaillers, abuse employeurs possible, dérive exploitation.
 - **Piste C, 🇩🇪 Allemagne (« Fachkräfte ») :** 2024 : régularisation sans-papiers métiers critiques. **Pour :** pragmatisme, honnête sur besoins. **Contre :** régularisation a posteriori (inefficace dissuasion), intégration partielle.
 - **Piste D, Interne (réglementaire asile + flux économique séparé) :** Asile = droit humanitaire, flux économique = contrat signé AVANT arrivée (employeur garant). **Pour :** clarté systémique, honneur engagements. **Contre :** accès asile réduit (pression), exploitation si clause travail trop rigide, dumping salarial.
@@ -113,6 +113,7 @@
 - ⚖️ **Faisabilité juridique :** Loi, Convention Genève 1951 ; obstacles art. 40 si financement public asile massif ; directive UE 2021/1883 mobilité ; CEDH art. 3.
 - ⚖️ **À trancher :** Besoin réel main-d'œuvre chiffré par secteur? ; asile obligation vs. choix politique ; frontière asile/immigration économique: floue ou nette? ; citoyenneté : critère automatique ou point?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-13
 
 ---
 
