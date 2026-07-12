@@ -97,7 +97,7 @@
 
 ### P6. Éolien en mer : retards, recours, prix
 
-**Constat :** Objectif France 2030 : 40-50 GW éolien offshore (30 GW embarqué dont 6 GW flottant). À date 2024 : zéro MW éolien en mer France opérationnel (retards 8-10 ans vs objectif initial). Projets en permis 2024 : Dunkerque (750 MW), Saint-Nazaire (480 MW), Île-d'Yeu-Noirmoutier (400 MW) mais tous sous contentieux recours associations pêcheurs/environnement. Causes retards : (1) Recours 200+ (pêcheurs : conflits usage mer, perte zones pêche ; environnement : impacts avifaune, mammifères marins) ; (2) Procédure administrative 6-8 ans avant construction (2016-2024) ; (3) Inflation coûts : éolienne offshore 15-20 M€ (2020 = 10 M€), fondations monopiles 30-50 M€/unité, câbles exportation 1-2 M€/km. Coûts énergies marines France : 150-200 €/MWh (Saint-Nazaire), vs Royaume-Uni 80-120 €/MWh (Dogger Bank 2024 enchère), Danemark 70-100 €/MWh (grid Kriegers Flak). Écart compétitivité : France paye surcoût 40-80 €/MWh (à confirmer) = 3-6 Md€ surcoûts 20 ans opération parc (15 GW). Source : RTE, Bilan électricité 2023 ; Banque développement EIB, Énergie climat rapport 2024 ; Ministère transition écologique rapports éolien 2024, https://www.ecologie.gouv.fr
+**Constat :** Objectif France 2030 : 40-50 GW éolien offshore (30 GW embarqué dont 6 GW flottant). À date 2024 : environ 976 MW éolien en mer déjà opérationnels et connectés au réseau (Saint-Nazaire, 480 MW, depuis novembre 2022 ; Saint-Brieuc, 496 MW, depuis mai 2024), malgré des retards de 8-10 ans vs objectif initial. Projets en permis 2024 : Dunkerque (600 MW, 46 turbines, autorisation préfectorale du 14 février 2025), Île-d'Yeu-Noirmoutier (400 MW) mais sous contentieux recours associations pêcheurs/environnement. Causes retards : (1) Recours 200+ (pêcheurs : conflits usage mer, perte zones pêche ; environnement : impacts avifaune, mammifères marins) ; (2) Procédure administrative 6-8 ans avant construction (2016-2024) ; (3) Inflation coûts : éolienne offshore 15-20 M€ (2020 = 10 M€), fondations monopiles 30-50 M€/unité, câbles exportation 1-2 M€/km. Coûts énergies marines France : 150-200 €/MWh (Saint-Nazaire), vs Royaume-Uni 80-120 €/MWh (Dogger Bank 2024 enchère), Danemark 70-100 €/MWh (grid Kriegers Flak). Écart compétitivité : France paye surcoût 40-80 €/MWh (à confirmer) = 3-6 Md€ surcoûts 20 ans opération parc (15 GW). Source : RTE, Bilan électricité 2023 ; Banque développement EIB, Énergie climat rapport 2024 ; Ministère transition écologique rapports éolien 2024, https://www.ecologie.gouv.fr
 
 **Pistes :**
 1. Accélération permitting (simplification recours, priorité judiciaire) : création chambre spécialisée tribunaux administratifs éolien, dossiers 18 mois au lieu 6-8 ans. Pour : livrables 2028-2030 conformes objectifs UE, coûts évite surcharge. Contre : restreint droit contentieux pêcheurs/environnement, risque licéité constitutionnelle, recours Conseil État possible.
@@ -111,12 +111,13 @@
 ⚖️ **À trancher :** France accepte-t-elle surcoûts éolien offshore court terme (150-200 €/MWh) pour atteindre objectifs 2030, ou reporte-t-elle à 2035-2040 quand prix déclinera ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
 ### P7. Marine marchande sous pavillon français en déclin
 
-**Constat :** Armement français (navires immatriculés France) : 550 navires en 2023, déclin de -80 % depuis 2000 (2 200 navires). Capacité tonnage France : 5,2 M TJB (tonnes de jauge brute) en 2023 vs 25 M TJB 1990. Part marché transport maritime conteneurs/vrac mondialisé : France 0,8 %, Panamá 27 %, Liberia 16 %, Marshall 15 %. Causes : (1) Coûts sociaux France (salaire armateur 3 000-4 000 €/mois, charges patronales 45-50 %) vs pavillons de complaisance (Asie 1 200-1 800 €/mois) ; (2) Règles RIF (Registre international français) ouvert 2005 mais peu attractif vs NRE (Panamá) ; (3) Vieillesse flotte France (moyen âge 20 ans vs 12 ans moyenne mondiale). Emplois navigants français : 8 500 en 2024 (marins, officiers) vs 15 k en 2010, salaires côte : 2 200-3 500 €/mois (concurrence asiatique). Investissement État défaillant : subventions construction navires France 0 € annuels depuis 2015 (suppression primes à la construction). Source : SeaRates, Global shipping index 2023 ; Chambre syndicale marine marchande France, Rapport activité 2024 ; ILO (International Labour Organisation), Convention maritime 2006, https://www.ilo.org
+**Constat :** Armement français (navires immatriculés France) : 421 navires au 1er janvier 2023 (193 transport + 228 services, ministère Transition écologique ; le chiffre de 550 parfois cité n'est confirmé par aucune source officielle), 464 navires début 2026, déclin de -80 % depuis 2000 (2 200 navires). Capacité tonnage France : 5,2 M TJB (tonnes de jauge brute) en 2023 vs 25 M TJB 1990. Part marché transport maritime conteneurs/vrac mondialisé : France 0,8 %, Panamá 27 %, Liberia 16 %, Marshall 15 %. Causes : (1) Coûts sociaux France (salaire armateur 3 000-4 000 €/mois, charges patronales 45-50 %) vs pavillons de complaisance (Asie 1 200-1 800 €/mois) ; (2) Règles RIF (Registre international français) ouvert 2005 mais peu attractif vs NRE (Panamá) ; (3) Vieillesse flotte France (moyen âge 20 ans vs 12 ans moyenne mondiale). Emplois navigants français : 8 500 en 2024 (marins, officiers) vs 15 k en 2010, salaires côte : 2 200-3 500 €/mois (concurrence asiatique). Investissement État défaillant : subventions construction navires France 0 € annuels depuis 2015 (suppression primes à la construction). Source : SeaRates, Global shipping index 2023 ; Chambre syndicale marine marchande France, Rapport activité 2024 ; ILO (International Labour Organisation), Convention maritime 2006, https://www.ilo.org
 
 **Pistes :**
 1. Plan investissement marine marchande (prime construction navires, subvention armateurs 2-3 ans) : 2 Md€ sur 5 ans, objectif 1 500 navires pavillon français. Pour : restaure capacité strategique, emplois qualifiés côtiers, indépendance logistique. Contre : coûts prohibitifs, distorsions marché UE, recours OMC (subventions contraires accord subsidies). Déficit public court terme 2 Md€.
@@ -130,6 +131,7 @@
 ⚖️ **À trancher :** France accepte-t-elle déclin stratégique flotte pavillon français (-0,8 % marché), ou relance-t-elle secteur risquant violations normes sociales ILO ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
@@ -154,7 +156,7 @@
 
 ### P9. Aquaculture bloquée : production stagnante vs importations
 
-**Constat :** Production aquaculture France métropole : 45 k tonnes/an (2023), stagnante depuis 2010. Importations aquaculture (saumon Norvège, crevettes Thaïlande, moules Espagne) : 320 k t/an = 70 % consommation aqua France. Capacité potentielle France non-exploitée : 200-300 k t/an (littoral 8 000 km, climat favorable). Blocages : (1) Environnement : Natura 2000 + zones sensibles estuaires protégées = 60 % littoral France fermé aquaculture industrielle ; (2) Opposition locale : pêcheurs craignent pollution (antibiotiques, parasites poux de mer) ; (3) Régulation administrative : permis aquaculture 4-6 ans (vs 1-2 Scandinavie) ; (4) Coûts : aliment pisciculture hausse 30 % 2022-2023 (ensilage poisson Atlantique Nord, importé) ; (5) Schéma distributif : 80 % production scandidave/norvégienne (trust intégré production/vente) vs France petits producteurs. Valeur marché saumon France : 15-20 €/kg retail, production française 800 t = 12-16 M€/an vs Norvège 2,5 M t = 5-7 Md€. Source : FranceAgrimer, Aquaculture 2024 ; IFREMER, Atlas ressources aquacoles 2023 ; FAO, Fish Tech 2024, https://www.fao.org
+**Constat :** Production aquaculture France métropole : 185 372 tonnes/an (2023, dont 39 443 t pisciculture et 145 929 t conchyliculture, Agreste/FranceAgriMer ; le chiffre de 45 k tonnes parfois cité est sous-estimé d'un facteur 4), en légère hausse (+0,9 % entre 2022 et 2023, non stagnante). Importations aquaculture (saumon Norvège, crevettes Thaïlande, moules Espagne) : 320 k t/an = 70 % consommation aqua France. Capacité potentielle France non-exploitée : 200-300 k t/an (littoral 8 000 km, climat favorable). Blocages : (1) Environnement : Natura 2000 + zones sensibles estuaires protégées = 60 % littoral France fermé aquaculture industrielle ; (2) Opposition locale : pêcheurs craignent pollution (antibiotiques, parasites poux de mer) ; (3) Régulation administrative : permis aquaculture 4-6 ans (vs 1-2 Scandinavie) ; (4) Coûts : aliment pisciculture hausse 30 % 2022-2023 (ensilage poisson Atlantique Nord, importé) ; (5) Schéma distributif : 80 % production scandidave/norvégienne (trust intégré production/vente) vs France petits producteurs. Valeur marché saumon France : 15-20 €/kg retail, production française 800 t = 12-16 M€/an vs Norvège 2,5 M t = 5-7 Md€. Source : FranceAgrimer, Aquaculture 2024 ; IFREMER, Atlas ressources aquacoles 2023 ; FAO, Fish Tech 2024, https://www.fao.org
 
 **Pistes :**
 1. Zones d'aquaculture dédiées (Coastal Spatial Planning) : création 10-15 ZAE (zones aquaculture exclusive) par région côtière, exonération Natura 2000 si protocole environnemental strict. Pour : croissance contrôlée, emplois qualifiés 2 k-3 k, réduction importations 20-30 % horizon 2035. Contre : rupture réglementation UE Natura 2000 = risque censure CJUE, opposition associations environnement, coûts monitorage eau/poissons.
@@ -168,6 +170,7 @@
 ⚖️ **À trancher :** France accepte-t-elle assouplissement normes Natura 2000 côte pour développer aquaculture 60 k t/an supplémentaires, ou maintient-elle conservation stricte eaux côtières ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
