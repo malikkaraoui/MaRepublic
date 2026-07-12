@@ -288,7 +288,7 @@ Obligation légale souveraine (État set règles). Plafonnement tarif = régulat
 ### P7. Transmission du fonds de commerce : fiscalité et surcharge administrative (jeunes repreneurs introuvables)
 
 - **Constat chiffré :**
-Artisan/commerçant vendant son fonds (boutique, salon, atelier) : fiscalité succession/transmission très lourde. Droits d'enregistrement : 5,09% de la valeur du fonds (vente, apport à SARL). Plus-value professionnelle (profit de vente = prix vente - prix acquisition d'origine) : 19% IR + 16,5% prélèvements sociaux = 35,5%. Exemple : fonds acheté 100 000 €, vendu 150 000 € = plus-value 50 000 €, impôt 17 750 €. Frais notaires supplémentaires (1 à 2% du prix). Jeunes entrepreneurs : statut JEI (Jeunes Entreprises Innovantes) = exonération conditionnelle (R&D 5-20%), très rarement applicable à artisans. Pour transmission familiale : abattements possibles (7 500 € conjoint, 30% enfants depuis 2024), mais insuffisant pour réduire fiscalité drastiquement. [https://www.impots.gouv.fr/professionnel/je-transmets-mon-entreprise](https://www.impots.gouv.fr/professionnel/je-transmets-mon-entreprise)
+Artisan/commerçant vendant son fonds (boutique, salon, atelier) : fiscalité succession/transmission très lourde. Droits d'enregistrement : barème progressif (0% jusqu'à 23 000 €, 3% de 23 000 à 200 000 €, 5% au-delà, soit un taux effectif de 2,31% pour un fonds de 100 000 €). Plus-value professionnelle (profit de vente = prix vente - prix acquisition d'origine) : 19% IR + 18,6% prélèvements sociaux (LFSS 2026) = 37,6%. Exemple : fonds acheté 100 000 €, vendu 150 000 € = plus-value 50 000 €, impôt 18 800 €. Frais notaires supplémentaires (1 à 2% du prix). Jeunes entrepreneurs : statut JEI (Jeunes Entreprises Innovantes) = exonération conditionnelle (R&D 5-20%), très rarement applicable à artisans. Pour transmission familiale : abattements possibles (7 500 € conjoint, 30% enfants depuis 2024), mais insuffisant pour réduire fiscalité drastiquement. [https://www.impots.gouv.fr/professionnel/je-transmets-mon-entreprise](https://www.impots.gouv.fr/professionnel/je-transmets-mon-entreprise)
 
 - **Pourquoi :**
 Transmission historiquement taxée comme vente = source revenus État. Mais contexte : repreneur (jeune, sans capital) doit emprunter 150k€, déjà lourd, puis fiscal coutout = repreneur ne peut pas. Résultat : propriétaire retraite mal, fonds mort (fermé ou racheté par chaîne commerciale), jeune sans opportunité, emplois détruits. Perte encore de savoir-faire local = arosage consolidation grandes chaînes. Surcharge admin : audit, expertise fiscale, notaire = coûts fixes 2 000 à 3 000 € additionnels (4-6% de la valeur pour petits fonds < 100k€).
@@ -296,7 +296,7 @@ Transmission historiquement taxée comme vente = source revenus État. Mais cont
 - **Pistes A-B : Pour-Contre :**
 **A) Exonération totale de la plus-value professionnelle si repreneur < 40 ans et fonds de commerce < 500k€ valeur**
 - Pour : Incite jeunes, transmission intact = emplois conservés + compétences, sauvetage secteur artisanal
-- Contre : Perte fiscale massive (~400 millions/an si 10k reprises/an × 40k€ moyen plus-value × 35,5%), abus potentiel (faux jeunes, faux prix)
+- Contre : Perte fiscale massive (~423 millions/an si 10k reprises/an × 40k€ moyen plus-value × 37,6%), abus potentiel (faux jeunes, faux prix)
 
 **B) Sursis d'imposition : imposition différée à révente suivante (repreneur paie, puis vendeur à suivant), réduction droits enregistrement de 5% à 2% pour TPE < 200k€ CA**
 - Pour : Lisse charge financière, moins douloureux immédiatement, coût État réduit (report), boste TPE via baisse droits
@@ -307,19 +307,19 @@ Transmission historiquement taxée comme vente = source revenus État. Mais cont
 **Cas : Salon de coiffure transmis, valeur fonds = 100 000 € (pas immobilier, juste équipement + clientèle)**
 - Achat d'origine (10 ans avant) : 70 000 €
 - Plus-value brute : 100 000 € - 70 000 € = 30 000 €
-- Impôt + prélèvements sociaux (35,5%) : 30 000 € × 35,5% = 10 650 €
-- Droits d'enregistrement (5,09%) : 100 000 € × 5,09% = 5 090 €
+- Impôt + prélèvements sociaux (37,6%) : 30 000 € × 37,6% = 11 280 €
+- Droits d'enregistrement (barème progressif, taux effectif 2,31%) : (100 000 € - 23 000 €) × 3% = 2 310 €
 - Frais notaires (1,5%) : 100 000 € × 1,5% = 1 500 €
-- **Total fiscalité transmission : 10 650 + 5 090 + 1 500 = 17 240 €** (17,2% valeur fonds)
-- Vendeur net reçoit : 100 000 € - 17 240 € = 82 760 € (vs 100k€ nominal)
+- **Total fiscalité transmission : 11 280 + 2 310 + 1 500 = 15 090 €** (15,1% valeur fonds)
+- Vendeur net reçoit : 100 000 € - 15 090 € = 84 910 € (vs 100k€ nominal)
 - Repreneur finance : emprunte 100 000 €, ajoute apport personnel 20 000 € = charge emprunt 120 000 € pour fonds qui vaut 100k€ (illiquidité immédiate si projet échoue)
 
 **Avec proposition A (exonération plus-value si repreneur < 40 ans)**
 - Impôt plus-value : 0 €
-- Droits enregistrement (toujours 5,09%) : 5 090 €
+- Droits enregistrement (barème progressif inchangé) : 2 310 €
 - Frais notaires : 1 500 €
-- **Total fiscalité : 6 590 €** (6,6% valeur)
-- Vendeur net : 100 000 € - 6 590 € = 93 410 € (+10 650 € vs status quo)
+- **Total fiscalité : 3 810 €** (3,8% valeur)
+- Vendeur net : 100 000 € - 3 810 € = 96 190 € (+11 280 € vs status quo)
 - Repreneur finance : 100 000 € ou 95 000 € (économies repreneur = marche de négociation, typiquement 2 000 à 5 000 € réduction prix)
 
 **Avec proposition B (sursis + droits 2%)**
@@ -340,6 +340,7 @@ A = Loi ordinaire (article CGI), dépôt projets existe déjà (exonérations pa
 
 - **Statut :**
 ⬜
+- **Mis à jour :** 2026-07-13
 
 ---
 
@@ -398,7 +399,7 @@ A = Budget loi climat/financement national, décret conditions éligibilité. B 
 ### P9. Délais de paiement des grands comptes et de l'État qui étranglent les petits fournisseurs
 
 - **Constat chiffré :**
-Artisan/TPE fournisseur : signe contrat B2B avec grande chaîne (Leclerc, carrefour, grossiste Métro) ou marché public (collectivité). Termes de paiement : 60 à 90 jours facture (usage). Artisan doit payer matériaux/main-d'œuvre comptant = avance trésorerie 8 000 à 15 000 € pendant 2-3 mois avant remboursement. Loi LME 2008 limite délais B2B « délai de paiement compétitif » (45 jours après facture, ou délai écrit) et État marches publics (30 jours). Efficacité : quasi zéro. Exemple : fournisseur artisan livre 20 000 € matériaux restaurant Leclerc, facture 2 avril, paiement reçu 1 juillet = 90 jours. Trésorerie TPE = trou 20 000 € × 90/365 = 4 945 € gestion = crédit court terme à banque = 300 € intérêt 60 jours. Accumulation : 5 fournisseurs en parallèle = 25 000 € avances simultanées = 5 000 € intérêts par an. [https://www.bpifrance.fr/nos-actualites/de-nouvelles-mesures-pour-renforcer-la-tresorerie-des-tpe-et-pme](https://www.bpifrance.fr/nos-actualites/de-nouvelles-mesures-pour-renforcer-la-tresorerie-des-tpe-et-pme)
+Artisan/TPE fournisseur : signe contrat B2B avec grande chaîne (Leclerc, carrefour, grossiste Métro) ou marché public (collectivité). Termes de paiement : 60 à 90 jours facture (usage). Artisan doit payer matériaux/main-d'œuvre comptant = avance trésorerie 8 000 à 15 000 € pendant 2-3 mois avant remboursement. Loi LME 2008 limite délais B2B à 60 jours maximum (date de facture) ou 45 jours fin de mois, selon contrat, et État marches publics (30 jours). Efficacité : quasi zéro. Exemple : fournisseur artisan livre 20 000 € matériaux restaurant Leclerc, facture 2 avril, paiement reçu 1 juillet = 90 jours. Trésorerie TPE = trou 20 000 € × 90/365 = 4 945 € gestion = crédit court terme à banque = 300 € intérêt 60 jours. Accumulation : 5 fournisseurs en parallèle = 25 000 € avances simultanées = 5 000 € intérêts par an. [https://www.bpifrance.fr/nos-actualites/de-nouvelles-mesures-pour-renforcer-la-tresorerie-des-tpe-et-pme](https://www.bpifrance.fr/nos-actualites/de-nouvelles-mesures-pour-renforcer-la-tresorerie-des-tpe-et-pme)
 
 - **Pourquoi :**
 Asymétrie pouvoir : grand compte leverages « small supplier = we wait, deal with it ». État/collectivité = bureaucratie de paiement (circuit de validation 60+ jours). Théorie: paiement différé = client finance achat via fournisseur (gratuit credit). Réalité: TPE ne peux pas absorber, crise trésorerie = fermeture, faillite. Secteur artisanal déjà très étiré (marge 15-20%), délais de paiement = 25% cash flow bloqué = intenable. Loi LME n'a pas de dents (pénalité ~ 1,5% mensuel, non appliquée car complexité, procédure lourde).
@@ -445,13 +446,14 @@ A = Loi ordinaire (article LME 2008 révision), mais risque constitutionnel (lib
 
 - **Statut :**
 ⬜
+- **Mis à jour :** 2026-07-13
 
 ---
 
 ### P10. RSI/fusion régime général : de la débâcle informatique hier aux bugs persistants d'aujourd'hui
 
 - **Constat chiffré :**
-Régime des Travailleurs Indépendants (RSI) = caisse spéciale pour artisans/commerçants, fondée 1973, fusionnée au régime général (URSSAF) janvier 2018 (loi El Khomri 2016). Objectif : simplifier, réduire frais gestion, améliorer prestations (parity salarié). Réalité : migration informatique catastrophique (premiers mois 2018) : 4,2 millions d'indépendants = perte dossiers, erreurs cotisations (doubles appels, différences calcul), délais traitement allongés (6 mois attendre pour régularisation). Coût humain : indépendants reçoivent appels de l'URSSAF exigeant 2 000 à 5 000 € soudainement (régularisations arriérées), pas d'explication claire, contentieux massif. Chiffre clé : 2018-2020 = 150 000+ recours contentieux (vs 30 000/an avant fusion). 2026 : persistence bugs (cotisations mal calculées « allocation familiale non appliquée », régularisations traînent). Source : Cour des Comptes rapport 2019 ; témoignages directs artisans forums [à confirmer].
+Régime des Travailleurs Indépendants (RSI) = caisse spéciale pour artisans/commerçants, créée en juillet 2006 par fusion de régimes antérieurs (Cancava 1948 pour artisans, Organic 1948 pour commerçants, harmonisés progressivement depuis 1973), fusionnée au régime général (URSSAF) janvier 2018 (loi El Khomri 2016). Objectif : simplifier, réduire frais gestion, améliorer prestations (parity salarié). Réalité : migration informatique catastrophique (premiers mois 2018) : 6,2 millions d'indépendants = perte dossiers, erreurs cotisations (doubles appels, différences calcul), délais traitement allongés (6 mois attendre pour régularisation). Coût humain : indépendants reçoivent appels de l'URSSAF exigeant 2 000 à 5 000 € soudainement (régularisations arriérées), pas d'explication claire, contentieux massif. Chiffre clé : 2018-2020 = 150 000+ recours contentieux (vs 30 000/an avant fusion). 2026 : persistence bugs (cotisations mal calculées « allocation familiale non appliquée », régularisations traînent). Source : Cour des Comptes rapport 2019 ; témoignages directs artisans forums [à confirmer].
 
 - **Pourquoi :**
 Fusion ratée sur le plan IT : prestataire informatique (pas nommé publiquement, mais investigation montre sous-traitance morcellée) = intégration données RSI / URSSAF = complexité extrême (2 systèmes 40+ ans d'historique différent). Pas de redondance, test insuffisant. Lancement janvier 2018 (politique) au lieu juillet 2018 (technique) = crash immédiat. URSSAF ensuite a dû recruter 1 500+ agents pour traiter backlog contentieux (coût État ~80 millions sur 3 ans). Persistance bugs 2026 : système mélangé n'est jamais totalement stable (données legacy RSI + données nouvelles = queries complexes, erreurs intermittentes).
@@ -496,6 +498,7 @@ A = Décision gouvernement (pas loi obligatoire, décision administrative), coû
 
 - **Statut :**
 ⬜
+- **Mis à jour :** 2026-07-13
 
 ---
 
