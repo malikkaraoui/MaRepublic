@@ -1,8 +1,8 @@
 # Problèmes : Les associations, le ciment invisible qu'on laisse s'effriter
 
-### P1. Le poids économique des associations invisibilisé : 1,5 million d'organisations, 20 millions de bénévoles, zéro reconnaissance comptable
+### P1. Le poids économique des associations invisibilisé : 1,5 million d'organisations, 12 millions de bénévoles, zéro reconnaissance comptable
 
-**Constat :** Le secteur associatif représente 1,5 million d'associations actives et mobilise 20 millions de bénévoles en France (chiffres Baromètre du Bénévolat, France Bénévolat 2023). Selon l'INSEE, ce secteur génère environ 5 à 6% du PIB (études sectorielles, INJEP 2022 : https://www.injep.fr/), sans reconnaissance formelle aux comptes nationaux. Les associations emploient 1,8 million de salariés (Mouvement associatif, 2023). Ni la loi de programmation, ni les budget ministériels n'intègrent ces contributions comme pilier économique. Résultat : invisibilité institutionnelle, precarité de financement, absence de légitimité auprès des décideurs publics.
+**Constat :** Le secteur associatif représente 1,5 million d'associations actives et mobilise environ 12 millions de bénévoles en France (23-24 % de bénévoles selon le Baromètre du Bénévolat, France Bénévolat 2023, confirmé par les données 2025 à 21 % soit ~12 millions ; le chiffre de 20 millions parfois cité surestime d'environ 50 %). Selon l'INSEE, ce secteur génère environ 5 à 6% du PIB (études sectorielles, INJEP 2022 : https://www.injep.fr/), sans reconnaissance formelle aux comptes nationaux. Les associations emploient 1,8 million de salariés (Mouvement associatif, 2023). Ni la loi de programmation, ni les budget ministériels n'intègrent ces contributions comme pilier économique. Résultat : invisibilité institutionnelle, precarité de financement, absence de légitimité auprès des décideurs publics.
 
 **Pistes :**
 - *Créer un article du compte national satellite sur le secteur associatif (INSEE), rendu obligatoire tous les 2 ans, pour documenter sa contribution réelle au PIB et à l'emploi.* Pour : établit la légitimité de l'investissement public ; permet comparaisons internationales. Contre : coût statistique ; risque de déclassement si PIB < attentes ; fragilise la lecture macro-économique.
@@ -21,6 +21,7 @@
 ⚖️ **À trancher :** La République reconnaît-elle le secteur associatif comme infrastructure stratégique au même titre que les transports ou l'éducation ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
@@ -150,7 +151,7 @@
 
 ### P7. Mécénat et philanthropie : captation par grosses fondations, appauvrissement du tissu local
 
-**Constat :** En France, 70% des flux de mécénat (3,5 Md€/an, à confirmer) convergent vers 200-300 grandes organisations (musées, universités, hôpitaux, grosses ONG). Les 1,3 million de petites assos locales en reçoivent < 5% (Observatoire du mécénat 2023, à confirmer). Niches fiscales : déduction 75% donation pour particuliers (loi 2003), déduction 60% pour entreprises ; se concentrent sur visibilité (sponsoring sport/culture prestigieuse) vs efficacité sociale (à confirmer, Cour des comptes 2021). Petites assos : pas de prise de parole, trop fragiles pour lever auprès entreprises, fonds morts (administratif/légal).
+**Constat :** En France, 70% des flux de mécénat (3,5 Md€/an, à confirmer) convergent vers 200-300 grandes organisations (musées, universités, hôpitaux, grosses ONG). Les 1,3 million de petites assos locales en reçoivent < 5% (Observatoire du mécénat 2023, à confirmer). Niches fiscales : déduction 66% donation pour particuliers (taux de droit commun, pas 75% comme parfois cité ; le taux de 75% n'existe que depuis le 14 octobre 2025, réservé aux dons aux organismes d'aide aux personnes en difficulté ou victimes de violences domestiques, plafonné à 2 000 €/an), déduction 60% pour entreprises ; se concentrent sur visibilité (sponsoring sport/culture prestigieuse) vs efficacité sociale (à confirmer, Cour des comptes 2021). Petites assos : pas de prise de parole, trop fragiles pour lever auprès entreprises, fonds morts (administratif/légal).
 
 **Pistes :**
 - *Créer un crédit d'impôt dédié au mécénat local (12 mois géographique) : particuliers peuvent déduire 90% donation aux assos < 50 salariés, quartier/commune de résidence. Plafond par foyer 1 000 €/an.* Pour : cible petites assos, renforce lien local. Contre : dépense fiscale +300-400 M€/an (à confirmer), risque détournement (auto-création assos), concentration ultra-locale (parochialisme).
@@ -170,6 +171,7 @@
 ⚖️ **À trancher :** L'État doit-il orienter fiscalité philanthropique vers solidarité locale ou respecter libre arbitre donateurs ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
@@ -226,7 +228,7 @@
 
 ### P10. Modèles étrangers et articulation avec devoir citoyen : vers une culture d'engagement systématisée
 
-**Constat :** Royaume-Uni : Charity Commission (régulateur indépendant, transparence publique) + financement pluriannuel garanti => 90% assos stables (à confirmer, UK Civil Society Report 2023). Québec : service civique obligatoire 12 mois (18-25 ans), 70% en structures associatives + financement public garanti => culture d'engagement intergénérationnel (à confirmer). Allemagne : statuts coopératifs et mutuelles = 8 millions adhérents, pérennité (à confirmer). France : absence de lien entre devoir citoyen et tissu associatif (lot 50 est separate); pas de régulateur indépendant assos (Préfecture = juge et partie); financement annuel = précarité.
+**Constat :** Royaume-Uni : Charity Commission (régulateur indépendant, transparence publique) + financement pluriannuel garanti => 90% assos stables (à confirmer, UK Civil Society Report 2023). Québec : contrairement à une idée reçue, il n'existe pas de service civique obligatoire de 12 mois pour les 18-25 ans ; les missions proposées via l'OFQJ sont volontaires et facultatives (6-12 mois), sans obligation légale. La fiche confond les jeunes français volontaires en mission au Québec avec une politique québécoise obligatoire qui n'existe pas. Allemagne : statuts coopératifs et mutuelles = 8 millions adhérents, pérennité (à confirmer). France : absence de lien entre devoir citoyen et tissu associatif (lot 50 est separate); pas de régulateur indépendant assos (Préfecture = juge et partie); financement annuel = précarité.
 
 **Pistes :**
 - *Créer une « Autorité indépendante de la vie associative » (type Cnil, CNDP, Arcep) : légalité chartes assos, transparence publique (base ouverte 1,5 M assos), médiation conflits assos-collectivités, audits qualité.* Pour : régularité, légitimité démocratie associative. Contre : structure coûteuse 30-50 M€/an (à confirmer), risque capture régulatoire (lobbies), complexité multi-niveaux.
@@ -246,3 +248,4 @@
 ⚖️ **À trancher :** La République doit-elle systématiser le passage par tissu associatif dans parcours citoyen (éducation, devoir, retraite active) ou laisser libre arbitre d'engagement ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
