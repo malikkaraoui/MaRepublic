@@ -119,7 +119,7 @@
 
 ### P4. Violences conjugales et séparation : ordonnances de protection émises, délais pour bracelets anti-rapprochement, efficacité réelle.
 
-**Constat :** ~225 000 femmes victimes de violences conjugales/an en France (enquête Enveff INSEE 2019). Lors de séparation, risque d'escalade : 50% des homicides conjugaux interviennent lors de rupture ou séparation (données Ministère Justice, observatoire crimes violents 2022). Ordonnances de protection : ~15 000 demandes/an, ~70% accordées (délai : 1-3 semaines en général, urgence 24-48h). Bracelets anti-rapprochement (bracelet électronique avec géolocalisation) : déployés lentement depuis 2017 (loi Schiappa 2018) ; actuellement ~8 000 bracelets actifs en France (soit 53% des ordonnances, reste sous forme simple interdiction + contrôle police). Délai installation bracelet : 2-4 semaines après ordonnance (attente fournisseur). Source : Ministère Justice, rapport sur violences intrafamiliales 2023 ; INSEE enquête Enveff ; Cour de Cassation, chambre criminelle, jurisprudence 2020+. Lien : https://www.justice.gouv.fr/nos-domaines-dintervention/lutte-contre-les-violences/violences-conjugales
+**Constat :** L'enquête Enveff (Enquête nationale sur les violences envers les femmes en France) a été menée en 1999-2000 et publiée en 2003 : il n'existe aucune édition 2019 de cette enquête, contrairement à ce qui est parfois cité. Les données les plus récentes (2024-2025) évaluent entre 272 400 et 473 000 femmes victimes de violences conjugales/an en France selon la catégorie retenue (loin des ~225 000 souvent attribués à tort à un « Enveff 2019 »). Lors de séparation, risque d'escalade : 50% des homicides conjugaux interviennent lors de rupture ou séparation (données Ministère Justice, observatoire crimes violents 2022). Ordonnances de protection : ~15 000 demandes/an, ~70% accordées (délai : 1-3 semaines en général, urgence 24-48h). Bracelets anti-rapprochement (bracelet électronique avec géolocalisation) : déployés lentement depuis 2017 (loi Schiappa 2018) ; actuellement environ 700 bracelets actifs en France (641 au 23 février 2026 selon le ministère de la Justice, chiffre 10 à 12 fois inférieur aux ~8 000 parfois cités), reste sous forme simple interdiction + contrôle police. Délai installation bracelet : 2-4 semaines après ordonnance (attente fournisseur). Source : Ministère Justice, rapport sur violences intrafamiliales 2023 ; INSEE enquête Enveff ; Cour de Cassation, chambre criminelle, jurisprudence 2020+. Lien : https://www.justice.gouv.fr/nos-domaines-dintervention/lutte-contre-les-violences/violences-conjugales
 
 **Problèmes :**
 - Ordonnance rapide mais bracelet lent : délai de 2-4 semaines où femme reste vulnérable (l'homme peut rester à proximité si pas surveillance active).
@@ -150,6 +150,7 @@
 ⚖️ **À trancher :** Priorité bracelet rapide (dissuasion logistique) ou refuges-relocalisation (autonomisation femmes) ? Quelle balance entre précaution (interdiction présumée) et liberté (présomption innocence) ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
