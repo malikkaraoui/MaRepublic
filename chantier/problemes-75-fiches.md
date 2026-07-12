@@ -4,7 +4,7 @@
 
 ### P1. Abandons massifs d'animaux de compagnie : 100 000 par an en France
 
-- **Le problème (France, 2016-2026) :** SPA (Société Protectrice des Animaux) recueille 95 000 animaux de compagnie abandonnés par an (2024). Dossier gouvernement 2023 estime 100 000 si l'on compte refuges privés. Permis de détention (Code Rural L.211-1) : obligatoire pour certains carnivores, exigence de 2022 peu appliquée en réalité. Taux de surmortalité en refuge ~30 % (à confirmer). Raisons principales : fin de bail, séparation, changement de situation financière. Zéro pénalité réelle pour abandon (amende théorique 750 € rarement appliquée).
+- **Le problème (France, 2016-2026) :** SPA (Société Protectrice des Animaux) recueille 43 742 animaux de compagnie abandonnés par an (2024 : 12 253 chiens, 28 547 chats, 2 942 NAC, bilan officiel SPA ; le chiffre de 95 000 souvent attribué à la SPA seule surestime de 118 %). Dossier gouvernement 2023 estime 100 000 si l'on compte l'ensemble des refuges (SPA + associations + fourrières). Permis de détention (Code Rural L.211-1) : obligatoire pour certains carnivores, exigence de 2022 peu appliquée en réalité. Taux de surmortalité en refuge ~30 % (à confirmer). Raisons principales : fin de bail, séparation, changement de situation financière. Zéro pénalité réelle pour abandon (amende théorique 750 € rarement appliquée).
 - **Piste A, 🇫🇷 France (Permis de détention réellement appliqué) :** Exiger permis écrit + justificatif d'espace avant acquisition, contrôle aléatoire après 6 mois, amende 2 000 € si manquement. **Pour :** Réduit les achats compulsifs, responsabilise. **Contre :** Lourd administrativement, discrimine les bas revenus.
 - **Piste B, 🇪🇸 Espagne (Responsabilité du vendeur) :** Tous les vendeurs (animaleries, particuliers via registre) gardent responsabilité légale de l'animal 10 ans. Si abandon, vendeur doit financer refuge. **Pour :** Aligne incitations. **Contre :** Peut fermer le marché légal, pousse vers clandestin.
 - **Piste C, 🇸🇪 Suède (Contrat adopté + suivi) :** Adoption via contrat obligatoire, refuges font visite à domicile annuelle, sinon rescision et restitution. **Pour :** Suivi réel, moins d'abandons. **Contre :** Coûteux en gestion, invasif en vie privée.
@@ -13,6 +13,7 @@
 - ⚖️ **Faisabilité juridique :** Code Rural L.211-1 (permis détention, renforcer). Loi pénale (amende augmentée, application). Aucun obstacle constitutionnel majeur.
 - ⚖️ **À trancher :** Qui paie l'accès responsable à un animal : l'État via gratuité, ou le citoyen via permis/fiscalité ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-13
 
 ### P2. Trafic d'animaux de compagnie : élevages clandestins, ventes en ligne, puçage contourné
 
@@ -26,9 +27,9 @@
 - ⚖️ **À trancher :** Le marché légal peut-il absorber la demande, ou la prohibition accélère-t-elle le clandestin ?
 - **Statut :** ⬜
 
-### P3. Expérimentation animale : 1,9 million d'animaux par an, alternatives sous-financées
+### P3. Expérimentation animale : 2 millions d'animaux par an, alternatives sous-financées
 
-- **Le problème (France, 2016-2026) :** Animalerie publique (CNRM, INSERM, etc.) : 1,9 million d'animaux utilisés en expériences (2023, chiffres REEM). Rongeurs 95 %, poissons 2 %, primates <1 %. Directive UE 2010/63 impose les 3R (remplacement, réduction, raffinement). Alternatives (modèles informatiques, biopsies humaines, organoides) : financement public ~50 M€/an, 20 fois moins que la recherche classique sur animaux. Temps de développement : méthodologie in-vitro mature en 5-10 ans, biomarqueurs fiables = délai long.
+- **Le problème (France, 2016-2026) :** Animalerie publique (CNRM, INSERM, etc.) : environ 2 millions d'animaux utilisés en expériences (2 046 754 précisément, données ministère de la Recherche pour 2023 ; le chiffre de 1,9 million souvent cité pour 2023 correspond en réalité aux données de 2021, publiées en février 2023). Rongeurs 95 %, poissons 2 %, primates <1 %. Directive UE 2010/63 impose les 3R (remplacement, réduction, raffinement). Alternatives (modèles informatiques, biopsies humaines, organoides) : financement public ~50 M€/an, 20 fois moins que la recherche classique sur animaux. Temps de développement : méthodologie in-vitro mature en 5-10 ans, biomarqueurs fiables = délai long.
 - **Piste A, 🇫🇷 France (Investissement massive en alternatives) :** +200 M€/an sur 10 ans pour alternatives in-vitro, modèles informatiques, organoides. Interdire expériences cosmétiques/pharm secondaires sur animaux. **Pour :** Accélère transition, éthique. **Contre :** Ralentit innovation short-term, incertitude sur fiabilité alternatives.
 - **Piste B, 🇩🇪 Allemagne (Obligation graduelle d'alternatives) :** Loi : 2025 = 20 % alternatives obligatoires, 2030 = 50 %, 2035 = 80 %. **Pour :** Calendrier clair. **Contre :** Chantiers de recherche peuvent être bloqués si alternatives immatures.
 - **Piste C, 🇪🇸 Espagne (Audit tiers de la 3R) :** Organisme indépendant valide chaque protocole animal : remplace-t-il vraiment un in-vitro ? Réduit-on vraiment les animaux ? **Pour :** Pression progressive réelle. **Contre :** Ralentit recherche, administrativement lourd.
@@ -37,10 +38,11 @@
 - ⚖️ **Faisabilité juridique :** Code de l'Environnement art. L.131 (protection animale en recherche). Directive UE 2010/63 (3R déjà obligatoires, renforcer). Aucun obstacle majeur.
 - ⚖️ **À trancher :** Peut-on interdire animal à court terme si alternatives immatures ? Qui accepte le risque d'erreurs médicales pendant transition ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-13
 
 ### P4. Chasse : dimanches, sécurité, accidents non comptabilisés, enclos fermés
 
-- **Le problème (France, 2016-2026) :** 1,2 million de chasseurs (2023). Chasse autorisée le dimanche dans 50 départements (débat permanent). Accidents mortels : OFB estime 20-30 morts/an liés chasse directe, 200+ blessés. Chiffre réel suspect car sous-déclaration (actes de chasse peu saisis). Enclos fermés (parcs de chasse) : droit tirer gibier semi-captif, élevé en parc, ~200 enclos (France). Pressions UE : tradition chasse traditionnelle (pièges, lacet) condamnée CJUE 2015 (oiseaux migrateurs), France maintient dérogation locale (polémique).
+- **Le problème (France, 2016-2026) :** 963 571 permis de chasse validés saison 2022-2023, soit environ 1,03 million de chasseurs actifs estimés (le chiffre de 1,2 million parfois cité surestime de ~16 %, le nombre de chasseurs étant en réalité passé sous le million de permis validés). Chasse autorisée le dimanche dans 50 départements (débat permanent). Accidents mortels : OFB estime 20-30 morts/an liés chasse directe, 200+ blessés. Chiffre réel suspect car sous-déclaration (actes de chasse peu saisis). Enclos fermés (parcs de chasse) : droit tirer gibier semi-captif, élevé en parc, ~200 enclos (France). Pressions UE : tradition chasse traditionnelle (pièges, lacet) condamnée CJUE 2015 (oiseaux migrateurs), France maintient dérogation locale (polémique).
 - **Piste A, 🇫🇷 France (Chasse dimanche interdite sauf zones isolées) :** Dimanche = zone interdite, sauf 20 communes ultra-rurales votes locaux. Réduit accidents contacts-civils. **Pour :** Sécurité clairement améliorée. **Contre :** Réduit jours chasse, contestation puissante FNCDC (Fédération).
 - **Piste B, 🇳🇱 Pays-Bas (Chasse enclos interdite + permis renforcé) :** Enclos fermés illégaux. Chasse libre = permis + 100h formation, tir annuel test. **Pour :** Équité éthique (gibier = ressource, pas production). **Contre :** Diminue offre gibier, élus ruraux opposés.
 - **Piste C, 🇦🇺 Australie (Triage chasse/faune) :** Chasse espèces invasives (lapin, renard) subventionnée ; espèces natives fermées. Pistage GPS obligatoire. **Pour :** Dirige vers gestion écologique réelle. **Contre :** Complexe administrativement, opposition traditionnalistes.
@@ -49,6 +51,7 @@
 - ⚖️ **Faisabilité juridique :** Code de l'Environnement art. L.421 (chasse, réglementation locale). Dérogations CJUE sur chasses traditionnelles (pièges) = France non-conforme, débat actif. Possible loi organique (référendum si tension).
 - ⚖️ **À trancher :** Chasse = droit patrimonial rural ou risque public à réguler ? Comment peser sécurité civile vs. héritage chasseurs ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-13
 
 ### P5. Corrida et combats de coqs : exceptions pénales locales, débat tradition vs. droit commun
 
@@ -64,7 +67,7 @@
 
 ### P6. Animaux sauvages captifs : cirques (loi 2021), delphinariums, zoos
 
-- **Le problème (France, 2016-2026) :** Cirques itinérants : loi 2021 interdit carnivores sauvages (fauves), mais exception oiseaux/reptiles. ~10 cirques encore actifs avec animaux. Delphinariums : 2 France (Antibes, La Côte d'Azur), debate fermage long (demande suppression ONG). Zoos : ~100 France, statuts variables (AZA certifié vs. petit zoo amateur). Bien-être : confinement, déplacement stress (cirques), captivité long-term (delphinariums). Directive UE 2019/883 invite harmonisation, France tardive.
+- **Le problème (France, 2016-2026) :** Cirques itinérants : loi 2021 interdit carnivores sauvages (fauves), mais exception oiseaux/reptiles. 25 cirques encore actifs avec animaux sauvages (suivi officiel Code Animal 2024-2025, chiffre bien supérieur au ~10 parfois cité). Delphinariums : 3 en France métropolitaine avant 2025 (Marineland Antibes, Parc Astérix, Planète Sauvage ; « La Côte d'Azur » n'est pas un delphinarium distinct mais la région où se situe Marineland), debate fermage long (demande suppression ONG). Zoos : ~100 France, statuts variables (AZA certifié vs. petit zoo amateur). Bien-être : confinement, déplacement stress (cirques), captivité long-term (delphinariums). Directive UE 2019/883 invite harmonisation, France tardive.
 - **Piste A, 🇫🇷 France (Cirques sans animaux + delphinariums fermés) :** Interdire tout animal cirque (cirque = divertissement humain seul). Delphinariums fermés à 2028 (délai reconversion). Zoos = normes EEP (European Endangered Species Program). **Pour :** Cohérence éthique, zoos assurent conservation réelle. **Contre :** Chômage cirques (100-200 emplois), Antibes perd attractivité touristique.
 - **Piste B, 🇩🇪 Allemagne (Zoos = réserves scientifiques, cirques libres) :** Zoos avec normes strictes (EEP, recherche) = autorisés. Cirques sans restriction (animal-libre ou avec). **Pour :** Distinction science vs. spectacle. **Contre :** Incohérence éthique, justifie captivité spectaculaire.
 - **Piste C, 🇪🇺 Suisse (Permis unique + bien-être renforcé) :** Cirque, zoo, delphinariums = permis unique exigeant vétérinaire. Espace, sociabilité, enrichissement = standard minimal contraignant (2x plus qu'actuellement). **Pour :** Régulation réelle. **Contre :** Coûteux, petit zoo ferme si norme trop exigeante.
@@ -73,10 +76,11 @@
 - ⚖️ **Faisabilité juridique :** Code Rural L.141 (bâtiments d'animaux, transport). Loi 2021 cirques (renforcer). Directive UE 2019/883 (zoos, encourage harmonisation). Aucun obstacle majeur si calendrier phase out long.
 - ⚖️ **À trancher :** Captivité = jamais acceptable, ou acceptable si fins conservatoires ? Qui arbitre science vs. divertissement ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-13
 
 ### P7. Élevages à fourrure : fermés en France, importation autorisée (incohérence)
 
-- **Le problème (France, 2016-2026) :** Loi 2022 interdit élevage fourrure France (visons, renards, chinchillas). Zéro ferme active depuis 2023. BUT importation pelleteries étrangères (Suède, Finlande, Pologne) = libre. Volume estimé 5 000-8 000 tonnes/an (à confirmer). Incohérence flagrante : interdit de produire, autorisé de consommer. Pression UE (Belgique, Pays-Bas interdisent aussi importation).
+- **Le problème (France, 2016-2026) :** Loi n° 2021-1539 du 30 novembre 2021 (loi contre la maltraitance animale) interdit élevage fourrure France (visons, renards, chinchillas), pas 2022 comme parfois cité. Zéro ferme active depuis 2023, fermetures cohérentes avec une loi adoptée en 2021. BUT importation pelleteries étrangères (Suède, Finlande, Pologne) = libre. Volume estimé 5 000-8 000 tonnes/an (à confirmer). Incohérence flagrante : interdit de produire, autorisé de consommer. Pression UE (Belgique, Pays-Bas interdisent aussi importation).
 - **Piste A, 🇫🇷 France (Interdiction importation fourrure animaux captifs) :** Zéro importation pelleteries (sauf reconstitution historique musée, 0.1 %). Traçabilité impossible si fourrure = co-produit (vêtement cuir avec fourrure). **Pour :** Cohérence éthique, pas d'hypocrisie. **Contre :** Lobby mode puissant, rupture supply chaîne européenne.
 - **Piste B, 🇪🇺 Europe (Accord harmonisé + certification) :** UE harmonise : importation fourrure = zéro, sauf pelleteries synthétiques de labellisation. Traçabilité obligatoire. **Pour :** Coordination forte. **Contre :** Durée négociation longue (3-5 ans), Finlande/Suède opposeront.
 - **Piste C, 🇳🇴 Norvège (Traçabilité + fiscalité) :** Autoriser importation si traçabilité certifiée (à source). Taxe 20 % sur fourrure d'élevage captif. **Pour :** Réduit consommation par prix. **Contre :** Riche paie, pauvre s'abstient (régressive), peu d'effet.
@@ -85,6 +89,7 @@
 - ⚖️ **Faisabilité juridique :** Code des Douanes (interdiction importation, classification fourrure). Droit UE (libre circulation marchandises, mais exceptions possibles bien-être animal sous conditions). Accord commercial OMC (risque recours si discriminatoire).
 - ⚖️ **À trancher :** L'incohérence législative (interdire production, autoriser consommation) est-elle tolérable ? Qui paye la transition ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-13
 
 ### P8. Chevaux : filière équine en crise, abandons croissants, boucherie
 
@@ -112,7 +117,7 @@
 
 ### P10. Statut juridique de l'animal : « être sensible » depuis 2015, mais conséquences réelles quasi-nulles
 
-- **Le problème (France, 2016-2026) :** Code Civil art. 515-14 (depuis 2015) : animal = être sensible (pas objet). Mais : zéro implication légale directe (pas statut intermédiaire, animal ne peut plaider). Abandon pénalisé (~750 €, rarement appliqué). Maltraitance pénalisée (jusqu'à 45 000 € si cas grave), mais poursuites = très rares (<1 % dénoncés). Référendum pour droit animal 2020 échoué (~45 % pour). Allemagne 2002 : constitutionnalise protection animale (art. 20a) = jurisprudence plus protectrice. Comparaison France/Allemagne : quasi-identique en droit/pratique, mais différence symbolique majeure.
+- **Le problème (France, 2016-2026) :** Code Civil art. 515-14 (depuis 2015) : animal = être sensible (pas objet). Mais : zéro implication légale directe (pas statut intermédiaire, animal ne peut plaider). Abandon pénalisé (~750 €, rarement appliqué). Maltraitance pénalisée (jusqu'à 45 000 € si cas grave), mais poursuites = très rares (<1 % dénoncés). Il n'y a jamais eu de référendum sur le droit animal en France : une Initiative de Référendum Partagée (RIP) lancée en juillet 2020 (Hugo Clément et autres personnalités) n'a pas atteint le seuil des 4,7 millions de signatures requises ; les sondages de l'époque (IFOP, juillet 2020) montraient environ 73 % de Français favorables, pas ~45 %. Allemagne 2002 : constitutionnalise protection animale (art. 20a) = jurisprudence plus protectrice. Comparaison France/Allemagne : quasi-identique en droit/pratique, mais différence symbolique majeure.
 - **Piste A, 🇫🇷 France (Constitutionnaliser protection animal) :** Ajouter Constitution art. 1 : « La République garantit la protection des êtres sensibles ». Crée droit d'action procédural (associations peuvent poursuivre, magistrat enquête d'office). **Pour :** Symbolique puissant, alignement Allemagne. **Contre :** Révision constitutionnelle longue, peu d'effet pratique.
 - **Piste B, 🇬🇧 Royaume-Uni (Animal Sentience Act) :** Loi dédié : tout projet réglementation = impact assessment bien-être animal (comme EIA environnement). **Pour :** Force à penser bien-être systématiquement. **Contre :** Administrativement lourd, pas droit subjectif animal.
 - **Piste C, 🇳🇿 Nouvelle-Zélande (Loi droits animal : sujet protégé) :** Animal = sujet de droit (pas propriété). Tuteur légal nommé si maltraitance. Poursuites d'office automatiques cas graves. **Pour :** Maximum protecteur. **Contre :** Radical, risque paralysie élevage normal.
@@ -121,3 +126,4 @@
 - ⚖️ **Faisabilité juridique :** Constitution art. 1 (révision possible, 3/5 assemblée). Code Civil art. 515 (renforcer sanction). Code Pénal art. 521 (interdit maltraitance, augmenter amende). Pas d'obstacle majeur légalement.
 - ⚖️ **À trancher :** Droit animal = symbole ou transformation réelle ? Comment arbitrer droits humains + droits animal sans hiérarchie décidée d'avance ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-13
