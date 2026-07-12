@@ -2,9 +2,9 @@
 
 > BROUILLON non validé : les doubles discours documentés et chiffrés, avec les pistes pour remettre de la cohérence.
 
-### P1. Tabac : licencier les vendeurs, encaisser 13 milliards
+### P1. Tabac : licencier les vendeurs, encaisser 11-12 milliards
 
-- **L'hypocrisie (chiffrée, source) :** L'État encaisse environ 13 milliards d'euros par an en taxes sur le tabac via la TICPE et l'accise, tout en finançant massivement les traitements des cancers causés par le tabagisme (190 000 cas/an en France). Le système repose sur les buralistes agréés (vendeurs officiels) qui génèrent ces impôts, mais l'État nie la contradiction : il ne peut pas à la fois vivre de l'addiction aux cigarettes et prétendre la combattre. Source : https://revuedestabacs.com/blog/droits-de-consommation-tabac-663-m%C3%A9vus-en-2025-soit-52/
+- **L'hypocrisie (chiffrée, source) :** L'État encaisse environ 11 à 12 milliards d'euros par an en taxes sur le tabac via la TICPE et l'accise (en baisse : 13,2 Md€ en 2023, ~11,3 Md€ projetés en 2026), tout en finançant massivement les traitements des cancers causés par le tabagisme (68 000 à 70 000 nouveaux cas par an en France, et environ 190 décès quotidiens du tabagisme, à ne pas confondre avec le nombre de cancers). Le système repose sur les buralistes agréés (vendeurs officiels) qui génèrent ces impôts, mais l'État nie la contradiction : il ne peut pas à la fois vivre de l'addiction aux cigarettes et prétendre la combattre. Source : https://revuedestabacs.com/blog/droits-de-consommation-tabac-663-m%C3%A9vus-en-2025-soit-52/
 
 - **Pourquoi c'est illogique :** L'État est actionnaire de son propre marché de la mort. Plus les gens fument, plus l'État gagne ; plus les gens meurent du tabac, plus l'État paie les soins. C'est un cycle pervers où la santé publique entre en conflit direct avec les rentrées fiscales.
 
@@ -16,15 +16,16 @@
 
 - ⚖️ **Faisabilité juridique :** Code de la santé publique article L3512 et suivants permet de réglementer la vente de produits du tabac ; directive UE 2014/40 impose des marges de manœuvre limitées. Obstacle : traités commerciaux avec les producteurs de tabac (dont Imperial Brands opère en France). Source : [Obligation de rester dans les seuils communautaires].
 
-- ⚖️ **À trancher :** Accepter de perdre 13 Md/an pour retrouver une cohérence morale, ou prolonger le mensonge ? La vraie question : combien vaut une vie humaine face aux rentrées fiscales ?
+- ⚖️ **À trancher :** Accepter de perdre 11-12 Md/an pour retrouver une cohérence morale, ou prolonger le mensonge ? La vraie question : combien vaut une vie humaine face aux rentrées fiscales ?
 
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ---
 
-### P2. Radars : déplacés du chantier à la rentabilité (1,8 Md/an)
+### P2. Radars : déplacés du chantier à la rentabilité (693 M/an)
 
-- **L'hypocrisie (chiffrée, source) :** Les radars mobiles sont officiellement destinés à la sécurité routière, particulièrement en zones de chantier. Cependant, ils sont régulièrement repositionnés sur des lignes droites hors chantier, zones hautement rentables. Les radars mobiles ne représentent que 8% de la flotte mais génèrent plus d'un quart des recettes nationales (estimé à 500 M€ sur 1,8 Md€ total). Cet ajustement révèle que le rendement prime sur la sécurité. Source : https://www.neozone.org/societe/quels-sont-les-radars-les-plus-rentables-de-france-en-2026/
+- **L'hypocrisie (chiffrée, source) :** Les radars mobiles sont officiellement destinés à la sécurité routière, particulièrement en zones de chantier. Cependant, ils sont régulièrement repositionnés sur des lignes droites hors chantier, zones hautement rentables. Les radars mobiles ne représentent que 8% de la flotte mais génèrent 25 à 35% des recettes radars nationales (soit environ 174 à 243 M€ sur 693 M€ au total prévus pour 2026, PLF). Cet ajustement révèle que le rendement prime sur la sécurité. Source : https://www.neozone.org/societe/quels-sont-les-radars-les-plus-rentables-de-france-en-2026/
 
 - **Pourquoi c'est illogique :** Un radar de chantier doit être un outil de prévention des accidents ; déplier le radar sur l'autoroute la plus rentable abolit cette mission. C'est un détournement d'usage. L'État crée des structures de "sécurité" qu'il weaponise ensuite pour maximiser les rentrées.
 
@@ -39,6 +40,7 @@
 - ⚖️ **À trancher :** Accepter qu'une "arme de sécurité" devienne une "machine à amende" ? Ou redéfinir la légitimité des radars mobiles ?
 
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ---
 
@@ -84,9 +86,9 @@
 
 ### P5. Alcool : la loi Evin détricotée par les lobbies du vin
 
-- **L'hypocrisie (chiffrée, source) :** La loi Evin (janvier 1991) encadre la publicité pour les alcools, censée protéger la santé publique. Cependant, depuis 30 ans, le lobby viticole a progressivement vidé la loi de son sens. En 2015, une exception a été créée pour le "patrimoine culturel, gastronomique ou paysager lié à une boisson alcoolisée", qui permet de facto une publicité débridée pour le vin sous couvert de culture. Cette relaxation a été obtenue par Vin et Société auprès du gouvernement Macron. Source : https://www.franceinfo.fr/economie/emploi/metiers/agriculture/quand-les-lobbies-du-vin-detricotent-la-loi-evin_2591330.html
+- **L'hypocrisie (chiffrée, source) :** La loi Evin (janvier 1991) encadre la publicité pour les alcools, censée protéger la santé publique. Cependant, depuis 30 ans, le lobby viticole a progressivement vidé la loi de son sens. En 2016 (loi n° 2016-41 du 26 janvier 2016), une exception a été créée pour le "patrimoine culturel, gastronomique ou paysager lié à une boisson alcoolisée", qui permet de facto une publicité débridée pour le vin sous couvert de culture. Cette relaxation a été obtenue par Vin et Société auprès du gouvernement Valls (quinquennat Hollande). Source : https://www.franceinfo.fr/economie/emploi/metiers/agriculture/quand-les-lobbies-du-vin-detricotent-la-loi-evin_2591330.html
 
-- **Pourquoi c'est illogique :** L'État interdit la publicité pour la bière et les alcools forts, mais autorise le vin à se promouvoir via sa "dimension culturelle". Le vin tue autant que la bière (77 000 décès/an liés à l'alcool en France), mais jouit d'une exception légale par simple lobbying politique.
+- **Pourquoi c'est illogique :** L'État interdit la publicité pour la bière et les alcools forts, mais autorise le vin à se promouvoir via sa "dimension culturelle". L'alcool tue environ 41 000 personnes par an en France (Santé Publique France, dont le vin représente une part importante), mais jouit d'une exception légale par simple lobbying politique.
 
 - **Piste A : Application stricte et égale de la loi Evin :** Fermer l'exception "patrimoine culturel", traiter tous les alcools de manière identique. **Pour :** Égalité et cohérence légale, réduction attendue des consommations dangereuses. **Contre :** Crise politique majeure, opposition des vignerons français, risque économique pour les régions viticoles.
 
@@ -99,6 +101,7 @@
 - ⚖️ **À trancher :** Accepter que la loi protégeant la santé publique soit un écran de fumée pour certains lobbies, ou la rendre réelle en s'attaquant à la filière vin ?
 
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ---
 
