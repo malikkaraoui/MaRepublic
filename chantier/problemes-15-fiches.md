@@ -59,14 +59,15 @@
 
 ### P6. France Travail : délais contrôles et radiations arbitraires sans recours effectif
 
-- **Le vécu (source) :** Validation inscription France Travail sous 72h, but 1er RDV imposé sous 15 à 30 jours ou radiation. Or, délais réels sont 35+ jours en zones à faible intensité de ressources, puis radiations sans avertissement visible. Travailleurs indépendants interrompant activité transitoirement perdent indemnités si délai passé. Collectif CGT Chômeurs dénonce absence de recours gracieux. (France Travail calendrier 2026 ; Chômeurs CGT, s.d. ; Solidaires, bulletin s.d.)
+- **Le vécu (source) :** Validation inscription France Travail sous 72h, but 1er RDV imposé sous 15 à 30 jours ou radiation. Or, le délai réel observé va de 7 à 30 jours ouvrés selon les zones (le chiffre de 35+ jours souvent cité mélange en réalité le délai de versement de l'allocation, 28 jours de différé plus 7 jours d'attente, avec celui du premier rendez-vous), puis radiations sans avertissement visible. Travailleurs indépendants interrompant activité transitoirement perdent indemnités si délai passé. Collectif CGT Chômeurs dénonce absence de recours gracieux. (France Travail calendrier 2026 ; Chômeurs CGT, s.d. ; Solidaires, bulletin s.d.)
 - **Piste A : 🇳🇴 Norvège (NAV) :** RDV suivi 30 jours minimum, repoussable une fois sur demande ; radiation seulement si absence 60+ jours consécutifs, avec préavis écrit. **Pour :** Absences justifiables (santé, formation courte). **Contre :** Peut freiner recherche active emploi, manque réactivité.
 - **Piste B : 🇬🇧 Royaume-Uni (DWP) :** Entretiens obligatoires 8/52 semaines si carrière fractionnée, annulables si offre CDI en cours ; version digital + humaine. **Pour :** Adapté à dynamique emploi. **Contre :** Très différent de régime français contributif, ne transfère pas.
 - **Piste C : 🇫🇷 Zéro friction (RADICAL) :** Inscription automatique si données déclaration fiscale montrent perte emploi ; versement ARE immédiat (sans condition RDV) si dossier complet déclaration antérieure. RDV devient optionnel pour formation/aide. Radiation jamais sans SMS + lettre recommandée + recours 30j. **Pour :** Zéro rupture allocation. **Contre :** Surversement massive si données retardées, chevalcade administratif ultérieur.
 - ⚖️ **Faisabilité juridique :** Loi France Travail 2023 (L5411 code travail) + CEDH art. 8 ; CEDH art. 8 (liberté) si conditions disproportionnées + art. 40 si surversements ; Loi 23 janvier 2023.
-- **Simulation (ordres de grandeur) :** RDV 30 jours min + repoussable (Norvège) : 50-80 M€ RH + 2 M€ formations. Versement auto depuis déclaration : 100-200 M€ infrastructure + 200-500 M€ surversements potentiels. Gagnants : indépendants transitoires (délai respecté). Délai : 30 jours garanti (vs 35+ actuellement). Risque : surversements massifs, chevauchement auto/contrôle.
+- **Simulation (ordres de grandeur) :** RDV 30 jours min + repoussable (Norvège) : 50-80 M€ RH + 2 M€ formations. Versement auto depuis déclaration : 100-200 M€ infrastructure + 200-500 M€ surversements potentiels. Gagnants : indépendants transitoires (délai respecté). Délai : 30 jours garanti (vs 7-30 jours actuellement selon zones). Risque : surversements massifs, chevauchement auto/contrôle.
 - ⚖️ **À trancher :** Assouplir délais ET conditions RDV (humaniser) vs automatiser versement primaire ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P7. Algorithmes discrimination sociale : protégés par secret défense administratif
 
