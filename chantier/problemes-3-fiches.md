@@ -25,7 +25,7 @@
 - **Statut :** ⬜
 
 ### P3. Passoires thermiques : énergie ruineuse et polluante
-- **Le problème (France, 2016-2026) :** ~4,8 millions de passoires (DPE F-G). Habitants paient 2-3× plus en chauffage/clim ; depuis 2025, G interdits à la location, F le seront après 2033. Dérive de propriétaires vers Airbnb ou abandon.
+- **Le problème (France, 2016-2026) :** ~4,8 millions de passoires (DPE F-G). Habitants paient 2-3× plus en chauffage/clim ; calendrier de la loi Climat-Résilience 2021 : G interdits à la location depuis 2025, F le seront au 1er janvier 2028 (une réforme d'assouplissement de 2026 atténue l'application stricte mais ne repousse pas cette date), E prévu 2034. Dérive de propriétaires vers Airbnb ou abandon.
 - **Piste A, 🇦🇹 Autriche (co-financement rénovation 50/50 état-propriétaire) :** Subsides rétroactifs, conformité obligatoire sur 10 ans, crédits bonifiés. **Pour :** transition juste, économies énergie. **Contre :** capacité administrative, effets pervers (gentrification, prix fonciers hausse).
 - **Piste B, 🇫🇷 France (MaPrimeRénov' accéléré + obligation de performance) :** Augmentation des enveloppes, sanction fiscale sur passoires non rénovées. **Pour :** volume travaux, emplois verts. **Contre :** dette publique, attente travaux croissante.
 - **Piste C, 🇸🇪 Suède (taxe carbone élevée + préfinancement par facture énergétique) :** Propriétaires financent rénovation par retour économies, taux gelé 0 % si critères environnement atteints. **Pour :** mécanisme auto-finançant. **Contre :** longévité calcul, variations tarifs énergie.
@@ -34,6 +34,7 @@
 - ⚖️ **Faisabilité juridique :** Loi/décret (obligation rénovation délai), loi de finances (MaPrimeRénov') ; Art. 40 (subventions), droit propriété limité mais validé par CC (obligation avec délai) ; loi Climat 2021, G interdit 2025.
 - ⚖️ **À trancher :** Obligation stricte ou incitatif financier ? Qui paie : état, bailleur, locataire ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P4. Airbnb et déstabilisation des zones tendues
 - **Le problème (France, 2016-2026) :** Depuis G-interdit-location (2025), basculement massif vers locations courtes. À Paris, ~60 000 logements en Airbnb (5-8 % du parc) ; pénurie de l'offre permanente. Loi Airbnb (nov. 2024) plafonne à 90 j/an par commune, mais non appliquée uniformément.
@@ -69,7 +70,7 @@
 - **Statut :** ⬜
 
 ### P7. Inflation alimentaire 2022-2023 : saut structurel du pouvoir d'achat
-- **Le problème (France, 2016-2026) :** Inflation alimentation : +5,7 % (2022), +4,1 % (2023), ralentie à +1,4 % (2024) mais reste >inflation générale. Panier essentiel (produits frais, protéines) : +8-10 % cumulés. Ménages modestes dédient 25-35 % budget à nourriture, hausse impactée.
+- **Le problème (France, 2016-2026) :** Inflation alimentation (INSEE) : +6,8 % (2022), +11,8 % (2023), ralentie à +1,4 % (2024) mais reste >inflation générale. Panier essentiel (produits frais, protéines) : +8-10 % cumulés. Ménages modestes dédient 25-35 % budget à nourriture, hausse impactée.
 - **Piste A, 🇬🇧 Royaume-Uni (TVA zéro sur produits essentiels : pain, lait, fruits/légumes frais) :** Exonération, baisse TVA différentielle par catégorie nutritive. **Pour :** pouvoir d'achat immédiat, ciblage équitable. **Contre :** manque à gagner fiscal, complexité classification, risques contournement.
 - **Piste B, 🇬🇷 Grèce (prix administrés sur produits de première nécessité) :** Plafond légal blé, huile, lait, négociés annuels producteurs-états. **Pour :** stabilité, budget ménage prévisible. **Contre :** distorsion marché, pénuries, qualité réduite, corruption achat politique.
 - **Piste C, 🇸🇪 Suède (coupons alimentaires ciblés + subvention directe revenus <150 % SMIC) :** Allocation mensuelle spécifique achat panier minimum. **Pour :** ciblage, redistributif. **Contre :** stigmatisation, peu universaliste, coût administratif.
@@ -78,6 +79,7 @@
 - ⚖️ **Faisabilité juridique :** Loi de finances (TVA) / loi (prix administrés) ; Droit UE directive TVA 2006/112 (taux min 5%), libre circulation marchandises (prix contrôlés) ; Art. 40 ; débats TVA 2022-2024.
 - ⚖️ **À trancher :** Réguler prix (contrôle marché) ou compenser revenus ? Universel vs. ciblé ? Urgence court terme vs. stabilité long terme ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P8. Précarité énergétique : froid, chaud, coût ruineux
 - **Le problème (France, 2016-2026) :** ~5,8 millions en précarité énergétique (revenu <2,5× seuil pauvreté, dépense énergie anormale). Basculement électricité (+12 % 2022-2023, tempéré 2024) ; gaz instable (pic 2022, baisse 2025 mais volatilité reste). Ménages modestes choisissent chauffage vs. nourriture en hiver.
