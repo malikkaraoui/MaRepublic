@@ -47,19 +47,20 @@ Enjeu invisible : batterie = usine délocalisée (Asie, charbon). Consommateur p
 Retraité Crépy-en-Valois : Renault Twingo électrique 48 kWh acheté 35 000 € après bonus. Grid français. Circule 10 000 km/an. Break-even = 35 000-50 000 km = 3.5-5 ans. À 6 ans (60 000 km), électrique déjà ≈-1 tonne CO2 vs thermique équivalent. À 10 ans (100 000 km), bénéfice net -2 tonnes.
 
 **⚖️ Faisabilité juridique**
-ADEME rapport public 2024. Normes ISO 14040 LCA. Déclaration environnementale constructeurs obligatoire EU (Euro 7 2025+). Faisable oui, métrique établie. Mais : grid carbon intensity varie pays (Allemagne 400 g/kWh vs France 80 g/kWh) = résultats non généralisables.
+ADEME rapport public 2024. Normes ISO 14040 LCA. Déclaration environnementale constructeurs obligatoire EU (Euro 7 (novembre 2026 nouveaux modèles, novembre 2027 tous véhicules)). Faisable oui, métrique établie. Mais : grid carbon intensity varie pays (Allemagne 400 g/kWh vs France 80 g/kWh) = résultats non généralisables.
 
 **⚖️ À trancher**
 Affichage obligatoire : km amortissement CO2 sur chaque fiche technique Auto. Interdire électrique >80 kWh passager (SUV inutile). Subventionner batteries 40-60 kWh plutôt que 100 kWh.
 
 **Statut:** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
 ### P3. Jungle recharge: des prix multipliés par 5
 
 **Constat chiffré + URL**
-AFIR UE 2026 : obligation tarification kWh (non à la minute). France 160 000 bornes publiques. Écarts tarifaires brutaux : Electra 0.35 €/kWh AC vs Allego 0.85 €/kWh DC sans abonnement = 2.4x différence. Ionity DC 0.79 €/kWh vs startup locale 0.50 €/kWh = 1.5x. Affichage prix kWh toujours incohérent 31% bornes (à confirmer juillet 2026).
+AFIR UE 2026 : obligation tarification kWh (non à la minute). France environ 195 000 bornes publiques (194 996 points de recharge au 30 avril 2026, AVERE). Écarts tarifaires brutaux : Electra 0.35 €/kWh AC vs Allego 0.85 €/kWh DC sans abonnement = 2.4x différence. Ionity DC 0.79 €/kWh vs startup locale 0.50 €/kWh = 1.5x. Affichage prix kWh toujours incohérent 31% bornes (à confirmer juillet 2026).
 [AFIR 2026 obligations](https://particuliers.engie.fr/electricite/conseils-electricite/conseils-mobilite-electrique/AFIR-tout-savoir-sur-cette-nouvelle-reglementation-europeene.html)
 
 **Pourquoi**
@@ -67,7 +68,7 @@ Oligopole infrastructure : FNAC-TotalEnergies, Ionity (Tesla/Shell/BMW), Allego 
 
 **Pistes Pour-Contre**
 - Pour : AFIR force transparence kWh, interopérabilité accélère 2026-2027, petits opérateurs entrent (Fastned, ChargePoint)
-- Contre : tarification vraie kWh n'existe pas août 2026 (à confirmer), opérateurs maintiennent abonnements cachés, affichage prix insuffisant (point d'entrée manquant), ruralité délibérément chère (frais exploitation) = citadin finance campagne
+- Contre : l'obligation d'affichage du tarif en €/kWh existe légalement (Règlement AFIR 2026) mais son application reste chaotique (affichage incohérent sur 31% des bornes), opérateurs maintiennent abonnements cachés, ruralité délibérément chère (frais exploitation) = citadin finance campagne
 
 **Simulation (ordres de grandeur) :**
 Couple Toulouse-Bordeaux (200 km, Tesla Model 3 SR+, batterie 52 kWh, consommation 150 Wh/km). 78 kWh à recharger (estimation 80% depletion). Ionity 0.79 €/kWh : 61.60 €. Electra 0.35 €/kWh : 27.30 €. Différence = 34.30 € par trajet, annuel 8 trajets = 274 € surcoût Ionity. Trajet thermique : 60 L diesel x 1.60 € = 96 € comparatif.
@@ -79,6 +80,7 @@ AFIR article 8 : obligation affichage temps réel obligatoire depuis 1.1.2026. F
 Affichage prix entrée borne (écran 5x5cm) avant paiement obligatoire. Tarif plafond DC : 0.75 €/kWh. Créer pool public tarifaire (« transparent commun ») prix cotisant, syndicat obligatoire. Interdire abonnement caché (une facturation simple = transparence).
 
 **Statut:** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
@@ -111,7 +113,7 @@ Accepter dépendance Asie batterie à long terme (2035+) / investir massivement 
 ### P5. Décote électrique: batterie dégradée = valeur carburant perdue
 
 **Constat chiffré + URL**
-Batterie véhicule électrique : perte 1% capacité tous les 25 000 km en moyenne. Après 70 000 km = 93% SoH restant. Après 160 000 km = >90% SoH (durée bien mieux qu'attendu). Norme Euro 7 2025+ : garantie batterie 80% jusqu'à 5 ans/100 000 km, puis 72% jusqu'à 8 ans/160 000 km. Certificats SoH (State of Health) émis par Moba, Aviloo, non-harmonisés UE (à confirmer norme officielle). Climat critique : batterie Norvège (-5°C) = perte lente; Arizona (+50°C) = perte rapide, diminue 20% vs Scandinavie.
+Batterie véhicule électrique : perte 1% capacité tous les 25 000 km en moyenne. Après 70 000 km = 93% SoH restant. Après 160 000 km = >90% SoH (durée bien mieux qu'attendu). Norme Euro 7 (novembre 2026 nouveaux modèles, novembre 2027 tous véhicules) : garantie batterie 80% jusqu'à 5 ans/100 000 km, puis 72% jusqu'à 8 ans/160 000 km. Certificats SoH (State of Health) émis par Moba, Aviloo, non-harmonisés UE (à confirmer norme officielle). Climat critique : batterie Norvège (-5°C) = perte lente; Arizona (+50°C) = perte rapide, diminue 20% vs Scandinavie.
 [Dégradation batterie étude](https://www.geotab.com/fr/blog/etude-sur-la-degradation-des-batteries-des-vehicules-electriques/)
 
 **Pourquoi**
@@ -131,6 +133,7 @@ Norme Euro 7 UE = directive 2023/1167/UE, transposition France 2024-2025 (à con
 Certificat SoH obligatoire revente ≤8 ans, fourni fabricant gratis (Renault, Tesla, BMW). Garantie batterie minimale 80% SoH 5 ans/100 000 km étendue légalement (droit consommateur). Fonds poubelle batterie (taxe 100 €/batterie neuve vendue) pour recyclage industriel France.
 
 **Statut:** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
@@ -215,7 +218,7 @@ Délai syndic maximal 2 mois (vs 3 mois actuel). Pénalité syndic refus abusif 
 ### P9. Norvège: modèle non-transposable en Occident
 
 **Constat chiffré + URL**
-Norvège 2024 : 90% VE neufs vendus. Fonds souverain pétrolier = 850 Mds € (premier monde), alimente budget 3%/an ≈25 Mds €. Infrastructure électrique : 100% hydro-électricité (producteur net énergie). Modèle : taxe CO2 pétrole/gaz alimentent fonds → subvention électrique abordable (achat, recharge, route). TVA supprimée véhicules électriques. Carburant essence diesel = 2-3x prix France. Population 5,5 M = infrastructure dense viable.
+Norvège 2024 : 90% VE neufs vendus. Fonds souverain pétrolier = environ 1 860 Mds € en 2025-2026 (premier monde), alimente budget 3%/an ≈55-56 Mds €. Infrastructure électrique : 100% hydro-électricité (producteur net énergie). Modèle : taxe CO2 pétrole/gaz alimentent fonds → subvention électrique abordable (achat, recharge, route). TVA supprimée véhicules électriques. Carburant essence diesel = 2-3x prix France. Population 5,5 M = infrastructure dense viable.
 [Modèle Norvège énergies](https://geoconfluences.ens-lyon.fr/informations-scientifiques/dossiers-thematiques/changement-global/articles-scientifiques/scandinavie-modele-transition-energetique)
 
 **Pourquoi**
@@ -226,7 +229,7 @@ Contexte Norvège non-généraliste : (1) Richesse pétrolière 80 ans = accumul
 - Contre : modèle Norvège irréplicable Europe : hydro limité Suisse/Autriche <5% pop EU, pétrole EU quasi-nul, fonds pétrolier neuf = 0 accumulation, transition thermique-électrique Norvège graduelle (25 ans), France impose 13 ans = fragmentation socio-politique violente
 
 **Simulation (ordres de grandeur) :**
-France applique Norvège-light : créer fonds souverain 5 Mds €/an taxation CO2 (taxe carbone accentuée 200 €/tonne vs 50 €/tonne actuelle). 25 ans accumulation = 125 Mds €. Subvention électrique 3%/an (3,75 Mds €/an après 25 ans) = bonus achat +8 000 €/VE pour 500 000 VE/an, ou recharge gratuite. Référence comparable : fonds souverain Norvège 850 Mds € (1er monde, généré 80 ans pétrole), rendement 3% distribué = 25 Mds €/an (vs France 125 Mds € en 25 ans = 5 Mds €/an, soit 5x moins généreux). Perdants/effets de bord : (1) hausse essence 1.50 € → 2.50 €/L immédiatement (Yellow Vests 2019, gouvernement chute), (2) secteur pétrolier France (Aquitaine gaz) disparaît sans réinsertion employés, (3) retraités thermique = penalisés sans allocation chômage transitionnel (à confirmer cotation budgétaire). Faisable techniquement, acceptabilité politique zéro.
+France applique Norvège-light : créer fonds souverain 5 Mds €/an taxation CO2 (taxe carbone accentuée 200 €/tonne vs 50 €/tonne actuelle). 25 ans accumulation = 125 Mds €. Subvention électrique 3%/an (3,75 Mds €/an après 25 ans) = bonus achat +8 000 €/VE pour 500 000 VE/an, ou recharge gratuite. Référence comparable : fonds souverain Norvège environ 1 860 Mds € (1er monde, généré 80 ans pétrole), rendement 3% distribué = 55-56 Mds €/an (vs France 125 Mds € en 25 ans = 5 Mds €/an, soit plus de 10x moins généreux). Perdants/effets de bord : (1) hausse essence 1.50 € → 2.50 €/L immédiatement (Yellow Vests 2019, gouvernement chute), (2) secteur pétrolier France (Aquitaine gaz) disparaît sans réinsertion employés, (3) retraités thermique = penalisés sans allocation chômage transitionnel (à confirmer cotation budgétaire). Faisable techniquement, acceptabilité politique zéro.
 
 **⚖️ Faisabilité juridique**
 Fonds souverain France = cadre légal FNF (Fonds National Français), géré Banque de France (comme Norvège). Créer = loi nouvelle, vote Parlement. Faisable légalement oui. Mais : stabilité politique nécessaire 15+ ans (gouvernement pérenne Norvège, France 5-7 ans cycle), risque vidage fonds si crise budgétaire (2025 déficit 300 Mds € impossible pérennité fonds).
@@ -235,6 +238,7 @@ Fonds souverain France = cadre légal FNF (Fonds National Français), géré Ban
 Renoncer copier Norvège (impossible). Stratégie France : fonds limité 2 Mds €/an sur 10 ans (ciblé rural/populaire), refund investissement électrique via imposition progressif carbone/essence (3-5 ans accumulation). Priorité : récupérer hydro-électricité Alpes-Pyrénées (investissement réseaux 40 Mds €, justifiable fonds).
 
 **Statut:** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
