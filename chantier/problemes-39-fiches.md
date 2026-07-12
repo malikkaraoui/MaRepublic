@@ -24,7 +24,7 @@
 
 ### P2. Le bilan de mi-mandat obligatoire par un tiers indépendant
 
-- **Le constat (chiffré, source) :** En France, aucun audit officiel de mi-mandat n'existe. Au Canada, le Polimètre publie un bilan intermédiaire : Trudeau à mi-mandat (2019) : 53% de promesses réalisées, Carney en 2026 (après 9 mois) : 9% seulement. En Belgique, un « rapport de mi-mandat » n'est que consultatif et tardif. Aucun mécanisme n'existe pour demander des comptes avant la fin du terme. [Polimètre](https://www.fss.ulaval.ca/actualites/lancement-du-polimetre-trudeau-20)
+- **Le constat (chiffré, source) :** En France, aucun audit officiel de mi-mandat n'existe. Au Canada, le Polimètre publie un bilan intermédiaire : Trudeau à mi-mandat (2019) : 53% de promesses réalisées, Carney en 2026 (après environ 13 mois de mandat, entré en fonction le 14 mars 2025) : 9% seulement. En Belgique, un « rapport de mi-mandat » n'est que consultatif et tardif. Aucun mécanisme n'existe pour demander des comptes avant la fin du terme. [Polimètre](https://www.fss.ulaval.ca/actualites/lancement-du-polimetre-trudeau-20)
 
 - **Pourquoi c'est inacceptable :** Un maire, un ministre peut dormir 4 ans sans rien faire jusqu'aux derniers mois. Aucun « point d'étape » n'existe. Si un plan échoue massivement (réduction chômage de 50%, investissements de 10 Md, logements construits), on l'apprend trop tard. Les citoyens ne peuvent pas corriger en cours de mandat ; seul le scrutin suivant peut sanctionner.
 
@@ -41,10 +41,11 @@
 - ⚖️ **À trancher :** Qui publie le rapport ? État (auto-évaluation) vs Cour (audit) vs jury (participatif) ? Quand (24 mois vs 36 mois) ? Quel impact si bilan catastrophe ? Peut-on dissoudre l'Assemblée avant terme si 3/5 députés le demandent après bilan négatif ? Précédent : Allemagne, Autriche (Vertrauensfrage = vote de confiance anticipé), mais jamais utiliser via audit public.
 
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P3. La responsabilité réelle des ministres : réforme de la Cour de justice de la République
 
-- **Le constat (chiffré, source) :** Depuis sa création en 1993 (affaire du sang contaminé), la Cour de justice de la République a reçu 1000+ plaintes, renvoyé 38 à l'enquête, enregistré 6 procès et condamné 5 ministres. Bilan : ZÉRO emprisonnement ferme, 2 dispenses de peine (Edmond Hervé, Christine Lagarde) malgré culpabilité. La Cour déclare « responsable mais pas coupable ». Exemple : affaire Cahuzac, chiffre noir, attentes de mort, etc. : aucun ministre détenu. [CJR Wikipedia](https://en.wikipedia.org/wiki/Cour_de_Justice_de_la_R%C3%A9publique) ; [France24](https://www.france24.com/fr/france/20231116-cour-de-justice-de-la-r%C3%A9publique-une-juridiction-d-exception-tr%C3%A8s-contest%C3%A9e).
+- **Le constat (chiffré, source) :** Depuis sa création en 1993 (affaire du sang contaminé), la Cour de justice de la République a reçu 1000+ plaintes, renvoyé 38 à l'enquête, enregistré 6 procès et condamné au moins 6 ministres (Edmond Hervé 1999, Michel Gillibert 2004, Charles Pasqua 2010, Christine Lagarde 2016, François Léotard 2021, Kader Arif 2022). Bilan : ZÉRO emprisonnement ferme, 2 dispenses de peine (Edmond Hervé, Christine Lagarde) malgré culpabilité. La Cour déclare « responsable mais pas coupable ». Exemple : affaire Cahuzac, chiffre noir, attentes de mort, etc. : aucun ministre détenu. [CJR Wikipedia](https://en.wikipedia.org/wiki/Cour_de_Justice_de_la_R%C3%A9publique) ; [France24](https://www.france24.com/fr/france/20231116-cour-de-justice-de-la-r%C3%A9publique-une-juridiction-d-exception-tr%C3%A8s-contest%C3%A9e).
 
 - **Pourquoi c'est inacceptable :** Un ministre qui cache 100 EUR M d'argent public ne risque pas la prison. Un fonctionnaire qui détourne 100k EUR va au tribunal pénal ordinaire, risque emprisonnement. Asymétrie totale. Les ministres sont MOINS justiciables que les citoyens. Aucune dissuasion. Cite l'exemple classique : si tu crashes ton auto et blesses quelqu'un, tu risques prison. Si tu decides une politique qui tue 1000 personnes (Mediator, amiante ignorée, etc.), tu risques rien comme ministre.
 
@@ -61,6 +62,7 @@
 - ⚖️ **À trancher :** Statu quo inacceptable (1000 plaintes, 0 prison en 33 ans). Faut-il égalité totale (tribunaux ordinaires) ou spécialisation réformée (CJR+ indépendance) ? Si tribunal ordinaire, qui juge les secrets d'État ? Si CJR réformée, le faire avant 2027 (élection) pour éviter perception « chasse politique ».
 
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P4. Les comptes rendus de vote : justification publique de chaque vote au Parlement
 
@@ -84,7 +86,7 @@
 
 ### P5. Le train de vie des cabinets et élus : transparence intégrale des frais
 
-- **Le constat (chiffré, source) :** Opacité systématique : on ne sait pas combien coûte un cabinet ministériel (pas de publication globale). Le budget de fonctionnement du gouvernement est 170,7 EUR M/an, mais détail par ministère SECRET. Moitié des fonctionnaires affectés aux cabinets gagnent PLUS que leur ministre (à confirmer : source blog René Dosière). Frais de représentation (restaurants, taxis, logements parisiens) : SECRETS. Au Royaume-Uni, le scandale IPSA 2009 (MPs claims £180M pour frais de logement, véhicules, décoration) a forcé réforme : publication automatique de tous les reçus pour frais, audit indépendant (IPSA), plafonds stricts. Depuis 2010, chaque reçu est ligne dans rapport public IPSA. [Frais cabinets France](https://acteurspublics.fr/articles/cabinets-ministeriels-des-remunerations-en-mal-de-transparence/) ; [IPSA réforme 2009](https://constitution-unit.com/2020/03/06/an-extraordinary-scandal-looking-back-at-the-2009-mps-expenses-crisis-and-its-consequences/).
+- **Le constat (chiffré, source) :** Opacité systématique : on ne sait pas combien coûte un cabinet ministériel (pas de publication globale). Le budget de fonctionnement du gouvernement est 170,7 EUR M/an, mais détail par ministère SECRET. Moitié des fonctionnaires affectés aux cabinets gagnent PLUS que leur ministre (à confirmer : source blog René Dosière). Frais de représentation (restaurants, taxis, logements parisiens) : SECRETS. Au Royaume-Uni, le scandale des notes de frais des députés (2009, environ £1,3M de frais mal réclamés dont le remboursement a été ordonné) a forcé réforme : publication automatique de tous les reçus pour frais, audit indépendant (IPSA), plafonds stricts (les £180M souvent cités correspondent en réalité aux dépenses cumulées des députés et pairs sur la période août 2019-juillet 2022, pas au scandale de 2009). Depuis 2010, chaque reçu est ligne dans rapport public IPSA. [Frais cabinets France](https://acteurspublics.fr/articles/cabinets-ministeriels-des-remunerations-en-mal-de-transparence/) ; [IPSA réforme 2009](https://constitution-unit.com/2020/03/06/an-extraordinary-scandal-looking-back-at-the-2009-mps-expenses-crisis-and-its-consequences/).
 
 - **Pourquoi c'est inacceptable :** Pas de freins aux dépenses ostentatoires. Un ministre peut louer un 200m2 avenue Foch pour « bureau de travail » ; personne ne questionne (pas visible). Fonctionnaires de cabinet payés avec surindemnités opaques (« indemnité sujétions particulières ») : chacun sait que c'est bonus politique, mais montant secret. Citoyens ne peuvent comparer : est-ce que mon ministre dépense x3 le ministre allemand pour même tâche ?
 
@@ -101,10 +103,11 @@
 - ⚖️ **À trancher :** Transparence totale (Piste A, tous les reçus) vs sélective (Piste B, juste totaux) vs algorithmique (Piste C, flagging anomalies) ? Si Piste A : qui accède données brutes ? Citoyens ? Médias ? Procureur ? Protection données personnelles (noms fonctionnaires) ? Si seuil 5k EUR, quel seuil pertinent (inflation 2030) ? Si Piste B ou C, qui arbitre « dépense inusuelle » ? Cour des comptes indépendante ou gouvernement peut demander révision ?
 
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P6. L'obligation de résultat sur les objectifs chiffrés annoncés
 
-- **Le constat (chiffré, source) :** Exemple typique : Loi de programmation militaire 2024-2030, budget 413 EUR M votée 2023, cible 2030 = armée modernisée, stocks reconstitués, délais de retard = zéro. Or, en réalité, certaines lignes budgétaires ne sont pas financées : service national universel hors LPM (financement ad hoc), coûts opérations externes non inclus, dépenses annuelles non indexées (coupées si inflation dépasse enveloppe). Exemple ailleurs : France Urbaine 2017, objectif « 500k logements/5 ans », réalisé 350k (70%) malgré promesse chiffré. [LPM 2024-2030](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047914986).
+- **Le constat (chiffré, source) :** Exemple typique : Loi de programmation militaire 2024-2030, budget 413,3 Md€ votée 2023, cible 2030 = armée modernisée, stocks reconstitués, délais de retard = zéro. Or, en réalité, certaines lignes budgétaires ne sont pas financées : service national universel hors LPM (financement ad hoc), coûts opérations externes non inclus, dépenses annuelles non indexées (coupées si inflation dépasse enveloppe). Exemple ailleurs : France Urbaine 2017, objectif « 500k logements/5 ans », réalisé 350k (70%) malgré promesse chiffré. [LPM 2024-2030](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047914986).
 
 - **Pourquoi c'est inacceptable :** Un gouvernement annonce un plan chiffré, citoyen se fie aux chiffres, puis écart immense entre plan et réalité sans explication ni conséquence. L'élastique budgétaire absorbe l'écart (« inflation a changé les priorités ») mais citoyen ne peut pas demander : « qui de vous 2 a menti ? ». Pas de mécanisme pour identifier si écart vient de : contexte externe (crise), incompétence gouvernement, promesse malhonnête, ou changement de priorités.
 
@@ -121,6 +124,7 @@
 - ⚖️ **À trancher :** Audit temps-réel (Piste A, 4 fois/an) trop de données, vs ex-post (Piste B, 18 mois) trop tardif ? Révision légale (Piste C) ouvre la porte à manipulation rhétorique. Faut-il combiner : tableau bord temps-réel + audit à 18 mois ? Si malveillance détectée (chiffres falsifiés initialement), remboursement par quel fonds ?
 
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P7. La démission automatique en cas de condamnation
 
@@ -184,7 +188,7 @@
 
 ### P10. Les lois de programmation tenues ou expliquées
 
-- **Le constat (chiffré, source) :** Loi de programmation militaire 2024-2030 : 413 EUR M votée 2023, objectif « armée modernisée, stocks reconstitués ». Or : service national universel non financé dans LPM (financement séparé, ad hoc → non pérenne) ; coûts opérations externes (Mali, Ukraine) non inclus (chaque année, dépenses opérations exploentent, financements de substitution rajoutées ex post) ; certaines lignes d'équipement ont délai augmenté (ex : chars d'assaut livraison 2035 au lieu 2030). Citoyen lit « 413 EUR M pour armée forte », réalité = 350 EUR M engagé, budget réel éclaté, promesses réduites discrètement. Exemple autre : Recherche : loi programmation 2021-2027 promettait doubler budget recherche ; en 2025, budget augmenté 15% (non doublé), ministère dit « inflation a réduit pouvoir achat ». Qui de la loi ou du ministre a trahi la promesse ? [LPM 2024-2030](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047914986) ; [Loi programmation militaire](https://www.defense.gouv.fr/ministere/politique-defense/loi-programmation-militaire-2024-2030).
+- **Le constat (chiffré, source) :** Loi de programmation militaire 2024-2030 : 413,3 Md€ votés 2023, objectif « armée modernisée, stocks reconstitués ». Or : service national universel non financé dans LPM (financement séparé, ad hoc, non pérenne) ; coûts opérations externes (Mali, Ukraine) non inclus (chaque année, dépenses opérations exploentent, financements de substitution rajoutées ex post) ; certaines lignes d'équipement ont délai augmenté (ex : chars d'assaut livraison 2035 au lieu 2030). Citoyen lit « 413 Md€ pour armée forte », réalité = budget réel éclaté entre lignes non financées et surcoûts ex post, promesses réduites discrètement. Exemple autre : Recherche : loi programmation 2021-2027 promettait doubler budget recherche ; en 2025, budget augmenté 15% (non doublé), ministère dit « inflation a réduit pouvoir achat ». Qui de la loi ou du ministre a trahi la promesse ? [LPM 2024-2030](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047914986) ; [Loi programmation militaire](https://www.defense.gouv.fr/ministere/politique-defense/loi-programmation-militaire-2024-2030).
 
 - **Pourquoi c'est inacceptable :** Loi de programmation = contrat parlement-gouvernement : on vote credits, gouvernement les dépense comme promis. Si gouvernement ne dépense pas, ou réduit implicitement via reclassement budgétaire, c'est escroquerie légale. Citoyen paie impôts « pour recherche +100% » ; 5 ans plus tard, recherche +15%, et on lui explique « c'est la macro ». Pas de redevabilité : gouvernement envisage seulement ex post « on a fait mieux que prévu » (si bonne surprise) ou « contexte impossible » (si mauvaise).
 
@@ -201,6 +205,7 @@
 - ⚖️ **À trancher :** Rapport auto-écrit (Piste A, peu utile sans audit indépendant) vs révision légale (Piste B, coûteux politiquement) vs certification Cour (Piste C, coûteux administratif mais indépendant) ? Si Piste A, qui audite rapport ? Si Piste B, seuil d'écart qui force révision (5% ? 20% ?) ? Si Piste C, qui choisit projets à auditer (transparence du choix ?).
 
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P11. Le remaniement, machine à recycler l'échec
 - **Le constat (source) :** à chaque remaniement, ce sont quasi les mêmes ministres qui changent de siège : un ministre des Armées passe aux Affaires étrangères, une ministre de l'Éducation récupère l'Agriculture. L'échec sur une mission n'empêche jamais d'en recevoir une autre : il n'existe AUCUNE évaluation de sortie de poste (constat public, remaniements 2024-2026 (à confirmer au cas par cas)).
