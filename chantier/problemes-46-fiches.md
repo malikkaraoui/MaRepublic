@@ -154,7 +154,7 @@ CDI jeune = modification Code travail article L1221-5. Rupture facile 1ère ann�
 
 **L'aberration chiffrée + URL**
 
-2,8 M étudiants en France. Services psychologiques universitaires : estimation 1 psy pour 15 000 étudiants (à confirmer, ratio calculé). Délai attente : 3-4 semaines minimum. Santé Psy Étudiant (depuis 2021) : 12 sessions gratuites/an, non-remboursées CPAM, sans dépassement honoraires possible (psy privé refuse souvent). Taux dépression étudiants : 22 % (DREES 2024). Tentatives suicide : +200 % chez jeunes 15-25 ans en 15 ans. Source : [DREES, Santé publique France](https://solidarites.gouv.fr/sante-mentale-des-jeunes-restons-lecoute)
+Environ 3 millions d'étudiants en France en 2026 (3,05 M, contre 2,8 M en 2021). Services psychologiques universitaires : estimation 1 psy pour 15 000 étudiants (à confirmer, ratio calculé). Délai attente : 3-4 semaines minimum. Santé Psy Étudiant (depuis 2021) : 12 sessions gratuites/an, non-remboursées CPAM, sans dépassement honoraires possible (psy privé refuse souvent). Taux dépression étudiants : 22 % (DREES 2024). Tentatives suicide chez les 15-25 ans : +50 % entre 2017 et 2021, +80 % chez les femmes sur la période 2010-2021 (Santé publique France, DREES). Source : [DREES, Santé publique France](https://solidarites.gouv.fr/sante-mentale-des-jeunes-restons-lecoute)
 
 **Pourquoi c'est illogique**
 
@@ -168,8 +168,8 @@ Université impose isolement (logements loin de famille, solitude urbaine), stre
 **Simulation (ordres de grandeur)**
 
 - 1 psy univ coûte : salaire 45-55k€ + charges 50 % = 70k€/an.
-- 2 800 000 étudiants / 7 500 per psy = 373 psy nécessaires (actuellement 185 estimé).
-- Recrutement 180+ psy : 180 × 70k€ = 12,6 M€/an supplémentaire (25 ans pour amortissement embauche).
+- 3 050 000 étudiants / 7 500 per psy = 407 psy nécessaires (actuellement 203 estimé au ratio 1/15 000).
+- Recrutement 200+ psy : 204 × 70k€ = 14,3 M€/an supplémentaire.
 - Téléconsultation : infrastructure (plateforme) + psy 30 % temps remote = 5 M€/an pour 50 psy dédiés.
 
 **⚖️ Faisabilité juridique**
@@ -183,6 +183,7 @@ Emploi fonction publique (psy univ = statut) : possible par augmentation budget 
 - Lien avec médecine générale univ (CMP, psychologue du soin généraliste) : cloisonné ou intégré ?
 
 **Statut:** ⬜
+**Mis à jour :** 2026-07-12
 
 ---
 
@@ -194,20 +195,20 @@ Emploi fonction publique (psy univ = statut) : possible par augmentation budget 
 
 **Pourquoi c'est illogique**
 
-Université = 35h/semaine cours + TD. Job = 15h/semaine minimum (3 jours). Reste : sommeil, nourriture, trajet. Fac impose assiduité (présence TP, projets), job impose disponibilité (fin d'après-midi, samedi). Conflit inévitable : absence TP = zéro, travail décalé = fatigue examen. Bourse insuffisante (160€ échelon 0 en 2026, non-indexée depuis 5 ans). Résultat : étudiants pauvres redoublent ou décrochent plus. Filière de classe : enfants riches = études, enfants pauvres = job + études = échec.
+Université = 35h/semaine cours + TD. Job = 15h/semaine minimum (3 jours). Reste : sommeil, nourriture, trajet. Fac impose assiduité (présence TP, projets), job impose disponibilité (fin d'après-midi, samedi). Conflit inévitable : absence TP = zéro, travail décalé = fatigue examen. Bourse insuffisante (l'échelon 0 n'ouvre droit à aucune bourse, seulement une exonération de frais d'inscription/CVEC ; l'échelon 0 bis, premier niveau avec une aide monétaire, verse environ 113€/mois en 2026-2027). Résultat : étudiants pauvres redoublent ou décrochent plus. Filière de classe : enfants riches = études, enfants pauvres = job + études = échec.
 
 **Pistes A-B Pour-Contre**
 
-- **Piste A** : bourse étudiante augmentée +50 % (160€ à 240€ échelon 0). Budget : 1,2 M étudiants × 80€ supp = 96 M€/an. Pour : arrête job parasitaire. Contre : coûteux, effet inflation logement (bourse monte = bailleurs augmentent loyer). Cibler ressources ?
+- **Piste A** : bourse étudiante échelon 0 bis augmentée +50 % (113€ à 170€/mois). Budget : 1,2 M étudiants concernés × 57€ supp = 68 M€/an. Pour : arrête job parasitaire. Contre : coûteux, effet inflation logement (bourse monte = bailleurs augmentent loyer). Cibler ressources ?
 - **Piste B** : job étudiant limité à 10h/semaine légalement, sans dépassement possible pendant cours. Pour : protège études. Contre : patrons contournent (déclaration 10h, travail 15h), perte revenus jeunes. Inspection travail surchargée.
 
 **Simulation (ordres de grandeur)**
 
 - Étudiant pauvre : loyer 500€ + nourriture 150€ + transport 50€ = 700€ charges fixes.
-- Bourse échelon 0 : 160€.
-- Manque : 540€ = job 13-15h/semaine à SMIC 12€/h.
-- Augmenter bourse 160 à 240€ : manque réduit à 460€ = job 11h/semaine (limite lisibilité).
-- Couverture universelle (1,2 M étudiants) : 96 M€/an supplémentaire.
+- Bourse échelon 0 bis : 113€/mois.
+- Manque : 587€ = job 14-16h/semaine à SMIC 12€/h.
+- Augmenter bourse 113 à 170€ : manque réduit à 530€ = job 12-13h/semaine (limite lisibilité).
+- Couverture universelle (1,2 M étudiants) : 68 M€/an supplémentaire.
 
 **⚖️ Faisabilité juridique**
 
@@ -220,6 +221,7 @@ Bourse relève loi LRU (2007) et décrets formation. Augmentation = décret budg
 - Combiner avec aide logement jeune actif ou APL étudiant indexée ?
 
 **Statut:** ⬜
+**Mis à jour :** 2026-07-12
 
 ---
 
@@ -227,7 +229,7 @@ Bourse relève loi LRU (2007) et décrets formation. Augmentation = décret budg
 
 **L'aberration chiffrée + URL**
 
-Service civique France : indemnité 620€ net/mois (619,83€ exact), inchangée depuis 2024. Durée 6-12 mois (6 mois minimum). SMIC net 2026 : 950€. Service civique = 65 % du SMIC net pour travail 35h/semaine (volontariat officiel, mais réel travail demandé). Bénéficiaires : 60k-80k/an. Majorité : 18-25 ans, peu d'alternative emploi. Source : [Service Civique, gouvernement français](https://www.service-civique.gouv.fr/)
+Service civique France : indemnité 620€ net/mois (619,83€ exact), inchangée depuis 2024. Durée 6-12 mois (6 mois minimum). SMIC net 2026 : environ 1 478€ (1 477,93€ depuis le 1er juin 2026). Service civique = environ 42 % du SMIC net pour travail 35h/semaine (volontariat officiel, mais réel travail demandé). Bénéficiaires : 60k-80k/an. Majorité : 18-25 ans, peu d'alternative emploi. Source : [Service Civique, gouvernement français](https://www.service-civique.gouv.fr/)
 
 **Pourquoi c'est illogique**
 
@@ -256,6 +258,7 @@ Service civique = loi Service civique (2010). Indemnité = décret possible. Aug
 - Couverture sociale : ajouter assurance chômage partielle post-civique ?
 
 **Statut:** ⬜
+**Mis à jour :** 2026-07-12
 
 ---
 
