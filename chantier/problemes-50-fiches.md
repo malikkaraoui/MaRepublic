@@ -37,7 +37,7 @@ Statut : ⬜
 
 ### P2. La milice suisse : citoyens non professionnels en politique et défense
 
-* Constat chiffré : Suisse 8,7M habitants ; ~27 000 élus locaux/cantonaux (à confirmer : mi-temps/part-time), ~200 000 soldats en réserve ; politique locale élue bénévole, non professionnelle ; pompiers = bénévoles. Constitution cantonale depuis 1830 : devoir de milice explicite.
+* Constat chiffré : Suisse 9,15M habitants (2026) ; ~27 000 élus locaux/cantonaux (à confirmer : mi-temps/part-time), ~200 000 soldats en réserve ; politique locale élue bénévole, non professionnelle ; pompiers = bénévoles. Constitution cantonale depuis 1830 : devoir de milice explicite.
 * Sources : https://www.swissinfo.ch, https://hls-dhs-dss.ch
 
 Pourquoi
@@ -69,10 +69,11 @@ Simulation (ordres de grandeur)
 * Obligation emploi à côté (oui/non) ou encouragement fiscal ? Montant indemnité : 200 e ou 500 e maire ? Couverture assurance responsabilité municipale ?
 
 Statut : ⬜
+Mis à jour : 2026-07-13
 
 ### P3. La défense totale nordique : chaque citoyen a un rôle en crise
 
-* Constat chiffré : Suède + Finlande 10M + 5,5M hab ; Totalförsvar suédois depuis années 70 (neutralité, puis réactivé 2022) ; novembre 2024 tous suédois reçoivent livret « En cas de crise ou guerre » (préparer 1 semaine autonomie eau/nourriture/chauffage) ; Finlande dès 16 ans = devoir défense (à confirmer : durée 6-12 mois service obligatoire). France : aucun équivalent civil existant.
+* Constat chiffré : Suède + Finlande 10M + 5,5M hab ; Totalförsvar suédois depuis années 70 (neutralité, puis réactivé 2022) ; novembre 2024 tous suédois reçoivent livret « En cas de crise ou guerre » (préparer 1 semaine autonomie eau/nourriture/chauffage) ; Finlande dès 18 ans = devoir défense (service militaire obligatoire, durée 6-12 mois). France : aucun équivalent civil existant.
 * Sources : https://www.government.se, https://ihedn.fr
 
 Pourquoi
@@ -103,6 +104,7 @@ Simulation (ordres de grandeur)
 * A ou B ? Horaire centralisé vs décentralisé (communes) ? Financement : budget défense vs intérieur ? Cible : tous 18 ans ou tous habitants ?
 
 Statut : ⬜
+Mis à jour : 2026-07-13
 
 ### P4. Les groupes de travail à plat : sociocratie au municipal
 
@@ -141,7 +143,7 @@ Statut : ⬜
 
 ### P5. Le tirage au sort comme devoir : jurys d'assises étendus aux politiques publiques
 
-* Constat chiffré : France jury d'assises = 200 ans tradition, ~7 000 citoyens jurent/an (à confirmer), obligation légale, amende 3 750 € si refus ; Irlande Citizens' Assembly 99 citoyens tirés au sort débattent politique majeure 6 mois (santé, climat, etc.), débouche propositions parlementaires ; US jury duty indemnisé 15/jour.
+* Constat chiffré : France jury d'assises = 200 ans tradition, ~7 000 citoyens jurent/an (à confirmer), obligation légale, amende 3 750 € si refus ; Irlande Convention constitutionnelle (2012-2014) : 66 citoyens tirés au sort + 33 législateurs nominés + 1 président, débattent politique majeure pendant 14 mois (santé, climat, etc.), débouche propositions parlementaires ; US jury duty indemnisé 15/jour.
 * Sources : https://www.justice.fr, https://www.service-public.gouv.fr
 
 Pourquoi
@@ -166,17 +168,18 @@ Simulation (ordres de grandeur)
 
 * Tirage au sort = précédent légal (assises), constitutionnel (respect égalité, non-discrimination) ; création jurys politiques = décret LOCALES + charte de procédure.
 * Obligation : pourrait être ajoutée à SNU (comme en Suisse milice) ; excuses = jury en ligne ou délégué.
-* Référence Irlande Citizens' Assembly : cadre légal votée par parliament, 2012.
+* Référence Irlande Convention constitutionnelle : cadre légal voté par parliament, 2012-2014.
 
 ⚖️ À trancher
 
 * Obligatoire ou volontaire ? Compétences requises (alphabétisme ?) ou tous ? Rémunération : 500 e, 1 000 e ou allocation universelle remplacement revenu ? Véto politique sur thèmes (loi ne pas juger) ?
 
 Statut : ⬜
+Mis à jour : 2026-07-13
 
 ### P6. Le service civique universel repensé : contribution à tout âge valorisée
 
-* Constat chiffré : France SNU 2023 = 40k jeunes (obligatoire pilote, non généralisé) ; Civic Service France = 88k/an (volontaire, indemnité 600 e/mois) ; Suisse aucun service militaire depuis 1996 mais milice obligation ; Israël 3 ans obligatoire tous, dès 18 ans ; Allemagne 9 mois alternatif à military (à confirmer : encore obligatoire 2026 ?).
+* Constat chiffré : France SNU 2023 = 40k jeunes (obligatoire pilote, non généralisé) ; Civic Service France = 88k/an (volontaire, indemnité 600 e/mois) ; Suisse maintient le service militaire obligatoire (1996 = introduction d'une alternative de service civil pour objecteurs de conscience, pas abolition) et milice obligation ; Israël 3 ans obligatoire tous, dès 18 ans ; Allemagne 9 mois alternatif à military (à confirmer : encore obligatoire 2026 ?).
 * Sources : https://www.education.gouv.fr, https://www.senat.fr, https://www.uniscite.fr
 
 Pourquoi
@@ -199,7 +202,7 @@ Simulation (ordres de grandeur)
 
 ⚖️ Faisabilité juridique
 
-* Service obligatoire 2 mois = atteinte libertés personnelles, requiert loi + accord/avis constitutionnel ; Suisse précédent (abolition 1996 ?) ; Allemagne encore en débat.
+* Service obligatoire 2 mois = atteinte libertés personnelles, requiert loi + accord/avis constitutionnel ; Suisse précédent (service militaire maintenu, alternative civile introduite en 1996) ; Allemagne encore en débat.
 * Service volontaire 6 mois = accord facile, statut salarié classique (droit du travail s'applique).
 * Crédit retraite via service civique = innovation système retraite français, nécessite réforme loi AGIRC-ARRCO.
 
@@ -208,6 +211,7 @@ Simulation (ordres de grandeur)
 * Obligatoire (2 mois) ou volontaire (6 mois) ? Âge 18 ou 17-25 flexible ? Secteur choix (3 domaines) ou imposé ? Crédit retraite : oui/non, montant ?
 
 Statut : ⬜
+Mis à jour : 2026-07-13
 
 ### P7. La réserve citoyenne opérationnelle : modèle THW pour crises
 
@@ -316,7 +320,7 @@ Statut : ⬜
 
 ### P10. La résilience comme projet national : mesure d'un peuple connecté aux décisions
 
-* Constat chiffré : Singapour 5,6M habitants, concept Total Defence 1984 (défense = militaire + économique + civile + psychologique) ; civils préparés eau, électricité, stocks nourriture ; taux confiance institutionnel 78% (à confirmer) vs France 35% (2024). Israël conscription 3 ans tous, service réserve jusqu'à 50+, résilience mesurée par mobilisation rapide (48h activation) ; Suède modèle défense totale = plan civilo-militaire, tous catégories exercices (à confirmer : annuel ?).
+* Constat chiffré : Singapour 5,9 à 6,1M habitants (2026), concept Total Defence 1984 (défense = militaire + économique + civile + psychologique) ; civils préparés eau, électricité, stocks nourriture ; taux confiance institutionnel 78% (à confirmer) vs France 35% (2024). Israël conscription 3 ans tous, service réserve jusqu'à 50+, résilience mesurée par mobilisation rapide (48h activation) ; Suède modèle défense totale = plan civilo-militaire, tous catégories exercices (à confirmer : annuel ?).
 * Sources : https://biblioasia.nlb.gov.sg, https://www.nato.int, https://www.government.se
 
 Pourquoi
@@ -349,3 +353,4 @@ Simulation (ordres de grandeur)
 * Vision intégrée (A) ou modulaire indépendante (P1-P9 au cas par cas) ? Mesure autonome ou via agence ? Quels indicateurs non-manipulables ? Cible 2030 ou 2040 (patience politique) ? Droit d'opting-out (non-participation) garanti oui/non ?
 
 Statut : ⬜
+Mis à jour : 2026-07-13
