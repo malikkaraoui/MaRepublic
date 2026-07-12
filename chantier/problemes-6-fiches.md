@@ -47,16 +47,17 @@
 ---
 
 ### P4. Fracture numérique et dématérialisation forcée
-- **Le problème (France, 2016-2026) :** Impôts, allocations, services publics dématérialisés (impots.gouv, ameli, CAF uniquement en ligne). 15-20 % population sans connexion régulière ou compétences numériques. Mairies ferment accueils physiques, réduisent guichets. Situations de refus de service ou accès dégradé : retraités, précaires, sans-abri. Urgences numériques (panne Orange 2022 = pas allocations pour semaines).
+- **Le problème (France, 2016-2026) :** Impôts, allocations, services publics dématérialisés (impots.gouv, ameli, CAF uniquement en ligne). 7 % de la population en situation d'illectronisme strict (INSEE 2025, en baisse depuis 15 % en 2021), taux qui monte à 34 % si l'on inclut les compétences numériques limitées. Mairies ferment accueils physiques, réduisent guichets. Situations de refus de service ou accès dégradé : retraités, précaires, sans-abri. Urgences numériques (panne Orange 2022 = pas allocations pour semaines).
 - **Piste A, 🇩🇪 Allemagne (accès hybride légal) :** Obligation légale de maïntenir courrier+papier parallèle à tout service dématérialisé. Délai de réponse papier = en ligne. **Pour :** inclusion garantie, failsafe physique. **Contre :** coûteux, peut enlentir transformation.
 - **Piste B, 🇳🇱 Pays-Bas (tiers d'accompagnement) :** Agents numériques bénévoles + kiosques en mairies/bibliothèques pour aide en ligne. Formation gratuite seniors. **Pour :** inclusif, social, coût modéré. **Contre :** dépend bénévolat, limité en zones désertées.
 - **Piste C, 🇧🇪 Belgique (responsabilité conditionnée) :** Dématérialisation autorisée seulement si organisme prouve > 90 % population capable (étude annuelle). Sinon maintien papier. **Pour :** force preuve d'inclusion. **Contre :** frein réforme, seuil arbitraire.
 - **Piste D, 🇫🇷 France (évaluation d'impact 50+) :** Avant toute dématérialisation, audit impact sur personnes 65+/analphabètes/pauvres. Exempter certains publics de pénalités (délais allongés, frais réduits). **Pour :** identifie vrais problèmes. **Contre :** compliqué administrativement.
 
-- **Simulation (ordres de grandeur) :** Piste A (accès hybride) : maintien infrastructure papier = 50-100 M€/an. Piste B (agents bénévoles) = 10-20 M€/an. Gagnants : 15-20% exclufs numériques. Délai inclusion : 2-3 ans.
+- **Simulation (ordres de grandeur) :** Piste A (accès hybride) : maintien infrastructure papier = 50-100 M€/an. Piste B (agents bénévoles) = 10-20 M€/an. Gagnants : les personnes en difficulté numérique (7 à 34% selon le critère retenu). Délai inclusion : 2-3 ans.
 - ⚖️ **Faisabilité juridique :** Loi + Égalité service public ; CEDH art. 14 ; Jurisprudence dématérialisation France.
 - ⚖️ **À trancher :** Faut-il service public physique obligatoire parallèle ? Jusqu'à quel coût ? Qui finance inclusion ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-13
 
 ---
 
@@ -103,7 +104,7 @@
 ---
 
 ### P8. Retard IA/compute européen : dépendance modèles US/Chine
-- **Le problème (France, 2016-2026) :** Modèles IA dominants = OpenAI (ChatGPT), Google (Gemini), Anthropic (Claude), Llama (Meta), tous US. France/UE = zéro fondational model compétitif. Investissement R&D IA : US 100+ Md$/an, Chine 50+ Md$/an, France 2 Md$/an (à confirmer). GPU/TPU : Nvidia (US) monopole. Cloud entrainement : AWS/Azure/GCP (US). Régulation IA Act (2024) : risque faire réguler hors UE, perte attractivité. Startups IA EU pivot vers US.
+- **Le problème (France, 2016-2026) :** Modèles IA dominants = OpenAI (ChatGPT), Google (Gemini), Anthropic (Claude), Llama (Meta), tous US. La France dispose depuis décembre 2025 d'un modèle fondationnel compétitif avec Mistral AI (Mistral Large 3, levée de 1,7 Md€ en septembre 2025, clients ASML/HSBC/BMW, plus de 400 M$ ARR en progression vers 1 Md€ fin 2026), mais reste un cas isolé face à la masse d'investissement américaine et chinoise. Investissement R&D IA : US 100+ Md$/an, Chine 50+ Md$/an, France 2 Md$/an (à confirmer). GPU/TPU : Nvidia (US) monopole. Cloud entrainement : AWS/Azure/GCP (US). Régulation IA Act (2024) : risque faire réguler hors UE, perte attractivité. Startups IA EU pivot vers US.
 - **Piste A, 🇫🇷🇪🇺 UE (champion public HPC) :** Consortium UE + France : investir 50 Md€ 5 ans, fabriquer GPU/TPU europens, data center souverain IA. Temps avant output : 5-10 ans. **Pour :** autonomie long-terme, emplois R&D. **Contre :** coûteux massif, déjà retard technologique, peut échouer (GAFAM trop rapides).
 - **Piste B, 🇩🇪 Allemagne (open-source décentralisé) :** Financer open-source IA (Hugging Face, mistral). Chaque pays lab IA public. Partage modèles européens = libre commun. **Pour :** rapide, inclusif, limite contrôle centralise. **Contre :** fragmentation, perte economies d'échelle.
 - **Piste C, 🇩🇰 Danemark (partenariat US) :** Accord stratégique Microsoft/Amazon : co-invest cloud IA EU, localisation data, garanties non-accès NSA (à confirmer négo). **Pour :** pragmatique, rapide. **Contre :** reste dépendance US, peut être revoqué.
@@ -113,6 +114,7 @@
 - ⚖️ **Faisabilité juridique :** Loi + Réglement UE IA Act ; Compétitivité vs régulation ; Réglement IA 2024.
 - ⚖️ **À trancher :** Investir massif public (risque gaspillage) ? Miser open-source (lent) ? Accepter dépendance stratégique US ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-13
 
 ---
 
