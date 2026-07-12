@@ -125,7 +125,7 @@
 ### P5. Les exportations d'armes françaises : contradictions démocratiques et absence quasi-totale de contrôle parlementaire
 
 **Constat :**
-- Rapport Amnesty International & Armes de contrôle (2023) : France exporte pour 4,8Md€ d'armes/an (14% du PIB défense 34Md€).
+- Rapport Amnesty International & Armes de contrôle (2023) : France exporte pour 4,8Md€ d'armes/an, soit environ 10-11% du budget défense français (43,9 Md€ en 2023, et non 34 Md€ comme parfois cité).
 - Trois plus grands clients : Arabie Saoudite (27% des ventes), Égypte (15%), Inde (12%) ; régimes autoritaires ou droits humains contestés.
 - Comparaison : Suède & Allemagne requièrent vote parlementaire par export major (> 50M€) ; France = décision gouvernementale, information a posteriori commission.
 - 2023 : fournitures armes coalition Arabie Saoudite Yémen (3.800+ morts civils rapportés, 16M+ déplacés) ; France = 2ème fournisseur ; aucun débat public avant contrats.
@@ -151,19 +151,20 @@
 - Économie vs éthique : accepter -1Md€/an & -2.000 emplois pour cohérence morale ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
 ### P6. La réserve opérationnelle française : sous-dimensionnée et inadaptée au modèle de défense totale (leçons Finlande/Suède)
 
 **Constat :**
-- France réserve opérationnelle : 80.000 réservistes (2024), taux d'engagement : 45% en vrai (/exercices/appels) ; Finlande (même population 5M) : 900.000 réservistes, taux 65% ; Suède (10M) : 500.000 réservistes, 70%.
+- France réserve opérationnelle : 80.000 réservistes (2024), taux d'engagement : 45% en vrai (/exercices/appels) ; Finlande (même population 5M) : 900.000 réservistes, taux 65% ; Suède (10M) : environ 55.000 mobilisables maximum (réserve primaire ~33.000 + Heimvärnet ~22.000), et non 500.000 comme parfois cité (erreur d'un facteur 6-9).
 - Rapport Secrétaire État Défense (2023) : France dépend modèle professionnel depuis 2001 (fin conscription) ; pas de planification défense totale (civils + militaires + réserve).
 - Coût réserviste français : 2.100€/an formation (faible) vs 4.800€ Finlande (intensive).
 - Délai mobilisation réserve : 15 jours si préavis, 72h si urgence ; Suède : 48h complète ; Finlande : 36h massif.
 
 **Pistes :**
-1. **Élargir réserve à 250.000** sur 5 ans (recrutement + fidélisation) ; budget +80M€/an ; formation mensuelle obligatoire (vs exercices ponctuels). *Pour :* capacité de crise, résilience territoriale, emploi civil + militaire ; *Contre :* coût, mobilisation citoyens, perte productivité civile (3 semaines/an = 0,06% PIB).
+1. **Élargir réserve à 250.000** sur 5 ans (recrutement + fidélisation) ; budget +80M€/an ; formation mensuelle obligatoire (vs exercices ponctuels). Cette cible reste dimensionnée sur le modèle finlandais (900.000 réservistes pour 5M habitants), la comparaison suédoise étant en réalité bien plus modeste (~55.000 mobilisables pour 10M habitants) qu'initialement présenté. *Pour :* capacité de crise, résilience territoriale, emploi civil + militaire ; *Contre :* coût, mobilisation citoyens, perte productivité civile (3 semaines/an = 0,06% PIB).
 2. **Modèle défense totale** : intégrer cellules civiles-militaires régions (transport, logistique, santé) ; protocoles de mobilisation croisée ; aucun surcoût initial. *Pour :* résilience, coordination en crise ; *Contre :* bureaucratie, risque militarisation vie civile.
 3. **Formation réservistes : compétences hybrides** (cyberdéfense, médecine de crise, logistique, génie) vs infanterie pure ; contrats employeurs d'accueil (obligation libération 3 semaines). *Pour :* utilité civile, employabilité réseau ; *Contre :* complexité formatage, coût entreprises.
 
@@ -181,6 +182,7 @@
 - Citoyens : obligation de participation défense nationale au-delà vote ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
