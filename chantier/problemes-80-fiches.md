@@ -163,7 +163,7 @@
 
 ### P6. Parcoursup et taux d'échec licence : 28-35% abandon première année, sélection par élimination au lieu de pédagogie
 
-**Constat :** Parcoursup (plateforme admission 2021, MESR) affecte 850 k candidats/an (66% admis, 34% refusés/en attente). Taux d'abandon en licence 1ère année (2022-2023) : 28-35% selon universités (source MESR statistiques, Observatoire Enseignement Sup). Abandon davantage population bacheliers professionnels (50% abandon) vs bacheliers généraux (20%). Conséquence : Parcoursup filtre par « qualité » bac, non par capacité s'adapter lycée->université. Universités en pénurie affinité scientifique : admettent tous bacheliers répondant critères (notes/spé), sans diagnostic pédagogique préalable. Résultat : amphis L1 biologie (Jussieu, Villetaneuse) : 60% étudiants avec < 12/20 en maths spécialité = abandon quasi certain (stats SNESUP 2023). Système crée deux univers : grandes écoles (présélection, taux réussite 95%) vs universités publiques (trébucher dès L1, redoubler/réorientation coûteuse).
+**Constat :** Parcoursup (plateforme admission lancée le 15 janvier 2018, MESR, en remplacement d'APB, et non 2021) affecte 850 k candidats/an (66% admis, 34% refusés/en attente). Taux d'abandon en licence 1ère année (2022-2023) : 28-35% selon universités (source MESR statistiques, Observatoire Enseignement Sup). Abandon davantage population bacheliers professionnels (50% abandon) vs bacheliers généraux (20%). Conséquence : Parcoursup filtre par « qualité » bac, non par capacité s'adapter lycée->université. Universités en pénurie affinité scientifique : admettent tous bacheliers répondant critères (notes/spé), sans diagnostic pédagogique préalable. Résultat : amphis L1 biologie (Jussieu, Villetaneuse) : 60% étudiants avec < 12/20 en maths spécialité = abandon quasi certain (stats SNESUP 2023). Système crée deux univers : grandes écoles (présélection, taux réussite 95%) vs universités publiques (trébucher dès L1, redoubler/réorientation coûteuse).
 
 **Pistes :**
 
@@ -190,6 +190,7 @@
 ⚖️ **À trancher :** Accepte-t-on droit accès université vs sélection méritocratie ? Réformer CPGE risque prestige ingénieur français ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
