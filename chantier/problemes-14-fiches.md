@@ -5,14 +5,15 @@
 ### P1. Délais impossibles pour obtenir un rendez-vous CNI/Passeport en mairie
 
 - **Le vécu (source) :** Saturation chronique des créneaux de rendez-vous : 30 à 60 jours d'attente dans les grandes villes (Paris, Seine-Saint-Denis), 15 jours en zones rurales. Usagers trouvant un créneau à 60 km mais dans 9 mois. Témoignages massifs sur Services Publics+ (plusieurs milliers d'avis) décrivant le système comme « totalement déshumanisé ». (https://www.plus.transformation.gouv.fr/experiences/6264018_delai-de-realisation-du-passeport-etou-cni-trop-long, https://www.plus.transformation.gouv.fr/experiences/6765971_rendez-vous-mairie-pour-carte-d-identite-impossible-a-paris)
-- **Piste A : 🇸🇪 Suède, modèle sans rendez-vous :** Guichet unique avec créneaux flottants ou accueil sur place (10-20 min d'attente typique). **Pour :** simplifie l'accès, réduit la frustration, pas de famine de places. **Contre :** nécessite redéploiement massif des effectifs en mairies, budget augmenté pour salaires/locaux.
+- **Piste A : guichet sans rendez-vous (créneaux flottants) :** la Suède n'est pas un bon exemple ici (Polisen exige elle aussi un rendez-vous en ligne pour CNI/passeport) ; s'inspirer plutôt d'un guichet unique à créneaux flottants ou accueil sur place (10-20 min d'attente typique), à construire en propre. **Pour :** simplifie l'accès, réduit la frustration, pas de famine de places. **Contre :** nécessite redéploiement massif des effectifs en mairies, budget augmenté pour salaires/locaux.
 - **Piste B : Délégation aux sous-préfectures et collectivités :** Créer des antennes de dépôt décentralisées (espaces publics partenaires : gares, entreprises, universités). **Pour :** disperse la demande, diminue saturation mairies. **Contre :** formation du personnel, interopérabilité des systèmes, dépôts fantômes sans suivi.
 - **Piste C : Zéro friction : dématérialisation via France Identité :** Intégration biométrique complète (reconnaissance faciale + NFC CNI existante), vérification par selfie timbré, remise physique par courrier. Supprime le rendez-vous entièrement. **Pour :** radical, éliminerait 60 % du trafic mairies, autonomie usager. **Contre :** cybersécurité des données faciales, fracture numérique (personnes âgées), débat éthique France Identité.
 - **Piste D : 🇩🇪 Modèle anticipé allemand :** Gestion informatisée des flux (prédiction demandes, staff adapté par saison, bonus heures atypiques). **Pour :** optimise ressources existantes. **Contre :** dépend prévention usagers (pré-demande en ligne), si non-utilisée = inefficace.
 - ⚖️ **Faisabilité juridique :** Loi France Identité ; Censure CC si dématérialisation biométrique (proportionnalité vie privée) ; Conseil constitutionnel 2012-652 DC.
-- **Simulation (ordres de grandeur) :** Suède sans RDV : 200-400 agents mairies supplémentaires (+50 M€/an). Délégation décentralisée : 100-150 M€ équipement antennes. Dématérialisation biométrique : 300-500 M€ + risque fracture numérique. Gagnants : 30-60k par an en attente. Délai files : 10-20 min (vs 30-60 jours). Financement : budget mairies + État. Risque : data faciales non-sécurisées.
+- **Simulation (ordres de grandeur) :** Guichet sans RDV : 200-400 agents mairies supplémentaires (+50 M€/an). Délégation décentralisée : 100-150 M€ équipement antennes. Dématérialisation biométrique : 300-500 M€ + risque fracture numérique. Gagnants : 30-60k par an en attente. Délai files : 10-20 min (vs 30-60 jours). Financement : budget mairies + État. Risque : data faciales non-sécurisées.
 - ⚖️ **À trancher :** faut-il accepter dématérialisation biométrique complète pour eliminer la file d'attente, ou redoter les mairies pour un service physique décent ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P2. Délais de fabrication et livraison CNI/Passeport : 8 à 10 semaines après dépôt
 
@@ -50,9 +51,9 @@
 - ⚖️ **À trancher :** accepter renouvellement tacite (silence = accord) pour débloquer 930 000 personnes, ou redoter mairies humainement ?
 - **Statut :** ⬜
 
-### P5. Actes d'état civil : délais double selon canal (2-3 sem. en ligne vs 10-15 jours guichet)
+### P5. Actes d'état civil : délais double selon canal (2-3 sem. en ligne vs guichet immédiat)
 
-- **Le vécu (source) :** Demande actes (naissance, mariage, décès) en ligne : envoi courrier 15 jours moyen. En mairie : retrait 10-15 jours ouvrables (grandes villes) ou <1 sem. zones rurales. Contradiction : service en ligne plus lent. Mairies surchargées : délai d'un mois légal souvent dépassé « silence = refus tacite ». Témoignages Services Publics+ et forum genealogie : demandes perdues, pas de suivi. (https://www.services-administratifs.fr/delais-acte-etat-civil-en-ligne/, https://www.paris.fr/pages/demande-d-acte-d-etat-civil-15838)
+- **Le vécu (source) :** Demande actes (naissance, mariage, décès) en ligne ou par courrier : 10-15 jours ouvrables en moyenne (acheminement postal inclus). En mairie, en présentant une pièce d'identité au guichet : délivrance immédiate le jour même. Contradiction : le canal censé être le plus pratique (en ligne) est le plus lent. Mairies surchargées sur les demandes à distance : délai d'un mois légal souvent dépassé « silence = refus tacite ». Témoignages Services Publics+ et forum genealogie : demandes en ligne perdues, pas de suivi. (https://www.services-administratifs.fr/delais-acte-etat-civil-en-ligne/, https://www.paris.fr/pages/demande-d-acte-d-etat-civil-15838)
 - **Piste A : Guichet unique numérique domicile :** Envoi e-acte tamponné (non papier officiel), papier suit si demandé. **Pour :** usager reçoit numérique immédiat, papier optionnel. **Contre :** perte valeur juridique e-acte (pays tiers reconnaît papier = timbre), débat légalité.
 - **Piste B : 🇬🇧 Royaume-Uni, archives centralisées :** Généralisation index national, mairies consultent DB central. Recherche 2 jours, envoi immédiat. **Pour :** délai 3-4 jours garanti. **Contre :** migration données colossale, risque pertes, dépôt centralisé perte autonomie locales.
 - **Piste C : Zéro friction : silence = accord :** Au-delà 30 jours sans réponse, acte « réputé délivré », usager peut ceritfier demande + courrier mairie = acte valide. **Pour :** force mairies répondre vite. **Contre :** actes falsifiés risque, mairies furibondes (perte contrôle), chaos juridique.
@@ -61,6 +62,7 @@
 - **Simulation (ordres de grandeur) :** E-acte numérique immédiat : 30-50 M€ plateforme. Archives centralisées nationales : 100-150 M€ migration. Silence = accord (auto-réputé délivré) : risque falsification actes. Délai : 3-4 jours (guichet central) vs 15 jours (mairies). Gagnants : tous demandeurs (délai). Risque : chaos juridique si silence imposé sans contrôle.
 - ⚖️ **À trancher :** e-actes numérique (perte reconnaissance intl) ou centraliser archives papier (impact autonomie) ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P6. Application France Identité : bugs NFC, QR code, incompatibilité Android 11+
 
@@ -79,12 +81,13 @@
 - **Le vécu (source) :** Usagers demandent légalisation documents pour succession, mariage, export travail. Confusion systématique : apostille (signée pays signataire Convention La Haye 1961) vs légalisation par consul français (actes pays non-Convention). Mairies légalisent signatures privées seulement (gratuit, immédiat). Notaires légalisent actes publics (chers, délais 1-2 sem. non transparents). Témoignages forums succession : « comment prouver héritier », « quelle légalisation pour testament étranger », « notaire demande documents introuvables ». (https://www.y-notaires.fr/comment-faire-legaliser-un-acte-a-letranger/, https://www.service-public.gouv.fr/particuliers/vosdroits/F12697)
 - **Piste A : 🇨🇦 Canada, portail unique légalisation :** Site fédéral explique apostille vs légalisation par scénario (mariage US = apostille, héritage Maroc = légalisation consul), guide usager, devis transparent notaires. **Pour :** déperdition = zéro, autoformation usagers. **Contre :** maintien portail (coût). Résout confustion, pas attente notaire.
 - **Piste B : Délais max légaux :** Loi fixe délai 8 jours notaires (apostille), pénalité 100€/jour dépassement. **Pour :** force réactivité notaires. **Contre :** notaires surchargés quand même, délai optimiste, risque faux actes « vite ».
-- **Piste C : Zéro friction : suppression légalisation dans UE :** Accord mutuel reconnaître actes pays UE sans apostille/légalisation (appliquée déjà successions UE depuis 2012). Généraliser tous actes internes UE. **Pour :** écrase formalisme, délai zéro pour Français en UE. **Contre :** hors UE rien change, crée brèche fraude.
+- **Piste C : Zéro friction : suppression légalisation dans UE :** Accord mutuel reconnaître actes pays UE sans apostille/légalisation (appliquée déjà aux successions UE depuis l'entrée en application du Règlement, en août 2015). Généraliser tous actes internes UE. **Pour :** écrase formalisme, délai zéro pour Français en UE. **Contre :** hors UE rien change, crée brèche fraude.
 - **Piste D : 🇸🇪 Suède, certification blockchain :** Actes légalisés digitalement par notaire (hash blockchain), reconnu partout sans besoin parapheur papier. **Pour :** instant, traçable, immuable. **Contre :** pas de standard intl blockchain, pays tiers reconnaît pas.
-- ⚖️ **Faisabilité juridique :** Convention La Haye 1961 (apostille) + Règlement UE 650/2012 (successions UE) ; UE ne s'applique qu'intra-UE, hors-UE => Convention intl fixe ; Convention La Haye 1961 & Réglement UE 2012.
+- ⚖️ **Faisabilité juridique :** Convention La Haye 1961 (apostille) + Règlement UE 650/2012 (successions UE, adopté juillet 2012, applicable depuis août 2015) ; UE ne s'applique qu'intra-UE, hors-UE => Convention intl fixe.
 - **Simulation (ordres de grandeur) :** Portail Canada unique : 5-10 M€ initial. Délais max légaux notaires (8 jours) : 10-20 M€ formation. Suppression légalisation UE : zéro coût intra-UE, gain temps. Gagnants : succession, mariage, export travail (délai divisé par 2-3). Financement : notaires + budget État. Risque : hors-UE délai inchangé (pays tiers ignorent accord UE).
 - ⚖️ **À trancher :** unifier apostille/légalisation en procédure unique + délai max, ou supprimer intégralement en UE ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P8. Ruptures de droits causées dysfonctionnements ANEF : perte emploi, suspension allocations, sans recours
 
