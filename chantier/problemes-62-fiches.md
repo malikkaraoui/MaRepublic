@@ -69,20 +69,20 @@ Pour un handicap irréversible avéré, accepte-t-on que le usager soit responsa
 ### P3. AAH et fin de la déconjugalisation : avoir un conjoint reste une pauvreté
 
 **Constat :**
-L'Allocation adulte handicapé (AAH), 956 EUR/mois en 2024, tient compte des ressources du conjoint ou concubin pour déduire l'allocation (article CASF L. 821-1). Le gouvernement a lancé en 2019 une « déconjugalisation progressive » : 2023 : SMIC du conjoint jusqu'à 1,5x SMIC, AAH non réduite ; 2025 : jusqu'à 2x SMIC. Le Défenseur des droits et la Cour des comptes notent que cette mesure reste incomplète : un couple (AAH + SMIC moyen 1 700 EUR) gagne 2 656 EUR/mois, en-dessous du seuil de pauvreté 60% médiane (1 063 EUR/personne pour 2 adultes). Impactés : 200 000 personnes handicapées en couple sans AAH pleine.
+L'Allocation adulte handicapé (AAH), 956 EUR/mois en 2024, tenait compte des ressources du conjoint ou concubin pour déduire l'allocation (article CASF L. 821-1). Depuis le 1er octobre 2023, la déconjugalisation est totale et immédiate : le revenu du conjoint n'est plus du tout pris en compte dans le calcul (un dispositif transitoire garantit seulement l'absence de régression pour les foyers où l'ancien mode de calcul aurait été plus favorable). Le Défenseur des droits et la Cour des comptes notent que le problème de fond persiste malgré cette réforme : un couple (AAH + SMIC moyen 1 700 EUR) gagne 2 656 EUR/mois, en-dessous du seuil de pauvreté 60% médiane (1 063 EUR/personne pour 2 adultes). Impactés : 200 000 personnes handicapées en couple sans AAH pleine.
 
 **Pistes :**
 
-*Piste 1 : AAH complète (100%) sans condition de revenus du conjoint.* Article CASF L. 821-1 supprimé. Pour : 200 000 bénéficiaires supplémentaires (AAH pleine), zéro calcul de ressources conjugales. Contre : coût : + 2,3 milliards EUR/an (source : Cour des comptes, scénario déconjugalisation totale, 2021), budgétaire massif.
+*Piste 1 : AAH complète (100%) sans condition de revenus du conjoint.* Cette piste est déjà largement réalisée depuis le 1er octobre 2023 (déconjugalisation totale) ; reste à évaluer si le dispositif transitoire de non-régression pénalise encore certains foyers et si le montant de l'AAH lui-même (956 EUR) suffit à sortir un couple de la pauvreté. Pour : 200 000 bénéficiaires concernés (AAH pleine), zéro calcul de ressources conjugales. Contre : coût déjà engagé (+ 2,3 milliards EUR/an, source : Cour des comptes, scénario déconjugalisation totale, 2021).
 
-*Piste 2 : Déconjugalisation progressive jusqu'à 4x SMIC en 2030.* Délai 5 ans pour atteindre zéro ressources du conjoint. Pour : progression acceptable budgétairement (+ 100-150 millions EUR/an), délai de transition. Contre : inéquité temporaire, précarité maintenue pendant 5 ans pour 100 000 personnes.
+*Piste 2 : Revaloriser l'AAH elle-même pour sortir un couple de la pauvreté (au-delà de la déconjugalisation déjà actée).* Pour : traite la cause résiduelle de pauvreté malgré la déconjugalisation totale. Contre : coût budgétaire supplémentaire, encore à chiffrer.
 
 *Piste 3 : AAH calculée individuelle (zéro conjoint) + impôt ménage sur revenus conjoint.* Renoncer au mécanisme de ressources ; financer par impôt progressif sur revenu du ménage. Pour : zéro pauvreté couple AAH, meilleure redistribution. Contre : très complexe, remise en cause allocation universelle, coût + 3 milliards EUR/an.
 
 **Simulation (ordres de grandeur) :**
-Piste 1 (AAH complète) : + 2,3 milliards EUR/an (Cour des comptes 2021). Gagnants : 200 000 personnes, revenu ménage + 956 EUR/mois. Perdants : contribuables (+ 4-5% impôts, ou réduction autre budget). Délai : immédiat.
+Piste 1 (AAH complète, déjà en vigueur depuis octobre 2023) : + 2,3 milliards EUR/an (Cour des comptes 2021). Gagnants : 200 000 personnes, revenu ménage + 956 EUR/mois. Coût déjà supporté par le budget de l'État.
 
-Piste 2 (déconjugalisation progressive) : + 500-750 millions EUR/an (interpolation Cour des comptes). Délai : 5 ans. Gagnants : 100 000 personnes à mi-temps de l'effet.
+Piste 2 (revalorisation AAH au-delà de la déconjugalisation) : coût à chiffrer selon montant cible.
 
 Piste 3 (impôt ménage) : + 3 milliards EUR/an, reconfiguration allocations. Très sensible électoralement.
 
@@ -93,6 +93,7 @@ CASF L. 821-1, modifié par lois 2018-1021, 2021-1806. Déconjugalisation légal
 Accepte-t-on une AAH sans condition de ressources du conjoint, et à quel coût budgétaire ? Le couple handicapé doit-il rester pauvre ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
@@ -101,7 +102,7 @@ Accepte-t-on une AAH sans condition de ressources du conjoint, et à quel coût 
 *Voir aussi la fiche P9 du lot 56 (angle école/moyens) ; ici l'angle est celui des familles face à la MDPH qui notifie sans que l'AESH arrive. Fusion possible, à trancher au dépouillement.*
 
 **Constat :**
-L'école inclusive (loi 2005-102, Loi Handicap) exige la présence d'Accompagnants des élèves en situation de handicap (AESH), payés par l'État. En 2024, le ministère recense 138 000 enfants notifiés en besoin d'AESH (source : ministère Éducation, RASED 2024) ; 92 000 AESH recrutés en CDD (source : Fonction publique 2024) = 1,5 enfants par AESH si occupation plein temps. Réalité : absentéisme administratif, congés non remplacés, shortfall systématique : 30-40% des besoins notifiés non pourvus (rapport Inspection générale 2023). Impact : enfants en classe sans accompagnement, rupture de scolarité, parents qui abandonnent emploi pour accompagner à domicile.
+L'école inclusive (loi 2005-102, Loi Handicap) exige la présence d'Accompagnants des élèves en situation de handicap (AESH), payés par l'État. À la rentrée 2025, le ministère recense 352 102 enfants notifiés en besoin d'AESH (source : ministère Éducation, contre 138 000 en 2024) ; 137 300 AESH en poste (contre 92 000 en 2024) = environ 2,6 enfants par AESH si occupation plein temps. Réalité : absentéisme administratif, congés non remplacés, shortfall systématique : 30-40% des besoins notifiés non pourvus (rapport Inspection générale 2023). Impact : enfants en classe sans accompagnement, rupture de scolarité, parents qui abandonnent emploi pour accompagner à domicile.
 
 **Pistes :**
 
@@ -125,6 +126,7 @@ Loi 2005-102 (accessibilité, article L. 111-1 du code éducation), décret 2014
 Accepte-t-on une école où 30-40% des enfants notifiés n'ont pas d'accompagnant, ou faut-il recruter massivement à coût budgétaire élevé ? Risque de « inclusion de façade ».
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
