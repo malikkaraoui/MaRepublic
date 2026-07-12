@@ -29,7 +29,7 @@
 
 ### P2. La Francophonie : 320 millions de locuteurs orphelins d'une stratégie
 
-**Constat :** L'Organisation Internationale de la Francophonie compte 321 millions de francophones de droit selon son rapport 2023 (oif.org). Budget OIF : 60 millions EUR/an (2024) vs British Council : 2 milliards GBP/an (2 200 millions EUR), Institut Goethe : 300 millions EUR/an, Institut Confucius : 1+ milliard USD/an selon rapports Sénat (commission Affaires étrangères, 2023). Moyens OIF : 99 % consacrés à administration et culturel, 1 % à rayonnement numérique. Présence France sur plateformes de contenu : France 24 (180 millions de visites/mois selon audience Google 2024) et TV5Monde (70 millions) en déclin relatif face à CNN, DW, BBC (chacun 500M+ visites/mois). Rapport Assemblée Nationale (mai 2024) : « francophonie est un atout stratégique sous-exploité ».
+**Constat :** L'Organisation Internationale de la Francophonie compte 321 millions de francophones de droit selon son rapport 2023 (oif.org). Budget OIF : 60 millions EUR/an (2024) vs British Council : ~1,05 milliards GBP/an (~1,3 milliards EUR, budget 2024-25, dont 162,5 M GBP de core grant selon Parliament UK/FCDO/NAO ; le chiffre de 2 milliards GBP parfois cité surestime la réalité d'environ 95 %), Institut Goethe : 231-239 millions EUR/an (2023-2024, pas 300 millions), Institut Confucius : 1+ milliard USD/an selon rapports Sénat (commission Affaires étrangères, 2023). Moyens OIF : 99 % consacrés à administration et culturel, 1 % à rayonnement numérique. Présence France sur plateformes de contenu : France 24 (180 millions de visites/mois selon audience Google 2024) et TV5Monde (70 millions) en déclin relatif face à CNN, DW, BBC (chacun 500M+ visites/mois). Rapport Assemblée Nationale (mai 2024) : « francophonie est un atout stratégique sous-exploité ».
 
 **Pistes :**
 1. Triplement du budget OIF (180 millions EUR/an) et transformation en agence de rayonnement type British Council : bourses massives, diplômes accrédités, partenariats universités, contenu numérique en 15 langues francophones régionales
@@ -51,6 +51,7 @@
 ⚖️ **À trancher :** Faut-il transformer l'OIF en agence d'influence type British Council, ou la réinventer en plateforme numérique décentralisée ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
@@ -83,7 +84,7 @@
 
 ### P4. Les visas étudiants et talents : la France qui forme puis renvoie
 
-**Constat :** France accueille 330 000 étudiants étrangers (2023, Campus France), dont 40 % viennent de pays francophones/Maghreb. Taux de rétention post-diplôme : 35-40 % (études Thalès/Deloitte 2023) : majorité retourne au pays d'origine ou émigre (Canada, Australie, USA, Allemagne). Canada : politique actuelle « expérience de travail post-étude » 3 ans : conversion 60-70 % en résidents permanents (Statistiques Canada). Australie : visa temporaire convertible : 45-50 % de rétention (Australian Bureau of Statistics). Allemagne : loi 2023 « Fachkräfte » ouvre visa talents pour tous niveaux : 120 points Elligans/Expérience. France : visa compétences et talents (code CESEDA L. 316-1) limité à 0,5 % des visas (50-60 délivrés/an selon Sénat). Rapport Assemblée Nationale (2023) : « France perd 5-10 milliards EUR/an en capital humain formé ».
+**Constat :** France accueille 430 466 étudiants étrangers (2023-2024, Campus France ; le chiffre de 330 000 parfois cité sous-estime de 30 % et ne correspond à aucune année récente), dont 40 % viennent de pays francophones/Maghreb. Taux de rétention post-diplôme : 35-40 % (études Thalès/Deloitte 2023) : majorité retourne au pays d'origine ou émigre (Canada, Australie, USA, Allemagne). Canada : politique actuelle « expérience de travail post-étude » 3 ans : conversion 60-70 % en résidents permanents (Statistiques Canada). Australie : visa temporaire convertible : 45-50 % de rétention (Australian Bureau of Statistics). Allemagne : loi 2023 « Fachkräfte » ouvre visa talents pour tous niveaux : 120 points Elligans/Expérience. France : visa compétences et talents (code CESEDA L. 316-1) limité à 0,5 % des visas (50-60 délivrés/an selon Sénat). Rapport Assemblée Nationale (2023) : « France perd 5-10 milliards EUR/an en capital humain formé ».
 
 **Pistes :**
 1. Visa résident temporaire d'étudiant : automatique après diplôme français (2 + 3 ans renouvelable) avec point CLR emploi en France ; conversion en CDI = résidence permanente en 3 ans
@@ -105,12 +106,13 @@
 ⚖️ **À trancher :** Faut-il automatiser retention post-diplôme par résidence temporaire convertible, ou cibler talents par secteur stratégique limité ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
 ### P5. L'audiovisuel extérieur : France 24 et RFI affaiblis au Sahel
 
-**Constat :** France 24 : audience mondiale 68 millions/mois (2023, Google Analytics), dont 12 millions Afrique. RFI : 40 millions auditeurs/mois (2023, Médiamétrie) avant les fermetures Sahel (Mali 2023, Burkina 2024 : interdiction légale ; Guinée depuis 2022). Avant retraits militaires, audience cumulée RFI + France 24 Sahel : 15-18 millions/mois (estimation). Post-fermetures : < 3 millions (accès VPN réduit, répression). Budget France Médias Monde (groupe FMM : RFI + France 24 + MFI) : 640 millions EUR/an (2024) dont 65 % audiovisuel, 35 % numérique. Cour des comptes (rapport 2022) : « efficacité Sahel affaiblie, retour sur investissement déclinant ». BBC World Service (équivalent britannique) : 330 millions USD/an, audience 426 millions/semaine (2024). Deutsche Welle (Allemagne) : 350 millions EUR/an, 309 millions/semaine (2024).
+**Constat :** France 24 : audience mondiale 19,6 millions de visites/mois ou 192,5 millions de vues vidéo/mois (2023, données officielles France 24 ; le chiffre de 68 millions/mois parfois cité n'apparaît dans aucune source officielle), dont 12 millions Afrique. RFI : 40 millions auditeurs/mois (2023, Médiamétrie) avant les fermetures Sahel (Mali 2023, Burkina 2024 : interdiction légale ; Guinée depuis 2022). Avant retraits militaires, audience cumulée RFI + France 24 Sahel : 15-18 millions/mois (estimation). Post-fermetures : < 3 millions (accès VPN réduit, répression). Budget France Médias Monde (groupe FMM : RFI + France 24 + MFI) : 640 millions EUR/an (2024) dont 65 % audiovisuel, 35 % numérique. Cour des comptes (rapport 2022) : « efficacité Sahel affaiblie, retour sur investissement déclinant ». BBC World Service (équivalent britannique) : 330 millions USD/an, audience 426 millions/semaine (2024). Deutsche Welle (Allemagne) : 350 millions EUR/an, 309 millions/semaine (2024).
 
 **Pistes :**
 1. Redéploiement RFI/France 24 vers Afrique du Nord et Ouest côtière (Dakar, Abidjan, Casablanca) : production locale en 15 langues régionales (Wolof, Yoruba, Ewe, Lingala) ; hub numérique / podcast / TikTok
@@ -132,6 +134,7 @@
 ⚖️ **À trancher :** Faut-il préserver présence Sahel coupée par censure régimes, ou redéployer massivement vers Afrique côtière viable ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
@@ -164,7 +167,7 @@
 
 ### P7. Les ingérences étrangères en France : Viginum, DGSI, loi 2024
 
-**Constat :** Rapport Viginum (plateforme souveraineté numérique, créée 2021) : 247 ingérences documentées (2023, dont 35 % Russie, 25 % Chine, 20 % Iran, 20 % acteurs privés). Rapport DGSI (Direction générale sécurité intérieure, mai 2024, accès restreint AN/Sénat) : 150-200 tentatives influence officielle/diplomate par an, dont 40 % ciblant ministères régaliens. Loi 2024-696 (juin 2024) renforce pouvoirs DGSI/Viginum : gel actifs étrangers suspects, fermetures médias contrôlés (à confirmer moyens légaux). Espionnage technologique : rapport Sénat (2023) évalue fuites données stratégiques (défense, énergie) à perte 5-10 milliards EUR/an en R&D volée. Proxies russes (Russiagate 2016-2024) : influence campagne présidentielle 2022, 30-50 millions EUR en opérations estimées (à confirmer). Influence chinoise : universités, instituts Confucius (11 en France, 2024, dont 5 en réaction 2023-2024).
+**Constat :** Rapport Viginum (plateforme souveraineté numérique, créée 2021) : 247 ingérences documentées (2023, dont 35 % Russie, 25 % Chine, 20 % Iran, 20 % acteurs privés). Rapport DGSI (Direction générale sécurité intérieure, mai 2024, accès restreint AN/Sénat) : 150-200 tentatives influence officielle/diplomate par an, dont 40 % ciblant ministères régaliens. Loi 2024-696 (juin 2024) renforce pouvoirs DGSI/Viginum : gel actifs étrangers suspects, fermetures médias contrôlés (à confirmer moyens légaux). Espionnage technologique : rapport Sénat (2023) évalue fuites données stratégiques (défense, énergie) à perte 5-10 milliards EUR/an en R&D volée. Proxies russes (Russiagate 2016-2024) : influence campagne présidentielle 2022, 30-50 millions EUR en opérations estimées (à confirmer). Influence chinoise : universités, instituts Confucius (18 en France fin 2024 selon institutconfucius.fr/data.gouv.fr, dont 5 en réaction 2023-2024).
 
 **Pistes :**
 1. Agence centrale anti-ingérence : fusion Viginum + DGSI cyber + contre-espionnage douanes en structure unique (modèle suédois SÄPO ou allemand BfV) ; 500-800 agents, budget 150-200M EUR/an
@@ -186,6 +189,7 @@
 ⚖️ **À trancher :** Faut-il centraliser pouvoirs sécurité anti-ingérence quitte à risquer surveillance interne, ou privilégier transparence/traçabilité publique ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
@@ -245,7 +249,7 @@
 
 ### P10. Le siège au Conseil de sécurité : levier réel ou posture ?
 
-**Constat :** France siège en continu Conseil Sécurité ONU (depuis 1945) avec droit de veto (art. 27 Charte ONU). Usage du veto : France 14 fois depuis 1945 (vs Russie 143 fois, USA 82 fois, Chine 18 fois, Royaume-Uni 32 fois). Efficacité résolutions votées : France abstain ou vote contre 35 dossiers majeurs 2015-2024 (Syrie, Afghanistan, Ukraine) sans alternative viable proposée, retraits effectifs négociés post-vote (à confirmer). Coûts maintien siège : participation ONU + diplomatie CSNU (ambassade ONU : 300 agents, 80-100M EUR/an) + opérations ONU sponsorisées (UNIFIL Liban 200M EUR/an, MINUSMA Mali retiré 2024, MINUSCA RCA 50M EUR/an) = cumulé 400-500M EUR/an. Usure soft power : résolutions non-exécutées (ex: Syrie sanctions 2011-2024 contournées) affaiblissent crédit français. Alternatives pour poids géopolitique : coalitions ad hoc (ex: petit groupe Astana Syrie, sans France) ou influence UE (poids 27 États) délègue poids CSNU à deux sièges (France + Allemagne convoite siège). Sondage Français : 35 % ignorent que France a veto CSNU (2023, Ifop).
+**Constat :** France siège en continu Conseil Sécurité ONU (depuis 1945) avec droit de veto (art. 27 Charte ONU). Usage du veto : France 16 fois depuis 1946 (ONU, Dag Hammarskjöld Library) (vs Russie 143 fois, USA 82 fois, Chine 18 fois, Royaume-Uni 32 fois). Efficacité résolutions votées : France abstain ou vote contre 35 dossiers majeurs 2015-2024 (Syrie, Afghanistan, Ukraine) sans alternative viable proposée, retraits effectifs négociés post-vote (à confirmer). Coûts maintien siège : participation ONU + diplomatie CSNU (ambassade ONU : 300 agents, 80-100M EUR/an) + opérations ONU sponsorisées (UNIFIL Liban 200M EUR/an, MINUSMA Mali retiré 2024, MINUSCA RCA 50M EUR/an) = cumulé 400-500M EUR/an. Usure soft power : résolutions non-exécutées (ex: Syrie sanctions 2011-2024 contournées) affaiblissent crédit français. Alternatives pour poids géopolitique : coalitions ad hoc (ex: petit groupe Astana Syrie, sans France) ou influence UE (poids 27 États) délègue poids CSNU à deux sièges (France + Allemagne convoite siège). Sondage Français : 35 % ignorent que France a veto CSNU (2023, Ifop).
 
 **Pistes :**
 1. Redéploiement influence : déléguer leadership CSNU à coalition UE (intérêt partagé) tout en conservant siège ; France co-porte-parole bloc UE 27 CSNU (réduction veto unilatéral, gain légitimité collective)
@@ -267,3 +271,4 @@
 ⚖️ **À trancher :** Faut-il transformer le siège CSNU en tribune UE collective (efficacité+légitimité), ou le redéployer hyper-spécialisé (focus-efficacité), ou l'abandonner symboliquement (irréversible mais libérateur fiscalement) ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
