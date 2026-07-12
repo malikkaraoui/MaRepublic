@@ -11,7 +11,7 @@
 - 506 places nettes créées vs 2 600+ supprimées en crèches privées (2025) : hausse 225% des destructions
 - 6 500 micro-crèches risquent de fermer d'ici 2026 = 80 000 enfants privés d'accueil
 - ~15 000 places gelées faute de personnels formés (pénurie BAFA/CAP)
-- Gouvernement promis 200 000 places d'ici 2030 : créées 7 200/an actuellement, il en faudrait 43 000/an
+- Gouvernement promis 200 000 places d'ici 2030 : créées 7 200/an en 2022-2023, mais seulement 506 places nettes en 2025, signalant un effondrement du rythme (il en faudrait 43 000/an au rythme promis, soit environ 85x le rythme réel de 2025)
 - Coût réel: 4 000 à 12 000 euros/an selon mode (crèche collective/familiale/micro)
 
 Sources: [FFEC stats crèches 2025](https://ff-entreprises-creches.com/), [ONAPE rapport 2025](https://loopio-recrutement.fr/blog/chiffres-creche-eaje/)
@@ -36,6 +36,7 @@ Possible sous droit du travail (congé pour raison de famille → droit de retou
 Qui paie les 15 000 places gelées faute personnels : État subvention crèches privées OU obligation de rémunération CAP minimum 1 800 € (tire les crèches à bas prix)? Public payant: la gratuité compète ou prise en charge forfait?
 
 **Statut:** ⬜
+**Mis à jour :** 2026-07-12
 
 ---
 
@@ -161,7 +162,7 @@ Où prend argent: réductions allocations riches (politiquement toxique) OU réa
 - Congé paternité France: 25 jours calendaires (32 multi-naissance) + 3 jours naissance employeur
 - Partage réel: 91% enfants restent 2+ ans avec mère seule (PreParE)
 - Pères prenant congé: 8% en France (vs 40-50% Suède/Norvège)
-- Congé supplémentaire naissance (juillet 2026): 2 mois individuels + 1 mois optionnel couple (premier utilisé : 30 pères sur 100 couples)
+- Congé supplémentaire naissance (juillet 2026): droit individuel non-transférable de 1 ou 2 mois au choix par parent (pas de mois « couple » optionnel séparé), fractionnable en 2 périodes d'1 mois
 - Indemnisation nouveau congé: 70% net mois 1, 60% mois 2 (plafonné Sécu 4 005 euros brut)
 - Carrière père: 0 impact employeur vs mère -25% salaire permanent après 2 ans absence
 - Garde enfants au quotidien: 20% pères temps principal (vs 80% mères) MÊME couples salaire symétrique
@@ -193,6 +194,7 @@ Nouveau congé juillet 2026 déjà en place (loi Sécurité Sociale 2025) : indi
 Congé "nouveau" (juillet 2026): est-ce en PLUS (3 mois ancien) ou REMPLACE? (texte: EN PLUS) => mère passe 3 ans + 3 mois nouveau, père 25j + 3 mois = écart +2,8 ans. Réduire préParE de 3 ans à 2 ans + 3 mois nouveau ailleurs? Bonus partage fiscal (père congé = crédit parent/enfant +300 euros, mère congé -100 => incentive père) ou neutre?
 
 **Statut:** ⬜
+**Mis à jour :** 2026-07-12
 
 ---
 
