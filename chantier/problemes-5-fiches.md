@@ -30,7 +30,7 @@
 
 ### P3. Harcèlement scolaire en hausse
 
-- **Le problème (France, 2016-2026) :** 611 358 élèves victimes de harcèlement (6 % des collégiens, 5 % en primaire, 4 % lycée). Cyberharcèlement en progression. Signalements au 3018 : 530 en 2022 → 6 100 en 2024 (+1 052 %). Profil : 61 % auteurs garçons, 38 % des cas 13-15 ans, impact sur décrochage et santé mentale.
+- **Le problème (France, 2016-2026) :** 611 358 élèves victimes de harcèlement (6 % des collégiens, 5 % en primaire, 4 % lycée). Cyberharcèlement en progression. Appels reçus par le 3018 : 25 000 en 2022 → 150 000 en 2024 (+500 %). Signalements judiciaires (procureurs, métrique distincte) : 530 en 2022 → 6 100 en 2024. Profil : 61 % auteurs garçons, 38 % des cas 13-15 ans, impact sur décrochage et santé mentale.
 - **Piste A, 🇸🇪 Suède (protocole réparateur + confiance dans école) :** Cercles de soutien (auteur + victime + pairs), responsabilisation communautaire, peu de punition légale. **Pour :** réintègre et restaure. **Contre :** peut relégitimer abus, demande temps, ne convient pas aux cas graves.
 - **Piste B, 🇦🇺 Australie (application mobile + signalement anonyme + plan d'action 24h) :** Plateforme anonyme d'alerte, réaction rapide, formation pairs à l'empathie. **Pour :** normalisé, trace objective. **Contre :** techno-dépendant, risque faux signalements.
 - **Piste C, 🇫🇮 Finlande (KiVa : programme scolaire préventif et formation tous les profs) :** Tous élèves année 1-5, outils diagnostiques, personnel formé. Baisse de 17 % en 2-3 ans. **Pour :** données d'efficacité. **Contre :** coûteux (licence, formation), nécessite adhésion massive.
@@ -40,6 +40,7 @@
 - ⚖️ **Faisabilité juridique :** Loi + Circulaire ; Responsabilité établissement ; Loi 2017 cyberharcèlement.
 - ⚖️ **À trancher :** Préventif systématique (KiVa, Suède) ou réactif ciblé ? Responsabilité parents ? Rôle réseau sociaux vs école seule ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-13
 
 ### P4. Parcoursup, stress d'orientation et décrochage post-bac
 
@@ -82,7 +83,7 @@
 
 ### P7. Santé mentale étudiante en crise
 
-- **Le problème (France, 2016-2026) :** Dépression étudiants : 25-30 % (vs 10-12 % population générale). Tentatives suicide 18-24 ans : 3ème cause décès. Anxiété Parcoursup/stress études : 65 % au moins un symptôme (2022). Accès psy universités : 1 psy/1500 étudiants (recommandation OMS : 1/300). Solitude épidémique post-COVID (à confirmer tendance 2024-26).
+- **Le problème (France, 2016-2026) :** Dépression étudiants : 25-30 % (vs 10-12 % population générale). Tentatives suicide 18-24 ans : 2ème cause décès (Santé publique France). Anxiété Parcoursup/stress études : 65 % au moins un symptôme (2022). Accès psy universités : 1 psy/30 000 étudiants en France (vs 1 psy/1500 aux États-Unis ; recommandation : 1/300 à 1/1500). Solitude épidémique post-COVID (à confirmer tendance 2024-26).
 - **Piste A, 🇩🇰 Danemark (psy gratuit universités, culture demande d'aide normalisée) :** 1 psy/150 étudiants, consultations gratuites, apprentissage mindfulness obligatoire. **Pour :** réduction suicide, culture « c'est normal ». **Contre :** coûteux, formation psy insuffisante.
 - **Piste B, 🇨🇦 Canada (peer support + numérique + community) :** Pairs-éducateurs formés (100 h), app notification-alerte, colocation encouragée. **Pour :** scalable, low-cost initiale. **Contre :** pairs non thérapeutes, peut manquer cas graves.
 - **Piste C, 🇦🇺 Australie (intégration psy en cursus + early screening) :** Module bien-être obligatoire L1, screening dépression/anxiété prise charge rapide. **Pour :** normalisé, précoce. **Contre :** détection stigmatise, charge admin.
@@ -92,16 +93,18 @@
 - ⚖️ **Faisabilité juridique :** Décret + Budget ; CEDH art. 2, 3 ; Jurisprudence santé mentale.
 - ⚖️ **À trancher :** Psy professionnel massif (Danemark) vs peers (Canada) ? Dépistage routinier ou demande volontaire ? Comment isoler étudiants en ligne post-COVID ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-13
 
 ### P8. Illettrisme et décrochage scolaire persistants
 
-- **Le problème (France, 2016-2026) :** 7-8 % des 15-65 ans illettrés français (2 millions). Décrochage scolaire : 8-10 % avant bac (vs 10-12 % 2010). 40 % illettrés jamais employés. Concentration illettrisme : descendants immigration, zones rurales enclavées, milieux précaires. Diagnostic tardif : détecté au collège déjà trop tard.
+- **Le problème (France, 2016-2026) :** 4 % des 18-64 ans illettrés français (1,4 million, ANLCI/INSEE avril 2024 ; taux divisé par deux en 20 ans depuis 7-8 % / 2 millions au début des années 2010). Décrochage scolaire : 8-10 % avant bac (vs 10-12 % 2010). 40 % illettrés jamais employés. Concentration illettrisme : descendants immigration, zones rurales enclavées, milieux précaires. Diagnostic tardif : détecté au collège déjà trop tard.
 - **Piste A, 🇱🇹 Lituanie (dépistage phonémique GS, intervention précoce L1-L3) :** Bilan sons/lettres grande section, tutorat 1h/sem si détection lente. 95 % lecture fluidité 8 ans. **Pour :** coûteux prévention vs correction. **Contre :** surdiagnostic, labelisation enfants.
 - **Piste B, 🇬🇧 UK (synthetic phonics obligatoire dès 4 ans, test lecture 6 ans) :** Méthode phonémique stricte, test national 6 ans, intervention immédiate si fail. **Pour :** résultats PIRLS bons. **Contre :** pédagogie rigide, peut bloquer plaisir lecture.
 - **Piste C, 🇫🇮 Finlande (lecture plaisir libre + intervention douce si besoin) :** Zéro homework école élémentaire, lecture pour plaisir, intervention individuelle cas-par-cas sans label. **Pour :** coexiste avec bons résultats, pas stigme. **Contre :** détection « lâche », coûteux suivi.
 - **Piste D, France (test lecture CE1 obligatoire + classe relais + méthode hybride) :** Évaluation fin CP, prise en charge intensive CE1 petit groupe si < seuil, essai phoniques + sens partagé. **Pour :** ciblé, précoce, pragmatique. **Contre :** capacité d'accueil réduite, différentiation pédagogique lourde.
 
-- **Simulation (ordres de grandeur) :** 2 M illettrés. Piste D : test CE1 + classe relais ~200 enfants/cohort = 50 M€/an. Tutorat 1h/sem ~30 M€/an. Gagnants : élèves illettrés. Délai impact : 3-5 ans.
+- **Simulation (ordres de grandeur) :** 1,4 M illettrés. Piste D : test CE1 + classe relais ~200 enfants/cohort = 50 M€/an. Tutorat 1h/sem ~30 M€/an. Gagnants : élèves illettrés. Délai impact : 3-5 ans.
 - ⚖️ **Faisabilité juridique :** Loi orientation ; CEDH art. 2 ; Loi 2005 orientation.
 - ⚖️ **À trancher :** Diagnostic précoce (Lituanie, UK) vs intervention douce (Finlande) ? Phonique strict ou méthode mixte ? Qui finance tutorat : école, famille, État ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-13
