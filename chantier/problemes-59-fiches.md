@@ -75,7 +75,7 @@ Acceptez-vous que permis auto soit droit public financé collectivement (comme c
 ### P3. Les stages gratifiés et alternances exploitées : le travail juvénile déguisé
 
 **Constat :**
-85 % des stages licence sont gratifiés (gratification = 600 euros/mois maximum en 2024, décret 2014-1619 ; https://legifrance.gouv.fr/). Durée moyenne stage : 3-4 mois. Durée moyenne alternance : 24-36 mois. Une alternance de 24 mois crée ~6 000-7 000 heures travail pour rémunération apprenti (~850 euros/mois = 20 400 euros bruts pour 24 mois). Coût employeur identique CDI junior (cotisations + salaire) sauf : pas d'obligation formation continue, pas de droits syndicaux appliqués, renvoi non-motif possible à fin contrat. 45 % des alternances se terminent en CDD ou rupture (CEREQ 2023, https://www.cereq.fr/). Alternance = 480 000 jeunes en France en 2024 (DARES) ; 70 % sont exploités au-delà du tiers du temps de travail comme salariés effectifs sans surpaye.
+85 % des stages licence sont gratifiés (gratification = 600 euros/mois maximum en 2024, décret 2014-1619 ; https://legifrance.gouv.fr/). Durée moyenne stage : 3-4 mois. Durée moyenne alternance : 24-36 mois. Une alternance de 24 mois crée ~6 000-7 000 heures travail pour rémunération apprenti (~850 euros/mois = 20 400 euros bruts pour 24 mois). Coût employeur identique CDI junior (cotisations + salaire) sauf : pas d'obligation formation continue, pas de droits syndicaux appliqués, renvoi non-motif possible à fin contrat. 45 % des alternances se terminent en CDD ou rupture (CEREQ 2023, https://www.cereq.fr/). Alternance = environ 1 049 000 jeunes en apprentissage fin 2024 (DARES) ; 70 % sont exploités au-delà du tiers du temps de travail comme salariés effectifs sans surpaye.
 
 **Pistes :**
 
@@ -105,6 +105,7 @@ Code du travail (articles L. 1221-1 stage, L. 6222-1 alternance). Gratification 
 Un stage ou une alternance doivent-ils être systématiquement rémunérés au SMIC à partir de 2 mois ? Faut-il interdire le CDD après alternance, ou laisser liberté employeur de choisir CDD court + nouveau cycle apprenti ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
@@ -147,7 +148,7 @@ Faut-il accepter un marché du travail jeune fluide (CDD court + intérim = flex
 ### P5. Santé mentale 18-25 ans : dépression +30 %, psys inaccessibles à 150-200 euros
 
 **Constat :**
-Dépression diagnostiquée chez 16 % des 18-24 ans (vs 7 % général population ; Santé publique France 2023, https://www.santepubliquefrance.fr/). Anxiety disorders : 18 %. Consommation cannabis +50 % vs 2010 dans cette tranche (CépiDC 2023). Psychologues en secteur privé : tarif moyen 50-60 euros (dépassement hors secu) = 150-200 euros réalité pour jeune sans mutuelle. Délai moyen attente psychiatre service public : 6-12 mois (DGOS 2023). Taux suicide 18-24 ans : 12,3 pour 100 000 (2e cause décès jeunes après accidents ; données CépiDC, à confirmer 2024). Psychologues en France : 56 000 titulaires (dont 70 % secteur privé ou libéral), ratio = 1 psy pour 1 200 jeunes 18-25 (vs 1 pour 400 en Scandinavie).
+Dépression diagnostiquée chez 22 % des 18-29 ans (vs 7 % population générale ; Baromètre Santé publique France, chiffre en progression continue depuis 16 % en 2020 et 20,8 % en 2021, https://www.santepubliquefrance.fr/). Anxiety disorders : 18 %. Consommation cannabis +50 % vs 2010 dans cette tranche (CépiDC 2023). Psychologues en secteur privé : tarif moyen 50-60 euros (dépassement hors secu) = 150-200 euros réalité pour jeune sans mutuelle. Délai moyen attente psychiatre service public : 6-12 mois (DGOS 2023). Taux suicide 18-24 ans : 12,3 pour 100 000 (2e cause décès jeunes après accidents ; données CépiDC, à confirmer 2024). Psychologues en France : 56 000 titulaires (dont 70 % secteur privé ou libéral), ratio = 1 psy pour 1 200 jeunes 18-25 (vs 1 pour 400 en Scandinavie).
 
 **Pistes :**
 
@@ -177,6 +178,7 @@ Code de la santé publique articles L. 4112 (psychologues), L. 1110-1 (droit san
 La santé mentale jeune est-elle un droit public (financé collectivement à l'école, assuré Sécu) ou reste-t-elle un marché privé (jeune paye, État aide indirect) ? À partir de quel seuil diagnostic (dépression légère, angoisse, crise identité) doit-on intervenir l'État, et qui décide : l'individu, l'école, le psy ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
@@ -219,7 +221,7 @@ Un jeune majeur (18 ans) sans ressources a-t-il droit au minimum vital (RSA) tel
 ### P7. Jobs étudiants pénalisent les bourses : degressivity trap, équation insoluble
 
 **Constat :**
-Bourse d'études CROUS = 63 300 étudiants boursiers en France (CROUS 2024 ; https://www.crous.fr/). Montant moyen : 400-500 euros/mois. Condition boursière principale : revenus familiaux < seuil (exemple : 12 000 euros/an pour un enfant à charge, échelons 0-7). Règle : si étudiant travaille et gagne > 0 euros, revenu comptabilisé pour plafond famille l'année suivante. Conséquence : boursier gagne 100 euros en juin (job été 6 jours) => bourse déduite 50 euros année suivante (ratio ~50 % clawback). Exemple chiffré : étudiant boursier gagne 400 euros (job été) => perte 150-200 euros bourse année suivante = rendement travail = 200-250 euros nets annuels vs 400 euros gagnés (perte 50 %). Taux de renonciation travail chez boursiers : 45 % refusent job faute pénalité bourse (CEREQ Génération 2017). Durée moyenne job étudiant : 8-10 heures/semaine. Salaire net : 8-10 euros/heure = 70-90 euros/semaine = 300-350 euros/mois.
+Bourse d'études CROUS = environ 662 000 étudiants boursiers en France (ministère Enseignement supérieur, 2024-2025 ; https://www.crous.fr/). Montant moyen : 400-500 euros/mois. Condition boursière principale : revenus familiaux < seuil (exemple : 12 000 euros/an pour un enfant à charge, échelons 0-7). Règle : si étudiant travaille et gagne > 0 euros, revenu comptabilisé pour plafond famille l'année suivante. Conséquence : boursier gagne 100 euros en juin (job été 6 jours) => bourse déduite 50 euros année suivante (ratio ~50 % clawback). Exemple chiffré : étudiant boursier gagne 400 euros (job été) => perte 150-200 euros bourse année suivante = rendement travail = 200-250 euros nets annuels vs 400 euros gagnés (perte 50 %). Taux de renonciation travail chez boursiers : 45 % refusent job faute pénalité bourse (CEREQ Génération 2017). Durée moyenne job étudiant : 8-10 heures/semaine. Salaire net : 8-10 euros/heure = 70-90 euros/semaine = 300-350 euros/mois.
 
 **Pistes :**
 
@@ -249,6 +251,7 @@ Code de l'éducation articles L. 821-1 (critères boursiers), décrets 2006-2175
 Un étudiant boursier doit-il « pénaliser » sa famille en travaillant (système actuel : travail = perte bourse, donc travail irrational) ? La bourse est-elle revenu familial à clawback ou droit personnel de l'étudiant à protéger du calcul familial ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
