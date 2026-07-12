@@ -69,7 +69,7 @@
 - **Statut :** ⬜
 
 ### P7. Casier judiciaire : 10 ans après purge, encore bloqué de l'emploi
-- **L'aberration (chiffrée, source) :** Casier judiciaire B (délits) s'efface automatiquement : 5 ans pour peine < 1 an, 10 ans pour peine < 10 ans (source : CIDJ, SOS-Casier 2025). Mais employeur peut refuser embauche légalement si antécédent "non compatible" (notion floue). Pratique : beaucoup refusent si casier montre délit même vieil. Délai effacement : 3 ans (contraventions), 5 ans (délits), 10 ans (crimes légers).
+- **L'aberration (chiffrée, source) :** Casier judiciaire B (délits) s'efface automatiquement : 3 ans pour les contraventions, puis pour les délits 5 ans si la peine est inférieure à 1 an, 10 ans si elle va jusqu'à 10 ans (article 133-13 Code pénal ; source : CIDJ, SOS-Casier 2025). Mais employeur peut refuser embauche légalement si antécédent "non compatible" (notion floue). Pratique : beaucoup refusent si casier montre délit même vieil.
 - **Pourquoi c'est illogique :** Peine purgée = rédemption. Mais carrière détruite pour 10 ans. Reconversion impossible. Seul moyen : oubli (cache peine en CV = fraude). Justice ne réinsère pas.
 - **Piste A : effacement accéléré après 2 ans pour délits < 3000 euros d'amende :** Petits antécédents s'oublient vite. **Pour :** facilite réinsertion. **Contre :** minimise crime, pauvres crime = pauvres, riches crime effacé.
 - **Piste B : interdiction pour employeur de demander casier (sauf postes protégés : enfants, argent, armes) :** Vie privée du citoyen. **Pour :** ré-embauche garantie, fin discrimination. **Contre :** employeur prend risque aveugle, assurances refuse couverture.
@@ -78,6 +78,7 @@
 - ⚖️ **Faisabilité juridique :** Piste A : modification CJP (loi). Piste B : loi travail (interdiction employeur). Piste C : décret casier.
 - ⚖️ **À trancher :** Rédemption > sécurité entreprise ? Quels postes restent protégés ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P8. Frais de justice : gagnant pauvre, juge riche grâce à l'article 700
 - **L'aberration (chiffrée, source) :** Article 700 CPC : juge peut obliger perdant à rembourser frais gagnant (avocat, expertise, déplacements). Pratique : juge fixe forfait 500 à 5000 euros pour dossier valant 50 000 euros. Gagnant engagé 15 000 euros = en récupère 2000 = perte 13 000 euros (source : Office-Avocat, Légavox 2025). Juge discrétion totale, peu sympa aux pauvres (moins de preuves écrites = expertise moindre = forfait plus petit).
@@ -91,7 +92,7 @@
 - **Statut :** ⬜
 
 ### P9. Médiation civile : gratuit en théorie, payant en pratique, obligatoire depuis sept. 2025
-- **L'aberration (chiffrée, source) :** Décret 2025-660 du 18 juillet 2025 (vigueur 1er sept. 2025) rend médiation quasi-systématique. Refus immédiat de médier = amende jusqu'à 10 000 euros. Rendez-vous info gratuit, mais continuation payante : 600 à 1500 euros partagés moitié/moitié. Familles divorcées : médiation obligatoire = jusqu'à 750 euros par personne. (source : Maxey, Démarches Administratives sept. 2025)
+- **L'aberration (chiffrée, source) :** Décret 2025-660 du 18 juillet 2025 (vigueur 1er sept. 2025) rend médiation quasi-systématique. Refus « sans motif légitime » de médier (article 1533-3 CPC ; des motifs comme violence, coercition, maladie ou médiation déjà en cours en exonèrent) = amende jusqu'à 10 000 euros. Rendez-vous info gratuit, mais continuation payante : 600 à 1500 euros partagés moitié/moitié. Familles divorcées : médiation obligatoire = jusqu'à 750 euros par personne. (source : Maxey, Démarches Administratives sept. 2025)
 - **Pourquoi c'est illogique :** Médiation promue comme "économie" vs. juge. Or : coût réel 1500 euros + frais dossier + avocat = plus cher qu'audience rapide. Obligation + amende = perte liberté de choix. Pauvre refuse amende = capitule, médie faute de budget, accepte mauvais accord (pression).
 - **Piste A : médiation obligatoire gratuite (État assume coût médiateur) :** Vraie économie. **Pour :** justice accessible, incite accord. **Contre :** budget État +500M euros/an (200K médiations gratuites * 2500 euros moyen).
 - **Piste B : médiation optionnelle, avant juge seulement (aucune obligation, pas amende) :** Retour liberté. **Pour :** acceptation volontaire, moins résistance. **Contre :** décret 2025-660 déjà loi, changement = révocation politique.
@@ -100,6 +101,7 @@
 - ⚖️ **Faisabilité juridique :** Piste A : loi modifie décret 2025-660. Piste B : abrogation décret (loi). Piste C : ordonnance modifie article 700.
 - ⚖️ **À trancher :** État doit-il payer médiation ? Obligation médiation = liberté contrat bafouée ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P10. Tutelles et curatelles : contrôle désastre, embezzlement en cascade
 - **L'aberration (chiffrée, source) :** Cour des Comptes 2016 (rapport "Protection juridique des majeurs") : hétérogénéité des pratiques, contrôles insuffisants, carences nationales. Décret 2024-659 (2 juillet 2024) renforce : contrôle passe à "professionnels qualifiés" (notaires, huissiers, experts comptables, au lieu greffiers). Mais en 2025, cas embezzlement UDAF Charente-Maritime : 90 000 euros volés (source : Village Justice, Tutello 2025). Rapport Cour Comptes reste sans suite 9 ans plus tard.
