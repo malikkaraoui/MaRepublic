@@ -50,7 +50,7 @@ Investissement net additionnel (90 à 150 M EUR/an) ? Baisse de l'allocation gé
 ### P2. Monde combattant et blessés de l'armée : pensions oubliées, ONaCVG débordée
 
 **Constat chiffré**
-ONaCVG reçoit 1,6 million de demandes/an. Délais : 3 ans pour blessures (définitif après 3 ans), 9 ans pour maladies (3 périodes de 3 ans). Allocation de reconnaissance du combattant : 8,64 EUR/mois pour vétéran sans pension d'invalidité. Aucune prescription : dossiers se perdent en attente.
+ONaCVG reçoit 1,6 million de demandes/an. Délais : 3 ans pour blessures (définitif après 3 ans), 9 ans pour maladies (3 périodes de 3 ans). Allocation de reconnaissance du combattant : 69,64 EUR/mois (835,64 EUR annuels en 2026) pour vétéran sans pension d'invalidité. Aucune prescription : dossiers se perdent en attente.
 
 Blessés psychiques Opex (Irak, Mali, Afghanistan) : diagnostics tardifs (2 à 5 ans après le retour), intégration civile chaotique.
 
@@ -89,6 +89,7 @@ ONaCVG gère 90% du cadre juridique. Besoin : décret pour fonds d'avance (artic
 Montant avance mensuelle (150 EUR ? 250 EUR ?) ? Accessibilité Opex actueilles et anciennes ? Partage financement Défense/Santé pour volet psy ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
