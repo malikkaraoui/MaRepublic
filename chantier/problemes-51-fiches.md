@@ -325,7 +325,7 @@
 **Constat chiffré**
 * 160 000 enfants/an victimes violences sexuelles en France (CIIVISE 2023) : https://www.ciivise.fr/le-rapport-public-de-2023
 * Inceste = 80% de ces 160k (estimation CIIVISE = 128 000 mineurs/an)
-* Rapport CIIVISE (2023) : 50 recommandations pour renforcer prévention, repérage, signalement. Taux d'implémentation (2024) : ~10-15% (à confirmer via gouvernement).
+* Rapport CIIVISE (2023) : 82 recommandations pour renforcer prévention, repérage, signalement. Taux d'implémentation (2024) : ~10-15% (à confirmer via gouvernement).
 * Délai moyen plainte inceste à révélation en famille : 8-10 ans (enfant parle souvent début adulte si jamais).
 
 **Pourquoi c'est insupportable**
@@ -334,7 +334,7 @@
 * Enfants grandir avec trauma enfoui = 50% taux dépression/suicide adulte selon études.
 
 **Pistes**
-* Piste A : appliquer rapport CIIVISE (50 recommandations) avec décret : financement 200M€ (formations école/médecin, associations, CMP), mesure légale : tout prof/médecin qui soupçonne inceste, obligation signalement via procédure rapide (24h parquet) + formation repérage.
+* Piste A : appliquer rapport CIIVISE (82 recommandations) avec décret : financement 200M€ (formations école/médecin, associations, CMP), mesure légale : tout prof/médecin qui soupçonne inceste, obligation signalement via procédure rapide (24h parquet) + formation repérage.
   - Pour : loi fondation CIIVISE = légitimité.
   - Contre : bureaucratie encore ; formation peut discriminer (prof suspect à tort).
 * Piste B : création « ligne d'écoute inceste » nationale (comme Allo Enfance en Danger) : 0-18 ans anonyme peut appeler 24/7, enregistrement auto. → signalement parquet si enfant consent (âge 8+).
@@ -362,6 +362,7 @@
 * Obligation signalement prof : amendes si non-respect, ou formation punitive seulement ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
