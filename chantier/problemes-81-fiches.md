@@ -49,7 +49,7 @@
 
 ### P3. Hébergement d'urgence vs Housing First : bilan coûts France et Finlande
 
-**Constat :** France dépense 3-3,5 Md EUR/an en hébergement d'urgence + aide alimentaire (hôtels sociaux, foyers, nuits hivernales). Résultat : 330 000 sans-abrisme stable ou croissant. Finlande, avec même PIB/capita, finance Housing First depuis 2008 : 10 000 EUR/personne/an (logement + suivi) vs 25 000 EUR pour hébergement d'urgence intermittent français. Résultat finlandais : quasi-éradication du sans-abrisme (moins de 2000 personnes, forte baisse depuis 2015). Rapport coût-efficacité : Housing First = 3 EUR économisés pour 1 EUR investi (urgences santé, police, justice évitées) selon Métropole Européenne de Lille pilot.
+**Constat :** France dépense 3-3,5 Md EUR/an en hébergement d'urgence + aide alimentaire (hôtels sociaux, foyers, nuits hivernales). Résultat : 330 000 sans-abrisme stable ou croissant. Finlande, avec même PIB/capita, finance Housing First depuis 2008 : 10 000 EUR/personne/an (logement + suivi) vs 25 000 EUR pour hébergement d'urgence intermittent français. Résultat finlandais : forte baisse du sans-abrisme mais pas d'éradication (environ 7 000 personnes en 2015-2016, réduites à ~4 000 en 2020, puis 4 579 en 2025 : le seuil de « moins de 2 000 » n'a jamais été atteint et reste 2 à 2,5 fois supérieur à la réalité). Rapport coût-efficacité : Housing First = 3 EUR économisés pour 1 EUR investi (urgences santé, police, justice évitées) selon Métropole Européenne de Lille pilot.
 
 **Pistes :**
 1. Pivot complet vers Housing First (déploiement 10 ans, investissement 6 Md EUR initial, amortis par économies urgence). POUR : modèle prouvé, bilan finlandais incontestable, sortie de la crise long terme. CONTRE : remise en cause forte secteur hôtelier social, réticence communes (localisation), période transition instable, syndicats aide sociale craintifs (suppressions postes).
@@ -60,13 +60,14 @@
 - Finlande 2022 : 50 M EUR Housing First national + 30 M EUR suivi socio-professionnel = 80 M EUR pour 5,5 M habitants = 15 EUR/habitant/an. France : 3,5 Md EUR/330 M habitants = 10,5 EUR/habitant/an mais sur assistance reactive (moins efficace).
 - Transition Housing First France (10 ans, 100 000 logements) : 6 Md EUR capital + 500 M EUR/an suivi = coûteux mais rentabilité estimée en économies urgence + emploi relocalisé.
 - Gagnants : usagers (stabilité), collectivités locales (coûts urgence baissent à J+5 ans), bailleurs sociaux. Perdants : hôtels sociaux spécialisés (reconversion), services urgence (redéploiement RH).
-- Délai : Finlande = 15 ans pour eradication effective. France : 10-12 ans minimum si volonté politique.
+- Délai : Finlande = 15 ans pour une réduction très forte mais pas une éradication totale (4 579 personnes encore sans-abri en 2025). France : 10-12 ans minimum si volonté politique.
 
 ⚖️ **Faisabilité juridique :** Housing First compatible CODE Construction art. L. 441-1 (logements sociaux). Marchés publics classiques (LOLF + Code marchés publics). Aucune censure CC prévisible si financé. Convention ONU Droit au Logement (non contraignante France). Main dans main avec Charte sociale européenne (article 16, droits sociaux) : viabilité haute.
 
 ⚖️ **À trancher :** Acceptons-nous d'inverser doctrine (attendre logement au lieu de crise puis hôtel) ? Quelle répartition régionale : densité pour efficacité vs équité territoriale ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
@@ -118,12 +119,12 @@
 
 ### P6. Expulsions locatives record : prévention en amont 10x moins chère
 
-**Constat :** Expulsions locatives augmentent 20-30%/an depuis fin trêve hivernale (2021-2022). Selon DIHAL/Statistiques justice, 180 000 procédures expulsion engagées en 2022 (+ 25% vs 2019). Taux réalisation : 60% (108 k exécutions). Main levée d'urgence (délai avant expulsion = 1-2 mois = dehors direct si pas relogement). Coût exécution (huissier, forces ordre, stockage affaires) = 2-3 k EUR/personne. Coût réintégration d'urgence = 50-100 k EUR. Coût PRÉVENTION (médiateur dette, CAF/RSA optimisation, aide locataire au paiement avant retard > 3 mois) = 1-2 k EUR, réussite 70-80% vs 20-30% après expulsion.
+**Constat :** Expulsions locatives augmentent 20-30%/an depuis fin trêve hivernale (2021-2022). Le chiffre de 180 000 procédures engagées (+108 000 exécutions) provient en réalité de données de 2016, pas de 2022 : selon la Cour des comptes et la Fondation Abbé Pierre, environ 17 500 ménages (38 000 personnes) ont été effectivement expulsés en 2022, soit un ordre de grandeur environ 6 fois inférieur aux exécutions parfois citées pour cette année. Main levée d'urgence (délai avant expulsion = 1-2 mois = dehors direct si pas relogement). Coût exécution (huissier, forces ordre, stockage affaires) = 2-3 k EUR/personne. Coût réintégration d'urgence = 50-100 k EUR. Coût PRÉVENTION (médiateur dette, CAF/RSA optimisation, aide locataire au paiement avant retard > 3 mois) = 1-2 k EUR, réussite 70-80% vs 20-30% après expulsion.
 
 **Pistes :**
 1. Fonds départemental d'aide au paiement loyer AVANT expulsion (tripler budget existant RSA Impayé). POUR : coût-bénéfice 50:1, simplifiable, juridiquement neutre. CONTRE : budgétaire (400 M EUR/an national), risque aide à mauvais payeurs chroniques.
 2. Moratoire expulsion 18 mois + médiation obligatoire (interdit expulser avant 3 visites travail social). POUR : sortie ascendante du surendettement. CONTRE : propriétaires bailleurs petits crient (revenus gelés), risque contentieux propriétaires CEDH.
-3. Droit au relogement tempéré : garantie logement social temporaire pendant 2 ans si expulsion (puis fin aide). POUR : limite dégâts, droit social. CONTRE : coûteux (60 k x 108 k = 6,5 Md EUR par cohorte 2022), crée expectative pérenne.
+3. Droit au relogement tempéré : garantie logement social temporaire pendant 2 ans si expulsion (puis fin aide). POUR : limite dégâts, droit social. CONTRE : coûteux (60 k x 17,5 k = ~1,05 Md EUR par cohorte 2022, révisé à la baisse par rapport à l'estimation initiale de 6,5 Md), crée expectative pérenne.
 
 **Simulation (ordres de grandeur) :**
 - Aide prévention triplication = + 350 M EUR/an, sauve 50 k personnes de l'expulsion/an, coût/sauvé = 7 k EUR.
@@ -132,11 +133,12 @@
 - Gagnants : locataires, collectivités (économie urgence), propriétaires stabilisés à long terme. Perdants : bailleurs ayant compté sur expulsion + revente aux investisseurs.
 - Délai : dispositif triplication = 6 mois écriture, effet immédiat.
 
-⚖️ **Faisabilité juridique :** Aide au paiement = classique (RSA Impayés, CAF/CCAS ressources actuelles). Moratoire expulsion = risque modéré (Code monétaire financier art. L. 313-12 permet déjà délai si insolvabilité temporaire ; extension légale = possible mais propriétaires CEDH risque). Droit relogement = loi DALO compatible (art. L. 441-2), mais financièrement lourd (6,5 Md pour seule cohorte 2022, insoutenable).
+⚖️ **Faisabilité juridique :** Aide au paiement = classique (RSA Impayés, CAF/CCAS ressources actuelles). Moratoire expulsion = risque modéré (Code monétaire financier art. L. 313-12 permet déjà délai si insolvabilité temporaire ; extension légale = possible mais propriétaires CEDH risque). Droit relogement = loi DALO compatible (art. L. 441-2), financièrement lourd mais plus soutenable que l'estimation initiale (~1,05 Md pour la cohorte 2022 réellement expulsée).
 
 ⚖️ **À trancher :** Quel coût d'aide au paiement jugeons-nous intolérable (prise en charge mal payeur mécanique vs aide transitoire) ? Relogement post-expulsion = responsabilité État ou collectivités ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
