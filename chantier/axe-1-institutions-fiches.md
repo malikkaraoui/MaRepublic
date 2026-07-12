@@ -58,12 +58,13 @@
 
 ### I7. Budget participatif national
 - **Problème :** le citoyen ne décide jamais de l'usage de l'argent public.
-- **Ça existe déjà :** 🇧🇷 Porto Alegre (origine) ; 🇵🇹 Portugal, budget participatif **national**.
+- **Ça existe déjà :** 🇧🇷 Porto Alegre (origine, échelon municipal, toujours actif). 🇵🇹 Portugal a testé un budget participatif **national** en 2017-2018, arrêté dès 2019 : aucun pays n'a aujourd'hui de dispositif national pérenne, seuls des budgets participatifs locaux existent largement en Europe.
 - **Version France :** une fraction du budget allouée par vote citoyen (national + local).
 - ⚖️ **Faisabilité juridique :** Loi ordinaire (loi de finances) ; obstacle potentiel : art. 40 Const. (dépense), mais finançable par redéploiement.
 - **Simulation (ordres de grandeur) :** 1-2 % budget national participatif = 5-10 B€ à voter citoyens (2-3k projets/an). Infrastructure vote + débat = 50-100 M€/an. Légitimité dépense publique +30 % (citoyens décident). Gagnants : collectivités + PME financement local. Délai infrastructure : 18-24 mois (plateforme).
 - ⚖️ **À trancher :** part du budget ; échelon.
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### I8. Règle des 20 % (garde-fou anti-recyclage législatif) 🔥
 - **Problème :** un texte rejeté revient quasi identique en « saison morte » (cf. Chat Control).
