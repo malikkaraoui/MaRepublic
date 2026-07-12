@@ -64,13 +64,15 @@ Collecte CCI/chambres sectorielles : 600 M€/an. Coût d'évaluation participat
 
 ### P7. Agences et opérateurs de l'État : 1 200 organismes, doublons documentés, zéro rationalisation
 
-L'IGF (2012) documentait 1 200 agences : administrations indépendantes, opérateurs techniques, commissions pérennes. Selon rapports Cour des Comptes et IGF successifs : chevauchements permanents (exemple : trois agences santé qui ne communiquent pas), trésorerie excédentaire sterilisée (2,5 Md€ sur 180 opérateurs audités), staffs redondants. Bilan : aucune fusion depuis 20 ans, recréation permanente sous nouveaux noms.
+L'IGF (2012) documentait 1 200 agences (périmètre large) : administrations indépendantes, opérateurs techniques, commissions pérennes. Selon le PLF 2026 (périmètre plus étroit des opérateurs de l'État), ce nombre est tombé à 431 opérateurs, contre 649 en 2008, soit une réduction de 34% en deux décennies : la rationalisation existe mais reste lente au regard des chevauchements documentés (exemple : trois agences santé qui ne communiquent pas), de la trésorerie excédentaire stérilisée (2,5 Md€ sur 180 opérateurs audités) et des staffs redondants.
 
 **Simulation (ordres de grandeur)**
 
-Personnel agences/opérateurs : 450 000 agents (à confirmer). Budget agrégé : 107 Md€/an rapports anciens. Fusion 5 agences santé + 3 agences enviro (test) : estimation 2 000 postes dédoublonnés sur 18 000 = 150 M€ économie brute année 1, + 50 M€ synergies systèmes. Audit rationalisation complet : 10 M€. Recouvrement trésorerie stérilisée : 2,5 Md€ une fois. Déploiement national sur 1 200 cibles (hypo 10 % consolidables) : 1,5 Md€/an dégagés.
+Personnel agences/opérateurs : 401 310 agents équivalents temps plein (PLF 2026). Budget agrégé : 73 Md€/an de financement public (PLF 2026, périmètre des 431 opérateurs). Fusion 5 agences santé + 3 agences enviro (test) : estimation 2 000 postes dédoublonnés sur 18 000 = 150 M€ économie brute année 1, + 50 M€ synergies systèmes. Audit rationalisation complet : 10 M€. Recouvrement trésorerie stérilisée : 2,5 Md€ une fois. Déploiement national sur 431 cibles (hypo 10 % consolidables) : 1,5 Md€/an dégagés.
 
 - ⚖️ **Faisabilité juridique :** Loi, décret, loi organique si restructure institutions ; Compétence normative ministères vs. agences ; Jurisprudence organisation administrative.
+
+**Mis à jour :** 2026-07-12
 
 ### P8. Crédits d'impôt jamais éteints : 474 niches fiscales, 85 milliards de zombies
 
@@ -88,16 +90,20 @@ Après la réforme CPF (2019), des centaines d'organismes de formation certifié
 
 **Simulation (ordres de grandeur)**
 
-Budget CPF + allocataires PEC + formations opco : 15 Md€/an environ (à confirmer). Taux non-achèvement formations CPF : 35-45 %. Taux chômage revenu 6 mois post-formation : 50-60 % (versus 35-40 % sans formation). Dysfonctionnement net : 5-7 Md€ sans ROI mesurable. Redevance d'évaluation : imposer audits de placement (3, 6, 12 mois post-formation) avant reconduction certification = 200 M€ audit/monitoring. Retrait 20 % des organismes défaillants : redéploiement 3 Md€ vers formations tutorées/métiers.
+Budget CPF + allocataires PEC + formations opco : 15 Md€/an environ (à confirmer). Taux non-achèvement formations CPF : 10-15 % (Ministère du Travail, données 2025-2026). Taux chômage revenu 6 mois post-formation : 50-60 % (versus 35-40 % sans formation). Dysfonctionnement net : 5-7 Md€ sans ROI mesurable. Redevance d'évaluation : imposer audits de placement (3, 6, 12 mois post-formation) avant reconduction certification = 200 M€ audit/monitoring. Retrait 20 % des organismes défaillants : redéploiement 3 Md€ vers formations tutorées/métiers.
 
 - ⚖️ **Faisabilité juridique :** Loi de refonte CPF, décret cahier charges Qualiopi ; Égalité accès formation, compétence État/partenaires ; Code du Travail, jurisprudence formation professionnelle.
 
+**Mis à jour :** 2026-07-12
+
 ### P10. Principe : toute subvention naît avec sa date de mort et son évaluation
 
-En Colombie-Britannique (Canada), les sunset clauses sont obligatoires : toute dépense créée nécessite une échéance d'extinction, renégociable. Aux Pays-Bas, les spending reviews obligatoires redéploient 5 % du budget public tous les 5 ans. Au Royaume-Uni, la barre d'entrée budgétaire impose « test de bénéfice net » avant création. La France : aucun de ces trois. Subventions reconduits par inertie, dépenses fiscales jamais éteintes, évaluations ponctuelles (pas systématiques).
+En Colombie-Britannique (Canada), les sunset clauses sont obligatoires : toute dépense créée nécessite une échéance d'extinction, renégociable. Aux Pays-Bas, les spending reviews obligatoires (IBOs) imposent depuis 1981, sur plus de 300 révisions menées, au moins une option d'économies de 10 à 20 % par programme révisé. Au Royaume-Uni, la barre d'entrée budgétaire impose « test de bénéfice net » avant création. La France : aucun de ces trois. Subventions reconduits par inertie, dépenses fiscales jamais éteintes, évaluations ponctuelles (pas systématiques).
 
 **Simulation (ordres de grandeur)**
 
 Budget aide/subvention/crédit d'impôt sans évaluation obligatoire : estimation basse 150 Md€/an (aides entreprise écartées). Coût administratif d'une evaluation rigoureuse (data-collecte, audit partenaire, résultat comparatif) : 100 K€ par dispositif moyen × 1 500 cibles = 150 M€/an. Économie structurelle si 8 % des aides réévaluées révèlent inefficacité : 12 Md€. Mise en place sunset clauses sur aides nouvelles (10 ans par défaut) : 0 cost administratif, + formation 500 agents budget : 2 M€. Gains année 1 : 12 Md€. Année 5+ : 20 Md€/an récurrents (consolidation rationalisation).
 
 - ⚖️ **Faisabilité juridique :** Loi organique LOLF, loi de finances ; Art. 40 Const., compétence initiative budgétaire ; Précédents Canada/Pays-Bas/UK sunset clauses.
+
+**Mis à jour :** 2026-07-12
