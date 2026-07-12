@@ -28,7 +28,7 @@
 
 ### P3. Certificats Économie Énergie (CEE) : fraude à deux milliards
 
-- **L'aberration (chiffrée, source) :** CEE financent rénovation via obligation fournisseur (10 Md€/an levés sur factures). Fraude estimée 20 50 % selon Cour des Comptes (vs 2 % déclaré avant 2022) : travaux inexistants, sous estimation diagnostique, marges intermédiaires illégales. Coût consommateurs 2023 : +164 €/an par ménage, dont 2 Md€ captured par «frais gestion» + marges pures. Non conformité documentée 8,7 39,4 % selon contrôles 2023. Sources : Cour Comptes rapport sept 2024, Sénat question 2024/06/303.
+- **L'aberration (chiffrée, source) :** CEE financent rénovation via obligation fournisseur (10 Md€/an levés sur factures). Le rapport Cour des Comptes de septembre 2024 documente une surévaluation d'au moins 30 % des économies d'énergie réelles, estimant que seul un tiers environ des certificats émis correspond à des économies effectivement vérifiées : travaux inexistants, sous estimation diagnostique, marges intermédiaires illégales. Coût consommateurs 2023 : +164 €/an par ménage, dont 2 Md€ captured par «frais gestion» + marges pures. Non conformité documentée 8,7 39,4 % selon contrôles 2023. Sources : Cour Comptes rapport sept 2024, Sénat question 2024/06/303.
 - **Pourquoi c'est illogique :** Mécanisme obligation légale sans vrai contrôle = fraude assuree. Entreprises intermédiaires (diagnostiqueurs, poseurs, fonds) capturent 15 % de la valeur facturée (2 Md€ en 2023). Pas incitation découpler rénov réelle de certificats papier. Pénalité pénale faible (poursuites < 5 cas/an).
 - **Piste A : Audit 100 % CEE + annulation fraude retrouvee.** Pour : Recouper ~1 Md€/an estimé fraude, baisse factures réelles. Contre : Coût audit énorme (500 M€), délai 3 5 ans, risque faillite petits intermédiaires légitimes.
 - **Piste B : Certificats « verts » transparents blockchain + traçabilité travaux réels obligatoire (photos, factures tiers).** Pour : Élimine marge intermédiaire ; chaîne vérifiable. Contre : Technologie coûte, formation requise, perte d'emplois intermédiaires (5000+ diagnostiqueurs).
@@ -37,6 +37,7 @@
 - ⚖️ **Faisabilité juridique :** CEE obligation UE via directive éco conception 2012/27 ; audit légal possible (gouvernance CRE), blockchain modifie responsabilité légale intermédiaires (risque procédure); crédit impôt remplace possible (parlement) si financement trouvé. Source : réglementation CEE CRE.
 - ⚖️ **À trancher :** Auditer fraude maintenant (coût court terme) ou accepter ~2 Md€/an perte éternelle ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P4. Chèque Énergie vs Boucliers tarifaires : saupoudrage vs ricochet
 
@@ -77,7 +78,7 @@
 ### P7. Fiscalité inversée : électricité décarbonée taxée 4 11 fois plus que gaz fossile
 
 - **L'aberration (chiffrée, source) :** 2025 2026 : accise électricité = 30,85 €/MWh households, gaz naturel = 16,39 €/MWh. Ratio = 1,88× (gaz moins taxé). Rapporté CO2 émis : nucléaire ~12 gCO2/kWh cycle vie (mines uranium, enrichissement, démantelement) vs gaz ~0,4 t CO2/MWh = accise électricité 30 €/(0.012 tCO2/MWh) = 2,5 k€/tCO2 (très haut) vs accise gaz 16 €/0.4 tCO2 = 40 €/tCO2 (bas). Inversion partiellement valide mais nucléaire n'est pas zéro CO2. Surcharge facture électrique par impôt : +100 € an/ménage vs gaz +30 €/an pour consommation identique tep. Source : Observatoire Électricité, Selectra, impots.gouv guide 2025 fiscalité énergies.
-- **Pourquoi c'est illogique :** Électricité bas carbone penalisée taxe > gaz haut carbone. Signal économique inverse : réglementairement incite clients rester gaz fossile (plus taxé élec = moins cher). Barrière écologique perverse. UE logiquement vise prix carbone 100 €/t CO2 d'ici 2030, mais France échoue (applique ~3 4 €/t effective via mix accise / CSPE).
+- **Pourquoi c'est illogique :** Électricité bas carbone penalisée taxe > gaz haut carbone. Signal économique inverse : réglementairement incite clients rester gaz fossile (plus taxé élec = moins cher). Barrière écologique perverse. le marché carbone UE cote déjà autour de 90€/t début 2026 et les consensus visent 126€/t ou plus d'ici 2030 (l'ancien objectif Quinet de 100€/t, datant de 2008, est dépassé), mais France échoue à appliquer un signal-prix cohérent à l'électricité (applique ~3 4 €/t effective via mix accise / CSPE).
 - **Piste A : Inversion : électricité accise = 10 €/MWh (baisse 65 %) ; gaz accise = 25 €/MWh (hausse 53 %) ; équivalent CO2 réel appliqué (~85 €/t CO2).** Pour : Signal prix juste (bascarbone moins cher), électrification chauffage/véhicule devient avantage économique; économie 120 150 €/an moy ménage électrique. Contre : Gaz clients + 90 €/an (oppo politique massif), risque pauvreté énergétique gaz 3M ménages chauffage gaz.
 - **Piste B : Mouton cinq étapes : redynamicage accise élec 30→25→20→15→10 €/MWh 2026 2030, gaz 16→18→20→22→25 €/MWh. Chèque énergie augmenté temporaire gaz +500 € années 1 2.** Pour : Transition progressive, amortit choc politique/pauvreté. Contre : Complexité annuelle budgétaire, fiscalité instable décourage investissement long terme (PAC, chauffage élec).
 - **Piste C : Accise unique énergétique (élec + gaz + fioul + bois fusionnes, taxe proportionnelle CO2 contenu).** Pour : Conceptuellement simple (1 taxe, 1 signal), décorrele fiscalité ressource (élimine absurdité élec taxée gaz). Contre : Administratif impossible (Linky / compteurs gaz / fioul = bases fiscales différentes), VATée risque (réforme TVA requise UE), délai 5 6 ans improbable.
@@ -85,6 +86,7 @@
 - ⚖️ **Faisabilité juridique :** Accise électricité/gaz : accises spécifiques UE (Directive 2003/96 mod 2023) ; France pouvoir souverain taux > minima UE. Piste A (inversion) légale décret (approbation parlement requis budget). Piste B (progression) possible loi finance annuelle. Piste C (accise unifiée) : impose harmonisation UE (unanimité 27), quasi-impossible 5 ans. Obstacle majeur Piste A : riposte industrie gaz + lobby.
 - ⚖️ **À trancher :** Corriger signal prix carbone maintenant (Piste A, choc immédiat) ou progression 5 ans ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P8. Fessenheim fermée : deal électoraliste à 4 milliards coût État
 
