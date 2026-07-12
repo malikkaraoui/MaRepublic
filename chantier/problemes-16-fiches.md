@@ -54,17 +54,18 @@
 - **Statut :** ⬜
 
 ### P6. Aidants familiaux : charge administrative + fatigue psychologique, reconnaissance manquante
-- **Le vécu (source) :** 3 à 5 millions aidants France. Aidants enfants autistes endureuse stress chronique, isolement (amis ne comprennent pas), réduction travail = perte revenus. Dossier MDPH (human assistance PCH) = 8 à 12 mois à compiler, médecin refusent certificats, administration demande preuves bénévolat = charge absurde. Mère rapporte : "on abandonne carrière, épuisement émotionnel, pas aide de CDAPH si enfant âge limite" (Cap Family, https://www.capfamily.fr/handicap-quotidien/la-fatigue-des-aidants-familiaux/).
+- **Le vécu (source) :** 8 à 11 millions d'aidants en France (DREES/CNSA, chiffres 2024-2025). Aidants enfants autistes endureuse stress chronique, isolement (amis ne comprennent pas), réduction travail = perte revenus. Dossier MDPH (human assistance PCH) = 8 à 12 mois à compiler, médecin refusent certificats, administration demande preuves bénévolat = charge absurde. Mère rapporte : "on abandonne carrière, épuisement émotionnel, pas aide de CDAPH si enfant âge limite" (Cap Family, https://www.capfamily.fr/handicap-quotidien/la-fatigue-des-aidants-familiaux/).
 - **Piste A : 🇫🇷 Congé rémunéré 1 an pour aidant reconnu.** Reconnaissance officielle : 1 j/mois ou 5 j/an rémunérés à même taux salaire, cotisations SSI gratuites (existe partiellement). **Pour :** revenus stables, respiration. **Contre :** coûts entreprises, turn-over.
 - **Piste B : 🇦🇹 Salaire direct aidant via PCH.** Aidant = employé de la personne handicapée, versement PCH direct à aidant (salaire +cotisations). Autriche modèle : 1 800 €/mois. **Pour :** dignité, légalité travail. **Contre :** charge impôt usager, relation employeur/employé complexe.
 - **Piste C : ⚡ Droit de décharge 1 semaine/mois SANS demande renouvelée.** Aidant = droit acquis à 1 semaine respiro/mois PRIS EN CHARGE 100 % (accueil de jour, internat temporaire, help domicile) AUTOMATIQUE. Zéro dossier MDPH. **Pour :** libertéaidant, charge mentale zéro. **Contre :** surcoût structures, capacité d'accueil limitée.
 - ⚖️ **Faisabilité juridique :** CASF L245-12 (PCH aide humaine) + code travail ; Art. 40 si droits auto (surcoût structures massif) ; CASF & Cap Family 2026.
-- **Simulation (ordres de grandeur) :** Congé rémunéré 1 an = 500-700 M€/an (5M aidants x 2k€ moyenne). Salaire direct PCH = 800 M€/an (responsabilité employeur). Décharge 1 sem/mois = 1,5-2 B€/an structures. Gagnants : 2-3M aidants reconnus. Mise en place 24 mois.
+- **Simulation (ordres de grandeur) :** Congé rémunéré 1 an = 1-1,5 B€/an (8-11M aidants, hypothèse basse de recours partiel x 2k€ moyenne). Salaire direct PCH = 800 M€/an (responsabilité employeur). Décharge 1 sem/mois = 1,5-2 B€/an structures. Gagnants : plusieurs millions d'aidants reconnus. Mise en place 24 mois.
 - ⚖️ **À trancher :** Rémunération aidant = reconnaissance ou précarité (CDI requis) ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P7. Carte Vitale obligatoire bloque accès aux médicaments sensibles
-- **Le vécu (source) :** Janvier 2024 : Carte Vitale obligation strikte pharmacie. Médicaments sensibles (opioïdes, antidiabétiques, produits >300 € TTC) = interdits sans carte physique (lien papier=plus valide). Patients attendent renouvellement carte, carte perdue, Ameli app ne suffit pas = refus délivrance. Fracture numérique : personne âgée sans app mobile = bloquée 2 mois (https://www.assurance-maladie.ameli.fr/presse/20250617-cp-tp-contre-cv).
+- **Le vécu (source) :** 17 juin 2025 : Carte Vitale obligation stricte en pharmacie. Médicaments sensibles (opioïdes, antidiabétiques, produits >300 € TTC) = interdits sans carte physique (lien papier=plus valide). Patients attendent renouvellement carte, carte perdue, Ameli app ne suffit pas = refus délivrance. Fracture numérique : personne âgée sans app mobile = bloquée 2 mois (https://www.assurance-maladie.ameli.fr/presse/20250617-cp-tp-contre-cv).
 - **Piste A : 🇫🇷 Accepter app Ameli + code SMS = équivalent carte.** Pharmacie reçoit code à SMS depuis app, valide versement sans physique. **Pour :** moderne, sécurisé (2FA). **Contre :** digital divide personnes âgées, SMS pas garanti réseau.
 - **Piste B : 🇪🇸 Papier de secours 15 jours.** Si perte/délai renouvellement, pharmacien imprime attestation papier temporaire (15 j) après justificatif Ameli téléphone. Valide 2024. **Pour :** accès d'urgence garanti. **Contre :** contrefaçon, coûts impression.
 - **Piste C : ⚡ Droits d'accès au médicament AVANT Carte Vitale.** Pharmacien accès directement base CPAM en ligne pour confirmer droits, Carte Vitale = bonus suivi. Obligation versement même sans carte si droits confirmés. **Pour :** zéro blocage. **Contre :** coûts serveurs, piratage données.
@@ -72,6 +73,7 @@
 - **Simulation (ordres de grandeur) :** App Ameli + SMS code = zéro surcoût marginal, déploiement 6 mois. Papier temporaire 15j = 5-10 M€ coûts impression. Accès direct base CPAM = 30-50 M€ infra. Gagnants : 500k+ patients en retard renouvellement. Délai urgence : 48h.
 - ⚖️ **À trancher :** Qui garantit accès en cas perte ? Délai renouvellement Carte Vitale tolérable ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P8. Remboursement kinésithérapie et dépassements d'honoraires : charge patiente inévitable
 - **Le vécu (source) :** ALD 100 % sur taux base remboursement kiné (ex : 18 €/séance). Kiné conventionné propose dépassement +30 % (24 €) pour "horaires étendus" ou "urgence non-médicale". Secu + mutuelle refusent dépassement. Forum Ameli : patient ALD dépense 100 €/mois de poche (40 séances/an x 2,50 €). Pour lombalgies chroniques = coûts 1 500 €/an invisibles (forum-assures.ameli.fr, https://forum-assures.ameli.fr/questions/1533518-kine-droit-faire-payer-depassement-honoraire-sachant-conventionne).
