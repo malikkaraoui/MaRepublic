@@ -8,7 +8,7 @@
 
 - **Le problème (France, 2016-2026) :** Densité carcérale de 136 % fin 2025 (86 229 détenus pour 63 613 places), dépassant 160 % dans les maisons d'arrêt. 6 440 matelas au sol en 2025. Hausse continue depuis 2016 : de ~67 000 détenus en 2016 à 86 000 en 2025. Surpopulation extrême génère violence, maladies, récidive accrue.
 
-- **Piste A, 🇳🇱 Pays-Bas (réduction pénale) :** Politique de dépénalisation depuis années 2000 : décriminalisation partielle drogue, mesures alternatives à l'incarcération (amende-travail). Résultat : densité <75 %. **Pour :** Réduction coûts, moins de violence carcérale, meilleure réinsertion. **Contre :** Perception de « laxisme », risque électoraliste, changement culturel long et contesté.
+- **Piste A, 🇳🇱 Pays-Bas (réduction pénale) :** Politique de dépénalisation depuis années 2000 : décriminalisation partielle drogue, mesures alternatives à l'incarcération (amende-travail). Résultat historique : densité descendue à 68 % en 2018, mais remontée depuis à 94-95 % en 2025 (le modèle s'est nettement dégradé ces dernières années). **Pour :** Réduction coûts, moins de violence carcérale, meilleure réinsertion. **Contre :** Perception de « laxisme », risque électoraliste, changement culturel long et contesté.
 
 - **Piste B, 🇵🇹 Portugal (déconfinement progressif) :** Vague de libérations contrôlées (2016-2020) + accélération sursis/bracelet. Densité descendue de 120 % à 95 %. **Pour :** Désengorgement rapide, réinsertion progressive, économies. **Contre :** Débat public intense, craintes sécurité (à confirmer impact réel sur récidive), stigmate politique.
 
@@ -21,6 +21,7 @@
 - ⚖️ **À trancher :** Quelle part dépénalisation vs construction vs alternatives ? Seuil de densité acceptable politiquement ? Crimes/délits graves : vraie différenciation ou rhétorique ?
 
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ---
 
@@ -104,9 +105,9 @@
 
 ---
 
-### P6. Récidive structurelle et échec insertion (45 % récidivent dans 5 ans)
+### P6. Récidive structurelle et échec insertion (62,9 % récidivent dans 5 ans)
 
-- **Le problème (France, 2016-2026) :** Taux récidive 45 % dans 5 ans, 60 % dedans 10 ans. Formation pénitentiaire : 30-40 % détenus suivent. Travail carcéral : 25-35 % détenu, salaire ~€3-5/jour (non viable sortie). Insertion post-libération chaotique : pas logement (30 %), pas emploi (60 %), pas psy suivi (80 %). Cycles : sortie → crise → retour (1-2 ans). Système coûte 3 Md€/an pour résultat médiocre.
+- **Le problème (France, 2016-2026) :** Taux récidive 62,9 % dans les 5 ans (ministère de la Justice) ; 45 % correspond en réalité à la récidive des 18-24 ans dans l'année suivant la libération, un chiffre bien plus alarmant qu'un simple recoupement à 5 ans. Formation pénitentiaire : 30-40 % détenus suivent. Travail carcéral : 25-35 % détenu, salaire moyen ~337 €/mois soit 16-17 €/jour (non viable sortie). Insertion post-libération chaotique : pas logement (30 %), pas emploi (60 %), pas psy suivi (80 %). Cycles : sortie → crise → retour (1-2 ans). Système coûte 3 Md€/an pour résultat médiocre.
 
 - **Piste A, 🇳🇴 Norvège (prison-réinsertion + suivi longterm) :** Formation 80 % détenus, travail salaire normal (50-60 % salaire marché), sortie progressive (maison semi-liberté). Suivi psy+social 2-3 ans post. Taux récidive 20 %. **Pour :** Dignité, autonomie réelle, efficacité prouvée. **Contre :** Coût 100-150 k€/détenu/an (vs 30-50 k€ France), impossible France budgétairement, électoralement « trop soft ».
 
@@ -121,6 +122,7 @@
 - ⚖️ **À trancher :** Prison=punition vs rédemption ? Salaire détenu=juste ou démagogie ? Responsabilité employeur insérer ou État ?
 
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ---
 
