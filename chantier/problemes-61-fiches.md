@@ -4,7 +4,7 @@
 
 ### P1. ARENH : électricité nucléaire française vendue aux concurrents à prix d'ami
 
-- **Le problème (France, 2002-2026) :** Mécanisme ARENH (Accès Régulé à l'Électricité Nucléaire Historique, Loi Macron 2015) : obligation pour EDF de vendre 120 TWh/an d'électricité nucléaire à prix cassé (49,50 €/MWh en 2024) à ses concurrents (Direct Énergie, Engie, etc.). Coûts EDF : ~80-90 €/MWh pour produire. Bilan CRE (Rapport 2023) : EDF perte structurelle ~8-12 Md€/an sur ARENH seul. Électricité nucléaire française (la moins chère d'Europe, 50-60 €/MWh production) redistribuée. Après 2025, risque de renouvellement ou renégociation imposée par Bruxelles. Prix européens spot 2023 : 150-200 €/MWh ; nucléaire français cédé à ~50 €/MWh = cadeau de ~4-6 Md€/an aux concurrents européens.
+- **Le problème (France, 2002-2026) :** Mécanisme ARENH (Accès Régulé à l'Électricité Nucléaire Historique, Loi Macron 2015) : obligation pour EDF de vendre 120 TWh/an d'électricité nucléaire à prix cassé (42 €/MWh en 2024, le tarif de 49,50 €/MWh n'ayant été qu'une proposition parlementaire d'août 2022 non adoptée par le Sénat ; le nouveau mécanisme négocié pour 2026 porte le prix à 70 €/MWh) à ses concurrents (Direct Énergie, Engie, etc.). Coûts EDF : ~80-90 €/MWh pour produire. Bilan CRE (Rapport 2023) : EDF perte structurelle ~8-12 Md€/an sur ARENH seul. Électricité nucléaire française (la moins chère d'Europe, 50-60 €/MWh production) redistribuée. Après 2025, risque de renouvellement ou renégociation imposée par Bruxelles. Prix européens spot 2023 : 150-200 €/MWh ; nucléaire français cédé à ~50 €/MWh = cadeau de ~4-6 Md€/an aux concurrents européens.
   - Source : CRE, Rapport Bilan ARENH 2023, https://www.cre.fr/documents/Bilans-des-mecanismes-de-soutien
   - Source : Cour des comptes, rapport nucléaire 2022, https://www.ccomptes.fr
   - Source : Arrêté tarifaire 2024, légifrance, https://www.legifrance.gouv.fr
@@ -40,6 +40,7 @@
   - EPR Flamanville (60 Md€ prévus) sera-t-il financé si EDF perd 10 Md€/an sur ARENH ? Où vient l'argent (État, dettes, réduction maintenance existant) ?
 
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-13
 
 ### P2. Autoroutes : concessions expirantes (2031-2036) et le bilan des années payantes
 
@@ -217,7 +218,7 @@
 
 ### P7. Barrages hydroélectriques : Bruxelles pousse ouverture concurrence (directive 2019/944)
 
-- **Le problème (France, 2016-2036) :** Barrages hydroélectriques : ~450 barrages, ~50 TWh/an production, gérés EDF + collectivités (1/3 public, 2/3 EDF). Directive UE 2019/944 (électricité) : obligation fin 2026 ouvrir accès barrages hydroélectriques à tiers producteurs (concurrence). France résiste depuis 2015 (transposition lente). EDF craint perte monopole hydro (~5-8 Md€/an revenus). Bruxelles repart offensive 2024-2025 : "services d'équilibre réseau" (barrages = stockage d'énergie crucial) doivent être marchéisés, pas monopole EDF. Bilan : si Bruxelles impose, barrages deviennent "marché", tiers producteurs concurrencent EDF ; prix électricité fluctue davantage, EDF perte contrôle stabilité.
+- **Le problème (France, 2016-2036) :** Barrages hydroélectriques : ~450 barrages, ~50 TWh/an production, gérés EDF + collectivités (1/3 public, 2/3 EDF). Directive UE 2019/944 (électricité) : deadline de transposition initiale au 31 décembre 2020 (transposée en France en mars 2021) ; une loi du 29 juin 2026 concrétise un accord UE de 2025 prévoyant la mise aux enchères de 40% des capacités hydroélectriques d'EDF en 2028, et non une ouverture unique fin 2026. France résiste depuis 2015 (transposition lente). EDF craint perte monopole hydro (~5-8 Md€/an revenus). Bruxelles repart offensive 2024-2025 : "services d'équilibre réseau" (barrages = stockage d'énergie crucial) doivent être marchéisés, pas monopole EDF. Bilan : si Bruxelles impose, barrages deviennent "marché", tiers producteurs concurrencent EDF ; prix électricité fluctue davantage, EDF perte contrôle stabilité.
   - Source : Directive UE 2019/944 Électricité, https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32019L0944
   - Source : EDF, bilan hydro 2023, https://www.edf.fr/documents-rapports
   - Source : Cour des comptes 2021, Rapport électricité, https://www.ccomptes.fr
@@ -249,6 +250,7 @@
   - Barrages hydro : bien français (patrimoine/souveraineté énergétique) ou resource EU commune (marché unique) ? Quelle dose souveraineté énergétique on échange pour intégration UE ?
 
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-13
 
 ### P8. Aéroports : ventes et concessionnaires : ADP tenté, Toulouse à fonds chinois
 
@@ -288,7 +290,7 @@
 
 ### P9. Données de santé : Health Data Hub chez Microsoft (nuage amérindien)
 
-- **Le problème (France, 2016-2026) :** Health Data Hub (HDH) : plateforme État (lancée 2019) centralisait données anonymisées patients france (~80 millions dossiers). Hébergement : Microsoft Azure (nuage américain, serveurs Europe/France sous jurisprudence US). Contrat HDH-Microsoft 2020-2025 : ~400 M€ investissements Microsoft, données France hébergées USA (cloud Azure, juridiction CCPA/Executive Order Américain). Affaires de sécurité 2022-2023 : crainte données santé accessibles via TikTok-Microsoft (accès capital investisseurs, lobbying géopolitique). Données santé : hautement sensibles (patients identifiables avec probabilité techniques ML). Loi Rist 2016 : données santé à rester France/UE (Article 82 Code sécurité sociale) ; Microsoft Azure = technically violates (serveurs US = transfert données) mais contrat "dérogation État" signé. Risque : données santé France instrument géopolitique, si conflit USA-France tensions. Perte souveraineté données santé = 1.5-2 Bd€ potentiels valeur (usage pharma, assurance, recherche).
+- **Le problème (France, 2016-2026) :** Health Data Hub (HDH) : plateforme État (lancée 2019) centralisait données anonymisées patients france (~80 millions dossiers). Hébergement : Microsoft Azure (nuage américain, serveurs Europe/France sous jurisprudence US). Contrat HDH-Microsoft 2020-2025 : ~400 M€ investissements Microsoft, données France hébergées USA (cloud Azure, juridiction CCPA/Executive Order Américain). En avril 2026, l'État a formellement choisi Scaleway (Iliad) pour remplacer Microsoft Azure sur l'hébergement du Health Data Hub, migration prévue fin 2026/début 2027 : la situation décrite ici est déjà en cours de résolution. Affaires de sécurité 2022-2023 : crainte données santé accessibles via TikTok-Microsoft (accès capital investisseurs, lobbying géopolitique). Données santé : hautement sensibles (patients identifiables avec probabilité techniques ML). Loi Rist 2016 : données santé à rester France/UE (Article 82 Code sécurité sociale) ; Microsoft Azure = technically violates (serveurs US = transfert données) mais contrat "dérogation État" signé. Risque : données santé France instrument géopolitique, si conflit USA-France tensions. Perte souveraineté données santé = 1.5-2 Bd€ potentiels valeur (usage pharma, assurance, recherche).
   - Source : Secrétariat Général Gouvernement, rapport HDH Microsoft 2020, https://www.gouvernement.fr
   - Source : CNIL, Rapport HDH conformité RGPD 2022, https://www.cnil.fr/documents
   - Source : Assemblée Nationale, rapport audit HDH (Commission Défense) 2022-2023, https://www.assemblee-nationale.fr
@@ -320,10 +322,11 @@
   - Données santé France : bien stratégique (souveraineté, sécurité) ou bien "cloud global" (efficacité externalisée) ? Confiance Microsoft/USA : fondée ou paranoia géopolitique ?
 
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-13
 
 ### P10. Brevets et startups tech : fuite capital-risque, rachat stratégiques étrangères
 
-- **Le problème (France, 2016-2026) :** France génère startups innovantes (IA, biotech, fintech) ; ~60-70% levées fonds priorité capital-risque USA/UK (coûts faibles capital France, retours supérieurs USA). Exemples : Doctolib (telemedecine, levées USA-Siemens Healthineers rachat 2024, ~900 M€ cédé USA via Allemagne), Mirakl (marketplace, fonds USA, rachat SoftBank 2024) ; Skynance (fintech, rachat Goldman Sachs 2023). Bilan : 1 500-2 000 startups France levées capital-risque 2015-2025 ; ~30-40% rachetées étrangères (USA 60%, Allemagne 15%, Chine 8%, autres). Fuite de potentiel technologique France : ~5-8 Bd€/an en valuations perdues (startups rachetées à bas prix avant "exit" maximal). Comparaison : Allemagne (80 Md€ capital-risque annuel), France (20 Md€ annuel) = France sous-capitalisée. Perte emploi haute-valeur (~50 000 ing. France vers USA/étrangère) = fuite intellectual capital.
+- **Le problème (France, 2016-2026) :** France génère startups innovantes (IA, biotech, fintech) ; ~60-70% levées fonds priorité capital-risque USA/UK (coûts faibles capital France, retours supérieurs USA). Les cas de rachat souvent cités (Doctolib par Siemens Healthineers, Mirakl par SoftBank, Skynance par Goldman Sachs) ne sont pas documentés et doivent être écartés : Doctolib reste indépendante, valorisée 6,5 Md$, et a elle-même acquis Typeless et Aaron.ai en 2024 ; Mirakl reste indépendante et a acquis Adspert en décembre 2024 ; aucune acquisition de Skynance par Goldman Sachs n'est documentée. Bilan : 1 500-2 000 startups France levées capital-risque 2015-2025 ; ~30-40% rachetées étrangères (USA 60%, Allemagne 15%, Chine 8%, autres). Fuite de potentiel technologique France : ~5-8 Bd€/an en valuations perdues (startups rachetées à bas prix avant "exit" maximal). Comparaison : Allemagne (80 Md€ capital-risque annuel), France (20 Md€ annuel) = France sous-capitalisée. Perte emploi haute-valeur (~50 000 ing. France vers USA/étrangère) = fuite intellectual capital.
   - Source : BpiFrance, Baromètre capital-risque 2023, https://www.bpifrance.fr/documents-et-rapports
   - Source : Eurostat, startups investissements VC par pays 2015-2025, https://ec.europa.eu/eurostat
   - Source : France Digitale, rapport startups France 2023, https://www.francedigitale.org
@@ -356,3 +359,4 @@
   - Souveraineté technologique : nécessaire (défense, IA) ou myth (tech global = pas frontière) ?
 
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-13
