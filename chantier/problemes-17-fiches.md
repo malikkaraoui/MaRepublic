@@ -82,9 +82,9 @@
 
 - **Statut :** ⬜
 
-### P6. Résiliation d'abonnement internet : frais asymétriques (50 à 69 euros), remboursement aléatoire
+### P6. Résiliation d'abonnement internet : frais asymétriques (60 à 69 euros), remboursement aléatoire
 
-- **Le vécu (source) :** Depuis 1er avril 2025, tous opérateurs appliquent frais résiliation : Orange 50€, Free/SFR 59€, Bouygues 69€. Remboursement possible chez prestataire suivant (100 à 150€), mais pas systématique et conditionné par offre. Free accepte résiliation sans frais dans délai 4 mois après notification modification, mais ce délai expire. (https://www.ariase.com/box/actualite/box-internet-decouvrez-le-montant-des-frais-de-resiliation-des-operateurs-et-comment-se-les-faire-rembourser)
+- **Le vécu (source) :** Depuis 1er avril 2025, tous opérateurs appliquent des frais de résiliation, revus depuis : Orange 60€ (relevé à ce niveau le 20 novembre 2025, contre 50€ à l'origine), Free/SFR 59€, Bouygues 69€. Remboursement possible chez prestataire suivant (100 à 150€), mais pas systématique et conditionné par offre. Free accepte résiliation sans frais dans délai 4 mois après notification modification, mais ce délai expire. (https://www.ariase.com/box/actualite/box-internet-decouvrez-le-montant-des-frais-de-resiliation-des-operateurs-et-comment-se-les-faire-rembourser)
 
 - **Piste A : 🇫🇷 Gel obligatoire tarif à changement :** Si opérateur augmente tarif, droit résiliation gratuite 3 mois. **Pour :** empêche pièges prix. **Contre :** opérateurs prétextent maintenance pour augmenter.
 
@@ -94,9 +94,10 @@
 
 - ⚖️ **Faisabilité juridique :** Décret 2012 résiliation (50-69€) + code postal/commerce ; Liberté tarifaire opérateurs (libre marché) + art. 40 si indemnité obligatoire ; Ariase & Code des postes.
 - **Simulation (ordres de grandeur) :** Gel tarif changement = ~10 M€ perte opérateurs (2M changements/an x 5€). Fonds portabilité 50€ = 100 M€/an reporté (mutualisé). Portabilité 7j zéro frais = ubérisation, perte revenue ~300-500 M€/an opérateurs. Gagnants : 2M+ clients change/an. Mise en place 12-24 mois (infrastructure).
-- ⚖️ **À trancher :** Comment justifier 50 à 69€ de coûts admin pour résiliation dans monde numérique ? Est-ce bien un coût technique ou un piège intentionnel ? Qui paie vraiment : nouveau client ou ancien client ?
+- ⚖️ **À trancher :** Comment justifier 60 à 69€ de coûts admin pour résiliation dans monde numérique ? Est-ce bien un coût technique ou un piège intentionnel ? Qui paie vraiment : nouveau client ou ancien client ?
 
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P7. Récupération points permis : stages 2 jours coûteux et tarifés librement (150 à 300 euros)
 
@@ -116,9 +117,9 @@
 
 ### P8. Amendes sans contact : vidéoverbalisation automatique, paiement sans recours préalable, asymétrie payement/contestation
 
-- **Le vécu (source) :** 200+ communes utilisent caméras vidéoverbalisation en 2026. Avis envoyé par courrier simple. Amendes 4e classe revalorisées +5% en 2026 (stationnement très gênant : 90€ minoré, 135€ forfait). Proposition loi adoptée : obligation payer FPS (forfait post-stationnement) avant de pouvoir contester, entrée vigueur juin 2026. (https://parkto.fr/blog/fps-2026-faut-il-payer-l-amende-de-stationnement-avant-de-la-contester)
+- **Le vécu (source) :** 200+ communes utilisent caméras vidéoverbalisation en 2026. Avis envoyé par courrier simple. Amendes 4e classe revalorisées +5% en 2026 (stationnement très gênant : 90€ minoré, 135€ forfait). Une proposition de loi (Labaronne) visant à imposer le paiement du FPS (forfait post-stationnement) avant toute contestation n'a jamais dépassé la première lecture (décembre 2023) et est devenue caduque à la dissolution de juin 2024 ; le Conseil constitutionnel avait déjà jugé une telle obligation contraire au droit à un recours effectif (décision n° 2020-855 QPC). En pratique, le vrai frein reste la lourdeur du recours administratif préalable obligatoire (RAPO), pas un paiement préalable. (https://parkto.fr/blog/fps-2026-faut-il-payer-l-amende-de-stationnement-avant-de-la-contester)
 
-- **Piste A : 🇫🇷 Droit de contester avant paiement :** Pouvoir contester en ligne avant règlement. Contention automatique si 45j sans réponse. **Pour :** équité processus. **Contre :** augmente contentieux administratif.
+- **Piste A : 🇫🇷 Simplifier le recours (RAPO) déjà garanti par la Constitution :** le droit de contester avant paiement existe déjà (Conseil constitutionnel, 2020), mais la procédure de recours administratif préalable reste lourde et méconnue ; la rendre contestable en ligne en un clic, avec réponse automatique sous 45 jours. **Pour :** équité processus, moins d'abandon de recours par lassitude. **Contre :** augmente contentieux administratif.
 
 - **Piste B : 🇫🇷 Géolocalisation de la contravention :** Photo horodatée et localisée jointe à PV. Citoyen peut contester facilement (lieu faux, véhicule pas le sien). **Pour :** preuve disponible. **Contre :** données publiques géolocalisation.
 
@@ -126,6 +127,7 @@
 
 - ⚖️ **Faisabilité juridique :** Code route R626 + CRPA L231 + CEDH art. 6 ; CEDH art. 6 (droit équitable) + art. 8 (géolocalisation données) + asymétrie procédurale ; Code route & CEDH jurisprudence.
 - **Simulation (ordres de grandeur) :** Droit contester avant paiement = +30 % contentieux administratif (1-1,5 M€ RH supplémentaires). Géolocalisation photo = 10-20 M€ infra (traces, stockage). Verbalisation humaine obligatoire = 200-300 M€ salaires agents supplémentaires. Gagnants : 2-3M+ verbalisés/an. Perte recette FPS : 100-200 M€ si moins d'amendes. Mise en place 12-24 mois.
-- ⚖️ **À trancher :** L'état dispose d'outil sans friction pour punir (caméra), mais impose friction maximale pour se défendre (paiement avant contestation). N'est-ce pas fondamentalement injuste ? Qui contrôle les caméras et fraudes de la machine ?
+- ⚖️ **À trancher :** L'état dispose d'outil sans friction pour punir (caméra), mais le recours reste une démarche méconnue et peu simple à exercer. N'est-ce pas fondamentalement déséquilibré ? Qui contrôle les caméras et fraudes de la machine ?
 
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
