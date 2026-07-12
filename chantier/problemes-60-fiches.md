@@ -107,7 +107,7 @@ Veux-tu réévaluations *douces* (8-10 ans) ou *dures* (2-3 ans) ? Impact élect
 ### P4. Impôts locaux illisibles : TEOM, GEMAPI, réseaux de chaleur
 
 **Constat :**
-Facture municipale : au-delà taxe foncière et habitation, usagers reçoivent TEOM (taxe enlèvement ordures ménagères), GEMAPI (gestion eaux/inondations), taxe eau, réseau chaleur, stationnement résidentiel. Aucune harmonisation nomenclature : chaque commune affiche montant différent pour même service. TEOM = 5% à 15% revenus locaux selon région. Un citoyen moyen ne sait pas ce qu'il paie. Rapport SNCF 2021 : 84% Français ignorent TEOM existence. Cour des comptes 2020 : variabilité géographique GEMAPI 10 à 1 (commune A = 12 €/hab, commune B = 120 €/hab, même niveau service). Zéro transparence tarifaire.
+Facture municipale : au-delà taxe foncière et habitation, usagers reçoivent TEOM (taxe enlèvement ordures ménagères), GEMAPI (gestion eaux/inondations), taxe eau, réseau chaleur, stationnement résidentiel. Aucune harmonisation nomenclature : chaque commune affiche montant différent pour même service. TEOM = 5% à 15% revenus locaux selon région. Un citoyen moyen ne sait pas ce qu'il paie (QueChoisir 2021 : seuls 51% des propriétaires et 31-35% des locataires connaissent la TEOM ; le chiffre "84% Français ignorent" et la source "Rapport SNCF 2021" sont introuvables, la SNCF n'ayant aucune compétence en fiscalité locale). Cour des comptes 2020 : variabilité géographique GEMAPI 10 à 1 (commune A = 12 €/hab, commune B = 120 €/hab, même niveau service). Zéro transparence tarifaire.
 
 Voir : https://www.ccomptes.fr/fr/publications/fiscalite-locale-et-services-municipaux
 
@@ -134,6 +134,7 @@ Voir : https://www.ccomptes.fr/fr/publications/fiscalite-locale-et-services-muni
 Accepte-t-on que barème national *contrarie* autonomie communes ? Ou laisse-t-on chacun fixer TEOM ad hoc (status quo confus) ? Réponse : compromis = minima nationaux + marges communes (5-10 points).
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
@@ -173,7 +174,7 @@ Veux-tu taux exact chaque mois (complexe IT) ou marge sécurité fixe (simpler m
 ### P6. Frais bancaires de succession : France paie plus que ses voisins
 
 **Constat :**
-À la mort d'une personne, compte bancaire gelé immédiatement par banque (protocole anti-fraude). Déblocage nécessite : acte de décès + documents administratifs (jugement succession, attestation hérédité si succession simple) + attestation droits héritiers. Frais banque : 150-400€ en France (frais de gestion succession 3-6 mois, frais déblocage tarif étudiant en droit), variable selon établissement. Comparaison UE : Allemagne = 0€ (à charge boîte notariale), Belgique = 50€ forfait, Espagne = gratuit (loi 2022). France = aucun cadre légal, chaque banque fixe ad hoc. Personnes âgées/veuves = choc coûteux quand plus besoin d'argent. Rapport Association Consommateurs 2022 : 200k réclamations/an sur frais succession.
+À la mort d'une personne, compte bancaire gelé immédiatement par banque (protocole anti-fraude). Déblocage nécessite : acte de décès + documents administratifs (jugement succession, attestation hérédité si succession simple) + attestation droits héritiers. Frais banque : 150-400€ en France (frais de gestion succession 3-6 mois, frais déblocage tarif étudiant en droit), variable selon établissement. Comparaison UE : Allemagne = 0€ (à charge boîte notariale), Belgique = 50€ forfait, Espagne = les banques peuvent toujours facturer une "comisión de testamentaría" (recommandations du Banco de España, pas de gratuité légale ; la loi de 2022 souvent citée porte sur une réforme fiscale des droits de succession, 99% d'abattement fiscal et 1M€ d'exonération, distincte des frais bancaires). France = aucun cadre légal, chaque banque fixe ad hoc. Personnes âgées/veuves = choc coûteux quand plus besoin d'argent. Rapport Association Consommateurs 2022 : 200k réclamations/an sur frais succession.
 
 Voir : https://www.economie.gouv.fr/files/files/directions_services/dgccrf/publications/dgccrf/2023-succession-banques.pdf
 
@@ -200,6 +201,7 @@ Voir : https://www.economie.gouv.fr/files/files/directions_services/dgccrf/publi
 Imposes-tu plafond dur (100€ = loi) ou recommandation + transparence (affichage obligatoire, usagers comparent) ? Hard = effet mais résistance secteur, soft = progressif mais lent.
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
