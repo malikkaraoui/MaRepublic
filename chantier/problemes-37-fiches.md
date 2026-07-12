@@ -239,7 +239,7 @@ Créer un « Chief Digital Officer » du ministère de la Justice, nommé 5 ans 
 
 **Le fiasco**
 
-ANEF (Administration Numérique pour les Étrangers en France) est le portail des étrangers en France pour les visas, titres de séjour, naturalisations. Lancé avec ambitions de dématérialisation, il s'est avéré truffé de dysfonctionnements: validations aléatoires, refus inexpliqués, perte de dossiers. Les étrangers perdaient leurs droits de séjour par impossibilité technique d'utiliser le service. En juin 2022, le Conseil d'État a partiellement annulé le décret fondateur, jugeant qu'aucune alternative n'était offerte aux citoyens face aux bugs. En mai 2026, le Conseil d'État ordonne au gouvernement de corriger 4 dysfonctionnements structurels: livraison automatique des certificats de prolongation, modification du dossier après soumission, fin des refus basés sur un document antérieur non retourné, accès garanti via alternatives numériques. Coût estimé du projet et sa maintenance: 100 millions (à confirmer) sur 15 ans. Valeur rendue aux usagers: quasi nulle; bilan humain: milliers de migrants en situation irrégulière de facto par bug informatique.
+ANEF (Administration Numérique pour les Étrangers en France) est le portail des étrangers en France pour les visas, titres de séjour, naturalisations. Lancé avec ambitions de dématérialisation, il s'est avéré truffé de dysfonctionnements: validations aléatoires, refus inexpliqués, perte de dossiers. Les étrangers perdaient leurs droits de séjour par impossibilité technique d'utiliser le service. En juin 2022, le Conseil d'État a partiellement annulé le décret fondateur, jugeant qu'aucune alternative n'était offerte aux citoyens face aux bugs. En mai 2026 (décision n° 502860 du 5 mai 2026), le Conseil d'État ordonne au gouvernement de corriger 7 dysfonctionnements structurels, dont : livraison automatique des certificats de prolongation, modification du dossier après soumission, fin des refus basés sur un document antérieur non retourné, accès garanti via alternatives numériques. Coût estimé du projet et sa maintenance: 100 millions (à confirmer) sur 15 ans. Valeur rendue aux usagers: quasi nulle; bilan humain: milliers de migrants en situation irrégulière de facto par bug informatique.
 
 **Pourquoi**
 
@@ -265,6 +265,8 @@ Complexe mais possible. Les étrangers dont les droits ont été niés par le bu
 Pour tout service public dématérisé, une obligation de SLA (Service Level Agreement) minimum 99,5 %; en cas de non respect, l'État rembourse 1 euro par usager par jour de downtime à un fonds de compensations. Pressionne les prestataires et protège les citoyens.
 
 **Statut** ⬜ En correction ; Conseil d'État impose réformes (mai 2026) ; nouvelle version prévue 2027.
+
+**Mis à jour :** 2026-07-12
 
 ---
 
@@ -297,7 +299,9 @@ Possible. L'État peut embaucher directement (CDI, statut public ou contractuel)
 
 Cap obligatoire: pour chaque ministère, min 30 % de l'enveloppe IT doit aller à des développeurs/IT interne (CDI ou stagiaires). Chaque année, le cap monte de 5 %. En 5 ans, 50 % interne minimum. Obligation de transfert de connaissance dans tout contrat externes > 1 million.
 
-**Statut** ⬜ En crise (2025-2026) ; le gouvernement a plafonné les contrats de conseil à 2 millions (juillet 2024) ; mesure fragmentaire, pas encore impactée.
+**Statut** ⬜ En crise (2025-2026) ; le gouvernement a plafonné les contrats de conseil à 2 millions (annoncé en juillet 2022, mis en œuvre à partir de 2023) ; mesure fragmentaire, pas encore impactée.
+
+**Mis à jour :** 2026-07-12
 
 ---
 
