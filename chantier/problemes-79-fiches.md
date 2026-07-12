@@ -92,7 +92,7 @@ Scénario 3 (caseworkers + allocation actuelle) : 20-25 millions euros/an en per
 
 ### P4. Traite des êtres humains : condamnations dérisoires face à l'ampleur
 
-**Constat :** MIPROF et ministère Intérieur estiment entre 40 000 et 60 000 victimes de traite en France chaque année, dont 70-80% liée à exploitation sexuelle. Condamnations relatives à traite (articles 225-4-1 à 225-4-8 Code pénal) : environ 200-300 par an, soit taux de poursuites estimé à moins de 1%. Montant moyen amende : 5 000-15 000 euros (Légifrance). Cas signalés formellement (parquet MIPROF) : environ 1 500-2 000 par an. Gangs organisés identifiés : 80-120 réseaux actifs (données DGPN 2023, à confirmer). Pays d'origine victimes : Roumanie, Bulgarie, Nigéria, Albanie (90% des signalements). Durée d'exploitation moyenne avant secours : 18-36 mois (rapports Gendarmerie, à confirmer).
+**Constat :** Les données officielles MIPROF montrent 7 285 victimes de traite identifiées en 2024 (6 022 en 2023), très loin des 40 000-60 000 parfois cités (aucune source officielle ne corrobore cette fourchette, qui confond probablement les victimes de traite identifiées avec le nombre de personnes en situation de prostitution, estimé à 30 000-40 000). Dont 70-80% liée à exploitation sexuelle. Condamnations relatives à traite (articles 225-4-1 à 225-4-8 Code pénal) : environ 200-300 par an, soit un taux de poursuites de l'ordre de 3-4% rapporté aux 7 285 victimes identifiées (2024), et non moins de 1% comme calculé à partir de la fourchette erronée de 40 000-60 000. Montant moyen amende : 5 000-15 000 euros (Légifrance). Cas signalés formellement (parquet MIPROF) : environ 1 500-2 000 par an. Gangs organisés identifiés : 80-120 réseaux actifs (données DGPN 2023, à confirmer). Pays d'origine victimes : Roumanie, Bulgarie, Nigéria, Albanie (90% des signalements). Durée d'exploitation moyenne avant secours : 18-36 mois (rapports Gendarmerie, à confirmer).
 
 Source : MIPROF, rapport annuel 2024 ; ministère de l'Intérieur, bilan criminalité 2023 ; Direction générale police nationale (DGPN), données opérationnelles ; Légifrance, jurisprudence traite.
 
@@ -117,12 +117,13 @@ Scénario 3 (opération coopération internationale + saisie) : 30-40 millions e
 ⚖️ **À trancher :** Investir davantage en preuves/poursuites complexes (long terme) ou redéployer vers prévention à la source et pression clients (plus rapide mais moins juridiquement solide) ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
 ### P5. Plateformes en ligne : vide juridique OnlyFans, escorting 2.0, mineurs
 
-**Constat :** Prolifération contenu sexuel payant via plateformes non-régulées : OnlyFans (2 millions utilisateurs France, à confirmer), sites escorting 2.0, Live.me, Jodel, Snapchat monétisé. Cadre juridique applicable : vide. Modération LCEN (Loi confiance numérique 2022) : obligations limitées aux contenus illégaux manifestes (pédophilie); rien sur exploitation d'adultes. Mineurs sur ces plateformes : estimé 5-15% des utilisateurs actifs (à confirmer, étude universitaire manquante). Cas découverts police : environ 200-300 mineurs/an exploités via ces canaux (données ministère Intérieur, à confirmer). Revenus creators escorting : 500-5 000 euros/mois en moyenne; quelques cas dépendance propriétaire plateforme. Paiements anonymes : Bitcoin/cryptomonnaies : 30-40% des flux (à confirmer).
+**Constat :** Prolifération contenu sexuel payant via plateformes non-régulées : OnlyFans (2 millions utilisateurs France, à confirmer), sites escorting 2.0, Live.me, Jodel, Snapchat monétisé. Cadre juridique applicable : vide. Modération LCEN (Loi pour la confiance dans l'économie numérique, loi n° 2004-575 du 21 juin 2004, et non 2022 comme parfois cité, bien qu'amendée depuis) : obligations limitées aux contenus illégaux manifestes (pédophilie); rien sur exploitation d'adultes. Mineurs sur ces plateformes : estimé 5-15% des utilisateurs actifs (à confirmer, étude universitaire manquante). Cas découverts police : environ 200-300 mineurs/an exploités via ces canaux (données ministère Intérieur, à confirmer). Revenus creators escorting : 500-5 000 euros/mois en moyenne; quelques cas dépendance propriétaire plateforme. Paiements anonymes : Bitcoin/cryptomonnaies : 30-40% des flux (à confirmer).
 
 Source : ministère Intérieur, données opérationnelles 2023 ; OnlyFans, chiffres publics (vs données non-publiques); LCEN (loi 21 juin 2004) et ses décrets applicables 2023-2024 ; étude exploitation en ligne (à confirmer, chercher rapports Think Tank numérique).
 
@@ -147,6 +148,7 @@ Scénario 3 (unité MIPROF-DGPN) : coût création : 3-5 millions euros/an en pe
 ⚖️ **À trancher :** Réglementer par la loi (fort, lent, risque inefficacité vs plateforme US) ou accepter modulation via pouvoirs police (rapide, moins démocratique, plus flexible) ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
@@ -186,7 +188,7 @@ Scénario 3 (dormitoires bas coût) : 50-100 millions euros investissement; 20-3
 
 A. Abolitionnisme "nordique" (Suède 1999): pénalise client+proxénète, dépénalise sex-worker. Résultats rapports officiels suédois (NVVU 2010, 2015, 2020) : traite externe baisse 30-50%; prostitution rue diminue 60%; prostitution en ligne ne décroît pas (new market). Effets traite sexuelle nationale : données conflictuelles. Acceptation publique : 70% en 2023. 
 
-B. Réglementarisme germanophone (Allemagne ProstSchG 2002, Pays-Bas depuis 1993) : pénalise traite+proxénétisme mais autorise achat-vente sexe consenti. Cadre : licence métier, inspection sanitaire régulière, prélèvement fiscal. Résultats rapports officiels allemands (BzgA 2015, 2020) et néerlandais (DSP, 2023) : traite interne stable/légère baisse; prostitution visible très réduite (formalisée); déclaration revenus sex-workers : 40-60%. Maladies STI : baisse contact médecin. 
+B. Réglementarisme germanophone (Allemagne : ProstG du 1er janvier 2002, remplacée par le ProstSchG du 1er juillet 2017 qui a introduit l'enregistrement obligatoire ; Pays-Bas : légalisation effective le 1er octobre 2000, et non 1993 où une première tentative législative d'abolir l'interdiction des bordels avait échoué) : pénalise traite+proxénétisme mais autorise achat-vente sexe consenti. Cadre : licence métier, inspection sanitaire régulière, prélèvement fiscal. Résultats rapports officiels allemands (BzgA 2015, 2020) et néerlandais (DSP, 2023) : traite interne stable/légère baisse; prostitution visible très réduite (formalisée); déclaration revenus sex-workers : 40-60%. Maladies STI : baisse contact médecin. 
 
 Comparaison : Suède tauxde traite/capita=0,1 victime/10 000; Allemagne=0,15 (données UNODC, à confirmer). Coûts publics : Suède, application loi 5-8 millions euros/an police; Allemagne, infrastructure régulation+insp. sanitaire 50-80 millions euros/an.
 
@@ -213,6 +215,7 @@ Scénario 3 (mixte français) : coût : 5-10 millions euros/an (gestion registre
 ⚖️ **À trancher :** S'aligner modèle suédois (valeurs partagées, coût bas, efficacité incertaine) ou tenter pivot allemand (coût, changement culturel massif, efficacité débattue) ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
