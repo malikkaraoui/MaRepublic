@@ -15,19 +15,21 @@
 - **Problème :** recyclage plastique faible ; déchets sauvages.
 - **Ça existe déjà :** 🇩🇪 Allemagne, **Pfand** : consigne sur bouteilles/canettes, taux de retour très élevé (~98 %) ; 🇳🇴 Norvège idem.
 - **Version France :** consigne nationale bouteilles/canettes (retour en magasin).
-- ⚖️ **Faisabilité juridique :** Loi ordinaire ; Directive UE 2024/2863 (emballages) impose harmonisation minimale, restrictions possibles ; friction attendue droit UE marché intérieur ; Allemagne/Norvège (Pfand, taux ~98 %).
+- ⚖️ **Faisabilité juridique :** Loi ordinaire ; Règlement (UE) 2025/40 (PPWR, emballages) impose harmonisation minimale, restrictions possibles ; friction attendue droit UE marché intérieur ; Allemagne/Norvège (Pfand, taux ~98 %).
 - **Simulation (ordres de grandeur) :** Consigne 5-10 c€ bouteille/canette = infrastructure 500-1k points retour (50-100 M€). Taux retour 95-98 % = déchets sauvages -70 %. Coûts filière tri ajustement -200-300 M€/an (moins recyclage perte). Gagnants : environnement, approvisionnement matière. Perte : opérateurs tri. Mise en place 18-24 mois.
 - ⚖️ **À trancher :** périmètre ; friction avec la filière tri actuelle.
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### E3. Énergie citoyenne (coopératives locales)
 - **Problème :** projets ENR subis, rejetés localement, profits captés ailleurs.
 - **Ça existe déjà :** 🇩🇰 Danemark, une grande part de l'éolien appartient à des **coopératives locales** ; acceptation forte car les habitants sont propriétaires.
 - **Version France :** priorité aux projets ENR à propriété/retombées locales (coopératives, communes).
-- ⚖️ **Faisabilité juridique :** Loi ordinaire ou décret (si incitation) ; Directive RED IV 2023/2001 (énergies renouvelables), marché intérieur UE limite discriminations locales ; compatible si pas d'interdiction concurrence ; Danemark (part coopératives forte).
+- ⚖️ **Faisabilité juridique :** Loi ordinaire ou décret (si incitation) ; Directive RED III (UE) 2023/2413 (énergies renouvelables, en vigueur depuis novembre 2023), marché intérieur UE limite discriminations locales ; compatible si pas d'interdiction concurrence ; Danemark (part coopératives forte).
 - **Simulation (ordres de grandeur) :** Réserve 20-30 % ENR pour coopératives = gain local +2-3 B€/an revenus. Acceptation projets +70 % (propriété locale). Coûts financement citoyen = -30 % emprunts (auto-financement). Gagnants : 5-10M citoyens propriétaires énergies. Délai : 18-24 mois (cadre).
 - ⚖️ **À trancher :** part réservée au citoyen/commune ; articulation avec le nucléaire (cf. Axe 4 A1).
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### E4. Bonus réparation + droit à réparer
 - **Problème :** obsolescence ; réparer coûte plus cher que jeter.
@@ -42,10 +44,11 @@
 - **Problème :** sécheresses ; ~1 L sur 5 perdu dans les réseaux ; eaux usées non réutilisées.
 - **Ça existe déjà :** 🇮🇱 Israël, réutilisation de la grande majorité des eaux usées (agriculture) + dessalement ; réseaux très surveillés.
 - **Version France :** plan réutilisation des eaux usées + rénovation des réseaux fuyards.
-- ⚖️ **Faisabilité juridique :** Loi ordinaire (eau = service public régalien) ; Directive UE 2023/2037 (eaux réutilisées) définit normes qualité, critères élligibilité ; eau compétence mixte État-collectivités ; Israël (~90 % eaux usées réutilisées).
+- ⚖️ **Faisabilité juridique :** Loi ordinaire (eau = service public régalien) ; Règlement (UE) 2020/741 (réutilisation des eaux, en vigueur depuis juin 2023) définit normes qualité, critères d'éligibilité ; eau compétence mixte État-collectivités ; Israël (~90 % eaux usées réutilisées).
 - **Simulation (ordres de grandeur) :** Réseaux réutilisation eaux = 5-8 B€ infra. Rénovation fuites -1 L/5 = gain 1-1,5 B€/an (eau économisée). Stations traitement = 1-2 B€. Gagnants : sécheresse résilience +50 %, agriculture. Perte : coûts investissement lourd. Mise en place 24-36 mois.
 - ⚖️ **À trancher :** priorité agricole/industrielle ; financement des réseaux.
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### E6. Reforestation / paiement des services écologiques
 - **Problème :** biodiversité en recul ; pas de rémunération pour préserver.
