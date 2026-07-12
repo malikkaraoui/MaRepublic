@@ -53,14 +53,15 @@
 - **Statut :** ⬜
 
 ### P6. Bouclier fiscal passé et avatars : plafonnement IFI en discrètement
-- **Le montage/l'aberration (chiffrée, source) :** Bouclier fiscal 2000-2012 : cap impôts à 85% des revenus (IR+ISF). Supprimé par Hollande 2012 mais remplacé : 2013 ISF plafond 60% revenus ; 2017 ISF remplacé IFI (immobilier seul, exclut placements financiers). IFI 2026 : plafond 60% revenus, déduction 300k€ sur première résidence. Coût : ~5-7 milliards€/an (à confirmer). https://bofip.impots.gouv.fr/bofip/5590-PGP.html (à consulter pour IFI) ; historique bouclier fiscal wikipedia.
-- **Pourquoi c'est illogique :** Plafonner impôt revient à donner crédit d'impôt progressif aux ultra-riches. Si paiement IFI >60% revenus, on vous rend différence. Scénario : millionnaire paye 100k€ IFI mais revenu 150k€ = 66% = trop : remboursement 10k€. Transfert trésor vers ultra-riches.
-- **Piste A : Supprimer plafond 60% IFI :** Impôt sans limite. **Pour :** clarté, logique progressive. **Contre :** risque exode, UE peut contester (Autriche, Allemagne abandonnérent ISF pour mobilité capital).
-- **Piste B : Abaisser plafond 60% à 40%, augmenter IS sur revenus patrimoines :** Deux leviers. **Pour :** combine. **Contre :** plus complexe à passer politiquement.
+- **Le montage/l'aberration (chiffrée, source) :** Bouclier fiscal 2000-2012 : cap impôts à 85% des revenus (IR+ISF). Supprimé par Hollande 2012 mais remplacé : 2013 ISF plafond 60% revenus ; 2017 ISF remplacé IFI (immobilier seul, exclut placements financiers). IFI 2026 : plafond 75% des revenus nets imposables (depuis 2017), déduction 300k€ sur première résidence. Coût : ~5-7 milliards€/an (à confirmer). https://bofip.impots.gouv.fr/bofip/5590-PGP.html (à consulter pour IFI) ; historique bouclier fiscal wikipedia.
+- **Pourquoi c'est illogique :** Plafonner impôt revient à donner crédit d'impôt progressif aux ultra-riches. Si paiement IFI >75% revenus, on vous rend différence. Scénario : millionnaire paye 100k€ IFI mais revenu 120k€ = 83% = trop : remboursement partiel. Transfert trésor vers ultra-riches.
+- **Piste A : Supprimer plafond 75% IFI :** Impôt sans limite. **Pour :** clarté, logique progressive. **Contre :** risque exode, UE peut contester (Autriche, Allemagne abandonnérent ISF pour mobilité capital).
+- **Piste B : Abaisser plafond 75% à 40%, augmenter IS sur revenus patrimoines :** Deux leviers. **Pour :** combine. **Contre :** plus complexe à passer politiquement.
 - **Piste C : Revoir assiette IFI, intégrer actifs financiers comme avant ISF :** Revenir assise large. **Pour :** récapture holdings, véhicules interposés. **Contre :** complexité évaluation Rolex, crypto, tableaux.
 - ⚖️ **Faisabilité juridique :** Supprimer plafond : loi fiscale ordinaire mais CJUE risque (jurisprudence liberté établissement). Abaisser plafond : même. Revoir assiette : loi ordinaire, mais nécessite revoir décrets d'application (complexe).
 - ⚖️ **À trancher :** Accepter cohabitation IFI + remboursement plafond ? Ou clarifier exigibilité impôt ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ## Notes de révision
 
@@ -81,11 +82,12 @@
 - **Le montage/l'aberration (chiffrée, source) :** Groupe multinational français filiale Luxembourg fixe prix transfert produits/services entre France/LUX : facture gonflée, profit France baisse, profit LUX hausse (taux réduit). Exemple : maison-mère France fabrique pour 10€, vend filiale LUX 20€, filiale revend marché 25€. France : -10€ revenu, LUX : +15€. Coût fiscal France : ~3 milliards€/an (à confirmer, OCDE base erosion 2023). https://www.ocde.org (à consulter rapport BEPS 2023, non complet dans recherche) (à confirmer).
 - **Pourquoi c'est illogique :** Même groupe, même produit, deux prix = arbitrage profit. Légal si "prix normal marché" (arm's length) mais preuve lourd pour Bercy vs multinationale. Richesse création France échappe à France.
 - **Piste A : Renforcer contrôle Bercy prix transfert (audit massif) :** Ressources inspecteurs +50%. **Pour :** existant, légal. **Contre :** coûteux, délai revendicatif 5-10 ans.
-- **Piste B : Impôt minimum global 25% OCDE/pilier 2 (déjà en cours 2024) :** Tous pays imposent au minimum 25% revenus globaux groupes >750M€ chiffre. **Pour :** coordination monde. **Contre :** possible exemptions, phase 2027 seulement (à confirmer).
+- **Piste B : Impôt minimum global 15% OCDE/pilier 2 (déjà en cours, taux transitoire français 16% en 2025, 17% en 2026) :** Tous pays imposent au minimum 15% revenus globaux groupes >750M€ chiffre. **Pour :** coordination monde. **Contre :** possible exemptions, phase 2027 seulement (à confirmer).
 - **Piste C : Imposition forfaitaire royalties/licensing intragroupes :** 15% minimum sur redevances sortantes France. **Pour :** coupe montage immédiat. **Contre :** droit UE peut contesté (liberté mouvements capitaux).
 - ⚖️ **Faisabilité juridique :** Audit renforcé : administratif, juste ressources. Pilier 2 OCDE : France signataire, incorporation en cours (à confirmer 2026/2027). Royalties forfaitaires : loi ordinaire possible mais CJUE risqué.
 - ⚖️ **À trancher :** Attendre OCDE ou agir unilateral France ? Risque réciprocité US sur groupes US en France ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P9. Exit tax rabotée 2019 : incitation douce à l'exil fiscal
 - **Le montage/l'aberration (chiffrée, source) :** Exit tax avant 2019 : si quittez France résident 6+ ans avec titres >800k€, vous payes impôt sur plus-values latentes avant de partir. En 2019 (loi budget), holding periods raccourcis : 2 ans si valeur <2.57M€, 5 ans si >2.57M€. Effet : avant, quasi-impossible exil trop coûteux ; après, viable en 2-5 ans. Coût fiscal : ~200-400M€/an (à confirmer). https://www.richelieu-international.com/exit-tax/
