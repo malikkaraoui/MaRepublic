@@ -65,12 +65,13 @@
 ### P7. Prime d'activité vs. RSA activité (2015-2016)
 
 * **La promesse :** Fusionner PPE + RSA activité en prime d'activité ; lever barrière incitation travail ; soutien revenu modestes.
-* **Le bilan (sources) :** Budget 2016 : 4,5 Mds€ (vs. 3,95 M PPE+RSA-activité 2015). Couverture : ~2,3M bénéficiaires. Effet PPE/RSA-activité antérieurs : très faible (évaluations RMI/PPE : emploi marginal). Prime d'activité : évaluation incitative pas possible (trop jeune en 2015). Montant moyen bas = peu incitatif (€50-100/mois beaucoup cas). [OFCE brief 2018](https://www.ofce.sciences-po.fr/pdf/pbrief/2018/OFCEpbrief37.pdf) [Persée](https://www.persee.fr/doc/caf_2431-4501_2015_num_121_1_3141)
+* **Le bilan (sources) :** Budget 2016 : 4,5 Mds€ (vs. 3,95 M PPE+RSA-activité 2015). Couverture : ~2,3M bénéficiaires. Effet PPE/RSA-activité antérieurs : très faible (évaluations RMI/PPE : emploi marginal). Prime d'activité : évaluation incitative pas possible (trop jeune en 2015). Montant moyen effectivement modeste (170€ en 2015, 158€ en 2016) au regard des cotisations/démarches engagées, ce qui limite l'effet incitatif malgré un montant supérieur aux €50-100/mois parfois cités à tort. [OFCE brief 2018](https://www.ofce.sciences-po.fr/pdf/pbrief/2018/OFCEpbrief37.pdf) [Persée](https://www.persee.fr/doc/caf_2431-4501_2015_num_121_1_3141)
 * **Verdict proposé : AMENDER** : allocation fusionnée logique mais montants insuffisants pour effet emploi visible ; pas d'accompagnement formation/placement ; effet statistique masqué volatilité revenus travailleurs précaires.
 * **Piste de remplacement/amendement : Prime d'activité renforcée + accompagnement** : Augmenter montant max +30% (€200-250/mois cibles) ; lier à parcours formation 10h/trimestre minimum ou accès formation numérique ; guichet unique allocation + conseil emploi/formation obligatoire. Évaluation intensive 2 ans sur 50k volontaires.
 * ⚖️ **Faisabilité juridique :** Loi financement Sécu ; coût additionnel ~1 Mds€ à financer (CSG +0,1% possible). Obstacle : débat charge fiscale. [LFSS](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000040318022)
 * ⚖️ **À trancher :** Montant « universel de base » ou ciblé secteurs ? Formation obligatoire ou optionnelle ?
 * **Statut :** ⬜
+* **Mis à jour :** 2026-07-12
 
 ### P8. Emplois aidés successifs (1990s onwards: CIE, CAE, CUI, etc.)
 
