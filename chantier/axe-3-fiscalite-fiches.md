@@ -2,14 +2,15 @@
 
 > BROUILLON non validé. Tri : ✅ garde · ✂️ jette · ✏️ modifie. Chiffres à sourcer au moment de figer.
 
-### F1. Déclaration d'impôt en quelques minutes
-- **Problème :** système complexe, niches illisibles, temps perdu.
-- **Ça existe déjà :** 🇪🇪 Estonie, déclaration pré-remplie validée en quelques minutes en ligne ; fiscalité très simple.
-- **Version France :** simplification radicale, pré-remplissage total, moins de niches.
-- ⚖️ **Faisabilité juridique :** Loi ordinaire (code général impôts) ; pas d'obstacle majeur identifié.
-- **Simulation (ordres de grandeur) :** Simplification radicale = zéro surcoût infrastructure (modèle Estonie). Pré-remplissage 100 % = 10-20 M€ infra Bercy. Suppression niches = débat politique (aides touchées). Gagnants : 40M+ contribuables (temps -30 min/déclaration). Mise en place 18-24 mois.
-- ⚖️ **À trancher :** quelles niches supprimer ; jusqu'où simplifier.
+### F1. Déclaration d'impôt : de la case au dialogue
+- **Problème :** la complexité n'est pas dans le calcul, déjà largement automatisé, elle est dans le placement : savoir dans quelle case range chaque situation de vie (divorce en cours, naissance à venir, perte d'emploi, crédit d'impôt recherche, fermeture de société, achat d'œuvre d'art, actions détenues à l'étranger, crypto-actifs).
+- **Ça existe déjà :** France, déclaration automatique (tacite) depuis 2020 pour les foyers aux revenus déjà connus (DSN, pensions) ; agents publics (fonctionnaires, notamment hospitaliers) bénéficient d'un pré-remplissage employeur plus poussé. 🇪🇪 Estonie, dialogue quasi inexistant : le système précalcule, le citoyen valide en quelques minutes.
+- **Version France :** ne pas simplifier le formulaire (moins de cases), connecter chaque case à un agent IA spécialisé (API/MCP) formé au droit fiscal. Le citoyen décrit sa situation en langage naturel dès qu'il bute, l'agent identifie la bonne case et pré-remplit avec justification affichée. Le citoyen valide ou corrige avant transmission : la responsabilité finale reste toujours au citoyen.
+- ⚖️ **Faisabilité juridique :** Loi ordinaire (code général impôts) pour le principe ; le fait que l'agent propose et le citoyen valide évite la question de responsabilité déléguée à l'IA.
+- **Simulation (ordres de grandeur) :** à refaire, l'estimation 10-20 M€ infra Bercy sous-estimait probablement le coût d'un agent conversationnel entraîné au droit fiscal face à un simple moteur de pré-remplissage.
+- ⚖️ **À trancher :** qui entraîne/héberge l'agent (Bercy en interne vs prestataire) ; niveau d'automatisation par défaut (silence = validation tacite comme aujourd'hui, ou validation active requise) ; couverture des niches à garder.
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### F2. Taxe carbone intégralement redistribuée (dividende citoyen)
 - **Problème :** la fiscalité écolo est vécue comme punitive (gilets jaunes).
