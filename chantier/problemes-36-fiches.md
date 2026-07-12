@@ -80,11 +80,11 @@ Logique d'optimisation à court terme des années 1980/2000 : rentabilité finan
 
 **Simulation (ordres de grandeur)**
 
-Cas : réouverture ligne Nantes/Angers (130 km, fermée 1990).
+Cas illustratif : renforcement de capacité sur l'axe Nantes-Angers (130 km, ligne TER/Intercités déjà active, non fermée, corrigeant une confusion avec la ligne Nantes-Châteaubriant, elle réellement fermée en 1980 et rouverte en 2014, un précédent qui montre qu'une réouverture est faisable).
 
-- Trafic potentiel : 3 M voyageurs/an (données régionales comparables) ; 15 000 tonnes fret/an.
+- Trafic potentiel additionnel captable : 3 M voyageurs/an (données régionales comparables) ; 15 000 tonnes fret/an.
 - Bouchons Angers/Nantes actuels : 90 M€/an coûts (étude INRIX locale).
-- Réouverture coûts : 600 M€ investissement (20 ans amortissement = 30 M€/an) ; 50 M€/an exploitation.
+- Renforcement (fréquences, matériel, capacité voie) : 600 M€ investissement (20 ans amortissement = 30 M€/an) ; 50 M€/an exploitation.
 - Bénéfice congestion détournée : 50 % trafic local vers rail = 45 M€/an économisé.
 - Compte net annuel : -35 M€ (subsidie via usagers-contributeurs route, net positif socialement si valeur bouchons > 65 M€/an).
 
@@ -100,6 +100,7 @@ Réouverture : compétence régionale + État. Contrats TER/DSP existent (Nouvel
 - Critères sélection : seuil saturation routière incompressible accepté ?
 
 **Statut ⬜**
+**Mis à jour :** 2026-07-12
 
 BROUILLON. Données : SNCF Réseau, Oxfam France, INRIX.
 
@@ -131,7 +132,7 @@ Politiques de stabilité horaire simple : un train chaque heure, même densité,
 
 **Simulation (ordres de grandeur)**
 
-Réseau TER national : 12 000 trains/jour, facteur charge moyen 38 %. Hypothèse : 40 % des trajets creuses, 60 % au service pointe.
+Réseau TER national : 5 700 trains/jour (SNCF), ~800 000 voyageurs/jour, facteur charge moyen 38 %. Hypothèse : 40 % des trajets creuses, 60 % au service pointe.
 
 - Scénario surge pricing : +15 % réservations heures creuses (captation inertie), -5 % pointe (report à hors-pointe), revenu net +40 M€/an, émissions coupées 3 %.
 - Scénario compression : Réduction 20 % trains creux (500 trains/jour), maintien pointe, économie carburant 150 M€/an, investissement ramenage 200 M€ (amorti 2 ans).
@@ -148,16 +149,17 @@ Surge pricing TER : compétence régionale (contrats DSP), implémentable sans l
 - Investir infra pour doublement pointe ou accepter surcharge ?
 
 **Statut ⬜**
+**Mis à jour :** 2026-07-12
 
 BROUILLON. Données : SNCF Mobilités, hypothèses d'optimisation (à confirmer).
 
 ---
 
-### P4. Fret ferroviaire effondré : 18 % (2000) vers 9 % (2024)
+### P4. Fret ferroviaire effondré : 17 % (2000) vers 9 % (2024)
 
 **L'aberration**
 
-Part modale fret rail divisée par deux en 24 ans (18 % à 9 %). Un train de fret consomme 6 fois moins d'énergie, émet 9 fois moins de CO2 qu'un camion. Pourtant : fret routier déplace le fret rail tandis que routes se dégradent (coûts non versés aux routiers, subventionnés de facto par infrastructure).
+Part modale fret rail quasiment divisée par deux en 24 ans (17 % à 9 %, contre 20 % encore en 1990 ; l'objectif stratégique 2030 vise un retour à 18 %). Un train de fret consomme 6 fois moins d'énergie, émet 9 fois moins de CO2 qu'un camion. Pourtant : fret routier déplace le fret rail tandis que routes se dégradent (coûts non versés aux routiers, subventionnés de facto par infrastructure).
 
 **Pourquoi**
 
@@ -201,6 +203,7 @@ Alternative subvention : 50€/tonne supplémentaires = 2,6 Md€/an pour 52 Mt,
 - Rythme transition : 2030 ou 2040 pour cible 18 % ?
 
 **Statut ⬜**
+**Mis à jour :** 2026-07-12
 
 BROUILLON. Données : SNCF, Transports & Environment, hypothèses transfert modal (à confirmer quantification).
 
@@ -314,7 +317,7 @@ BROUILLON. Données : Île-de-France Mobilités, Mieux se Déplacer à Bicyclett
 
 **L'aberration**
 
-Zones à faibles émissions (ZFE) interdisent voitures pré-2015 dans 15 villes françaises (Lyon, Paris, Grenoble, Strasbourg, etc.). Problème : pauvres roulent vieilles voitures (financer neuve = impossible 25 k€ crédit). Transports alternatifs (bus, train régional) insuffisants ou chers. Résultat : pauvres verrouillés hors centre-ville, emplois inaccessibles, 50 k€ de perte annuelle estimée par ménage exclu.
+Zones à faibles émissions (ZFE) interdisent voitures pré-2015 dans 11 métropoles françaises avec restrictions actives et verbalisation en 2026 (Paris, Lyon, Marseille, Toulouse, Nice, Montpellier, Strasbourg, Grenoble, Rouen, Reims, Saint-Étienne), sur un total de 42-43 agglomérations concernées à des degrés divers. Problème : pauvres roulent vieilles voitures (financer neuve = impossible 25 k€ crédit). Transports alternatifs (bus, train régional) insuffisants ou chers. Résultat : pauvres verrouillés hors centre-ville, emplois inaccessibles, 50 k€ de perte annuelle estimée par ménage exclu.
 
 **Pourquoi**
 
@@ -336,7 +339,7 @@ Politique anti-pollution rapide : objectif air pur sans redistribution. Auto-cen
 
 **Simulation (ordres de grandeur)**
 
-ZFE 15 villes : 2,5 M ménages touchés, estimé 300 k ménages bas-revenu impossibilité. Parc automobile moyenne 180 k€ par parc.
+ZFE (11 métropoles actives, jusqu'à 42-43 agglomérations concernées) : 2,5 M ménages touchés, estimé 300 k ménages bas-revenu impossibilité. Parc automobile moyenne 180 k€ par parc.
 
 Chèque électrique 15 k€ :
 - Coût : 300 k x 15 k€ = 4,5 Md€ total (450 M€/an x 10).
@@ -360,6 +363,7 @@ ZFE : obligatoires loi LOM (2019). Chèque électrique : crédit d'impôt possib
 - Délais ZFE : accélerer ou assouplir calendrier ?
 
 **Statut ⬜**
+**Mis à jour :** 2026-07-12
 
 BROUILLON. Données : Basta Media, La Grande Conversation, étude Île-de-France (à confirmer chiffres pauvreté).
 
