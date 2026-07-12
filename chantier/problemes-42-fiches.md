@@ -284,7 +284,7 @@ Indépendance des autorités = synonyme d'invisibilité budgétaire ? Comment au
 
 **Le constat chiffré+URL**
 
-AFM 2024 : 5845 euros mensuels députés (augmentée janvier 2024 de +300 euros). [https://www.assemblee-nationale.fr/dyn/deontologie/fiches-pratiques/frais-de-mandat](https://www.assemblee-nationale.fr/dyn/deontologie/fiches-pratiques/frais-de-mandat) Sénateurs : 6600 euros mensuels (novembre 2023 +700 euros). [https://www.publicsenat.fr/actualites/parlementaire/comment-fonctionne-lavance-de-frais-de-mandats-des-senateurs](https://www.publicsenat.fr/actualites/parlementaire/comment-fonctionne-l-avance-de-frais-de-mandats-des-senateurs) Total annuel pour 925 parlementaires : 64,9 millions euros avancé sans justificatif systématique. Contrôle : tirage au sort, audit aléatoire du Déontologue, au moins 1 fois par législature. [https://contribuablesassocies.org/2025/05/09/abus-de-frais-de-mandat-parlementaire-des-sanctions-pour-deux-deputes/](https://contribuablesassocies.org/2025/05/09/abus-de-frais-de-mandat-parlementaire-des-sanctions-pour-deux-deputes/) Deux députés sanctionnés 2025 pour abus, mais rares.
+AFM 2024 : 5845 euros mensuels députés (augmentée janvier 2024 de +300 euros). [https://www.assemblee-nationale.fr/dyn/deontologie/fiches-pratiques/frais-de-mandat](https://www.assemblee-nationale.fr/dyn/deontologie/fiches-pratiques/frais-de-mandat) Sénateurs : 6600 euros mensuels (novembre 2023 +700 euros). [https://www.publicsenat.fr/actualites/parlementaire/comment-fonctionne-lavance-de-frais-de-mandats-des-senateurs](https://www.publicsenat.fr/actualites/parlementaire/comment-fonctionne-l-avance-de-frais-de-mandats-des-senateurs) Total annuel pour 925 parlementaires : 64,9 millions euros avancé sans justificatif systématique. Contrôle : tirage au sort, audit aléatoire du Déontologue, au moins 1 fois par législature. [https://contribuablesassocies.org/2025/05/09/abus-de-frais-de-mandat-parlementaire-des-sanctions-pour-deux-deputes/](https://contribuablesassocies.org/2025/05/09/abus-de-frais-de-mandat-parlementaire-des-sanctions-pour-deux-deputes/) Deux députés sanctionnés 2025 pour abus, mais rares. Depuis le 1er janvier 2026, l'AFM a été remplacée par la Dotation de Fonctionnement Parlementaire (DFP), fixée à 7 238,04 euros/mois pour les députés de métropole : les montants ci-dessus décrivent le système antérieur à cette réforme.
 
 **Pourquoi c'est inacceptable**
 
@@ -313,6 +313,7 @@ AFM = dépense légitime d'élus proximité, ou caisse noire tolérable ? Qui do
 **Statut**
 
 ⬜ Augmenté novembre 2023 (sénateurs) + janvier 2024 (députés), aucun renforcement d'audit.
+**Mis à jour :** 2026-07-12
 
 ---
 
@@ -328,7 +329,7 @@ IRFM = vendue comme transparence (somme forfaitaire vs justificatifs), mais en p
 
 **Pistes A et B, pour et contre**
 
-Piste A : Fusion IRFM + allocations déplacement + frais représentation en enveloppe unique transparente (7000 euros/mois) pour tous les élus, audit 100%, interdiction cumul > 10000 euros bruts/mois tous mandats. Pour : simplicité radicale, équité. Contre : révolution administrative, refus viscéral des élus.
+Piste A : Fusion IRFM + allocations déplacement + frais représentation en enveloppe unique transparente (7000 euros/mois) pour tous les élus, audit 100%, interdiction cumul > 10000 euros bruts/mois tous mandats. Pour : simplicité radicale, équité. Contre : révolution administrative, refus viscéral des élus. Mise à jour : cette fusion s'est en grande partie concrétisée le 1er janvier 2026 avec la création de la Dotation de Fonctionnement Parlementaire (DFP, 7 238,04 euros/mois pour les députés de métropole), un montant très proche de celui proposé ici ; reste à évaluer si l'audit et le plafond de cumul suivent.
 
 Piste B : Publier portefeuille complet de chaque élu : nom + tous mandats + tous revenus publics bruts (indemnité + retraite + IRFM + allocations + logement fonction valorisé). Actualiser trimestriellement. Pour : citoyen décide en connaissance. Contre : données personnelles (bien qu'agents publics), cybersécurité.
 
@@ -349,6 +350,7 @@ IRFM reste indemnité forfaitaire opaques, ou devient élément transparent d'en
 **Statut**
 
 ⬜ Inchangé depuis 1990 dans logique, augmenté régulièrement. Audit partiel, dérives systémiques admises implicitement.
+**Mis à jour :** 2026-07-12
 
 ---
 
