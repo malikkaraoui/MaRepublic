@@ -74,7 +74,7 @@
 
 ### P5. Monopoles du fret : CMA-CGM détient les routes maritimes
 
-**Aberration** : CMA-CGM contrôle 80 % du trafic conteneurs Caraïbes-Guyane-Réunion. Pas de concurrence réelle. Tarifs = 2-3x plus chers que liaisons métropole-Méditerranée pour même distance/tonnage.
+**Aberration** : CMA-CGM, troisième armateur mondial (après MSC et Maersk), est l'opérateur dominant sur les lignes Caraïbes-Guyane-Réunion, avec une concurrence très limitée. Tarifs = 2-3x plus chers que liaisons métropole-Méditerranée pour même distance/tonnage.
 
 **Racines** : Entrées de capital massives (coût navires). Armement français réduit. Pas d'OPA possible (capital Rodolphe Saadé, famille). Régulation portuaire insuffisante. Ports outre-mer = captifs (pas d'alterne).
 
@@ -88,24 +88,28 @@
 
 - ⚖️ **Faisabilité juridique :** Décret régulation portuaire, Directive UE transport maritime ; Compétence UE concurrence, libertés TFUE ; CJUE jurisprudence libres prestation services.
 
+**Mis à jour :** 2026-07-12
+
 ---
 
 ### P6. Chômage structurel double du continent
 
-**Aberration** : Taux chômage outre-mer = 12,5-17,5 % en 2025 vs 7,5 % métropole. Réunion 16 %, Guadeloupe +14 %, Guyane 17,5 %. Même après reprise économique 2023-2025, écart persiste. Jeunes 15-29 ans à Réunion = 29 % en 2024.
+**Aberration** : Taux chômage outre-mer = 12,5-17,5 % en 2025 vs 7,5 % métropole. Réunion 16 %, Guadeloupe 17 % (INSEE Analyses Guadeloupe 2025, taux BIT), Guyane 17,5 %. Même après reprise économique 2023-2025, écart persiste. Jeunes 15-29 ans à Réunion = 29 % en 2024.
 
 **Racines** : Économie monoculture (export agricole faible). Service public hypertrophié (30 % emplois, sur-rémunéré). PME étranglées par coûts. Pas d'industries. Tourisme basse saison = décrochage. Déconnexion formation/besoins locaux.
 
 **Simulation : impact économique** :
 : Guadeloupe population active : 180 000 personnes
-: 14 % chômage = 25 200 chômeurs
+: 17 % chômage = 30 600 chômeurs
 : Métropole taux 7,5 % = 13 500 chômeurs
-: Chômeurs excédentaires = 11 700 personnes
-: Coût ASSEDIC/aide = 11 700 x 15 000 euros/an = 175,5 millions euros/an en transferts passifs
+: Chômeurs excédentaires = 17 100 personnes
+: Coût ASSEDIC/aide = 17 100 x 15 000 euros/an = 256,5 millions euros/an en transferts passifs
 
 **Mesures** : Création 30 000 emplois en 5 ans (secteur privé, bonus d'embauche jeune 5 000 euros/an pendant 3 ans). Formation débouche garantie (contrats 2 ans, reconversion financée). Zones franches élargies (défiscalisation entreprises 10 ans). Télétravail subventionné pour PME (réduire roulement bureaux).
 
 - ⚖️ **Faisabilité juridique :** Loi zones franches, décret emploi ; Compétence État, égalité territoriale ; Jurisprudence défiscalisation régions, codes du travail.
+
+**Mis à jour :** 2026-07-12
 
 ---
 
@@ -134,15 +138,17 @@
 **Racines** : Hôpitaux ultramarins sans spécialités lourdes (investissement massif, masse critique patients basse). Mobilité des médecins (préfèrent métropole). Équipements IRM/scanner = investissement non rentable sur 200-300 000 habitants.
 
 **Simulation : coût et traumatisme** :
-: Moyenne évacuations/an Mayotte : 4 000 (chirurgie urgente, néonat, onco)
+: Moyenne évacuations/an Mayotte : environ 1 500 (chirurgie urgente, néonat, onco), en progression depuis 500 en 2010 (source : Centre Hospitalier de Mayotte, Caisse de Sécurité Sociale de Mayotte)
 : Coût avion + médecin escorte + hôtel famille accompagnant = 5 000 euros/évacuation
-: Total budget : 20 millions euros/an (Mayotte seule)
+: Total budget : 7,5 millions euros/an (Mayotte seule)
 : Décès en transit (complications transport) : 50-80/an à confirmer (taux réel ?)
 : Mères séparées nourrissons 6 semaines minimum (traitement métropole) = 1 500 séparations/an
 
 **Mesures** : Réseau régional de spécialités (Réunion = centre onco Caraïbes, Marie-Galante = maternité niveau 3, Cayenne = neurochirurgie). Télémédecine diagnostique avant transport (réduit 30 % transferts inutiles). Avion ambulance réservé 24/24 (au lieu de low-cost classique dépourvu matériel). Prime stabilité médecins spécialistes = +30 % + CDI 8 ans.
 
 - ⚖️ **Faisabilité juridique :** Loi service public santé, décret réseau spécialisé ; Compétence État santé, égalité accès soins ; Code santé publique, CEDH droit santé.
+
+**Mis à jour :** 2026-07-12
 
 ---
 
