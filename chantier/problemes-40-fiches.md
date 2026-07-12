@@ -124,7 +124,7 @@
 
 ### P7. Contribution sur superdividendes fléchée retraites : simulation candide vs volatilité économique
 
-* **Le constat (chiffré, source) :** CAC40 2024 : dividendes totaux 73 Md EUR (hausse vs 2023). Superdividendes (au-delà moyenne 5 ans) estimés 20-30% du total = 15-20 Md EUR annuel. Proposition : prélever 15-25% montant superdividendes vers fonds retraites spécifiques. Rendement ordre grandeur : 2-5 Md EUR/an (fortement volatil années boom vs crise). Loi 2021 France taxe exceptionnelle versements exceptionnels dividendes : 20% si versement > 2x dividende moyen. Déjà partiellement en place. Source : données CAC40 2024, https://www.economiematin.fr/cac40-dividende-actionnaires-etranger-argent-bourse
+* **Le constat (chiffré, source) :** CAC40 2024 : dividendes totaux 73 Md EUR (hausse vs 2023). Superdividendes (au-delà moyenne 5 ans) estimés 20-30% du total = 15-20 Md EUR annuel. Proposition : prélever 15-25% montant superdividendes vers fonds retraites spécifiques. Rendement ordre grandeur : 2-5 Md EUR/an (fortement volatil années boom vs crise). Amendement n°3486 au PLF 2023 (adopté 12 octobre 2022) : PFU relevé de 30% à 35% (soit +5 points) sur les dividendes versés au-delà de 1,2 fois la moyenne 2017-2021, pour les entreprises de plus de 750 M EUR de chiffre d'affaires. Déjà partiellement en place. Source : données CAC40 2024, https://www.economiematin.fr/cac40-dividende-actionnaires-etranger-argent-bourse
 
 * **Pourquoi c'est indécent/illogique :** Retraites financées répartition supposent stabilité cotisations (généralement linéaires salaire). Utiliser dividendes cycliques comme source créé mismatch : boom pétrolier = retraites bien financées (indécent : surplus alors qu'on demande effort), crise énergie = retraites mal financées (crises conjoncturelles, pas mal-gouvernance). Honnêteté requise.
 
@@ -141,6 +141,7 @@
 * ⚖️ **À trancher :** Taux prélèvement (10%, 15%, 20%, 25%) ; seuil superdividende (rapport moyenne 2 ans, 5 ans) ; fonds lissage vs non (si fonds, capital initial requis) ; durée temporaire vs permanente ; sortie scénario rendements restructurés (buybacks + dividendes bas = revenus stérilisés).
 
 * **Statut :** ⬜
+* **Mis à jour :** 2026-07-12
 
 ### P8. Retraite par répartition et sa vraie soutenabilité : COR 2026, démographie dégradée, scénarios manquants
 
