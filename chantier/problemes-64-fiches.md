@@ -144,7 +144,7 @@ Commission légale : plafond fixe 15 % ou fourchette dégressive 10-20 % selon s
 3. **Bonification prix pour réponse PME/locale** : une PME locale gagne 10-15 % de bonification sur critère prix (vs seul prix avant). Pour : compense coûts structurels. Contre : peut favoriser moins-disant, impact qualité.
 
 **Simulation (ordres de grandeur) :**
-- Marché public annuel France : ~130 milliards d'euros ; TPE capture ~6-8 milliards (5-6 %).
+- Marché public annuel France : ~233 milliards d'euros (OECP 2024 : 72,4 Md État + 42,6 Md santé + 100,7 Md collectivités, contre ~130 Md souvent cité, sous-estimé de moitié) ; TPE capture ~6-8 milliards (soit environ 3 % du total réel, contre 5-6 % calculés sur la base erronée).
 - Option 1 (réserve 25 %) : TPE gagne +15-20 milliards/an ; création ~20-30 000 emplois.
 - Coût option 2 (dossier unique) : ~10 millions/an (plateforme, agents).
 - Gagnants : TPE, artisans, emploi régional. Perdants : groupes généraux (moins de marchés), client public (peut payer plus si qualité baisse).
@@ -158,12 +158,13 @@ Véhicule : loi ordinaire (réserve) + décret (dossier unique).
 Réserve 25 % : obligatoire ou recommandée ? Dossier unique via plateforme : nécessite quelle sécurité données ? Bonification prix : 10 % ou 15 % ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
 ### P7. Transmission d'entreprise fiscalement punie vs Dutreil réservé aux gros
 
-**Constat :** Un petitcommerçant qui cède sa boutique à ses enfants paie ~50 % d'impôt sur la plusvalue (vs ~25 % si cession externalité) ; le régime Dutreil (exonération partielle sous conditions strictes) s'adresse surtout aux PME/cabinets (chiffre > 250 k euros) et nécessite 5 ans de détention. Un artisan à fonds modeste (50-100 k euros) meurt sans passer son affaire = perte de savoir-faire. Source : Direction Générale Finances Publiques, stats transmission 2023 ; étude AGE (Association Générations Entreprises) 2024.
+**Constat :** Un petitcommerçant qui cède sa boutique à ses enfants paie ~50 % d'impôt sur la plusvalue (vs ~25 % si cession externalité) ; le régime Dutreil (exonération partielle sous conditions strictes) s'adresse surtout aux PME/cabinets (chiffre > 250 k euros) et nécessite, depuis la loi de finances 2026 (en vigueur au 21 février 2026), 8 ans de détention au total (2 ans de pacte collectif + 6 ans d'engagement individuel, contre 4 ans d'engagement individuel auparavant), avec un assouplissement en cas de transmission par décès. Un artisan à fonds modeste (50-100 k euros) meurt sans passer son affaire = perte de savoir-faire. Source : Direction Générale Finances Publiques, stats transmission 2023 ; étude AGE (Association Générations Entreprises) 2024.
 
 **Pistes :**
 1. **Dutreil étendu à tous les indépendants** : exonération partielle (75 %) sur transmission familiale ou reprise salarié, délai réduit à 2 ans. Pour : facilite passage générationnel, préserve savoir-faire. Contre : perte fiscale ~200-300 millions/an, risque que grosse PME aussi profite.
@@ -185,6 +186,7 @@ Véhicule : loi de finances (impôts) + loi ordinaire (structure fonds).
 Dutreil pour tous : oui malgré coût ? Fonds territorial : région ou État ? Délai Dutreil : 2 ans ou 3 ans ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
@@ -218,7 +220,7 @@ Plafonner assurance : oui/non ? Plafond loyer : 2.5 % ou 3.5 % ? Mutuelle obliga
 
 ### P9. Apprentissage : artisan forme, prime de l'État va à qui ?
 
-**Constat :** Un artisan accueille un apprenti 3 ans, lui enseigne le métier (coût ~15 000-20 000 euros directement déboursé : salaire, tuteur, matière) ; l'État verse une prime d'apprentissage (actuellement ~3000 euros/an, majorée à 5000 pour secteurs tendus). Mais l'apprenti part souvent après diplôme = perte pour artisan. Parallèlement, gros groupes reçoivent mêmes primes + déductions de masse salariale. Source : DARES (apprentissage), rapport 2024 ; données OPCO http://opco.fr/
+**Constat :** Un artisan accueille un apprenti 3 ans, lui enseigne le métier (coût ~15 000-20 000 euros directement déboursé : salaire, tuteur, matière) ; l'État verse une Aide Unique à l'apprentissage, minimum 5000 euros pour les PME de moins de 250 salariés (niveaux 3-4), modulée selon le niveau de diplôme (4500 euros pour bac+2, 2000 euros pour bac+3 et plus, 6000 euros en cas de handicap), sans majoration liée à des "secteurs tendus". Mais l'apprenti part souvent après diplôme = perte pour artisan. Parallèlement, gros groupes reçoivent mêmes primes + déductions de masse salariale. Source : DARES (apprentissage), rapport 2024 ; données OPCO http://opco.fr/
 
 **Pistes :**
 1. **Prime différenciée par taille** : artisan (< 10 salariés) reçoit prime triplée (10-15 k euros/an par apprenti) vs groupe réduit à 2 k euros. Pour : reconnaît coût réel formation petit. Contre : déséquilibre système, gros groupes contournent via sous-traitants.
@@ -241,6 +243,7 @@ Véhicule : décret (modification barème prime) + accord interprofessionnel sec
 Prime différenciée : acceptable malgré égalité ou légitime pédagogie ? Rétention : engagement par apprenti ou par patron ? Fonds mutuel : secteur ou national ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
