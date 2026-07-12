@@ -23,7 +23,7 @@
 
 ### P2. La concentration du secteur funéraire aux mains de deux groupes
 
-**Constat :** Le secteur funéraire français est fortement concentré : le groupe OGF (Groupe Funeral) et le groupe PFG (Patrimoine Funéraire Groupe) contrôlent respectivement 25 à 30 % du marché chacun (à confirmer : chiffres consolidés). Les petits prestataires indépendants sont régulièrement rachetés ou marginalités. Les marges brutes de ces groupes atteignent 40 à 50 % sur les cercueils et services (à confirmer : données comptables publiques vs estimations). Source : rapports d'analyse du marché funéraire français (à confirmer : Xerfi, études de marché sectorielles).
+**Constat :** Le secteur funéraire français est fortement concentré, mais pas comme parfois présenté : PFG (Pompes Funèbres Générales) n'est pas un groupe concurrent indépendant, c'est une marque/enseigne du groupe OGF (avec Roblot, Dignité Funéraire). La réalité du marché : OGF (incluant PFG et ses autres marques) contrôle environ 25-30 %, Funécap environ 11 %, le reste fragmenté entre indépendants. Présenter « OGF » et « PFG » comme deux groupes rivaux contrôlant chacun 25-30 % relève d'un double comptage qui exagère artificiellement la concentration. Les petits prestataires indépendants sont régulièrement rachetés ou marginalisés. Les marges brutes de ces groupes atteignent 40 à 50 % sur les cercueils et services (à confirmer : données comptables publiques vs estimations). Source : rapports d'analyse du marché funéraire français (à confirmer : Xerfi, études de marché sectorielles).
 
 **Pistes :**
 1. Appliquer les règles de concurrence strictement : interdire les rachats qui concentreraient plus de 40 % du marché local, obliger une transparence comptable (rapports publics). Pour : préserver la concurrence, protéger les indépendants, limiter les abus de position dominante. Contre : les grandes entreprises y résistent, migrations de chiffres d'affaires vers l'étranger (holding étrangères).
@@ -36,9 +36,10 @@
 
 **⚖️ Faisabilité juridique :** Les règles de concurrence (Code de la concurrence, articles L. 430 et suivants) s'appliquent sans restriction. La création de régies relève de la compétence locale (loi MAPTAM 2014). Véhicule requis : arrêté ministériel (Économie) ou loi organique si spin-off forcé (risque constitutionnel de censure pour atteinte au droit de propriété, Article 544 CC).
 
-**⚖️ À trancher :** Tolérez-vous que deux groupes privés contrôlent la moitié du marché funéraire français et dictent les prix à des familles captives, ou préférez-vous une concurrence ouverte ou une alternative publique ?
+**⚖️ À trancher :** Tolérez-vous qu'un groupe dominant (OGF, ~25-30 %) et son principal concurrent (Funécap, ~11 %) contrôlent environ 40 % du marché funéraire français et pèsent sur les prix des familles captives, ou préférez-vous une concurrence ouverte ou une alternative publique ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
@@ -107,10 +108,10 @@
 
 ### P6. La crémation explose sans équipements publics suffisants
 
-**Constat :** La crémation passe de 24 % des décès en 2010 à 35 à 40 % en 2024 (à confirmer : chiffres INSEE) ; la tendance continue. Cependant, la France compte environ 150 à 200 crématoriums, dont 70 % publics (à confirmer : registre CNRFP). Les délais d'attente atteignent 3 à 6 mois dans les grandes agglomérations (à confirmer : données régionales). Certaines communes confient à des opérateurs privés (Dès+, groupe OGF) qui facturent 200 à 400 euros par crémation. Source : INSEE (statistiques d'état civil) ; CNRFP (registre crématoriums).
+**Constat :** La crémation passe de 24 % des décès en 2010 à 46 % en 2024 (INSEE/FFC, sous-estimée à 35-40 % dans certaines estimations) ; la tendance continue. La France compte 221 crématoriums (216 en métropole, chiffre vérifié juillet 2026, largement au-dessus des 150-200 parfois cités), dont 70 % publics (à confirmer : registre CNRFP). Les délais d'attente atteignent 3 à 6 mois dans les grandes agglomérations (à confirmer : données régionales). Certaines communes confient à des opérateurs privés (Dès+, groupe OGF) qui facturent 200 à 400 euros par crémation. Source : INSEE (statistiques d'état civil) ; CNRFP (registre crématoriums).
 
 **Pistes :**
-1. Développer les crématoriums publics régionaux (50 à 75 nouveaux en 10 ans) pour atteindre 1 crématoure pour 500 000 habitants. Pour : maîtrise publique, suppression des listes d'attente, prix régulé. Contre : investissement massif (150 à 200 millions, à confirmer), impacts environnementaux (pollutants, déchets de crémation), opposition des associations environnementales.
+1. Développer les crématoriums publics régionaux (50 à 75 nouveaux en 10 ans) pour atteindre 1 crématoire pour 500 000 habitants (note : avec 221 crématoriums déjà recensés pour 68 M habitants, ce ratio cible est quasiment atteint au niveau national ; le vrai problème est la répartition territoriale inégale, pas le nombre total). Pour : maîtrise publique, suppression des listes d'attente, prix régulé. Contre : investissement massif (150 à 200 millions, à confirmer), impacts environnementaux (pollutants, déchets de crémation), opposition des associations environnementales.
 
 2. Rendre obligatoire l'accès public aux crématoriums (tarif social, transparence) ; réguler les prix des opérateurs privés via une commission régionale. Pour : équité, accès. Contre : bureaucratie, risque de mauvaise gestion publique (lenteur), tarifs croisés (subvention implicite du public au privé).
 
@@ -123,6 +124,7 @@
 **⚖️ À trancher :** Allouez-vous des milliards à de nouveaux crématoriums publics, ou laissez-vous le secteur privé gérer l'augmentation de demande ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
@@ -170,28 +172,29 @@
 
 ### P9. La fin de vie à domicile impossible : manque de soins palliatifs
 
-**Constat :** La loi 2005 Leonetti et la loi 2016 Claes-Leonetti ont permis la sédation palliative et l'arrêt du traitement. La loi 2025 dite « aide à mourir » (à confirmer : référence exact du texte adopté) élargit les droits. Cependant, seuls 30 % des Français en fin de vie peuvent accéder à des soins palliatifs à domicile (à confirmer : chiffre Ministère Santé ou rapport Observatoire fin de vie). Les équipes mobiles sont 2 000 à 2 500 en France, insuffisantes. Faute de soutien, 80 % des fins de vie se font à l'hôpital (coûteux) ou en EHPAD (rarement vraiment palliatif). Source : rapport d'Observatoire National de la Fin de Vie (ONFV) ; Haute Autorité de Santé (HAS) ; Cour des comptes (audit fin de vie, à confirmer : année).
+**Constat :** La loi 2005 Leonetti et la loi 2016 Claes-Leonetti ont permis la sédation palliative et l'arrêt du traitement. La loi 2025 dite « aide à mourir » (à confirmer : référence exact du texte adopté) élargit les droits. Cependant, seuls 30 % des Français en fin de vie peuvent accéder à des soins palliatifs à domicile (à confirmer : chiffre Ministère Santé ou rapport Observatoire fin de vie). Les équipes mobiles de soins palliatifs (EMSP) sont 424 en France (Atlas des soins palliatifs et fin de vie, 3e édition, Centre National Fin de Vie, chiffre 2000-2500 parfois cité surestimé d'un facteur 5-6 ; historique : 177 en 1999, ~300 en 2004, 424 en 2023), insuffisantes. Faute de soutien, 80 % des fins de vie se font à l'hôpital (coûteux) ou en EHPAD (rarement vraiment palliatif). Source : rapport d'Observatoire National de la Fin de Vie (ONFV) ; Haute Autorité de Santé (HAS) ; Cour des comptes (audit fin de vie, à confirmer : année).
 
 **Pistes :**
-1. Déployer 5 000 équipes mobiles de soins palliatifs (triplement des effectifs) avec financement SECU. Pour : accès à domicile universel, réduction hospitalisation coûteuse, autonomie des mourants. Contre : coûts énormes (500 à 800 millions/an, à confirmer), pénurie d'infirmiers spécialisés, risque d'inégalités territoriales (villes vs ruraux).
+1. Déployer 2 000 équipes mobiles de soins palliatifs (quasi quintuplement des effectifs, base réelle 424) avec financement SECU. Pour : accès à domicile universel, réduction hospitalisation coûteuse, autonomie des mourants. Contre : coûts énormes (500 à 800 millions/an, à confirmer), pénurie d'infirmiers spécialisés, risque d'inégalités territoriales (villes vs ruraux).
 
 2. Intégrer la formation palliatif dans tous les cursus infirmiers et médicaux (déjà partiellement fait, à renforcer). Pour : amélioration graduelle du niveau de compétence, pérennité. Contre : lenteur des réformes pédagogiques, résistance des écoles, résultats 10-15 ans plus tard.
 
 3. Créer des Maisons de soins palliatifs publiques régionales (1 pour 500 000 habitants, soit 130 à 150 structures) avec tarif SECU. Pour : alternative à domicile ou hôpital, dignité, coûts maîtrisés. Contre : opposition des éthiciens (lieux de « mort programmée »), acceptabilité sociale difficile, investissement public massif (300 à 500 millions, à confirmer).
 
-**Simulation (ordres de grandeur) :** Déploiement 5 000 équipes mobiles : 500 à 800 millions/an récurrent (coûts personnels + coordination). Savings hospitalisation : 200 à 300 millions/an (lits économisés). Maisons palliatifs : 300 à 500 millions d'investissement + 150 à 200 millions/an. Gain qualité de vie : immesurable. Délai : 5 à 7 ans (formation, construction, déploiement).
+**Simulation (ordres de grandeur) :** Déploiement 2 000 équipes mobiles : 500 à 800 millions/an récurrent (coûts personnels + coordination). Savings hospitalisation : 200 à 300 millions/an (lits économisés). Maisons palliatifs : 300 à 500 millions d'investissement + 150 à 200 millions/an. Gain qualité de vie : immesurable. Délai : 5 à 7 ans (formation, construction, déploiement).
 
 **⚖️ Faisabilité juridique :** Loi Leonetti (2005) et Claes-Leonetti (2016) codifiées aux articles L. 1110-5 et suivants du Code de la santé publique. Loi 2025 « aide à mourir » élargit les droits (à confirmer : application 2025-2026). Création d'équipes et maisons requiert loi organique budgétaire (LFSS) ou décret convention ONFV/SECU. Aucun risque constitutionnel. Véhicule : LFSS et décrets.
 
 **⚖️ À trancher :** Allouez-vous les ressources pour que mourir à domicile devienne la norme en France, ou acceptez-vous que l'hospice reste pour les privilégiés ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
 ### P10. Modèles étrangers : transparence en ligne, coopératives, régies publiques
 
-**Constat :** En Suède et Suisse (certains cantons), les tarifs funéraires sont affichés en ligne avec comparaison directe (à confirmer : sources officielles). Au Québec, les coopératives funéraires gèrent 40 % du marché (à confirmer : chiffre gouvernement du Québec) avec prix régulés et conseil client neutre. En Belgique et Allemagne, les régies communales sont majoritaires (70 % environ, à confirmer : statistiques). Les modèles nordiques affichent satisfaction clients 8 à 9/10 ; France 4 à 5/10 (à confirmer : enquêtes). Source : Fédération Nordique des Services Funéraires ; gouvernement du Québec ; Ministère des Affaires sociales Suisse.
+**Constat :** En Suède et Suisse (certains cantons), les tarifs funéraires sont affichés en ligne avec comparaison directe (à confirmer : sources officielles). Au Québec, les coopératives funéraires gèrent environ 20 % du marché (Fédération des coopératives funéraires du Québec, 2023 ; le chiffre de 40 % parfois cité confond avec la part historique des compagnies américaines multinationales dans les années 2000) avec prix régulés et conseil client neutre. En Belgique et Allemagne, les régies communales sont majoritaires (70 % environ, à confirmer : statistiques). Les modèles nordiques affichent satisfaction clients 8 à 9/10 ; France 4 à 5/10 (à confirmer : enquêtes). Source : Fédération Nordique des Services Funéraires ; gouvernement du Québec ; Ministère des Affaires sociales Suisse.
 
 **Pistes :**
 1. Copier le modèle suédois : transparence tarifaire en ligne centralisée, devis automatisés, comparaison croisée. Pour : rapide à déployer, efficacité prouvée, coûts IT faibles (50 à 80 millions, à confirmer). Contre : dépersonnalisation possible, opposition du secteur français aux données publiques.
@@ -207,3 +210,4 @@
 **⚖️ À trancher :** Importez-vous les pratiques d'autres pays (suédoises, québécoises, allemandes) au risque de dénaturer l'offre française, ou maintenez-vous une exceptionisme français dans le secteur funéraire ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
