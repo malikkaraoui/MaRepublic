@@ -64,9 +64,9 @@
 
 - **Le problème (France, 2016-2026) :** 4,8 M travailleurs indépendants/autoentrepreneurs, +70 % depuis 2016. Uber Eats, Deliveroo, TaskRabbit, Fiverr : faux statut d'indépendant. Absence de : cotisations maladie suffisantes, retraite, congés, protection chômage. Revenus volatiles (algorithmes réduisent commandes). Juridique floue : jurisprudence Cour de cassation (2024) reconnaît lien de subordination pour livreurs = quasi-salariat, mais sans statut légal. Pression tarifaire : plateforme prend 30-50 % des gains.
 
-- **Piste A, 🇪🇸 Espagne (statut de « travailleur de plateforme », quasi-salarié) :** Loi Riders (2021) : Uber/Deliveroo doivent embaucher livreurs en quasi-CDI partiel ou cotiser couverture sociale. Droit à congés payés, maladie, retraite. Tarif minimum fixé par État.  
-**Pour :** protection équitable, fin de contournement, salaires stables.  
-**Contre :** Uber/Deliveroo ont réduit services en Espagne, coûts d'emploi élevés, peut freiner innovation.
+- **Piste A, 🇪🇸 Espagne (statut de « travailleur de plateforme », quasi-salarié) :** Loi Riders (2021) : Uber/Deliveroo doivent embaucher livreurs en quasi-CDI partiel ou cotiser couverture sociale. Droit à congés payés, maladie, retraite. Tarif minimum fixé par État. Bilan réel nuancé : Deliveroo s'est retiré d'Espagne en novembre 2021 pour échapper à la loi (pertes projetées 20 M€), Uber Eats contourne via sous-traitance (environ 80 % des livreurs restent classés « indépendants »), et Glovo a refusé la conformité durant des années (400 M€+ d'amendes cumulées) : ce n'est donc pas un exemple de succès d'application, mais un cas d'école du contournement massif d'une loi ambitieuse.  
+**Pour :** protection équitable sur le papier, fin de contournement visée, salaires stables pour les livreurs effectivement couverts.  
+**Contre :** Uber/Deliveroo ont réduit ou fui les services en Espagne, coûts d'emploi élevés, contournement massif documenté, peut freiner innovation.
 
 - **Piste B, 🇦🇹 Autriche (« demi-salarié » statut intermédiaire) :** Entre salarié et indépendant : accès cotisations sociales obligatoires réduites (maladie, retraite), mais liberté horaire/client. Seuil 50 % dépendance client = bascule semi-salarié. Employeur paie 30-40 % cotisations.  
 **Pour :** flexibilité conservée, protection progressive.  
@@ -85,6 +85,7 @@
 - ⚖️ **À trancher :** Faut-il obliger plateforme à salariser, ou créer statut intermédiaire protégé ? Comment gérer plateforme = quasi-monopole vs libre concurrence ?
 
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-13
 
 ---
 
@@ -146,7 +147,7 @@
 
 ### P6. Chômage et emploi des jeunes non qualifiés (15-29 ans)
 
-- **Le problème (France, 2016-2026) :** Taux chômage jeunes 15-24 ans : 21,1 % T1 2026 (+2,8 pts/an, hausse 5 trimestres), vs 7,9 % global. Jeunes sans diplôme/CAP = 40-50 % chômage. Contrats précaires (stage, intérim court, alternance sans débouché). NEET (ni emploi, ni étude, ni formation) : ~650 k jeunes (7,5 %, à confirmer). Compétences numériques/soft skills attendues mais non formées. Stigmate : « jeunes c'est mou/infidèle » (patronat). Localisation : chômage jeunes bas Rhin/Corse/PACA >25 %.
+- **Le problème (France, 2016-2026) :** Taux chômage jeunes 15-24 ans : 21,1 % T1 2026 (+2,0 pts/an selon l'INSEE, T1 2025 : 19,1 %, hausse 5 trimestres), vs 7,9 % global. Jeunes sans diplôme/CAP = 40-50 % chômage. Contrats précaires (stage, intérim court, alternance sans débouché). NEET (ni emploi, ni étude, ni formation) : environ 1,5 million de jeunes 15-29 ans (15 %), voire 1,035 million sur le seul périmètre 15-24 ans. Compétences numériques/soft skills attendues mais non formées. Stigmate : « jeunes c'est mou/infidèle » (patronat). Localisation : chômage jeunes bas Rhin/Corse/PACA >25 %.
 
 - **Piste A, 🇩🇪 Allemagne (apprentissage obligatoire 18 ans ou formation continue) :** Jeune doit être en apprentissage/école jusqu'18 ans, ou contrat formation État. État organise relocalisation si pas local, entreprise obligée prendre apprenti si taille >5 salariés.  
 **Pour :** 100 % jeunes en formation, pas NEET, débouchés tôt.  
@@ -164,21 +165,22 @@
 **Pour :** rapide, adapté régions, mentorat force lien.  
 **Contre :** courte durée risque incompétence, mentorat coûteux/inégal qualité, peu transfert technologique si métiers bas de gamme.
 
-- **Simulation (ordres de grandeur) :** ~1-2 Md€/an civique (600€/mois x 650k NEET en rotation). Gagnants : 15-25 ans sans formation ; taux placement post-civique : ~40-50 %. Coût évité chômage long-terme : 300-400 M€/an.
+- **Simulation (ordres de grandeur) :** ~3-4 Md€/an civique (600€/mois x 1,5M NEET en rotation, hypothèse à réviser). Gagnants : 15-25 ans sans formation ; taux placement post-civique : ~40-50 %. Coût évité chômage long-terme : 300-400 M€/an.
 - ⚖️ **Faisabilité juridique :** Loi, code du travail ; obstacle art. 40 financement public massif formation et subsides régionaux.
 - ⚖️ **À trancher :** Faut-il formation d'abord (apprentissage/école) ou emploi d'abord avec formation continue ? Quelle durée minimum avant insertion réelle ?
 
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-13
 
 ---
 
 ### P7. Santé au travail et absentéisme structurel
 
-- **Le problème (France, 2016-2026) :** Absentéisme France : 2,7 % (vs 1,8 % Allemagne, 2,1 % Suède), coûts ~18 Md€/an employeurs. TMS (troubles musculosquelettiques) = 87 % maladies pro (dos, poignet). Burn-out, dépression croissance (80 % augmentation diagnostics 2016-2024). Secteurs critiques : restauration/hôtellerie (~4 % absentéisme), BTP (~3,5 %), santé (~3,8 %). Télétravail mal cadré = fatigue oculaire/isolement. RPS (risques psychosociaux) peu mesurés, prévention faible (formation DRH souvent théorique). Coûts santé salarié = freineuse carrière (discrimination ?, inégal assurance maladie).
+- **Le problème (France, 2016-2026) :** Absentéisme France : 4,8 à 5,58 % (le chiffre de 2,7 % parfois cité est obsolète, antérieur à 2020), coûts ~18 Md€/an employeurs. TMS (troubles musculosquelettiques) = 87 % maladies pro (dos, poignet). Burn-out, dépression croissance (80 % augmentation diagnostics 2016-2024). Secteurs critiques : restauration/hôtellerie (~4 % absentéisme), BTP (~3,5 %), santé (~3,8 %). Télétravail mal cadré = fatigue oculaire/isolement. RPS (risques psychosociaux) peu mesurés, prévention faible (formation DRH souvent théorique). Coûts santé salarié = freineuse carrière (discrimination ?, inégal assurance maladie).
 
 - **Piste A, 🇩🇦 Danemark (culture de la prévention + médecine travail forte) :** Médecin travail obligatoire chaque 2 ans, entreprise >20 salariés. Prévention ergonomie financée 100 % État. Absence longue (>3 mois) = aide réadaptation gratuite (kiné, accompagnement retour). Culture : éviter l'absent est meilleur qu'embaucher remplacement.  
 **Pour :** prévention amont, coûts santé évités, retour au travail systématique.  
-**Contre :** coûts publics élévés (médecins travail saturés), France = peu médecins travail (6 k vs 18 k Allemagne), importabilité faible.
+**Contre :** coûts publics élévés (médecins travail saturés), France = peu médecins travail (4 857 selon DREES/Ordre des médecins 2026, en baisse depuis 2016, vs 8 000-10 000 en Allemagne), importabilité faible.
 
 - **Piste B, 🇫🇷 France (bonus-malus assurance chômage + télétravail obligatoire cadre) :** Entreprise < 3 % absentéisme = réduction cotisations chômage (0,5 point). Inversement >4,5 % = majorée. Télétravail 2j minimum pour postes bureau (droit salarié), entreprise paie équipement ergonomie (chaise, écran). Médecin travail obligatoire >50 salariés.  
 **Pour :** incitations directes employeur, cadre télétravail, médecin accès.  
@@ -197,6 +199,7 @@
 - ⚖️ **À trancher :** Prévention ≠ cure : investir prévention amont évitera absentéisme futur, mais coûts publics élevés. Comment financer sans reculer sur autre dépense ?
 
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-13
 
 ---
 
