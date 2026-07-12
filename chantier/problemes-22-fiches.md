@@ -45,12 +45,13 @@
 ### P5. Empilement lois sécuritaires et antiterroristes (2015-2017)
 
 - **La promesse :** Renforcer sécurité publique post-attentats 2015 en intégrant urgence droit commun, banaliser exception pour efficacité pérenne.
-- **Le bilan (sources) :** État d'urgence novembre 2015 à juillet 2017. Loi 20 novembre 2015 votée en cinq jours. Prorogations juillet 2016, décembre 2016, juillet 2017. Loi SILT octobre 2017 transfère mesures dans droit commun. Bilan CNCDH : arsenal inefficace long terme. Commission Assemblée nationale : mesures urgence n'ont joué aucun rôle particulier contre terrorisme selon spécialistes. https://www.cncdh.fr/presentation/themes-daction/etat-de-droit-et-libertes/terrorisme, https://www.legifrance.gouv.fr/dossierlegislatif/JORFDOLE000034990290/
+- **Le bilan (sources) :** État d'urgence novembre 2015 au 1er novembre 2017 (dernière prorogation votée le 11 juillet 2017). Loi 20 novembre 2015 votée en cinq jours. Prorogations juillet 2016, décembre 2016, juillet 2017. Loi SILT octobre 2017 transfère mesures dans droit commun. Bilan CNCDH : arsenal inefficace long terme. Commission Assemblée nationale : mesures urgence n'ont joué aucun rôle particulier contre terrorisme selon spécialistes. https://www.cncdh.fr/presentation/themes-daction/etat-de-droit-et-libertes/terrorisme, https://www.legifrance.gouv.fr/dossierlegislatif/JORFDOLE000034990290/
 - **Verdict proposé : ABOLIR** : état d'urgence banalisé a échoué stratégiquement, blessé libertés fondamentales sans gain sécuritaire.
 - **Piste : 🇳🇴 Police proximité préventive et renseignement communautaire :** **Pour :** efficacité prévention selon modèles anglo-saxons ; **Contre :** coûts supplémentaires en ressources humaines.
 - ⚖️ **Faisabilité juridique :** Abrogation loi SILT, révision code sécurité intérieure ; obstacle : lobbying forces de l'ordre ; source CNCDH 2018.
 - ⚖️ **À trancher :** Armement policier ou police de proximité ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P6. Réforme carte judiciaire (2008)
 
@@ -95,9 +96,10 @@
 ### P10. Grand débat national et conventions citoyennes (2019-2020)
 
 - **La promesse :** Renouveler démocratie via consultations citoyennes massives et conventions thématiques, rapprocher peuple décisions publiques.
-- **Le bilan (sources) :** Grand débat 2019 environ 30 000 cahiers de doléances, traductions législatives minimales. Conventions citoyennes 2019-2021 : cinq thèmes (climat, retraite, fiscalité, etc.), 150 citoyens par convention, tirage au sort. Suites réelles : loi Climat (partiellement inspirée), réforme retraites rejetée politiquement, réformes fiscales peu inspirées par conventions. (à confirmer : taux de concrétisation législative, impact budgétaire mesures adoptées). Sources : (à confirmer chiffrage précis).
+- **Le bilan (sources) :** Grand débat 2019 : 19 935 cahiers de doléances transférés aux Archives nationales (loin des ~30 000 parfois cités), traductions législatives minimales. Une seule vraie convention citoyenne sur la période 2019-2020, celle pour le Climat (150 citoyens tirés au sort) ; il n'y a pas eu de conventions séparées sur la retraite ou la fiscalité à cette époque (une convention sur la fin de vie, avec 184 citoyens, n'a eu lieu qu'à partir de décembre 2022). Suites réelles : loi Climat (partiellement inspirée), réforme retraites rejetée politiquement. (à confirmer : taux de concrétisation législative, impact budgétaire mesures adoptées). Sources : Archives nationales, question parlementaire Sénat 2024.
 - **Verdict proposé : REMPLACER** : consultations n'ont pas débouché sur délégation citoyenne réelle, restent outils de légitimation symbolique.
 - **Piste : 🇮🇷 Conventions citoyennes pérennes tous les 2-3 ans avec budgets législatifs affinitaires :** **Pour :** renouvellement continu, apprentissage démocratique ; **Contre :** surcharge décisionnelle, ralentissement action.
 - ⚖️ **Faisabilité juridique :** Ordonnance révision Constitution, modification code électoral ; obstacle : légitimité tirage au sort vs suffrage universel ; source (à confirmer).
 - ⚖️ **À trancher :** Tirage au sort ou élection pour conventionnels ? Budgets législatifs liés ou consultatif ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
