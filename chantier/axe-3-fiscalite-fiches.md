@@ -14,12 +14,13 @@
 
 ### F2. Taxe carbone intégralement redistribuée (dividende citoyen)
 - **Problème :** la fiscalité écolo est vécue comme punitive (gilets jaunes).
-- **Ça existe déjà :** 🇨🇦 Canada, taxe carbone dont le produit est **reversé aux ménages** en dividende ; majorité des foyers y gagnent net.
+- **Ça existe déjà :** 🇨🇦 Canada a fait fonctionner de 2019 à avril 2025 une taxe carbone fédérale intégralement **reversée aux ménages** en dividende (majorité des foyers gagnants net) ; le gouvernement Carney l'a supprimée le 1er avril 2025 pour raisons politiques, pas parce que le mécanisme de redistribution avait échoué.
 - **Version France :** taxe carbone dont **100 %** revient aux citoyens (chèque égal par tête).
 - ⚖️ **Faisabilité juridique :** Loi ordinaire (fiscalité environnementale) ; obstacle potentiel UE (directive énergie) mais dividende carbone compatible.
 - **Simulation (ordres de grandeur) :** Taxe carbone 50€/tonne CO2 = 50-80 B€/an revenue. Dividende 100 % ~800€/an/citoyen (54 B€ redistribué). Perte compétitivité indus (à confirmer). Gagnants : 60 % ménages (gain net), environnement. Mise en place 12-18 mois.
-- ⚖️ **À trancher :** périmètre ; montant ; frontières (mécanisme d'ajustement carbone).
+- ⚖️ **À trancher :** périmètre ; montant ; frontières (mécanisme d'ajustement carbone) ; l'abandon canadien montre que la lisibilité politique du dividende doit être entretenue dans la durée.
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### F3. Impôt minimum réellement appliqué aux multinationales
 - **Problème :** optimisation fiscale des grands groupes ; PME qui paient plein pot.
