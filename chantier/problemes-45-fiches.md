@@ -29,7 +29,7 @@ Exemple concret : route locale classée départementale = 3 interlocuteurs au li
 ### P2. Le sacré des 35 000 communes : la France champion de la fragmentation
 
 **L'exception française :**
-Chaque pays européen a fusionné ses communes pour simplifier. La Suède : 2 600 communes (population 10 millions). Le Danemark : 98 communes (population 5,8 millions). La France : 34 875 communes (population 68 millions). Record européen de fragmentation.
+Chaque pays européen a fusionné ses communes pour simplifier. La Suède : 290 communes (population 10 millions). Le Danemark : 98 communes (population 5,8 millions). La France : 34 875 communes (population 69,1 millions). Record européen de fragmentation.
 
 Deux refus français : (1) peur d'une majorité rurale diluée en mégapolis. (2) identité locale = droit constitutionnel. Le maire du village de 500 habitants est un pouvoir.
 
@@ -39,6 +39,8 @@ Surcoûts France vs pays fusionnés : gestion administrative de 34 875 budgets l
 Mais ce coût finance aussi le lien citoyen. La question honnête : vaut-il 10 milliards d'euros par an? Et de qui? Riches/pauvres? Urbain/rural?
 
 - ⚖️ **Faisabilité juridique :** Loi refonte EPCI/communes, référendum local possible ; Compétence générale commune (Const. art. 72), libre administration ; Constitution, jurisprudence libre administration.
+
+**Mis à jour :** 2026-07-12
 
 ---
 
@@ -118,7 +120,7 @@ Cas santé : ARS + Anses + HAS + Santé Publique France = 7 000 agents pour des 
 2015 : réduction de 22 régions à 13 régions métropolitaines. Gouvernement promet 12 à 25 milliards d'euros d'économies annuelles par fusion.
 
 **La réalité :**
-Cour des Comptes 2018 : zéro économies. Surcoûts identifiés :
+Cour des Comptes (rapport publié en septembre 2019, couvrant 2015-2018) : zéro économies. Surcoûts identifiés :
 1. Harmonisation rémunérations : +50 millions d'euros par an (à cause clause interdit baisser salaires)
 2. Fermeture sièges régionaux : 20 à 30 millions (mais financement de désengagement)
 3. Gains marginaux : assurance, énergie, informatique = 5 à 10 millions
@@ -131,6 +133,8 @@ Dépenses régionales 2014 : ~60 milliards d'euros (à confirmer). Promesse éco
 C'est 1 milliard par région sur 10 ans, soit un lycée moderne par région jamais construit.
 
 - ⚖️ **Faisabilité juridique :** Loi harmonisation rémunérations, décret compensation ; Clause interdisant baisse salaires (blocage syndical), égalité traitement ; Jurisprudence CE collectivités, conventions collectives.
+
+**Mis à jour :** 2026-07-12
 
 ---
 
