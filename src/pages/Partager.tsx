@@ -43,6 +43,19 @@ function nbFichesFamille(slug: string): number {
   return n
 }
 
+// Quelques titres de mesures de la famille, pour remplir l'image de vrai contenu.
+function exemplesFamille(slug: string, n: number): string[] {
+  const out: string[] = []
+  for (const axe of axesFiches) {
+    if (familleDeOnglet(axe.numero) !== slug) continue
+    for (const f of axe.fiches) {
+      out.push(f.titre)
+      if (out.length >= n) return out
+    }
+  }
+  return out
+}
+
 export default function Partager() {
   const [params] = useSearchParams()
   const slug = params.get('famille')
@@ -63,13 +76,15 @@ export default function Partager() {
     return `${fam.libelle} : ${n} mesures en débat ouvert`
   }, [fam])
 
+  const exemples = useMemo(() => (fam ? exemplesFamille(fam.slug, 3) : []), [fam])
+
   const [qr, setQr] = useState<string | null>(null)
   const [image, setImage] = useState<string | null>(null)
   const [copie, setCopie] = useState(false)
   const [compteurs, setCompteurs] = useState<Compteurs | null>(null)
 
   useEffect(() => {
-    QRCode.toDataURL(lien, { margin: 1, width: 320 }).then(setQr).catch(() => setQr(null))
+    QRCode.toDataURL(lien, { margin: 1, width: 512 }).then(setQr).catch(() => setQr(null))
   }, [lien])
 
   useEffect(() => {
@@ -91,6 +106,7 @@ export default function Partager() {
       statut: STATUT,
       lien,
       pseudo: pseudo || undefined,
+      exemples,
       qrDataUrl: qr,
     }
     let vivant = true
@@ -102,7 +118,7 @@ export default function Partager() {
     return () => {
       vivant = false
     }
-  }, [qr, compteurs, pseudo, slug, fam, titre, lien])
+  }, [qr, compteurs, pseudo, slug, fam, titre, lien, exemples])
 
   const copier = () => {
     void navigator.clipboard.writeText(lien).then(() => {
@@ -160,7 +176,19 @@ export default function Partager() {
     { nom: 'SMS', href: `sms:?&body=${msgLien}` },
     {
       nom: 'E-mail',
-      href: `mailto:?subject=${enc('MaRepublic, à juger')}&body=${enc(message + '\n\n' + lien)}`,
+      href:
+        `mailto:?subject=${enc('MaRepublic — à juger par toi-même')}` +
+        `&body=${enc(
+          'Je te partage MaRepublic : un mouvement où le programme se construit en débat ' +
+            'ouvert. Chaque mesure est un brouillon que les citoyens votent et commentent, ' +
+            'rien de boîte noire.\n\n' +
+            (fam
+              ? `Regarde en priorité les mesures « ${fam.libelle} » :\n`
+              : 'Regarde les mesures et juge par toi-même :\n') +
+            lien +
+            '\n\nAstuce : pour joindre l’image de partage, utilise plutôt le bouton ' +
+            '« Mettre dans ma story » puis choisis Mail.',
+        )}`,
     },
   ]
 
@@ -203,14 +231,21 @@ export default function Partager() {
 
         <div className="partage__actions-image">
           {partageFichiersDispo && (
-            <button type="button" className="partage__natif" onClick={partagerImage} disabled={!image}>
-              📤 Partager l'image
+            <button type="button" className="partage__story" onClick={partagerImage} disabled={!image}>
+              📲 Mettre dans ma story
             </button>
           )}
           <button type="button" className="partage__copier" onClick={telechargerImage} disabled={!image}>
             Télécharger l'image
           </button>
         </div>
+        {partageFichiersDispo && (
+          <p className="partage__astuce">
+            « Mettre dans ma story » ouvre le partage de ton téléphone : choisis Instagram,
+            Snapchat, WhatsApp… puis Story. Aucune app ne peut publier une story à ta place,
+            c'est le maximum possible depuis le web.
+          </p>
+        )}
 
         <div className="partage__lien">
           <input

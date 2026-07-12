@@ -2435,6 +2435,37 @@ body {
   margin-top: 0;
 }
 
+.partage__story {
+  font: inherit;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.85rem 1.4rem;
+  min-height: 48px;
+  border: none;
+  border-radius: var(--radius);
+  background: var(--bleu);
+  color: #fff;
+  cursor: pointer;
+  touch-action: manipulation;
+  flex: 1 1 auto;
+}
+
+.partage__story:hover {
+  filter: brightness(1.08);
+}
+
+.partage__story:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.partage__astuce {
+  margin: 0.5rem 0 1.5rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
 button.partage__canal {
   font: inherit;
   font-size: 0.9rem;

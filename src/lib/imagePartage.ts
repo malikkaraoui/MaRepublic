@@ -10,16 +10,19 @@ const ROUGE = '#c8102e'
 const INK = '#0a0a0a'
 const MUTED = '#404040'
 const RULE = '#e7e7e3'
+const HOTE = 'marepublique-2027.web.app'
 
 export interface DonneesImage {
   famille: { libelle: string; emoji: string; accent: string }
   titre: string
-  /** pour + pistes (accords) et contre (rejets). Si 0/0, l'image montre l'appel sans jauge. */
+  /** pour + pistes (accords) et contre (rejets). Si 0/0, on montre un appel. */
   accords: number
   rejets: number
   statut: string
   lien: string
   pseudo?: string
+  /** Quelques titres de mesures de la famille, pour remplir avec du vrai contenu. */
+  exemples?: string[]
   /** QR déjà généré par la page (dataURL PNG). */
   qrDataUrl?: string
 }
@@ -63,6 +66,14 @@ function lignes(
   }
   if (courante && out.length < maxLignes) out.push(courante)
   return out
+}
+
+/** Tronque un texte avec … pour tenir sur une ligne de `largeurMax`. */
+function tronquer(ctx: CanvasRenderingContext2D, texte: string, largeurMax: number): string {
+  if (ctx.measureText(texte).width <= largeurMax) return texte
+  let t = texte
+  while (t.length > 1 && ctx.measureText(t + '…').width > largeurMax) t = t.slice(0, -1)
+  return t.trimEnd() + '…'
 }
 
 function pastille(
@@ -127,50 +138,67 @@ export async function genererImagePartage(d: DonneesImage): Promise<string> {
   ctx.fillStyle = INK
   ctx.font = "400 52px Spectral, Georgia, serif"
   const ma = 'ma'
-  ctx.fillText(ma, M, 150)
+  ctx.fillText(ma, M, 148)
   const wMa = ctx.measureText(ma).width
   ctx.font = "700 52px Spectral, Georgia, serif"
-  ctx.fillText('république', M + wMa, 150)
+  ctx.fillText('république', M + wMa, 148)
 
   // Pastille de statut (à droite)
-  pastille(ctx, L - M, 108, d.statut, accent)
+  pastille(ctx, L - M, 106, d.statut, accent)
 
   // Famille
-  ctx.font = "400 60px 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif"
-  ctx.fillText(d.famille.emoji, M, 330)
+  ctx.font = "400 58px 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif"
+  ctx.fillText(d.famille.emoji, M, 316)
   const wEmoji = ctx.measureText(d.famille.emoji).width
   ctx.fillStyle = accent
   ctx.font = "700 34px Archivo, system-ui, sans-serif"
-  ctx.fillText(d.famille.libelle.toUpperCase(), M + wEmoji + 24, 322)
+  ctx.fillText(d.famille.libelle.toUpperCase(), M + wEmoji + 24, 308)
 
-  // Titre d'appel
+  // Titre d'appel (max 3 lignes)
   ctx.fillStyle = INK
-  ctx.font = "700 88px Spectral, Georgia, serif"
-  const tl = lignes(ctx, d.titre, L - M * 2, 4)
-  let ty = 470
+  ctx.font = "700 84px Spectral, Georgia, serif"
+  const tl = lignes(ctx, d.titre, L - M * 2, 3)
+  let ty = 440
   for (const ligne of tl) {
     ctx.fillText(ligne, M, ty)
-    ty += 104
+    ty += 100
   }
 
-  // Bloc bas : votes + footer
+  // Section « au débat, par exemple » : du vrai contenu pour remplir
+  const exemples = (d.exemples ?? []).slice(0, 3)
+  if (exemples.length) {
+    let ey = Math.max(ty + 70, 800)
+    ctx.fillStyle = accent
+    ctx.font = "700 32px Archivo, system-ui, sans-serif"
+    ctx.fillText('AU DÉBAT, PAR EXEMPLE', M, ey)
+    ey += 78
+    ctx.font = "400 44px Spectral, Georgia, serif"
+    for (const ex of exemples) {
+      ctx.fillStyle = accent
+      ctx.beginPath()
+      ctx.arc(M + 10, ey - 14, 9, 0, Math.PI * 2)
+      ctx.fill()
+      ctx.fillStyle = INK
+      ctx.fillText(tronquer(ctx, ex, L - M * 2 - 44), M + 44, ey)
+      ey += 82
+    }
+  }
+
+  // Bloc votes (ou appel si aucun vote)
   const aTotal = d.accords + d.rejets
   const basY = 1360
-
   if (aTotal > 0) {
     const pctPour = Math.round((d.accords / aTotal) * 100)
     const pctContre = 100 - pctPour
-    // Grand nombre
     ctx.fillStyle = INK
-    ctx.font = "700 96px Spectral, Georgia, serif"
+    ctx.font = "700 92px Spectral, Georgia, serif"
     const n = aTotal.toLocaleString('fr-FR')
     ctx.fillText(n, M, basY)
     const wN = ctx.measureText(n).width
     ctx.fillStyle = MUTED
     ctx.font = "400 40px Archivo, system-ui, sans-serif"
     ctx.fillText('votes exprimés', M + wN + 22, basY)
-    // Jauge
-    const jy = basY + 46
+    const jy = basY + 44
     const jw = L - M * 2
     const jh = 54
     const wPour = Math.round((jw * pctPour) / 100)
@@ -178,7 +206,6 @@ export async function genererImagePartage(d: DonneesImage): Promise<string> {
     ctx.fillRect(M, jy, wPour, jh)
     ctx.fillStyle = ROUGE
     ctx.fillRect(M + wPour, jy, jw - wPour, jh)
-    // Légende
     const ly = jy + jh + 54
     ctx.font = "700 38px Archivo, system-ui, sans-serif"
     ctx.fillStyle = accent
@@ -187,13 +214,16 @@ export async function genererImagePartage(d: DonneesImage): Promise<string> {
     const cTxt = `${pctContre}% contre ✕`
     ctx.fillText(cTxt, L - M - ctx.measureText(cTxt).width, ly)
   } else {
+    ctx.fillStyle = INK
+    ctx.font = "700 52px Spectral, Georgia, serif"
+    ctx.fillText('Sois une des premières voix.', M, basY + 10)
     ctx.fillStyle = MUTED
-    ctx.font = "400 44px Spectral, Georgia, serif"
-    ctx.fillText('Sois une des premières voix.', M, basY)
+    ctx.font = "400 38px Archivo, system-ui, sans-serif"
+    ctx.fillText('Ton vote pèse dès maintenant.', M, basY + 66)
   }
 
-  // Footer
-  const fy = 1660
+  // Footer : appel + QR mis en avant
+  const fy = 1548
   ctx.strokeStyle = RULE
   ctx.lineWidth = 2
   ctx.beginPath()
@@ -201,31 +231,37 @@ export async function genererImagePartage(d: DonneesImage): Promise<string> {
   ctx.lineTo(L - M, fy)
   ctx.stroke()
 
-  ctx.fillStyle = INK
-  ctx.font = "700 46px Spectral, Georgia, serif"
-  ctx.fillText('Ton avis compte →', M, fy + 78)
-  ctx.fillStyle = MUTED
-  ctx.font = "400 32px Archivo, system-ui, sans-serif"
-  ctx.fillText(d.lien.replace(/^https?:\/\//, ''), M, fy + 128)
-  if (d.pseudo) {
-    ctx.fillStyle = accent
-    ctx.font = "700 32px Archivo, system-ui, sans-serif"
-    ctx.fillText(`Partagé par ${d.pseudo}`, M, fy + 178)
-  }
-
-  // QR en bas à droite
+  // QR à droite, grand
   if (d.qrDataUrl) {
     try {
       const qr = await chargerImage(d.qrDataUrl)
-      const s = 190
-      const qx = L - M - s
-      const qy = fy + 46
+      const qrTaille = 240
+      const qx = L - M - qrTaille
+      const qy = fy + 40
       ctx.fillStyle = '#ffffff'
-      ctx.fillRect(qx - 6, qy - 6, s + 12, s + 12)
-      ctx.drawImage(qr, qx, qy, s, s)
+      ctx.fillRect(qx - 8, qy - 8, qrTaille + 16, qrTaille + 16)
+      ctx.drawImage(qr, qx, qy, qrTaille, qrTaille)
+      ctx.fillStyle = MUTED
+      ctx.font = "400 26px Archivo, system-ui, sans-serif"
+      const scan = 'Scanne pour juger'
+      ctx.fillText(scan, qx + (qrTaille - ctx.measureText(scan).width) / 2, qy + qrTaille + 34)
     } catch {
-      /* pas de QR : tant pis, le reste tient */
+      /* pas de QR : le reste tient */
     }
+  }
+
+  // Appel + URL propre + signature (à gauche du QR)
+  ctx.fillStyle = INK
+  ctx.font = "700 56px Spectral, Georgia, serif"
+  ctx.fillText('Ton avis', M, fy + 100)
+  ctx.fillText('compte →', M, fy + 160)
+  ctx.fillStyle = accent
+  ctx.font = "700 32px Archivo, system-ui, sans-serif"
+  ctx.fillText(HOTE, M, fy + 216)
+  if (d.pseudo) {
+    ctx.fillStyle = MUTED
+    ctx.font = "400 30px Archivo, system-ui, sans-serif"
+    ctx.fillText(`Partagé par ${d.pseudo}`, M, fy + 262)
   }
 
   return canvas.toDataURL('image/png')
