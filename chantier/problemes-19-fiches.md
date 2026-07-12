@@ -4,14 +4,15 @@
 
 ### P1. Le seuil de 49 salariés: une barrière qui bloque la croissance des PME
 
-- **L'aberration (chiffrée, source) :** Franchir 50 salariés multiplie les cotisations sociales (FNAL passe de 0.10% à 0.50%, + contribution Action Logement 0.45% = coût supplémentaire de 6.7 millions d'euros pour une PME moyenne). Résultat : 1 512 établissements de 41 à 49 salariés restent bloqués, soit 73 540 emplois potentiellement perdus. Étude IPP (2022).
-- **Pourquoi c'est illogique :** Un patron qui embauche son 50e employé paye brutalement 5 fois plus de cotisations pour ce seul salarié. C'est punir l'embauche, pas l'encourager.
+- **L'aberration (chiffrée, source) :** Franchir 50 salariés multiplie à terme les cotisations sociales (FNAL passe de 0.10% à 0.50%, + contribution Action Logement 0.45%, soit un coût supplémentaire de 6.7 millions d'euros pour une PME moyenne) : depuis la loi PACTE, ce basculement n'est plus brutal, une période transitoire de 5 ans maintient les anciens taux (une entreprise qui franchit le seuil en 2026 ne bascule qu'au 1er janvier 2031 si elle reste au-dessus). Malgré ce lissage, l'effet de seuil reste anticipé et dissuasif : 1 512 établissements de 41 à 49 salariés restent bloqués, soit 73 540 emplois potentiellement perdus. Étude IPP (2022).
+- **Pourquoi c'est illogique :** Même lissé sur 5 ans, un patron sait qu'embaucher son 50e employé déclenche à terme une hausse marquée de cotisations. C'est l'anticipation de la falaise, pas seulement sa brutalité immédiate, qui dissuade d'embaucher.
 - **Piste A : 🇩🇪 Allemagne :** Seuils d'exonération progressifs (franchissement étalé sur 3 ans), entreprises jusqu'à 10 salariés exonérées de certaines obligations. **Pour :** Croissance PME documentée. **Contre :** Budgétaire court terme.
 - **Piste B : Dégressive dans le temps :** Neutralisation d'effets de seuil étalée sur 5 ans au lieu de l'appliquer brutalement. **Pour :** Loi PACTE l'a testée. **Contre :** Préférence pour l'urgence budgétaire.
 - **Piste C : Indexation progressive :** Augmenter le seuil avec l'inflation (passé à 52 en 2024, pourrait passer à 55 en 2026). **Pour :** Simplicité, réduit le bloquage. **Contre :** Petits pas, effet dilué.
 - ⚖️ **Faisabilité juridique :** Décret (pas loi) ; coût budgétaire gouvernement ; source : enquête Institut Montaigne 2023 (Les impôts de production, reflets des travers français).
 - ⚖️ **À trancher :** Progressivité (5 ans) vs suppression franche ? Réaffectation cotisations autres publics (santé/dépendance) ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P2. Les retraités étrangers devant prouver qu'ils sont vivants chaque année
 
@@ -68,9 +69,9 @@
 - ⚖️ **À trancher :** Qui tranche en cas conflit (Préfet ? Commission nationale) ? Budget subsidies accessibilité patrimoine ?
 - **Statut :** ⬜
 
-### P7. Auto-entrepreneur dépassant 85 000 EUR: taxation rétroactive mais tolérance 1 an
+### P7. Auto-entrepreneur dépassant le plafond du régime : taxation rétroactive mais tolérance 1 an
 
-- **L'aberration (chiffrée, source) :** Auto-entrepreneur plafond 85 000 EUR (ventes) / 93 500 EUR (services majorés). Dépasser une fois = tolérance (reste micro-entreprise année N+1). Dépasser deux fois d'affilée = perte régime fiscal et cotisations sociales au 1er janvier N+3, appliquées rétroactivement sur N+2. Exemple : entrepreneur déclare 90 K EUR en 2024 et 95 K EUR en 2025, perd statut au 1er janvier 2026 mais « doit » micro-social sur 2024 et 2025. Portail auto-entrepreneur + service-public.gouv.fr.
+- **L'aberration (chiffrée, source) :** Deux seuils distincts et souvent confondus : la franchise de TVA (85 000 € ventes / 93 500 € services, seuils 2025, en-dessous desquels aucune TVA n'est facturée) et le vrai plafond du régime micro-entrepreneur lui-même (203 100 € commerce / 83 600 € services en 2026, au-delà duquel le statut est perdu). Dépasser la franchise de TVA une fois = tolérance (reste micro-entreprise, mais facture la TVA dès l'année suivante). Dépasser le plafond du régime deux fois d'affilée = perte régime fiscal et cotisations sociales au 1er janvier N+3, appliquée rétroactivement sur N+2. Exemple : entrepreneur services déclare 90 K EUR en 2024 et 95 K EUR en 2025, dépassant à la fois la franchise de TVA (93 500 €) et, de peu, le plafond du régime (83 600 €) : perd son statut au 1er janvier 2026 mais « doit » micro-social sur 2024 et 2025. Portail auto-entrepreneur + service-public.gouv.fr.
 - **Pourquoi c'est illogique :** Citoyen applique des règles (on lui dit tolérance), puis doit rembourser rétroactivement comme s'il ne les avait jamais connues. C'est changer le contrat à posteriori. Tolérance n'est pas vraie tolérance.
 - **Piste A : 🇪🇸 Espagne :** Passage graduel : année 1 micro (micro-social) + cotisations progressives, année 2 régime normal complet. **Pour :** Transition manageable. **Contre :** Coût cotisations sociales augmente progressivement.
 - **Piste B : Pas de rétroactivité :** Perte de régime appliquée année suivante uniquement (N+1), jamais N-1 ou N-2. **Pour :** Sécurité juridique. **Contre :** Perte recettes cotisations sociales.
@@ -78,6 +79,7 @@
 - ⚖️ **Faisabilité juridique :** Ordonnance URSSAF (pas loi) ; source : Articles L133-6 et D133-6 Code sécurité sociale.
 - ⚖️ **À trancher :** Rétroactivité acceptable ou non ? Quel taux progressivité cotisations ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P8. Héritier devant résilier contrats du défunt que l'État interdit d'accès
 
@@ -103,11 +105,12 @@
 
 ### P10. Obligation de déclarer le même revenu/adresse que l'État possède déjà numériquement
 
-- **L'aberration (chiffrée, source) :** Citoyen doit déclarer revenus impôt sur le revenu : l'État les possède déjà (fiche de paie numérique URSSAF, déclaration tiers secteur, CIMR). Déclaration adresse : Trésor public possède données La Poste/EDF. Déclaration situation familiale : État civil numérisé. Traitement déclarations : 3000 employés Bercy, 900 M EUR budget annuel. Perte temps citoyen : 15 heures/foyer. INSEE 2024 + DGFIP.
-- **Pourquoi c'est illogique :** Interopérabilité gouvernementale n'existe pas. URSSAF ne communique pas avec DGFIP, La Poste ne transmet pas adresse directement, État civil n'alimente pas fuseau impôts. Chacun crée son silo. Citoyen paie pour remplir formulaire que l'État pouvait remplir lui-même.
-- **Piste A : 🇳🇴 Norvège :** Impôt pré-rempli 90% (gouvernement collate tout) + citoyen corrige sur appli 10 min. Traitement : 800 employés. **Pour :** Gain productivité 85%. **Contre :** Investissement IT 2-3 ans, acceptation privacy (État voit tout).
+- **L'aberration (chiffrée, source) :** Depuis 2020, la déclaration automatique (tacite) dispense déjà 10,6 millions de foyers aux revenus pré-connus (salariés, retraités) de toute action si le pré-rempli est correct, environ 90% de couverture. Mais pour tous les autres (indépendants, revenus mixtes, situations non standard) : Citoyen doit déclarer revenus alors que l'État en possède déjà l'essentiel (fiche de paie numérique URSSAF, déclaration tiers secteur, CIMR). Déclaration adresse : Trésor public possède données La Poste/EDF. Déclaration situation familiale : État civil numérisé. Traitement déclarations : 3000 employés Bercy, 900 M EUR budget annuel. Perte temps citoyen : 15 heures/foyer pour les foyers hors déclaration automatique. INSEE 2024 + DGFIP.
+- **Pourquoi c'est illogique :** L'interopérabilité gouvernementale existe déjà pour le cas simple (salariés, retraités, via la déclaration automatique) mais s'arrête net dès que la situation sort du standard. URSSAF ne communique pas avec DGFIP au-delà de ce cas, La Poste ne transmet pas adresse directement, État civil n'alimente pas fuseau impôts. Chacun crée son silo pour tout ce qui n'est pas déjà couvert. Citoyen paie pour remplir un formulaire que l'État pouvait remplir lui-même dans une partie croissante mais encore incomplète des cas.
+- **Piste A : 🇳🇴 Norvège :** Impôt pré-rempli 90% (gouvernement collate tout) + citoyen corrige sur appli 10 min : proche de ce que fait déjà la France pour les revenus standard, à étendre aux situations non standard. Traitement : 800 employés. **Pour :** Gain productivité 85%. **Contre :** Investissement IT 2-3 ans, acceptation privacy (État voit tout).
 - **Piste B : Déclaration optionnelle :** Si l'État remplie tous champs et citoyen approuve en ligne (pas signature), est déclaration. Si corrige : formulaire classique. **Pour :** Transparence progressive. **Contre :** Consentement fiction (pas de refus réelle).
 - **Piste C : API gouvernementale :** Seule vraie faille technique : créer API URSSAF+État civil+Finances+Douanes en 2 ans (500 M EUR). **Pour :** Solide à long terme. **Contre :** Coût politique (perte emplois DGFIP, opposition syndicats).
 - ⚖️ **Faisabilité juridique :** RGPD (secret fiscal préservé) ; API Légale directive UE ; source : Articles L 102 et L 103 Code procédure fiscale (secret).
 - ⚖️ **À trancher :** Accepter interopérabilité pleine données fiscales ? Budget IT 3-5 ans compatible ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
