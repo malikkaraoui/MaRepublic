@@ -71,7 +71,7 @@
 
 ### P6. Pesticides et santé publique
 
-- **Le problème (France, 2016-2026) :** Glyphosate (Roundup) : autorisé jusqu'2023, ré-autorisé UE 2023-2033 (malgré 160k plaintes cancer). Chlordécone (Antilles) : interdit 1990 mais sols contaminés ; lait, poisson impropres 2000-2025 (à confirmer niveau résiduel). Nora 2018-2023 : réduction -41 % pesticides ambitieux raté (baisse ~10 %). Santé : asthme enfants +60 % régions céréalières, Parkinson lié glyphosate +3.5x (à confirmer).
+- **Le problème (France, 2016-2026) :** Glyphosate (Roundup) : autorisé jusqu'2023, ré-autorisé UE 2023-2033 (malgré 160k plaintes cancer). Chlordécone (Antilles) : interdit en métropole en 1990, mais autorisé par dérogations successives aux Antilles jusqu'au 30 septembre 1993 (pour écouler les stocks des producteurs de bananes), puis utilisé illégalement après cette date ; sols contaminés ; lait, poisson impropres, contamination toujours active en 2026 (plus de 90 % de la population guadeloupéenne porte encore du chlordécone dans le sang, nouveaux impacts sanitaires documentés en 2025 sur la fertilité, loi d'indemnisation reconnaissant la persistance du problème votée en juin 2026 : la formulation « 2000-2025 » minimise une urgence sanitaire toujours active). Nora 2018-2023 : réduction -41 % pesticides ambitieux raté (baisse ~10 %). Santé : asthme enfants +60 % régions céréalières, Parkinson lié glyphosate +3.5x (à confirmer).
 - **Piste A, 🇩🇰 Danemark (réduction drastique volontaire + R&D biocontrôle) :** Taxe glyphosate 160 €/kg, investissement public biocontrôle (guêpes parasites, champignons). 2023 : glyphosate usage -80 %. **Pour :** Agriculteurs réagissent (innovation), santé public clairement bénéfice. **Contre :** Rendements chutent court terme (2-3 ans transition), coût public R&D permanent, prix aliments +5-10 %.
 - **Piste B, 🇩🇪 Allemagne (interdiction complète glyphosate + label bio subventionné) :** Glyphosate interdit 2024, aides conversions bio 300 €/ha/an. 2024 : 10 % SAU bio. **Pour :** Signal fort santé, prix primes bio finançable par externalités évitées (santé, eau). **Contre :** Famine locale probable (import bio + chère ; petits éleveurs ruinés transition), inégalités nutrition (pauvre = produits chimiques encore, riche = bio).
 - **Piste C, 🇧🇷 Brésil + alternatives chimie verte (pivot plutôt que ban) :** Investir molécules « smart » : CRISPR cultures, ARN interférence ravageurs ciblés. Glyphosate remplacé graduellement (5-10 ans). **Pour :** Continuité productions, moins panique agricoles. **Contre :** Tech CRISPR breveté (Bayer/Corteva monopole), prix semences stratosphériques, éthique OGM débattue.
@@ -79,6 +79,7 @@
 - ⚖️ **Faisabilité juridique :** Loi, code environnement ; obstacles directive UE 1107/2009 pesticides, directive 2015/412 cultures OGM, art. 40 financement transition.
 - ⚖️ **À trancher :** Interdiction glyphosate (Danemark) vs graduel chimie verte (Brésil) ? Qui paie transition paysans : État (budget ?) ou consommateurs (+prix) ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-13
 
 ---
 
@@ -98,13 +99,14 @@
 ### P8. Transports du quotidien saturés
 
 - **Le problème (France, 2016-2026) :** Télétravail post-2020 : léger baisses trajets, mais reprise 2023-2024 (voiture = 80 % trajets < 15 km). TER-SNCF : retards +20 % 2024, investissement/km France vs Allemagne 10x moindre. Bus régionaux : arrêts fermés petites villes (+ 50 % 2015-2024). Congestion Île-de-France ⇒ productivité -2 % (à confirmer). Covoiturage : pénétration 6 % (vs 15 % Allemagne, 20 % Suisse).
-- **Piste A, 🇦🇹 Autriche (ticket climat : 1 abonnement ÖV national, 1100 €/an) :** Un ticket = trains, trams, bus, vélos partout Autriche. Usagers +60 %, voiture -15 %, budget État +3 Md€/an (pour 9 M hab). **Pour :** Massif, simple, populaire. **Contre :** Lourd fiscalement, trains vieux (maintenance = inverse économies), pas d'effet secteur routier/auto (emplois).
+- **Piste A, 🇦🇹 Autriche (ticket climat : 1 abonnement ÖV national, 1400 €/an en 2026, contre 1100 €/an à son lancement et 1300 €/an depuis août 2025) :** Un ticket = trains, trams, bus, vélos partout Autriche. Usagers +60 %, voiture -15 %, budget État +3 à 4 Md€/an (pour 9 M hab, réévalué à la hausse avec le tarif 2026). **Pour :** Massif, simple, populaire. **Contre :** Lourd fiscalement, trains vieux (maintenance = inverse économies), pas d'effet secteur routier/auto (emplois).
 - **Piste B, 🇩🇪 Allemagne (Bahn-Card dynamique + covoiturage BlaBlaCar subventionné) :** 50 % prix trains si abonnement 120 €/an (30 M users). État subventionne 1/3 ticket covoiturage long-distance. Moindre investissement SNCF (~1 Md€/an vs 5 Md€ Autriche). **Pour :** Efficacité coût, flexibilité usagers, P2P scalable. **Contre :** Moins inclusif bas revenu, covoiturage = émissions pas zéro (encore combustion), résilience réseau vs pic (saturation).
 - **Piste C, 🇪🇹 Éthiopie/Afrique (micro-mobilité urbaine agile) :** Tuk-tuk électriques, motos-taxi régulées, tarifs dynamiques. Pas besoin SNCF lourde : ultralocal 5-20 km. **Pour :** Agile, bas capex, emplois nombreux. **Contre :** Pas viable trajets > 30 km, sécurité motos (accidents), dépendance recharge aléatoire (électricité chaotique pays).
 - **Simulation (ordres de grandeur) :** Ticket climat Autriche-like (ÖV national) : ~2-3 Md€/an État (pro-rata 68 M hab). Usagers train +60 %, voiture -15 %. Gagnants : mobilité bas revenu, émissions -20 % urbain ; perdants : secteur auto. Délai montée charge : 2-3 ans, effet climat : 5-10 ans.
 - ⚖️ **Faisabilité juridique :** Loi, code du travail, code de la route ; obstacles art. 40 subventions transports publics massives ; directive UE mobilité urbaine durable.
 - ⚖️ **À trancher :** Ticket climat national Autriche (fiscal massif) vs ticket réduit + covoiturage Allemagne (P2P) ? Rail = subvention ou faut être rentable ? Voiture: interdire progressivement ou congestion pricing ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-13
 
 ---
 
