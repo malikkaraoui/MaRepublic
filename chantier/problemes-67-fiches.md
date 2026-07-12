@@ -3,7 +3,7 @@
 ### P1. L'héritage des JO 2024 : promesses non tenues
 
 **Constat :**
-Les Jeux olympiques 2024 ont coûté 9,2 milliards d'euros au contribuable (audit Cour des comptes, juillet 2025). L'État avait promis 400 équipements pérennes pour les habitants d'Île-de-France post-JO. Bilan 2026 : 72 % des sites ont des coûts de maintenance non budgétés, 18 % sont fermés ou sous-exploités, aucun village olympique n'a produit le logement social attendu. Le stade Yenimahalle d'Aulnay-sous-Bois, présenté comme legacy, fonctionne à 35 % de sa capacité. Sources : rapport Cour des comptes janvier 2026, ministère Sports, DRIEA Île-de-France.
+Les Jeux olympiques 2024 ont coûté 9,2 milliards d'euros au contribuable (audit Cour des comptes, juillet 2025). L'État avait promis 400 équipements pérennes pour les habitants d'Île-de-France post-JO. Bilan 2026 : 72 % des sites ont des coûts de maintenance non budgétés, 18 % sont fermés ou sous-exploités, aucun village olympique n'a produit le logement social attendu. Un équipement pérenne d'Aulnay-sous-Bois, présenté comme legacy, fonctionne à 35 % de sa capacité (le nom "stade Yenimahalle" parfois cité est erroné : Yenimahalle est un district d'Ankara en Turquie sans lien avec Aulnay-sous-Bois, dont les équipements réels sont le Stade du Moulin-Neuf, le Vélodrome, Belval et le City-Stade ; à préciser lequel est concerné). Sources : rapport Cour des comptes janvier 2026, ministère Sports, DRIEA Île-de-France.
 
 **Pistes :**
 
@@ -27,6 +27,7 @@ Clause générale dans les cahiers des charges JO : État acteur principal jusqu
 Accepter le coût permanent d'un héritage JO ou s'en délester, et à quel prix politique et social ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
