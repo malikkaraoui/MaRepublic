@@ -88,7 +88,7 @@
 
 ### P8. Fuite cerveaux et startups vendues aux États-Unis
 
-- **Le problème (France, 2016-2026) :** Cerveaux scientifiques partent US (MIT, Stanford, FAANG) : ~40% doctorants Fr cherchent emploi US post-thèse. Startups IA/biotech fondées Fr (Mistral.ai, Owkin, Carrefour…) achetées/valorisées uniquement après levée US (2024: Figma rachetée Microsoft, Hugging Face rejoint Sequoia US). VCs US dominent levées capital tech France (a16z, Sequoia, YC influent plus que fond Fr). Patent offices : dépôts tech critiques directs US (vs France = voie secondaire). Coût doctorat/thèse France vs US (gratuit US, payant Fr) aggrave fuite.
+- **Le problème (France, 2016-2026) :** Cerveaux scientifiques partent US (MIT, Stanford, FAANG) : ~40% doctorants Fr cherchent emploi US post-thèse. Startups IA/biotech fondées Fr (Mistral.ai, Owkin, Carrefour…) achetées/valorisées uniquement après levée US ; illustration du rapport de force : le rachat de Figma par Adobe a échoué en 2023 sous la pression des régulateurs, Figma a fini par s'introduire en bourse (IPO) en 2025 plutôt que d'être absorbée. VCs US dominent levées capital tech France (a16z, Sequoia, YC influent plus que fond Fr). Patent offices : dépôts tech critiques directs US (vs France = voie secondaire). Coût doctorat/thèse France vs US (gratuit US, payant Fr) aggrave fuite.
 - **Piste A, 🇮🇳 Inde (startup hubs IIT + visa long terme) :** Ouvrir visas 10 ans pour talents tech étrangers ; créer hubs startups Bangalore/Hyderabad compétitifs salaires US. **Pour :** rétention talents + écosystème. **Contre :** capital manque (PIA < VC US), brain drain lointain moins direct (Inde même attire US).
 - **Piste B, 🇸🇬 Singapour (fonds souverain + taxes faibles) :** Fonds national tech investisseur massif startups étrangères ; taxes corp réduites tech (5-15%) ; « Tech zones » franches. **Pour :** compétitif US. **Contre :** fiscal faible = dépendance volatilité, PME non-tech exclues.
 - **Piste C, 🇫🇷 France (subventions doctorat + fonds stratégique étatique) :** Bourses doctorat gratuites (comme US) ; créer fonds 10-50 Md€ État investisseur IA/biotech français (modèle Norway sovereign wealth). **Pour :** rétention, autofinancement tech français. **Contre :** État venture capitalist inefficace ?, coûts (~50 Md€/an), dépendance politiques (visibilité=pression).
@@ -97,6 +97,7 @@
 - **Simulation (ordres de grandeur) :** Bourses doctorat gratuites ~50 M€/an pour ~20k doctorants France ; fonds souverain 10-50 Md€ investissements IA/biotech ; équivalent US venture capital nécessite 100+ Md€ capital horizon 10 ans (à confirmer mobilisabilité) ; gagnants rétention talents, startups françaises, perdants contribuables, US si réduction fuite (représailles) ; délai compétitivité visible 5-10 ans.
 - ⚖️ **À trancher :** Faire France/UE concurrente US venture capital vs protéger/taxer départs ? Quels secteurs critiques non-négociables (IA, biotech, défense) vs acceptables (mode, service) ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ---
 
