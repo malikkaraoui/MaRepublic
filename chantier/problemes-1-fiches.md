@@ -52,7 +52,7 @@
 
 ### P5. RIP (Référendum d'Initiative Partagée) jamais abouti
 
-- **Le problème (France, 2016-2026) :** Mécanisme créé par loi constitutionnelle 2008 : 1 million de signatures (1/10e de l'électorat) peut forcer un référendum. Zéro succès en 18 ans (2008-2026). Deux tentatives abouties techniquement (scrutin organisé) mais rejetées : limite retraite 2023 (~55 % pour la retraite à 60), privatisation de l'eau 2023. Outil paralysé par seuil haut ou manque de mobilisation durable.
+- **Le problème (France, 2016-2026) :** Mécanisme créé par loi constitutionnelle 2008 : 1 million de signatures (1/10e de l'électorat) peut forcer un référendum. Zéro succès en 18 ans (2008-2026) : aucune demande de RIP n'a jamais atteint le stade du scrutin. Les deux tentatives les plus suivies, retraite à 60 ans et privatisation de la gestion de l'eau (2023), ont toutes deux été rejetées par le Conseil constitutionnel dès la phase de recevabilité, avant tout vote citoyen. Outil paralysé par seuil haut ou verrou constitutionnel en amont.
 - **Piste A, 🇨🇭 Suisse (seuil bas + campagne gratuite) :** Initiative = 50k signatures seulement (0,5 % électorat). État paye campagne tant pro que contre. Votes 4 fois par an. **Pour :** démocratique, participation accrue. **Contre :** majorité tyrannique (ex. votations anti-migrants), lourdeur administrative.
 - **Piste B, 🇮🇹 Italie (quorum d'approbation) :** Référendum abrogateur : 500k signatures. Mais quorum : 50 % d'électeurs présents. Si quorum non atteint, référendum échoue même si majorité pour. (Ex : 2024, referenda sur droits du travail échoué sur quorum). **Pour :** évite manipulation de minorités. **Contre :** désincite le vote, cynisme.
 - **Piste C, 🇺🇸 Californie (initiative de loi, pas simplement abrogation) :** Citoyens rédigent le texte de loi (pas juste abroger) ; campagne massive. 366 initiatives votées depuis 1911. **Pour :** crée agenda citoyen direct. **Contre :** textes bâclés, budget paralysé par mandats citoyens incompatibles.
@@ -61,17 +61,19 @@
 - ⚖️ **Faisabilité juridique :** Loi constitutionnelle (abaissement seuil art. 89) ; Aucun obstacle constitutionnel majeur, mais révision lente ; RIP créé 2008, aucun succès complet.
 - ⚖️ **À trancher :** le RIP est-il outil démocratique puissant ou arme de blocage des minorités organisées ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P6. Conventions citoyennes ignorées ou diluées
 
-- **Le problème (France, 2016-2026) :** Convention Citoyenne pour le Climat (2019-2020) : 150 citoyens tirés au sort, 9 mois de travail, 149 propositions. Gouvernement Macron en reprend ~60 % en substance, mais vide la substance (ex : 110 km/h réduit à 80 km/h, taxation des 4x4 supprimée). Sentiment de confiscation du processus. Autres conventions (bioéthique, fin de vie) : peu de suivi. Procédure perçue comme cosmétique.
+- **Le problème (France, 2016-2026) :** Convention Citoyenne pour le Climat (2019-2020) : 150 citoyens tirés au sort, 9 mois de travail, 149 propositions. Seules ~12 % ont été reprises intégralement, ~53 % diluées, ~34 % abandonnées (ex : la limitation à 110 km/h sur autoroute, explicitement rejetée par Macron dès juin 2020, jamais mise en œuvre même partiellement). Sentiment de confiscation du processus. Autres conventions (bioéthique, fin de vie) : peu de suivi. Procédure perçue comme cosmétique.
 - **Piste A, 🇩🇪 Allemagne (convention = pré-loi) :** Convention citoyenne (allemande, rare) qui aboutit = loi quasi automatique, sauf vote explicite du Bundestag. État s'engage juridiquement. **Pour :** légitimité garantie. **Contre :** lenteur, risque d'incompétence du processus.
 - **Piste B, 🇨🇦 Canada (commission royale) :** Commission royale (25-30 experts + 10 citoyens) enquête, délibère, rapporte. Parlement débat rapport 6 mois après. Vote contraint (mais possible rejet). **Pour :** mélange expertise + légitimité civique. **Contre :** experts contrôlent l'agenda, citoyens en figurants.
 - **Piste C, 🇮🇸 Islande (convention constitutionnelle) :** Convention citoyenne + parlementaires obligée si réforme constitutionnelle demandée par pétition. Texte co-rédigé. **Pour :** légalité garantie. **Contre :** long, complexe, peu d'emprise sur l'exécutif.
 - **Piste D, France interne (convention = co-législateurs) :** Convention citoyenne (100-150 tires au sort) rédige le texte. Parlement vote sur amendements seulement, pas sur le fond. **Pour :** légitimité radicale. **Contre :** expertise insuffisante, risque d'incohérence rédactionnelle.
 - **Simulation (ordres de grandeur) :** Convention citoyenne : ~20 M€ par cycle (9 mois, expertise, logistique). Gagnants : légitimité perçue +30-40 %, co-décision réelle. Risque : textes moins cohérents sans experts. Délai : 9-12 mois par loi. (à confirmer : capacité rédactionnelle).
-- ⚖️ **Faisabilité juridique :** Loi (statut convention, co-législateurs) ; Art. 40 (financement convention, expertise) ; convention climat 2019-2020, gouvernement en reprit 60% dilués.
+- ⚖️ **Faisabilité juridique :** Loi (statut convention, co-législateurs) ; Art. 40 (financement convention, expertise) ; convention climat 2019-2020, ~12 % des propositions reprises sans dilution.
 - ⚖️ **À trancher :** la convention citoyenne est-elle outil de vraie co-décision ou théâtre de légitimation de décisions éxécutifs ?
+- **Mis à jour :** 2026-07-12
 - **Statut :** ⬜
 
 ### P7. Lobbying opaque et inégal accès aux décideurs
