@@ -12,7 +12,7 @@
 
 **Pourquoi**
 
-Les chiffres des saisies explosent (bon signe pour la pression, mauvais pour la propagande) mais le trafic se redirige : Rotterdam et Anvers dominent désormais (160 tonnes saisies dans ces ports seuls en 2024 vs Le Havre et Marseille où les réseaux s'adaptent). L'OFAST centralise l'intelligence mais manque de moyens judiciaires pour poursuivre (les sénateurs demandent un doublement des ressources aux juridictions). Les piluliers ralentissent la détention en pharmacie, pas le trafic : l'héroïne de rue s'achète partout. Le vrai problème : on intercepte davantage mais on laisse 90 % du marché passer. C'est comme bail un trop-perçu sans réduire le déficit.
+Les chiffres des saisies explosent (bon signe pour la pression, mauvais pour la propagande) mais le trafic se redirige : Rotterdam et Anvers dominent désormais (environ 69 tonnes saisies dans ces ports en 2024, Anvers 44t + Rotterdam 25t, vs Le Havre et Marseille où les réseaux s'adaptent). L'OFAST centralise l'intelligence mais manque de moyens judiciaires pour poursuivre (les sénateurs demandent un doublement des ressources aux juridictions). Les piluliers ralentissent la détention en pharmacie, pas le trafic : l'héroïne de rue s'achète partout. Le vrai problème : on intercepte davantage mais on laisse 90 % du marché passer. C'est comme bail un trop-perçu sans réduire le déficit.
 
 **Pistes Pour-Contre**
 
@@ -103,6 +103,7 @@ Scanners : totalement conforme douane UE. Renseignement humain (infiltration, su
 Accepte-t-on l'impact logistique (ralentissement commerce) du scanner 100 % ? Stratégie Europe coordonnée vs efforts nationaux solitaires ? Combien pour l'anti-corruption portuaire avant de laisser passer ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
@@ -180,11 +181,11 @@ Ressources pour crypto enquête (50 vs 500 agents) ? Stratégie : contrôle des 
 
 **Constat chiffré+URL**
 
-Consommation CSP+ (Paris 16, Neuilly, Boulogne) : 30 % des usagers réguliers de coke en Île-de-France. Prévalence : 1,5 % des 25-35 ans aisés (vs 0,3 % population générale). Blanchiment indirect : 500 millions euros/an via consommation haut de gamme (estim. Sénat). Royaume-Uni : campagnes Know The Cost (Manchester, Londres, 2020-2024) : avant/après de 100 jeunes aisés (vidéos YouTube, pubs Facebook) ; résultats : réduction 12 % essais annuels chez CSP+ (étude LSE 2024, à confirmer). Sources : [Rapport Sénat 2024](https://www.senat.fr/rap/r23-588-1/r23-588-1.pdf)
+Consommation CSP+ (Paris 16, Neuilly, Boulogne) : 30 % des usagers réguliers de coke en Île-de-France. Prévalence : 1,5 % des 25-35 ans aisés (vs 0,3 % population générale). Blanchiment indirect : 500 millions euros/an via consommation haut de gamme (estim. Sénat). Royaume-Uni : aucune campagne de prévention ciblant spécifiquement les consommateurs aisés de cocaïne n'a pu être documentée avec des chiffres d'efficacité vérifiables (la campagne "Know The Cost" et l'étude LSE 2024 associées à une réduction de 12 % des essais ne sont pas confirmées par des sources fiables ; seule campagne proche identifiée, "True Costs" de Thames Valley Police, cible l'exploitation des mineurs, pas les consommateurs CSP+). Sources : [Rapport Sénat 2024](https://www.senat.fr/rap/r23-588-1/r23-588-1.pdf)
 
 **Pourquoi**
 
-La coke des beaux quartiers finance directement les fusillades de Marseille et les cartels de Medellín. Mais c'est l'angle mort des campagnes de prévention (qui ciblent les jeunes de quartiers). Responsabilisation des consommateurs aisés : actuellement néant en France. UK a testé : montrer le coût humain réel (enfants soldats en Colombie, tueurs Marseille recrutés à 14 ans, dopants du Havre). Efficacité modeste (12 % sur essais) mais pas zéro. Question politique : faut-il attaquer la demande CSP+ ou ignorer ce segment ?
+La coke des beaux quartiers finance directement les fusillades de Marseille et les cartels de Medellín. Mais c'est l'angle mort des campagnes de prévention (qui ciblent les jeunes de quartiers). Responsabilisation des consommateurs aisés : actuellement néant en France. Piste possible : montrer le coût humain réel (enfants soldats en Colombie, tueurs Marseille recrutés à 14 ans, dopants du Havre), sans qu'aucune étude d'efficacité chiffrée ne soit disponible pour ce type de campagne à ce jour. Question politique : faut-il attaquer la demande CSP+ ou ignorer ce segment ?
 
 **Pistes Pour-Contre**
 
@@ -192,7 +193,7 @@ Pour : campagne vidéo massive (Instagram, TikTok) montrant chaîne coke : trafi
 
 **Simulation (ordres de grandeur) :**
 
-Scénario A : campagne vidéo simple. Budget : 20 millions/an sur 3 ans. Résultat : visibilité, 8 à 12 % de réduction chez CSP+ jeunes (base UK). Impact marché : 3 à 5 % de demande coke réduite en IDF. Marché compensation : trafiquants baissent prix de 5 %, re-recruit clients.
+Scénario A : campagne vidéo simple. Budget : 20 millions/an sur 3 ans. Résultat : visibilité, effet sur les essais chez CSP+ jeunes non chiffrable faute d'étude comparable documentée. Impact marché : 3 à 5 % de demande coke réduite en IDF (hypothèse). Marché compensation : trafiquants baissent prix de 5 %, re-recruit clients.
 
 Scénario B : campagne + poursuites judiciaires visibles (5 à 10 clients aisés/an en cour assises). Budget : 30 millions/an. Résultat : effet dissuasif plus fort, réduction demande 15 à 20 % chez CSP+ (risque social stigma). Impact : 5 à 8 % du marché coke. Durée : crédible 3 à 5 ans avant normalisation du risque.
 
@@ -207,6 +208,7 @@ Campagne : totalement légale. Poursuites clients : légal sous code pénal (usa
 Stratégie responsabilisation CSP+ : impactant ou symbolique ? Où le revenu nouveau (taxe) va (santé ? répression ? Marseille) ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
@@ -250,11 +252,11 @@ Ordre des priorités politiques : cannabis d'abord ? Puis dépénalisation usage
 
 **Constat chiffré+URL**
 
-France : opération Sentinelle (Marseille 2023-2024) : présence continue 500 militaires/gendarmes. Résultat 6 mois : usage public baisse 40 % ; trafic se délocalise 2 km à côté. Suède : beredskap (patrouilles 24/24, community policing) 2015-2023 : gang violence baisse 15 % pendant 3 ans, puis remonte 20 % après retrait des moyens. Absence évaluation chiffrée France long terme. UK : Aston (Birmingham) : community led (habitants impliqués, ex-trafiquants convertis en médiateurs) : violence baisse 30 % sur 5 ans, résilience reste à retrait police. Sources : [Sénat 2024 quartiers](https://www.senat.fr/rap/r23-588-1/r23-588-1.pdf)
+France : opération Sentinelle (Marseille 2023-2024) : présence continue 500 militaires/gendarmes. Résultat 6 mois : usage public baisse 40 % ; trafic se délocalise 2 km à côté. Suède : beredskap (patrouilles 24/24, community policing) 2015-2023 : la violence des gangs a au contraire augmenté de façon quasi continue sur cette période malgré ces dispositifs (116 homicides en 2022, 121 en 2023), aucune baisse de 15 % n'étant documentée. Absence évaluation chiffrée France long terme. UK : Aston (Birmingham) : community led (habitants impliqués, ex-trafiquants convertis en médiateurs) : violence baisse 30 % sur 5 ans, résilience reste à retrait police. Sources : [Sénat 2024 quartiers](https://www.senat.fr/rap/r23-588-1/r23-588-1.pdf)
 
 **Pourquoi**
 
-Présence continue = succès court terme. Dès qu'on retire, trafiquants reviennent. Suède a découvert que coups ponctuels = pire (renforce la haine anti-police, radicalise les jeunes). Modèle communautaire (UK Aston) montre que présence + légitimité locale = effet durable. Mais coûteux en moyens humains et temps (3 à 5 ans pour construire trust). Question politique : accepte-t-on une occupation douce permanent de quartiers ou cherche-t-on une exit-strategy ?
+Présence continue = succès court terme. Dès qu'on retire, trafiquants reviennent. La Suède montre que patrouilles et community policing seuls n'ont pas suffi à inverser la tendance (violence des gangs en hausse quasi continue 2015-2023 malgré ces dispositifs). Modèle communautaire (UK Aston) montre que présence + légitimité locale = effet durable. Mais coûteux en moyens humains et temps (3 à 5 ans pour construire trust). Question politique : accepte-t-on une occupation douce permanent de quartiers ou cherche-t-on une exit-strategy ?
 
 **Pistes Pour-Contre**
 
@@ -279,6 +281,7 @@ Occupation militaire : cadre juridique Sentinelle (possible). Police communautai
 Combien de quartiers prioriser (5 ? 10 ? 20 ?) ? Horizont de constance politique : 5 ans ? 10 ans ? (crucial pour modèle long terme). Quel rôle aux ex-trafiquants (médiateurs vs figures de rédition) ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
