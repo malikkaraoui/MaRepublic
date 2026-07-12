@@ -50,7 +50,7 @@ https://www.assemblee-nationale.fr/dyn/synthese/fonctionnement-assemblee-nationa
 
 ### P3. Les tours de passe-passe budgétaires : où disparaissent les milliards ?
 
-**Le constat (chiffré, source) :** La Cour des comptes documente régulièrement les dispositifs d'opacité budgétaire. Exemples : les comptes d'affectation spéciale (CAS, anciens fonds de concours) permettent de budgétiser hors du contrôle parlementaire habituel. Les « dépenses fiscales » (exonérations, réductions, niches) représentent 150+ milliards d'euros (à confirmer, source budgetaire officielle). Les reports de crédits : un ministère n'utilise que 85 % de son budget en année N, le reste reporte à l'année N+1 en période de crise (à confirmer, Cour des comptes). Les « rabots » budgétaires : gel des crédits de 5 à 15 % en fin d'année sans débat (source : acteurs publics). Les caporales budgétaires restent invisibles au débat parlementaire. (à confirmer, source ministérielle)
+**Le constat (chiffré, source) :** La Cour des comptes documente régulièrement les dispositifs d'opacité budgétaire. Exemples : les comptes d'affectation spéciale (CAS, anciens fonds de concours) permettent de budgétiser hors du contrôle parlementaire habituel. Les « dépenses fiscales » (exonérations, réductions, niches) représentent environ 90 milliards d'euros par an (85,6 Md€ en 2022, 81,3 Md€ en 2023, 89,4 Md€ en 2024, 91,8 Md€ en 2025, source Cour des comptes et budget.gouv.fr). Les reports de crédits : un ministère n'utilise que 85 % de son budget en année N, le reste reporte à l'année N+1 en période de crise (à confirmer, Cour des comptes). Les « rabots » budgétaires : gel des crédits de 5 à 15 % en fin d'année sans débat (source : acteurs publics). Les caporales budgétaires restent invisibles au débat parlementaire. (à confirmer, source ministérielle)
 
 **Pourquoi c'est un instrument de pouvoir :** Les vrais crédits ne sont pas visibles en une seule ligne du PLF. Un ministère dépense 10 milliards, mais 3 milliards passent par des niches fiscales qu'on retrouve au budget des impôts. Un autre dépense 500 millions via un CAS (compte spécial) dont personne ne parle. Résultat : impossible de voir qui reçoit quoi. C'est la « complexité budgétaire » : elle paralyse le citoyen et le parlementaire. Le gouvernement peut dire « j'ai réduit les dépenses » en gelant les crédits sans le dire, en les utilisant partiellement, en les reportant.
 
@@ -67,6 +67,7 @@ https://www.assemblee-nationale.fr/dyn/synthese/fonctionnement-assemblee-nationa
 **⚖️ À trancher :** Les ministères accepteront-ils que leurs « marges de manœuvre » budgétaires (gels, reports) disparaissent au profit de la transparence ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-12
 
 ---
 
