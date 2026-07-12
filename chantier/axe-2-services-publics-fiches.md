@@ -13,12 +13,13 @@
 
 ### S2. Forfait transport national unique
 - **Problème :** transports chers et fragmentés ; frein à la mobilité.
-- **Ça existe déjà :** 🇦🇹 Autriche, **KlimaTicket** ~3 €/jour, tous transports publics du pays ; 🇱🇺 Luxembourg, transports **gratuits**.
+- **Ça existe déjà :** 🇦🇹 Autriche, **KlimaTicket** 1 400 €/an (~3,80 €/jour, prix janvier 2026), tous transports publics du pays ; 🇱🇺 Luxembourg, transports **gratuits**.
 - **Version France :** abonnement national unique type KlimaTicket (train+bus+métro).
 - ⚖️ **Faisabilité juridique :** Loi ordinaire + conventions SNCF/RATP ; obstacle potentiel : art. 40 Const. (financement), structurable économiquement.
-- **Simulation (ordres de grandeur) :** KlimaTicket-style ~3€/jour = 1100€/an (vs 150-200€ forfait local). Coûts subvention ~20-30 B€/an (67M habitants). Financement : fiscalité transport + impôt carbone + redéploiement. Gagnants : 20M+ citoyens mobilité +40 %. Perte : SNCF/RATP marge. Mise en place 24 mois (infrastructure).
+- **Simulation (ordres de grandeur) :** KlimaTicket-style ~1400€/an (vs 150-200€ forfait local). Coûts subvention ~20-30 B€/an (67M habitants). Financement : fiscalité transport + impôt carbone + redéploiement. Gagnants : 20M+ citoyens mobilité +40 %. Perte : SNCF/RATP marge. Mise en place 24 mois (infrastructure).
 - ⚖️ **À trancher :** prix ; financement ; gratuité ciblée (jeunes ?) ou forfait.
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### S3. École : miser sur les profs (modèle finlandais)
 - **Problème :** métier dévalorisé, résultats en baisse, bureaucratie.
