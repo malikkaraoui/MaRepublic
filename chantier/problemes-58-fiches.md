@@ -2,7 +2,7 @@
 
 ### P1. Désert de trésoreries et guichets publics fermés : la bancarisation forcée des ruraux
 
-**Constat :** Entre 2010 et 2023, France a perdu 54 % de ses guichets bancaires (2 600 fermetures), avec concentration en zones urbaines (INSEE, Observatoire du financement de l'économie 2023 : https://www.insee.fr). SNCF a fermé 1 200 guichets depuis 2015 dont 90 % en zones peu denses (rapport SNCF parlementaire 2022). Les trésoreries fermées laissent 2,3 millions de Français à plus de 30 km d'un service trésorier (Banque de France, cartographie réseau 2024 : https://www.banque-france.fr). Accès au cash décline : distributeurs = 45 000 ATM fin 2023, baisse de 8 % sur 5 ans (Fédération bancaire, rapports annuels).
+**Constat :** Entre 2010 et 2023, France a perdu 54 % de ses guichets bancaires (au moins 5 700 fermetures, données FBF : 3 750 entre 2010-2020 + 3 296 entre 2020-2025), avec concentration en zones urbaines (INSEE, Observatoire du financement de l'économie 2023 : https://www.insee.fr). SNCF a fermé 1 200 guichets depuis 2015 dont 90 % en zones peu denses (rapport SNCF parlementaire 2022). Les trésoreries fermées laissent 2,3 millions de Français à plus de 30 km d'un service trésorier (Banque de France, cartographie réseau 2024 : https://www.banque-france.fr). Accès au cash décline : distributeurs = 45 000 ATM fin 2023, baisse de 8 % sur 5 ans (Fédération bancaire, rapports annuels).
 
 **Pistes :**
 
@@ -10,7 +10,7 @@
    - Pour : accès basique garanti, cash circulant, droits à égalité.
    - Contre : coûts élevés (estimé 200-300 M€/an à terme), logique marchande bancaire inefficace en zones basses densités.
 
-2. *Maisons France Services* renforcées (actuellement 4 250 sites) : multiservice (poste, trésor, impôts, MSA, Caf) + autonomie bancaire (mini-guichets automatisés). Budget 2024 : 300 M€ (Gouvernement, rapport d'activité : https://www.france-services.gouv.fr). Généraliser à toute commune < 5 000 hab à moins de 15 km.
+2. *Maisons France Services* renforcées (2 800 sites labellisés fin 2024, objectif 3 000 pour 2027) : multiservice (poste, trésor, impôts, MSA, Caf) + autonomie bancaire (mini-guichets automatisés). Budget 2024 : 300 M€ (Gouvernement, rapport d'activité : https://www.france-services.gouv.fr). Généraliser à toute commune < 5 000 hab à moins de 15 km.
    - Pour : concentration de services, réduction redondance, proximité réelle.
    - Contre : modèle fragile (dépend de maturité locale, coordination préfectures), demande importante vs capacité réelle des sites.
 
@@ -36,12 +36,13 @@
 - Cash = droit fondamental (Allemagne : garantit légalement) ou service public optionnel en zones basses densités ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
 ### P2. Maternités fermées : 30 km d'éloignement et accouchements sur trajet d'urgence
 
-**Constat :** Entre 2000 et 2023, 40 % des maternités françaises ont fermé (310 sites à 184 en 2023, DREES : https://www.drees.gouv.fr). Une femme en zone rurale parcourt en moyenne 27 km pour maternité (DREES, rapport périnatalité 2023). Cas extrêmes : certains départements (Lozère, Lot) = maternité unique à 50-80 km. Accouchements sur route = incidents ponctuels mais réels (Samu, données 2020-2023 : à confirmer via enquête parlementaire). Surmortalité maternelle et infantile corrélée à éloignement > 30 km (études CHU Nancy-Strasbourg, INSERM : à valider).
+**Constat :** Entre 2000 et 2023, environ 40 % des maternités françaises ont fermé ; la France comptait 462 maternités au 31 décembre 2023 (DREES : https://www.drees.gouv.fr ; le chiffre de 184 parfois cité est erroné, sous-estimé d'un facteur 2,5). Une femme en zone rurale parcourt en moyenne 27 km pour maternité (DREES, rapport périnatalité 2023). Cas extrêmes : certains départements (Lozère, Lot) = maternité unique à 50-80 km. Accouchements sur route = incidents ponctuels mais réels (Samu, données 2020-2023 : à confirmer via enquête parlementaire). Surmortalité maternelle et infantile corrélée à éloignement > 30 km (études CHU Nancy-Strasbourg, INSERM : à valider).
 
 **Pistes :**
 
@@ -76,6 +77,7 @@
 - Faut-il accepter accouchement semi-hospitalisé (sage-femme + tele) ou exiger bloc complet pour sécurité ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
@@ -161,11 +163,11 @@
 
 ### P5. Maisons France Services : vrai guichet ou lot de consolation sans moyens ?
 
-**Constat :** Lancées 2019, 4 250 Maisons France Services fin 2024 (gouvernement : https://www.france-services.gouv.fr), visée 5 000. Fréquentation moyenne = 120 demandes/mois (très inégale : 10 en zone basse, 500+ urbain). Budget 2024 = 300 M€/an, taux d'utilisation réel estimé 40-60 % (Cour des Comptes, audit 2023 : à confirmer). Enjeux : coordination 8 ministères (Affaires sociales, Intérieur, Finances, etc.), méconnaissance usagers (30 % des ruraux ne savent pas qu'une existe à < 10 km), chiffre d'affaires agents très variable (3-8 demandes/jour).
+**Constat :** Lancées 2019, 2 800 Maisons France Services labellisées fin 2024 (gouvernement : https://www.france-services.gouv.fr), objectif 3 000 pour 2027. Fréquentation moyenne = 120 demandes/mois (très inégale : 10 en zone basse, 500+ urbain). Budget 2024 = 300 M€/an, taux d'utilisation réel estimé 40-60 % (Cour des Comptes, audit 2023 : à confirmer). Enjeux : coordination 8 ministères (Affaires sociales, Intérieur, Finances, etc.), méconnaissance usagers (30 % des ruraux ne savent pas qu'une existe à < 10 km), chiffre d'affaires agents très variable (3-8 demandes/jour).
 
 **Pistes :**
 
-1. *Maisons France Services renforcées* : budget constant (300 M€), redéployer effectifs vers 2 000 sites stratégiques bien dimensionnés vs dispersion 4 250.
+1. *Maisons France Services renforcées* : budget constant (300 M€), redéployer effectifs vers 2 000 sites stratégiques bien dimensionnés vs dispersion sur 2 800.
    - Pour : efficacité augmentée, services complets, agents mieux lotis, formation mutualisée.
    - Contre : fermeture 2 250 sites = crise politique (perçu comme régression), tensions syndicales.
 
@@ -196,6 +198,7 @@
 - Services minimaux obligatoires : lesquels ? (3, 5, ou 8 ministères ?)
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
@@ -324,7 +327,7 @@
 
 ### P9. Dotation aux communes rurales (DGF) vs besoins réels : le casse-tête mathématique de l'égalité
 
-**Constat :** DGF (Dotation Globale de Fonctionnement) = 35 M€ distribuée 34 000 communes via formule complexe (pop, fiscalité, potentiel, désenclavement). Communes rurales < 500 hab reçoivent 2 500-3 500€/hab vs 1 800€ urbaines, mais coûts = inverses : école fermée = maintenir transports, école vide = frais fixes (chauffage, électricité) disproportionnés. Indice de « potentiel fiscal » = brut (vignette auto oubliée, fiscalité agricole minimale), ne capture pauvreté réelle. Communes à < 200 hab = 1 300 unités, bascule vers faillite (capacité 2-3 agents), absorption intercommunale force perte autonomie.
+**Constat :** DGF (Dotation Globale de Fonctionnement) = 27-28 Md€ distribuée 34 000 communes via formule complexe (pop, fiscalité, potentiel, désenclavement). Communes rurales < 500 hab reçoivent 2 500-3 500€/hab vs 1 800€ urbaines, mais coûts = inverses : école fermée = maintenir transports, école vide = frais fixes (chauffage, électricité) disproportionnés. Indice de « potentiel fiscal » = brut (vignette auto oubliée, fiscalité agricole minimale), ne capture pauvreté réelle. Communes à < 200 hab = 1 300 unités, bascule vers faillite (capacité 2-3 agents), absorption intercommunale force perte autonomie.
 
 **Pistes :**
 
@@ -361,6 +364,7 @@
 - Communes rurales extrêmes (< 100 hab) : subvention sans limite ou seuil de viabilité (fusion obligatoire) ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
