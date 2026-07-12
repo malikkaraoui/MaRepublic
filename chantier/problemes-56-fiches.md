@@ -134,7 +134,7 @@
 
 ### P7. Harcèlement scolaire : traitement réel des cas, bilan du protocole pHARe
 
-**Constat :** Ministère Éducation 2023: 13 % des élèves français déclarent harcèlement (France vs Espagne 9 %, Allemagne 10 %, OCDE moyenne 8 %, à confirmer). Suicides/tentatives attribuées au harcèlement scolaire: 30-40/an (à confirmer). Protocole pHARe lancé 2021 (prévention via référents/formations) : bilan 2023 très mitigé. Seulement 45 % des écoles ont nommé référent (devrait être 100 % fin 2023). Traitement des signalements: 78 % "solution interne" (avertissements) vs 18 % exclusions ; 4 % renvoi police/justice. Délai résolution moyenne: 6 mois (vs 4 semaines recommandé). Sources: DEPP données harcèlement (data.education.gouv.fr) ; rapport pHARe 2023 (education.gouv.fr) ; associations spécialisées (France Harcèlement, Stop Harcèlement).
+**Constat :** DEPP 2023 : 13 % des élèves français sont en « situation à surveiller » (dégradation qualité de vie scolaire + signaux de vulnérabilité), une catégorie distincte du harcèlement déclaré proprement dit, qui concerne 2-4 % des élèves selon le niveau scolaire (comparaison France vs Espagne 9 %, Allemagne 10 %, OCDE moyenne 8 % à confirmer, notamment sur l'homogénéité des indicateurs comparés). Suicides/tentatives attribuées au harcèlement scolaire: 30-40/an (à confirmer). Protocole pHARe lancé 2021 (prévention via référents/formations) : bilan 2023 très mitigé. Seulement 45 % des écoles ont nommé référent (devrait être 100 % fin 2023). Traitement des signalements: 78 % "solution interne" (avertissements) vs 18 % exclusions ; 4 % renvoi police/justice. Délai résolution moyenne: 6 mois (vs 4 semaines recommandé). Sources: DEPP données harcèlement (data.education.gouv.fr) ; rapport pHARe 2023 (education.gouv.fr) ; associations spécialisées (France Harcèlement, Stop Harcèlement).
 
 **Pistes :**
 - Installer cellule juridique dans chaque académie (procureur délégué lycée + enquêteurs éducation) pour traiter harcèlement grave en 3 semaines, sancturant agresseurs (exclusion définitive, poursuites justice) : zéro tolérance. Coûterait 80 M EUR/an (200 postes juridiques). Contre: ghettoïsation des "agresseurs", solution qui exclut vs réinté​gre ; droit de l'enfant (sanction sévère à mineur risqué) ; stigmatisation cas graves.
@@ -151,12 +151,13 @@
 ⚖️ **À trancher :** Harcèlement est-il crime (justice pénale) ou problème éducatif (médiation) ? À partir de quel seuil on pénalise agresseur vs aide psycho ? Victime doit-elle affronter agresseur (justice pairs) ou victime priorité protection ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
 ### P8. Le baccalauréat dévalué mais sacralisé : examen-fétiche ou diplôme d'accès ?
 
-**Constat :** Bac général 2023: 91,2 % de taux de réussite (à la baisse depuis "bac blanc" contrôle continu 2021). Or bac général ne sélectionne plus (vs 60 % réussite en 1995 pour 5 % de cohorte). Paralysie PARCOURSUP: universités priorisent "dossier scolaire" (notes 1e/tale) sur "note bac final" car bac n'a plus impact informatif (tous à 12-16). Employeurs ignorent le bac (recrutent sur alternance/stage, pas bac). Coût public bac: 2,5 milliards EUR/an (logistique, correcteurs, infrastructure). Utilité réelle: 0 (ni sélection, ni signal employeur, ni légitimité supérieur). Sources: DEPP taux bac 2023 (data.education.gouv.fr) ; étude APEC employeurs (apec.fr) ; PARCOURSUP données (parcoursup.fr).
+**Constat :** Bac général 2023 : 90,8 % de taux de réussite avant rattrapages, 95,7 % après rattrapages (DEPP ; le chiffre de 91,2 % parfois cité ne correspond à aucune statistique officielle publiée). Or bac général ne sélectionne plus (vs 60 % réussite en 1995 pour 5 % de cohorte). Paralysie PARCOURSUP: universités priorisent "dossier scolaire" (notes 1e/tale) sur "note bac final" car bac n'a plus impact informatif (tous à 12-16). Employeurs ignorent le bac (recrutent sur alternance/stage, pas bac). Coût public bac: 2,5 milliards EUR/an (logistique, correcteurs, infrastructure). Utilité réelle: 0 (ni sélection, ni signal employeur, ni légitimité supérieur). Sources: DEPP taux bac 2023 (data.education.gouv.fr) ; étude APEC employeurs (apec.fr) ; PARCOURSUP données (parcoursup.fr).
 
 **Pistes :**
 - Garder bac mais transformation en "diplôme de fin d'études secondaires" non-éliminatoire (tous obtiennent), focus sur portfolio étudiant et CV compétences: rôle social uniquement. Contre: bac devient inutile administrativement ; familles perd point de repère ; encore 2,5 milliard EUR de dépense "vide".
@@ -173,6 +174,7 @@
 ⚖️ **À trancher :** Bac est-il légitimement "sélectif" (si oui, restaurer taux réussite 60 %) ou "accès universel" (si oui, accepter taux 90 %) ? Qui valide fin secondaire : État ou université ? Signal diplôme (bac pour employeur) ou diplôme accès (bac pour supérieur) : on ne peut pas les deux.
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
 
 ---
 
@@ -200,7 +202,7 @@
 
 ### P10. La cantine à deux vitesses : tarifs, qualité, bio, reproduction sociale
 
-**Constat :** France 2023: 8,5 millions d'élèves mangent à la cantine (60 % de l'effectif). Tarifs: régressifs (communes différencient par revenus) : pauvre paie 1,50 EUR/repas, riche 6 EUR/repas pour même menu (commune taille moyenne 50K hab). Qualité: 35 % des repas contiennent <30 % bio malgré loi Egalim 2018 (30 % bio depuis 2022), seuls 12 % des communes en bio 50 % (écoles des riches concentrent bio). Menus "enfants pauvres": viande x1/semaine vs x3 enfants riches (économies communes). Coût public cantine: 3 milliards EUR/an, financé 70 % communes (budget enfants pauvres faible), 30 % parents. Effet: enfants pauvres déscolarisés midi (partent manger dehors), apprentissage après-midi -15 % (fatigue faim, à confirmer). Sources: DEPP étude cantine 2023 (data.education.gouv.fr) ; Cour des comptes rapport Egalim (ccomptes.fr) ; enquête l'Obs 2022 (repas deux vitesses).
+**Constat :** France 2023: 8,5 millions d'élèves mangent à la cantine (60 % de l'effectif). Tarifs: régressifs (communes différencient par revenus) : pauvre paie 1,50 EUR/repas, riche 6 EUR/repas pour même menu (commune taille moyenne 50K hab). Qualité: 35 % des repas contiennent moins que le seuil légal malgré la loi Egalim 2018 (article 24 : 50 % de produits de qualité/durables dont un minimum de 20 % bio depuis 2022, et non 30 % bio), seuls 12 % des communes en bio 50 % (écoles des riches concentrent bio). Menus "enfants pauvres": viande x1/semaine vs x3 enfants riches (économies communes). Coût public cantine: 3 milliards EUR/an, financé 70 % communes (budget enfants pauvres faible), 30 % parents. Effet: enfants pauvres déscolarisés midi (partent manger dehors), apprentissage après-midi -15 % (fatigue faim, à confirmer). Sources: DEPP étude cantine 2023 (data.education.gouv.fr) ; Cour des comptes rapport Egalim (ccomptes.fr) ; enquête l'Obs 2022 (repas deux vitesses).
 
 **Pistes :**
 - Cantine unique gratuite pour tous (État rembourse communes +1 milliard EUR/an) + menu bio 70 % obligatoire national : égalité + santé. Contre: communes riches contestent (perte différenciation) ; filière conventi non préparée (surcharge bios, prix +50 %) ; surcharge logistique cuisines.
@@ -212,8 +214,9 @@
 - Scénario 2 (tarifs progressifs + impôt bio): 3,5 milliards EUR/an (budget stable), délai 2 ans, égalité menu mais pas tarif (inégalité partielle). Gagnants: enfants CSP- (nutrition améliorée), agriculteurs bio, petit budget communes. Perdants: riches (impôt nouveau) ; syndicats agricoles (prix bio baisse -10 % si subvention).
 - Scénario 3 (voucher): 4,5 milliards EUR/an (inefficacité + profit privé), délai 18 mois. Effet: inégalités maintenues (voucher 5 EUR = 30 % du coût réel haut-de-gamme), équité non garantie. Gagnants: prestataires privés. Perdants: enfants pauvres (qualité reste basse), filière bio (concurrence prix) ; service public.
 
-⚖️ **Faisabilité juridique :** Cantine gratuite obligatoire: compatible Code collectivités territoriales (article L. 211-4, communes peuvent fixer tarifs mais obligation "accès repas"). Risque constitutionnel : si gratuit forcé, communes réclament compensation État (Cconst 2016). Bio obligatoire 70 %: code agricole L. 272-1 (Egalim compatible, lever le seuil actuel 30 % légal). Voucher: compatible, mais dérégulation service public (moniteur loi Sapin 2 sur marché public). Véhicule: loi programme nutrition ou décret application Egalim.
+⚖️ **Faisabilité juridique :** Cantine gratuite obligatoire: compatible Code collectivités territoriales (article L. 211-4, communes peuvent fixer tarifs mais obligation "accès repas"). Risque constitutionnel : si gratuit forcé, communes réclament compensation État (Cconst 2016). Bio obligatoire 70 %: code agricole L. 272-1 (Egalim compatible, lever le seuil actuel 20 % légal). Voucher: compatible, mais dérégulation service public (moniteur loi Sapin 2 sur marché public). Véhicule: loi programme nutrition ou décret application Egalim.
 
 ⚖️ **À trancher :** Cantine est-elle "service public gratuit" (tous égaux) ou "service optionnel facturé" (chacun son niveau) ? Bio à 70 % est-il priorité or réduction coûts publics ? Qui gère cantine : communes (autonomie) ou État (égalité) ?
 
 **Statut :** ⬜
+**Mis à jour :** 2026-07-13
