@@ -4,7 +4,7 @@
 
 ### P1. Hôpitaux rançonnés : données patients exposées, services d'urgence paralysés
 
-- **Le problème (France, 2016-2026) :** Corbeil-Essonnes (2019) : 1 500 patients lésés, dossiers dentaires/médicaux vendus. Versailles (2020) : 1 000 lits bloqués 10 jours, déprogrammation chirurgicale. Rapport ANSSI 2023 : 40-60 attaques hôpitaux/an estimées (déclaration obligatoire insuffisante). CHU Rouen, Strasbourg, Nice touchés 2022-2023. Coûts estimés : 2-5 M€ par hôpital (rançon, recupération données, IT forensics). Zéro obligation légale de déclaration rançon payée. Patients exposés à vol identité (données santé = prix fort marché noir, 50-200 €/dossier).
+- **Le problème (France, 2016-2026) :** Corbeil-Essonnes (21-22 août 2022, pas 2019) : cyberattaque LockBit 3.0, 1 500 patients lésés, 11,7 Go de données dentaires/médicales/gynécologiques divulguées. Versailles (hôpital André-Mignot, décembre 2022, pas 2020) : 1 000 lits bloqués 10 jours, déprogrammation chirurgicale. Rapport ANSSI 2023 : 40-60 attaques hôpitaux/an estimées (déclaration obligatoire insuffisante). CHU Rouen, Strasbourg, Nice touchés 2022-2023. Coûts estimés : 2-5 M€ par hôpital (rançon, recupération données, IT forensics). Zéro obligation légale de déclaration rançon payée. Patients exposés à vol identité (données santé = prix fort marché noir, 50-200 €/dossier).
 - **Piste A, 🇸🇪 Suède (Résilience obligatoire + sauvegardes hors ligne) :** Obligation légale : 2 sauvegardes externes déconnectées, audit CISA-équivalent annuel. Zéro paiement rançon (fondamentalement). **Pour :** Récupération données garantie, zéro incitation attaquant. **Contre :** Coûteux (500 M€/an IT infrastructure), imposant pour petits hôpitaux ruraux.
 - **Piste B, 🇩🇪 Allemagne (Assurance rançon encadrée + paiement état) :** Assurance cyber obligatoire. Attaque grave = état décaisse (dépense justifiée), pas d'assurance. Limite montants rançon acceptables (ex: max 100 k€). **Pour :** Paiement transparent, pas de marché noir. **Contre :** Aléa moral (assurances gonflent prix couverture), coûts publics imprévisibles.
 - **Piste C, 🇺🇸 États-Unis (Divulgation public immédiate + poursuites) :** Loi HIPAA renforcée : 48h après détection = annonce publique patients impactés, détails ransomware. Poursuite fédérale si paiement aux sanctionnés. **Pour :** Transparence, dissuasion paiement. **Contre :** Panique publique, chute confiance hôpitaux.
@@ -13,6 +13,7 @@
 - ⚖️ **Faisabilité juridique :** Code Santé Publique art. L.1111-4 (protection données patients, déjà RGPD+HDS). Loi dédiée possible (obligation sauvegardes). Poursuite paiement rançon = légal actuellement (dépénaliser ou interdire ?). Concordance CNIL/ANSSI requis.
 - ⚖️ **À trancher :** Faut-il interdire tout paiement rançon (perte données acceptée) ou encadrer via fonds public (aléa moral) ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-13
 
 ### P2. Collectivités territoriales paralysées : mairies sans données, communes en rançon invisible
 
@@ -40,7 +41,7 @@
 
 ### P4. NIS2 : directive UE transposée en retard, épargne petits opérateurs
 
-- **Le problème (France, 2016-2026) :** Directive NIS2 adoptée juin 2022, date limite transposition : octobre 2024 (France non-conforme, retard ~6 mois au 2026). Obligation : entreprises « essentielles » (énergie, eau, santé, transports, digital, infrastructures) doivent normes cyber. Seuil PME : NIS2 épargne micro-entreprises (<50 employés). Retard transposition = zéro obligation nationale entre 2022-2024 (vide légal). Critères « essentiels » débattus (est-ce une TPE IT est « essential » ?).
+- **Le problème (France, 2016-2026) :** Directive NIS2 (UE 2022/2555) adoptée le 14 décembre 2022 (pas juin 2022), publiée au Journal officiel de l'UE le 27 décembre 2022, date limite transposition : octobre 2024 (France non-conforme, retard ~6 mois au 2026). Obligation : entreprises « essentielles » (énergie, eau, santé, transports, digital, infrastructures) doivent normes cyber. Seuil PME : NIS2 épargne micro-entreprises (<50 employés). Retard transposition = zéro obligation nationale entre 2022-2024 (vide légal). Critères « essentiels » débattus (est-ce une TPE IT est « essential » ?).
 - **Piste A, 🇪🇺 Union Européenne (Transposition stricte, seuils bas) :** Chaque état applique NIS2 minimum. Étendre essentiels à PME >= 50 salariés secteurs clé. Harmoniser seuils européens. **Pour :** Standard commun, pas d'arbitrage. **Contre :** Charge bureaucratique massive, startups EU ralentissent.
 - **Piste B, 🇬🇧 Royaume-Uni (Régulation « feedback-driven ») :** Plutôt que NIS2 rigide, régulateurs exigent cyber adaptée taille (PME = autoevaluation, grands = audit tiers). Sanctions graduées (avertissement -> amende faible -> amende forte). **Pour :** Flexible, aligne réalité. **Contre :** Inégalité traitement, entreprises peuvent contourner.
 - **Piste C, 🇨🇭 Suisse (Approche mixte : publics = strict, privés = incitation) :** Opérateurs publics = obligation NIS. Privés = subvention audit + incitation (meilleur assurance si conforme). **Pour :** Focalise sur critique. **Contre :** Privés capitals critiques pas toujours régulés.
@@ -49,6 +50,7 @@
 - ⚖️ **Faisabilité juridique :** NIS2 = directive UE (transposition obligatoire). Loi France possible (détails appliquation, seuils). Aucun obstacle, retard seul problème (non-conformité technique).
 - ⚖️ **À trancher :** Cybersécurité = obligation pour tous (coûteux) ou ciblée acteurs critiques seuls ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-13
 
 ### P5. Rançons : paiement interdit ou encadré ? Débat assurances, LOPMI, criminalisation
 
@@ -64,15 +66,16 @@
 
 ### P6. Données de santé et souveraineté : Health Data Hub français vs. résilience, hébergement externe risqué
 
-- **Le problème (France, 2016-2026) :** Health Data Hub créé 2019 (données santé centralisées : 150 M dossiers anonymisés). Hébergement : servers Google Cloud (USA) jusqu'à 2024 (débat). Risque : attaque ransomware = données médicales en otage (données + sensibles qu'autres secteurs). CNIL rejete 2020 : « transfert données US pas garanti » (après plainte). Retard transfert serveurs France = toujours enjeu 2026. Coûts migration souveraineté estimés : 200-400 M€ (à confirmer).
+- **Le problème (France, 2016-2026) :** Health Data Hub créé 2019 (données santé centralisées : 150 M dossiers anonymisés). Hébergement : Microsoft Azure (Irlande/Pays-Bas), pas Google Cloud (USA) comme parfois affirmé par erreur ; Microsoft héberge toujours en 2026, la migration vers Scaleway (hébergeur français) n'étant prévue que fin 2026/début 2027. Risque : attaque ransomware = données médicales en otage (données + sensibles qu'autres secteurs). CNIL rejete 2020 : « transfert données US pas garanti » (après plainte). Retard transfert serveurs France = toujours enjeu 2026. Coûts migration souveraineté estimés : 200-400 M€ (à confirmer).
 - **Piste A, 🇪🇸 Espagne (Souveraineté des données + OIV?) :** Créer cloud souverain santé (MS Azure=non-autorisé, Gaia-X requis). Données = physiquement France, admin français. Coûts = +30-40 % vs. clouds US. **Pour :** Zéro dépendance géopolitique, confiance citoyenne. **Contre :** Coûts massifs, performance (latence). Monopole potentiel operateur France.
 - **Piste B, 🇯🇵 Japon (Partage données anonymisées encadré) :** Health Data Hub = conservateur : partage données aggregées (pas individuelles). Recherche externe = via tiers de confiance audit (anonymité garantie). Pas d'interdiction transfert US, mais contrôle sortie données. **Pour :** Économies IT, accès recherche. **Contre :** Moins pertinent recherche (données trop aggregées), risque fuite individuelle asymétrique.
 - **Piste C, 🇸🇪 Suède (Multi-cloud + redondance) :** Donnes = répartie 3 clouds minimums (1 France, 1 UE, 1 secure international avec transferts chiffrés). Attaque un cloud = autres intacts. **Pour :** Résilience haute. **Contre :** Complexité gestion (coûts), risque synchronisation.
-- **Piste D, France interne (Sortie progressive Google + mutualisation européenne) :** 2025 : quitter Google Cloud progressivement (12 mois). Hébergement : OVH/Scaleway France (Gaia-X). 2026 : lancer « European Health Data Hub » (Portugal + France + Allemagne partagent infra). **Pour :** Souveraineté, coûts partagés UE. **Contre :** Coûts transition (200-400 M€), coordination UE lente.
+- **Piste D, France interne (Sortie progressive Microsoft Azure + mutualisation européenne) :** Quitter Microsoft Azure progressivement (12 mois), migration déjà engagée vers Scaleway (Iliad) fin 2026/début 2027. Hébergement : OVH/Scaleway France (Gaia-X). Ensuite : lancer « European Health Data Hub » (Portugal + France + Allemagne partagent infra). **Pour :** Souveraineté, coûts partagés UE. **Contre :** Coûts transition (200-400 M€), coordination UE lente.
 - **Simulation (ordres de grandeur) :** Migration Gaia-X : ~300 M€ investissement, ~50 M€/an surcoûts. Gagnants : souveraineté données, confiance citoyenne. Risque : interruption services si mal exécuté (données santé sensibles). Performance : latence possible. Délai : 3-5 ans transition complète.
 - ⚖️ **Faisabilité juridique :** Code Santé Publique art. L.1111-4 (données patients, RGPD+HDS). Loi possible (souveraineté requise). Concordance CNIL/ANSSI/Dataromi. Accords UE si mutualisé. Schrems II impact (CJUE 2020 : transferts US non-garantis => changement infrastructure obligatoire théoriquement).
 - ⚖️ **À trancher :** Souveraineté = sécurité (coûts tolérés) ou luxe (garder prix bas USA) ? Qui paie migration ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-13
 
 ### P7. Pénurie compétences cyber : postes vacants, carrière peu attractive, formations insuffisantes
 
@@ -112,7 +115,7 @@
 
 ### P10. Modèles étrangers : Estonie résilience, UK NCSC PME, assurance cyber encadrée allemande
 
-- **Le problème (France, 2016-2026) :** France = tarde adopter modèles étrangers éprouvés. Estonie : digital-first depuis 1995, zéro attaque critique (blockchain votants, archivage chiffré). UK NCSC : 1 500 PME accompagnées (cybermentor program, support gratuit). Allemagne : assurance cyber obligatoire (depuis 2021, secteurs clé). France = imite lenteur (NIS2 retard, ANSSI sous-budgété). Coûts transfert tech : 50-100 M€ (formation, adaptation contexte français).
+- **Le problème (France, 2016-2026) :** France = tarde adopter modèles étrangers éprouvés. Estonie : digital-first depuis 1995, résilience démontrée post-2007 (l'Estonie a subi le 27 avril 2007 une cyberattaque majeure contre ses infrastructures critiques, parlement, banques, ministères, médias, qualifiée à l'époque de deuxième plus grande cyberguerre parrainée par un État ; « zéro attaque critique » est donc inexact, c'est en réaction à cette attaque que l'Estonie a renforcé sa défense via blockchain votants et archivage chiffré). UK NCSC : 1 500 PME accompagnées (cybermentor program, support gratuit). Allemagne : assurance cyber obligatoire (depuis 2021, secteurs clé). France = imite lenteur (NIS2 retard, ANSSI sous-budgété). Coûts transfert tech : 50-100 M€ (formation, adaptation contexte français).
 - **Piste A, 🇪🇪 Estonie (Numérique par défaut + archivage conforme) :** Adopter architecture Estonie : tous documents = blockchain-signed (immuable). Citoyen = accès données propres. Services publics = tiers-certifiés. **Pour :** Confiance extrême, traçabilité. **Contre :** Coûts infrastructure (500 M€+), changement culturel majeur.
 - **Piste B, 🇬🇧 Royaume-Uni (Cybermentor PME massif) :** Lancer cybermentor programme France : 500 mentors ANSSI (recrutés, temps-partiel 20 % temps). Accompagnent 3 000 PME (diagnostic gratuit, 6 mois). **Pour :** Pratique immédiate, création emploi 500. **Contre :** Dropout 30-40 % possible, coût ANSSI 30-50 M€/an.
 - **Piste C, 🇩🇪 Allemagne (Obligation assurance cyber encadrée) :** Assurance cyber = obligation secteurs clé (prérequis NIS2). État = rembourse 20 % primes (PME <= 250 sal.). Exclusions minimales. **Pour :** Responsabilité privée, financement partagé. **Contre :** Assureurs gonflent prix, micro-entreprise exclu.
@@ -121,3 +124,4 @@
 - ⚖️ **Faisabilité juridique :** Loi possible (subvention assurance, programmes). Coordination ANSSI/ministères (complexe). Architecture Estonie = débat fondateur (souveraineté numérique, investissement long). Aucun obstacle légal majeur.
 - ⚖️ **À trancher :** France = copier modèles étrangers ou inventer propre voie ? Quel degré numéricité accepter socialement ?
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-13
