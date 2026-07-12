@@ -14,17 +14,18 @@
 
 - **Piste C : taxation progressive des produits nitrités.** Pour : internalise le coût sanitaire sans interdiction. Contre : impact régressif (affecte les populations modestes).
 
-- **Simulation (ordres de grandeur) :** France : 730 000 cancers colorectaux par an, facteur de risque nitrites : +18% (à confirmer par étude épidémiologique précise). Surmortalité estimée : 2 500 à 4 000 décès/an attribuables aux nitrites de charcuterie. Coût sanitaire inaction : ~8 milliards d'euros/an (coûts de traitement + perte productive). Alignement Belgique coûterait à la filière viande : réduction 10-15% du chiffre d'affaires (2-3 milliards). Avec fonds de transition : accompagnement sur 5 ans, amortissable.
+- **Simulation (ordres de grandeur) :** France : environ 47 500 à 47 800 nouveaux cancers colorectaux par an (Santé Publique France, INCa), facteur de risque nitrites : +18% (à confirmer par étude épidémiologique précise). Surmortalité estimée : 2 500 à 4 000 décès/an attribuables aux nitrites de charcuterie (ordre de grandeur à revérifier suite à la correction du chiffre de base ci-dessus). Coût sanitaire inaction : ~8 milliards d'euros/an (coûts de traitement + perte productive, également à revérifier). Alignement Belgique coûterait à la filière viande : réduction 10-15% du chiffre d'affaires (2-3 milliards). Avec fonds de transition : accompagnement sur 5 ans, amortissable.
 
 - ⚖️ **Faisabilité juridique :** Règlement UE 1333/2008 (additifs alimentaires) permet restrictions nationales si santé publique (art. 7). France pourrait imposer seuil 90 mg/kg immédiatement (norme déjà applicable). Obstacle : secteur charcuterie français très organisé (FICT), pression lobbying. Source : Commission Européenne, Accord Général sur les Tarifs Douaniers et le Commerce (AGPC) encadre les restrictions.
 
 - ⚖️ **À trancher :** Faut-il harmoniser recommandations nationales avec Belgique ou adopter une interdiction progressive des nitrites dans 3 ans ?
 
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P2. Néonicotinoïdes sur betteraves : dérogations illégales répétées
 
-- **Le seuil aberrant (chiffré, source, comparaison voisins) :** Néonicotinoïdes (imidaclopride, thiaméthoxame) interdits en UE depuis 2018. France a accordé dérogations "danger imprévisible" en 2021 et 2022 autorisant les semences traitées pour betteraves sucrières. CJUE (avril 2022) et Conseil d'État (mai 2023) : ces dérogations sont illégales. Source officielle : Conseil d'État, CJUE C-882/21.
+- **Le seuil aberrant (chiffré, source, comparaison voisins) :** Néonicotinoïdes (imidaclopride, thiaméthoxame) interdits en UE depuis 2018. France a accordé dérogations "danger imprévisible" en 2021 et 2022 autorisant les semences traitées pour betteraves sucrières. CJUE (19 janvier 2023, affaire C-882/21) et Conseil d'État (mai 2023) : ces dérogations sont illégales. Source officielle : Conseil d'État, CJUE C-882/21.
 
 - **Pourquoi c'est inacceptable :** La Commission a expressément interdit usage et mise sur marché. Art. 53 Règlement 1107/2009 : dérogations impossibles une fois restriction décidée au niveau UE. France contrevient sciemment aux arrêts judiciaires depuis 3 ans. Biodiversité ravagée : déclin 75% des insectes pollinisateurs en zones traitées.
 
@@ -41,6 +42,7 @@
 - ⚖️ **À trancher :** Accepter le jugement CJUE ou contester (risque amende art. 260 TFUE : plusieurs centaines de millions) ?
 
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P3. Chlordécone aux Antilles : le précédent du délai français
 
@@ -82,25 +84,26 @@
 
 - **Statut :** ⬜
 
-### P5. Dioxyde de titane (E171) : une interdiction française précoce, mal appliquée
+### P5. Dioxyde de titane (E171) : la France a précédé l'UE de deux ans
 
-- **Le seuil aberrant (chiffré, source, comparaison voisins) :** France : interdit depuis 1er janvier 2020 (additif E171 alimentation). UE : débat depuis 2012, interdit... 2026 seulement (2024 adoption Règlement UE 2024/3190). Nanoparticules TiO2 démontrées favoriser lésions pré-cancéreuses intestin (INRA 2017). Trace observable 30% confiseries/pâtisseries pre-2020. Source : France Info 2019, INRA 2017.
+- **Le seuil aberrant (chiffré, source, comparaison voisins) :** France : interdit depuis 1er janvier 2020 (additif E171 alimentation). UE : débat depuis 2012, interdiction effective par le Règlement UE 2022/63 du 14 janvier 2022, applicable depuis le 7 août 2022 (à ne pas confondre avec le Règlement UE 2024/3190, qui concerne le bisphénol A et les bisphénols apparentés, application 20 juillet 2026). Nanoparticules TiO2 démontrées favoriser lésions pré-cancéreuses intestin (INRA 2017). Trace observable 30% confiseries/pâtisseries pre-2020. Source : France Info 2019, INRA 2017.
 
-- **Pourquoi c'est inacceptable :** France a montré le chemin (2020) mais UE traîne (2026). Entre-temps, produits E171 UE importés en France illégalement (contrebande petit volume, contournement labellisation). Lenteur UE : pression industrie (titane 4ème production mondiale, multinationaux). Consommateurs français : croyaient-se protégés, produits étrangers franchissent.
+- **Pourquoi c'est inacceptable :** France a montré le chemin (2020), l'UE a suivi 2 ans et demi plus tard (règlement 2022, applicable août 2022). Pendant ce court intervalle, des produits E171 en provenance d'autres pays UE ont pu circuler en France malgré l'interdiction nationale (contournement labellisation, petit volume). Depuis 2022, l'interdiction est harmonisée UE, mais la vigilance reste nécessaire sur les produits importés de pays hors UE qui ne l'appliquent pas.
 
-- **Piste A : appliquer strictement E171 interdit, audit frontière import denrées, amende produits non-conforme.** Pour : justice France qui a pris risque, protection effective. Contre : charge douanière, contentieux commercial (UE/USA protestent).
+- **Piste A : contrôler les produits importés de pays hors UE, audit frontière import denrées, amende produits non-conforme.** Pour : protection effective des consommateurs, l'harmonisation UE ne couvre pas les tiers-pays. Contre : charge douanière, contentieux commercial possible.
 
 - **Piste B : alternatives colorants blancs : dioxyde de silice, microcristalline cellulose (plus chères +5-10%).** Pour : marché alternatives existe. Contre : changement formulation coûteux, reformulation 6-12 mois.
 
 - **Piste C : labellisation "sans E171" French excellence, argument commercial export.** Pour : valorisation innovation. Contre : confusant si concurrent UE "E171-free" aussi sans coût.
 
-- **Simulation (ordres de grandeur) :** Consommation E171 France pre-2020 : estimée 500-700 tonnes/an. Exposition moyenne population enfants : +20% vs adultes (bonbons). Surrisque cancer colorectal E171 : estimé +50 à 200 cas/an (très incertain). Coût sanitaire 20 ans inaction (vs. 2020 interdiction) : 200-400 millions €. Coût transition industrie (reformulation) : 50-100 millions € ponctuel.
+- **Simulation (ordres de grandeur) :** Consommation E171 France pre-2020 : estimée 500-700 tonnes/an. Exposition moyenne population enfants : +20% vs adultes (bonbons). Surrisque cancer colorectal E171 : estimé +50 à 200 cas/an (très incertain). Coût sanitaire du délai 2020-2022 entre l'interdiction française et l'harmonisation UE, et de la circulation résiduelle de produits hors UE depuis : ordre de grandeur à revérifier, sans doute très inférieur aux 200-400 millions € initialement estimés sur une base de 6 ans. Coût transition industrie (reformulation) : 50-100 millions € ponctuel.
 
-- ⚖️ **Faisabilité juridique :** Art. 11 Rég. 1333/2008 : États restrictions nationales si "santé publique". France a légalement interdit (arrêté 2019). UE harmonise ensuite (2024-2026 transition). Obstacle : contentieux commercial possible (Accord OMC / Accord SPS), mais "danger établi" défend la France. Source : art. 20 Directive 2006/123/CE (libre circulation). France a jurisprudence solide (CJUE Cassis de Dijon).
+- ⚖️ **Faisabilité juridique :** Art. 11 Rég. 1333/2008 : États restrictions nationales si "santé publique". France a légalement interdit (arrêté 2019), l'UE a harmonisé ensuite (Règlement 2022/63, applicable août 2022). Obstacle résiduel : produits hors UE non couverts par l'harmonisation, contrôle aux frontières à renforcer. Source : art. 20 Directive 2006/123/CE (libre circulation). France a jurisprudence solide (CJUE Cassis de Dijon).
 
-- ⚖️ **À trancher :** Accélérer conformité UE à 2025 ou accepter délai 2026 ?
+- ⚖️ **À trancher :** Renforcer les contrôles aux frontières sur les produits hors UE contenant encore de l'E171 ?
 
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ### P6. PFAS (polluants éternels) : seuils eau potable, France 50x plus tolérant que Danemark
 
@@ -184,7 +187,7 @@
 
 ### P10. Glyphosate : promesse 2017 d'interdiction, abandonnée 2019, UE renouvelle
 
-- **Le seuil aberrant (chiffré, source, comparaison voisins) :** Glyphosate (Roundup, Bayer-Monsanto) : autorisé UE depuis 1994. Novembre 2017 : Emmanuel Macron promet interdiction France 3 ans -> 2020. Novembre 2019 : gouvernement abandonne, pression FNSEA. UE renouvelle autorisation 2022 (5 ans). Allemagne 2021 : coalition SPD-Verts promet Ausstieg 2023, puis recule (Bayer pression). Seules Pays-Bas, Danemark, Suède, Autriche adoptent restrictions (à confirmer, variables). France autorise toujours (125 000 tonnes/an usage europeen, 8 000 tonnes France). Source : Novethic, Usine Nouvelle, Terre-Net.
+- **Le seuil aberrant (chiffré, source, comparaison voisins) :** Glyphosate (Roundup, Bayer-Monsanto) : autorisé UE depuis 1994. Novembre 2017 : Emmanuel Macron promet interdiction France 3 ans -> 2020. Novembre 2019 : gouvernement abandonne, pression FNSEA. UE renouvelle autorisation le 16 novembre 2023 (10 ans, jusqu'en 2033). Allemagne 2021 : coalition SPD-Verts promet Ausstieg 2023, puis recule (Bayer pression). Seules Pays-Bas, Danemark, Suède, Autriche adoptent restrictions (à confirmer, variables). France autorise toujours (125 000 tonnes/an usage europeen, 8 000 tonnes France). Source : Novethic, Usine Nouvelle, Terre-Net.
 
 - **Pourquoi c'est inacceptable :** Glyphosate classé "probablement cancérigène" CIRC 2015. Résidus eau France : détectés 60-80% rivières (Agence eau). Macron 2017 engagement présidentiel rompu. Pendant ce temps : US millions $ contentieux Roundup (Bayer règle 11 milliards$ 2020), France inaction malgré risque identique.
 
@@ -201,6 +204,7 @@
 - ⚖️ **À trancher :** France plaide UE pour interdiction collective (unlikely, Allemagne oppose) ou agit solo (procédure complexe) ?
 
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-12
 
 ---
 
