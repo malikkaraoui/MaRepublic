@@ -44,7 +44,7 @@ Ces cabinets façonnent les politiques publiques : santé, taxes, réforme admin
 
 Interdire les cabinets qui ont des clients du secteur régulé par ce ministère (Pour : pas de conflit, Contre : marché réduit, coûts élevés). Publier les livrables (Pour : transparence, Contre : secrets commerciaux, secrets d'État). Imposer un audit systématique du ROI (Pour : efficacité, Contre : administratif lourd). Forcer l'impôt sur les sociétés (Pour : équité, Contre : compétitivité, risque exit).
 
-- **Simulation (ordres de grandeur) :** Dépense 2024 : 440 M€. Économies auditées : 120 M€/an. Impôts McKinsey non collectés : 60 M€/an. Total capture : 180 M€/an. Qui perd : contributeurs (coûts cachés). Délai : 18 mois pour audit systématique.
+- **Simulation (ordres de grandeur) :** Dépense 2024 : 96,1 M€ (hausse de 31 % vs 2023 ; record historique 271 M€ en 2021, à ne pas sous-estimer). Économies auditées : 120 M€/an. Impôts McKinsey non collectés : 60 M€/an. Total capture : 180 M€/an. Qui perd : contributeurs (coûts cachés). Délai : 18 mois pour audit systématique.
 
 **⚖️ Faisabilité juridique**
 
@@ -54,7 +54,9 @@ Interdiction en vertu du code de la commande publique (article L1111-5, conflits
 
 Pénaliser le conseil privé c'est réduire la qualité de l'expertise? Ou c'est créer des incitations perverses? La France doit-elle exiger que McKinsey paie ses impôts comme une PME?
 
-**Statut** ⬜ Dépenses stables 2018-2024 ; rapport Sénat 2022 non suivi d'action.
+**Statut** ⬜ Dépenses en hausse en 2024 (+31 % vs 2023, encore sous le pic de 2021) ; rapport Sénat 2022 non suivi d'action.
+
+**Mis à jour :** 2026-07-12
 
 ---
 
@@ -90,7 +92,7 @@ Liberté de travail vs capture régulatoire : où est la limite? L'État doit-il
 
 **Le fait**
 
-Le patron de la Fédération française des télécoms vient de l'ARCEP et du ministère du Numérique. Google emploie un ancien directeur général de l'ARCEP (Benoît Loutrel). Marie-Anne Barbat-Layani, ancienne déléguée générale de la Fédération bancaire française, dirige maintenant l'AMF (autorité de régulation bancaire). Apple, Meta, Amazon, Airbnb emploient des anciens du CSA et de l'Arcom (ex-CSA).
+Le patron de la Fédération française des télécoms vient de l'ARCEP et du ministère du Numérique. Benoît Loutrel, ancien directeur général de l'ARCEP, a brièvement travaillé chez Google en 2017 avant de rejoindre l'Arcom en 2021, où il préside le groupe de travail Plateformes en ligne : il n'est plus employé par Google depuis près de 9 ans. Marie-Anne Barbat-Layani, ancienne déléguée générale de la Fédération bancaire française, dirige maintenant l'AMF (autorité de régulation bancaire). Apple, Meta, Amazon, Airbnb emploient des anciens du CSA et de l'Arcom (ex-CSA).
 
 **Pourquoi c'est un problème**
 
@@ -111,6 +113,8 @@ ARCEP est autorité indépendante (statut loi 1990). Clause de carence peut êtr
 Les autorités de régulation sont-elles des étapes de carrière ou des positions finales? Qui finance l'expertise du régulateur: l'État ou les régulés via salaires privés?
 
 **Statut** ⬜ Portes tournantes documentées ; léger encadrement depuis 2017 (non appliqué strictement).
+
+**Mis à jour :** 2026-07-12
 
 ---
 
