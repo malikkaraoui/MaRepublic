@@ -273,8 +273,40 @@ button {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: var(--paper);
+  /* Fondu franc : papier plein en haut, transparent en bas, pour se fondre
+     dans le hero (la barre chevauche la peinture, voir .hero). */
+  background: linear-gradient(
+    180deg,
+    var(--paper) 0%,
+    var(--paper) 46%,
+    transparent 100%
+  );
+  border-bottom: none;
+  transition: transform 0.42s ease, opacity 0.42s ease, background 0.3s ease,
+    backdrop-filter 0.3s ease;
+}
+
+/* Une fois qu'on a quitté le haut : verre dépoli lisible au-dessus du contenu. */
+.site-header--scrolled {
+  background: color-mix(in srgb, var(--paper) 85%, transparent);
+  backdrop-filter: blur(10px) saturate(1.2);
   border-bottom: 1px solid var(--rule);
+}
+
+/* En descendant : la barre s'efface doucement vers le haut. */
+.site-header--hidden {
+  transform: translateY(-100%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-header {
+    transition: opacity 0.2s ease;
+  }
+  .site-header--hidden {
+    transform: none;
+  }
 }
 
 .site-header__inner {
@@ -407,7 +439,11 @@ button {
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  padding-block: clamp(3.5rem, 11vw, 8rem);
+  /* Le hero remonte sous la barre du haut : le fondu de la barre se pose
+     sur la peinture. La hauteur réelle de la barre est mesurée en JS. */
+  margin-top: calc(-1 * var(--header-h, 4.25rem));
+  padding-top: calc(var(--header-h, 4.25rem) + clamp(1.75rem, 7vw, 5rem));
+  padding-bottom: clamp(3.5rem, 11vw, 8rem);
   border-bottom: 1px solid var(--rule);
 }
 
