@@ -86,25 +86,32 @@ export default function Home() {
             sans étiquette
           </p>
           <h1 className="hero__title">
-            Ce que nous <span className="hero__verb">constatons</span>.
+            Nous avons <span className="hero__verb">assez attendu</span>.
             <br />
-            Ce que nous <span className="hero__verb">proposons</span>.
+            Nous avons <span className="hero__verb">trop fait confiance</span>.
             <br />
-            Ce que nous <span className="hero__verb">ferons</span>.
+            Ce n'est plus un choix, c'est notre{' '}
+            <span className="hero__verb">survie</span>.
           </h1>
           <p className="hero__lede">
-            Fondé sur les actes, pas sur les promesses. Pas de slogan, pas de
-            logo, pas de couleur officielle. Pas de nom, parce qu'on ne met pas
-            d'étiquette sur la voix du peuple.
+            Le fossé se creuse, l'incompréhension devient une prison. On ne
+            redresse pas ce pays depuis un bureau : on le fait avec celles et
+            ceux qui le tiennent debout. Soignants, agriculteurs, ouvriers,
+            enseignants, artisans, retraités. La France, c'est vous.{' '}
+            <strong>Il manque une seule chose à ce mouvement : vous.</strong>
           </p>
           <div className="hero__actions">
-            <Link to="/chantier" className="button button--primary">
-              Entrer dans le chantier
+            <Link to="/participer" className="button button--primary">
+              Rejoindre le mouvement
             </Link>
-            <Link to="/fondateur" className="button button--ghost">
-              Lire le document fondateur
+            <Link to="/chantier" className="button button--ghost">
+              Voir ce qu'on propose
             </Link>
           </div>
+          <p className="hero__signature">
+            Ce que nous <em>constatons</em>. Ce que nous <em>proposons</em>. Ce
+            que nous <em>ferons</em>.
+          </p>
         </div>
       </section>
 

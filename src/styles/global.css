@@ -430,6 +430,20 @@ button {
   gap: 0.85rem;
 }
 
+/* Ancrage rationnel sous le hero : le triptyque de méthode, en retrait. */
+.hero__signature {
+  margin-top: 1.75rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--faint);
+}
+
+.hero__signature em {
+  font-style: italic;
+  color: var(--muted);
+}
+
 /* --- Sections génériques ---------------------------------------------- */
 .section {
   padding-block: var(--section-y);
