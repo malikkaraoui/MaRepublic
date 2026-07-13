@@ -27,6 +27,11 @@
   --footer-bg: #0a0a0a;
   --footer-fg: #ffffff;
 
+  /* Voile de verre dépoli du hero (photo Delacroix floutée en fond). */
+  --hero-veil: rgba(247, 245, 239, 0.74);
+  --hero-veil-fade: rgba(247, 245, 239, 0.38);
+  --hero-sheen: rgba(255, 255, 255, 0.30);
+
   /* États de vote (voir .vote--*), redéfinis en sombre plus bas. */
   --vote-pour-bg: #eef6ee;
   --vote-pour-border: #2d7a2d;
@@ -94,6 +99,10 @@
     --vote-piste-actif-border: #5b9df0;
     --vote-piste-actif-fg: #a9cdfb;
 
+    --hero-veil: rgba(13, 13, 12, 0.72);
+    --hero-veil-fade: rgba(13, 13, 12, 0.40);
+    --hero-sheen: rgba(255, 255, 255, 0.10);
+
     color-scheme: dark;
   }
 }
@@ -124,6 +133,10 @@
   --vote-piste-actif-bg: #16283a;
   --vote-piste-actif-border: #5b9df0;
   --vote-piste-actif-fg: #a9cdfb;
+
+  --hero-veil: rgba(13, 13, 12, 0.72);
+  --hero-veil-fade: rgba(13, 13, 12, 0.40);
+  --hero-sheen: rgba(255, 255, 255, 0.10);
 
   color-scheme: dark;
 }
@@ -391,8 +404,46 @@ button {
 
 /* --- Hero ------------------------------------------------------------- */
 .hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   padding-block: clamp(3.5rem, 11vw, 8rem);
   border-bottom: 1px solid var(--rule);
+}
+
+/* Fond : « La Liberté guidant le peuple » (Delacroix, 1830, domaine public),
+   volontairement floutée. Le débord évite les bords nets du flou. */
+.hero__bg {
+  position: absolute;
+  inset: -6%;
+  z-index: -2;
+  background: url('/hero/liberte-guidant-le-peuple.jpg') center 26% / cover no-repeat;
+  filter: blur(18px) saturate(1.04);
+  transform: scale(1.06);
+}
+
+/* Voile de verre dépoli (liquid glass) : voile laiteux + dégradé de lisibilité,
+   reflet en haut, fondu vers le papier en bas pour enchaîner sur la section. */
+.hero__scrim {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(180deg, var(--hero-sheen), rgba(255, 255, 255, 0) 34%),
+    linear-gradient(180deg, transparent 68%, var(--paper) 100%),
+    linear-gradient(
+      100deg,
+      var(--hero-veil) 0%,
+      var(--hero-veil) 44%,
+      var(--hero-veil-fade) 100%
+    );
+  backdrop-filter: blur(2px);
+  box-shadow: inset 0 1px 0 var(--hero-sheen);
+}
+
+.hero > .container {
+  position: relative;
+  z-index: 1;
 }
 
 .hero__eyebrow {

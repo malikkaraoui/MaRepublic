@@ -69,6 +69,8 @@ export default function Home() {
   return (
     <>
       <section className="hero">
+        <div className="hero__bg" aria-hidden="true" />
+        <div className="hero__scrim" aria-hidden="true" />
         <div className="container">
           <p className="hero__eyebrow">
             Un mouvement{' '}
