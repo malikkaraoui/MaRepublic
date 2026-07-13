@@ -414,6 +414,7 @@ button {
 
 .hero__verb {
   font-style: italic;
+  color: var(--rouge);
 }
 
 .hero__lede {
