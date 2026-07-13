@@ -60,9 +60,10 @@
 
 ### F7. Transmission / héritage repensé
 - **Problème :** débat sur l'égalité des chances vs transmission familiale.
-- **Ça existe déjà :** modèles variés (abattements ciblés, taxation des très gros héritages).
-- **Version France :** alléger les petites/moyennes successions, cibler les très grosses.
-- ⚖️ **Faisabilité juridique :** Loi ordinaire (code civil/fiscal) ; obstacle potentiel : jurisprudence Const. (égalité héréditaire, liberté disposer) mais débat légitime.
-- **Simulation (ordres de grandeur) :** Alléger petites successions (<100k€) = -1-2 B€ revenu. Taxer >5M€ +10 % = +2-3 B€. Impact égalité chances +20 % (à confirmer). Gagnants : PME/agriculteurs héritage, état égalité. Perte : ultra-riches patrimoine mobilité. Mise en place 12 mois.
-- ⚖️ **À trancher :** seuils ; position politique délicate → à cadrer ensemble.
+- **Ça existe déjà :** modèles variés (abattements ciblés, taxation des très gros héritages). Précision (vérification service-public.fr, à jour au 09/02/2026) : en ligne directe (parent vers enfant), un abattement de 100 000 € par parent et par enfant existe déjà, renouvelable tous les 15 ans (cumulable sur les donations comme sur les successions). « Alléger les petites successions <100k€ » est donc déjà largement réalisé en ligne directe : le débat porte en réalité sur le barème progressif au-delà de cet abattement et sur les successions hors ligne directe (frères/sœurs, neveux, tiers), bien moins avantagées.
+- **Version France :** cibler le débat sur le barème au-delà de l'abattement existant (100k€) et sur les très grosses successions, plutôt que sur un allégement des petites successions déjà couvertes.
+- ⚖️ **Faisabilité juridique :** Loi ordinaire (Code civil/Code général des impôts) ; obstacle potentiel : jurisprudence Const. (égalité héréditaire, liberté de disposer) mais débat légitime. Source abattement actuel : service-public.gouv.fr/particuliers/vosdroits/F14198 (à vérifier version en vigueur sur Légifrance, Code général des impôts art. 779 et suivants).
+- **Simulation (ordres de grandeur) :** Taxer >5M€ +10 % = +2-3 B€ (hypothèse à réviser, la base « alléger <100k€ » n'apportant plus de gain net puisque déjà exonérée). Impact égalité chances +20 % (à confirmer). Gagnants : état égalité. Perte : ultra-riches patrimoine mobilité. Mise en place 12 mois.
+- ⚖️ **À trancher :** seuils au-delà de l'abattement de 100k€ ; position politique délicate → à cadrer ensemble.
 - **Statut :** ⬜
+- **Mis à jour :** 2026-07-13
