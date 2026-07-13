@@ -5,6 +5,7 @@
 // vers le document fondateur ou les pages d'axes pour le détail.
 
 import { Link } from 'react-router-dom'
+import { RoughNotation } from 'react-rough-notation'
 import { axes } from '../data/axes'
 import { axesFiches } from '../lib/fiches'
 
@@ -69,7 +70,21 @@ export default function Home() {
     <>
       <section className="hero">
         <div className="container">
-          <p className="hero__eyebrow">Un mouvement politique sans étiquette</p>
+          <p className="hero__eyebrow">
+            Un mouvement{' '}
+            <span aria-hidden="true">
+              <RoughNotation
+                type="strike-through"
+                show
+                animate
+                strokeWidth={3}
+                color="var(--rouge)"
+              >
+                politique
+              </RoughNotation>
+            </span>{' '}
+            sans étiquette
+          </p>
           <h1 className="hero__title">
             Ce que nous <span className="hero__verb">constatons</span>.
             <br />
