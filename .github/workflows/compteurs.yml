@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout du dépôt
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Présence du compte de service
         id: cle
@@ -32,7 +32,7 @@ jobs:
 
       - name: Installation de Node.js
         if: steps.cle.outputs.ok == 'true'
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 22
 
