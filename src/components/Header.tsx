@@ -6,6 +6,7 @@
 
 import { useEffect, useState } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
+import ThemeToggle from './ThemeToggle'
 
 const links = [
   { to: '/', label: 'Accueil', end: true },
@@ -32,6 +33,8 @@ export default function Header() {
           <span className="brand__name">Ma République</span>
           <span className="brand__tag">Fondé sur les actes</span>
         </Link>
+
+        <ThemeToggle />
 
         <button
           type="button"

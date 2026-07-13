@@ -22,6 +22,28 @@
   --bleu: #0a3d91;
   --rouge: #c8102e;
 
+  /* Fixes, indépendants du thème : le pied de page reste une bande encre
+     dans les deux thèmes (voir .site-footer). */
+  --footer-bg: #0a0a0a;
+  --footer-fg: #ffffff;
+
+  /* États de vote (voir .vote--*), redéfinis en sombre plus bas. */
+  --vote-pour-bg: #eef6ee;
+  --vote-pour-border: #2d7a2d;
+  --vote-pour-fg: #1b5e20;
+  --vote-contre-bg: #fbecef;
+  --vote-contre-border: #c8102e;
+  --vote-contre-fg: #8a0f24;
+  --vote-pour-actif-bg: #e8f5e9;
+  --vote-pour-actif-border: #1b5e20;
+  --vote-pour-actif-fg: #0d3817;
+  --vote-contre-actif-bg: #ffebee;
+  --vote-contre-actif-border: #b71c1c;
+  --vote-contre-actif-fg: #5f0a0a;
+  --vote-piste-actif-bg: #e3f2fd;
+  --vote-piste-actif-border: #0d47a1;
+  --vote-piste-actif-fg: #082b60;
+
   --sans: 'Archivo', system-ui, -apple-system, 'Segoe UI', sans-serif;
   --serif: 'Spectral', Georgia, 'Times New Roman', serif;
 
@@ -32,6 +54,78 @@
   --section-y: clamp(3.5rem, 9vw, 6.5rem);
 
   --radius: 2px;
+
+  color-scheme: light;
+}
+
+/* --- Thème sombre ------------------------------------------------------
+   S'applique au choix explicite (data-theme="dark") ou, par défaut, à la
+   préférence système si l'utilisateur n'a rien choisi (pas de data-theme,
+   ou data-theme="light" pour forcer le clair). Le pied de page
+   (--footer-bg/--footer-fg) ne bouge pas : il reste une bande encre fixe. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --ink: #f2f1ed;
+    --ink-soft: #d9d8d3;
+    --muted: #b0afa9;
+    --faint: #8a8985;
+    --paper: #121212;
+    --paper-alt: #1a1a18;
+    --rule: #2c2c29;
+    --rule-strong: #3d3d39;
+
+    /* Le bleu de la hairline, trop sombre sur fond encre, s'éclaircit pour
+       rester lisible en halo de focus (contraste AA). */
+    --bleu: #6f9bef;
+
+    --vote-pour-bg: #12271a;
+    --vote-pour-border: #3fae55;
+    --vote-pour-fg: #8fe3a0;
+    --vote-contre-bg: #2a1418;
+    --vote-contre-border: #e0576f;
+    --vote-contre-fg: #ff8fa3;
+    --vote-pour-actif-bg: #15331f;
+    --vote-pour-actif-border: #57c96e;
+    --vote-pour-actif-fg: #a6eeb3;
+    --vote-contre-actif-bg: #3a161a;
+    --vote-contre-actif-border: #ff6b6b;
+    --vote-contre-actif-fg: #ffb3b3;
+    --vote-piste-actif-bg: #16283a;
+    --vote-piste-actif-border: #5b9df0;
+    --vote-piste-actif-fg: #a9cdfb;
+
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme='dark'] {
+  --ink: #f2f1ed;
+  --ink-soft: #d9d8d3;
+  --muted: #b0afa9;
+  --faint: #8a8985;
+  --paper: #121212;
+  --paper-alt: #1a1a18;
+  --rule: #2c2c29;
+  --rule-strong: #3d3d39;
+  --bleu: #6f9bef;
+
+  --vote-pour-bg: #12271a;
+  --vote-pour-border: #3fae55;
+  --vote-pour-fg: #8fe3a0;
+  --vote-contre-bg: #2a1418;
+  --vote-contre-border: #e0576f;
+  --vote-contre-fg: #ff8fa3;
+  --vote-pour-actif-bg: #15331f;
+  --vote-pour-actif-border: #57c96e;
+  --vote-pour-actif-fg: #a6eeb3;
+  --vote-contre-actif-bg: #3a161a;
+  --vote-contre-actif-border: #ff6b6b;
+  --vote-contre-actif-fg: #ffb3b3;
+  --vote-piste-actif-bg: #16283a;
+  --vote-piste-actif-border: #5b9df0;
+  --vote-piste-actif-fg: #a9cdfb;
+
+  color-scheme: dark;
 }
 
 /* --- Reset ------------------------------------------------------------ */
@@ -114,9 +208,9 @@ button {
   outline-offset: 3px;
 }
 
-/* Sur fond encre, le halo de focus passe au papier pour rester lisible. */
+/* Sur fond encre fixe, le halo de focus passe au blanc fixe pour rester lisible. */
 .site-footer :focus-visible {
-  outline-color: var(--paper);
+  outline-color: var(--footer-fg);
 }
 
 /* --- Coquille & hairline tricolore ------------------------------------ */
@@ -234,6 +328,27 @@ button {
 .site-nav__link--active {
   color: var(--ink);
   border-bottom-color: var(--ink);
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  background: none;
+  border: 1px solid var(--rule-strong);
+  border-radius: 50%;
+  font-size: 1.05rem;
+  line-height: 1;
+  color: var(--ink);
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.theme-toggle:hover {
+  border-color: var(--ink);
+  background: var(--paper-alt);
 }
 
 /* --- Boutons ---------------------------------------------------------- */
@@ -751,7 +866,7 @@ button {
    ========================================================================= */
 
 .site-footer {
-  background: var(--ink);
+  background: var(--footer-bg);
   color: #cfcfcf;
 }
 
@@ -793,7 +908,7 @@ button {
   font-size: clamp(1.5rem, 2.6vw, 2.1rem);
   line-height: 1.22;
   letter-spacing: -0.01em;
-  color: var(--paper);
+  color: var(--footer-fg);
   max-width: 20ch;
 }
 
@@ -806,7 +921,7 @@ button {
   padding-inline: 1.4rem;
   border: 1px solid rgba(255, 255, 255, 0.45);
   border-radius: var(--radius);
-  color: var(--paper);
+  color: var(--footer-fg);
   text-decoration: none;
   font-size: 0.95rem;
   font-weight: 500;
@@ -814,9 +929,9 @@ button {
 }
 
 .site-footer__cta:hover {
-  background: var(--paper);
-  color: var(--ink);
-  border-color: var(--paper);
+  background: var(--footer-fg);
+  color: var(--footer-bg);
+  border-color: var(--footer-fg);
 }
 
 .site-footer__cols {
@@ -844,7 +959,7 @@ button {
 }
 
 .site-footer__col a:hover {
-  color: var(--paper);
+  color: var(--footer-fg);
 }
 
 .site-footer__bottom {
@@ -881,12 +996,12 @@ button {
 }
 
 .site-footer__haut:hover {
-  color: var(--paper);
+  color: var(--footer-fg);
 }
 
-/* Focus lisible sur fond encre : le halo passe au papier. */
+/* Focus lisible sur fond encre fixe : le halo passe au blanc fixe. */
 .site-footer :focus-visible {
-  outline-color: var(--paper);
+  outline-color: var(--footer-fg);
 }
 
 /* =========================================================================
@@ -1433,35 +1548,35 @@ button {
 
 /* État de repos parlant : Pour vert léger, Contre rouge léger. */
 .vote--pour {
-  background: #eef6ee;
-  border-color: #2d7a2d;
-  color: #1b5e20;
+  background: var(--vote-pour-bg);
+  border-color: var(--vote-pour-border);
+  color: var(--vote-pour-fg);
 }
 
 .vote--contre {
-  background: #fbecef;
-  border-color: #c8102e;
-  color: #8a0f24;
+  background: var(--vote-contre-bg);
+  border-color: var(--vote-contre-border);
+  color: var(--vote-contre-fg);
 }
 
 .vote--pour.vote--actif {
-  background: #e8f5e9;
-  border-color: #1b5e20;
-  color: #0d3817;
+  background: var(--vote-pour-actif-bg);
+  border-color: var(--vote-pour-actif-border);
+  color: var(--vote-pour-actif-fg);
   font-weight: 600;
 }
 
 .vote--contre.vote--actif {
-  background: #ffebee;
-  border-color: #b71c1c;
-  color: #5f0a0a;
+  background: var(--vote-contre-actif-bg);
+  border-color: var(--vote-contre-actif-border);
+  color: var(--vote-contre-actif-fg);
   font-weight: 600;
 }
 
 .vote--piste.vote--actif {
-  background: #e3f2fd;
-  border-color: #0d47a1;
-  color: #082b60;
+  background: var(--vote-piste-actif-bg);
+  border-color: var(--vote-piste-actif-border);
+  color: var(--vote-piste-actif-fg);
   font-weight: 600;
 }
 
