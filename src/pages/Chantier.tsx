@@ -7,7 +7,13 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import Markdown from '../components/Markdown'
-import { axesFiches, type Fiche, type StatutFiche } from '../lib/fiches'
+import {
+  axesFiches,
+  numeroDeSlug,
+  slugDeNumero,
+  type Fiche,
+  type StatutFiche,
+} from '../lib/fiches'
 import { useReaction, type VoteChoix } from '../lib/reactions'
 import { chargerCompteurs, type Compteurs } from '../lib/compteurs'
 import { identiteCourante, useIdentite } from '../lib/identite'
@@ -447,17 +453,7 @@ function CarteFiche({
   )
 }
 
-// L'onglet actif vit dans l'URL (/chantier/axe-4, /chantier/problemes-13) :
-// chaque vue est partageable et le bouton retour du navigateur fonctionne.
-const slugDeNumero = (n: number) => (n <= 5 ? `axe-${n}` : `problemes-${n - 100}`)
-
-function numeroDeSlug(slug: string | undefined): number | undefined {
-  const axe = slug?.match(/^axe-(\d+)$/)
-  if (axe) return Number(axe[1])
-  const pb = slug?.match(/^problemes-(\d+)$/)
-  if (pb) return 100 + Number(pb[1])
-  return undefined
-}
+// slugDeNumero / numeroDeSlug sont dans lib/fiches (partagés avec /partager).
 
 // Ordre d'affichage et libellés des statuts (couleur + texte, jamais la
 // couleur seule : chaque pastille est doublée de son libellé et du compte).

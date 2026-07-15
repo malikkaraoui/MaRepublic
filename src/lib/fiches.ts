@@ -128,3 +128,19 @@ export const axesFiches: AxeFiches[] = Object.entries(files)
     return parseDocument(numero, raw)
   })
   .sort((a, b) => a.numero - b.numero)
+
+/**
+ * Slug d'onglet depuis un numéro (axes 1-5 -> "axe-N", lots -> "problemes-K").
+ * L'onglet actif vit dans l'URL (/chantier/axe-4, /chantier/problemes-13) :
+ * chaque vue est ainsi partageable et le bouton retour fonctionne.
+ */
+export const slugDeNumero = (n: number) => (n <= 5 ? `axe-${n}` : `problemes-${n - 100}`)
+
+/** Numéro d'onglet depuis un slug d'URL (inverse de slugDeNumero). */
+export function numeroDeSlug(slug: string | undefined): number | undefined {
+  const axe = slug?.match(/^axe-(\d+)$/)
+  if (axe) return Number(axe[1])
+  const pb = slug?.match(/^problemes-(\d+)$/)
+  if (pb) return 100 + Number(pb[1])
+  return undefined
+}
