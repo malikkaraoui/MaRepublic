@@ -2034,6 +2034,24 @@ button {
 
 .card--action {
   border-top: 2px solid var(--bleu);
+  transition: transform 0.25s ease, box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.card--action:hover {
+  transform: translateY(-4px);
+  border-top-color: var(--rouge);
+  box-shadow: 0 12px 28px color-mix(in srgb, var(--ink) 16%, transparent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card--action {
+    transition: border-color 0.25s ease;
+  }
+  .card--action:hover {
+    transform: none;
+    box-shadow: none;
+  }
 }
 
 .card__chip {
@@ -2052,9 +2070,46 @@ button {
 
 .grid--mobilisation {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
   margin-bottom: 1.5rem;
+}
+
+@media (max-width: 64rem) {
+  .grid--mobilisation {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 34rem) {
+  .grid--mobilisation {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Apparition en cascade au scroll (voir composant Reveal). Le wrapper est en
+   flex pour que la carte remplisse la hauteur de sa cellule de grille. */
+.reveal {
+  display: flex;
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.6s ease, transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.reveal > * {
+  flex: 1 1 auto;
+}
+
+.reveal--in {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    transition: opacity 0.3s ease;
+    transform: none;
+  }
 }
 
 /* Bloc méthode / transparence de l'accueil */

@@ -6,6 +6,7 @@
 
 import { Link } from 'react-router-dom'
 import { RoughNotation } from 'react-rough-notation'
+import Reveal from '../components/Reveal'
 import { axes } from '../data/axes'
 import { axesFiches } from '../lib/fiches'
 
@@ -127,36 +128,53 @@ export default function Home() {
             <p className="section__intro">
               {nombreFiches} fiches sont ouvertes au débat : des problèmes réels, des
               solutions qui existent ailleurs. Aucune n'est figée tant que vous
-              ne l'avez pas jugée. Cinq minutes ou un engagement durable : tout
-              compte, tout est visible, rien ne se perd.
+              ne l'avez pas jugée. D'un simple partage à un engagement durable :
+              tout compte, tout est visible, rien ne se perd.
             </p>
           </header>
           <div className="grid grid--mobilisation">
-            <article className="card card--action">
-              <p className="card__chip">5 minutes</p>
-              <h3 className="card__title">Jugez une mesure</h3>
-              <p className="card__text">
-                Ouvrez une fiche, lisez, votez pour ou contre. C'est anonyme
-                pour le public, et chaque voix pèse dans le tri.
-              </p>
-            </article>
-            <article className="card card--action">
-              <p className="card__chip">30 minutes</p>
-              <h3 className="card__title">Améliorez une proposition</h3>
-              <p className="card__text">
-                Commentez, pointez une faille, ou proposez votre alternative.
-                Les meilleures contributions remontent dans les fiches.
-              </p>
-            </article>
-            <article className="card card--action">
-              <p className="card__chip">Plus loin</p>
-              <h3 className="card__title">Rejoignez un groupe de travail</h3>
-              <p className="card__text">
-                Soignant, agriculteur, juriste, développeur, retraité :
-                apportez votre terrain sur un des 22 sujets, ou fédérez votre
-                collectif au mouvement.
-              </p>
-            </article>
+            <Reveal delay={0}>
+              <article className="card card--action">
+                <p className="card__chip">1 minute</p>
+                <h3 className="card__title">Partagez le mouvement</h3>
+                <p className="card__text">
+                  Le premier pas, et le plus simple : un lien, un QR, une story.
+                  Faites connaître le chantier à ceux qui ignorent encore qu'il
+                  existe.
+                </p>
+              </article>
+            </Reveal>
+            <Reveal delay={110}>
+              <article className="card card--action">
+                <p className="card__chip">5 minutes</p>
+                <h3 className="card__title">Jugez une mesure</h3>
+                <p className="card__text">
+                  Ouvrez une fiche, lisez, votez pour ou contre. C'est anonyme
+                  pour le public, et chaque voix pèse dans le tri.
+                </p>
+              </article>
+            </Reveal>
+            <Reveal delay={220}>
+              <article className="card card--action">
+                <p className="card__chip">30 minutes</p>
+                <h3 className="card__title">Améliorez une proposition</h3>
+                <p className="card__text">
+                  Commentez, pointez une faille, ou proposez votre alternative.
+                  Les meilleures contributions remontent dans les fiches.
+                </p>
+              </article>
+            </Reveal>
+            <Reveal delay={330}>
+              <article className="card card--action">
+                <p className="card__chip">Plus loin</p>
+                <h3 className="card__title">Rejoignez un groupe de travail</h3>
+                <p className="card__text">
+                  Soignant, agriculteur, juriste, développeur, retraité :
+                  apportez votre terrain sur un des 22 sujets, ou fédérez votre
+                  collectif au mouvement.
+                </p>
+              </article>
+            </Reveal>
           </div>
           <div className="hero__actions">
             <Link to="/participer" className="button button--primary">
