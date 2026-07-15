@@ -134,7 +134,7 @@ export default function Home() {
           </header>
           <div className="grid grid--mobilisation">
             <Reveal delay={0}>
-              <article className="card card--action">
+              <Link to="/partager" className="card card--action">
                 <p className="card__chip">1 minute</p>
                 <h3 className="card__title">Partagez le mouvement</h3>
                 <p className="card__text">
@@ -142,30 +142,33 @@ export default function Home() {
                   Faites connaître le chantier à ceux qui ignorent encore qu'il
                   existe.
                 </p>
-              </article>
+                <span className="card__go" aria-hidden="true">Partager →</span>
+              </Link>
             </Reveal>
             <Reveal delay={110}>
-              <article className="card card--action">
+              <Link to="/chantier" className="card card--action">
                 <p className="card__chip">5 minutes</p>
                 <h3 className="card__title">Jugez une mesure</h3>
                 <p className="card__text">
                   Ouvrez une fiche, lisez, votez pour ou contre. C'est anonyme
                   pour le public, et chaque voix pèse dans le tri.
                 </p>
-              </article>
+                <span className="card__go" aria-hidden="true">Ouvrir le chantier →</span>
+              </Link>
             </Reveal>
             <Reveal delay={220}>
-              <article className="card card--action">
+              <Link to="/chantier" className="card card--action">
                 <p className="card__chip">30 minutes</p>
                 <h3 className="card__title">Améliorez une proposition</h3>
                 <p className="card__text">
                   Commentez, pointez une faille, ou proposez votre alternative.
                   Les meilleures contributions remontent dans les fiches.
                 </p>
-              </article>
+                <span className="card__go" aria-hidden="true">Ouvrir le chantier →</span>
+              </Link>
             </Reveal>
             <Reveal delay={330}>
-              <article className="card card--action">
+              <Link to="/participer" className="card card--action">
                 <p className="card__chip">Plus loin</p>
                 <h3 className="card__title">Rejoignez un groupe de travail</h3>
                 <p className="card__text">
@@ -173,7 +176,8 @@ export default function Home() {
                   apportez votre terrain sur un des 22 sujets, ou fédérez votre
                   collectif au mouvement.
                 </p>
-              </article>
+                <span className="card__go" aria-hidden="true">Participer →</span>
+              </Link>
             </Reveal>
           </div>
           <div className="hero__actions">
