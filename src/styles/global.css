@@ -268,13 +268,15 @@ button {
    l'intro devient un rail latéral sticky et le texte occupe la colonne
    principale. On remplit la largeur au lieu de laisser la moitié droite vide. */
 @media (min-width: 64rem) {
-  .page:has(> .prose) {
+  .page:has(> .prose),
+  .page:has(> .fiche__saisie) {
     display: grid;
     grid-template-columns: minmax(15rem, 21rem) minmax(0, 1fr);
     column-gap: 4rem;
     align-items: start;
   }
-  .page:has(> .prose) > .page-intro {
+  .page:has(> .prose) > .page-intro,
+  .page:has(> .fiche__saisie) > .page-intro {
     position: sticky;
     top: 5.5rem;
     margin-bottom: 0;
