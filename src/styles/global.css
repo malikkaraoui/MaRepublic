@@ -264,6 +264,23 @@ button {
   padding-inline: var(--space);
 }
 
+/* Pages de contenu (garde-fous, vie privée, accessibilité) : sur desktop,
+   l'intro devient un rail latéral sticky et le texte occupe la colonne
+   principale. On remplit la largeur au lieu de laisser la moitié droite vide. */
+@media (min-width: 64rem) {
+  .page:has(> .prose) {
+    display: grid;
+    grid-template-columns: minmax(15rem, 21rem) minmax(0, 1fr);
+    column-gap: 4rem;
+    align-items: start;
+  }
+  .page:has(> .prose) > .page-intro {
+    position: sticky;
+    top: 5.5rem;
+    margin-bottom: 0;
+  }
+}
+
 .site-main {
   flex: 1 0 auto;
 }
@@ -2393,6 +2410,17 @@ body {
 .wizard__options--ligne {
   grid-auto-flow: column;
   grid-auto-columns: 1fr;
+}
+
+/* Desktop : on étale les choix à l'horizontale et on élargit le wizard, plutôt
+   que d'empiler des cartes pleine largeur dans une colonne étroite. */
+@media (min-width: 48rem) {
+  .wizard {
+    max-width: 58rem;
+  }
+  .wizard__options:not(.wizard__options--ligne) {
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  }
 }
 
 @media (max-width: 540px) {
