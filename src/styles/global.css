@@ -2670,7 +2670,40 @@ body {
 
 /* Page de partage : lien + QR + canaux */
 .partage {
-  max-width: 40rem;
+  max-width: 44rem;
+  margin-inline: auto;
+}
+
+/* Desktop : on s'étale à l'horizontale plutôt que d'empiler. Contrôles à
+   gauche, aperçu (image + QR) sticky à droite, visible pendant qu'on règle. */
+@media (min-width: 62rem) {
+  .partage {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 22rem;
+    column-gap: 2.75rem;
+    row-gap: 1.5rem;
+    align-items: start;
+    max-width: none;
+  }
+  .partage__cible {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .partage__pseudo {
+    grid-column: 1;
+    grid-row: 2;
+    margin-bottom: 0;
+  }
+  .partage__diffusion {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .partage__apercu {
+    grid-column: 2;
+    grid-row: 1 / 4;
+    position: sticky;
+    top: 5.5rem;
+  }
 }
 
 /* --- Sélecteur de cible (recherche + accès rapides) ------------------- */

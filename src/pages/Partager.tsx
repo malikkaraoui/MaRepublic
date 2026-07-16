@@ -516,76 +516,80 @@ export default function Partager() {
           <small>Ajoutée à l'image et au message. Rien n'est envoyé, tout reste sur votre appareil.</small>
         </label>
 
-        <figure className="partage__image">
-          {image ? (
-            <img src={image} alt="Aperçu de l'image de partage" />
-          ) : (
-            <span className="partage__image-vide">Préparation de l'image…</span>
-          )}
-          <figcaption>Image prête à poster en story. Les votes affichés sont ceux du moment.</figcaption>
-        </figure>
+        <aside className="partage__apercu">
+          <figure className="partage__image">
+            {image ? (
+              <img src={image} alt="Aperçu de l'image de partage" />
+            ) : (
+              <span className="partage__image-vide">Préparation de l'image…</span>
+            )}
+            <figcaption>Image prête à poster en story. Les votes affichés sont ceux du moment.</figcaption>
+          </figure>
 
-        <div className="partage__actions-image">
+          <div className="partage__actions-image">
+            {partageFichiersDispo && (
+              <button type="button" className="partage__story" onClick={partagerImage} disabled={!image}>
+                📲 Mettre dans ma story
+              </button>
+            )}
+            <button type="button" className="partage__copier" onClick={telechargerImage} disabled={!image}>
+              Télécharger l'image
+            </button>
+          </div>
           {partageFichiersDispo && (
-            <button type="button" className="partage__story" onClick={partagerImage} disabled={!image}>
-              📲 Mettre dans ma story
+            <p className="partage__astuce">
+              « Mettre dans ma story » ouvre le partage de ton téléphone : choisis Instagram,
+              Snapchat, WhatsApp… puis Story. Aucune app ne peut publier une story à ta place,
+              c'est le maximum possible depuis le web.
+            </p>
+          )}
+
+          <figure className="partage__qr">
+            {qr ? (
+              <img src={qr} alt={`QR code vers ${lien}`} width={200} height={200} />
+            ) : (
+              <span className="partage__qr-vide">QR code…</span>
+            )}
+            <figcaption>À scanner ou à montrer autour de vous.</figcaption>
+          </figure>
+        </aside>
+
+        <div className="partage__diffusion">
+          <div className="partage__lien">
+            <input
+              type="text"
+              readOnly
+              value={lien}
+              aria-label="Lien à partager"
+              className="partage__url"
+              onFocus={(e) => e.currentTarget.select()}
+            />
+            <button type="button" className="partage__copier" onClick={copier}>
+              {copie ? '✓ Copié' : 'Copier le lien'}
+            </button>
+          </div>
+
+          {partageFichiersDispo && (
+            <button type="button" className="partage__natif" onClick={partageNatif}>
+              📤 Partager le lien…
             </button>
           )}
-          <button type="button" className="partage__copier" onClick={telechargerImage} disabled={!image}>
-            Télécharger l'image
-          </button>
-        </div>
-        {partageFichiersDispo && (
-          <p className="partage__astuce">
-            « Mettre dans ma story » ouvre le partage de ton téléphone : choisis Instagram,
-            Snapchat, WhatsApp… puis Story. Aucune app ne peut publier une story à ta place,
-            c'est le maximum possible depuis le web.
-          </p>
-        )}
 
-        <div className="partage__lien">
-          <input
-            type="text"
-            readOnly
-            value={lien}
-            aria-label="Lien à partager"
-            className="partage__url"
-            onFocus={(e) => e.currentTarget.select()}
-          />
-          <button type="button" className="partage__copier" onClick={copier}>
-            {copie ? '✓ Copié' : 'Copier le lien'}
-          </button>
-        </div>
-
-        {partageFichiersDispo && (
-          <button type="button" className="partage__natif" onClick={partageNatif}>
-            📤 Partager le lien…
-          </button>
-        )}
-
-        <ul className="partage__canaux">
-          {canaux.map((c) => (
-            <li key={c.nom}>
-              <a href={c.href} target="_blank" rel="noopener noreferrer" className="partage__canal">
-                {c.nom}
-              </a>
+          <ul className="partage__canaux">
+            {canaux.map((c) => (
+              <li key={c.nom}>
+                <a href={c.href} target="_blank" rel="noopener noreferrer" className="partage__canal">
+                  {c.nom}
+                </a>
+              </li>
+            ))}
+            <li>
+              <button type="button" className="partage__canal" onClick={copierPourDiscord}>
+                {copieDiscord ? '✓ Copié pour Discord' : 'Discord'}
+              </button>
             </li>
-          ))}
-          <li>
-            <button type="button" className="partage__canal" onClick={copierPourDiscord}>
-              {copieDiscord ? '✓ Copié pour Discord' : 'Discord'}
-            </button>
-          </li>
-        </ul>
-
-        <figure className="partage__qr">
-          {qr ? (
-            <img src={qr} alt={`QR code vers ${lien}`} width={200} height={200} />
-          ) : (
-            <span className="partage__qr-vide">QR code…</span>
-          )}
-          <figcaption>À scanner ou à montrer autour de vous.</figcaption>
-        </figure>
+          </ul>
+        </div>
       </div>
     </div>
   )
