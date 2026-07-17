@@ -1159,6 +1159,24 @@ button {
     grid-template-columns: minmax(13rem, 17rem) minmax(0, 1fr);
     column-gap: clamp(2.5rem, 5vw, 5rem);
     align-items: start;
+    /* Les longs documents débordent du gabarit standard (72rem) : le
+       sommaire prend la marge gauche, les tableaux prennent la droite. */
+    max-width: min(100rem, 100%);
+  }
+
+  /* Le texte courant reste capé pour la lisibilité, mais les blocs larges
+     (tableaux, code) s'étalent sur toute la colonne. */
+  .document-layout .prose {
+    max-width: none;
+  }
+
+  .document-layout .prose > * {
+    max-width: 80ch;
+  }
+
+  .document-layout .prose > table,
+  .document-layout .prose > pre {
+    max-width: none;
   }
 
   .sommaire-doc {
