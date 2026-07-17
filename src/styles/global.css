@@ -53,6 +53,8 @@
   --serif: 'Spectral', Georgia, 'Times New Roman', serif;
 
   --page-max: 72rem;
+  /* Gabarit large : toutes les pages hors accueil s'étalent jusqu'ici. */
+  --page-wide: 100rem;
   --reading-max: 44rem;
 
   --space: clamp(1rem, 4vw, 1.5rem);
@@ -259,9 +261,15 @@ button {
 
 .page {
   width: 100%;
-  max-width: var(--page-max);
+  max-width: var(--page-wide);
   margin-inline: auto;
   padding-inline: var(--space);
+}
+
+/* Variante large des conteneurs simples (programme, détail d'axe). */
+.container--wide {
+  max-width: var(--page-wide);
+  padding-block: clamp(2.5rem, 7vw, 4.5rem);
 }
 
 /* Pages de contenu (garde-fous, vie privée, accessibilité) : sur desktop,
@@ -280,6 +288,12 @@ button {
     position: sticky;
     top: 5.5rem;
     margin-bottom: 0;
+  }
+  /* Tout ce qui suit l'intro (texte, blocs annexes) vit dans la colonne
+     principale, jamais sous le rail. */
+  .page:has(> .prose) > :not(.page-intro),
+  .page:has(> .fiche__saisie) > :not(.page-intro) {
+    grid-column: 2;
   }
 }
 
@@ -329,7 +343,7 @@ button {
 }
 
 .site-header__inner {
-  max-width: var(--page-max);
+  max-width: var(--page-wide);
   margin-inline: auto;
   padding: 0.9rem var(--space);
   display: flex;
@@ -745,6 +759,7 @@ button {
   margin-top: 1.25rem;
   color: var(--muted);
   font-size: 1.1rem;
+  max-width: 80ch;
 }
 
 /* --- Liste du programme ----------------------------------------------- */
@@ -1003,7 +1018,7 @@ button {
 }
 
 .site-footer__inner {
-  max-width: var(--page-max);
+  max-width: var(--page-wide);
   margin-inline: auto;
   padding: clamp(2.5rem, 5vw, 4rem) var(--space) clamp(1.75rem, 3vw, 2.5rem);
   display: grid;
@@ -1088,7 +1103,7 @@ button {
 }
 
 .site-footer__bottom-inner {
-  max-width: var(--page-max);
+  max-width: var(--page-wide);
   margin-inline: auto;
   padding: 1.25rem var(--space);
   display: flex;
@@ -1161,22 +1176,20 @@ button {
     align-items: start;
     /* Les longs documents débordent du gabarit standard (72rem) : le
        sommaire prend la marge gauche, les tableaux prennent la droite. */
-    max-width: min(100rem, 100%);
+    max-width: min(var(--page-wide), 100%);
   }
 
-  /* Le texte courant reste capé pour la lisibilité, mais les blocs larges
-     (tableaux, code) s'étalent sur toute la colonne. */
   .document-layout .prose {
     max-width: none;
   }
 
-  .document-layout .prose > * {
-    max-width: 80ch;
-  }
-
-  .document-layout .prose > table,
-  .document-layout .prose > pre {
-    max-width: none;
+  /* Le fil d'Ariane, l'entête et les blocs annexes traversent les deux
+     colonnes (cas du détail d'axe qui embarque un sommaire). */
+  .document-layout > .breadcrumb,
+  .document-layout > .page-head,
+  .document-layout > .propositions,
+  .document-layout > .axe-more {
+    grid-column: 1 / -1;
   }
 
   .sommaire-doc {
@@ -1234,6 +1247,20 @@ button {
   color: var(--ink-soft);
   font-size: 1.05rem;
   line-height: 1.75;
+}
+
+/* Sur grand écran, le texte courant reste capé pour la lisibilité (~80
+   caractères par ligne), mais les blocs larges (tableaux, code) s'étalent
+   sur toute la colonne disponible. */
+@media (min-width: 64rem) {
+  .prose > * {
+    max-width: 80ch;
+  }
+
+  .prose > table,
+  .prose > pre {
+    max-width: none;
+  }
 }
 
 .prose > * + * {

@@ -14,8 +14,7 @@ export default function Accessibilite() {
         </p>
       </section>
 
-      <article className="container--reading">
-        <section className="prose">
+      <div className="prose">
           <h2>Notre engagement</h2>
 
           <p>
@@ -136,8 +135,7 @@ export default function Accessibilite() {
               Mise à jour : juillet 2026. La prochaine révision est prévue en juillet 2027.
             </small>
           </p>
-        </section>
-      </article>
+      </div>
 
       <section style={{ marginTop: '3rem', marginBottom: '2rem', textAlign: 'center' }}>
         <Link to="/" className="button button--primary">

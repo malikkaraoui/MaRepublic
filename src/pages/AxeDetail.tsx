@@ -7,6 +7,7 @@
 
 import { Link, useParams } from 'react-router-dom'
 import Markdown from '../components/Markdown'
+import SommaireDoc from '../components/SommaireDoc'
 import { content } from '../content'
 import { axes, getAxe } from '../data/axes'
 import NotFound from './NotFound'
@@ -22,7 +23,7 @@ export default function AxeDetail() {
   const autresAxes = axes.filter((a) => a.slug !== axe.slug)
 
   return (
-    <div className="container container--reading">
+    <div className={axe.contentKey ? 'container document-layout' : 'container container--reading'}>
       <nav className="breadcrumb" aria-label="Fil d'Ariane">
         <Link to="/programme">Programme</Link>
         <span aria-hidden="true">/</span>
@@ -36,9 +37,12 @@ export default function AxeDetail() {
       </header>
 
       {axe.contentKey ? (
-        <article className="document">
-          <Markdown>{content[axe.contentKey]}</Markdown>
-        </article>
+        <>
+          <SommaireDoc markdown={content[axe.contentKey]} />
+          <article className="document">
+            <Markdown>{content[axe.contentKey]}</Markdown>
+          </article>
+        </>
       ) : (
         <section className="propositions">
           <h2 className="propositions__title">Propositions</h2>

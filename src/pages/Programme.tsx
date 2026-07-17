@@ -5,7 +5,7 @@ import { axes } from '../data/axes'
 
 export default function Programme() {
   return (
-    <div className="container container--reading">
+    <div className="container container--wide">
       <header className="page-head">
         <p className="page-head__kicker">Le programme</p>
         <h1 className="page-head__title">Cinq axes de travail</h1>
