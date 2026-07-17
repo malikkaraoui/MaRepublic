@@ -1255,8 +1255,7 @@ button {
      colonnes (cas du détail d'axe qui embarque un sommaire). */
   .document-layout > .breadcrumb,
   .document-layout > .page-head,
-  .document-layout > .propositions,
-  .document-layout > .axe-more {
+  .document-layout > .propositions {
     grid-column: 1 / -1;
   }
 
@@ -2899,21 +2898,34 @@ body {
   color: #0d3817;
 }
 
+/* Un vrai bouton : bordé, visible, on comprend qu'on peut changer d'avis. */
 .participer__recommencer {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   margin-top: 1.5rem;
   font: inherit;
-  font-size: 0.85rem;
-  color: var(--muted);
-  background: none;
-  border: none;
-  padding: 0.5rem 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1.5px solid var(--rule-strong);
+  border-radius: var(--radius);
+  padding: 0.55rem 1.1rem;
   min-height: 44px;
   cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease;
 }
 
 .participer__recommencer:hover {
-  color: var(--ink);
-  text-decoration: underline;
+  border-color: var(--ink);
+  background: var(--paper-alt);
+}
+
+/* Le bloc « Les autres axes » sous un document : collé au bas de la grille,
+   sans reprendre le grand padding haut du conteneur. */
+.axe-more-wrap {
+  padding-block: 0 clamp(2.5rem, 7vw, 4.5rem);
 }
 
 /* Bannière de filtre famille sur le sommaire du chantier */

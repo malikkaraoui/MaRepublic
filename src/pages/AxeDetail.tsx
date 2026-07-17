@@ -22,7 +22,11 @@ export default function AxeDetail() {
 
   const autresAxes = axes.filter((a) => a.slug !== axe.slug)
 
+  // « Les autres axes » vit HORS de la grille document-layout : un élément
+  // sticky (le sommaire) glisse sur toute la hauteur de sa grille, il
+  // chevaucherait toute rangée ajoutée après l'article.
   return (
+    <>
     <div className={axe.contentKey ? 'container document-layout' : 'container container--reading'}>
       <nav className="breadcrumb" aria-label="Fil d'Ariane">
         <Link to="/programme">Programme</Link>
@@ -61,6 +65,11 @@ export default function AxeDetail() {
         </section>
       )}
 
+    </div>
+
+    <div
+      className={`container ${axe.contentKey ? 'container--wide' : 'container--reading'} axe-more-wrap`}
+    >
       <nav className="axe-more" aria-label="Autres axes">
         <h2 className="axe-more__title">Les autres axes</h2>
         <ul className="axe-more__list">
@@ -75,5 +84,6 @@ export default function AxeDetail() {
         </ul>
       </nav>
     </div>
+    </>
   )
 }

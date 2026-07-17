@@ -162,7 +162,7 @@ function Resultat({
           , {PHRASE_TEMPS[profil.temps]}, {PHRASE_MOTIVATION[profil.motivation]}.
         </p>
         <button type="button" className="participer__recommencer" onClick={onRecommencer}>
-          Modifier mes réponses
+          <span aria-hidden="true">↺</span> Modifier mes réponses
         </button>
       </section>
 
