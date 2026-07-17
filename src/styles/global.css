@@ -264,6 +264,9 @@ button {
   max-width: var(--page-wide);
   margin-inline: auto;
   padding-inline: var(--space);
+  /* De l'air sous la barre : sans lui, le titre de page se confond avec
+     la navigation à l'arrivée. */
+  padding-block: clamp(2rem, 5vw, 3.5rem) clamp(2.5rem, 7vw, 4.5rem);
 }
 
 /* Variante large des conteneurs simples (programme, détail d'axe). */
@@ -277,14 +280,18 @@ button {
    principale. On remplit la largeur au lieu de laisser la moitié droite vide. */
 @media (min-width: 64rem) {
   .page:has(> .prose),
-  .page:has(> .fiche__saisie) {
+  .page:has(> .fiche__saisie),
+  .page:has(> .wizard),
+  .page:has(> .participer__resultat) {
     display: grid;
     grid-template-columns: minmax(15rem, 21rem) minmax(0, 1fr);
     column-gap: 4rem;
     align-items: start;
   }
   .page:has(> .prose) > .page-intro,
-  .page:has(> .fiche__saisie) > .page-intro {
+  .page:has(> .fiche__saisie) > .page-intro,
+  .page:has(> .wizard) > .page-intro,
+  .page:has(> .participer__resultat) > .page-intro {
     position: sticky;
     top: 5.5rem;
     margin-bottom: 0;
@@ -292,7 +299,9 @@ button {
   /* Tout ce qui suit l'intro (texte, blocs annexes) vit dans la colonne
      principale, jamais sous le rail. */
   .page:has(> .prose) > :not(.page-intro),
-  .page:has(> .fiche__saisie) > :not(.page-intro) {
+  .page:has(> .fiche__saisie) > :not(.page-intro),
+  .page:has(> .wizard) > :not(.page-intro),
+  .page:has(> .participer__resultat) > :not(.page-intro) {
     grid-column: 2;
   }
 }
@@ -739,7 +748,8 @@ button {
   margin-bottom: clamp(2.5rem, 6vw, 4rem);
 }
 
-.page-head__kicker {
+.page-head__kicker,
+.page-intro__kicker {
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.16em;
@@ -763,58 +773,110 @@ button {
 }
 
 /* --- Liste du programme ----------------------------------------------- */
+/* Grille de cartes : les cinq axes pavent la largeur au lieu de s'empiler
+   en rangées pleines de blanc. Sur très grand écran, les cinq côte à côte. */
 .programme-list {
   list-style: none;
   padding: 0;
-  border-top: 1px solid var(--rule);
+  margin: 0;
+  display: grid;
+  gap: clamp(1rem, 2vw, 1.5rem);
 }
 
-.programme-item {
-  border-bottom: 1px solid var(--rule);
+@media (min-width: 44rem) {
+  .programme-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 68rem) {
+  .programme-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 90rem) {
+  .programme-list {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
 }
 
 .programme-item__link {
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  gap: clamp(1rem, 4vw, 2rem);
-  align-items: start;
-  padding: clamp(1.4rem, 4vw, 2rem) 0.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  height: 100%;
+  padding: clamp(1.25rem, 2.5vw, 1.75rem);
+  border: 1px solid var(--rule);
+  border-radius: 0.5rem;
+  background: var(--paper);
   text-decoration: none;
-  transition: padding-left 0.18s ease, background 0.18s ease;
+  transition: transform 0.18s ease, border-color 0.18s ease,
+    box-shadow 0.18s ease;
 }
 
 .programme-item__link:hover {
-  background: var(--paper-alt);
-  padding-left: 1rem;
+  transform: translateY(-4px);
+  border-color: var(--rouge);
+  box-shadow: 0 12px 28px rgb(0 0 0 / 0.09);
+}
+
+.programme-item__link:focus-visible {
+  outline: 3px solid var(--rouge);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .programme-item__link {
+    transition: border-color 0.18s ease;
+  }
+  .programme-item__link:hover {
+    transform: none;
+  }
 }
 
 .programme-item__num {
-  font-size: 0.78rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: var(--faint);
-  padding-top: 0.5rem;
+  letter-spacing: 0.14em;
+  color: var(--rouge);
   white-space: nowrap;
+}
+
+.programme-item__main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
 }
 
 .programme-item__title {
   display: block;
   font-family: var(--serif);
-  font-size: clamp(1.4rem, 3.5vw, 2rem);
+  font-size: clamp(1.3rem, 1.6vw, 1.6rem);
   font-weight: 500;
   letter-spacing: -0.01em;
-  margin-bottom: 0.4rem;
+  line-height: 1.2;
 }
 
 .programme-item__accroche {
   display: block;
   color: var(--muted);
-  max-width: 60ch;
+  font-size: 0.95rem;
+  line-height: 1.55;
 }
 
 .programme-item__chevron {
   font-size: 1.2rem;
-  align-self: center;
+  margin-top: auto;
+  align-self: flex-end;
+  color: var(--faint);
+  transition: transform 0.18s ease, color 0.18s ease;
+}
+
+.programme-item__link:hover .programme-item__chevron {
+  transform: translateX(4px);
+  color: var(--rouge);
 }
 
 .badge {
@@ -1129,6 +1191,12 @@ button {
   text-decoration: none;
   font-size: 0.85rem;
   transition: color 0.15s ease;
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
 }
 
 .site-footer__haut:hover {
@@ -2495,12 +2563,45 @@ body {
 .wizard {
   max-width: 46rem;
   margin: 1.5rem 0;
+  /* La page ne doit pas ressembler à une suite de liens jetés sous la barre :
+     le questionnaire vit dans une carte cadrée, clairement délimitée. */
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+  border: 1px solid var(--rule);
+  border-radius: 0.75rem;
+  background: var(--paper);
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.04), 0 8px 24px rgb(0 0 0 / 0.05);
 }
 
 .wizard__progression {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
   font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
   color: var(--muted);
-  margin: 0 0 0.75rem;
+  margin: 0 0 1.25rem;
+}
+
+.wizard__progression > span:last-child {
+  margin-left: 0.35rem;
+}
+
+.wizard__pas {
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  background: var(--rule-strong);
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.wizard__pas--fait {
+  background: var(--ink);
+}
+
+.wizard__pas--actuel {
+  background: var(--rouge);
+  transform: scale(1.25);
 }
 
 .wizard__etape {
@@ -2511,7 +2612,7 @@ body {
 
 .wizard__question {
   font-family: var(--serif);
-  font-size: 1.4rem;
+  font-size: clamp(1.4rem, 2vw, 1.7rem);
   line-height: 1.25;
   color: var(--ink);
   padding: 0;
@@ -2650,24 +2751,37 @@ body {
 
 /* Résultat */
 .participer__recap {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--muted);
+  margin-top: 1rem;
 }
 
 .participer__resultat {
-  max-width: 46rem;
+  max-width: 58rem;
+  margin-top: 1.5rem;
 }
 
 .participer__principale {
   display: block;
   position: relative;
-  padding: 1.4rem 3rem 1.4rem 1.4rem;
+  padding: clamp(1.4rem, 3vw, 2rem) 3.25rem clamp(1.4rem, 3vw, 2rem) 1.6rem;
   border: 2px solid var(--ink);
-  border-radius: var(--radius);
+  border-radius: 0.6rem;
   background: var(--ink);
   color: var(--paper);
   text-decoration: none;
-  transition: background 0.15s ease;
+  box-shadow: inset 4px 0 0 var(--rouge);
+  transition: background 0.15s ease, transform 0.18s ease;
+}
+
+.participer__principale:hover {
+  transform: translateY(-3px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .participer__principale:hover {
+    transform: none;
+  }
 }
 
 .participer__principale:hover {
@@ -2708,7 +2822,17 @@ body {
   margin: 0;
   padding: 0;
   display: grid;
-  gap: 0.5rem;
+  gap: 0.75rem;
+}
+
+@media (min-width: 48rem) {
+  .participer__secondaires {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .participer__secondaires > li {
+    display: grid;
+  }
 }
 
 .participer__secondaire {

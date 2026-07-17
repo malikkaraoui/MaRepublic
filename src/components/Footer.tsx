@@ -65,9 +65,13 @@ export default function Footer() {
             © {annee}, document de travail. On ne demande pas aux Français de
             nous croire, mais de nous juger sur pièces.
           </p>
-          <a className="site-footer__haut" href="#contenu">
+          <button
+            type="button"
+            className="site-footer__haut"
+            onClick={() => window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })}
+          >
             Haut de page <span aria-hidden="true">↑</span>
-          </a>
+          </button>
         </div>
       </div>
     </footer>

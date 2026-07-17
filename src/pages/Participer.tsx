@@ -28,16 +28,31 @@ const NIVEAUX: { cle: Niveau; titre: string }[] = [
   { cle: 'curieux', titre: 'Je découvre' },
 ]
 
-const MOTIVATIONS: { cle: Motivation; titre: string }[] = [
-  { cle: 'juger', titre: '✓ Juger, trancher' },
-  { cle: 'ameliorer', titre: '🔧 Repérer les failles' },
-  { cle: 'proposer', titre: '💡 Proposer, apporter mon terrain' },
-  { cle: 'diffuser', titre: '📣 Faire connaître' },
+const MOTIVATIONS: { cle: Motivation; titre: string; sous: string }[] = [
+  { cle: 'juger', titre: '✓ Juger, trancher', sous: 'Voter pour ou contre des mesures' },
+  { cle: 'ameliorer', titre: '🔧 Repérer les failles', sous: 'Pointer ce qui cloche dans une fiche' },
+  { cle: 'proposer', titre: '💡 Proposer', sous: 'Apporter votre expérience de terrain' },
+  { cle: 'diffuser', titre: '📣 Faire connaître', sous: 'Partager le débat autour de vous' },
 ]
 
-const libelleMotivation = (m: Motivation) => MOTIVATIONS.find((x) => x.cle === m)!.titre
-const libelleTemps = (t: Temps) => TEMPS.find((x) => x.cle === t)!.titre
-const libelleNiveau = (n: Niveau) => NIVEAUX.find((x) => x.cle === n)!.titre
+// Phrases du récapitulatif : trois fragments qui forment une vraie phrase
+// française, pas une énumération télégraphique.
+const PHRASE_NIVEAU: Record<Niveau, string> = {
+  expert: 'Vous connaissez bien',
+  concerne: 'Vous êtes concerné·e par',
+  curieux: 'Vous découvrez',
+}
+const PHRASE_TEMPS: Record<Temps, string> = {
+  rapide: 'vous avez cinq minutes',
+  approfondi: 'vous avez une demi-heure',
+  engage: 'vous êtes là pour durer',
+}
+const PHRASE_MOTIVATION: Record<Motivation, string> = {
+  juger: 'envie de trancher',
+  ameliorer: 'envie de repérer les failles',
+  proposer: 'envie de proposer votre terrain',
+  diffuser: 'envie de faire connaître le sujet',
+}
 
 // ─── Comptes de fiches par famille (dynamiques, jamais figés) ────────────────
 function comptesFamille(slug: string): { total: number; debat: number } {
@@ -77,25 +92,25 @@ function actionPourVerbe(verbe: Motivation, slug: string, temps: Temps): Action 
   switch (verbe) {
     case 'juger':
       return {
-        titre: `Voter sur ${cible} fiche${cible > 1 ? 's' : ''} ${nom}${enDebat ? ' en débat' : ''}`,
+        titre: `Voter sur ${cible} fiche${cible > 1 ? 's' : ''} « ${nom} »${enDebat ? ' en débat' : ''}`,
         sous: `Pour ou contre, chaque voix pèse dans le tri. ${dose}`,
         to,
       }
     case 'ameliorer':
       return {
-        titre: `Repérer les failles des fiches ${nom}`,
+        titre: `Repérer les failles des fiches « ${nom} »`,
         sous: `Pointez ce qui cloche, un commentaire fait avancer la fiche. ${dose}`,
         to,
       }
     case 'proposer':
       return {
-        titre: `Proposer une alternative sur ${nom}`,
+        titre: `Proposer une alternative sur « ${nom} »`,
         sous: `Votre terrain vaut mieux qu'une théorie : dites ce que vous feriez. ${dose}`,
         to,
       }
     case 'diffuser':
       return {
-        titre: `Faire connaître ${nom}`,
+        titre: `Faire connaître le sujet « ${nom} »`,
         sous: 'Un lien, un QR code, le partage en un geste : amenez du monde au débat.',
         to: `/partager?famille=${slug}`,
       }
@@ -137,15 +152,18 @@ function Resultat({
   return (
     <div className="page">
       <section className="page-intro">
+        <p className="page-intro__kicker">Participer</p>
+        <h1>Votre meilleure façon d'aider, maintenant</h1>
         <p className="participer__recap">
-          Vous : {libelleNiveau(profil.niveau).toLowerCase()} en{' '}
+          {PHRASE_NIVEAU[profil.niveau]}{' '}
           <strong>
             {fam?.emoji} {fam?.libelle}
           </strong>
-          , {libelleTemps(profil.temps).toLowerCase()}, envie de{' '}
-          {libelleMotivation(profil.motivation).toLowerCase().replace(/^[^ ]+ /, '')}.
+          , {PHRASE_TEMPS[profil.temps]}, {PHRASE_MOTIVATION[profil.motivation]}.
         </p>
-        <h1>Votre meilleure façon d'aider, maintenant</h1>
+        <button type="button" className="participer__recommencer" onClick={onRecommencer}>
+          Modifier mes réponses
+        </button>
       </section>
 
       <div className="participer__resultat">
@@ -185,10 +203,6 @@ function Resultat({
             </button>
           </div>
         )}
-
-        <button type="button" className="participer__recommencer" onClick={onRecommencer}>
-          Refaire le questionnaire
-        </button>
       </div>
     </div>
   )
@@ -252,15 +266,26 @@ export default function Participer() {
   return (
     <div className="page">
       <section className="page-intro">
-        <h1>Participer</h1>
+        <p className="page-intro__kicker">Participer</p>
+        <h1>Trente secondes pour trouver votre place</h1>
         <p>
-          Trois questions, trente secondes. On vous montre ensuite la façon d'aider
-          qui vous ressemble. Pas de compte, rien à installer.
+          Trois questions, puis l'action qui vous correspond, prête à faire.
+          Pas de compte, rien à installer, rien d'enregistré ailleurs que sur
+          votre appareil.
         </p>
       </section>
 
       <div className="wizard" aria-live="polite">
-        <p className="wizard__progression">Étape {etape + 1} sur 3</p>
+        <p className="wizard__progression">
+          {[0, 1, 2].map((i) => (
+            <span
+              key={i}
+              aria-hidden="true"
+              className={`wizard__pas${i < etape ? ' wizard__pas--fait' : ''}${i === etape ? ' wizard__pas--actuel' : ''}`}
+            />
+          ))}
+          <span>Étape {etape + 1} sur 3</span>
+        </p>
 
         {etape === 0 && (
           <fieldset className="wizard__etape">
@@ -344,6 +369,7 @@ export default function Participer() {
                   onClick={() => choisirMotivation(m.cle)}
                 >
                   <span className="wizard__option-titre">{m.titre}</span>
+                  <span className="wizard__option-sous">{m.sous}</span>
                 </button>
               ))}
             </div>
