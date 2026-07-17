@@ -17,9 +17,9 @@ import {
 
 // ─── Libellés des choix ──────────────────────────────────────────────────────
 const TEMPS: { cle: Temps; titre: string; sous: string }[] = [
-  { cle: 'rapide', titre: '⚡ 5 minutes', sous: 'Un geste rapide' },
-  { cle: 'approfondi', titre: '🔧 ~30 minutes', sous: 'De quoi creuser un sujet' },
-  { cle: 'engage', titre: '🌱 Sur la durée', sous: 'Un engagement suivi' },
+  { cle: 'rapide', titre: '5 minutes', sous: 'Un geste rapide' },
+  { cle: 'approfondi', titre: '~30 minutes', sous: 'De quoi creuser un sujet' },
+  { cle: 'engage', titre: 'Sur la durée', sous: 'Un engagement suivi' },
 ]
 
 const NIVEAUX: { cle: Niveau; titre: string }[] = [
@@ -29,10 +29,10 @@ const NIVEAUX: { cle: Niveau; titre: string }[] = [
 ]
 
 const MOTIVATIONS: { cle: Motivation; titre: string; sous: string }[] = [
-  { cle: 'juger', titre: '✓ Juger, trancher', sous: 'Voter pour ou contre des mesures' },
-  { cle: 'ameliorer', titre: '🔧 Repérer les failles', sous: 'Pointer ce qui cloche dans une fiche' },
-  { cle: 'proposer', titre: '💡 Proposer', sous: 'Apporter votre expérience de terrain' },
-  { cle: 'diffuser', titre: '📣 Faire connaître', sous: 'Partager le débat autour de vous' },
+  { cle: 'juger', titre: 'Juger, trancher', sous: 'Voter pour ou contre des mesures' },
+  { cle: 'ameliorer', titre: 'Repérer les failles', sous: 'Pointer ce qui cloche dans une fiche' },
+  { cle: 'proposer', titre: 'Proposer', sous: 'Apporter votre expérience de terrain' },
+  { cle: 'diffuser', titre: 'Faire connaître', sous: 'Partager le débat autour de vous' },
 ]
 
 // Phrases du récapitulatif : trois fragments qui forment une vraie phrase
@@ -155,11 +155,8 @@ function Resultat({
         <p className="page-intro__kicker">Participer</p>
         <h1>Votre meilleure façon d'aider, maintenant</h1>
         <p className="participer__recap">
-          {PHRASE_NIVEAU[profil.niveau]}{' '}
-          <strong>
-            {fam?.emoji} {fam?.libelle}
-          </strong>
-          , {PHRASE_TEMPS[profil.temps]}, {PHRASE_MOTIVATION[profil.motivation]}.
+          {PHRASE_NIVEAU[profil.niveau]} <strong>{fam?.libelle}</strong>,{' '}
+          {PHRASE_TEMPS[profil.temps]}, {PHRASE_MOTIVATION[profil.motivation]}.
         </p>
         <button type="button" className="participer__recommencer" onClick={onRecommencer}>
           <span aria-hidden="true">↺</span> Modifier mes réponses
@@ -190,7 +187,7 @@ function Resultat({
         {profil.temps === 'engage' && fam && (
           <div className="participer__atelier">
             <span>
-              🌱 Atelier {fam.libelle} — <em>bientôt</em>. Un espace pour travailler
+              Atelier {fam.libelle}, <em>bientôt</em> : un espace pour travailler
               le sujet à plusieurs, dans la durée.
             </span>
             <button
@@ -322,7 +319,7 @@ export default function Participer() {
                   onClick={() => setSlug(f.slug)}
                   aria-pressed={slug === f.slug}
                 >
-                  <span aria-hidden="true">{f.emoji}</span> {f.libelle}
+                  {f.libelle}
                 </button>
               ))}
             </div>

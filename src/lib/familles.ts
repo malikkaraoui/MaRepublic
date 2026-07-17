@@ -9,19 +9,18 @@
 export interface Famille {
   slug: string
   libelle: string
-  emoji: string
   /** Couleur d'accent (bandeau, titres) pour les images de partage et la refonte
-   *  digeste. Premier jet sobre, à affiner. */
+   *  digeste. Seul repère visuel : pas d'émoji dans l'interface (règle 17/07). */
   accent: string
 }
 
 export const FAMILLES: Famille[] = [
-  { slug: 'argent-public', libelle: 'Argent public', emoji: '💰', accent: '#8a6d1f' },
-  { slug: 'sante-social', libelle: 'Santé & social', emoji: '🏥', accent: '#0f6e6e' },
-  { slug: 'justice-securite', libelle: 'Justice & sécurité', emoji: '⚖️', accent: '#0a3d91' },
-  { slug: 'territoires-ecologie', libelle: 'Territoires & écologie', emoji: '🌿', accent: '#2f6b2f' },
-  { slug: 'democratie-institutions', libelle: 'Démocratie & institutions', emoji: '🏛️', accent: '#5a2a6b' },
-  { slug: 'travail-quotidien', libelle: 'Travail & quotidien', emoji: '🛠️', accent: '#45505c' },
+  { slug: 'argent-public', libelle: 'Argent public', accent: '#8a6d1f' },
+  { slug: 'sante-social', libelle: 'Santé & social', accent: '#0f6e6e' },
+  { slug: 'justice-securite', libelle: 'Justice & sécurité', accent: '#0a3d91' },
+  { slug: 'territoires-ecologie', libelle: 'Territoires & écologie', accent: '#2f6b2f' },
+  { slug: 'democratie-institutions', libelle: 'Démocratie & institutions', accent: '#5a2a6b' },
+  { slug: 'travail-quotidien', libelle: 'Travail & quotidien', accent: '#45505c' },
 ]
 
 const PAR_SLUG = new Map(FAMILLES.map((f) => [f.slug, f]))

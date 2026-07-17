@@ -96,7 +96,7 @@ function BandeauIdentite({ connecte }: { connecte: boolean }) {
       </div>
       {envoi === 'envoye' && !connecte && (
         <p className="identite__info" aria-live="polite">
-          📬 Lien envoyé ! Ouvrez l'email et cliquez le lien : vous serez
+          Lien envoyé ! Ouvrez l'email et cliquez le lien : vous serez
           connecté. Pensez à vérifier vos indésirables (spam), il s'y glisse
           parfois.
         </p>
@@ -298,7 +298,7 @@ function CarteFiche({
             onClick={() => setMode('commentaire')}
             title="Ajouter un commentaire"
           >
-            <span aria-hidden="true">💬</span> Commenter
+            Commenter
           </button>
           <button
             type="button"
@@ -306,7 +306,7 @@ function CarteFiche({
             onClick={() => setMode('alternative')}
             title="Proposer une alternative"
           >
-            <span aria-hidden="true">💡</span> Alternative
+            Alternative
           </button>
           <button
             type="button"
@@ -314,7 +314,7 @@ function CarteFiche({
             onClick={confierIA}
             title="Copier une mission à coller dans votre assistant IA (Claude, ChatGPT, Gemini...)"
           >
-            <span aria-hidden="true">🤖</span> {copie ? 'Mission copiée !' : 'Confier à mon IA'}
+            {copie ? 'Mission copiée !' : 'Confier à mon IA'}
           </button>
         </div>
       </div>
@@ -368,7 +368,7 @@ function CarteFiche({
         return (
           <div className="fiche__tendance">
             <p className="fiche__compteur">
-              🗳️ {total} votant{total > 1 ? 's' : ''}
+              {total} votant{total > 1 ? 's' : ''}
               {detail ? ` : ${detail}` : ''}
             </p>
             {exprimes > 0 && (
@@ -441,8 +441,8 @@ function CarteFiche({
         <ul className="fiche__commentaires">
           {reaction.commentaires.map((c, i) => (
             <li key={i} className={`commentaire commentaire--${c.type}`}>
-              <span className="commentaire__badge" aria-hidden="true">
-                {c.type === 'alternative' ? '💡' : '💬'}
+              <span className="commentaire__badge">
+                {c.type === 'alternative' ? 'Alternative' : 'Commentaire'}
               </span>
               <span className="commentaire__text">{c.texte}</span>
             </li>
@@ -529,7 +529,7 @@ function Sommaire() {
     <div className="sommaire">
       {nouveautes.length > 0 && (
         <section aria-labelledby="sommaire-nouveaute">
-          <h2 id="sommaire-nouveaute">🆕 Dernières mises à jour</h2>
+          <h2 id="sommaire-nouveaute">Dernières mises à jour</h2>
           <p className="sommaire__note">Les fiches retouchées sur le fond récemment, la plus récente en tête.</p>
           <div className="sommaire__grille">
             {nouveautes.map((f) => (
@@ -565,7 +565,7 @@ function Sommaire() {
             </div>
           ))}
           <div className="dash__tuile" role="listitem">
-            <span className="dash__nombre">🗳️ {compteurs?.totalVotes ?? '…'}</span>
+            <span className="dash__nombre">{compteurs?.totalVotes ?? '…'}</span>
             <span className="dash__libelle">
               vote{(compteurs?.totalVotes ?? 0) > 1 ? 's' : ''} exprimé
               {(compteurs?.totalVotes ?? 0) > 1 ? 's' : ''}
@@ -582,7 +582,7 @@ function Sommaire() {
       {famActive && (
         <div className="sommaire__filtre" role="status">
           <span>
-            Filtré sur <strong>{famActive.emoji} {famActive.libelle}</strong> :{' '}
+            Filtré sur <strong>{famActive.libelle}</strong> :{' '}
             {programme.length + problemes.length} sujet
             {programme.length + problemes.length > 1 ? 's' : ''}.
           </span>

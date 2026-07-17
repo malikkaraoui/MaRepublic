@@ -13,7 +13,7 @@ const RULE = '#e7e7e3'
 const HOTE = 'marepublique-2027.web.app'
 
 export interface DonneesImage {
-  famille: { libelle: string; emoji: string; accent: string }
+  famille: { libelle: string; accent: string }
   titre: string
   /** pour + pistes (accords) et contre (rejets). Si 0/0, on montre un appel. */
   accords: number
@@ -146,13 +146,10 @@ export async function genererImagePartage(d: DonneesImage): Promise<string> {
   // Pastille de statut (à droite)
   pastille(ctx, L - M, 106, d.statut, accent)
 
-  // Famille
-  ctx.font = "400 58px 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif"
-  ctx.fillText(d.famille.emoji, M, 316)
-  const wEmoji = ctx.measureText(d.famille.emoji).width
+  // Famille : le libellé en couleur d'accent, sans émoji (règle du 17/07)
   ctx.fillStyle = accent
   ctx.font = "700 34px Archivo, system-ui, sans-serif"
-  ctx.fillText(d.famille.libelle.toUpperCase(), M + wEmoji + 24, 308)
+  ctx.fillText(d.famille.libelle.toUpperCase(), M, 308)
 
   // Titre d'appel (max 3 lignes)
   ctx.fillStyle = INK

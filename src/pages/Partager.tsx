@@ -32,7 +32,7 @@ type Cible =
   | { type: 'fiche'; id: string }
 
 interface Affichage {
-  famille: { libelle: string; emoji: string; accent: string }
+  famille: { libelle: string; accent: string }
   titre: string
   exemples: string[]
   lien: string
@@ -96,7 +96,6 @@ export default function Partager() {
     type Entree = {
       cible: Cible
       libelle: string
-      emoji: string
       sous: string
       texte: string
       rang: number
@@ -106,7 +105,6 @@ export default function Partager() {
       catalogue.push({
         cible: { type: 'famille', slug: fam.slug },
         libelle: fam.libelle,
-        emoji: fam.emoji,
         sous: 'Famille',
         texte: normaliser(fam.libelle),
         rang: 0,
@@ -118,7 +116,6 @@ export default function Partager() {
       catalogue.push({
         cible: { type: 'onglet', numero: axe.numero },
         libelle: axe.theme,
-        emoji: fam?.emoji ?? '📄',
         sous: `Sujet · ${fam?.libelle ?? ''}`,
         texte: normaliser(`${axe.theme} ${fam?.libelle ?? ''}`),
         rang: 1,
@@ -128,7 +125,6 @@ export default function Partager() {
         catalogue.push({
           cible: { type: 'fiche', id: f.id },
           libelle: f.titre,
-          emoji: fam?.emoji ?? '📄',
           sous: `Fiche · ${axe.theme}`,
           texte: normaliser(`${f.titre} ${f.code} ${axe.theme}`),
           rang: 2,
@@ -190,7 +186,7 @@ export default function Partager() {
           if (exemples.length >= 3) break
         }
         return {
-          famille: { libelle: f.libelle, emoji: f.emoji, accent: f.accent },
+          famille: { libelle: f.libelle, accent: f.accent },
           titre: `${f.libelle} : ${n} mesures en débat ouvert`,
           exemples,
           lien: `${ORIGINE}/chantier?famille=${f.slug}`,
@@ -204,7 +200,7 @@ export default function Partager() {
       if (axe && f) {
         const n = axe.fiches.length
         return {
-          famille: { libelle: f.libelle, emoji: f.emoji, accent: f.accent },
+          famille: { libelle: f.libelle, accent: f.accent },
           titre: `${axe.theme} : ${n} ${n > 1 ? 'mesures' : 'mesure'} en débat`,
           exemples: axe.fiches.slice(0, 3).map((fi) => fi.titre),
           lien: `${ORIGINE}/chantier/${slugDeNumero(cible.numero)}`,
@@ -217,7 +213,7 @@ export default function Partager() {
       const f = e ? familleParSlug(familleDeOnglet(e.axe.numero)) : undefined
       if (e && f) {
         return {
-          famille: { libelle: e.axe.theme, emoji: f.emoji, accent: f.accent },
+          famille: { libelle: e.axe.theme, accent: f.accent },
           titre: e.fiche.titre,
           exemples: [],
           lien: `${ORIGINE}/chantier/${slugDeNumero(e.axe.numero)}#${e.fiche.id}`,
@@ -227,7 +223,7 @@ export default function Partager() {
     }
     // Défaut : tout le site.
     return {
-      famille: { libelle: 'Le débat', emoji: '🇫🇷', accent: '#0a3d91' },
+      famille: { libelle: 'Le débat', accent: '#0a3d91' },
       titre: 'Le programme en débat ouvert, mesure par mesure',
       exemples: [],
       lien: `${ORIGINE}/`,
@@ -243,20 +239,18 @@ export default function Partager() {
   const etiquette = useMemo(() => {
     switch (cible.type) {
       case 'site':
-        return { emoji: '🇫🇷', texte: 'Tout le site', tag: 'Général' }
+        return { texte: 'Tout le site', tag: 'Général' }
       case 'famille': {
         const f = familleParSlug(cible.slug)
-        return { emoji: f?.emoji ?? '', texte: f?.libelle ?? '', tag: 'Famille' }
+        return { texte: f?.libelle ?? '', tag: 'Famille' }
       }
       case 'onglet': {
         const a = ongletParNumero.get(cible.numero)
-        const f = familleParSlug(familleDeOnglet(cible.numero))
-        return { emoji: f?.emoji ?? '', texte: a?.theme ?? '', tag: 'Sujet' }
+        return { texte: a?.theme ?? '', tag: 'Sujet' }
       }
       case 'fiche': {
         const e = ficheParId.get(cible.id)
-        const f = e ? familleParSlug(familleDeOnglet(e.axe.numero)) : undefined
-        return { emoji: f?.emoji ?? '', texte: e?.fiche.titre ?? '', tag: 'Fiche' }
+        return { texte: e?.fiche.titre ?? '', tag: 'Fiche' }
       }
     }
   }, [cible, ongletParNumero, ficheParId])
@@ -435,9 +429,6 @@ export default function Partager() {
               {resultats.map((e, i) => (
                 <li key={`${e.cible.type}-${i}`}>
                   <button type="button" className="partage__resultat" onClick={() => choisir(e.cible)}>
-                    <span className="partage__resultat-emoji" aria-hidden="true">
-                      {e.emoji}
-                    </span>
                     <span className="partage__resultat-corps">
                       <span className="partage__resultat-titre">{e.libelle}</span>
                       <span className="partage__resultat-sous">{e.sous}</span>
@@ -460,7 +451,7 @@ export default function Partager() {
                 className={`partage__chip${cible.type === 'site' ? ' partage__chip--actif' : ''}`}
                 onClick={() => choisir({ type: 'site' })}
               >
-                🇫🇷 Tout le site
+                Tout le site
               </button>
               {FAMILLES.map((f) => (
                 <button
@@ -471,7 +462,7 @@ export default function Partager() {
                   }`}
                   onClick={() => choisir({ type: 'famille', slug: f.slug })}
                 >
-                  {f.emoji} {f.libelle}
+                  {f.libelle}
                 </button>
               ))}
             </div>
@@ -496,9 +487,7 @@ export default function Partager() {
 
           <p className="partage__active">
             Carte actuelle :{' '}
-            <strong>
-              {etiquette.emoji} {etiquette.texte}
-            </strong>{' '}
+            <strong>{etiquette.texte}</strong>{' '}
             <span className="partage__active-tag">{etiquette.tag}</span>
           </p>
         </div>
@@ -529,7 +518,7 @@ export default function Partager() {
           <div className="partage__actions-image">
             {partageFichiersDispo && (
               <button type="button" className="partage__story" onClick={partagerImage} disabled={!image}>
-                📲 Mettre dans ma story
+                Mettre dans ma story
               </button>
             )}
             <button type="button" className="partage__copier" onClick={telechargerImage} disabled={!image}>
@@ -571,7 +560,7 @@ export default function Partager() {
 
           {partageFichiersDispo && (
             <button type="button" className="partage__natif" onClick={partageNatif}>
-              📤 Partager le lien…
+              Partager le lien…
             </button>
           )}
 
