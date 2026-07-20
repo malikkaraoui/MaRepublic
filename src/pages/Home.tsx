@@ -4,11 +4,42 @@
 // négociables → les cinq axes → méthode (les trois phases). Tout renvoie
 // vers le document fondateur ou les pages d'axes pour le détail.
 
+import { useLayoutEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { RoughNotation } from 'react-rough-notation'
 import Reveal from '../components/Reveal'
 import { axes } from '../data/axes'
 import { axesFiches } from '../lib/fiches'
+import { gsap } from '../lib/gsap'
+import BlurText from '../components/reactbits/BlurText'
+
+// Titre de section : chaque mot se défloute en entrant dans le champ de
+// vision (react-bits BlurText, réglé discret). Texte simplement posé avec
+// prefers-reduced-motion.
+function TitreSection({ texte }: { texte: string }) {
+  const reduit =
+    typeof window !== 'undefined' &&
+    window.matchMedia('(prefers-reduced-motion: reduce)').matches
+  return (
+    <h2 className="section__title">
+      {reduit ? (
+        texte
+      ) : (
+        <BlurText
+          text={texte}
+          animateBy="words"
+          delay={45}
+          stepDuration={0.28}
+          animationFrom={{ filter: 'blur(8px)', opacity: 0, y: -12 }}
+          animationTo={[
+            { filter: 'blur(4px)', opacity: 0.6, y: 3 },
+            { filter: 'blur(0px)', opacity: 1, y: 0 },
+          ]}
+        />
+      )}
+    </h2>
+  )
+}
 
 const nombreFiches = axesFiches.reduce((n, a) => n + a.fiches.length, 0)
 
@@ -67,9 +98,27 @@ const phases = [
 ]
 
 export default function Home() {
+  const heroRef = useRef<HTMLElement>(null)
+
+  // Entrée du hero : une seule séquence orchestrée (accroche, les trois
+  // lignes du titre, le texte, les boutons, la signature), courte et sobre.
+  // Rien n'est créé avec prefers-reduced-motion : tout reste simplement posé.
+  useLayoutEffect(() => {
+    const mm = gsap.matchMedia(heroRef)
+    mm.add('(prefers-reduced-motion: no-preference)', () => {
+      const tl = gsap.timeline({ defaults: { ease: 'power3.out', duration: 0.9 } })
+      tl.from('.hero__eyebrow', { y: 18, autoAlpha: 0, duration: 0.6 })
+        .from('.hero__ligne', { y: 34, autoAlpha: 0, stagger: 0.14 }, '-=0.25')
+        .from('.hero__lede', { y: 22, autoAlpha: 0, duration: 0.7 }, '-=0.5')
+        .from('.hero__actions > *', { y: 16, autoAlpha: 0, duration: 0.5, stagger: 0.08 }, '-=0.4')
+        .from('.hero__signature', { autoAlpha: 0, duration: 0.6 }, '-=0.25')
+    })
+    return () => mm.revert()
+  }, [])
+
   return (
     <>
-      <section className="hero">
+      <section className="hero" ref={heroRef}>
         <div className="hero__bg" aria-hidden="true" />
         <div className="hero__scrim" aria-hidden="true" />
         <div className="container">
@@ -89,12 +138,16 @@ export default function Home() {
             sans étiquette
           </p>
           <h1 className="hero__title">
-            Nous avons <span className="hero__verb">assez attendu</span>.
-            <br />
-            Nous avons <span className="hero__verb">trop fait confiance</span>.
-            <br />
-            Ce n'est plus un choix, c'est notre{' '}
-            <span className="hero__verb">survie</span>.
+            <span className="hero__ligne">
+              Nous avons <span className="hero__verb">assez attendu</span>.
+            </span>
+            <span className="hero__ligne">
+              Nous avons <span className="hero__verb">trop fait confiance</span>.
+            </span>
+            <span className="hero__ligne">
+              Ce n'est plus un choix, c'est notre{' '}
+              <span className="hero__verb">survie</span>.
+            </span>
           </h1>
           <p className="hero__lede">
             Le fossé se creuse, l'incompréhension devient une prison. On ne
@@ -122,9 +175,7 @@ export default function Home() {
         <div className="container">
           <header className="section__head">
             <p className="section__kicker">Appel à la population</p>
-            <h2 className="section__title">
-              Ce mouvement ne s'écrit pas pour vous. Il s'écrit avec vous.
-            </h2>
+            <TitreSection texte="Ce mouvement ne s'écrit pas pour vous. Il s'écrit avec vous." />
             <p className="section__intro">
               {nombreFiches} fiches sont ouvertes au débat : des problèmes réels, des
               solutions qui existent ailleurs. Aucune n'est figée tant que vous
@@ -192,10 +243,7 @@ export default function Home() {
         <div className="container">
           <header className="section__head">
             <p className="section__kicker">Nos principes non négociables</p>
-            <h2 className="section__title">
-              Pas de valeurs abstraites. Des règles de fonctionnement
-              contrôlables.
-            </h2>
+            <TitreSection texte="Pas de valeurs abstraites. Des règles de fonctionnement contrôlables." />
           </header>
           <div className="grid grid--principes">
             {principes.map((p) => (
@@ -212,7 +260,7 @@ export default function Home() {
         <div className="container">
           <header className="section__head">
             <p className="section__kicker">Ce que nous proposons</p>
-            <h2 className="section__title">Cinq axes de travail concrets</h2>
+            <TitreSection texte="Cinq axes de travail concrets" />
             <p className="section__intro">
               Chaque axe fera l'objet d'un document détaillé avec chiffrage,
               calendrier et indicateurs de suivi. Une direction, pas une
@@ -244,9 +292,7 @@ export default function Home() {
         <div className="container">
           <header className="section__head">
             <p className="section__kicker">Méthode</p>
-            <h2 className="section__title">
-              On identifie, on propose, on teste, on mesure, on ajuste.
-            </h2>
+            <TitreSection texte="On identifie, on propose, on teste, on mesure, on ajuste." />
             <p className="section__intro">
               Pas de plan sur trente ans. Un fonctionnement itératif, prouvé
               localement avant d'être généralisé.
@@ -268,9 +314,7 @@ export default function Home() {
         <div className="container">
           <header className="section__head">
             <p className="section__kicker">Transparence : pourquoi maintenant</p>
-            <h2 className="section__title">
-              Ce mouvement est possible aujourd'hui. Il ne l'était pas hier.
-            </h2>
+            <TitreSection texte="Ce mouvement est possible aujourd'hui. Il ne l'était pas hier." />
           </header>
           <div className="prose prose--methode">
             <p>

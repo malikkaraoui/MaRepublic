@@ -4,8 +4,9 @@
 // la réaction citoyenne : pouce haut/bas, commentaire, contre-proposition.
 // Rien ici n'est une position figée du mouvement : c'est la matière à débat.
 
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
+import { gsap } from '../lib/gsap'
 import Markdown from '../components/Markdown'
 import {
   axesFiches,
@@ -20,6 +21,35 @@ import { identiteCourante, useIdentite } from '../lib/identite'
 import { familleDeOnglet, famille as familleParSlug } from '../lib/familles'
 import { envoyerAvis } from '../lib/avis'
 import { envoyerLien, seDeconnecter, useUtilisateur } from '../lib/auth'
+
+// Compteur du tableau de bord : le nombre monte jusqu'à sa valeur quand la
+// tuile entre dans le champ de vision (une fois, sobre). Avec
+// prefers-reduced-motion, le nombre est simplement affiché.
+function NombreAnime({ valeur }: { valeur: number }) {
+  const ref = useRef<HTMLSpanElement>(null)
+
+  useLayoutEffect(() => {
+    const el = ref.current
+    if (!el) return
+    const mm = gsap.matchMedia()
+    mm.add('(prefers-reduced-motion: no-preference)', () => {
+      const compteur = { n: 0 }
+      gsap.to(compteur, {
+        n: valeur,
+        duration: 1.1,
+        ease: 'power2.out',
+        snap: { n: 1 },
+        onUpdate: () => {
+          el.textContent = compteur.n.toLocaleString('fr-FR')
+        },
+        scrollTrigger: { trigger: el, start: 'top 92%', once: true },
+      })
+    })
+    return () => mm.revert()
+  }, [valeur])
+
+  return <span ref={ref}>{valeur.toLocaleString('fr-FR')}</span>
+}
 
 // Bandeau d'identité : pseudo + email exigés avant toute réaction.
 // Saisis une fois, conservés sur l'appareil ; l'email n'est jamais affiché
@@ -552,20 +582,22 @@ function Sommaire() {
         <h2 id="sommaire-dash">Où en est le chantier</h2>
         <div className="dash" role="list">
           <div className="dash__tuile" role="listitem">
-            <span className="dash__nombre">{total}</span>
+            <span className="dash__nombre"><NombreAnime valeur={total} /></span>
             <span className="dash__libelle">fiches au total</span>
           </div>
           {STATUTS_UI.map((s) => (
             <div key={s.cle} className="dash__tuile" role="listitem">
               <span className="dash__nombre">
                 <span className={`dash__point dash__point--${s.cle}`} aria-hidden="true" />
-                {global[s.cle]}
+                <NombreAnime valeur={global[s.cle]} />
               </span>
               <span className="dash__libelle">{s.libelle}</span>
             </div>
           ))}
           <div className="dash__tuile" role="listitem">
-            <span className="dash__nombre">{compteurs?.totalVotes ?? '…'}</span>
+            <span className="dash__nombre">
+              {compteurs ? <NombreAnime valeur={compteurs.totalVotes} /> : '…'}
+            </span>
             <span className="dash__libelle">
               vote{(compteurs?.totalVotes ?? 0) > 1 ? 's' : ''} exprimé
               {(compteurs?.totalVotes ?? 0) > 1 ? 's' : ''}

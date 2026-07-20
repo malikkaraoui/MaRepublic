@@ -1,9 +1,12 @@
-// Révèle son contenu quand il entre dans le champ de vision (scroll), avec un
-// délai optionnel pour un effet de cascade d'un élément à l'autre. Repli
-// immédiat si IntersectionObserver est indisponible ; l'animation est neutralisée
-// par prefers-reduced-motion (voir .reveal dans global.css).
+// Révèle son contenu quand il entre dans le champ de vision, avec un délai
+// optionnel pour un effet de cascade d'un élément à l'autre.
+//
+// L'animation est portée par GSAP + ScrollTrigger (translation + fondu,
+// une seule fois). Avec prefers-reduced-motion, aucune animation n'est créée
+// et le contenu reste simplement visible.
 
-import { useEffect, useRef, useState, type ReactNode } from 'react'
+import { useLayoutEffect, useRef, type ReactNode } from 'react'
+import { gsap } from '../lib/gsap'
 
 export default function Reveal({
   children,
@@ -13,36 +16,31 @@ export default function Reveal({
   delay?: number
 }) {
   const ref = useRef<HTMLDivElement>(null)
-  const [visible, setVisible] = useState(false)
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const el = ref.current
     if (!el) return
-    if (typeof IntersectionObserver === 'undefined') {
-      setVisible(true)
-      return
-    }
-    const obs = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setVisible(true)
-            obs.disconnect()
-          }
-        })
-      },
-      { threshold: 0.15, rootMargin: '0px 0px -8% 0px' },
-    )
-    obs.observe(el)
-    return () => obs.disconnect()
-  }, [])
+    const mm = gsap.matchMedia()
+    mm.add('(prefers-reduced-motion: no-preference)', () => {
+      gsap.fromTo(
+        el,
+        { y: 26, autoAlpha: 0 },
+        {
+          y: 0,
+          autoAlpha: 1,
+          duration: 0.7,
+          delay: delay / 1000,
+          ease: 'power3.out',
+          clearProps: 'transform,visibility',
+          scrollTrigger: { trigger: el, start: 'top 88%', once: true },
+        },
+      )
+    })
+    return () => mm.revert()
+  }, [delay])
 
   return (
-    <div
-      ref={ref}
-      className={`reveal${visible ? ' reveal--in' : ''}`}
-      style={{ transitionDelay: `${delay}ms` }}
-    >
+    <div ref={ref} className="reveal">
       {children}
     </div>
   )
